@@ -1,0 +1,47 @@
+GameEntity : "{69081AB88E0C7FFD}Prefabs/Characters/HeadGear/Helmet_LShZ/Helmet_LShZ_HC_base.et" {
+ ID "50D485E1435D6C72"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{52C8D601873E6784}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_LShZ_3_mod3_3m_emr_Name"
+     Description "#RHS-Headgear_LShZ_3_mod2_3m_Description"
+    }
+   }
+  }
+  RHS_ClothNodeStorageComponent "{5DB13C5777E6E695}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{5DB13C5760610D64}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_LShZ_3_mod3_3m_emr_Name"
+     Description "#RHS-Headgear_LShZ_3_mod2_3m_Description"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Goggles {
+     Prefab "{E2AEE09BA445A688}Prefabs/Characters/Eyewear/npp_kondor/Eyewear_npp_kondor.et"
+    }
+    LoadoutSlotInfo MeshCover {
+     Prefab "{40ED520CE1154848}Prefabs/Characters/HeadGear/Helmet_LShZ/Balaclava_LShZ_black.et"
+    }
+    LoadoutSlotInfo BackVelcro {
+     Prefab "{F58C969DD33AD33B}Prefabs/Characters/HeadGear/Helmet_LShZ/LShZ_attachment.et"
+    }
+    LoadoutSlotInfo Headset {
+     Enabled 0
+     Prefab ""
+    }
+   }
+   WornModel "{9BBF445760A994D5}Assets/Characters/HeadGear/Helmet_LShZ/rhs_lshz_1plus_mod3_P3M.xob"
+   WornMaterialsOverride {
+    "{BE27ACDBD3609CA5}Assets/Characters/HeadGear/Helmet_LShZ/data/lshz_1plus_mod2_emr.emat"
+   }
+   ItemModel "{2AA9FD0B7C4A603D}Assets/Characters/HeadGear/Helmet_LShZ/rhs_lshz_1plus_mod3_P3M_item.xob"
+   ItemMaterialsOverride {
+    "{BE27ACDBD3609CA5}Assets/Characters/HeadGear/Helmet_LShZ/data/lshz_1plus_mod2_emr.emat"
+   }
+  }
+ }
+}

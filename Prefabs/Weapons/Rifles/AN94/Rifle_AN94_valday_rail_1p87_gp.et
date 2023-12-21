@@ -1,0 +1,19 @@
+GenericEntity : "{1F7DBA363FEF8DC6}Prefabs/Weapons/Rifles/AN94/Rifle_AN94_valday_rail_1p87.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5965262567A155DD}" {
+     AttachmentSlot InventoryStorageSlot underbarrel {
+      Prefab "{1ABABE3551512B0A}Prefabs/Weapons/Attachments/Underbarrel/UGL_GP25.et"
+     }
+    }
+    AttachmentSlotComponent "{5E9CA21A663CD86B}" {
+     AttachmentSlot InventoryStorageSlot butt {
+      Prefab "{D901305DD97960AD}Prefabs/Weapons/Attachments/Misc/AkGpButtPad/akGPbutt.et"
+     }
+    }
+   }
+  }
+ }
+}

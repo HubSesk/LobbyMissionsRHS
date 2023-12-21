@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{6C7D6CA1841D359A}Prefabs/Characters/Uniforms/Jacket_Pilot_USSR_01/KOJAK.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

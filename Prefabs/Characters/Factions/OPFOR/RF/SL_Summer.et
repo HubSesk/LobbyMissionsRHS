@@ -1,0 +1,89 @@
+SCR_ChimeraCharacter : "{3B167AFE3D75631C}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{BCEA0EB0D764D8DD}Prefabs/Items/Equipment/Binoculars/Rangefinder_PDU4.et"
+      }
+     }
+    }
+   }
+  }
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_name "Командир"
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{1259B8F6F6332F29}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_npz_rail_gp_1p90.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{3819F57844DEF3FC}Prefabs/Characters/HeadGear/Helmet_LShZ/Helmet_LShZ_HC_3M_emr_full.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{BB68DC18E1C571D8}Prefabs/Characters/Uniforms/VKPO/Undershirt_VKPO.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{0D352BB94324497C}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45_folded_collar_srachnik.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{8EF93CC5575CFD4B}Prefabs/Characters/Uniforms/VKPO/Field_Pants_VKPO.et"
+    }
+    LoadoutSlotInfo Back {
+     Enabled 1
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{E711752AC6D2123D}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratnik_6B45_officer_GL.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{597D24F89042474A}" {
+     TargetStorage "Prefabs/Characters/Uniforms/VKPO/Field_Pants_VKPO.et"
+     PrefabsToSpawn {
+      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5D487DFF08C5F460}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45_folded_collar_srachnik.et"
+    }
+    ItemsInitConfigurationItem "{5EA287E11A3D09CF}" {
+     TargetStorage ""
+     TargetPurpose 64
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{5EA4980D427B6964}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_type1.et"
+    }
+    ItemsInitConfigurationItem "{5DF8AE2F766AA32B}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_type1.et"
+    }
+    ItemsInitConfigurationItem "{5F0D157E93CE9BEC}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Ratnik_Pouches/Pouch_Ratnik_vog_pouches.et"
+     PrefabsToSpawn {
+      "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5F0D157FDD969B06}" {
+     TargetStorage "Prefabs/Characters/Uniforms/VKPO/Field_Pants_VKPO.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD.et"
+     }
+    }
+   }
+  }
+ }
+ coords 7416.813 162.95 4307.676
+}

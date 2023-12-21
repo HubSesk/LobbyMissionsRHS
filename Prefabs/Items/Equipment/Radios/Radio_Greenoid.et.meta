@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{D631310B450B62E5}Prefabs/Items/Equipment/Radios/Radio_Greenoid.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

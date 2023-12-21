@@ -1,0 +1,57 @@
+GenericEntity : "{3DE0155EC9767B98}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok.et" {
+ coords 9736.844 10.564 1516.874
+}
+GenericEntity : "{5995414BD20D4290}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_B51_1p87.et" {
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5DA8E03749BFAE5C}" {
+     AttachmentSlot InventoryStorageSlot rail1913 {
+      Prefab "{7DB681643152613C}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS.et"
+     }
+    }
+   }
+  }
+ }
+ coords 9736.92 10.918 1516.561
+ angleX 64.767
+ angleY 86.514
+}
+$grp GenericEntity : "{CC5453CCC311603B}Prefabs/Props/Military/Sandbags/Sandbag_01_end_burlap.et" {
+ {
+  coords 9737.492 11.401 1515.34
+  angleY 88.803
+ }
+ {
+  coords 9737.567 11.381 1518.009
+  angleY -93.438
+ }
+}
+$grp GenericEntity : "{E105D2F87098E1D8}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_LoiterPoint.et" {
+ {
+  coords 9736.468 10.573 1518.729
+  angleY -173.57
+ }
+ {
+  coords 9739.124 10.569 1520.278
+  angleY -169.282
+ }
+ {
+  coords 9737.292 10.573 1522.103
+  angleY 80.625
+ }
+}
+$grp GenericEntity : "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" {
+ {
+  coords 9736.437 10.684 1515.915
+ }
+ {
+  coords 9736.548 10.684 1516.053
+ }
+ {
+  coords 9736.16 10.684 1516.52
+ }
+ {
+  coords 9736.629 10.684 1516.257
+ }
+}

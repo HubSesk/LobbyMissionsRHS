@@ -1,0 +1,11 @@
+GameEntity : "{604BB72BE8E023C2}Prefabs/Characters/Uniforms/Pants_US_BDU.et" {
+ ID "521AC0438899D203"
+ components {
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornModel "{F3675A241847B157}Assets/Characters/Uniforms/Pants_BDU_M81/Pants_BDU_M81.xob"
+   WornMaterialsOverride {
+    "{AF4700B5C4583FC2}Assets/Characters/Uniforms/Pants_BDU_M81/Data/BlackoPanto.emat"
+   }
+  }
+ }
+}

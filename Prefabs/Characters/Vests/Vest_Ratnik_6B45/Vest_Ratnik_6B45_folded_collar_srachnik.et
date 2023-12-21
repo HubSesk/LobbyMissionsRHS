@@ -1,0 +1,15 @@
+GenericEntity : "{13AD1A501F820288}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Attachment_Butpad {
+     Prefab "{E3440CF34DC399B0}Prefabs/Items/Equipment/Backpacks/TouristSeat.et"
+    }
+    LoadoutSlotInfo Neck {
+     Prefab "{0BEFE710EAF29C12}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45_neck_armor_folded.et"
+    }
+   }
+  }
+ }
+}

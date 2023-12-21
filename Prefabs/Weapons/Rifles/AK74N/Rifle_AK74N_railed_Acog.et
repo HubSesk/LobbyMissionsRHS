@@ -1,0 +1,14 @@
+GenericEntity : "{662A2CAF5AC49AF4}Prefabs/Weapons/Rifles/AK74N/Rifle_AK74N_railed.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{596B79D9E9E4490D}" {
+     AttachmentSlot InventoryStorageSlot lastohvost {
+      Prefab "{50475BC9E6A7ABD0}Prefabs/Weapons/Attachments/Optics/ta31rco/Optic_TA31RCO_army.et"
+     }
+    }
+   }
+  }
+ }
+}

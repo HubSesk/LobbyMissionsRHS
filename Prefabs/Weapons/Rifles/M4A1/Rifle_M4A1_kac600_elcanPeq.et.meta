@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{EC5C256DEDBA9E5E}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_kac600_elcanPeq.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

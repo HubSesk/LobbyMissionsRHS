@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{58E7D1933FC6A56E}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_Team_LAT_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

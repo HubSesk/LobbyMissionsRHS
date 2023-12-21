@@ -1,0 +1,80 @@
+GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et" {
+ ID "59EC9890DE0228CB"
+ components {
+  MeshObject "{5968D9C73C08706E}" {
+   Object "{FBCA82F53CC2B61D}Assets/cats/maxwell/maxwell.xob"
+  }
+  SCR_MineDamageManager "{5A187C4DB2CF86F2}" {
+   "Additional hit zones" {
+    SCR_MineHitZone Main {
+     IgnoreExplosions 1
+     MaxHealth 50000
+     DamageReduction 50
+    }
+   }
+   EnableDamage 0
+  }
+  SCR_MineInventoryItemComponent "{59E4E694B93DC656}" {
+   Attributes SCR_ItemAttributeCollection "{5A10B8E3F1D55606}" {
+    ItemDisplayName WeaponUIInfo "{5A10B8E3F31D239B}" {
+     Name "Dingus"
+     Description "Cute cat"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5A10B8E3E50A16D2}" {
+     Weight 4.2
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5A12A52945DC707E}" {
+      CameraOrbitAngles 0 225 0
+      CameraDistanceToItem 0.35
+      CameraOffset 0 0 0
+     }
+     HolsteredItemAttributes "{5A4CB6479A034F43}" {
+      HiddenHolstered 1
+     }
+    }
+   }
+  }
+  SCR_PlaceableItemComponent "{5A127CDA1D1B58E6}" {
+   Enabled 0
+  }
+  SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+   Enabled 0
+  }
+  SCR_MineWeaponComponent "{59F2DC2C202D1AFB}" {
+   UIInfo GrenadeUIInfo "{5CDCD73FE938D67D}" {
+    Name "Dingus"
+    Description "Cute cat"
+    m_bShowWeaponName 0
+    m_MagIndicator SCR_MagazineIndicatorConfiguration "{5CDCD73FF80278AD}" {
+     m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+     m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+     m_sOutline "animals"
+    }
+    m_sAmmoType "Dingus"
+    m_eAmmoTypeFlags 0
+   }
+  }
+  ActionsManagerComponent "{59E4E6938E65C2ED}" {
+   additionalActions {
+    SCR_MinePickUpItemAction "{59E4E69368FB23DB}" {
+     ParentContextList {
+     }
+    }
+    SCR_MineEquipWeaponAction "{59E4E69349194C2B}" {
+     UIInfo UIInfo "{59E4E6934E3F3C43}" {
+      Name "#AR-Inventory_Pickup"
+     }
+    }
+    SCR_ActivateMineUserAction "{59F2823F52BEB01F}" {
+     ParentContextList {
+     }
+    }
+    SCR_MineAddFlagAction "{5A08900C4003096E}" {
+     ParentContextList {
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,27 @@
+SCR_AIGroup : "{126BE8C46FA39581}Prefabs/Groups/INDFOR/Group_FIA_FireTeam_P.et" {
+ coords 9735.397 10.564 1517.443
+ angleY 90
+ m_aUnitPrefabSlots {
+  "{467FE8A4AAADE8AA}FIA/Gogi_Buyniy.et" "{17BDE76DF1C15054}FIA/Stepan_Sipliy.et" "{1E28752C9A4AE867}FIA/Vanya_Ebaka.et" "{7FDDAEF668F8072F}FIA/Yarik_Toshniy.et" "{52D2D4CFC0D79A9E}FIA/Adidas.et"
+ }
+}
+GenericEntity : "{61980E6F3CA71107}Prefabs/Weapons/Explosives/Mine_TM62M/Dingus.et" {
+ coords 9733.968 11.022 1515.326
+ angleY -71.78
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 9736.429 12.793 1517.141
+ m_fWarnRadius 10
+ m_fZoneRadius 20
+ m_fZoneTeleportedRadius 30
+ {
+  GenericEntity {
+   ID "59D673B36B893D84"
+   components {
+    SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+     m_fRadius 10
+    }
+   }
+  }
+ }
+}

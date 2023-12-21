@@ -1,0 +1,21 @@
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 11192.73 9.286 1638.528
+  m_fWarnRadius 95
+  m_fZoneRadius 110
+  m_fZoneTeleportedRadius 120
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fRadius 95
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 7448.608 165.062 4312.129
+ }
+}

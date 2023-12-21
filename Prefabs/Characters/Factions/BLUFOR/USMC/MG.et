@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{61FB02B0DFF3027E}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_AR_M249.et" {
+ ID "520EC961A090BBD5"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{FB73E07880D24DCE}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH_Cov_MarpatWD_peltor.et"
+    }
+   }
+  }
+ }
+ coords 11168.228 7.153 1629.101
+ angleY -47.178
+}

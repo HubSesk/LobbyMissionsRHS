@@ -1,0 +1,105 @@
+$grp GenericEntity : "{3568138FF7A659A1}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/AmmoBoxArsenal_Equipment_US_Apparel.et" {
+ box {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Object "{56B55CB0378598D5}Assets/Props/Military/AmmoBox/EquipmentBoxStack/EquipmentBoxStack_01_V6.xob"
+   }
+   SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+    Enabled 0
+   }
+   SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+    Enabled 0
+   }
+   SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+    Enabled 0
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5F29491536BBB2C7}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{A95C4BA303CCB6F3}Prefabs/Items/Stuff/SecretDocuments.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+   UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5F294915F6461DD1}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{A95C4BA303CCB6F3}Prefabs/Items/Stuff/SecretDocuments.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+   SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+    Enabled 0
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    additionalActions {
+     SCR_OpenStorageAction "{5476DE57AA50402F}" {
+     }
+    }
+   }
+  }
+  coords 4348.878 2.938 9044.076
+  angleY -90
+ }
+ box2 {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Object "{56B55CB0378598D5}Assets/Props/Military/AmmoBox/EquipmentBoxStack/EquipmentBoxStack_01_V6.xob"
+   }
+   SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+    Enabled 0
+   }
+   SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+    Enabled 0
+   }
+   SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+    Enabled 0
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5F29491536BBB2C7}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{A95C4BA303CCB6F3}Prefabs/Items/Stuff/SecretDocuments.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+   UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5F294915F6461DD1}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{A95C4BA303CCB6F3}Prefabs/Items/Stuff/SecretDocuments.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+   SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+    Enabled 0
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    additionalActions {
+     SCR_OpenStorageAction "{5476DE57AA50402F}" {
+     }
+    }
+   }
+  }
+  coords 4504.042 20.059 8801.388
+  angleY -84.107
+ }
+}
+GenericEntity : "{DED4DB7D08E6E0BE}Prefabs/Structures/Military/Radar/ApproachRadar_RPL5_01/ApproachRadar_RPL5_01.et" {
+ coords 4475.591 28.562 8907.354
+}
+GenericEntity : "{F15B99F6B06E7200}Prefabs/Structures/Military/Radar/ApproachRadar_RPL5_01/ApproachRadar_RPL5_01_generator.et" {
+ coords 4468.966 26.288 8895.987
+ angleX 6.395
+ angleY -61.508
+ angleZ 3.382
+}

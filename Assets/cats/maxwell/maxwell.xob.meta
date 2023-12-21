@@ -1,0 +1,49 @@
+MetaFileClass {
+ Name "{FBCA82F53CC2B61D}Assets/cats/maxwell/maxwell.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{5EF202DA24C5218B}" {
+     SourceMaterial "dingus"
+     AssignedMaterial "{16F6B23E3C010783}Assets/cats/maxwell/data/dingus.emat"
+    }
+    MaterialAssignClass "{5EF202DA24C52192}" {
+     SourceMaterial "whiskers"
+     AssignedMaterial "{EA5929868E9439F9}Assets/cats/maxwell/data/whiskers.emat"
+    }
+   }
+   MeshParams {
+    MeshParam dingus {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_Maxwell {
+     LayerPreset "ItemFireView"
+     SurfaceProperties {
+      "{63B8E1D41F2C6F98}Common/Materials/Game/rubber.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5EF202DA24CEA41B}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5EF202DA24CEA6A9}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5EF202DA24CEA6C7}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5EF202DA24CEA610}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5EF202DA24CEA9A1}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

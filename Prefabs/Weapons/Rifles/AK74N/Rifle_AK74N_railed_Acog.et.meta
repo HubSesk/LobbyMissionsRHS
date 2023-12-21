@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B2A9482BB52EBE4F}Prefabs/Weapons/Rifles/AK74N/Rifle_AK74N_railed_Acog.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,39 @@
+SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
+ coords 7524.374 141.811 4683.572
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 7518.252 141.089 4690.62
+}
+TagManager : "{2FA9E172CAB1857A}Prefabs/MP/Managers/TagManager.et" {
+ coords 7538.785 143.407 4672.167
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 6
+   m_iStartingMinutes 25
+   m_fDayTimeAcceleration 0.1
+   m_fNightTimeAcceleration 0.1
+  }
+ }
+ coords 7546.535 144.908 4660.122
+ m_bKillRedundantUnits 1
+ m_bRemoveSquadMarkers 1
+ m_iFreezeTime 300000
+ {
+  SCR_FactionManager "5F0F2DA169B9E122" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{5978B9CE6585BBE8}" {
+     m_bIsPlayable 1
+    }
+    SCR_Faction "{5CC8DE37E1FF0F7A}" {
+     m_bIsPlayable 1
+    }
+   }
+  }
+ }
+}
+HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
+ coords 7504.816 140.087 4698.771
+}

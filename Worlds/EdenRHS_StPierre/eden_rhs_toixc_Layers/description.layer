@@ -1,0 +1,36 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 11144.041 5.862 1588.583
+  m_sTitle "#PS-Description_HeaderAboutMission"
+  m_sTextData "Задача ВС РФ и USMC - Занять Сент-Пьерр."\
+  "Местное ополчение может как всячески мешать вам, так и помогать."
+  m_aVisibleForFactions {
+   "RHS_RF_MSV" "FIA" "RHS_US_USMC"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 11149.424 5.995 1598.162
+  m_sTitle "#PS-Description_HeaderFIA"
+  m_sTextData "Господа бандиты и разбойники. Вы последние жители сие прекрасного города, ваша задача максимально проста. Не дать Красным и Синим уничтожить этот город под ноль, ведя за него бои. У вас есть связь с обоими сторонами, поэтому сами решайте как будете дейстовать. Не потеряйте Максвелла."
+  m_aVisibleForFactions {
+   "FIA"
+  }
+ }
+ {
+  coords 11149.424 5.995 1598.162
+  m_sTitle "#PS-Description_HeaderUSSR"
+  m_sTextData "У вас в распоряжении имеется лишь 1 вертолёт для доставки пехоты. Берегите его и постарайтесь не убиться на нём."
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+ }
+ {
+  coords 11164.758 4.054 1611.086
+  m_sTitle "#PS-Description_HeaderUS"
+  m_sTextData "Занять Сент-Пьерр. Пешком."
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+ }
+}

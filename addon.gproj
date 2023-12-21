@@ -1,0 +1,20 @@
+GameProject {
+ ID "SesMissionsRHS"
+ GUID "5F0ECCEE7B9AA8CE"
+ TITLE "SesMissionsRHS"
+ Dependencies {
+  "5EAF2B0473DB5A99" "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

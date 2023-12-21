@@ -1,0 +1,12 @@
+GameEntity : "{5F71AB03597B3D25}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Goggles {
+     Prefab "{4CB556EEDA83FFFE}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok_emr.et"
+    }
+   }
+  }
+ }
+}

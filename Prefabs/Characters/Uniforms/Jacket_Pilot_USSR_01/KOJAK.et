@@ -1,0 +1,20 @@
+GameEntity : "{6835DAF42A09E23C}Prefabs/Characters/Uniforms/Jacket_Pilot_USSR_01/Jacket_Pilot_USSR_01.et" {
+ ID "5104869D194C6243"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "Кожак"
+     Description "Универсальный аттрибут любого уважающего себя пахана"
+    }
+   }
+   MaxCumulativeVolume 3000
+   m_fMaxWeight 8
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornMaterialsOverride {
+    "{0F516F5D06617596}Assets/Characters/Uniforms/Jacket_Pilot_USSR_01/Data/KOJAK.emat"
+   }
+  }
+ }
+}
