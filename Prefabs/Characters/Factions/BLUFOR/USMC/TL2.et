@@ -7,6 +7,16 @@ SCR_ChimeraCharacter : "{498375AB24B69ACA}Prefabs/Characters/Factions/BLUFOR/RHS
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{EC5C256DEDBA9E5E}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_kac600_elcanPeq.et"
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{93F549AC3427E206}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_XP_PELTOR.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5CC8B5EF85FB5080}" {

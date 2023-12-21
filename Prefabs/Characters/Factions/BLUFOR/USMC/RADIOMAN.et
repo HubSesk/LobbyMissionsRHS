@@ -10,6 +10,9 @@ SCR_ChimeraCharacter : "{6951734E5BF1F829}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E823D85FC3B32845}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_MT_AMP.et"
+    }
     LoadoutSlotInfo Back {
      Prefab "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.et"
     }

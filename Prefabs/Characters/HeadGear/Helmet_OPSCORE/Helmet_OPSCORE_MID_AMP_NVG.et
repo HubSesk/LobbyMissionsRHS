@@ -1,0 +1,24 @@
+GameEntity : "{20FEE7AF45D6D123}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_MID_AMP.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Goggles {
+     Prefab "{2934192D7BA3465E}Prefabs/Characters/Eyewear/gascan/Eyewear_gascan.et"
+    }
+    LoadoutSlotInfo Masks {
+     Prefab "{9D8D6972A75396B2}Prefabs/Characters/HeadGear/Helmet_LShZ/Balaclava_frog_gray.et"
+    }
+    LoadoutSlotInfo NVG {
+     Prefab "{66AFFB57E780B215}Prefabs/Items/Equipment/Nightvision/PVS31/PVS31_TAN.et"
+    }
+    LoadoutSlotInfo Rail_Right {
+     Prefab "{0F6075686526F51D}Prefabs/Items/Equipment/Nightvision/ChargePro/ChargePro.et"
+    }
+    LoadoutSlotInfo TopVelcro {
+     Prefab "{8F54EE49D3317266}Prefabs/Items/Equipment/Nightvision/VipLight/VipLight.et"
+    }
+   }
+  }
+ }
+}

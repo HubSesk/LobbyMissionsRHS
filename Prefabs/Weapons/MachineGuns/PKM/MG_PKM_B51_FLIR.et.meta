@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{F3EFC81A7FE6767B}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_B51_FLIR.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

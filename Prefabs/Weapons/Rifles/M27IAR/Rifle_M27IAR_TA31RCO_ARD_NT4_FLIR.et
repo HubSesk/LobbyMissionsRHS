@@ -1,0 +1,19 @@
+GenericEntity : "{C34F897AB78E1900}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_TA31RCO_ARD_NT4.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5CC8E73BB698D287}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Prefab "{1A8E5E21EC65EE58}Prefabs/Weapons/Attachments/Optics/reap_ir/reap_ir.et"
+     }
+    }
+    AttachmentSlotComponent "{5CF88C80AF78DA73}" {
+     AttachmentSlot InventoryStorageSlot PicattinyRailTop {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+}
