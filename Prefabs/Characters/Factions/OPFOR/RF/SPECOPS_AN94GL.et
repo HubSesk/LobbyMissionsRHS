@@ -1,6 +1,17 @@
 SCR_ChimeraCharacter : "{3B167AFE3D75631C}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_Rifleman.et" {
  ID "520EC961A090BE1E"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{7C53E6DE2E4BD8CB}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo.et"
+      }
+     }
+    }
+   }
+  }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_name "Старший стрелок"
    m_bIsPlayable 1
@@ -13,13 +24,16 @@ SCR_ChimeraCharacter : "{3B167AFE3D75631C}Prefabs/Characters/Factions/OPFOR/RHS_
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{C072AC6CC74256FF}Prefabs/Weapons/Rifles/AN94/Rifle_AN94_valday_rail_1p87_gp.et"
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{11A6FB2B62A8845B}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_medium_amp.et"
+     Prefab "{5C53A50FB6604036}Prefabs/Characters/HeadGear/Helmet_LShZ/Helmet_LShZ_HC_3M_emr_full_nvg.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{03FF161D3AC1E1DF}Prefabs/Characters/Uniforms/VKPO/Field_Jacket_VKPO.et"
+     Prefab "{82C659FB6237E828}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_OD.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{0D352BB94324497C}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45_folded_collar_srachnik.et"
@@ -49,7 +63,7 @@ SCR_ChimeraCharacter : "{3B167AFE3D75631C}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{5EA4980D427B6964}" {
      TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_type1.et"
     }
-    ItemsInitConfigurationItem "{5F0D157EC12851AC}" {
+    ItemsInitConfigurationItem "{5F2B63EF934CF2FB}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_Ratnik_Pouches/Pouch_Ratnik_vog_pouches.et"
      PrefabsToSpawn {
       "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"

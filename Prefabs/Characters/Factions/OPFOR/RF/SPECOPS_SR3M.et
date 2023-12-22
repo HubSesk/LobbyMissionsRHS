@@ -1,0 +1,78 @@
+SCR_ChimeraCharacter : "{3B167AFE3D75631C}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{7C53E6DE2E4BD8CB}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo.et"
+      }
+     }
+    }
+   }
+  }
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_name "Стрелок"
+   m_bIsPlayable 1
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{C61F979AA7E29EE7}Prefabs/Weapons/Rifles/SR3M/Rifle_SR3M_supr_pso.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{09FDF73FC9F98A81}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_medium_amp_SPECOPS.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{82C659FB6237E828}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_OD.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{0D352BB94324497C}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45_folded_collar_srachnik.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{87D44A06008E0A7A}Prefabs/Characters/Uniforms/Tactical_Pants/Tactical_Pants_OD.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{AB9E3D5524876346}Prefabs/Characters/Footwear/Boots_Faradey_1085/Footware_Faradey_1085.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{597D24F89042474A}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Tactical_Pants/Tactical_Pants_OD.et"
+    }
+    ItemsInitConfigurationItem "{5D487DFF08C5F460}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_OD.et"
+    }
+    ItemsInitConfigurationItem "{5EA287E11A3D09CF}" {
+     TargetStorage "Prefabs/Items/Equipment/Accessories/ETool_MPL50/RHS_MPL50_Carrier.et"
+     TargetPurpose 64
+    }
+    ItemsInitConfigurationItem "{5EA4980D427B6964}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_type1.et"
+    }
+    ItemsInitConfigurationItem "{5DF8AE2F63E20FC5}" {
+     PrefabsToSpawn {
+      "{91836E59CE2497BC}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP5_base.et" "{91836E59CE2497BC}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP5_base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5DF8AE2F69063B5C}" {
+     PrefabsToSpawn {
+      "{91836E59CE2497BC}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP5_base.et" "{91836E59CE2497BC}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP5_base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5DF8AE2F766AA32B}" {
+     PrefabsToSpawn {
+      "{91836E59CE2497BC}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP5_base.et" "{91836E59CE2497BC}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP5_base.et"
+     }
+    }
+   }
+  }
+ }
+ coords 7416.813 162.95 4307.676
+}

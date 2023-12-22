@@ -1,0 +1,12 @@
+GameEntity : "{BBA5EFF50BA97BEC}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_eyewear.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo NVG {
+     Prefab "{B0534A120633D08D}Prefabs/Items/Equipment/Nightvision/1PN138/NVG_1PN138.et"
+    }
+   }
+  }
+ }
+}

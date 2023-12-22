@@ -1,6 +1,17 @@
-SCR_ChimeraCharacter : "{F139865249CE32FC}RF/SL_Summer.et" {
+SCR_ChimeraCharacter : "{F139865249CE32FC}Prefabs/Characters/Factions/OPFOR/RF/SL_Summer.et" {
  ID "520EC961A090BE1E"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{7C53E6DE2E4BD8CB}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo.et"
+      }
+     }
+    }
+   }
+  }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_name "Командир стороны"
   }
@@ -13,7 +24,7 @@ SCR_ChimeraCharacter : "{F139865249CE32FC}RF/SL_Summer.et" {
      Prefab "{94493910A15ECDC6}Prefabs/Characters/HeadGear/Hat_VKPO_Cap/Hat_VKPO_Cap.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{BB68DC18E1C571D8}Prefabs/Characters/Uniforms/VKPO/Undershirt_VKPO.et"
+     Prefab "{A18238B56E378F4B}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_ATACS.et"
     }
     LoadoutSlotInfo Back {
      Enabled 0
@@ -25,12 +36,20 @@ SCR_ChimeraCharacter : "{F139865249CE32FC}RF/SL_Summer.et" {
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{5EA287E11A3D09CF}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Ratnik_Pouches/Pouch_Ratnik_azart_pouch.et"
+     PrefabsToSpawn {
+      "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD.et"
+     }
+    }
     ItemsInitConfigurationItem "{5DF8AE2F766AA32B}" {
      PrefabsToSpawn {
      }
     }
     ItemsInitConfigurationItem "{5F0D157E93CE9BEC}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_ATACS.et"
      PrefabsToSpawn {
+      "{A55A815F28739FEC}Prefabs/Items/Equipment/Navigation/Orion/Orion.et"
      }
     }
    }
