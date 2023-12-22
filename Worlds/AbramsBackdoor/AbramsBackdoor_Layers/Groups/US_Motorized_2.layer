@@ -1,0 +1,54 @@
+Vehicle M1025_armed_M2HB1 : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+    }
+   }
+  }
+ }
+ coords 7486.401 18.562 3236.348
+ angleY 149
+}
+Vehicle M1 : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+    }
+   }
+  }
+ }
+ coords 7479.231 18.562 3215.926
+ angleY 71
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ US_Motorized_M1025_Marker {
+  coords 7478.413 18.562 3218.544
+  angleY 90
+  m_sImageSet "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
+  m_sImageSetGlow "{6980E83C053C9B5D}UI/Textures/Icons/icons_wrapperUI-128-glow.imageset"
+  m_MarkerColor 0.49 0.49 0.49 1
+  m_sQuadName "vehicles"
+  m_fWorldSize 5
+  m_sDescription "M1025"
+  m_aVisibleForFactions {
+   "FIA" "RHS_US_USMC" "RHS_RF_MSV"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ US_Motorized_M1025_M2_Marker2 {
+  coords 7487.841 18.562 3237.497
+  angleY 90
+  m_sImageSet "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
+  m_sImageSetGlow "{6980E83C053C9B5D}UI/Textures/Icons/icons_wrapperUI-128-glow.imageset"
+  m_MarkerColor 0.49 0.49 0.49 1
+  m_sQuadName "vehicles"
+  m_fWorldSize 5
+  m_sDescription "M1025_M2"
+  m_aVisibleForFactions {
+   "FIA" "RHS_US_USMC" "RHS_RF_MSV"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+}

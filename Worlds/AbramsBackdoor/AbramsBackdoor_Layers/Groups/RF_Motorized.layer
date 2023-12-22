@@ -1,0 +1,20 @@
+PS_ManualMarker RF_Ural4320_Marker4 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 5522.751 124.082 6888.987
+ angleY 90
+ m_sImageSet "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
+ m_sImageSetGlow "{6980E83C053C9B5D}UI/Textures/Icons/icons_wrapperUI-128-glow.imageset"
+ m_MarkerColor 0.49 0.49 0.49 1
+ m_sQuadName "vehicles"
+ m_fWorldSize 5
+ m_sDescription "Ural4320"
+ m_aVisibleForFactions {
+  "FIA" "RHS_US_USMC" "RHS_RF_MSV"
+ }
+ m_bVisibleForEmptyFaction 1
+}
+Vehicle Ural4320_transport_covered3 : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
+ coords 5523.794 123.993 6888.564
+ angleX 0.884
+ angleY 0.139
+ angleZ 4.469
+}

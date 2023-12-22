@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{F3026897F4E9F8B8}Worlds/AbramsBackdoor/AbramsBackdoor.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

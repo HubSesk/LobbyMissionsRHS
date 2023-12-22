@@ -1,0 +1,28 @@
+Vehicle M923A1_transport_covered1 : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+    }
+   }
+  }
+ }
+ coords 7281.79 5.462 5141.007
+ angleX 1.751
+ angleY 77.999
+ angleZ -0.372
+}
+PS_ManualMarker US_M923A1_Marker2 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 7284.455 7.711 5141.385
+ angleY 90
+ m_sImageSet "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
+ m_sImageSetGlow "{6980E83C053C9B5D}UI/Textures/Icons/icons_wrapperUI-128-glow.imageset"
+ m_MarkerColor 0.49 0.49 0.49 1
+ m_sQuadName "vehicles"
+ m_fWorldSize 5
+ m_sDescription "M923A1"
+ m_aVisibleForFactions {
+  "FIA" "RHS_US_USMC" "RHS_RF_MSV"
+ }
+ m_bVisibleForEmptyFaction 1
+}
