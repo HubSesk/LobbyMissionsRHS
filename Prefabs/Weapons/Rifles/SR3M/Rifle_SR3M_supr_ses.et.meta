@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{E26E7417E1AB21ED}Prefabs/Weapons/Rifles/SR3M/Rifle_SR3M_supr_ses.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
