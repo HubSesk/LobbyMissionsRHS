@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{76E38E69D73D3987}images/BackDoor/US_Motorized2.imageset"
+ Configurations {
+  ImageSetResourceClass PC {
+  }
+  ImageSetResourceClass XBOX_ONE : PC {
+  }
+  ImageSetResourceClass XBOX_SERIES : PC {
+  }
+  ImageSetResourceClass PS4 : PC {
+  }
+  ImageSetResourceClass HEADLESS : PC {
+  }
+ }
+}

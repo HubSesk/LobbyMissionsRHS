@@ -1,5 +1,44 @@
+SCR_AIGroup RF_G_402_4 : "{300AEB1AD1B979B4}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_MSV_EMR_Team_Suppress_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{5F2B76AADC3F8F79}" {
+   m_iCompanyCallsign 4
+   m_iSquadCallsign 2
+  }
+ }
+ coords 1211.702 3 5051.932
+ angleY 163
+ m_sCustomNameSet "Веды"
+}
 Vehicle Mi8MTT_A_Black1 : "{4A465E25A866520E}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MTT-A_Black.et" {
- coords 1210.888 3.798 5030.743
+ components {
+  SCR_ResourceComponent "{5E429668F7A8358A}" {
+   Enabled 0
+  }
+ }
+ coords 1208.252 3.223 5033.102
+ angleX 3.881
+ angleY -34.663
+}
+SCR_AIGroup RF_G_401_4 : "{4FCA17657529D4C2}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_MSV_EMR_Team_AT_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{5F2B76AAD2CC0CD0}" {
+   m_iCompanyCallsign 4
+   m_iSquadCallsign 1
+  }
+ }
+ coords 1214.874 3 5045.832
+ angleY 151
+ m_sCustomNameSet "Веды"
+}
+SCR_AIGroup RF_G_400_4 : "{BE95DFE601E567C6}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_MSV_EMR_FireGroup_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{5F2D158E872F20AE}" {
+   m_iCompanyCallsign 4
+  }
+ }
+ coords 1217.77 3 5047.977
+ angleY -135
+ m_sCustomNameSet "Веды"
 }
 PS_ManualMarker RF_Helicopter_Mi8MTT_Marker3 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  coords 1218.579 3.001 5037.163

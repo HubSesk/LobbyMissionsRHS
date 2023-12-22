@@ -1,3 +1,30 @@
+$grp SCR_AIGroup : "{140EEDFF928271F6}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_FireTeam_P.et" {
+ US_G_301_4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{5F2B76AB817E0A6C}" {
+    m_iCompanyCallsign 3
+    m_iSquadCallsign 1
+   }
+  }
+  coords 7482.596 18.563 3233.5
+  angleY -116
+ }
+ US_G_300_4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{5F2B76AB8AFB80A9}" {
+    m_iCompanyCallsign 3
+   }
+  }
+  coords 7475.492 18.563 3219.938
+  angleY -17
+ }
+}
 Vehicle M1025_armed_M2HB1 : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
  components {
   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
@@ -19,7 +46,7 @@ Vehicle M1 : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
    }
   }
  }
- coords 7479.231 18.562 3215.926
+ coords 7479.604 18.562 3216.714
  angleY 71
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {

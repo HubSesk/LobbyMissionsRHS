@@ -1,0 +1,21 @@
+$grp SCR_AIGroup : "{2A4F66BD652F1C8E}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_RifleSquad_P.et" {
+ US_G_100_14 {
+  components {
+   PS_GroupCallsignAssigner "{5F2B76ABB72D4EDB}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 7188.11 4.984 5295.785
+  angleY -130
+ }
+ US_G_110_14 {
+  components {
+   PS_GroupCallsignAssigner "{5F2B76AB6AF6362C}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 7138.833 6.748 5325.046
+  angleY -130
+ }
+}

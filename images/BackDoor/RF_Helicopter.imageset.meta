@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B71BE8988871154B}images/BackDoor/RF_Helicopter.imageset"
+ Configurations {
+  ImageSetResourceClass PC {
+  }
+  ImageSetResourceClass XBOX_ONE : PC {
+  }
+  ImageSetResourceClass XBOX_SERIES : PC {
+  }
+  ImageSetResourceClass PS4 : PC {
+  }
+  ImageSetResourceClass HEADLESS : PC {
+  }
+ }
+}

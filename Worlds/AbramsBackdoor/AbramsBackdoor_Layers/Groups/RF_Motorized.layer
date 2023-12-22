@@ -1,3 +1,15 @@
+SCR_AIGroup RF_G_100_6 : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_MSV_EMR_RifleSquad_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{5F2B76AA9640937C}" {
+   m_iCompanyCallsign 1
+  }
+ }
+ coords 5518.022 124.531 6890.126
+ angleY -81
+}
 PS_ManualMarker RF_Ural4320_Marker4 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  coords 5522.751 124.082 6888.987
  angleY 90

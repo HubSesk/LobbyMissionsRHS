@@ -1,0 +1,18 @@
+ImageSetClass {
+ RefSize 442 300
+ Textures {
+  ImageSetTextureClass {
+   screenSize FHD
+   size 442 300
+   path "{B2654F83A22E1FE8}images/BackDoor/US_Motorized2.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass QUAD {
+   Name "QUAD"
+   Pos 0 0
+   Size 442 300
+   Flags 0
+  }
+ }
+}

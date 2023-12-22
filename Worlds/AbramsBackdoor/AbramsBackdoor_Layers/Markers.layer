@@ -1,15 +1,4 @@
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- B_AccidentImage {
-  coords 6209.919 67.523 6080.274
-  angleX 19.306
-  angleY 63.606
-  angleZ -16.477
-  m_sImageSet "{C61CE5AA5199FAE9}images/BackDoor/Capture.imageset"
-  m_sImageSetGlow ""
-  m_sQuadName "QUAD"
-  m_fWorldSize 50
-  m_bVisibleForEmptyFaction 1
- }
  US_Infantry_1 {
   coords 7146.35 6.632 5327.027
   angleY 90
@@ -18,6 +7,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.49 0.49 0.49 1
   m_sQuadName "infantry-blufor"
   m_fWorldSize 35
+  m_sDescription "Блазер"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "FIA" "RHS_US_USMC" "RHS_RF_MSV"
@@ -52,6 +42,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.49 0.49 0.49 1
   m_sQuadName "motorized-blufor"
   m_fWorldSize 35
+  m_sDescription "Хаос"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "FIA" "RHS_US_USMC" "RHS_RF_MSV"
@@ -79,13 +70,14 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
  }
  RF_Motorized {
-  coords 5520.969 124.265 6890.753
+  coords 5513.875 124.719 6903.29
   angleY 90
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.49 0.49 0.49 1
   m_sQuadName "Motorized-rifle-opfor"
   m_fWorldSize 35
+  m_sDescription "Буран"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "FIA" "RHS_US_USMC" "RHS_RF_MSV"
@@ -120,6 +112,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.49 0.49 0.49 1
   m_sQuadName "Transport-flight-opfor"
   m_fWorldSize 35
+  m_sDescription "Веды (Эбонит)"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "FIA" "RHS_US_USMC" "RHS_RF_MSV"
@@ -154,6 +147,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.49 0.49 0.49 1
   m_sQuadName "maintenance-opfor"
   m_fWorldSize 35
+  m_sDescription "Актив"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "FIA" "RHS_US_USMC" "RHS_RF_MSV"
@@ -188,6 +182,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.49 0.49 0.49 1
   m_sQuadName "Motorized-rifle-blufor"
   m_fWorldSize 35
+  m_sDescription "Диско"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "FIA" "RHS_US_USMC" "RHS_RF_MSV"
@@ -215,10 +210,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
  }
  B_AccidentSUS {
-  coords 6162.495 63.661 6105.452
-  angleX 19.306
+  coords 6201.102 63.661 6079.753
   angleY 36.606
-  angleZ -16.477
   m_sImageSet "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.502 0 0 1
@@ -228,17 +221,17 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bVisibleForEmptyFaction 1
  }
  SUS_SUS {
-  coords 2979.761 -0 2188.359
+  coords 2979.761 0 2188.359
   angleY 70
   m_sImageSet "{29F6190274B2CF97}images/BackDoor/Sus.imageset"
   m_sImageSetGlow ""
   m_sQuadName "QUAD"
   m_fWorldSize 150
   m_sDescription "ВСЯ ТЕХНИКА ПОМЕЧЕНАЯ МАРКЕРАМИ НА КАРТЕ."\
-  "Они в мировом масштабе придестя преблизить камеру что бы их рассмотреть."\
+  "Они в мировом масштабе придется преблизить камеру что бы их рассмотреть."\
   "Но там такая иконочка машинки и написано что это, смотри рядом с отрядами."\
   ""\
-  "А ТАКЖЕ ТЕХНИКА РАСПИСАНА В ОПИСАНИИ МИССИИ."\
+  "А еще у миссии есть описание."\
   "Там вот слева снизу, если монитор не перевернут и включен, на что я надеюсь. "\
   "В общем там черная такая менюшка."\
   ""\

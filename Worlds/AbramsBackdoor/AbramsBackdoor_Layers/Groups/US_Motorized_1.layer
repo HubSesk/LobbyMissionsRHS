@@ -1,3 +1,16 @@
+SCR_AIGroup US_G_201_4 : "{78F5629F4C43EC89}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_ScoutTeam_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{5F2B76AB7B884A8E}" {
+   m_iCompanyCallsign 2
+   m_iSquadCallsign 1
+  }
+ }
+ coords 7310.734 3.152 5153
+ angleY 31
+}
 Vehicle M923A1_transport_covered1 : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
  components {
   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
@@ -25,4 +38,19 @@ PS_ManualMarker US_M923A1_Marker2 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/E
   "FIA" "RHS_US_USMC" "RHS_RF_MSV"
  }
  m_bVisibleForEmptyFaction 1
+}
+SCR_AIGroup US_G_200_6 : "{EDEEA2BB6C18DBF0}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_Team_GL_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{5F2B76AB1EE21EEC}" {
+   m_iCompanyCallsign 2
+  }
+ }
+ coords 7304.015 3.917 5147.403
+ angleY 50
+ m_aUnitPrefabSlots + {
+  "{EED044482866F45B}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Corpsman_P.et" "{EED044482866F45B}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Corpsman_P.et"
+ }
 }
