@@ -1,8 +1,9 @@
 $grp SCR_AIGroup : "{2A4F66BD652F1C8E}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_RifleSquad_P.et" {
- US_G_100_2 {
+ US_G_011_10 {
   components {
    PS_GroupCallsignAssigner "{5F2B76ABB72D4EDB}" {
-    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
    }
   }
   coords 7225.577 5.572 5289.868
@@ -11,13 +12,13 @@ $grp SCR_AIGroup : "{2A4F66BD652F1C8E}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US
    "{6CFE2E00DE0B723E}Prefabs/Characters/Factions/BLUFOR/USMC/SL.et" "{9A6BBBFA12B4A9D1}Prefabs/Characters/Factions/BLUFOR/USMC/ASL.et" "{001F10B2290F2910}Prefabs/Characters/Factions/BLUFOR/USMC/SSO.et" "{A1FD6EBA9A1B5D4D}Prefabs/Characters/Factions/BLUFOR/USMC/TL1.et" "{D9DEB6DE9506CE71}Prefabs/Characters/Factions/BLUFOR/USMC/AT.et" "{A3D5B68A10B93AD6}Prefabs/Characters/Factions/BLUFOR/USMC/GL1.et" "{210F34F2B0B0CBB2}Prefabs/Characters/Factions/BLUFOR/USMC/USMC_Sniper.et" "{CDA95A5A26DFD263}Prefabs/Characters/Factions/BLUFOR/USMC/TL2.et" "{17BDAA31CB3B46C4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Rifleman_P.et" "{CF81826AAC7DB5F8}Prefabs/Characters/Factions/BLUFOR/USMC/GL2.et" "{69A2B88C24D9D54A}Prefabs/Characters/Factions/BLUFOR/USMC/MEDIC.et"
   }
  }
- US_G_100_5 {
+ US_G_010_10 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
    }
    PS_GroupCallsignAssigner "{5F2B76ABB72D4EDB}" {
-    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
    }
   }
   coords 7203.482 5.783 5330.408
@@ -26,10 +27,10 @@ $grp SCR_AIGroup : "{2A4F66BD652F1C8E}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US
    "{6CFE2E00DE0B723E}Prefabs/Characters/Factions/BLUFOR/USMC/SL.et" "{9A6BBBFA12B4A9D1}Prefabs/Characters/Factions/BLUFOR/USMC/ASL.et" "{001F10B2290F2910}Prefabs/Characters/Factions/BLUFOR/USMC/SSO.et" "{A1FD6EBA9A1B5D4D}Prefabs/Characters/Factions/BLUFOR/USMC/TL1.et" "{D9DEB6DE9506CE71}Prefabs/Characters/Factions/BLUFOR/USMC/AT.et" "{A3D5B68A10B93AD6}Prefabs/Characters/Factions/BLUFOR/USMC/GL1.et" "{210F34F2B0B0CBB2}Prefabs/Characters/Factions/BLUFOR/USMC/USMC_Sniper.et" "{CDA95A5A26DFD263}Prefabs/Characters/Factions/BLUFOR/USMC/TL2.et" "{17BDAA31CB3B46C4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Rifleman_P.et" "{CF81826AAC7DB5F8}Prefabs/Characters/Factions/BLUFOR/USMC/GL2.et" "{69A2B88C24D9D54A}Prefabs/Characters/Factions/BLUFOR/USMC/MEDIC.et"
   }
  }
- US_G_100_3 {
+ US_G_001_10 {
   components {
    PS_GroupCallsignAssigner "{5F2B76ABB72D4EDB}" {
-    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
    }
   }
   coords 7216.612 5.562 5292.193
@@ -38,13 +39,13 @@ $grp SCR_AIGroup : "{2A4F66BD652F1C8E}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US
    "{6CFE2E00DE0B723E}Prefabs/Characters/Factions/BLUFOR/USMC/SL.et" "{9A6BBBFA12B4A9D1}Prefabs/Characters/Factions/BLUFOR/USMC/ASL.et" "{001F10B2290F2910}Prefabs/Characters/Factions/BLUFOR/USMC/SSO.et" "{A1FD6EBA9A1B5D4D}Prefabs/Characters/Factions/BLUFOR/USMC/TL1.et" "{D9DEB6DE9506CE71}Prefabs/Characters/Factions/BLUFOR/USMC/AT.et" "{A3D5B68A10B93AD6}Prefabs/Characters/Factions/BLUFOR/USMC/GL1.et" "{210F34F2B0B0CBB2}Prefabs/Characters/Factions/BLUFOR/USMC/USMC_Sniper.et" "{CDA95A5A26DFD263}Prefabs/Characters/Factions/BLUFOR/USMC/TL2.et" "{17BDAA31CB3B46C4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Rifleman_P.et" "{CF81826AAC7DB5F8}Prefabs/Characters/Factions/BLUFOR/USMC/GL2.et" "{69A2B88C24D9D54A}Prefabs/Characters/Factions/BLUFOR/USMC/MEDIC.et"
   }
  }
- US_G_100_4 {
+ US_G_002_10 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
    }
    PS_GroupCallsignAssigner "{5F2B76ABB72D4EDB}" {
-    m_iCompanyCallsign 1
+    m_iSquadCallsign 2
    }
   }
   coords 7188 5.165 5306.586
@@ -53,10 +54,9 @@ $grp SCR_AIGroup : "{2A4F66BD652F1C8E}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US
    "{6CFE2E00DE0B723E}Prefabs/Characters/Factions/BLUFOR/USMC/SL.et" "{9A6BBBFA12B4A9D1}Prefabs/Characters/Factions/BLUFOR/USMC/ASL.et" "{001F10B2290F2910}Prefabs/Characters/Factions/BLUFOR/USMC/SSO.et" "{A1FD6EBA9A1B5D4D}Prefabs/Characters/Factions/BLUFOR/USMC/TL1.et" "{D9DEB6DE9506CE71}Prefabs/Characters/Factions/BLUFOR/USMC/AT.et" "{A3D5B68A10B93AD6}Prefabs/Characters/Factions/BLUFOR/USMC/GL1.et" "{210F34F2B0B0CBB2}Prefabs/Characters/Factions/BLUFOR/USMC/USMC_Sniper.et" "{CDA95A5A26DFD263}Prefabs/Characters/Factions/BLUFOR/USMC/TL2.et" "{17BDAA31CB3B46C4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Rifleman_P.et" "{CF81826AAC7DB5F8}Prefabs/Characters/Factions/BLUFOR/USMC/GL2.et" "{69A2B88C24D9D54A}Prefabs/Characters/Factions/BLUFOR/USMC/MEDIC.et"
   }
  }
- US_G_100_6 {
+ US_G_000_3 {
   components {
    PS_GroupCallsignAssigner "{5F2B76ABB72D4EDB}" {
-    m_iCompanyCallsign 1
    }
   }
   coords 7220.862 5.63 5278.316
@@ -66,82 +66,161 @@ $grp SCR_AIGroup : "{2A4F66BD652F1C8E}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US
   }
  }
 }
-GenericEntity box2 : "{3568138FF7A659A1}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/AmmoBoxArsenal_Equipment_US_Apparel.et" {
- components {
-  MeshObject "{5872F0EB7FA40561}" {
-   Object "{56B55CB0378598D5}Assets/Props/Military/AmmoBox/EquipmentBoxStack/EquipmentBoxStack_01_V6.xob"
-  }
-  SCR_ArsenalComponent "{589F01C9C8D4A475}" {
-   Enabled 0
-  }
-  SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
-   Enabled 0
-  }
-  SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
-   Enabled 0
-  }
-  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-   MultiSlots {
-    MultiSlotConfiguration "{5F29491536BBB2C7}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{A95C4BA303CCB6F3}Prefabs/Items/Stuff/SecretDocuments.et"
+$grp GenericEntity : "{3568138FF7A659A1}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/AmmoBoxArsenal_Equipment_US_Apparel.et" {
+ PNV_BOX {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Object "{56B55CB0378598D5}Assets/Props/Military/AmmoBox/EquipmentBoxStack/EquipmentBoxStack_01_V6.xob"
+   }
+   SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+    Enabled 0
+   }
+   SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+    Enabled 0
+   }
+   SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+    Enabled 0
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5F29491536BBB2C7}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{A95C4BA303CCB6F3}Prefabs/Items/Stuff/SecretDocuments.et"
+      }
+      NumSlots 1
      }
-     NumSlots 1
+    }
+   }
+   UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5F294915F6461DD1}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{5B219B96EDC39786}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP_BLK_MC.et"
+      }
+      NumSlots 7
+     }
+     MultiSlotConfiguration "{5F2EB381D61834B3}" {
+      SlotTemplate InventoryStorageSlot nvg2 {
+       Prefab "{B7BA7694F821F556}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual.et"
+      }
+      NumSlots 7
+     }
+     MultiSlotConfiguration "{5F2EB381E7BFDD71}" {
+      SlotTemplate InventoryStorageSlot nvg3 {
+       Prefab "{9A9555D10664B8CB}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_WP.et"
+      }
+      NumSlots 7
+     }
+     MultiSlotConfiguration "{5F2EB3805A4631D9}" {
+      SlotTemplate InventoryStorageSlot supernvg {
+       Prefab "{2B10341C641EC041}Prefabs/Items/Equipment/Thermals/PATROL_IR/Thermal_PatrolIr.et"
+      }
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{5F2EB3806431A6E6}" {
+      SlotTemplate InventoryStorageSlot strob {
+       Prefab "{643AB339663E92F7}Prefabs/Items/Equipment/Nightvision/MS2000/Marker_MS2000.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{5F2EB3807818EE8A}" {
+      SlotTemplate InventoryStorageSlot strob2 {
+       Prefab "{5F7EF7FEBC39B874}Prefabs/Items/Equipment/Nightvision/HelstarStrobe/Helstar.et"
+      }
+      NumSlots 5
+     }
+    }
+   }
+   SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+    Enabled 0
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    additionalActions {
+     SCR_OpenStorageAction "{5476DE57AA50402F}" {
+     }
     }
    }
   }
-  UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
-   MultiSlots {
-    MultiSlotConfiguration "{5F294915F6461DD1}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{5B219B96EDC39786}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP_BLK_MC.et"
-     }
-     NumSlots 7
-    }
-    MultiSlotConfiguration "{5F2EB381D61834B3}" {
-     SlotTemplate InventoryStorageSlot nvg2 {
-      Prefab "{B7BA7694F821F556}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual.et"
-     }
-     NumSlots 7
-    }
-    MultiSlotConfiguration "{5F2EB381E7BFDD71}" {
-     SlotTemplate InventoryStorageSlot nvg3 {
-      Prefab "{9A9555D10664B8CB}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_WP.et"
-     }
-     NumSlots 7
-    }
-    MultiSlotConfiguration "{5F2EB3805A4631D9}" {
-     SlotTemplate InventoryStorageSlot supernvg {
-      Prefab "{2B10341C641EC041}Prefabs/Items/Equipment/Thermals/PATROL_IR/Thermal_PatrolIr.et"
-     }
-     NumSlots 3
-    }
-    MultiSlotConfiguration "{5F2EB3806431A6E6}" {
-     SlotTemplate InventoryStorageSlot strob {
-      Prefab "{643AB339663E92F7}Prefabs/Items/Equipment/Nightvision/MS2000/Marker_MS2000.et"
-     }
-     NumSlots 5
-    }
-    MultiSlotConfiguration "{5F2EB3807818EE8A}" {
-     SlotTemplate InventoryStorageSlot strob2 {
-      Prefab "{5F7EF7FEBC39B874}Prefabs/Items/Equipment/Nightvision/HelstarStrobe/Helstar.et"
-     }
-     NumSlots 5
-    }
-   }
-  }
-  SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
-   Enabled 0
-  }
-  ActionsManagerComponent "{5476B36C403D4CC0}" {
-   additionalActions {
-    SCR_OpenStorageAction "{5476DE57AA50402F}" {
-    }
-   }
-  }
+  coords 7215.888 5.655 5274.767
+  angleY -84.107
  }
- coords 7215.888 5.655 5274.767
- angleY -84.107
+ PNV_BOX2 {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Object "{56B55CB0378598D5}Assets/Props/Military/AmmoBox/EquipmentBoxStack/EquipmentBoxStack_01_V6.xob"
+   }
+   SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+    Enabled 0
+   }
+   SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+    Enabled 0
+   }
+   SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+    Enabled 0
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5F29491536BBB2C7}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{A95C4BA303CCB6F3}Prefabs/Items/Stuff/SecretDocuments.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+   UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5F294915F6461DD1}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{5B219B96EDC39786}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP_BLK_MC.et"
+      }
+      NumSlots 7
+     }
+     MultiSlotConfiguration "{5F2EB381D61834B3}" {
+      SlotTemplate InventoryStorageSlot nvg2 {
+       Prefab "{B7BA7694F821F556}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual.et"
+      }
+      NumSlots 7
+     }
+     MultiSlotConfiguration "{5F2EB381E7BFDD71}" {
+      SlotTemplate InventoryStorageSlot nvg3 {
+       Prefab "{9A9555D10664B8CB}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_WP.et"
+      }
+      NumSlots 7
+     }
+     MultiSlotConfiguration "{5F2EB3805A4631D9}" {
+      SlotTemplate InventoryStorageSlot supernvg {
+       Prefab "{2B10341C641EC041}Prefabs/Items/Equipment/Thermals/PATROL_IR/Thermal_PatrolIr.et"
+      }
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{5F2EB3806431A6E6}" {
+      SlotTemplate InventoryStorageSlot strob {
+       Prefab "{643AB339663E92F7}Prefabs/Items/Equipment/Nightvision/MS2000/Marker_MS2000.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{5F2EB3807818EE8A}" {
+      SlotTemplate InventoryStorageSlot strob2 {
+       Prefab "{5F7EF7FEBC39B874}Prefabs/Items/Equipment/Nightvision/HelstarStrobe/Helstar.et"
+      }
+      NumSlots 5
+     }
+    }
+   }
+   SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+    Enabled 0
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    additionalActions {
+     SCR_OpenStorageAction "{5476DE57AA50402F}" {
+     }
+    }
+   }
+  }
+  coords 7211.672 4.822 5298.718
+  angleY -84.107
+ }
 }
 $grp GenericEntity : "{EC13D4E934B2ADD8}Prefabs/Items/Demining/MineFlags/MineFlag_US.et" {
  {

@@ -1,22 +1,23 @@
-GenericEntity : "{1571BF54599093AF}PrefabsEditable/Auto/Props/Furniture/E_MeetingTable_01.et" {
- coords 6901.04 91.375 2063.678
-}
 $grp Vehicle : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_camo1.et" {
  Ural4320_transport_covered_camo3 {
-  coords 7479.435 18.574 3166.854
+  coords 7479.435 18.572 3166.854
   angleY 5.541
  }
  Ural4320_transport_covered_camo1 {
-  coords 7483.23 18.574 3185.522
+  coords 7483.23 18.572 3185.522
   angleY 14.751
  }
  Ural4320_transport_covered_camo2 {
-  coords 7480.815 18.574 3176.001
+  coords 7480.814 18.572 3176.001
   angleY 4.442
  }
 }
+GenericEntity : "{2B6D16419B500A87}Prefabs/Props/Furniture/Carpet_02.et" {
+ coords 7487.703 18.555 3224.761
+ angleY 14.508
+}
 $grp GenericEntity : "{3568138FF7A659A1}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/AmmoBoxArsenal_Equipment_US_Apparel.et" {
- box5 {
+ PNV_BOX3 {
   components {
    MeshObject "{5872F0EB7FA40561}" {
     Object "{56B55CB0378598D5}Assets/Props/Military/AmmoBox/EquipmentBoxStack/EquipmentBoxStack_01_V6.xob"
@@ -63,7 +64,7 @@ $grp GenericEntity : "{3568138FF7A659A1}Prefabs/Compositions/Misc/CustomEntities
   coords 7480.131 18.531 3157.591
   angleY -84.107
  }
- box6 {
+ PNV_BOX4 {
   components {
    MeshObject "{5872F0EB7FA40561}" {
     Object "{56B55CB0378598D5}Assets/Props/Military/AmmoBox/EquipmentBoxStack/EquipmentBoxStack_01_V6.xob"
@@ -110,7 +111,7 @@ $grp GenericEntity : "{3568138FF7A659A1}Prefabs/Compositions/Misc/CustomEntities
   coords 7478.022 18.516 3146.988
   angleY -84.107
  }
- box7 {
+ PNV_BOX5 {
   components {
    MeshObject "{5872F0EB7FA40561}" {
     Object "{56B55CB0378598D5}Assets/Props/Military/AmmoBox/EquipmentBoxStack/EquipmentBoxStack_01_V6.xob"
@@ -157,7 +158,7 @@ $grp GenericEntity : "{3568138FF7A659A1}Prefabs/Compositions/Misc/CustomEntities
   coords 7491.234 18.524 3234.204
   angleY -84.107
  }
- box8 {
+ PNV_BOX6 {
   components {
    MeshObject "{5872F0EB7FA40561}" {
     Object "{56B55CB0378598D5}Assets/Props/Military/AmmoBox/EquipmentBoxStack/EquipmentBoxStack_01_V6.xob"
@@ -204,7 +205,7 @@ $grp GenericEntity : "{3568138FF7A659A1}Prefabs/Compositions/Misc/CustomEntities
   coords 7483.649 18.563 3215.223
   angleY -84.107
  }
- box3 {
+ PNV_BOX1 {
   components {
    MeshObject "{5872F0EB7FA40561}" {
     Object "{56B55CB0378598D5}Assets/Props/Military/AmmoBox/EquipmentBoxStack/EquipmentBoxStack_01_V6.xob"
@@ -281,96 +282,19 @@ $grp GenericEntity : "{3568138FF7A659A1}Prefabs/Compositions/Misc/CustomEntities
   coords 7225.297 5.563 5285.59
   angleY -84.107
  }
- box4 {
-  components {
-   MeshObject "{5872F0EB7FA40561}" {
-    Object "{56B55CB0378598D5}Assets/Props/Military/AmmoBox/EquipmentBoxStack/EquipmentBoxStack_01_V6.xob"
-   }
-   SCR_ArsenalComponent "{589F01C9C8D4A475}" {
-    Enabled 0
-   }
-   SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
-    Enabled 0
-   }
-   SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
-    Enabled 0
-   }
-   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5F29491536BBB2C7}" {
-      SlotTemplate InventoryStorageSlot Bandages {
-       Prefab "{A95C4BA303CCB6F3}Prefabs/Items/Stuff/SecretDocuments.et"
-      }
-      NumSlots 1
-     }
-    }
-   }
-   UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5F294915F6461DD1}" {
-      SlotTemplate InventoryStorageSlot Bandages {
-       Prefab "{5B219B96EDC39786}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP_BLK_MC.et"
-      }
-      NumSlots 7
-     }
-     MultiSlotConfiguration "{5F2EB381D61834B3}" {
-      SlotTemplate InventoryStorageSlot nvg2 {
-       Prefab "{B7BA7694F821F556}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual.et"
-      }
-      NumSlots 7
-     }
-     MultiSlotConfiguration "{5F2EB381E7BFDD71}" {
-      SlotTemplate InventoryStorageSlot nvg3 {
-       Prefab "{9A9555D10664B8CB}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_WP.et"
-      }
-      NumSlots 7
-     }
-     MultiSlotConfiguration "{5F2EB3805A4631D9}" {
-      SlotTemplate InventoryStorageSlot supernvg {
-       Prefab "{2B10341C641EC041}Prefabs/Items/Equipment/Thermals/PATROL_IR/Thermal_PatrolIr.et"
-      }
-      NumSlots 3
-     }
-     MultiSlotConfiguration "{5F2EB3806431A6E6}" {
-      SlotTemplate InventoryStorageSlot strob {
-       Prefab "{643AB339663E92F7}Prefabs/Items/Equipment/Nightvision/MS2000/Marker_MS2000.et"
-      }
-      NumSlots 5
-     }
-     MultiSlotConfiguration "{5F2EB3807818EE8A}" {
-      SlotTemplate InventoryStorageSlot strob2 {
-       Prefab "{5F7EF7FEBC39B874}Prefabs/Items/Equipment/Nightvision/HelstarStrobe/Helstar.et"
-      }
-      NumSlots 5
-     }
-    }
-   }
-   SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
-    Enabled 0
-   }
-   ActionsManagerComponent "{5476B36C403D4CC0}" {
-    additionalActions {
-     SCR_OpenStorageAction "{5476DE57AA50402F}" {
-     }
-    }
-   }
-  }
-  coords 7211.672 4.822 5298.718
-  angleY -84.107
- }
 }
 Vehicle APC_K17_Epoch_camoExpo1 : "{3CFCB80B822033CF}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_camoExpo.et" {
  coords 7443.143 18.642 3236.765
  angleY 105.657
 }
 $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_MSV_EMR_RifleSquad_P.et" {
- RF_G_100_3 {
+ RF_G_001_10 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
    }
    PS_GroupCallsignAssigner "{5F2B76AA9640937C}" {
-    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
    }
   }
   coords 7471.685 18.563 3232.05
@@ -379,13 +303,13 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_
    "{F139865249CE32FC}Prefabs/Characters/Factions/OPFOR/RF/SL_Summer.et" "{4BEBE539008FDED6}Prefabs/Characters/Factions/OPFOR/RF/RPK_Rifleman_Summer.et" "{1724F857F5600CFF}Prefabs/Characters/Factions/OPFOR/RF/AT_Summer.et" "{710D03B6DAC45009}Prefabs/Characters/Factions/OPFOR/RF/AT_AS_Summer.et" "{B9B17FE143FA1D0B}Prefabs/Characters/Factions/OPFOR/RF/GL_Summer.et" "{1BF4945913E05213}Prefabs/Characters/Factions/OPFOR/RF/Rifleman_Summer.et" "{B9B17FE143FA1D0B}Prefabs/Characters/Factions/OPFOR/RF/GL_Summer.et" "{1BF4945913E05213}Prefabs/Characters/Factions/OPFOR/RF/Rifleman_Summer.et" "{45DA836F20F9ABDE}Prefabs/Characters/Factions/OPFOR/RF/RF_CREW_DRIVER.et" "{A856E30D26019802}Prefabs/Characters/Factions/OPFOR/RF/RF_CREW.et"
   }
  }
- RF_G_100_4 {
+ RF_G_002_10 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
    }
    PS_GroupCallsignAssigner "{5F2B76AA9640937C}" {
-    m_iCompanyCallsign 1
+    m_iSquadCallsign 2
    }
   }
   coords 7463.565 18.23 3221.218
@@ -394,43 +318,44 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_
    "{F139865249CE32FC}Prefabs/Characters/Factions/OPFOR/RF/SL_Summer.et" "{4BEBE539008FDED6}Prefabs/Characters/Factions/OPFOR/RF/RPK_Rifleman_Summer.et" "{1724F857F5600CFF}Prefabs/Characters/Factions/OPFOR/RF/AT_Summer.et" "{710D03B6DAC45009}Prefabs/Characters/Factions/OPFOR/RF/AT_AS_Summer.et" "{B9B17FE143FA1D0B}Prefabs/Characters/Factions/OPFOR/RF/GL_Summer.et" "{1BF4945913E05213}Prefabs/Characters/Factions/OPFOR/RF/Rifleman_Summer.et" "{B9B17FE143FA1D0B}Prefabs/Characters/Factions/OPFOR/RF/GL_Summer.et" "{1BF4945913E05213}Prefabs/Characters/Factions/OPFOR/RF/Rifleman_Summer.et" "{45DA836F20F9ABDE}Prefabs/Characters/Factions/OPFOR/RF/RF_CREW_DRIVER.et" "{A856E30D26019802}Prefabs/Characters/Factions/OPFOR/RF/RF_CREW.et"
   }
  }
- RF_G_100_6 {
+ RF_G_102_10 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
    }
    PS_GroupCallsignAssigner "{5F2B76AA9640937C}" {
     m_iCompanyCallsign 1
+    m_iSquadCallsign 2
    }
   }
-  coords 7473.675 18.51 3150.912
-  angleY 102.602
+  coords 7476.365 18.51 3148.075
+  angleY -80.904
   m_aUnitPrefabSlots {
    "{F139865249CE32FC}Prefabs/Characters/Factions/OPFOR/RF/SL_Summer.et" "{4BEBE539008FDED6}Prefabs/Characters/Factions/OPFOR/RF/RPK_Rifleman_Summer.et" "{1724F857F5600CFF}Prefabs/Characters/Factions/OPFOR/RF/AT_Summer.et" "{710D03B6DAC45009}Prefabs/Characters/Factions/OPFOR/RF/AT_AS_Summer.et" "{B9B17FE143FA1D0B}Prefabs/Characters/Factions/OPFOR/RF/GL_Summer.et" "{1BF4945913E05213}Prefabs/Characters/Factions/OPFOR/RF/Rifleman_Summer.et" "{B9B17FE143FA1D0B}Prefabs/Characters/Factions/OPFOR/RF/GL_Summer.et" "{1BF4945913E05213}Prefabs/Characters/Factions/OPFOR/RF/Rifleman_Summer.et"
   }
  }
- RF_G_100_5 {
+ RF_G_000_3 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
    }
    PS_GroupCallsignAssigner "{5F2B76AA9640937C}" {
-    m_iCompanyCallsign 1
    }
   }
-  coords 7498.232 18.51 3224.912
-  angleY -155.764
+  coords 7487.877 18.551 3224.866
+  angleY -74.116
   m_aUnitPrefabSlots {
    "{E309B551D5549F9C}Prefabs/Characters/Factions/OPFOR/RF/SUPER_COMMANDER.et" "{2C811C929D606355}Prefabs/Characters/Factions/OPFOR/RF/RADIOMAN.et" "{B7DFC17CC83D6604}Prefabs/Characters/Factions/OPFOR/RF/Medic_Summer.et"
   }
  }
- RF_G_100_2 {
+ RF_G_101_10 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
    }
    PS_GroupCallsignAssigner "{5F2B76AA9640937C}" {
     m_iCompanyCallsign 1
+    m_iSquadCallsign 1
    }
   }
   coords 7470.229 18.51 3151.386
@@ -439,83 +364,8 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_
    "{F139865249CE32FC}Prefabs/Characters/Factions/OPFOR/RF/SL_Summer.et" "{4BEBE539008FDED6}Prefabs/Characters/Factions/OPFOR/RF/RPK_Rifleman_Summer.et" "{1724F857F5600CFF}Prefabs/Characters/Factions/OPFOR/RF/AT_Summer.et" "{710D03B6DAC45009}Prefabs/Characters/Factions/OPFOR/RF/AT_AS_Summer.et" "{B9B17FE143FA1D0B}Prefabs/Characters/Factions/OPFOR/RF/GL_Summer.et" "{1BF4945913E05213}Prefabs/Characters/Factions/OPFOR/RF/Rifleman_Summer.et" "{B9B17FE143FA1D0B}Prefabs/Characters/Factions/OPFOR/RF/GL_Summer.et" "{1BF4945913E05213}Prefabs/Characters/Factions/OPFOR/RF/Rifleman_Summer.et"
   }
  }
- RF_G_100_8 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Line"
-   }
-   PS_GroupCallsignAssigner "{5F2B76AA9640937C}" {
-    m_iCompanyCallsign 1
-   }
-  }
-  coords 6891.896 91.375 2068.653
-  angleY 26.702
-  m_aUnitPrefabSlots {
-   "{FD91E0A9D6C0277C}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_AN94GL.et" "{FD91E0A9D6C0277D}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M.et" "{BE8D39247EDEE362}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M_RPG.et" "{0190786646CABBC3}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M_V2.et"
-  }
- }
- RF_G_100_7 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Line"
-   }
-   PS_GroupCallsignAssigner "{5F2B76AA9640937C}" {
-    m_iCompanyCallsign 1
-   }
-  }
-  coords 6899.74 92.216 2062.195
-  angleY 26.702
-  m_aUnitPrefabSlots {
-   "{9F1A54596CE4BB81}Prefabs/Characters/Factions/OPFOR/RF/HeliPilot.et" "{9F1A54596CE4BB81}Prefabs/Characters/Factions/OPFOR/RF/HeliPilot.et"
-  }
- }
-}
-Vehicle Mi8MTT_A_Black2 : "{4A465E25A866520E}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MTT-A_Black.et" {
- components {
-  SCR_VehicleInventoryStorageManagerComponent "{591056FA3B752FE6}" {
-   InitialInventoryItems {
-    ItemsInitConfigurationItem "{5F2EAD5AB70E1CC3}" {
-     PrefabsToSpawn {
-      "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/Radio_R107M.et"
-     }
-    }
-   }
-  }
- }
- coords 6882.834 91.375 2075.982
- angleY 108.345
-}
-$grp GameEntity : "{B0534A120633D08D}Prefabs/Items/Equipment/Nightvision/1PN138/NVG_1PN138.et" {
- {
-  coords 6900.957 92.281 2063.631
- }
- {
-  coords 6900.761 92.281 2063.597
- }
-}
-PS_ManualMarker RF_Ural4320_Marker4 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- coords 7459.012 18.807 3178.119
- angleY 90
- m_sImageSet "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
- m_sImageSetGlow "{6980E83C053C9B5D}UI/Textures/Icons/icons_wrapperUI-128-glow.imageset"
- m_MarkerColor 0.49 0.49 0.49 1
- m_sQuadName "vehicles"
- m_fWorldSize 5
- m_sDescription "Ural4320"
- m_aVisibleForFactions {
-  "FIA" "RHS_US_USMC" "RHS_RF_MSV"
- }
- m_bVisibleForEmptyFaction 1
 }
 Vehicle APC_K17_Berezok_camo1 : "{DD0CB0331A3D8CA7}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok_camo1.et" {
  coords 7440.445 18.681 3231.31
  angleY 105.106
-}
-$grp GameEntity : "{FAFAF9256682B193}Prefabs/Characters/HeadGear/Helmet_LShZ/Helmet_LShZ_HC_black.et" {
- {
-  coords 6901.776 92.281 2063.636
- }
- {
-  coords 6901.416 92.281 2063.727
- }
 }

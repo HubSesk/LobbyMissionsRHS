@@ -1,20 +1,55 @@
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- US_Infantry_1 {
-  coords 7146.35 6.632 5327.027
+ RF_Helicopter2 {
+  coords 6895.858 91.375 2073.775
   angleY 90
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.49 0.49 0.49 1
-  m_sQuadName "infantry-blufor"
+  m_sQuadName "Transport-flight-opfor"
   m_fWorldSize 35
-  m_sDescription "Блазер"
+  m_sDescription "Дубы (Эбонит)"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "FIA" "RHS_US_USMC" "RHS_RF_MSV"
   }
   m_bVisibleForEmptyFaction 1
   {
-   GenericEntity US {
+   GenericEntity RF3 {
+    components {
+     MeshObject "{5F2B766A5868D095}" {
+      Object "{FF35BE9795BA3797}system/wbdata/Gizmo3D/sphere.xob"
+      Materials {
+       MaterialAssignClass "{5F2B7675D0F068A0}" {
+        SourceMaterial "system/wbdata/gizmo3D/gizmo3D"
+        AssignedMaterial "{193FD436F20158AB}system/wbdata/Gizmo3D/gizmo3DRF.emat"
+       }
+      }
+      PixelSizeScale 10
+     }
+    }
+    coords 0 256 0
+    angleY -90
+    scale 200
+    Flags 1048579
+   }
+  }
+ }
+ US_Infantry_3 {
+  coords 7209.859 4.52 5306.069
+  angleY 90
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.49 0.49 0.49 1
+  m_sQuadName "infantry-blufor"
+  m_fWorldSize 35
+  m_sDescription "Альфа"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA" "RHS_US_USMC" "RHS_RF_MSV"
+  }
+  m_bVisibleForEmptyFaction 1
+  {
+   GenericEntity US4 {
     components {
      MeshObject "{5F2B766A5868D095}" {
       Object "{FF35BE9795BA3797}system/wbdata/Gizmo3D/sphere.xob"
@@ -34,43 +69,60 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    }
   }
  }
- US_Motorized_1 {
-  coords 7294.869 5.281 5130.831
+ RF_Motorized2 {
+  coords 7470.271 18.572 3226.847
   angleY 90
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.49 0.49 0.49 1
-  m_sQuadName "motorized-blufor"
+  m_sQuadName "Motorized-rifle-opfor"
   m_fWorldSize 35
-  m_sDescription "Хаос"
+  m_sDescription "Актив"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "FIA" "RHS_US_USMC" "RHS_RF_MSV"
   }
   m_bVisibleForEmptyFaction 1
   {
-   GenericEntity US2 {
+   GenericEntity RF5 {
     components {
      MeshObject "{5F2B766A5868D095}" {
       Object "{FF35BE9795BA3797}system/wbdata/Gizmo3D/sphere.xob"
       Materials {
-       MaterialAssignClass "{5F2B7675D760BA03}" {
+       MaterialAssignClass "{5F2B7675D0F068A0}" {
         SourceMaterial "system/wbdata/gizmo3D/gizmo3D"
-        AssignedMaterial "{74416E879ECF872C}system/wbdata/Gizmo3D/gizmo3DUS.emat"
+        AssignedMaterial "{193FD436F20158AB}system/wbdata/Gizmo3D/gizmo3DRF.emat"
        }
       }
       PixelSizeScale 10
      }
     }
     coords 0 256 0
-    angleY 180
+    angleY 90
     scale 200
     Flags 1048579
    }
   }
  }
- RF_Motorized {
-  coords 5513.875 124.719 6903.29
+ SUS_SUS {
+  coords 2979.761 0 2188.359
+  angleY 70
+  m_sImageSet "{29F6190274B2CF97}images/BackDoor/Sus.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "QUAD"
+  m_fWorldSize 150
+  m_sDescription "У миссии есть описание."\
+  "Там вот слева снизу, если монитор не перевернут и включен, на что я надеюсь. "\
+  "В общем там черная такая менюшка."\
+  ""\
+  "В это сложно поверить но она кликабельная. "\
+  "Там можно описание миссии почитать, если конечно уметь читать на русском. "\
+  "Так что да, все это время на эвентах было описание."
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+ }
+ RF_Motorized3 {
+  coords 7472.42 18.572 3152.289
   angleY 90
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
@@ -103,125 +155,5 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
     Flags 1048579
    }
   }
- }
- RF_Helicopter {
-  coords 1212.722 2.96 5047.497
-  angleY 90
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.49 0.49 0.49 1
-  m_sQuadName "Transport-flight-opfor"
-  m_fWorldSize 35
-  m_sDescription "Веды (Эбонит)"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "FIA" "RHS_US_USMC" "RHS_RF_MSV"
-  }
-  m_bVisibleForEmptyFaction 1
-  {
-   GenericEntity RF {
-    components {
-     MeshObject "{5F2B766A5868D095}" {
-      Object "{FF35BE9795BA3797}system/wbdata/Gizmo3D/sphere.xob"
-      Materials {
-       MaterialAssignClass "{5F2B7675D0F068A0}" {
-        SourceMaterial "system/wbdata/gizmo3D/gizmo3D"
-        AssignedMaterial "{193FD436F20158AB}system/wbdata/Gizmo3D/gizmo3DRF.emat"
-       }
-      }
-      PixelSizeScale 10
-     }
-    }
-    coords 0 256 0
-    angleY -90
-    scale 200
-    Flags 1048579
-   }
-  }
- }
- RF_Maintenance {
-  coords 6241.94 81.805 6071.637
-  angleY 90
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.49 0.49 0.49 1
-  m_sQuadName "maintenance-opfor"
-  m_fWorldSize 35
-  m_sDescription "Актив"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "FIA" "RHS_US_USMC" "RHS_RF_MSV"
-  }
-  m_bVisibleForEmptyFaction 1
-  {
-   GenericEntity RF4 {
-    components {
-     MeshObject "{5F2B766A5868D095}" {
-      Object "{FF35BE9795BA3797}system/wbdata/Gizmo3D/sphere.xob"
-      Materials {
-       MaterialAssignClass "{5F2B7675D0F068A0}" {
-        SourceMaterial "system/wbdata/gizmo3D/gizmo3D"
-        AssignedMaterial "{193FD436F20158AB}system/wbdata/Gizmo3D/gizmo3DRF.emat"
-       }
-      }
-      PixelSizeScale 10
-     }
-    }
-    coords 0 256 0
-    angleY 180
-    scale 200
-    Flags 1048579
-   }
-  }
- }
- US_Motorized_2 {
-  coords 7495.812 18.541 3223.925
-  angleY 90
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.49 0.49 0.49 1
-  m_sQuadName "Motorized-rifle-blufor"
-  m_fWorldSize 35
-  m_sDescription "Диско"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "FIA" "RHS_US_USMC" "RHS_RF_MSV"
-  }
-  m_bVisibleForEmptyFaction 1
- }
- B_AccidentSUS {
-  coords 6201.102 63.661 6079.753
-  angleY 36.606
-  m_sImageSet "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.502 0 0 1
-  m_sQuadName "AR_icon_help_01"
-  m_fWorldSize 50
-  m_bUseWorldScale 0
-  m_bVisibleForEmptyFaction 1
- }
- SUS_SUS {
-  coords 2979.761 0 2188.359
-  angleY 70
-  m_sImageSet "{29F6190274B2CF97}images/BackDoor/Sus.imageset"
-  m_sImageSetGlow ""
-  m_sQuadName "QUAD"
-  m_fWorldSize 150
-  m_sDescription "ВСЯ ТЕХНИКА ПОМЕЧЕНАЯ МАРКЕРАМИ НА КАРТЕ."\
-  "Они в мировом масштабе придется преблизить камеру что бы их рассмотреть."\
-  "Но там такая иконочка машинки и написано что это, смотри рядом с отрядами."\
-  ""\
-  "А еще у миссии есть описание."\
-  "Там вот слева снизу, если монитор не перевернут и включен, на что я надеюсь. "\
-  "В общем там черная такая менюшка."\
-  ""\
-  "В это сложно поверить но она кликабельная. "\
-  "Там можно описание миссии почитать, если конечно уметь читать на русском. "\
-  "Так что да, все это время на эвентах было описание."\
-  ""\
-  "СУС"\
-  "А тебе интересен только СУС"
-  m_bUseWorldScale 0
-  m_bVisibleForEmptyFaction 1
  }
 }
