@@ -1,23 +1,27 @@
 Vehicle Ural4320_transport_covered_camo1 : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_camo1.et" {
- coords 5521.598 123.857 6907.136
+ coords 5517.778 123.748 6909.605
+ angleX -6.484
+ angleY 13.573
+ angleZ 0.268
 }
 $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_MSV_EMR_RifleSquad_P.et" {
- RF_G_100_6 {
+ RF_G_101_8 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
    }
    PS_GroupCallsignAssigner "{5F2B76AA9640937C}" {
     m_iCompanyCallsign 1
+    m_iSquadCallsign 1
    }
   }
-  coords 5518.022 124.531 6890.126
-  angleY -81
+  coords 5515.688 124.531 6895.314
+  angleY -8.05
   m_aUnitPrefabSlots {
    "{F139865249CE32FC}Prefabs/Characters/Factions/OPFOR/RF/SL_Summer.et" "{4BEBE539008FDED6}Prefabs/Characters/Factions/OPFOR/RF/RPK_Rifleman_Summer.et" "{1724F857F5600CFF}Prefabs/Characters/Factions/OPFOR/RF/AT_Summer.et" "{710D03B6DAC45009}Prefabs/Characters/Factions/OPFOR/RF/AT_AS_Summer.et" "{B9B17FE143FA1D0B}Prefabs/Characters/Factions/OPFOR/RF/GL_Summer.et" "{1BF4945913E05213}Prefabs/Characters/Factions/OPFOR/RF/Rifleman_Summer.et" "{B9B17FE143FA1D0B}Prefabs/Characters/Factions/OPFOR/RF/GL_Summer.et" "{1BF4945913E05213}Prefabs/Characters/Factions/OPFOR/RF/Rifleman_Summer.et"
   }
  }
- RF_G_100_2 {
+ RF_G_100_8 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -26,30 +30,46 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_
     m_iCompanyCallsign 1
    }
   }
-  coords 5511.419 125.183 6901.748
-  angleY -81
+  coords 5487.353 125.183 6903.374
+  angleY 178.217
   m_aUnitPrefabSlots {
    "{F139865249CE32FC}Prefabs/Characters/Factions/OPFOR/RF/SL_Summer.et" "{4BEBE539008FDED6}Prefabs/Characters/Factions/OPFOR/RF/RPK_Rifleman_Summer.et" "{1724F857F5600CFF}Prefabs/Characters/Factions/OPFOR/RF/AT_Summer.et" "{710D03B6DAC45009}Prefabs/Characters/Factions/OPFOR/RF/AT_AS_Summer.et" "{B9B17FE143FA1D0B}Prefabs/Characters/Factions/OPFOR/RF/GL_Summer.et" "{1BF4945913E05213}Prefabs/Characters/Factions/OPFOR/RF/Rifleman_Summer.et" "{B9B17FE143FA1D0B}Prefabs/Characters/Factions/OPFOR/RF/GL_Summer.et" "{1BF4945913E05213}Prefabs/Characters/Factions/OPFOR/RF/Rifleman_Summer.et"
   }
  }
 }
-PS_ManualMarker RF_Ural4320_Marker4 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- coords 5522.751 124.082 6888.987
- angleY 90
- m_sImageSet "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
- m_sImageSetGlow "{6980E83C053C9B5D}UI/Textures/Icons/icons_wrapperUI-128-glow.imageset"
- m_MarkerColor 0.49 0.49 0.49 1
- m_sQuadName "vehicles"
- m_fWorldSize 5
- m_sDescription "Ural4320"
- m_aVisibleForFactions {
-  "FIA" "RHS_US_USMC" "RHS_RF_MSV"
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ RF_Ural4320_Marker4 {
+  coords 5516.663 123.729 6910.092
+  angleY 90
+  m_sImageSet "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
+  m_sImageSetGlow "{6980E83C053C9B5D}UI/Textures/Icons/icons_wrapperUI-128-glow.imageset"
+  m_MarkerColor 0.49 0.49 0.49 1
+  m_sQuadName "vehicles"
+  m_fWorldSize 5
+  m_sDescription "Ural4320"
+  m_aVisibleForFactions {
+   "FIA" "RHS_US_USMC" "RHS_RF_MSV"
+  }
+  m_bVisibleForEmptyFaction 1
  }
- m_bVisibleForEmptyFaction 1
+ RF_Ural4320_Marker2 {
+  coords 5483.226 128.933 6898.631
+  angleY 90
+  m_sImageSet "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
+  m_sImageSetGlow "{6980E83C053C9B5D}UI/Textures/Icons/icons_wrapperUI-128-glow.imageset"
+  m_MarkerColor 0.49 0.49 0.49 1
+  m_sQuadName "vehicles"
+  m_fWorldSize 5
+  m_sDescription "Ural4320"
+  m_aVisibleForFactions {
+   "FIA" "RHS_US_USMC" "RHS_RF_MSV"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
 }
 Vehicle Ural4320_transport_covered3 : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
- coords 5523.794 123.993 6888.564
- angleX 0.884
- angleY 0.139
- angleZ 4.469
+ coords 5482.853 128.956 6899.628
+ angleX -3.56
+ angleY 84.568
+ angleZ 0.338
 }

@@ -1,54 +1,93 @@
 $grp SCR_AIGroup : "{2A4F66BD652F1C8E}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_RifleSquad_P.et" {
- US_G_100_3 {
+ US_G_110_10 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
    PS_GroupCallsignAssigner "{5F2B76ABB72D4EDB}" {
     m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
    }
   }
-  coords 7307.684 3.919 5145.691
-  angleY 31.233
+  coords 7309.661 3.919 5145.154
+  angleY -61.49
   m_aUnitPrefabSlots {
    "{6CFE2E00DE0B723E}Prefabs/Characters/Factions/BLUFOR/USMC/SL.et" "{9A6BBBFA12B4A9D1}Prefabs/Characters/Factions/BLUFOR/USMC/ASL.et" "{001F10B2290F2910}Prefabs/Characters/Factions/BLUFOR/USMC/SSO.et" "{A1FD6EBA9A1B5D4D}Prefabs/Characters/Factions/BLUFOR/USMC/TL1.et" "{D9DEB6DE9506CE71}Prefabs/Characters/Factions/BLUFOR/USMC/AT.et" "{A3D5B68A10B93AD6}Prefabs/Characters/Factions/BLUFOR/USMC/GL1.et" "{210F34F2B0B0CBB2}Prefabs/Characters/Factions/BLUFOR/USMC/USMC_Sniper.et" "{CDA95A5A26DFD263}Prefabs/Characters/Factions/BLUFOR/USMC/TL2.et" "{17BDAA31CB3B46C4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Rifleman_P.et" "{CF81826AAC7DB5F8}Prefabs/Characters/Factions/BLUFOR/USMC/GL2.et" "{69A2B88C24D9D54A}Prefabs/Characters/Factions/BLUFOR/USMC/MEDIC.et"
   }
  }
- US_G_100_4 {
+ US_G_111_10 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
    PS_GroupCallsignAssigner "{5F2B76ABB72D4EDB}" {
     m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
    }
   }
-  coords 7309.663 3.113 5154.02
-  angleY 30.631
+  coords 7300.919 3.786 5150.673
+  angleY 116.473
   m_aUnitPrefabSlots {
    "{6CFE2E00DE0B723E}Prefabs/Characters/Factions/BLUFOR/USMC/SL.et" "{9A6BBBFA12B4A9D1}Prefabs/Characters/Factions/BLUFOR/USMC/ASL.et" "{001F10B2290F2910}Prefabs/Characters/Factions/BLUFOR/USMC/SSO.et" "{A1FD6EBA9A1B5D4D}Prefabs/Characters/Factions/BLUFOR/USMC/TL1.et" "{D9DEB6DE9506CE71}Prefabs/Characters/Factions/BLUFOR/USMC/AT.et" "{A3D5B68A10B93AD6}Prefabs/Characters/Factions/BLUFOR/USMC/GL1.et" "{210F34F2B0B0CBB2}Prefabs/Characters/Factions/BLUFOR/USMC/USMC_Sniper.et" "{CDA95A5A26DFD263}Prefabs/Characters/Factions/BLUFOR/USMC/TL2.et" "{17BDAA31CB3B46C4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Rifleman_P.et" "{CF81826AAC7DB5F8}Prefabs/Characters/Factions/BLUFOR/USMC/GL2.et" "{69A2B88C24D9D54A}Prefabs/Characters/Factions/BLUFOR/USMC/MEDIC.et"
   }
  }
 }
-Vehicle M923A1_transport_covered1 : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
- components {
-  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
-   FuelNodes {
-    SCR_FuelNode "{5622A70CD4036C5A}" {
+$grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
+ M923A1_transport_covered1 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+     }
     }
    }
   }
+  coords 7281.79 5.462 5141.007
+  angleX 1.751
+  angleY 77.999
+  angleZ -0.372
  }
- coords 7281.79 5.462 5141.007
- angleX 1.751
- angleY 77.999
- angleZ -0.372
+ M923A1_transport_covered2 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+     }
+    }
+   }
+  }
+  coords 7296.064 5.281 5123.432
+  angleY -18.091
+ }
 }
-PS_ManualMarker US_M923A1_Marker2 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- coords 7284.455 7.711 5141.385
- angleY 90
- m_sImageSet "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
- m_sImageSetGlow "{6980E83C053C9B5D}UI/Textures/Icons/icons_wrapperUI-128-glow.imageset"
- m_MarkerColor 0.49 0.49 0.49 1
- m_sQuadName "vehicles"
- m_fWorldSize 5
- m_sDescription "M923A1"
- m_aVisibleForFactions {
-  "FIA" "RHS_US_USMC" "RHS_RF_MSV"
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ US_M923A1_Marker2 {
+  coords 7280.749 5.448 5143.208
+  angleY 90
+  m_sImageSet "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
+  m_sImageSetGlow "{6980E83C053C9B5D}UI/Textures/Icons/icons_wrapperUI-128-glow.imageset"
+  m_MarkerColor 0.49 0.49 0.49 1
+  m_sQuadName "vehicles"
+  m_fWorldSize 5
+  m_sDescription "M923A1"
+  m_aVisibleForFactions {
+   "FIA" "RHS_US_USMC" "RHS_RF_MSV"
+  }
+  m_bVisibleForEmptyFaction 1
  }
- m_bVisibleForEmptyFaction 1
+ US_M923A1_Marker3 {
+  coords 7296.563 5.281 5126.579
+  angleY 90
+  m_sImageSet "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
+  m_sImageSetGlow "{6980E83C053C9B5D}UI/Textures/Icons/icons_wrapperUI-128-glow.imageset"
+  m_MarkerColor 0.49 0.49 0.49 1
+  m_sQuadName "vehicles"
+  m_fWorldSize 5
+  m_sDescription "M923A1"
+  m_aVisibleForFactions {
+   "FIA" "RHS_US_USMC" "RHS_RF_MSV"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
 }

@@ -11,27 +11,30 @@ Vehicle Mi8MTT_A_Black1 : "{4A465E25A866520E}Prefabs/Vehicles/Helicopters/Mi8MT/
 $grp SCR_AIGroup : "{4FCA17657529D4C2}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_MSV_EMR_Team_AT_P.et" {
  RF_G_401_4 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
    PS_GroupCallsignAssigner "{5F2B76AAD2CC0CD0}" {
     m_iCompanyCallsign 4
     m_iSquadCallsign 1
    }
   }
-  coords 1213.635 2.999 5052.167
-  angleY -167.227
+  coords 1213.266 2.999 5049.373
+  angleY 119.952
   m_aUnitPrefabSlots {
    "{FD91E0A9D6C0277C}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_AN94GL.et" "{FD91E0A9D6C0277D}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M.et" "{0190786646CABBC3}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M_V2.et" "{BE8D39247EDEE362}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M_RPG.et"
   }
   m_sCustomNameSet "Веды"
  }
- RF_G_401_2 {
+ RF_G_402_2 {
   components {
    PS_GroupCallsignAssigner "{5F2B76AAD2CC0CD0}" {
     m_iCompanyCallsign 4
-    m_iSquadCallsign 3
+    m_iSquadCallsign 2
    }
   }
-  coords 1207.332 3 5048.601
-  angleY -167.227
+  coords 1220.979 3.513 5053.979
+  angleY -152.09
   m_aUnitPrefabSlots {
    "{9F1A54596CE4BB81}Prefabs/Characters/Factions/OPFOR/RF/HeliPilot.et" "{9F1A54596CE4BB81}Prefabs/Characters/Factions/OPFOR/RF/HeliPilot.et"
   }
@@ -40,12 +43,15 @@ $grp SCR_AIGroup : "{4FCA17657529D4C2}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_
 }
 SCR_AIGroup RF_G_400_4 : "{BE95DFE601E567C6}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_MSV_EMR_FireGroup_P.et" {
  components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
   PS_GroupCallsignAssigner "{5F2D158E872F20AE}" {
    m_iCompanyCallsign 4
   }
  }
- coords 1215.307 3 5040.818
- angleY -135
+ coords 1218.58 3 5041.884
+ angleY -61.972
  m_aUnitPrefabSlots {
   "{FD91E0A9D6C0277C}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_AN94GL.et" "{FD91E0A9D6C0277D}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M.et" "{0190786646CABBC3}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M_V2.et" "{BE8D39247EDEE362}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M_RPG.et"
  }

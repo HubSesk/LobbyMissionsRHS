@@ -1,28 +1,31 @@
-Vehicle M997_maxi_ambulance1 : "{00C9BBE426F7D459}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance.et" {
- coords 7473.447 18.562 3237.751
- angleY 102.86
-}
 $grp SCR_AIGroup : "{2A4F66BD652F1C8E}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_RifleSquad_P.et" {
- US_G_100_14 {
+ US_G_100_10 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
    PS_GroupCallsignAssigner "{5F2B76ABB72D4EDB}" {
     m_iCompanyCallsign 1
    }
   }
-  coords 7188.11 4.984 5295.785
-  angleY -130
+  coords 7147.187 4.984 5327.613
+  angleY 179.331
   m_aUnitPrefabSlots {
    "{6CFE2E00DE0B723E}Prefabs/Characters/Factions/BLUFOR/USMC/SL.et" "{9A6BBBFA12B4A9D1}Prefabs/Characters/Factions/BLUFOR/USMC/ASL.et" "{001F10B2290F2910}Prefabs/Characters/Factions/BLUFOR/USMC/SSO.et" "{A1FD6EBA9A1B5D4D}Prefabs/Characters/Factions/BLUFOR/USMC/TL1.et" "{D9DEB6DE9506CE71}Prefabs/Characters/Factions/BLUFOR/USMC/AT.et" "{A3D5B68A10B93AD6}Prefabs/Characters/Factions/BLUFOR/USMC/GL1.et" "{210F34F2B0B0CBB2}Prefabs/Characters/Factions/BLUFOR/USMC/USMC_Sniper.et" "{CDA95A5A26DFD263}Prefabs/Characters/Factions/BLUFOR/USMC/TL2.et" "{17BDAA31CB3B46C4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Rifleman_P.et" "{CF81826AAC7DB5F8}Prefabs/Characters/Factions/BLUFOR/USMC/GL2.et" "{69A2B88C24D9D54A}Prefabs/Characters/Factions/BLUFOR/USMC/MEDIC.et"
   }
  }
- US_G_100_2 {
+ US_G_101_10 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
    PS_GroupCallsignAssigner "{5F2B76ABB72D4EDB}" {
     m_iCompanyCallsign 1
+    m_iSquadCallsign 1
    }
   }
-  coords 7139.702 6.733 5325.608
-  angleY -130
+  coords 7147.171 6.733 5320.437
+  angleY -1.28
   m_aUnitPrefabSlots {
    "{6CFE2E00DE0B723E}Prefabs/Characters/Factions/BLUFOR/USMC/SL.et" "{9A6BBBFA12B4A9D1}Prefabs/Characters/Factions/BLUFOR/USMC/ASL.et" "{001F10B2290F2910}Prefabs/Characters/Factions/BLUFOR/USMC/SSO.et" "{A1FD6EBA9A1B5D4D}Prefabs/Characters/Factions/BLUFOR/USMC/TL1.et" "{D9DEB6DE9506CE71}Prefabs/Characters/Factions/BLUFOR/USMC/AT.et" "{A3D5B68A10B93AD6}Prefabs/Characters/Factions/BLUFOR/USMC/GL1.et" "{210F34F2B0B0CBB2}Prefabs/Characters/Factions/BLUFOR/USMC/USMC_Sniper.et" "{CDA95A5A26DFD263}Prefabs/Characters/Factions/BLUFOR/USMC/TL2.et" "{17BDAA31CB3B46C4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Rifleman_P.et" "{CF81826AAC7DB5F8}Prefabs/Characters/Factions/BLUFOR/USMC/GL2.et" "{69A2B88C24D9D54A}Prefabs/Characters/Factions/BLUFOR/USMC/MEDIC.et"
   }

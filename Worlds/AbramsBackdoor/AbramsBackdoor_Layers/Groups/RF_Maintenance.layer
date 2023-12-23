@@ -37,13 +37,13 @@ RHS_Tank Tank_T1 : "{48BB423641D40E77}Prefabs/Vehicles/Tracked/T14/Tank_T14.et" 
  angleY -53.578
  angleZ 7.579
 }
-SCR_AIGroup RF_G_010_4 : "{5A4B8E45BA692CDA}Prefabs/Groups/OPFOR/RHS_RF_MSV/Flora/Group_MSV_Flora_LightFireTeam_P.et" {
+SCR_AIGroup RF_G_002_4 : "{5A4B8E45BA692CDA}Prefabs/Groups/OPFOR/RHS_RF_MSV/Flora/Group_MSV_Flora_LightFireTeam_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Line"
   }
   PS_GroupCallsignAssigner "{5F2B76B4822EEF1B}" {
-   m_iPlatoonCallsign 1
+   m_iSquadCallsign 2
   }
  }
  coords 6200.03 64.25 6091.851

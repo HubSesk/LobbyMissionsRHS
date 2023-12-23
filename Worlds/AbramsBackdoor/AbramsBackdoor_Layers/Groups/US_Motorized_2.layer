@@ -1,10 +1,17 @@
+Vehicle M997_maxi_ambulance1 : "{00C9BBE426F7D459}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance.et" {
+ coords 7473.447 18.562 3237.751
+ angleY 102.86
+}
 SCR_AIGroup US_G_100_5 : "{2A4F66BD652F1C8E}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_RifleSquad_P.et" {
  components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
+  }
   PS_GroupCallsignAssigner "{5F2B76ABB72D4EDB}" {
    m_iCompanyCallsign 1
   }
  }
- coords 7485.891 18.563 3230.303
+ coords 7483.142 18.563 3226.658
  angleY 92.096
  m_aUnitPrefabSlots {
   "{6CFE2E00DE0B723E}Prefabs/Characters/Factions/BLUFOR/USMC/SL.et" "{9A6BBBFA12B4A9D1}Prefabs/Characters/Factions/BLUFOR/USMC/ASL.et" "{001F10B2290F2910}Prefabs/Characters/Factions/BLUFOR/USMC/SSO.et" "{A1FD6EBA9A1B5D4D}Prefabs/Characters/Factions/BLUFOR/USMC/TL1.et" "{D9DEB6DE9506CE71}Prefabs/Characters/Factions/BLUFOR/USMC/AT.et" "{A3D5B68A10B93AD6}Prefabs/Characters/Factions/BLUFOR/USMC/GL1.et" "{210F34F2B0B0CBB2}Prefabs/Characters/Factions/BLUFOR/USMC/USMC_Sniper.et" "{CDA95A5A26DFD263}Prefabs/Characters/Factions/BLUFOR/USMC/TL2.et" "{17BDAA31CB3B46C4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Rifleman_P.et" "{CF81826AAC7DB5F8}Prefabs/Characters/Factions/BLUFOR/USMC/GL2.et" "{69A2B88C24D9D54A}Prefabs/Characters/Factions/BLUFOR/USMC/MEDIC.et"
@@ -58,6 +65,20 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sQuadName "vehicles"
   m_fWorldSize 5
   m_sDescription "M1025_M2"
+  m_aVisibleForFactions {
+   "FIA" "RHS_US_USMC" "RHS_RF_MSV"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ US_Motorized_M1025_M2_Marker3 {
+  coords 7471.92 18.562 3236.542
+  angleY 90
+  m_sImageSet "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
+  m_sImageSetGlow "{6980E83C053C9B5D}UI/Textures/Icons/icons_wrapperUI-128-glow.imageset"
+  m_MarkerColor 0.49 0.49 0.49 1
+  m_sQuadName "vehicles"
+  m_fWorldSize 5
+  m_sDescription "M997 Ambulance"
   m_aVisibleForFactions {
    "FIA" "RHS_US_USMC" "RHS_RF_MSV"
   }
