@@ -130,6 +130,25 @@ $grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
  }
 }
 Vehicle UH1H1 : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5F2EB3810F7EECB3}" {
+     SourceMaterial "UH_1H_Body01_6224CA051369DE45"
+     AssignedMaterial "{921268912B27E598}Assets/Vehicles/Helicopters/UH1H/Data/UH_1H_Body01_white.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo USArmyDecal {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Interior_TieDownPoints {
+    }
+   }
+  }
+ }
  coords 1289.738 2.75 5038
  angleY 29.732
 }

@@ -1,0 +1,56 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ US_Motorized2Image {
+  coords 7561.987 18.562 3253.689
+  angleY 75.642
+  m_sImageSet "{76E38E69D73D3987}images/BackDoor/US_Motorized2.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "QUAD"
+  m_fWorldSize 40
+  m_bVisibleForEmptyFaction 1
+ }
+ US_Motorized1Image {
+  coords 7325.485 4.675 5181.403
+  angleY 70.652
+  m_sImageSet "{3613AF4C6121BBC0}images/BackDoor/US_Motorized1.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "QUAD"
+  m_fWorldSize 45
+  m_bVisibleForEmptyFaction 1
+ }
+ US_InfanteryImage {
+  coords 7184.313 6.197 5375.444
+  angleY 75.223
+  m_sImageSet "{F2208FFC1F0CF16D}images/BackDoor/US_Infantry.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "QUAD"
+  m_fWorldSize 45
+  m_bVisibleForEmptyFaction 1
+ }
+ RF_MaintanceImage {
+  coords 6101.95 67.523 6084.903
+  angleY 63.606
+  m_sImageSet "{9BFA910F62EADB93}images/BackDoor/RF_Maintance.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "QUAD"
+  m_fWorldSize 50
+  m_bVisibleForEmptyFaction 1
+ }
+ RF_MotorizedImage {
+  coords 5418.875 125.679 6963.362
+  angleY 72.874
+  m_sImageSet "{F08866A08AAC9221}images/BackDoor/RF_Motorized.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "QUAD"
+  m_fWorldSize 35
+  m_bVisibleForEmptyFaction 1
+ }
+ RF_HelicopterImage {
+  coords 1137.5 1.802 5033.56
+  angleY 70.871
+  m_sImageSet "{B71BE8988871154B}images/BackDoor/RF_Helicopter.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "QUAD"
+  m_fWorldSize 40
+  m_bVisibleForEmptyFaction 1
+ }
+}
