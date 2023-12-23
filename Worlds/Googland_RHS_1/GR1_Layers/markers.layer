@@ -1,4 +1,75 @@
-PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- coords 4258.526 12.144 8994.846
- angleY 0
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ aktiv23 {
+  coords 4258.526 12.144 8994.846
+  angleY 0
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.588 0.588 0.588 1
+  m_sQuadName "Undefined-opfor"
+  m_fWorldSize 35
+  m_sDescription "Актив 23"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+ }
+ aktiv {
+  coords 4509.831 11.156 8821.337
+  angleY 0
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.588 0.588 0.588 1
+  m_sQuadName "Undefined-opfor"
+  m_fWorldSize 35
+  m_sDescription "Актив 11"\
+  "Актив 21"\
+  "Актив 22"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+ }
+ aktiv2 {
+  coords 5505.056 126.121 6902.291
+  angleY 0
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.588 0.588 0.588 1
+  m_sQuadName "Undefined-opfor"
+  m_fWorldSize 35
+  m_sDescription "Буран"\
+  "Динамо"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+ }
+ us_start {
+  coords 4703.766 12.403 10586.858
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.588 0.588 0.588 1
+  m_sQuadName "Undefined-blufor"
+  m_fWorldSize 35
+  m_sDescription "USMC"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV" "RHS_US_USMC"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ rf_start {
+  coords 4550.068 11.134 8796.697
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.588 0.588 0.588 1
+  m_sQuadName "Undefined-opfor"
+  m_fWorldSize 35
+  m_sDescription "База РФ"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
 }
