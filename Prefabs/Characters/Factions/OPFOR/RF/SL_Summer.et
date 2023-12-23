@@ -59,9 +59,10 @@ SCR_ChimeraCharacter : "{3B167AFE3D75631C}Prefabs/Characters/Factions/OPFOR/RHS_
      TargetStorage "Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45_folded_collar_srachnik.et"
     }
     ItemsInitConfigurationItem "{5EA287E11A3D09CF}" {
-     TargetStorage ""
+     TargetStorage "Prefabs/Characters/Vests/Vest_Ratnik_Pouches/Pouch_Ratnik_azart_pouch.et"
      TargetPurpose 64
      PrefabsToSpawn {
+      "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD.et"
      }
     }
     ItemsInitConfigurationItem "{5EA4980D427B6964}" {
