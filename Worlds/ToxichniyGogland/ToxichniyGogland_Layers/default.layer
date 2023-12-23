@@ -5,10 +5,17 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 TagManager : "{2FA9E172CAB1857A}Prefabs/MP/Managers/TagManager.et" {
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 3
+   m_iStartingMinutes 20
+  }
+ }
  m_fAutoReloadTime 300
  m_iAvailableReconnectTime 300000
  m_bKillRedundantUnits 1
  m_bRemoveSquadMarkers 1
+ m_iFreezeTime 220000
  {
   SCR_FactionManager "5F2B25DD2FE1CDD2" {
    ID "5ED9088735FF2D8B"
