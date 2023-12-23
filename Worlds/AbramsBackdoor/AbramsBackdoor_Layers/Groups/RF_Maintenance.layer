@@ -32,6 +32,67 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_
  }
 }
 RHS_Tank Tank_T1 : "{48BB423641D40E77}Prefabs/Vehicles/Tracked/T14/Tank_T14.et" {
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Angles 0 45.5735 0
+     Prefab "{2B039AC60E383DF8}Prefabs/Vehicles/Tracked/T14/VehParts/Turret/T14_Turret_postrgli_kak_loha.et"
+    }
+    RegisteringComponentSlotInfo era_1_left {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo era_2_left {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo era_3_left {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo era_4_left {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo era_5_left {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo skirt_left {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo cage_1_left {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo cage_2_left {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo cage_2_right {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo cage_1_right {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo skirt_right {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo era_5_right {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo era_4_right {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo era_3_right {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo era_2_right {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo era_1_right {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo era_front {
+     Enabled 0
+    }
+   }
+  }
+ }
  coords 6199.789 66.415 6079.422
  angleX 14.888
  angleY -53.578
