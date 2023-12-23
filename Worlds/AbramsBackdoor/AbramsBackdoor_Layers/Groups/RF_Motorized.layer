@@ -1,14 +1,37 @@
-SCR_AIGroup RF_G_100_6 : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_MSV_EMR_RifleSquad_P.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "Line"
+Vehicle Ural4320_transport_covered_camo1 : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_camo1.et" {
+ coords 5521.598 123.857 6907.136
+}
+$grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_MSV_EMR_RifleSquad_P.et" {
+ RF_G_100_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{5F2B76AA9640937C}" {
+    m_iCompanyCallsign 1
+   }
   }
-  PS_GroupCallsignAssigner "{5F2B76AA9640937C}" {
-   m_iCompanyCallsign 1
+  coords 5518.022 124.531 6890.126
+  angleY -81
+  m_aUnitPrefabSlots {
+   "{F139865249CE32FC}Prefabs/Characters/Factions/OPFOR/RF/SL_Summer.et" "{4BEBE539008FDED6}Prefabs/Characters/Factions/OPFOR/RF/RPK_Rifleman_Summer.et" "{1724F857F5600CFF}Prefabs/Characters/Factions/OPFOR/RF/AT_Summer.et" "{710D03B6DAC45009}Prefabs/Characters/Factions/OPFOR/RF/AT_AS_Summer.et" "{B9B17FE143FA1D0B}Prefabs/Characters/Factions/OPFOR/RF/GL_Summer.et" "{1BF4945913E05213}Prefabs/Characters/Factions/OPFOR/RF/Rifleman_Summer.et" "{B9B17FE143FA1D0B}Prefabs/Characters/Factions/OPFOR/RF/GL_Summer.et" "{1BF4945913E05213}Prefabs/Characters/Factions/OPFOR/RF/Rifleman_Summer.et"
   }
  }
- coords 5518.022 124.531 6890.126
- angleY -81
+ RF_G_100_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{5F2B76AA9640937C}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 5511.419 125.183 6901.748
+  angleY -81
+  m_aUnitPrefabSlots {
+   "{F139865249CE32FC}Prefabs/Characters/Factions/OPFOR/RF/SL_Summer.et" "{4BEBE539008FDED6}Prefabs/Characters/Factions/OPFOR/RF/RPK_Rifleman_Summer.et" "{1724F857F5600CFF}Prefabs/Characters/Factions/OPFOR/RF/AT_Summer.et" "{710D03B6DAC45009}Prefabs/Characters/Factions/OPFOR/RF/AT_AS_Summer.et" "{B9B17FE143FA1D0B}Prefabs/Characters/Factions/OPFOR/RF/GL_Summer.et" "{1BF4945913E05213}Prefabs/Characters/Factions/OPFOR/RF/Rifleman_Summer.et" "{B9B17FE143FA1D0B}Prefabs/Characters/Factions/OPFOR/RF/GL_Summer.et" "{1BF4945913E05213}Prefabs/Characters/Factions/OPFOR/RF/Rifleman_Summer.et"
+  }
+ }
 }
 PS_ManualMarker RF_Ural4320_Marker4 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  coords 5522.751 124.082 6888.987

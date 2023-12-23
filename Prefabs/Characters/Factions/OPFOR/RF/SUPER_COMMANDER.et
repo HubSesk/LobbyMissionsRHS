@@ -15,6 +15,11 @@ SCR_ChimeraCharacter : "{F139865249CE32FC}Prefabs/Characters/Factions/OPFOR/RF/S
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_name "Командир стороны"
   }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SquadLeader"
+   }
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{1F7DBA363FEF8DC6}Prefabs/Weapons/Rifles/AN94/Rifle_AN94_valday_rail_1p87.et"
   }

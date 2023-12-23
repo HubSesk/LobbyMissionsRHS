@@ -12,8 +12,8 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_
   angleX -4.109
   angleY 23.126
   angleZ -1.753
-  m_aUnitPrefabSlots + {
-   "{D4F4704004C65D22}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_MG_P.et" "{A1593CC8D5176AC0}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_AMG_P.et"
+  m_aUnitPrefabSlots {
+   "{F139865249CE32FC}Prefabs/Characters/Factions/OPFOR/RF/SL_Summer.et" "{4BEBE539008FDED6}Prefabs/Characters/Factions/OPFOR/RF/RPK_Rifleman_Summer.et" "{1724F857F5600CFF}Prefabs/Characters/Factions/OPFOR/RF/AT_Summer.et" "{710D03B6DAC45009}Prefabs/Characters/Factions/OPFOR/RF/AT_AS_Summer.et" "{B9B17FE143FA1D0B}Prefabs/Characters/Factions/OPFOR/RF/GL_Summer.et" "{1BF4945913E05213}Prefabs/Characters/Factions/OPFOR/RF/Rifleman_Summer.et" "{B9B17FE143FA1D0B}Prefabs/Characters/Factions/OPFOR/RF/GL_Summer.et" "{1BF4945913E05213}Prefabs/Characters/Factions/OPFOR/RF/Rifleman_Summer.et"
   }
  }
  RF_G_000_8 {
@@ -26,8 +26,8 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_
   }
   coords 6252.254 82.63 6029.948
   angleY -89
-  m_aUnitPrefabSlots + {
-   "{9BA3C01795BE0EF5}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_GL_P.et" "{2B869031AD8DD0CA}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_Rifleman_P.et"
+  m_aUnitPrefabSlots {
+   "{F139865249CE32FC}Prefabs/Characters/Factions/OPFOR/RF/SL_Summer.et" "{4BEBE539008FDED6}Prefabs/Characters/Factions/OPFOR/RF/RPK_Rifleman_Summer.et" "{1724F857F5600CFF}Prefabs/Characters/Factions/OPFOR/RF/AT_Summer.et" "{710D03B6DAC45009}Prefabs/Characters/Factions/OPFOR/RF/AT_AS_Summer.et" "{B9B17FE143FA1D0B}Prefabs/Characters/Factions/OPFOR/RF/GL_Summer.et" "{1BF4945913E05213}Prefabs/Characters/Factions/OPFOR/RF/Rifleman_Summer.et" "{B9B17FE143FA1D0B}Prefabs/Characters/Factions/OPFOR/RF/GL_Summer.et" "{1BF4945913E05213}Prefabs/Characters/Factions/OPFOR/RF/Rifleman_Summer.et"
   }
  }
 }
@@ -37,31 +37,19 @@ RHS_Tank Tank_T1 : "{48BB423641D40E77}Prefabs/Vehicles/Tracked/T14/Tank_T14.et" 
  angleY -53.578
  angleZ 7.579
 }
-$grp SCR_AIGroup : "{5A4B8E45BA692CDA}Prefabs/Groups/OPFOR/RHS_RF_MSV/Flora/Group_MSV_Flora_LightFireTeam_P.et" {
- RF_G_010_4 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Line"
-   }
-   PS_GroupCallsignAssigner "{5F2B76B4822EEF1B}" {
-    m_iPlatoonCallsign 1
-   }
+SCR_AIGroup RF_G_010_4 : "{5A4B8E45BA692CDA}Prefabs/Groups/OPFOR/RHS_RF_MSV/Flora/Group_MSV_Flora_LightFireTeam_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
   }
-  coords 6200.03 64.25 6091.851
-  angleY -115
+  PS_GroupCallsignAssigner "{5F2B76B4822EEF1B}" {
+   m_iPlatoonCallsign 1
+  }
  }
- RF_G_011_4 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Line"
-   }
-   PS_GroupCallsignAssigner "{5F2B76B4822EEF1B}" {
-    m_iPlatoonCallsign 1
-    m_iSquadCallsign 1
-   }
-  }
-  coords 6193.104 64.576 6105.264
-  angleY -155.79
+ coords 6200.03 64.25 6091.851
+ angleY -115
+ m_aUnitPrefabSlots {
+  "{A856E30D26019802}Prefabs/Characters/Factions/OPFOR/RF/RF_CREW.et" "{45DA836F20F9ABDE}Prefabs/Characters/Factions/OPFOR/RF/RF_CREW_DRIVER.et"
  }
 }
 Vehicle Ural4320_repair_camo1 : "{BED355ED51A1E859}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair_camo1.et" {
