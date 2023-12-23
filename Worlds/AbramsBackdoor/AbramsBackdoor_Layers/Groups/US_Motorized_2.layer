@@ -2,13 +2,13 @@ Vehicle M997_maxi_ambulance1 : "{00C9BBE426F7D459}Prefabs/Vehicles/Wheeled/M998/
  coords 7473.447 18.562 3237.751
  angleY 102.86
 }
-SCR_AIGroup US_G_100_5 : "{2A4F66BD652F1C8E}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_RifleSquad_P.et" {
+SCR_AIGroup US_G_300_11 : "{2A4F66BD652F1C8E}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_RifleSquad_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Column"
   }
   PS_GroupCallsignAssigner "{5F2B76ABB72D4EDB}" {
-   m_iCompanyCallsign 1
+   m_iCompanyCallsign 3
   }
  }
  coords 7483.142 18.563 3226.658
