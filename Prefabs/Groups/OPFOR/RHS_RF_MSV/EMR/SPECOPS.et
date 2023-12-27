@@ -1,0 +1,25 @@
+SCR_AIGroup : "{9C7902A055DDA271}Prefabs/Groups/OPFOR/Group_USSR_FireGroup_P.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "RU_SPN"
+    m_Image "{3E294459ED6AAF48}UI/Textures/EditorPreviews/Auto/Editor/PlaceholderObjects/E_Placeholder_BasicDoubleSign_01.edds"
+    m_sFaction "RHS_RF_MSV"
+    m_aAuthoredLabels {
+     4 1653989487 25 34 27
+    }
+   }
+  }
+ }
+ coords 5942.776 279.031 10108.024
+ angleY -46.957
+ m_faction "RHS_RF_MSV"
+ m_aUnitPrefabSlots {
+  "{FD91E0A9D6C0277C}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_AN94GL.et" "{FD91E0A9D6C0277D}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M.et" "{BE8D39247EDEE362}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M_RPG.et" "{0190786646CABBC3}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M_V2.et" "{FD91E0A9D6C0277D}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M.et"
+ }
+ m_sCustomNameSet "Веды"
+}

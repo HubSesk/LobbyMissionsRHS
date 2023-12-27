@@ -10,10 +10,14 @@ SCR_ChimeraCharacter : "{4E448FFA42302009}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{43BE2606813CD25A}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_TA31RCO_ARD_NT4_FLIR.et"
+   WeaponTemplate "{EC5C256DEDBA9E5E}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_kac600_elcanPeq.et"
   }
-  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
-   WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{01C0F39F7D5B09FF}Prefabs/Characters/HeadGear/Hat_Beanie/Hat_beanie_Black_peltor_ochki.et"
+    }
+   }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
@@ -27,6 +31,5 @@ SCR_ChimeraCharacter : "{4E448FFA42302009}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 11164.129 7.033 1630.609
- angleY -33.049
+ coords 1681.362 451.906 14276.513
 }

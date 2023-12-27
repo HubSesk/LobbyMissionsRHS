@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{01C0F39F7D5B09FF}Prefabs/Characters/HeadGear/Hat_Beanie/Hat_beanie_Black_peltor_ochki.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

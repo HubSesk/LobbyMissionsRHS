@@ -1,0 +1,17 @@
+GameEntity : "{F14913F524AA2C55}Prefabs/Characters/HeadGear/Hat_Beanie/Hat_beanie_Black.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Goggles {
+     Prefab "{2934192D7BA3465E}Prefabs/Characters/Eyewear/gascan/Eyewear_gascan.et"
+    }
+    LoadoutSlotInfo Headset {
+     Offset 0 0.008 0
+     Prefab "{85D618A51C013F7A}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_yellow.et"
+    }
+   }
+  }
+ }
+ coords 1640.069 451.916 14262.941
+}

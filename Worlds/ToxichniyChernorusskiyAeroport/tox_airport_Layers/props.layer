@@ -1,0 +1,176 @@
+$grp Vehicle : "{2BE1F8B9299B67C1}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker.et" {
+ M923A1_tanker1 {
+  coords 4547.312 339.126 10006.648
+  angleY -32.94
+ }
+ M923A1_tanker2 {
+  coords 4552.513 339.125 9997.571
+  angleY -37.41
+ }
+ M923A1_tanker3 {
+  coords 4682.019 339.125 10280.024
+  angleY 28.568
+ }
+ M923A1_tanker4 {
+  coords 4674.102 339.125 10276.855
+  angleY 101.225
+ }
+}
+$grp StaticModelEntity : "{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et" {
+ {
+  coords 4190.774 0 10494.212
+  angleY -36.791
+ }
+ {
+  coords 4259.411 0.001 10414.479
+  angleY -36.791
+ }
+ {
+  coords 4203.338 0 10397.051
+  angleY -50.042
+ }
+ {
+  coords 4154.885 0 10338.22
+  angleY 38.647
+ }
+ {
+  coords 4205.643 0 10275.025
+  angleY 58.443
+ }
+ {
+  coords 4240.199 0.001 10212.387
+  angleY 50.443
+ }
+ {
+  coords 4108.712 -0.001 10370.52
+  angleY 35.604
+ }
+ {
+  coords 4052.504 -0.001 10411.072
+  angleY 37.195
+ }
+ {
+  coords 3954.883 -0.001 10522.746
+  angleY -116.679
+ }
+ {
+  coords 3937.199 0.001 10568.526
+  angleY -112.151
+ }
+ {
+  coords 4320.526 -0.001 10298.139
+  angleY -33.477
+ }
+ {
+  coords 4044.586 -0.001 10619.582
+  angleY -24.078
+ }
+ {
+  coords 4098.397 0 10650.81
+  angleY -24.078
+ }
+}
+StaticModelEntity : "{61EBFF9FAC0429DE}PrefabLibrary/Infrastructure/Towers/TransmissionTower_01.et" {
+ coords 4614.811 347.463 9667.359
+ angleY -90
+}
+SCR_DestructibleBuildingEntity : "{6FC492B696FF2DFC}Prefabs/Structures/Industrial/Smokestacks/SmokestackMetal_E_01/SmokestackMetal_E_01.et" {
+ components {
+  Hierarchy "{50B87EFBB2BAB285}" {
+   Enabled 1
+   PivotID "Socket_SmokestackMetal_E_01"
+   AutoTransform 1
+  }
+ }
+ coords 4574.344 0.466 10873.874
+}
+$grp GenericEntity : "{831FE4BECA78CCAA}Prefabs/Vehicles/Airplanes/IL76/Plane_IL76UN.et" {
+ {
+  coords 4498.598 339.135 10564.25
+  angleY -120.066
+ }
+ {
+  coords 4529.141 339.124 10512.346
+  angleY -120.066
+ }
+ {
+  coords 4382.813 339.125 10795.665
+  angleY -117.906
+ }
+ {
+  coords 4417.322 339.125 10730.508
+  angleY -117.906
+ }
+ {
+  coords 4700.842 339.125 10332.4
+  angleY -117.906
+ }
+ {
+  coords 4675.129 339.125 10380.95
+  angleY -117.906
+ }
+ {
+  coords 4705.697 339.125 10232.35
+  angleY -117.906
+ }
+ {
+  coords 4740.48 339.135 10167.773
+  angleY -117.906
+ }
+ {
+  coords 4917.188 339.125 9823.408
+  angleY -106.296
+ }
+ {
+  coords 4933.9 339.125 9768.902
+  angleY -106.296
+ }
+}
+$grp StaticModelEntity : "{979A564D476B5AAE}Prefabs/Structures/Military/Radar/ApproachRadar_RPL5_01/ApproachRadar_RPL5_01_tall.et" {
+ {
+  coords 4709.365 -0.119 9988.019
+  angleY -33.558
+  {
+   GenericEntity : "{689E4B964E7FE377}Prefabs/Structures/Military/Radar/ApproachRadar_RPL5_01/ApproachRadar_RPL5_01_cables_tall.et" {
+    coords 0 -0.017 0
+   }
+   GenericEntity : "{A528F04F41F2A2D0}Prefabs/Structures/Military/Radar/ApproachRadar_RPL5_01/ApproachRadar_RPL5_01_on.et" {
+    coords 0.034 4.808 0.048
+   }
+   GenericEntity : "{F15B99F6B06E7200}Prefabs/Structures/Military/Radar/ApproachRadar_RPL5_01/ApproachRadar_RPL5_01_generator.et" {
+    coords 3.441 0.295 -5.754
+    angleY 90
+   }
+  }
+ }
+ {
+  coords 4261.302 -0.001 10769.476
+  angleY -33.558
+  {
+   GenericEntity : "{689E4B964E7FE377}Prefabs/Structures/Military/Radar/ApproachRadar_RPL5_01/ApproachRadar_RPL5_01_cables_tall.et" {
+    coords 0 -0.017 0
+   }
+   GenericEntity : "{A528F04F41F2A2D0}Prefabs/Structures/Military/Radar/ApproachRadar_RPL5_01/ApproachRadar_RPL5_01_on.et" {
+    coords 0.034 4.808 0.048
+   }
+   GenericEntity : "{F15B99F6B06E7200}Prefabs/Structures/Military/Radar/ApproachRadar_RPL5_01/ApproachRadar_RPL5_01_generator.et" {
+    coords 3.441 0.295 -5.754
+    angleY 90
+   }
+  }
+ }
+}
+$grp Vehicle : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et" {
+ M923A1_transport1 {
+  coords 4536.877 339.124 9481.277
+  angleY 101.826
+ }
+ M923A1_transport2 {
+  coords 4537.498 339.125 9514.561
+  angleY -95.525
+ }
+ M923A1_transport3 {
+  coords 4510.446 339.125 9551.158
+  angleY -65.722
+ }
+}
