@@ -1,0 +1,79 @@
+SCR_AIGroup : "{140EEDFF928271F6}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_FireTeam_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{5F3AFB267BCFDD95}" {
+   m_iCompanyCallsign 3
+   m_iSquadCallsign 1
+  }
+ }
+ coords 5434.514 302.268 5479.75
+ angleY -173.512
+ m_sCustomNameSet "Razor Red"
+}
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 5450.508 307.499 5475.041
+}
+SCR_AIGroup : "{B2DE1058416BEA43}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_FireTeam_Marksman_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{5F3AFB25E26E1764}" {
+   m_iCompanyCallsign 3
+  }
+ }
+ coords 5449.996 302.112 5471.498
+ angleY 1.429
+ m_aUnitPrefabSlots {
+  "{ABF41117838C445F}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_TL_P.et" "{F971BD317A6C8ED3}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Spotter_P.et" "{EED044482866F45B}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Corpsman_P.et" "{210F34F2B0B0CBB2}Prefabs/Characters/Factions/BLUFOR/USMC/USMC_Sniper.et"
+ }
+ m_sCustomNameSet "Razor Blue"
+}
+$grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
+ M1025_armed_M2HB_MERDC1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5F3AFB26CECFE3A8}" {
+      SlotTemplate InventoryStorageSlot MineFlags {
+       MergePhysics 1
+       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+      }
+      NumSlots 3
+     }
+    }
+   }
+  }
+  coords 5449.221 301.74 5474.961
+  angleX 0.837
+  angleY -81.839
+  angleZ -1.817
+ }
+ M1025_armed_M2HB_MERDC2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5F3AFB26D4B7450E}" {
+      SlotTemplate InventoryStorageSlot MineFlags {
+       MergePhysics 1
+       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+      }
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{5F3AFB2C7184D7CD}" {
+      SlotTemplate InventoryStorageSlot MineFlags {
+       Prefab "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
+      }
+      NumSlots 10
+     }
+    }
+   }
+  }
+  coords 5434.226 302.298 5475.843
+  angleX 5.397
+  angleY -86.766
+  angleZ -0.588
+ }
+}
