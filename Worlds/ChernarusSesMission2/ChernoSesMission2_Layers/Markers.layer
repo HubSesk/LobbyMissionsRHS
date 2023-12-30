@@ -1,3 +1,22 @@
+GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ coords 3043.27 302.99 8005.838
+ angleX -1.997
+ angleY -66.814
+ angleZ 0.117
+ {
+  GenericEntity {
+   ID "5CC6B48B9C8C2A7C"
+   coords -19.448 0.461 -6.852
+   angleY -96.241
+   angleZ 0
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2BDB"
+   coords 17.81 0.009 1.137
+   angleY 20.33
+  }
+ }
+}
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  ALL_def {
   coords 3140.083 309.214 8060.368

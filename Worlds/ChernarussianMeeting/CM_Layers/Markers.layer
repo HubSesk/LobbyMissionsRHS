@@ -69,7 +69,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sImageSetGlow ""
   m_sQuadName "Undefined-blufor"
   m_fWorldSize 35
-  m_sDescription "Razor"
+  m_sDescription "USMC"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "RHS_US_USMC"
@@ -87,9 +87,10 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  Brief_Def {
   coords 4624.743 298.253 6541.638
+  m_sImageSet "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.555 0.002 0 1
-  m_sQuadName "recon-outpost-2"
+  m_sQuadName "HQ_HUD"
   m_fWorldSize 45
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1

@@ -5,12 +5,12 @@ SCR_AIGroup : "{140EEDFF928271F6}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC
   }
   PS_GroupCallsignAssigner "{5F3AFB267BCFDD95}" {
    m_iCompanyCallsign 3
+   m_iPlatoonCallsign 2
    m_iSquadCallsign 1
   }
  }
  coords 5434.514 302.268 5479.75
  angleY -173.512
- m_sCustomNameSet "Razor Red"
 }
 SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
  coords 5450.508 307.499 5475.041
@@ -22,6 +22,7 @@ SCR_AIGroup : "{B2DE1058416BEA43}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC
   }
   PS_GroupCallsignAssigner "{5F3AFB25E26E1764}" {
    m_iCompanyCallsign 3
+   m_iPlatoonCallsign 2
   }
  }
  coords 5449.996 302.112 5471.498
@@ -29,7 +30,6 @@ SCR_AIGroup : "{B2DE1058416BEA43}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC
  m_aUnitPrefabSlots {
   "{ABF41117838C445F}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_TL_P.et" "{F971BD317A6C8ED3}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Spotter_P.et" "{EED044482866F45B}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Corpsman_P.et" "{210F34F2B0B0CBB2}Prefabs/Characters/Factions/BLUFOR/USMC/USMC_Sniper.et"
  }
- m_sCustomNameSet "Razor Blue"
 }
 $grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
  M1025_armed_M2HB_MERDC1 {
