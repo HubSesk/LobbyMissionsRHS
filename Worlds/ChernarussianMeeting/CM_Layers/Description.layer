@@ -5,7 +5,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "ЧСО готовит операцию по возвращению сел Погоревка и Рогово под свой контроль. "\
   "В зоне боевых действий действует разведовательная группа USMC."\
   ""\
-  "	• USMC и ЧСО союзники! •"
+  "	• USMC и ЧСО союзники! •"\
+  ""\
+  "Не забывайте проверять инвантарь вашей техники!"
   m_aVisibleForFactions {
    "Ses_CDF" "RHS_RF_MSV" "RHS_US_USMC"
   }
@@ -20,7 +22,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Удерживание одной из двух целей приравнивается к ничьей."\
   ""\
-  "Не забывайте что на поле боя присутствуют союзные разведчики США."
+  "Не забывайте что на поле боя присутствуют союзные разведчики морской пехоты США."
   m_aVisibleForFactions {
    "Ses_CDF"
   }

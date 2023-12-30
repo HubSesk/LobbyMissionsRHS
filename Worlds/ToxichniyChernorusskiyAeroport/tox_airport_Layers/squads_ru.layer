@@ -1,7 +1,9 @@
 $grp SCR_AIGroup : "{9C7902A055DDA271}Prefabs/Groups/OPFOR/Group_USSR_FireGroup_P.et" {
  TEAM_LEADER {
-  coords 6482.393 5.997 2401.75
-  angleY 143.405
+  coords 6453.45 9.79 2375.265
+  angleX -11.031
+  angleY -35.713
+  angleZ -4.601
   m_faction "RHS_RF_MSV"
   m_aUnitPrefabSlots {
    "{E309B551D5549F9C}Prefabs/Characters/Factions/OPFOR/RF/SUPER_COMMANDER.et" "{2C811C929D606355}Prefabs/Characters/Factions/OPFOR/RF/RADIOMAN.et" "{B7DFC17CC83D6604}Prefabs/Characters/Factions/OPFOR/RF/Medic_Summer.et" "{FD91E0A9D6C0277D}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M.et" "{0190786646CABBC3}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M_V2.et"
@@ -14,7 +16,7 @@ $grp SCR_AIGroup : "{9C7902A055DDA271}Prefabs/Groups/OPFOR/Group_USSR_FireGroup_
     DefaultFormation "Line"
    }
   }
-  coords 6501.227 6.001 2433.63
+  coords 6485.23 6 2408.773
   angleY -46.957
   m_faction "RHS_RF_MSV"
   m_aUnitPrefabSlots {
@@ -27,7 +29,7 @@ $grp SCR_AIGroup : "{9C7902A055DDA271}Prefabs/Groups/OPFOR/Group_USSR_FireGroup_
     DefaultFormation "Line"
    }
   }
-  coords 6524.403 6 2457.472
+  coords 6516.542 6 2449.054
   angleY -46.957
   m_faction "RHS_RF_MSV"
   m_aUnitPrefabSlots {
@@ -40,7 +42,7 @@ $grp SCR_AIGroup : "{9C7902A055DDA271}Prefabs/Groups/OPFOR/Group_USSR_FireGroup_
     DefaultFormation "Line"
    }
   }
-  coords 6545.718 5.999 2480.798
+  coords 6540.007 5.999 2474.683
   angleY -46.957
   m_faction "RHS_RF_MSV"
   m_aUnitPrefabSlots {
@@ -58,6 +60,22 @@ $grp SCR_AIGroup : "{9C7902A055DDA271}Prefabs/Groups/OPFOR/Group_USSR_FireGroup_
   m_faction "RHS_RF_MSV"
   m_aUnitPrefabSlots {
    "{F139865249CE32FC}Prefabs/Characters/Factions/OPFOR/RF/SL_Summer.et" "{1724F857F5600CFF}Prefabs/Characters/Factions/OPFOR/RF/AT_Summer.et" "{710D03B6DAC45009}Prefabs/Characters/Factions/OPFOR/RF/AT_AS_Summer.et" "{1819E03D11738ACF}Prefabs/Characters/Factions/OPFOR/RF/MG_Summer.et" "{D629B0BCF946A022}Prefabs/Characters/Factions/OPFOR/RF/MG_AS_Summer.et" "{4BEBE539008FDED6}Prefabs/Characters/Factions/OPFOR/RF/RPK_Rifleman_Summer.et" "{B9B17FE143FA1D0B}Prefabs/Characters/Factions/OPFOR/RF/GL_Summer.et" "{B7DFC17CC83D6604}Prefabs/Characters/Factions/OPFOR/RF/Medic_Summer.et" "{9F1A54596CE4BB81}Prefabs/Characters/Factions/OPFOR/RF/HeliPilot.et"
+  }
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 6512.962 6.001 2454.552
+ m_fWarnRadius 174
+ m_fZoneRadius 264
+ m_fZoneTeleportedRadius 224
+ {
+  GenericEntity {
+   ID "59D673B36B893D84"
+   components {
+    SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+     m_fRadius 174
+    }
+   }
   }
  }
 }

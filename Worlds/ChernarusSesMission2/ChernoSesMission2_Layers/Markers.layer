@@ -1,0 +1,161 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ ALL_def {
+  coords 3140.083 309.214 8060.368
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 35
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF" "RHS_US_USMC" "RHS_RF_MSV"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ RF_START {
+  coords 2601.74 261.109 9828.784
+  angleY 90
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Undefined-opfor"
+  m_fWorldSize 35
+  m_sDescription "#AR-Callsign_Soviet_Company_B"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+ }
+ ALL_def2 {
+  coords 3055.518 309.95 7978.043
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 35
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF" "RHS_US_USMC" "RHS_RF_MSV"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ CDF_Start {
+  coords 2646.828 250.979 5929.56
+  angleY 90
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 1 0.452 1
+  m_sQuadName "Undefined-blufor"
+  m_fWorldSize 35
+  m_sDescription "#AR-Callsign_US_Company_B"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+ Brief_Attack {
+  coords 2858.303 281.973 8961.596
+  angleY 165
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "arrow-large"
+  m_fWorldSize 45
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+ }
+ Brief_Def {
+  coords 3084.925 302.199 8077.948
+  angleY 90
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "flag-2"
+  m_fWorldSize 45
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+ }
+ ALL_def3 {
+  coords 2974.092 340.313 7692.41
+  angleY 90
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 35
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF" "RHS_US_USMC" "RHS_RF_MSV"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ CDF_Start2 {
+  coords 3010.377 313.568 7845.563
+  angleY 90
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 1 0.452 1
+  m_sQuadName "Undefined-blufor"
+  m_fWorldSize 35
+  m_sDescription "#AR-Callsign_US_Company_A"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+ RF_START2 {
+  coords 2681.909 273.974 9934.055
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Undefined-opfor"
+  m_fWorldSize 35
+  m_sDescription "#AR-Callsign_Soviet_Company_A"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+ }
+ RF_START3 {
+  coords 2643.192 274.302 10120.333
+  angleY 90
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Undefined-opfor"
+  m_fWorldSize 35
+  m_sDescription "#AR-Callsign_Soviet_Company_C"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+ }
+ CDF_Fort {
+  coords 2798.86 341.579 7821.192
+  m_sImageSetGlow ""
+  m_MarkerColor 0 1 0.452 1
+  m_sQuadName "dot"
+  m_fWorldSize 45
+  m_sDescription "Дот"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+ CDF_Fort2 {
+  coords 3028.74 301.293 8074.184
+  m_sImageSetGlow ""
+  m_MarkerColor 0 1 0.452 1
+  m_sQuadName "dot"
+  m_fWorldSize 45
+  m_sDescription "Дот"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+ CDF_Fort3 {
+  coords 3152.478 302.963 8070.475
+  m_sImageSetGlow ""
+  m_MarkerColor 0 1 0.452 1
+  m_sQuadName "dot"
+  m_fWorldSize 45
+  m_sDescription "Дот"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+}
