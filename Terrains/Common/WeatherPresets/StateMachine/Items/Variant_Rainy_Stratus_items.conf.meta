@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{E4E8BBFE89D46E6A}Terrains/Common/WeatherPresets/StateMachine/Items/Variant_Rainy_Stratus_items.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

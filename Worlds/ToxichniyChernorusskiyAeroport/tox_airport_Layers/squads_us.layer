@@ -4,6 +4,11 @@ $grp SCR_AIGroup : "{9C7902A055DDA271}Prefabs/Groups/OPFOR/Group_USSR_FireGroup_
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
    }
+   PS_GroupCallsignAssigner "{5F3AFB11F7288C5A}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
   }
   coords 1655.59 451.907 14251.872
   angleY -59.332
@@ -16,6 +21,11 @@ $grp SCR_AIGroup : "{9C7902A055DDA271}Prefabs/Groups/OPFOR/Group_USSR_FireGroup_
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{5F3AFB11EAB80536}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 1
    }
   }
   coords 1637.952 451.906 14220.988
@@ -30,6 +40,11 @@ $grp SCR_AIGroup : "{9C7902A055DDA271}Prefabs/Groups/OPFOR/Group_USSR_FireGroup_
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
    }
+   PS_GroupCallsignAssigner "{5F3AFB11E8F4A2B8}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
   }
   coords 1621.247 451.906 14191.379
   angleY -61.878
@@ -42,6 +57,11 @@ $grp SCR_AIGroup : "{9C7902A055DDA271}Prefabs/Groups/OPFOR/Group_USSR_FireGroup_
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{5F3AFB11E8028D64}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
    }
   }
   coords 1605.211 451.906 14158.889
@@ -56,6 +76,11 @@ $grp SCR_AIGroup : "{9C7902A055DDA271}Prefabs/Groups/OPFOR/Group_USSR_FireGroup_
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
    }
+   PS_GroupCallsignAssigner "{5F3AFB11F79FFA39}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
   }
   coords 4634.663 339.125 10455.161
   angleY -100.428
@@ -65,4 +90,7 @@ $grp SCR_AIGroup : "{9C7902A055DDA271}Prefabs/Groups/OPFOR/Group_USSR_FireGroup_
   }
   m_sCustomNameSet "EagleEye"
  }
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 1634.328 451.907 14205.984
 }
