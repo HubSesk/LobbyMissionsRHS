@@ -141,7 +141,7 @@ class PS_MissionMakerTool: WorldEditorTool
 		m_API.EndEntityAction();
 	}
 	
-	void GetNextFreeCallSign(IEntity excludeEntity, Faction factionCurrent, out bool currentAssigned, out int companyCallsignIndex, out int platoonCallsignIndex, out int squadCallsignIndex)
+	void GetNextFreeCallSign(IEntity excludeEntity, FactionKey factionKey, out bool currentAssigned, out int companyCallsignIndex, out int platoonCallsignIndex, out int squadCallsignIndex)
 	{
 		array<int> assignedCallSigns = new array<int>();
 		int count = m_API.GetEditorEntityCount();
@@ -160,8 +160,8 @@ class PS_MissionMakerTool: WorldEditorTool
 				if (!group)
 					continue;
 				
-				SCR_Faction faction = SCR_Faction.Cast(group.GetFaction());
-				if (faction != factionCurrent)
+				FactionKey factionKeyNew = group.GetFactionName();
+				if (factionKey != factionKeyNew)
 					continue;
 				
 				IEntityComponentSource componentSourceCallsignAssigner = null;
@@ -219,9 +219,8 @@ class PS_MissionMakerTool: WorldEditorTool
 		SCR_AIGroup group = SCR_AIGroup.Cast(entity);
 		if (!group)
 			return;
-		SCR_Faction faction = SCR_Faction.Cast(group.GetFaction());
-		if (!faction)
-			return;
+		
+		FactionKey factionKey = group.GetFactionName();
 		
 		IEntitySource entitySource = m_API.EntityToSource(entity);
 		IEntityComponentSource componentSourceCallsignAssigner = null;
@@ -242,7 +241,7 @@ class PS_MissionMakerTool: WorldEditorTool
 		componentSourceCallsignAssigner.Get("m_iPlatoonCallsign", platoonCallsignIndex);
 		componentSourceCallsignAssigner.Get("m_iSquadCallsign", squadCallsignIndex);
 		bool currentAssigned = false;
-		GetNextFreeCallSign(entity, faction, currentAssigned, companyCallsignIndex, platoonCallsignIndex, squadCallsignIndex);
+		GetNextFreeCallSign(entity, factionKey, currentAssigned, companyCallsignIndex, platoonCallsignIndex, squadCallsignIndex);
 		if (currentAssigned)
 		{
 			componentSourceCallsignAssigner.Set("m_iCompanyCallsign", companyCallsignIndex);
@@ -256,7 +255,7 @@ class PS_MissionMakerTool: WorldEditorTool
 		entitySource.Get("m_sCustomNameSet", customName);
 		if (customName != "") customName = "(" + customName + ") ";
 		
-		string entityName = string.Format("%5%1_G_%2%3%4_%6", faction.GetFactionKey(), companyCallsignIndex, platoonCallsignIndex, squadCallsignIndex, customName, outPrefabs.Count());
+		string entityName = string.Format("%5%1_G_%2%3%4_%6", factionKey, companyCallsignIndex, platoonCallsignIndex, squadCallsignIndex, customName, outPrefabs.Count());
 		if (!m_API.FindEntityByName(entityName))
 			m_API.RenameEntity(entity, entityName);
 	}
