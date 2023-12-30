@@ -34,6 +34,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
  }
 }
+GenericEntity : "{C1F08FFA9B383835}Prefabs/Props/Fabric/Flags/Flag_Chernarus.et" {
+ coords 4615.39 353.799 10449.668
+ angleY 50.64
+ angleZ 0
+}
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  SUS_SUS {
   coords 5878.291 134.101 4868.632
@@ -60,108 +65,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
  }
- RF_Helicopter {
-  coords 6557.815 5.999 2517.49
-  angleY 90
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.49 0.49 0.49 1
-  m_sQuadName "Transport-flight-opfor"
-  m_fWorldSize 35
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_RF_MSV"
-  }
-  m_bVisibleForEmptyFaction 1
-  {
-   GenericEntity RF {
-    components {
-     MeshObject "{5F2B766A5868D095}" {
-      Object "{FF35BE9795BA3797}system/wbdata/Gizmo3D/sphere.xob"
-      Materials {
-       MaterialAssignClass "{5F2B7675D0F068A0}" {
-        SourceMaterial "system/wbdata/gizmo3D/gizmo3D"
-        AssignedMaterial "{193FD436F20158AB}system/wbdata/Gizmo3D/gizmo3DRF.emat"
-       }
-      }
-      PixelSizeScale 10
-     }
-    }
-    coords 0 256 0
-    angleY -90
-    scale 200
-    Flags 1048579
-   }
-  }
- }
- RF_Helicopter2 {
-  coords 6535.93 6.001 2490.421
-  angleY 90
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.49 0.49 0.49 1
-  m_sQuadName "Transport-flight-opfor"
-  m_fWorldSize 35
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_RF_MSV"
-  }
-  m_bVisibleForEmptyFaction 1
-  {
-   GenericEntity RF2 {
-    components {
-     MeshObject "{5F2B766A5868D095}" {
-      Object "{FF35BE9795BA3797}system/wbdata/Gizmo3D/sphere.xob"
-      Materials {
-       MaterialAssignClass "{5F2B7675D0F068A0}" {
-        SourceMaterial "system/wbdata/gizmo3D/gizmo3D"
-        AssignedMaterial "{193FD436F20158AB}system/wbdata/Gizmo3D/gizmo3DRF.emat"
-       }
-      }
-      PixelSizeScale 10
-     }
-    }
-    coords 0 256 0
-    angleY -90
-    scale 200
-    Flags 1048579
-   }
-  }
- }
- RF_Helicopter3 {
-  coords 6511.911 5.999 2467.842
-  angleY 90
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.49 0.49 0.49 1
-  m_sQuadName "Transport-flight-opfor"
-  m_fWorldSize 35
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_RF_MSV"
-  }
-  m_bVisibleForEmptyFaction 1
-  {
-   GenericEntity RF3 {
-    components {
-     MeshObject "{5F2B766A5868D095}" {
-      Object "{FF35BE9795BA3797}system/wbdata/Gizmo3D/sphere.xob"
-      Materials {
-       MaterialAssignClass "{5F2B7675D0F068A0}" {
-        SourceMaterial "system/wbdata/gizmo3D/gizmo3D"
-        AssignedMaterial "{193FD436F20158AB}system/wbdata/Gizmo3D/gizmo3DRF.emat"
-       }
-      }
-      PixelSizeScale 10
-     }
-    }
-    coords 0 256 0
-    angleY -90
-    scale 200
-    Flags 1048579
-   }
-  }
- }
  RF_Helicopter4 {
   coords 6491.761 6.001 2443.914
   angleY 90
@@ -170,6 +73,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.49 0.49 0.49 1
   m_sQuadName "Transport-flight-opfor"
   m_fWorldSize 35
+  m_sDescription "Start"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "RHS_RF_MSV"
@@ -177,40 +81,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bVisibleForEmptyFaction 1
   {
    GenericEntity RF4 {
-    components {
-     MeshObject "{5F2B766A5868D095}" {
-      Object "{FF35BE9795BA3797}system/wbdata/Gizmo3D/sphere.xob"
-      Materials {
-       MaterialAssignClass "{5F2B7675D0F068A0}" {
-        SourceMaterial "system/wbdata/gizmo3D/gizmo3D"
-        AssignedMaterial "{193FD436F20158AB}system/wbdata/Gizmo3D/gizmo3DRF.emat"
-       }
-      }
-      PixelSizeScale 10
-     }
-    }
-    coords 0 256 0
-    angleY -90
-    scale 200
-    Flags 1048579
-   }
-  }
- }
- RF_Helicopter5 {
-  coords 6442.58 8 2387.863
-  angleY 90
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.49 0.49 0.49 1
-  m_sQuadName "Transport-flight-opfor"
-  m_fWorldSize 35
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_RF_MSV"
-  }
-  m_bVisibleForEmptyFaction 1
-  {
-   GenericEntity RF5 {
     components {
      MeshObject "{5F2B766A5868D095}" {
       Object "{FF35BE9795BA3797}system/wbdata/Gizmo3D/sphere.xob"
@@ -238,6 +108,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.49 0.49 0.49 1
   m_sQuadName "motorized-blufor"
   m_fWorldSize 35
+  m_sDescription "Reinforcement"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "RHS_US_USMC" "RHS_RF_MSV"
@@ -265,13 +136,14 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
  }
  US_Motorized_6 {
-  coords 4642.453 339.125 10457.866
+  coords 4608.158 339.125 10443.157
   angleY 90
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.49 0.49 0.49 1
   m_sQuadName "Air-defence-blufor"
   m_fWorldSize 35
+  m_sDescription "<color name='blue'>F</color>"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "RHS_US_USMC" "RHS_RF_MSV"

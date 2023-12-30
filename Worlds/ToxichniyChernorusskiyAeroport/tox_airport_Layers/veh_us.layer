@@ -1,13 +1,13 @@
 Vehicle M997_maxi_ambulance1 : "{00C9BBE426F7D459}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance.et" {
- coords 1649.449 451.906 14247.316
+ coords 1647.607 451.906 14244.204
  angleY 30.624
 }
 Vehicle M1025_armed_M2HB3 : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
- coords 1651.815 451.906 14252.232
+ coords 1653.125 451.906 14254.459
  angleY 30.463
 }
 Vehicle M1 : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
- coords 1622.456 451.906 14198.142
+ coords 1624.441 451.906 14202.208
  angleY 26.017
 }
 Vehicle M998_MERDC1 : "{6B24D5AFD884D64C}Prefabs/Vehicles/Wheeled/M998/M998_MERDC.et" {
@@ -16,11 +16,11 @@ Vehicle M998_MERDC1 : "{6B24D5AFD884D64C}Prefabs/Vehicles/Wheeled/M998/M998_MERD
 }
 $grp Vehicle : "{751AFEEA19DDFB04}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_MERDC.et" {
  M998_covered_long_MERDC1 {
-  coords 1631.801 451.906 14216.759
+  coords 1630.056 451.906 14213.51
   angleY 28.237
  }
  M998_covered_long_MERDC2 {
-  coords 1615.789 451.906 14184.445
+  coords 1614.603 451.906 14182.236
   angleY 28.237
  }
  M998_covered_long_MERDC3 {
@@ -29,7 +29,7 @@ $grp Vehicle : "{751AFEEA19DDFB04}Prefabs/Vehicles/Wheeled/M998/M998_covered_lon
  }
 }
 Vehicle M998_covered1 : "{B55C6990A6A9411B}Prefabs/Vehicles/Wheeled/M998/M998_covered.et" {
- coords 1655.141 451.906 14257.543
+ coords 1659.465 451.906 14264.9
  angleY 30.445
 }
 $grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
@@ -38,11 +38,11 @@ $grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   angleY 26.059
  }
  M1025_armed_M2HB_MERDC2 {
-  coords 1638.203 451.906 14227.916
+  coords 1641.503 451.906 14234.057
   angleY 28.255
  }
  M1025_armed_M2HB_MERDC3 {
-  coords 1603.61 451.921 14160.582
+  coords 1600.217 451.921 14153.644
   angleY 26.059
  }
 }
