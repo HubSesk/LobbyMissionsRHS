@@ -134,8 +134,7 @@ $grp SCR_AIGroup : "{F23C0D0FEF7E744A}Prefabs/Groups/BLUFOR/Ses_CDF/Group_CDF_Ri
     DefaultFormation "Line"
    }
    PS_GroupCallsignAssigner "{5F3B755E268F4CBD}" {
-    m_iPlatoonCallsign 1
-    m_iSquadCallsign 1
+    m_iCompanyCallsign 1
    }
   }
   coords 3049.629 304.037 7969.54
@@ -150,8 +149,9 @@ $grp SCR_AIGroup : "{F23C0D0FEF7E744A}Prefabs/Groups/BLUFOR/Ses_CDF/Group_CDF_Ri
     DefaultFormation "Line"
    }
    PS_GroupCallsignAssigner "{5F3B755E268F4CBD}" {
-    m_iPlatoonCallsign 2
-    m_iSquadCallsign 2
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
    }
   }
   coords 3141.067 303.575 8050
@@ -166,6 +166,7 @@ $grp SCR_AIGroup : "{F23C0D0FEF7E744A}Prefabs/Groups/BLUFOR/Ses_CDF/Group_CDF_Ri
     DefaultFormation "Line"
    }
    PS_GroupCallsignAssigner "{5F3B755E268F4CBD}" {
+    m_iPlatoonCallsign 3
    }
   }
   coords 2968.866 326.454 7678.437
@@ -180,7 +181,7 @@ $grp SCR_AIGroup : "{F23C0D0FEF7E744A}Prefabs/Groups/BLUFOR/Ses_CDF/Group_CDF_Ri
     DefaultFormation "Column"
    }
    PS_GroupCallsignAssigner "{5F3B755E268F4CBD}" {
-    m_iCompanyCallsign 1
+    m_iCompanyCallsign 2
    }
   }
   coords 2632.32 251.521 5942.471
@@ -195,7 +196,7 @@ $grp SCR_AIGroup : "{F23C0D0FEF7E744A}Prefabs/Groups/BLUFOR/Ses_CDF/Group_CDF_Ri
     DefaultFormation "Column"
    }
    PS_GroupCallsignAssigner "{5F3B755E268F4CBD}" {
-    m_iCompanyCallsign 1
+    m_iCompanyCallsign 2
     m_iPlatoonCallsign 1
     m_iSquadCallsign 1
    }
