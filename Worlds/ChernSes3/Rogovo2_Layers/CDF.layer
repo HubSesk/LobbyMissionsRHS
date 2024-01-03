@@ -20,11 +20,15 @@ Vehicle BTR70_RF1 : "{B45DF818CF8F283A}Prefabs/Vehicles/Wheeled/BTR70/BTR70_RF.e
  coords 4987.042 265.531 6796.558
  angleY 66.158
 }
-$grp SCR_AIGroup : "{F23C0D0FEF7E744A}Prefabs/Groups/BLUFOR/Ses_CDF/Group_CDF_RifleSquad_P.et" {
+$grp SCR_AIGroup : "{F23C0D0FEF7E744A}Prefabs/Groups/BLUFOR/Ses_CDF/Group_CDF_RifleSquad_1_P.et" {
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{60471CDF44951E0E}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
    }
   }
   coords 4796.505 270.434 6823.786
@@ -35,6 +39,9 @@ $grp SCR_AIGroup : "{F23C0D0FEF7E744A}Prefabs/Groups/BLUFOR/Ses_CDF/Group_CDF_Ri
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Column"
    }
+   PS_GroupCallsignAssigner "{60471CDF7A8B28B7}" {
+    m_iCompanyCallsign 1
+   }
   }
   coords 4864.27 267.916 6777.639
   angleY 106.9
@@ -43,6 +50,9 @@ $grp SCR_AIGroup : "{F23C0D0FEF7E744A}Prefabs/Groups/BLUFOR/Ses_CDF/Group_CDF_Ri
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{60471CDF72C21909}" {
+    m_iSquadCallsign 3
    }
   }
   coords 4901.273 267.543 6771.145
@@ -56,6 +66,9 @@ $grp SCR_AIGroup : "{F23C0D0FEF7E744A}Prefabs/Groups/BLUFOR/Ses_CDF/Group_CDF_Ri
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Column"
    }
+   PS_GroupCallsignAssigner "{60471CDF77FAFCAF}" {
+    m_iSquadCallsign 2
+   }
   }
   coords 4932.612 267.407 6779.854
   angleY 86.211
@@ -68,6 +81,9 @@ $grp SCR_AIGroup : "{F23C0D0FEF7E744A}Prefabs/Groups/BLUFOR/Ses_CDF/Group_CDF_Ri
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Column"
    }
+   PS_GroupCallsignAssigner "{60471CDF6D82E73D}" {
+    m_iSquadCallsign 1
+   }
   }
   coords 4962.556 266.545 6780.016
   angleY 71.838
@@ -79,6 +95,8 @@ $grp SCR_AIGroup : "{F23C0D0FEF7E744A}Prefabs/Groups/BLUFOR/Ses_CDF/Group_CDF_Ri
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{60471CDF646A1D63}" {
    }
   }
   coords 4985.356 265.52 6801.711
