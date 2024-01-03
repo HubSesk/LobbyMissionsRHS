@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{45C292D45C57840B}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_v_p_ms2000.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
