@@ -1,6 +1,11 @@
 SCR_ChimeraCharacter : "{A6BBE7985C354A62}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Medic"
+   }
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{320A76F1F8E04B12}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_NT4_Peq.et"
   }

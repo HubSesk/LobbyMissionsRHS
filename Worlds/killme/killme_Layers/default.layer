@@ -1,43 +1,32 @@
 SCR_ChimeraCharacter : "{0D05611212019493}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_TL.et" {
  coords 122.089 1 129.767
 }
+GenericEntity : "{0EC215F0EB3288A6}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_Base.et" {
+ coords 129.336 1 128.394
+}
 SCR_AIGroup : "{0EFF5F602A101F34}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_Specop_P.et" {
  coords 114.408 1 137.674
 }
+SCR_ChimeraCharacter : "{0F6689B491641155}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sniper.et" {
+ coords 132.121 1 136.636
+}
+GenericEntity : "{13157154DEA8B6B3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_Sniper.et" {
+ coords 129.796 1 128.39
+}
+GenericEntity : "{140239B2D3707B29}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_M203_RAS_ACOG.et" {
+ coords 128.264 1 128.271
+}
 SCR_ChimeraCharacter : "{1B790332ED999822}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_Assault.et" {
- components {
-  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
-   Slots {
-    LoadoutSlotInfo Hat {
-     Prefab "{2F54187CAC1CEFB0}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_v_r_p_light.et"
-    }
-    LoadoutSlotInfo Pants {
-     Prefab "{0417F658F2723A30}Prefabs/Characters/Uniforms/BDU_Pants/BDU_PANTS_MARPAT.et"
-    }
-    LoadoutSlotInfo Back {
-     Prefab "{9A26D311900C33EE}Prefabs/Items/Equipment/Backpacks/FILBE_hydration_pack.et"
-    }
-   }
-  }
-  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
-   InitialInventoryItems {
-    ItemsInitConfigurationItem "{5CC8B5EF85FB5080}" {
-     TargetStorage "Prefabs/Characters/Uniforms/BDU_Pants/BDU_PANTS_MARPAT.et"
-     PrefabsToSpawn +{
-     }
-    }
-    ItemsInitConfigurationItem "{604411C511BD31BB}" {
-     PrefabsToSpawn {
-      "{00F0B1FA28EF672B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M995.et" "{00F0B1FA28EF672B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M995.et" "{00F0B1FA28EF672B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M995.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et" "{9BBDEE253A16CC66}Prefabs/Weapons/Grenades/M18/Smoke_M18_Yellow.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
-     }
-    }
-   }
-  }
- }
  coords 125.274 1 128.836
+}
+SCR_ChimeraCharacter : "{1CA3D30464EE4674}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Spotter.et" {
+ coords 133.917 1 136.466
 }
 GenericEntity : "{261A5DAA1C3ED165}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_NT4_Peq_Acog.et" {
  coords 128.028 1 129.845
+}
+SCR_ChimeraCharacter : "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et" {
+ coords 135.225 1 134.286
 }
 GenericEntity : "{320A76F1F8E04B12}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_NT4_Peq.et" {
  coords 127.72 1 129.557
@@ -45,8 +34,18 @@ GenericEntity : "{320A76F1F8E04B12}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_NT
 SCR_ChimeraCharacter : "{4DD320946B1BC227}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_LAT.et" {
  coords 124.214 1 129.097
 }
+GenericEntity : "{56CE827F9AD5880E}Prefabs/Weapons/Rifles/M40/Rifle_M40A5_Optic_Peq.et" {
+ coords 128.811 1 128.499
+ angleY 0
+}
+GenericEntity : "{627255315038152A}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_SpecialBall.et" {
+ coords 129.604 1 128.124
+}
 GenericEntity : "{6883E434BD3306B8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_NT4_Peq_Aimpoint.et" {
  coords 127.086 1 129.256
+}
+GenericEntity : "{6D18CC33708EE712}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_Base.et" {
+ coords 129.356 1 128.151
 }
 SCR_ChimeraCharacter : "{6D58EE2CD7325FAA}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_GL.et" {
  coords 123.181 1 129.513
@@ -57,11 +56,17 @@ SCR_ChimeraCharacter : "{7AE79CE5B92888B1}Prefabs/Characters/Factions/BLUFOR/RHS
 GenericEntity : "{832641A2AB3E89F6}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_M203_RAS_Aimpoint.et" {
  coords 127.359 1 128.347
 }
+SCR_ChimeraCharacter : "{84029128FA6F6BB9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL.et" {
+ coords 133.313 1 134.277
+}
 GenericEntity : "{90D8238D1D8D2DC5}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_NT4.et" {
  coords 127.103 1 128.206
 }
 GenericEntity : "{90D8238D1D8D2DC6}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_Aimpoint.et" {
  coords 127.413 1 129.354
+}
+GenericEntity : "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" {
+ coords 129.622 1 128.666
 }
 SCR_ChimeraCharacter : "{A6BBE7985C354A62}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop.et" {
  coords 121.125 1.001 126.986
@@ -73,19 +78,36 @@ GenericEntity : "{C34F897AB78E1900}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_TA
  coords 127.066 1 127.104
 }
 SCR_ChimeraCharacter : "{C4AE533F573B7C75}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_Sniper.et" {
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+      }
+     }
+    }
+   }
+  }
+ }
  coords 123.222 1 132.355
 }
 SCR_ChimeraCharacter : "{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic.et" {
- coords 128.242 1 132.253
+ coords 135.163 1 132.253
 }
 SCR_ChimeraCharacter : "{E07BC0A815B38AC7}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_Corpsman.et" {
  coords 126.61 1 128.482
 }
-SCR_ChimeraCharacter : "{E398E44759DA1A43}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL.et" {
- coords 127.245 1 131.498
+$grp SCR_ChimeraCharacter : "{E398E44759DA1A43}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL.et" {
+ {
+  coords 134.166 1 131.498
+ }
+ {
+  coords 131.541 1 134.51
+ }
 }
 SCR_ChimeraCharacter : "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et" {
- coords 126.474 1 132.092
+ coords 133.395 1 132.092
 }
 GameEntity : "{E6534FE720EB128F}Prefabs/Characters/Uniforms/BDU_Pants/bdu_pants_base.et" {
  coords 126.15 1 127.006

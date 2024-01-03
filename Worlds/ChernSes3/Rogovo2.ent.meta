@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{3C4A97E31A549629}Worlds/ChernarussianMeeting/CM.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}
