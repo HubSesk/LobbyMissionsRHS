@@ -1,39 +1,13 @@
-Vehicle BTR70_RF1 : "{B45DF818CF8F283A}Prefabs/Vehicles/Wheeled/BTR70/BTR70_RF.et" {
+SCR_AIGroup : "{72251CC48B349F00}Prefabs/Groups/BLUFOR/Ses_CDF/Group_CDF_RifleSquad_0_P.et" {
  components {
-  RHS_GroupMaterialController "{5E66CB9FDE9DAD78}" {
-   m_aGroups {
-    RHS_MaterialGroupProperties "{5E66CB99517A334D}" {
-     m_iTextureID 7
-     m_bRandomize 0
-    }
-    RHS_MaterialGroupProperties "{5E66CB995055ECF4}" {
-     m_iTextureID 7
-     m_bRandomize 0
-    }
-    RHS_MaterialGroupProperties "{5E66CB995F8395F2}" {
-     m_iTextureID 7
-     m_bRandomize 0
-    }
-   }
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
   }
  }
- coords 4987.042 265.531 6796.558
- angleY 66.158
+ coords 4800.602 270.406 6820.087
+ angleY 132.563
 }
 $grp SCR_AIGroup : "{F23C0D0FEF7E744A}Prefabs/Groups/BLUFOR/Ses_CDF/Group_CDF_RifleSquad_1_P.et" {
- {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Column"
-   }
-   PS_GroupCallsignAssigner "{60471CDF44951E0E}" {
-    m_iCompanyCallsign 1
-    m_iSquadCallsign 1
-   }
-  }
-  coords 4796.505 270.434 6823.786
-  angleY 128.281
- }
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
