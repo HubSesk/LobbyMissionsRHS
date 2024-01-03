@@ -8,33 +8,3 @@ StaticModelEntity : "{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/
  angleY -30
  scale 8
 }
-$grp GenericEntity : "{AE09DA7896F9DB37}Prefabs/Props/Fabric/Flags/Flag_1_2.et" {
- {
-  components {
-   MeshObject "{52AE82368499B365}" {
-    Materials {
-     MaterialAssignClass "{5F3AFB060584A055}" {
-      SourceMaterial "Flag_1_2"
-      AssignedMaterial "{15AB376863D1724E}Assets/Props/Fabric/Flags/Data/Flag_1_2_Russia.emat"
-     }
-    }
-   }
-  }
-  coords 4781.029 285.361 6802.462
-  angleY -99.365
- }
- {
-  components {
-   MeshObject "{52AE82368499B365}" {
-    Materials {
-     MaterialAssignClass "{5F3AFB060584A055}" {
-      SourceMaterial "Flag_1_2"
-      AssignedMaterial "{15AB376863D1724E}Assets/Props/Fabric/Flags/Data/Flag_1_2_Russia.emat"
-     }
-    }
-   }
-  }
-  coords 4475.862 309.887 6459.78
-  angleY -99.365
- }
-}
