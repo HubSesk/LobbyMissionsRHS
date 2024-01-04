@@ -1,0 +1,133 @@
+$grp SCR_AIGroup : "{218445F83827D929}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_MSV_EMR_RifleSquad.et" {
+ RHS_RF_MSV_G_030_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6047325E3A3F75D1}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 3
+   }
+  }
+  coords 2024.32 292.262 13067.355
+  angleY -82
+  m_bSetPlayable 1
+ }
+ RHS_RF_MSV_G_020_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6047325DC742BA66}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 2040.491 293.976 13104.739
+  angleY -57
+  m_bSetPlayable 1
+ }
+ RHS_RF_MSV_G_040_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6047325DC87C526B}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 4
+   }
+  }
+  coords 2020.753 290.699 13030.337
+  angleY -84
+  m_bSetPlayable 1
+ }
+ RHS_RF_MSV_G_010_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6047325DC9D3311E}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 2068.271 294.814 13132.89
+  angleY -42
+  m_bSetPlayable 1
+ }
+ RHS_RF_MSV_G_000_8 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6047325DCABDFCB9}" {
+    m_iCompanyCallsign 0
+   }
+  }
+  coords 2087.45 295.116 13150.876
+  angleY -42
+  m_aUnitPrefabSlots + {
+   "{A859778965BCB47B}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_Crewman_P.et" "{A859778965BCB47B}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_Crewman_P.et"
+  }
+  m_bSetPlayable 1
+ }
+ RHS_RF_MSV_G_031_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6047325DCA049269}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2018.722 292.825 13071.014
+  angleY 98
+  m_bSetPlayable 1
+ }
+ RHS_RF_MSV_G_041_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6047325DCB95767F}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 4
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2014.607 291.116 13033.995
+  angleY 98
+  m_bSetPlayable 1
+ }
+ RHS_RF_MSV_G_021_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6047325DCB668E0F}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2036.733 294.538 13111.05
+  angleY 127
+  m_bSetPlayable 1
+ }
+ RHS_RF_MSV_G_011_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6047325DCCF80400}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2065.8 295.102 13140.268
+  angleY 139
+  m_bSetPlayable 1
+ }
+}

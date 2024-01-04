@@ -1,0 +1,34 @@
+Vehicle UAZ469_covered_CIV_red1 : "{A4D16A62B432451A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_red.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5AD4F813E67ECBD3}" {
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+ }
+ coords 3004.39 312.232 7877.041
+ angleY -58.109
+}
+Vehicle Ural4320_transport_covered_CIV_JZD1 : "{FB219B49A448A8EA}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_JZD.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5628CA84B129D4CE}" {
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+ }
+ coords 3191.829 311.217 7790.819
+ angleX -4.461
+ angleY 39.922
+ angleZ -0.238
+}

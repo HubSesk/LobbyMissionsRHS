@@ -1,0 +1,98 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ ALL_def {
+  coords 4782.701 270.1 6808.063
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 35
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF" "RHS_US_USMC" "RHS_RF_MSV"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ RF_Defenders {
+  coords 4786.25 269.865 6770.37
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Undefined-opfor"
+  m_fWorldSize 35
+  m_sDescription "#AR-Callsign_Soviet_Company_A"\
+  "#AR-Callsign_Soviet_Company_D"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+ }
+ ALL_def2 {
+  coords 4480.936 299.539 6459.966
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 35
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF" "RHS_US_USMC" "RHS_RF_MSV"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ RF_Reinforcment {
+  coords 5278.669 337.043 9796.105
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Undefined-opfor"
+  m_fWorldSize 35
+  m_sDescription "#AR-Callsign_Soviet_Company_B"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+ }
+ CDF_Start {
+  coords 3934.292 310.216 5463
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 1 0.452 1
+  m_sQuadName "Undefined-blufor"
+  m_fWorldSize 35
+  m_sDescription "#AR-Callsign_US_Company_A"\
+  "#AR-Callsign_US_Company_B"\
+  "#AR-Callsign_US_Company_C"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF" "RHS_US_USMC"
+  }
+ }
+ US_Start {
+  coords 5443.547 301.809 5475.161
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Undefined-blufor"
+  m_fWorldSize 35
+  m_sDescription "USMC"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+ }
+ Brief_Attack {
+  coords 4347.345 325.575 5854.605
+  angleY 15
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "arrow-large"
+  m_fWorldSize 45
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+ }
+ Brief_Def {
+  coords 4624.743 298.253 6541.638
+  m_sImageSet "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "HQ_HUD"
+  m_fWorldSize 45
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+ }
+}

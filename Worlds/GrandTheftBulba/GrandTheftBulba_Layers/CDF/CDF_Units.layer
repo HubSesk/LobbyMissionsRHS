@@ -1,0 +1,134 @@
+SCR_AIGroup "(Садовод) Ses_CDF_G_000_3" : "{3F04964DF8D24764}Prefabs/Groups/BLUFOR/Group_CDF_Base.et" {
+ components {
+  PS_GroupCallsignAssigner "{60473271DAE64F86}" {
+   m_iCompanyCallsign 0
+   m_iSquadCallsign 0
+  }
+ }
+ coords 1660.311 451.906 14200.365
+ angleY 162
+ m_aUnitPrefabSlots {
+  "{16165F4184929A6A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SL.et" "{16165F4184929A69}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Medic.et" "{7C646869CFA3B721}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_RTO.et"
+ }
+ m_sCustomNameSet "Садовод"
+ m_bSetPlayable 1
+}
+$grp SCR_AIGroup : "{72251CC48B349F00}Prefabs/Groups/BLUFOR/Ses_CDF/Group_CDF_RifleSquad_0_P.et" {
+ "(Брюква) Ses_CDF_G_400_6" {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6047327CA57569B7}" {
+    m_iCompanyCallsign 4
+    m_iPlatoonCallsign 0
+   }
+  }
+  coords 2257.703 368.089 13626.318
+  angleY 145
+  m_sCustomNameSet "Брюква"
+  m_bSetPlayable 1
+ }
+ "(Петрушка) Ses_CDF_G_100_6" {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6047327CA64AA07A}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 1571.001 452.11 14175.732
+  angleY 169.706
+  m_sCustomNameSet "Петрушка"
+  m_bSetPlayable 1
+ }
+ "(Комбайнеры) Ses_CDF_G_200_8" {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6047327CA79280F2}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 1578.547 452.938 14058.499
+  angleY -60
+  m_aUnitPrefabSlots {
+   "{A90924201B1CDCA9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SL_P.et" "{0C8C9CADCF5A68C3}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AR_P.et" "{B15CCE2AB04174DD}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AT_P.et" "{DF638019B037999A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AAT_P.et" "{D6B6E77B73D88E8D}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_GL_P.et" "{BF10E5865E03DA2B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Crew_P.et" "{66ECB0DF17BE0903}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Rifleman_P.et" "{BF10E5865E03DA2B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Crew_P.et"
+  }
+  m_sCustomNameSet "Комбайнеры"
+  m_bSetPlayable 1
+ }
+ "(Каптер) Ses_CDF_G_101_1" {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6047327CA64AA07A}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1556.323 452.555 14171.098
+  angleY -78.14
+  m_aUnitPrefabSlots {
+   "{25479E6C9029B917}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Capter_P.et"
+  }
+  m_bSnapToTerrain 0
+  m_sCustomNameSet "Каптер"
+  m_bSetPlayable 1
+ }
+}
+$grp SCR_AIGroup : "{F23C0D0FEF7E744A}Prefabs/Groups/BLUFOR/Ses_CDF/Group_CDF_RifleSquad_1_P.et" {
+ "(Клубень) Ses_CDF_G_001_9" {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6047327CA69E244D}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1657.682 451.906 14178.731
+  angleY 71
+  m_sCustomNameSet "Клубень"
+  m_bSetPlayable 1
+ }
+ "(Посевная) Ses_CDF_G_002_9" {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6047327CA624EB86}" {
+    m_iCompanyCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1674.375 451.907 14183.938
+  angleY -107
+  m_sCustomNameSet "Посевная"
+  m_bSetPlayable 1
+ }
+ "(Гряда) Ses_CDF_G_003_9" {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6047327CA69E244D}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 3
+   }
+  }
+  coords 1670.163 451.906 14162.138
+  angleY -16
+  m_aUnitPrefabSlots {
+   "{A90924201B1CDCA9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SL_P.et" "{7B8F1426826B78AB}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_TL_P.et" "{7B8F1426826B78AB}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_TL_P.et" "{0C8C9CADCF5A68C3}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AR_P.et" "{D6B6E77B73D88E8D}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_GL_P.et" "{FF92763AA80AD454}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_LAT_P.et"
+  }
+  m_sCustomNameSet "Гряда"
+  m_bSetPlayable 1
+ }
+}

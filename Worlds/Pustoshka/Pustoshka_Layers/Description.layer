@@ -1,0 +1,36 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 4059.99 331.434 5527.372
+  m_sTitle "Общая информация"
+  m_sTextData "ВСРФ собрали силы для атаки Пустошки, у них есть час на захват важнейших зданий."\
+  ""\
+  "Не забывайте проверять инвентарь вашей техники."
+  m_aVisibleForFactions {
+   "Ses_CDF" "RHS_RF_MSV" "RHS_US_USMC"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 4138.284 335.031 5527.068
+  m_sTitle "Задачи ЧСО"
+  m_sTextData "Задачи:"\
+  "• Удержание ключевых точек в городе."\
+  "• Нанести серьезный урон силам противника."\
+  ""\
+  "По Пустошке можно свободно перемещаться и до окончания фризтайма, используйте это время для подготовки обороны."
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+ {
+  coords 4187.013 335.466 5546.79
+  m_sTitle "Задачи ВСРФ"
+  m_sTextData "Задачи:"\
+  "• Захватить ключевые здания города для его контроля."\
+  ""\
+  "У вас есть час на то что бы выбить противника."
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+ }
+}

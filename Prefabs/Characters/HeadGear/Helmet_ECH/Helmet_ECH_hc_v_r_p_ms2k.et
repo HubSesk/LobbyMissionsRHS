@@ -1,0 +1,12 @@
+GameEntity : "{C50D23658C5A6F86}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_hc_v_r_p.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo BackVelcro {
+     Prefab "{643AB339663E92F7}Prefabs/Items/Equipment/Nightvision/MS2000/Marker_MS2000.et"
+    }
+   }
+  }
+ }
+}
