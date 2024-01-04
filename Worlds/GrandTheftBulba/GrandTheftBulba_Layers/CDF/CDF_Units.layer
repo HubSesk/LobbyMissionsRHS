@@ -29,14 +29,13 @@ $grp SCR_AIGroup : "{72251CC48B349F00}Prefabs/Groups/BLUFOR/Ses_CDF/Group_CDF_Ri
   m_sCustomNameSet "Брюква"
   m_bSetPlayable 1
  }
- "(Петрушка) Ses_CDF_G_101_6" {
+ "(Петрушка) Ses_CDF_G_100_6" {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
    }
    PS_GroupCallsignAssigner "{6047327CA64AA07A}" {
     m_iCompanyCallsign 1
-    m_iSquadCallsign 1
    }
   }
   coords 1571.001 452.11 14175.732
@@ -44,13 +43,13 @@ $grp SCR_AIGroup : "{72251CC48B349F00}Prefabs/Groups/BLUFOR/Ses_CDF/Group_CDF_Ri
   m_sCustomNameSet "Петрушка"
   m_bSetPlayable 1
  }
- "(Комбайнеры) Ses_CDF_G_100_6" {
+ "(Комбайнеры) Ses_CDF_G_200_8" {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
    }
    PS_GroupCallsignAssigner "{6047327CA79280F2}" {
-    m_iCompanyCallsign 1
+    m_iCompanyCallsign 2
    }
   }
   coords 1578.547 452.938 14058.499
@@ -61,14 +60,14 @@ $grp SCR_AIGroup : "{72251CC48B349F00}Prefabs/Groups/BLUFOR/Ses_CDF/Group_CDF_Ri
   m_sCustomNameSet "Комбайнеры"
   m_bSetPlayable 1
  }
- "(Каптер) Ses_CDF_G_102_1" {
+ "(Каптер) Ses_CDF_G_101_1" {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
    }
    PS_GroupCallsignAssigner "{6047327CA64AA07A}" {
     m_iCompanyCallsign 1
-    m_iSquadCallsign 2
+    m_iSquadCallsign 1
    }
   }
   coords 1556.323 452.555 14171.098
