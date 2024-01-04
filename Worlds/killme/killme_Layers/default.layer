@@ -1,3 +1,9 @@
+GenericEntity {
+ coords 129.796 1 128.39
+}
+SCR_ChimeraCharacter : "{0190786646CABBC3}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M_V2.et" {
+ coords 127.96 1 121.112
+}
 SCR_ChimeraCharacter : "{0D05611212019493}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_TL.et" {
  coords 122.089 1 129.767
 }
@@ -9,9 +15,6 @@ SCR_AIGroup : "{0EFF5F602A101F34}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC
 }
 SCR_ChimeraCharacter : "{0F6689B491641155}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sniper.et" {
  coords 132.121 1 136.636
-}
-GenericEntity : "{13157154DEA8B6B3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_Sniper.et" {
- coords 129.796 1 128.39
 }
 GenericEntity : "{140239B2D3707B29}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_M203_RAS_ACOG.et" {
  coords 128.264 1 128.271
@@ -36,7 +39,6 @@ SCR_ChimeraCharacter : "{4DD320946B1BC227}Prefabs/Characters/Factions/BLUFOR/RHS
 }
 GenericEntity : "{56CE827F9AD5880E}Prefabs/Weapons/Rifles/M40/Rifle_M40A5_Optic_Peq.et" {
  coords 128.811 1 128.499
- angleY 0
 }
 GenericEntity : "{627255315038152A}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_SpecialBall.et" {
  coords 129.604 1 128.124
@@ -74,22 +76,13 @@ SCR_ChimeraCharacter : "{A6BBE7985C354A62}Prefabs/Characters/Factions/BLUFOR/RHS
 SCR_ChimeraCharacter : "{AA0CBD566DE31601}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_2.et" {
  coords 124.932 1 127.494
 }
+SCR_ChimeraCharacter : "{BE8D39247EDEE362}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M_RPG.et" {
+ coords 126.727 1 119.778
+}
 GenericEntity : "{C34F897AB78E1900}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_TA31RCO_ARD_NT4.et" {
  coords 127.066 1 127.104
 }
 SCR_ChimeraCharacter : "{C4AE533F573B7C75}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_Sniper.et" {
- components {
-  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
-   components {
-    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
-     InitialStorageSlots {
-      SCR_EquipmentStorageSlot BinocularSlot {
-      }
-     }
-    }
-   }
-  }
- }
  coords 123.222 1 132.355
 }
 SCR_ChimeraCharacter : "{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic.et" {
@@ -114,4 +107,10 @@ GameEntity : "{E6534FE720EB128F}Prefabs/Characters/Uniforms/BDU_Pants/bdu_pants_
 }
 GenericEntity : "{F96BBA7B329ADC1A}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21_t.et" {
  coords 125.363 1 127.072
+}
+SCR_ChimeraCharacter : "{FD91E0A9D6C0277C}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_AN94GL.et" {
+ coords 130.11 1 120.251
+}
+SCR_ChimeraCharacter : "{FD91E0A9D6C0277D}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M.et" {
+ coords 128.58 1 119.576
 }
