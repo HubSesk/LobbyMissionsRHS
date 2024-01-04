@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{0C13CAC92FFC62C0}Prefabs/Characters/Heads/HEAD_SMERT.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

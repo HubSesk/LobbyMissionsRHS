@@ -35,3 +35,9 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
 }
 HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
 }
+Vehicle UAZ469_Ses_CDF_camo_MP1 : "{79657EC98BB73AEF}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Ses_CDF_camo_MP.et" {
+ coords 1562.626 452.137 14165.242
+}
+GenericEntity : "{CA1F0EE9B4ACE21C}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/FIA/UAZ469_Ses_MP_CoatOfArms_decal.et" {
+ coords 1564.57 453.443 14165.148
+}

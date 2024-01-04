@@ -1,0 +1,31 @@
+GenericEntity {
+ ID "60491A7210C26C6E"
+ components {
+  MeshObject "{60491A7210C26C7A}" {
+   Object "{9F3AF591CD6DFE1A}Assets/Characters/Basebody/Basebody_Male_01.xob"
+   Materials {
+    MaterialAssignClass "{60491A7236EBBA3B}" {
+     SourceMaterial "Basebody_01_Male_Arms"
+     AssignedMaterial "{01A1C1EA5BBFBB96}Assets/Weapons/_SharedMaterials/smert.emat"
+    }
+    MaterialAssignClass "{60491A7236EBBA01}" {
+     SourceMaterial "Basebody_01_Male_Arms_wound"
+     AssignedMaterial "{01A1C1EA5BBFBB96}Assets/Weapons/_SharedMaterials/smert.emat"
+    }
+    MaterialAssignClass "{60491A7236EBBA06}" {
+     SourceMaterial "Basebody_01_Male_Body"
+     AssignedMaterial "{01A1C1EA5BBFBB96}Assets/Weapons/_SharedMaterials/smert.emat"
+    }
+    MaterialAssignClass "{60491A7236EBBA1A}" {
+     SourceMaterial "Basebody_01_Male_Body_wound"
+     AssignedMaterial "{01A1C1EA5BBFBB96}Assets/Weapons/_SharedMaterials/smert.emat"
+    }
+   }
+   LODFactors {
+    4 0.8 0.1 0.1 0.1
+   }
+   PixelSizeScale 2
+  }
+ }
+ coords -18.369 1 8.297
+}

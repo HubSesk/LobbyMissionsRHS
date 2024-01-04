@@ -1,0 +1,76 @@
+GameEntity : "{8A2B2A544F3ED831}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_base.et" {
+ ID "50D485E1435D6C72"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{52C8D601873E6784}" {
+    ItemDisplayName UIInfo "{6049188BC52EDFA1}" {
+     Name "#RHS-Headgear_6B47_Name"
+     Description "#RHS-Headgear_6B47_Description"
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{2180CAE364EB9E01}Assets/Characters/HeadGear/Beanie/V_Beanie.xob"
+  }
+  RHS_ClothNodeStorageComponent "{5DB13C5777E6E695}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{5DB13C5760610D64}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_Beanie_Name"
+     Description "#RHS-Headgear_Beanie_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5DB13C575AD680C2}" {
+     Weight 1.5
+     SizeSetupStrategy Manual
+     ItemDimensions 20 20 20
+     ItemVolume 2500
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB13C57226FEA81}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 2
+      FOV 10
+     }
+     RHS_CustomAttributes "{5DB8F5B9ACB547EA}" {
+      m_sShortName "#RHS-Headgear_Beanie_Name"
+     }
+    }
+   }
+  }
+  SCR_ArmorDamageManagerComponent "{5E208A6BCC801EAE}" {
+   Enabled 0
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo MeshCover {
+     Enabled 0
+    }
+    LoadoutSlotInfo Masks {
+    }
+    LoadoutSlotInfo NVG {
+     Offset 0.0026 0.1528 -0.1414
+     Angles -9.8766 180 0
+    }
+    LoadoutSlotInfo Headset {
+     Offset 0 0.005 0
+     Enabled 1
+    }
+    LoadoutSlotInfo TopVelcro {
+     PivotID "Head"
+     Offset 0 -0.0412 -0.0292
+     Angles -35.431 0 0
+     Enabled 1
+     Prefab "{91E4D4CBB097A9C1}Prefabs/Props/Forest/DeerSkull_01/DeerSkull_01.et"
+     DisablePhysicsInteraction 1
+    }
+   }
+   WornModel "{2180CAE364EB9E01}Assets/Characters/HeadGear/Beanie/V_Beanie.xob"
+   ItemModel "{CBD64389FEC53DE6}Assets/Characters/HeadGear/Beanie/V_Beanie_ground.xob"
+   OverrideMeshesToHide {
+    "Arm_L" "Arm_R" "ArmUpper_L" "ArmUpper_R" "Calf_L" "Calf_R" "CalfLower_L" "CalfLower_R" "Foot_L" "Foot_R" "Groin" "Body" "Hand_L" "Hand_R" "Leg_L" "Leg_R" "Torso" "Head_neck" "Head"
+   }
+   DebugWornModel 1
+  }
+ }
+}
