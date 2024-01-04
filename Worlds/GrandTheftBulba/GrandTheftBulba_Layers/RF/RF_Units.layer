@@ -27,20 +27,6 @@ $grp SCR_AIGroup : "{218445F83827D929}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_
   angleY -57
   m_bSetPlayable 1
  }
- RHS_RF_MSV_G_040_6 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Line"
-   }
-   PS_GroupCallsignAssigner "{6047325DC87C526B}" {
-    m_iCompanyCallsign 0
-    m_iPlatoonCallsign 4
-   }
-  }
-  coords 2020.753 290.699 13030.337
-  angleY -84
-  m_bSetPlayable 1
- }
  RHS_RF_MSV_G_010_6 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -83,21 +69,6 @@ $grp SCR_AIGroup : "{218445F83827D929}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_
    }
   }
   coords 2018.722 292.825 13071.014
-  angleY 98
-  m_bSetPlayable 1
- }
- RHS_RF_MSV_G_041_6 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Line"
-   }
-   PS_GroupCallsignAssigner "{6047325DCB95767F}" {
-    m_iCompanyCallsign 0
-    m_iPlatoonCallsign 4
-    m_iSquadCallsign 1
-   }
-  }
-  coords 2014.607 291.116 13033.995
   angleY 98
   m_bSetPlayable 1
  }

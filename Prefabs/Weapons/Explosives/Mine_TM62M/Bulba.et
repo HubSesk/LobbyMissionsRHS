@@ -19,14 +19,23 @@ GenericEntity {
   }
   MeshObject "{604732700271E225}" {
    Object "{F4A6B9CC408CD0F4}Assets/Props/Military/Sandbags/Sandbag_01_single.xob"
+   Materials {
+    MaterialAssignClass "{6048C48B488B7BBD}" {
+     SourceMaterial "Sandbags_01_End"
+     AssignedMaterial "{2392C281DF136B3B}Assets/Props/Military/Sandbags/Data/Sandbags_01_end_Burlap.emat"
+    }
+   }
    PixelSizeScale 3
   }
+  PS_BulbaComponent "{6047326A7F7D7CAE}" {
+  }
   RigidBody "{604732700271E266}" {
+   Mass 15
    LinearSleepingThreashold 0.5
    AngularSleepingThreashold 0.5
    ResponseIndex "TinyDestructible"
    ModelGeometry 1
-   Static 1
+   Static 0
   }
   SCR_MineDamageManager "{604732700271E3EC}" {
    Enabled 0
@@ -135,7 +144,7 @@ GenericEntity {
     }
    }
    additionalActions {
-    SCR_MineEquipWeaponAction "{604732700271ED36}" {
+    SCR_BulbaAction "{604732700271ED36}" {
      ParentContextList {
       "default"
      }
@@ -177,8 +186,6 @@ GenericEntity {
    "Rpl State Override" Runtime
   }
   Hierarchy "{604732700271EE9E}" {
-  }
-  PS_BulbaComponent "{6047326A7F7D7CAE}" {
   }
  }
  coords 129.242 1 106.205

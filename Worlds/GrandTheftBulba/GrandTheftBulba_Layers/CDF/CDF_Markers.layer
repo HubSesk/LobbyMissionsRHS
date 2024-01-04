@@ -38,8 +38,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 1566.369 452.014 14161.407
-  angleY 215.97
+  coords 1574.397 452.014 14163.594
+  angleY -130.43
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.025 0.61 0.446 1
@@ -136,7 +136,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   coords 2257.703 368.089 13626.318
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
+  m_MarkerColor 0.025 0.61 0.446 1
   m_sQuadName "Recon-blufor"
   m_fWorldSize 50
   m_sDescription "(Брюква) Eagle Red 1"
@@ -146,14 +146,15 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
+   1
   }
   m_iZOrder 10
  }
  Ses_CDF_G_003_M {
-  coords 1670.163 451.906 14162.138
+  coords 1671.588 451.906 14162.548
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
+  m_MarkerColor 0.025 0.61 0.446 1
   m_sQuadName "infantry-blufor"
   m_fWorldSize 50
   m_sDescription "(Гряда) Atlas Red 4"
@@ -163,23 +164,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
- }
- Ses_CDF_G_101_M {
-  coords 1556.323 452.555 14171.098
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "infantry-blufor"
-  m_fWorldSize 50
-  m_sDescription "(Каптер) Blazer Red 2"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "Ses_CDF" "RHS_RF_MSV" "RHS_US_USMC"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
+   1
   }
   m_iZOrder 10
  }
@@ -187,7 +172,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   coords 1657.682 451.906 14178.731
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
+  m_MarkerColor 0.025 0.61 0.446 1
   m_sQuadName "infantry-blufor"
   m_fWorldSize 50
   m_sDescription "(Клубень) Atlas Red 2"
@@ -197,6 +182,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
+   1
   }
   m_iZOrder 10
  }
@@ -204,7 +190,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   coords 1578.547 452.938 14058.499
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
+  m_MarkerColor 0.025 0.61 0.446 1
   m_sQuadName "Motorized-rifle-blufor"
   m_fWorldSize 50
   m_sDescription "(Комбайнеры) Chaos Red 1"
@@ -214,6 +200,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
+   1
   }
   m_iZOrder 10
  }
@@ -221,7 +208,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   coords 1571.001 452.11 14175.732
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
+  m_MarkerColor 0.025 0.61 0.446 1
   m_sQuadName "maintenance-blufor"
   m_fWorldSize 50
   m_sDescription "(Петрушка) Blazer Red 1"
@@ -231,6 +218,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
+   1
   }
   m_iZOrder 10
  }
@@ -238,7 +226,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   coords 1674.375 451.907 14183.938
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
+  m_MarkerColor 0.025 0.61 0.446 1
   m_sQuadName "infantry-blufor"
   m_fWorldSize 50
   m_sDescription "(Посевная) Atlas Red 3"
@@ -248,6 +236,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
+   1
   }
   m_iZOrder 10
  }
@@ -255,7 +244,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   coords 1660.311 451.906 14200.365
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
+  m_MarkerColor 0.025 0.61 0.446 1
   m_sQuadName "infantry-blufor"
   m_fWorldSize 50
   m_sDescription "(Садовод) Atlas Red 1"
@@ -265,6 +254,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
+   1
   }
   m_iZOrder 10
  }
