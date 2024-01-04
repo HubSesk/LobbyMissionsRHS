@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{FC7D5639EBB09D76}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_cargo_canvas_closed_camo1_Cargo.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

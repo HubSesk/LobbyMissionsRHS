@@ -1,3 +1,21 @@
+Vehicle Ural4320_transport_covered_camo3 : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_camo1.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6049404BCA2E9994}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+     }
+     NumSlots 12
+    }
+   }
+  }
+ }
+ coords 6182.093 333.022 8010.794
+ angleX 0.106
+ angleY 83.184
+ angleZ 0.889
+}
 GenericEntity : "{53506DCB398C7EBE}Prefabs/Props/Furniture/Table_01.et" {
  coords 6074.118 297.348 7783.095
  angleY 39.113

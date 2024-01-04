@@ -3,6 +3,9 @@ SCR_AIGroup : "{0EFF5F602A101F34}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Column"
   }
+  PS_GroupCallsignAssigner "{6048DB29705B25E7}" {
+   m_iCompanyCallsign 3
+  }
  }
  coords 6594.105 321.969 6009.691
  angleY -40.853

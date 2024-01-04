@@ -1,12 +1,33 @@
-$grp GenericEntity : "{AB72A0D9CB73483A}Prefabs/Props/Fabric/Flags/Flag_1_2_White_01.et" {
+$grp GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USSR.et" {
  {
-  coords 6254.917 325.327 7732.204
-  angleX 2.749
-  angleY 20.903
-  angleZ -7.157
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{15AB376863D1724E}Assets/Props/Fabric/Flags/Data/Flag_1_2_Russia.emat"
+   }
+  }
+  coords 6026.528 313.845 7885.985
  }
  {
-  coords 6026.5 318.405 7885.997
-  angleY -61.724
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{15AB376863D1724E}Assets/Props/Fabric/Flags/Data/Flag_1_2_Russia.emat"
+   }
+  }
+  coords 6256.228 322.871 7731.733
+  angleX 29.931
+  angleY 82.042
+  angleZ -15.087
  }
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{15AB376863D1724E}Assets/Props/Fabric/Flags/Data/Flag_1_2_Russia.emat"
+   }
+  }
+  coords 6207.44 332.723 8047.998
+ }
+}
+StaticModelEntity : "{6DEC3A82BA35F108}Prefabs/Compositions/Misc/SubCompositions/Tent_BarrackHQ_Cluttered_USSR_01.et" {
+ coords 6209.988 334.662 8045.252
+ angleY 26.97
 }
