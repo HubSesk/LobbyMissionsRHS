@@ -1,0 +1,15 @@
+SCR_AIGroup "(Веды) RHS_RF_MSV_G_300_6" : "{4E66C5FE1796D009}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/SPECOPS.et" {
+ components {
+  PS_GroupCallsignAssigner "{6047325DCC44906F}" {
+   m_iCompanyCallsign 3
+   m_iPlatoonCallsign 0
+  }
+ }
+ coords 2924.914 212.614 12629.772
+ angleY 17
+ m_aUnitPrefabSlots + {
+  "{9F1A54596CE4BB81}Prefabs/Characters/Factions/OPFOR/RF/HeliPilot.et"
+ }
+ m_sCustomNameSet "Веды"
+ m_bSetPlayable 1
+}
