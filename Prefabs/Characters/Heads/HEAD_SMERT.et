@@ -1,0 +1,62 @@
+GameEntity : "{6F0C6CF6F10B4148}Prefabs/Characters/Core/CharacterHead_Base.et" {
+ ID "529C89342C390093"
+ components {
+  MeshObject "{529C8934211B4893}" {
+   Object "{52F50A5F061314A8}Assets/Characters/Heads/Head_White_02/Head_White_02.xob"
+   Materials {
+    MaterialAssignClass "{60491A72C5225E5A}" {
+     SourceMaterial "Eye"
+     AssignedMaterial "{01A1C1EA5BBFBB96}Assets/Weapons/_SharedMaterials/smert.emat"
+    }
+    MaterialAssignClass "{60491A72C52241A8}" {
+     SourceMaterial "Eye_Occlusion"
+     AssignedMaterial "{01A1C1EA5BBFBB96}Assets/Weapons/_SharedMaterials/smert.emat"
+    }
+    MaterialAssignClass "{60491A72C52241AE}" {
+     SourceMaterial "Eye_Occlusion_wound"
+     AssignedMaterial "{01A1C1EA5BBFBB96}Assets/Weapons/_SharedMaterials/smert.emat"
+    }
+    MaterialAssignClass "{60491A72C52241AC}" {
+     SourceMaterial "Eye_Water"
+     AssignedMaterial "{01A1C1EA5BBFBB96}Assets/Weapons/_SharedMaterials/smert.emat"
+    }
+    MaterialAssignClass "{60491A72C52241A2}" {
+     SourceMaterial "Eye_Water_wound"
+     AssignedMaterial "{01A1C1EA5BBFBB96}Assets/Weapons/_SharedMaterials/smert.emat"
+    }
+    MaterialAssignClass "{60491A72C52241A5}" {
+     SourceMaterial "Eye_wound"
+     AssignedMaterial "{01A1C1EA5BBFBB96}Assets/Weapons/_SharedMaterials/smert.emat"
+    }
+    MaterialAssignClass "{60491A72C52241BB}" {
+     SourceMaterial "Eyelashes"
+     AssignedMaterial "{01A1C1EA5BBFBB96}Assets/Weapons/_SharedMaterials/smert.emat"
+    }
+    MaterialAssignClass "{60491A72C52241B9}" {
+     SourceMaterial "Eyelashes_wound"
+     AssignedMaterial "{01A1C1EA5BBFBB96}Assets/Weapons/_SharedMaterials/smert.emat"
+    }
+    MaterialAssignClass "{60491A72C52241BF}" {
+     SourceMaterial "Head_White_02"
+     AssignedMaterial "{01A1C1EA5BBFBB96}Assets/Weapons/_SharedMaterials/smert.emat"
+    }
+    MaterialAssignClass "{60491A72C52241BD}" {
+     SourceMaterial "Head_White_02_wound"
+     AssignedMaterial "{01A1C1EA5BBFBB96}Assets/Weapons/_SharedMaterials/smert.emat"
+    }
+    MaterialAssignClass "{60491A72C52241B2}" {
+     SourceMaterial "Neck"
+     AssignedMaterial "{01A1C1EA5BBFBB96}Assets/Weapons/_SharedMaterials/smert.emat"
+    }
+    MaterialAssignClass "{60491A72C52241B0}" {
+     SourceMaterial "Neck_wound"
+     AssignedMaterial "{01A1C1EA5BBFBB96}Assets/Weapons/_SharedMaterials/smert.emat"
+    }
+    MaterialAssignClass "{60491A72C52241B6}" {
+     SourceMaterial "default_black"
+     AssignedMaterial "{01A1C1EA5BBFBB96}Assets/Weapons/_SharedMaterials/smert.emat"
+    }
+   }
+  }
+ }
+}
