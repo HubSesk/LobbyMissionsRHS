@@ -15,15 +15,3 @@ Vehicle M998_covered_long1 : "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M9
  coords 6597.948 322.01 6000.404
  angleY -39.003
 }
-Vehicle UAZ469_RF_Cumo_VP1 : "{BC6B24AECE0DB8FC}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_RF_Cumo_VP.et" {
- components {
-  SlotManagerComponent "{55BCE45E438E4CFF}" {
-   Slots {
-    RegisteringComponentSlotInfo FIA_CoatOfArms_decal {
-     Enabled 1
-    }
-   }
-  }
- }
- coords 6606.768 322.07 5981.428
-}
