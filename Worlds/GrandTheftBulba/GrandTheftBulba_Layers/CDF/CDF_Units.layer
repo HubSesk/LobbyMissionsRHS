@@ -40,6 +40,9 @@ $grp SCR_AIGroup : "{72251CC48B349F00}Prefabs/Groups/BLUFOR/Ses_CDF/Group_CDF_Ri
   }
   coords 1571.001 452.11 14175.732
   angleY 169.706
+  m_aUnitPrefabSlots {
+   "{A90924201B1CDCA9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SL_P.et" "{0C8C9CADCF5A68C3}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AR_P.et" "{B15CCE2AB04174DD}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AT_P.et" "{DF638019B037999A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AAT_P.et" "{D6B6E77B73D88E8D}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_GL_P.et" "{DDFFFAE9D340AC56}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Sniper_P.et"
+  }
   m_sCustomNameSet "Петрушка"
   m_bSetPlayable 1
  }
@@ -55,7 +58,7 @@ $grp SCR_AIGroup : "{72251CC48B349F00}Prefabs/Groups/BLUFOR/Ses_CDF/Group_CDF_Ri
   coords 1578.547 452.938 14058.499
   angleY -60
   m_aUnitPrefabSlots {
-   "{A90924201B1CDCA9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SL_P.et" "{0C8C9CADCF5A68C3}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AR_P.et" "{B15CCE2AB04174DD}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AT_P.et" "{DF638019B037999A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AAT_P.et" "{D6B6E77B73D88E8D}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_GL_P.et" "{BF10E5865E03DA2B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Crew_P.et" "{66ECB0DF17BE0903}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Rifleman_P.et" "{BF10E5865E03DA2B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Crew_P.et"
+   "{7B8F1426826B78AB}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_TL_P.et" "{0C8C9CADCF5A68C3}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AR_P.et" "{B15CCE2AB04174DD}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AT_P.et" "{BF10E5865E03DA2B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Crew_P.et" "{DF638019B037999A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AAT_P.et" "{BF10E5865E03DA2B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Crew_P.et"
   }
   m_sCustomNameSet "Комбайнеры"
   m_bSetPlayable 1
@@ -94,6 +97,9 @@ $grp SCR_AIGroup : "{F23C0D0FEF7E744A}Prefabs/Groups/BLUFOR/Ses_CDF/Group_CDF_Ri
   }
   coords 1657.682 451.906 14178.731
   angleY 71
+  m_aUnitPrefabSlots {
+   "{A90924201B1CDCA9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SL_P.et" "{7B8F1426826B78AB}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_TL_P.et" "{7B8F1426826B78AB}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_TL_P.et" "{0C8C9CADCF5A68C3}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AR_P.et" "{0C8C9CADCF5A68C3}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AR_P.et" "{D6B6E77B73D88E8D}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_GL_P.et" "{FF92763AA80AD454}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_LAT_P.et"
+  }
   m_sCustomNameSet "Клубень"
   m_bSetPlayable 1
  }
@@ -109,6 +115,9 @@ $grp SCR_AIGroup : "{F23C0D0FEF7E744A}Prefabs/Groups/BLUFOR/Ses_CDF/Group_CDF_Ri
   }
   coords 1674.375 451.907 14183.938
   angleY -107
+  m_aUnitPrefabSlots {
+   "{A90924201B1CDCA9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SL_P.et" "{7B8F1426826B78AB}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_TL_P.et" "{7B8F1426826B78AB}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_TL_P.et" "{0C8C9CADCF5A68C3}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AR_P.et" "{0C8C9CADCF5A68C3}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AR_P.et" "{D6B6E77B73D88E8D}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_GL_P.et" "{FF92763AA80AD454}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_LAT_P.et"
+  }
   m_sCustomNameSet "Посевная"
   m_bSetPlayable 1
  }
@@ -123,10 +132,10 @@ $grp SCR_AIGroup : "{F23C0D0FEF7E744A}Prefabs/Groups/BLUFOR/Ses_CDF/Group_CDF_Ri
     m_iSquadCallsign 3
    }
   }
-  coords 1670.163 451.906 14162.138
+  coords 1672.018 451.906 14162.67
   angleY -16
   m_aUnitPrefabSlots {
-   "{A90924201B1CDCA9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SL_P.et" "{7B8F1426826B78AB}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_TL_P.et" "{7B8F1426826B78AB}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_TL_P.et" "{0C8C9CADCF5A68C3}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AR_P.et" "{D6B6E77B73D88E8D}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_GL_P.et" "{FF92763AA80AD454}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_LAT_P.et"
+   "{A90924201B1CDCA9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SL_P.et" "{7B8F1426826B78AB}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_TL_P.et" "{0C8C9CADCF5A68C3}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AR_P.et" "{FF92763AA80AD454}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_LAT_P.et" "{DDFFFAE9D340AC56}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Sniper_P.et"
   }
   m_sCustomNameSet "Гряда"
   m_bSetPlayable 1
