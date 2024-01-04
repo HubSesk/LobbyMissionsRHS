@@ -17,15 +17,30 @@ $grp Vehicle : "{B88FFB13228A022D}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_Ses
  }
 }
 Vehicle UAZ452_Ses_CDF_ambulance1 : "{E9502714D20321A3}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_Ses_CDF_ambulance.et" {
- coords 1677.002 451.505 14212.031
+ components {
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_CDF"
+  }
+ }
+ coords 1676.966 451.505 14212.586
  angleY -105
 }
 $grp Vehicle : "{F10C3707D4835945}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_CDF_transport_covered.et" {
  Ural4320_CDF_transport_covered2 {
+  components {
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "Ses_CDF"
+   }
+  }
   coords 1544.81 453.458 14093.763
   angleY 125.364
  }
  Ural4320_CDF_transport_covered4 {
+  components {
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "Ses_CDF"
+   }
+  }
   coords 1534.615 453.458 14077.579
   angleY 118.364
  }
@@ -40,6 +55,18 @@ $grp Vehicle : "{FEFEA74FF8320596}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Ses_CDF
   angleY 125.97
  }
  UAZ469_Ses_CDF_camo3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6048C4AE10316C4C}" {
+      SlotTemplate InventoryStorageSlot Mines {
+       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+      }
+      NumSlots 6
+     }
+    }
+   }
+  }
   coords 2260.035 368.623 13623.212
   angleY 53
  }
