@@ -1,15 +1,105 @@
 $grp Vehicle : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_camo1.et" {
  Ural4320_transport_covered_camo1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{604A462C257202E9}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{604A462CDE2D6F8D}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+      }
+      NumSlots 40
+     }
+     MultiSlotConfiguration "{604A462CDE49BC3F}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{52FE3E0398FEEBC4}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_4Ball_1Tracer.et"
+      }
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{604A462F4F91EB84}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      }
+      NumSlots 8
+     }
+    }
+   }
+  }
   coords 4810.31 270.395 6815.554
   angleX 0.36
   angleY -118.475
   angleZ -1.214
  }
  Ural4320_transport_covered_camo2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{604A462CA09F4A6C}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{52FE3E0398FEEBC4}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_4Ball_1Tracer.et"
+      }
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{604A462CBE59E348}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+      }
+      NumSlots 40
+     }
+     MultiSlotConfiguration "{604A462C8E8323EC}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{604A462F77DD998D}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      }
+      NumSlots 8
+     }
+    }
+   }
+  }
   coords 5279.031 337.103 9822.364
   angleY 180
  }
  Ural4320_transport_covered_camo3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{604A462C1D76B3CA}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{604A462C188FFFD5}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+      }
+      NumSlots 40
+     }
+     MultiSlotConfiguration "{604A462CE5957D06}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{52FE3E0398FEEBC4}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_4Ball_1Tracer.et"
+      }
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{604A462F43396BC8}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      }
+      NumSlots 8
+     }
+    }
+   }
+  }
   coords 4795.293 270.417 6821.913
   angleX 0.718
   angleY -53.36
@@ -62,7 +152,7 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_
   coords 4758.762 270.124 6751.501
   angleY 126.705
   m_aUnitPrefabSlots {
-   "{FD91E0A9D6C0277C}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_AN94GL.et" "{FD91E0A9D6C0277D}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M.et" "{0190786646CABBC3}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M_V2.et" "{FD91E0A9D6C0277D}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M.et"
+   "{FD91E0A9D6C0277C}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_AN94GL.et" "{FD91E0A9D6C0277D}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M.et" "{0190786646CABBC3}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M_V2.et" "{BE8D39247EDEE362}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M_RPG.et"
   }
  }
  {
@@ -123,18 +213,23 @@ Vehicle UAZ469_RF_Cumo1 : "{CFCE5F4B0CC93C71}Prefabs/Vehicles/Wheeled/UAZ469/UAZ
  components {
   SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
    MultiSlots {
-    MultiSlotConfiguration "{5F3AFB38685D383A}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      MergePhysics 1
-      Prefab "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7.et"
-     }
-     NumSlots 1
-    }
     MultiSlotConfiguration "{5F3AFB3841973A49}" {
      SlotTemplate InventoryStorageSlot Bandages {
       Prefab "{12AFA740BE9ED3CD}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_TBG7V.et"
      }
      NumSlots 3
+    }
+    MultiSlotConfiguration "{604A462F4B6E7E67}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+     }
+     NumSlots 8
+    }
+    MultiSlotConfiguration "{604A462F55A54164}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{91836E59CE2497BC}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP5_base.et"
+     }
+     NumSlots 20
     }
    }
   }
