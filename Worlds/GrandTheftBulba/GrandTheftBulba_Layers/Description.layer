@@ -34,6 +34,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sDescriptionLayout "{B9CAB85D4A1600D3}UI/MissionDescription/DescriptionEditableScroll.layout"
   m_sTextData "Задачи:"\
   "• Захватить 40 мешков картошки и транспортировать их в \"Topolniki\"."\
+  ""\
+  "Берегитесь мин на подъездах к военному объекту."\
   ""
   m_aVisibleForFactions {
    "RHS_RF_MSV"
@@ -43,8 +45,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 2155.287 248.137 12430.479
   m_sTitle "БУЛЬБА!"
   m_sDescriptionLayout "{B9CAB85D4A1600D3}UI/MissionDescription/DescriptionEditableScroll.layout"
-  m_sTextData "Переноска мешков с картошкой возможна только в руках, при их запихивании во внутренний карман они будут вываливатся."\
-  "Для поднятия мешка необходимо сначала убрать оружие за спину, взяв в руки бинты или дропув и подняв оружие с земли."
+  m_sTextData "Переноска мешков с картошкой возможна только в руках, при их запихивании во внутренний карман они будут вываливатся."
   m_aVisibleForFactions {
    "Ses_CDF" "RHS_RF_MSV" "RHS_US_USMC"
   }

@@ -33,6 +33,9 @@ SCR_ChimeraCharacter : "{B8A6699D09490F13}Prefabs/Characters/Factions/OPFOR/RHS_
    InitialInventoryItems {
     ItemsInitConfigurationItem "{597D24F89042474A}" {
      TargetStorage "Prefabs/Characters/Uniforms/Jacket_Pilot_USSR_01/KOJAK.et"
+     PrefabsToSpawn + {
+      "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et"
+     }
     }
     ItemsInitConfigurationItem "{5D487DFF08C5F460}" {
      TargetStorage "Prefabs/Characters/Uniforms/Jacket_Pilot_USSR_01/KOJAK.et"

@@ -121,6 +121,11 @@ GenericEntity : "{35C20E1631F85D88}Prefabs/Props/Services/HydrantBox_01.et" {
  coords 1556.7 453.5 14174.136
  angleY -167.735
 }
+GameEntity : "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et" {
+ coords 1555.734 453.454 14172.604
+ angleY 32.795
+ angleZ -86.223
+}
 $grp GenericEntity : "{3F23DA7ACAC0ED90}Prefabs/Props/Civilian/GlassBeer_01/GlassBeer_01.et" {
  {
   coords 1538.164 452.837 14172.333
@@ -143,6 +148,31 @@ GenericEntity : "{47E258BBC8968F11}Prefabs/Props/Industrial/GasTank_01_rusty.et"
 GenericEntity : "{4BE795374BE3D67E}Prefabs/Props/Industrial/BarrelFuel_01_closed.et" {
  coords 1545.116 452.42 14172.299
  angleY 20.773
+}
+$grp GenericEntity : "{50A68300B537EDFA}Prefabs/Items/Food/ArmyCrackers_Soviet_01.et" {
+ {
+  coords 1545.302 453.317 14169.445
+ }
+ {
+  coords 1545.278 453.318 14169.331
+  angleY 22.05
+ }
+ {
+  coords 1545.279 453.343 14169.393
+  angleX -0.108
+  angleY -62.112
+  angleZ 0.263
+ }
+ {
+  coords 1545.133 453.316 14169.277
+  angleY -149.831
+ }
+ {
+  coords 1545.096 452.42 14168.9
+ }
+ {
+  coords 1555.616 453.429 14173.166
+ }
 }
 GenericEntity : "{50A752B7D5E679A2}Prefabs/Props/Industrial/Repair/GasWelder_01.et" {
  coords 1552.492 452.425 14173.25

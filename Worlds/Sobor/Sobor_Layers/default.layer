@@ -10,8 +10,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
    m_sInitialStartingWeatherId "Overcast"
   }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 9
-   m_iStartingMinutes 10
+   m_iStartingHours 19
    m_bRandomWeatherChanges 1
   }
  }
@@ -19,7 +18,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  m_iAvailableReconnectTime 300000
  m_bKillRedundantUnits 1
  m_bRemoveSquadMarkers 1
- m_iFreezeTime 220000
+ m_iFreezeTime 300000
  {
   SCR_FactionManager "5F2B25DD2FE1CDD2" {
    ID "5ED9088735FF2D8B"
