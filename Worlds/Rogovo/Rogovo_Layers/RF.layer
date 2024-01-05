@@ -62,7 +62,7 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_
   coords 4758.762 270.124 6751.501
   angleY 126.705
   m_aUnitPrefabSlots {
-   "{FD91E0A9D6C0277C}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_AN94GL.et" "{FD91E0A9D6C0277D}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M.et" "{0190786646CABBC3}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M_V2.et" "{FD91E0A9D6C0277D}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M.et"
+   "{FD91E0A9D6C0277C}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_AN94GL.et" "{FD91E0A9D6C0277D}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M.et" "{0190786646CABBC3}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M_V2.et" "{BE8D39247EDEE362}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M_RPG.et"
   }
  }
  {
@@ -123,13 +123,6 @@ Vehicle UAZ469_RF_Cumo1 : "{CFCE5F4B0CC93C71}Prefabs/Vehicles/Wheeled/UAZ469/UAZ
  components {
   SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
    MultiSlots {
-    MultiSlotConfiguration "{5F3AFB38685D383A}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      MergePhysics 1
-      Prefab "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7.et"
-     }
-     NumSlots 1
-    }
     MultiSlotConfiguration "{5F3AFB3841973A49}" {
      SlotTemplate InventoryStorageSlot Bandages {
       Prefab "{12AFA740BE9ED3CD}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_TBG7V.et"

@@ -35,15 +35,6 @@ $grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
  M1025_armed_M2HB_MERDC1 {
   components {
    SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5F3AFB26CECFE3A8}" {
-      SlotTemplate InventoryStorageSlot MineFlags {
-       MergePhysics 1
-       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
-      }
-      NumSlots 3
-     }
-    }
    }
   }
   coords 5449.221 301.74 5474.961
@@ -55,13 +46,6 @@ $grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   components {
    SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
     MultiSlots {
-     MultiSlotConfiguration "{5F3AFB26D4B7450E}" {
-      SlotTemplate InventoryStorageSlot MineFlags {
-       MergePhysics 1
-       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
-      }
-      NumSlots 3
-     }
      MultiSlotConfiguration "{5F3AFB2C7184D7CD}" {
       SlotTemplate InventoryStorageSlot MineFlags {
        Prefab "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
