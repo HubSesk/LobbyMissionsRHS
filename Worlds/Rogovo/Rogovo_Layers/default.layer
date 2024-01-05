@@ -24,12 +24,33 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   SCR_FactionManager "5F2B25DD2FE1CDD2" {
    ID "5ED9088735FF2D8B"
    Factions {
+    SCR_Faction "{5978B9CE6585BBE8}" {
+     m_bIsPlayable 1
+    }
     SCR_Faction "{5CC8DE37E1FF0F7A}" {
      m_bIsPlayable 1
+    }
+    SCR_Faction "{5D9F7285A1D004FE}" {
+     m_bIsPlayable 1
+     m_aFriendlyFactionsIds {
+     }
     }
    }
   }
  }
 }
 HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
+}
+SCR_AIGroup : "{0EFF5F602A101F34}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_Specop_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
+  }
+  PS_GroupCallsignAssigner "{604A462B1E17B86E}" {
+   m_iCompanyCallsign 3
+   m_iPlatoonCallsign 2
+  }
+ }
+ coords 5430.386 302.721 5471.331
+ angleY -87.677
 }
