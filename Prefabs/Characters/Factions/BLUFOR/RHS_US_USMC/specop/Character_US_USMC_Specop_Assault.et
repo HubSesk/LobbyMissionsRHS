@@ -10,7 +10,6 @@ SCR_ChimeraCharacter : "{A6BBE7985C354A62}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{2F54187CAC1CEFB0}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_v_r_p_light.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{0417F658F2723A30}Prefabs/Characters/Uniforms/BDU_Pants/BDU_PANTS_MARPAT.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{9A26D311900C33EE}Prefabs/Items/Equipment/Backpacks/FILBE_hydration_pack.et"
@@ -20,7 +19,7 @@ SCR_ChimeraCharacter : "{A6BBE7985C354A62}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5CC8B5EF85FB5080}" {
-     TargetStorage "Prefabs/Characters/Uniforms/BDU_Pants/BDU_PANTS_MARPAT.et"
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_FROG_Trousers.et"
      PrefabsToSpawn +{
      }
     }

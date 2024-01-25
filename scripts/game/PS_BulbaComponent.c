@@ -45,7 +45,7 @@ class PS_BulbaComponent : ScriptComponent
 		m_inventoryManager = SCR_InventoryStorageManagerComponent.Cast(m_cInventoryCharacter.FindComponent(SCR_InventoryStorageManagerComponent));
 		m_baseWeaponManagerComponent = BaseWeaponManagerComponent.Cast(m_cInventoryCharacter.FindComponent(BaseWeaponManagerComponent));
 		
-		GetGame().GetCallqueue().CallLater(DropBulba, 0, true);
+		GetGame().GetCallqueue().CallLater(DropBulba, 2000, true);
 	}
 	
 	void DropBulba()

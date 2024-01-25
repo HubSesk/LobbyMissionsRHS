@@ -35,4 +35,20 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_iZOrder 15
  }
+ Ses_CDF_G_100_M2 {
+  coords 1367.133 467.806 14382.627
+  angleY 69.158
+  m_sImageSet "{E44B3F92444B7912}images/GrandTheftPotato/Bulba.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "QUAD"
+  m_fWorldSize 350
+  m_aVisibleForFactions {
+   "Ses_CDF" "RHS_RF_MSV" "RHS_US_USMC"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 10
+ }
 }

@@ -1,0 +1,56 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+}
+TagManager : "{2FA9E172CAB1857A}Prefabs/MP/Managers/TagManager.et" {
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_InitWeatherComponent "{5F3AFB2830A6CBFF}" {
+   m_sInitialStartingWeatherId "Overcast"
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 9
+   m_iStartingMinutes 10
+   m_bRandomWeatherChanges 1
+  }
+ }
+ m_fAutoReloadTime 300
+ m_iAvailableReconnectTime 300000
+ m_bKillRedundantUnits 1
+ m_bRemoveSquadMarkers 1
+ m_iFreezeTime 220000
+ {
+  SCR_FactionManager "5F2B25DD2FE1CDD2" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{5978B9CE6585BBE8}" {
+     m_bIsPlayable 1
+    }
+    SCR_Faction "{5CC8DE37E1FF0F7A}" {
+     m_bIsPlayable 1
+    }
+    SCR_Faction "{5D9F7285A1D004FE}" {
+     m_bIsPlayable 1
+     m_aFriendlyFactionsIds {
+     }
+    }
+   }
+  }
+ }
+}
+HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
+}
+SCR_AIGroup : "{0EFF5F602A101F34}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_Specop_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
+  }
+  PS_GroupCallsignAssigner "{604A462B1E17B86E}" {
+   m_iCompanyCallsign 3
+   m_iPlatoonCallsign 2
+  }
+ }
+ coords 5430.386 302.721 5471.331
+ angleY -87.677
+}

@@ -1,0 +1,85 @@
+$grp GenericEntity : "{6C57BFFFA642C60C}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_04.et" {
+ {
+  coords 3048.357 303.994 7972.344
+  angleY 30
+ }
+ {
+  coords 3137.143 303.451 8060.042
+  angleY 36.032
+  {
+   GenericEntity {
+    ID "552CE69ED15CB038"
+    coords 0.719 -0.099 -0.006
+    angleY 87.368
+   }
+  }
+ }
+ {
+  coords 2974.111 325.855 7684.483
+  angleY 30
+  {
+   GenericEntity {
+    ID "552CE69ED15CB038"
+    coords -5.886 -0.113 1.049
+   }
+   GenericEntity {
+    ID "552CE69ED15CB03A"
+    coords -7.175 -0.113 0.908
+   }
+   GenericEntity {
+    ID "552CE69ED15CB03B"
+    coords -6.458 0.693 1.026
+   }
+  }
+ }
+}
+$grp GenericEntity : "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et" {
+ {
+  coords 3047.597 304.727 7972.135
+ }
+ {
+  coords 3047.535 304.215 7971.743
+  angleX 74.545
+  angleY -6.667
+  angleZ -95.704
+ }
+ {
+  coords 3047.421 304.727 7972.156
+  angleY 8.484
+ }
+ {
+  coords 3047.738 304.23 7971.685
+  angleX 69.04
+  angleY 43.366
+  angleZ 19.652
+ }
+ {
+  coords 3049.129 304.696 7971.751
+  angleY 34.549
+ }
+ {
+  coords 3137.849 304.153 8059.372
+  angleY 40.581
+ }
+ {
+  coords 3136.366 304.184 8059.915
+  angleY 6.032
+ }
+ {
+  coords 3136.194 304.184 8059.953
+  angleY 14.516
+ }
+ {
+  coords 3136.443 303.631 8059.437
+  angleX 69.04
+  angleY 49.398
+  angleZ 19.652
+ }
+ {
+  coords 2968.158 326.574 7688.492
+ }
+ {
+  coords 2967.982 326.574 7688.513
+  angleY 8.484
+ }
+}

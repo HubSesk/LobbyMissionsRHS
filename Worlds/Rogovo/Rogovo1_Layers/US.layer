@@ -1,0 +1,45 @@
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 5450.508 307.499 5475.041
+}
+$grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
+ M1025_armed_M2HB_MERDC1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECAC8B21989}" {
+      SlotTemplate InventoryStorageSlot M16ammo {
+       Prefab "{00F0B1FA28EF672B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M995.et"
+      }
+     }
+    }
+   }
+  }
+  coords 5449.221 301.74 5474.961
+  angleX 0.837
+  angleY -81.839
+  angleZ -1.817
+ }
+ M1025_armed_M2HB_MERDC2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECAC8B21989}" {
+      SlotTemplate InventoryStorageSlot M16ammo {
+       Prefab "{00F0B1FA28EF672B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M995.et"
+      }
+     }
+     MultiSlotConfiguration "{5F3AFB2C7184D7CD}" {
+      SlotTemplate InventoryStorageSlot MineFlags {
+       Prefab "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
+      }
+      NumSlots 10
+     }
+    }
+   }
+  }
+  coords 5434.226 302.298 5475.843
+  angleX 5.397
+  angleY -86.766
+  angleZ -0.588
+ }
+}

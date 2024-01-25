@@ -2,9 +2,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  GeneralInfo {
   coords 1658.579 354.706 12719.167
   m_sTitle "Общая информация"
+  m_sDescriptionLayout "{B9CAB85D4A1600D3}UI/MissionDescription/DescriptionEditableScroll.layout"
   m_sTextData "В процессе проведения операции по освобождению национальных территорий Черноруссии ВСРФ столкуналась с серьезной нехваткой снабжения."\
   "Предыдущие каналы снабжения были перекрыты контрразведкой противника, из-за чего в офицерской столовой закончилась свежая картошка (Осталась только сублимированная)."\
-  "Для решения этой проблемы, согласно приказу Ставки коммандования ВСРФ, планируется рейд на серетный продовольственный склад ЧСО."\
+  "Для решения этой проблемы, согласно приказу Ставки коммандования ВСРФ, планируется рейд на секретный продовольственный склад ЧСО."\
   ""\
   "Кому же достанется свежая картошечка с маслом?"\
   ""\
@@ -17,8 +18,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  CDFObjectives {
   coords 1936.057 256.512 12402.983
   m_sTitle "Задачи ЧСО"
+  m_sDescriptionLayout "{B9CAB85D4A1600D3}UI/MissionDescription/DescriptionEditableScroll.layout"
   m_sTextData "Задачи:"\
-  "• Удержание мешков с картошкой в целости и сохранности (<b>На складе<\b>)."\
+  "• Занести картошку на склад."\
+  "• Удержание мешков с картошкой в целости и сохранности (<b>На складе</b>)."\
   ""\
   "Отряд разведчиков (Брюква) снабжем запасом мин."\
   ""
@@ -29,8 +32,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  RFObjectives {
   coords 1812.346 447.996 14182.07
   m_sTitle "Задачи ВСРФ"
+  m_sDescriptionLayout "{B9CAB85D4A1600D3}UI/MissionDescription/DescriptionEditableScroll.layout"
   m_sTextData "Задачи:"\
-  "• Захватить 10-ти мешков картошки и транспортировать их в \"Topolniki\"."\
+  "• Захватить 40 мешков картошки и транспортировать их в \"Topolniki\"."\
+  "• Картошка должна быть готова к ужину, на захват картошки у ВСРФ есть час."\
+  ""\
+  "Берегитесь мин на подъездах к военному объекту."\
   ""
   m_aVisibleForFactions {
    "RHS_RF_MSV"
@@ -39,8 +46,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  PotatoInfo {
   coords 2155.287 248.137 12430.479
   m_sTitle "БУЛЬБА!"
-  m_sTextData "Переноска мешков с картошкой возможна только в руках, при их запихивании во внутренний карман они будут вываливатся."\
-  "Для поднятия мешка необходимо сначала убрать оружие за спину."
+  m_sDescriptionLayout "{B9CAB85D4A1600D3}UI/MissionDescription/DescriptionEditableScroll.layout"
+  m_sTextData "Переноска мешков с картошкой возможна только в руках, при их запихивании во внутренний карман они будут вываливатся."
   m_aVisibleForFactions {
    "Ses_CDF" "RHS_RF_MSV" "RHS_US_USMC"
   }
@@ -49,6 +56,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  CDFObjectivesCool {
   coords 1644.309 459.853 14164.067
   m_sTitle "Не клубня противнику!"
+  m_sDescriptionLayout "{B9CAB85D4A1600D3}UI/MissionDescription/DescriptionEditableScroll.layout"
   m_sTextData "<h1>Сегодня настал день отдать долг родине!</h1>"\
   ""\
   "Противник готовит свои лучшие силы для захвата самого ценного для нас. "\
@@ -62,15 +70,16 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  }
  RFObjectivesCool {
   coords 1664.314 451.933 14137.766
-  m_sTitle "Задачи ВСРФ"
-  m_sTextData "Планируемый в теченнии месяцев план по мирному разрешению конфликта пошел по откос как только в штабе закончилась картошка."\
-  "Сразу же после того как один из их них продажных вояк, продающих нам пропитание из под полы, был пойман вражеской контрразведкой."\
+  m_sTitle "Положение дел ВСРФ"
+  m_sDescriptionLayout "{B9CAB85D4A1600D3}UI/MissionDescription/DescriptionEditableScroll.layout"
+  m_sTextData "Планируемый в теченнии месяцев план по мирному разрешению конфликта пошел под откос как только в штабе закончилась картошка."\
+  "Сразу же после того как один из их них продажных вояк, сбывающих нам пропитание из под полы, был пойман вражеской контрразведкой."\
   ""\
   "Жизнь на сухпайках оказалась невыносимой."\
   "И вот мы спешно едем в рейд на склады противника, без разведки, артелерии и боевой авиации."\
   ""\
   "Скорее всего противник будет драться за свое пропитаниее до последней капли крови, несмотря на относительно плохое вооружение."\
-  "По крайней мере этим вечером у нас будет жареная картошечка на ужин."
+  "По крайней мере этим вечером у нас будет жареная картошка на ужин."
   m_aVisibleForFactions {
    "RHS_RF_MSV"
   }
@@ -78,6 +87,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  LMCapterExecution {
   coords 1560.621 452.913 14110.208
   m_sTitle "Выписка из протокола N14-а"
+  m_sDescriptionLayout "{B9CAB85D4A1600D3}UI/MissionDescription/DescriptionEditableScroll.layout"
   m_sTextData "<h1>Особого совещания при Подвальном админе.</h1>"\
   "от 03 янв 2024г."\
   ""\
@@ -85,7 +95,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "I. LazyMax"\
   ""\
-  "Русский, не гражданин Догечни, Reforger-анин, подопытный."\
+  "Чернорусский, Reforger-анин, подопытный."\
   "Проходил курсы создания карт, не сдал домашнее задание."\
   "Вступил в ряды подвала 14 июл. 2023 г."\
   ""\
@@ -97,7 +107,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Нач. Секретного Особого Совещания"\
   "при Сервере Подвала Reforger-а"
   m_aVisibleForFactions {
-   "Ses_CDF" "RHS_RF_MSV" "RHS_US_USMC"
+   "Ses_CDF"
   }
  }
 }
