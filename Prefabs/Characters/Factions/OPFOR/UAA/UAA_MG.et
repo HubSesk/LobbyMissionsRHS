@@ -1,0 +1,45 @@
+SCR_ChimeraCharacter : "{DB2DE406DA3041BA}Prefabs/Characters/Factions/OPFOR/UAA/UAA_BASE.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{A89BC9D55FFB4CD8}Prefabs/Weapons/MachineGuns/PKM/MG_PKM.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{8983A91174EE3799}Prefabs/Weapons/Handguns/Glock/Handgun_Glock45.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{85D618A51C013F7A}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_yellow.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{D4FBFE83EFD6C582}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_NOT_AMERICA.et"
+    }
+    LoadoutSlotInfo Back {
+     Enabled 0
+     Prefab "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{477A190AF2A17B8A}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_MG.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{607333D482363000}" {
+     TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_ALICE_200rnd_M249/Pouch_ALICE_200rnd_M249.et"
+     PrefabsToSpawn {
+      "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{607333D30CF40F8D}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
+     PrefabsToSpawn {
+      "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et" "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et" "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+     }
+    }
+   }
+  }
+ }
+ coords 143.097 1 124.522
+}

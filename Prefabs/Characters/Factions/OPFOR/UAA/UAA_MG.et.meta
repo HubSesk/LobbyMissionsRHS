@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{D5AE777E68E9C4FF}Prefabs/Characters/Factions/OPFOR/UAA/UAA_MG.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

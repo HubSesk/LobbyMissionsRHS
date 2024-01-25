@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{848337D75A23E5F9}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman_no_mid_pouch.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

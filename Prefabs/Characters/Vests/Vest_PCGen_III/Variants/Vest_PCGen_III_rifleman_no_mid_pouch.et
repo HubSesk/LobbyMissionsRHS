@@ -1,0 +1,55 @@
+GenericEntity : "{158F912CFD723FC1}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_Loadout_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{E1BBDA1F6E3A4F0E}Assets/Characters/Vests/Vest_Common/rhs_equipment_empty.xob"
+  }
+  RHS_ClothNodeStorageComponent "{5DEB2A8AB559C576}" {
+   Attributes SCR_ItemAttributeCollection "{5DEB2A8AB559C568}" {
+    ItemDisplayName UIInfo "{5DEB2A8AB559C56B}" {
+     Name "#RHS-PC_Gen_III_Base_Rifleman_Name"
+     Description "#RHS-PC_Gen_III_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5DEB2A8AB559C560}" {
+     SizeSetupStrategy Manual
+     RestingUP Forward
+     RestingAdditiveRotationLS 0 1 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+   }
+   Priority 2
+   StoragePurpose 64
+   MaxCumulativeVolume 100
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     PivotID "Spine5"
+     Offset 0 -0.0007 0.0247
+     Prefab "{14BD08A15E2AB6FD}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_OpenTop_M27_1_pouch.et"
+    }
+    LoadoutSlotInfo Pouch2 {
+     PivotID "Spine5"
+     Offset 0 0.0054 0.0263
+     Angles -4.4732 0 0
+     Enabled 0
+     Prefab "{2105D1F5FBA9D92F}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Admin.et"
+    }
+    RHS_LoadoutSlotInfo ChestVelcro {
+     PivotID "Spine5"
+     Offset 0.0203 0.1942 0.1697
+     Angles 15.4181 0.7902 0.1736
+     AreaType RHS_LoadoutMediumVelcroSlotArea "{607333D69A2B8B34}" {
+     }
+     m_bShouldUseCMorphedMesh 1
+     m_fMorphValue 0.3
+    }
+   }
+   DepthBack -0.04
+   AreaOcludders {
+    "ChestLeftBottomFront"
+   }
+  }
+ }
+ coords 135.2 1 127.759
+}

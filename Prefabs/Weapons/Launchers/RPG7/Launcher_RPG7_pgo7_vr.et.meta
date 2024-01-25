@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{F2ECCDF74EB78DBC}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7_vr.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
