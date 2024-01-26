@@ -1,0 +1,204 @@
+GenericEntity {
+ ID "6072FED05E167453"
+ components {
+  SignalsManagerComponent "{6072FED05E167458}" {
+  }
+  SoundComponent "{6072FED05E16745D}" {
+   Filenames {
+    "{CEB036D3FA90F3C3}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_ATMine_Generic.acp" "{A7B672B164032EE4}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_ATMine_Generic.acp" "{49BA74662F0ACA8C}Sounds/Weapons/Explosives/Mine_TM62M/Weapons_Explosives_TM62M_Handling.acp" "{764506B0AF57183F}Sounds/Weapons/Explosives/_SharedData/Weapons_Explosives_ATMine_Generic_Placement.acp"
+   }
+  }
+  BaseTriggerComponent "{6072FED05E1675A1}" {
+   Enabled 0
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{6072FED05E1675A7}" {
+     EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+   }
+  }
+  MeshObject "{6072FED05E1675AA}" {
+   Object "{B2F040F16515219A}Assets/Props/Crates/CardboardBox_05.xob"
+   Materials {
+    MaterialAssignClass "{60732BE9523C203D}" {
+     SourceMaterial "misc_market_04"
+     AssignedMaterial "{B3D5A813AE7EF2BD}Assets/Vegetation/Vegetables/Data/CabbageCrop_01.emat"
+    }
+   }
+   PixelSizeScale 3
+  }
+  PS_BulbaComponent "{6072FED05E1675AE}" {
+  }
+  PS_SpectatorLabel "{60732BEBD894E1C3}" {
+   m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+    m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+    m_sQuadName "SupplyDepot"
+    m_fWorldSize 30
+    m_sDescription "Маковые булки"
+    m_iZOrder 0
+    m_fMinSize 0
+   }
+   m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+  }
+  RigidBody "{6072FED05E1675AF}" {
+   Mass 15
+   LinearSleepingThreashold 0.5
+   AngularSleepingThreashold 0.5
+   ResponseIndex "TinyDestructible"
+   ModelGeometry 1
+   Static 0
+  }
+  SCR_MineDamageManager "{6072FED05E1675B1}" {
+   Enabled 0
+   "Additional hit zones" {
+    SCR_MineHitZone Main {
+     ColliderNames {
+      "UCL_TM_62M"
+     }
+     HZDefault 1
+     IgnoreExplosions 1
+     MaxHealth 50000
+     DamageReduction 50
+     "Explosive multiplier" 0.001
+    }
+   }
+   EnableDamage 0
+  }
+  SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+   Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+    ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+     Name "Мешок картошки"
+     Description "Свеже выкопанная, рассыпчатая картошка, употреблять с маслом."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+     Weight 4.2
+     SizeSetupStrategy Manual
+     ItemDimensions 20 20 20
+     ItemVolume 4000
+     RestingAdditiveRotationLS 0 0 0
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+     IkSettings {
+      ItemIKSettings "{6072FED05E1675BE}" {
+       InAds 0
+       OutAds 0
+       MovementSpeedRange 0 1
+       IkSettingsStand 6
+       IkSettingsCrouch 6
+       IkSettingsProne 6
+      }
+     }
+     AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+     AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6072FED05E167581}" {
+      CameraPreset Left
+      CameraOrbitAngles 0 225 0
+      CameraDistanceToItem 0.35
+      CameraOffset 0 0 0
+      AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+     }
+     CharacterModifierAttributes "{6072FED05E167583}" {
+      StanceLimits 0.05 1
+      SpeedLimit 1
+      ADSSpeedLimit 1
+      SpeedLimitItemPrimaryAction 1
+      SpeedLimitHighready 1
+      TurnLimit 65
+      AllowGadgetUse 0
+      AllowJumping 0
+     }
+     HolsteredItemAttributes "{6072FED05E167585}" {
+      HiddenHolstered 1
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  SCR_PlaceableItemComponent "{6072FED05E167587}" {
+   Enabled 0
+   m_fMaxPlacementDistance 2
+   m_ePlacementType XYZ
+  }
+  SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+   Enabled 0
+   m_sFuzeMeshName "Mine_Fuse_TM_62M"
+   m_fMinWeight 150
+  }
+  SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+   AllowedRaise "Only lowered"
+   UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+    Name "Мешок картошки"
+    Description "Свеже выкопанная, рассыпчатая картошка, употреблять с маслом."
+    m_bShowWeaponName 0
+    m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+     m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+     m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+     m_sOutline "building"
+     m_bProgressBar 0
+    }
+    m_sAmmoType "Potato"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags 0
+   }
+   WeaponSlotType "primary"
+   BeActiveWhenDropped 1
+   BeActiveWhenInitWithoutParent 1
+  }
+  ActionsManagerComponent "{6072FED05E09E94A}" {
+   ActionContexts {
+    UserActionContext "{6072FED05E09E954}" {
+     ContextName "default"
+     Position PointInfo "{6072FED05E090EDE}" {
+     }
+    }
+   }
+   additionalActions {
+    SCR_BulbaAction "{6072FED05E090EDB}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6072FED05E090EDA}" {
+      Name "#AR-Inventory_Pickup"
+     }
+     "Sort Priority" 1
+    }
+   }
+  }
+  SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+   AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+   AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+   AlwaysActive 1
+   AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+    BindingName "Heavy"
+   }
+   BindWithInjection 1
+   AutoVariablesBind 1
+   MeshVisibilityConfigurations {
+    MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+     Event "ShowFuze"
+     Meshes {
+      "Mine_Fuse_TM_62M" "TM_62M_pin"
+     }
+     HideMesh 0
+    }
+    MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+     Event "HidePin"
+     Meshes {
+      "TM_62M_pin"
+     }
+    }
+   }
+  }
+  RplComponent "{6072FED05E090ED2}" {
+   "Rpl State Override" Runtime
+  }
+  Hierarchy "{6072FED05E090ED1}" {
+  }
+ }
+ coords 1406.091 71.532 3149.043
+ angleY -27.888
+}

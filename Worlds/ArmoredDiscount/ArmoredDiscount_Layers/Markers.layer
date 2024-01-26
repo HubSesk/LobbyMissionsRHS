@@ -1,0 +1,17 @@
+PS_ManualMarker BakeryStorage : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 1401.398 76.335 3152.528
+ angleY 90
+ m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+ m_sImageSetGlow ""
+ m_sQuadName "SupplyDepot"
+ m_fWorldSize 75
+ m_sDescription "Склад с выпечкой"
+ m_bUseWorldScale 0
+ m_aVisibleForFactions {
+  "Ses_CDF" "RHS_RF_MSV" "RHS_US_USMC"
+ }
+ m_bVisibleForEmptyFaction 1
+ m_aHideOnGameModeStates {
+ }
+ m_iZOrder 15
+}

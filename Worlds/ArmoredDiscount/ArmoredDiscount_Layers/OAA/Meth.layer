@@ -1,0 +1,4950 @@
+GenericEntity {
+ components {
+  MeshObject "{60732BE8303BEA1C}" {
+   Object "{1B3BE7ABC26959CB}Assets/Props/Crates/CardBoard_Box_01.xob"
+  }
+ }
+ coords 1402.489 70.628 3152.766
+}
+GenericEntity : "{15BEDC6B899035DB}Prefabs/YarmarkaBox.et" {
+ coords 1403.017 71.638 3148.694
+ angleY 126.719
+}
+$grp GenericEntity : "{3670FB020029C146}Prefabs/Meth.et" {
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1402.428 71.637 3148.683
+  angleY 7.411
+ }
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1401.812 71.637 3148.609
+  angleY -11.145
+ }
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1401.268 71.637 3148.476
+  angleY -171.553
+ }
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1400.589 71.637 3148.385
+  angleY -6.373
+ }
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1400.019 71.637 3148.362
+  angleY 130.814
+ }
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1402.883 70.653 3148.611
+  angleY -17.509
+ }
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1402.383 70.653 3148.576
+  angleY 7.754
+ }
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1401.657 70.653 3148.493
+  angleY -9.432
+ }
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1401.128 70.653 3148.415
+  angleY 5.233
+ }
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1400.308 70.653 3148.264
+  angleY -11.896
+ }
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1399.777 70.653 3148.158
+  angleY -164.844
+ }
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1399.463 71.272 3151.95
+  angleY -38.661
+ }
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1404.137 72.862 3148.497
+  angleY 72.044
+ }
+ {
+  coords 1406.091 71.532 3149.043
+  angleY -27.888
+ }
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1405.165 71.532 3148.792
+  angleY 9.457
+ }
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1408.108 72.456 3151.844
+  angleY 4.911
+ }
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1408.338 72.456 3150.158
+  angleY -61.587
+ }
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1407.677 70.632 3150.425
+  angleY 19.628
+ }
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1407.01 70.632 3150.282
+  angleY -146.542
+ }
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1401.535 71.526 3154.583
+  angleX 42.537
+  angleY 174.954
+ }
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1410.812 72.806 3154.962
+  angleY -56.314
+ }
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1408.135 76.497 3157.719
+  angleY -18.925
+ }
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1402.494 71.78 3153.823
+  angleY -10.57
+ }
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1406.024 70.654 3149.81
+ }
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1405.102 70.666 3149.52
+  angleY -79.044
+ }
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1407.406 71.34 3149.124
+  angleY -104.985
+ }
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1400.883 70.631 3152.424
+  angleY 86.731
+ }
+ {
+  components {
+   SoundComponent "{6072FED05E16745D}" {
+    Filenames +{
+    }
+   }
+   BaseTriggerComponent "{6072FED05E1675A1}" {
+    Enabled 0
+    PROJECTILE_EFFECTS {
+     ExplosionEffect "{6072FED05E1675A7}" {
+      EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+      SoundEvent "SOUND_EXPLOSION"
+     }
+    }
+   }
+   PS_SpectatorLabel "{60732BEBD894E1C3}" {
+    m_cMapMarkerConfig PS_ManualMarkerConfig "{60732BEB500B16A3}" {
+     m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+     m_sQuadName "SupplyDepot"
+     m_fWorldSize 30
+     m_sDescription "Маковые булки"
+     m_iZOrder 0
+     m_fMinSize 0
+    }
+    m_sSpectatorLabelLayout "{81439D101CB10578}UI/Spectator/SpectatorLabelIconMeth.layout"
+   }
+   RigidBody "{6072FED05E1675AF}" {
+    Mass 15
+    LinearSleepingThreashold 0.5
+    AngularSleepingThreashold 0.5
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 0
+   }
+   SCR_MineDamageManager "{6072FED05E1675B1}" {
+    Enabled 0
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      ColliderNames +{
+      }
+      HZDefault 1
+      IgnoreExplosions 1
+      MaxHealth 50000
+      DamageReduction 50
+      "Explosive multiplier" 0.001
+     }
+    }
+    EnableDamage 0
+   }
+   SCR_MineInventoryItemComponent "{6072FED05E1675B7}" {
+    Attributes SCR_ItemAttributeCollection "{6072FED05E1675B9}" {
+     ItemDisplayName WeaponUIInfo "{6072FED05E1675BA}" {
+      Name "Свежая выпечка в коробке"
+      Description "Целая коробка маковых булок"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{6072FED05E1675BB}" {
+      Weight 4.2
+      SizeSetupStrategy Manual
+      ItemDimensions 20 20 20
+      ItemVolume 4000
+      RestingAdditiveRotationLS 0 0 0
+     }
+     ItemAnimationAttributes ItemAnimationAttributes "{6072FED05E1675BD}" {
+      IkSettings {
+       ItemIKSettings "{6072FED05E1675BE}" {
+        InAds 0
+        OutAds 0
+        MovementSpeedRange 0 1
+        IkSettingsStand 6
+        IkSettingsCrouch 6
+        IkSettingsProne 6
+       }
+      }
+      AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+      AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+     }
+     CustomAttributes {
+      PreviewRenderAttributes "{6072FED05E167581}" {
+       CameraPreset Left
+       CameraOrbitAngles 0 225 0
+       CameraDistanceToItem 0.35
+       CameraOffset 0 0 0
+       AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      }
+      CharacterModifierAttributes "{6072FED05E167583}" {
+       StanceLimits 0.05 1
+       SpeedLimit 1
+       ADSSpeedLimit 1
+       SpeedLimitItemPrimaryAction 1
+       SpeedLimitHighready 1
+       TurnLimit 65
+       AllowGadgetUse 0
+       AllowJumping 0
+      }
+      HolsteredItemAttributes "{6072FED05E167585}" {
+       HiddenHolstered 1
+      }
+     }
+     CommonItemType "NONE"
+    }
+   }
+   SCR_PlaceableItemComponent "{6072FED05E167587}" {
+    Enabled 0
+    m_fMaxPlacementDistance 2
+    m_ePlacementType XYZ
+   }
+   SCR_PressureTriggerComponent "{6072FED05E09E942}" {
+    Enabled 0
+    m_sFuzeMeshName "Mine_Fuse_TM_62M"
+    m_fMinWeight 150
+   }
+   SCR_MineWeaponComponent "{6072FED05E09E94C}" {
+    AllowedRaise "Only lowered"
+    UIInfo GrenadeUIInfo "{6072FED05E09E94F}" {
+     Name "Свежая выпечка в коробке"
+     Description "Целая коробка маковых булок"
+     m_bShowWeaponName 0
+     m_MagIndicator SCR_MagazineIndicatorConfiguration "{6072FED05E09E948}" {
+      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+      m_sOutline "building"
+      m_bProgressBar 0
+     }
+     m_sAmmoType "Flour"
+     m_bShowAmmoTypeText 1
+     m_eAmmoTypeFlags 0
+    }
+    WeaponSlotType "primary"
+    BeActiveWhenDropped 1
+    BeActiveWhenInitWithoutParent 1
+   }
+   ActionsManagerComponent "{6072FED05E09E94A}" {
+    ActionContexts {
+     UserActionContext "{6072FED05E09E954}" {
+      ContextName "default"
+      Position PointInfo "{6072FED05E090EDE}" {
+      }
+     }
+    }
+    additionalActions {
+     SCR_BulbaAction "{6072FED05E090EDB}" {
+      ParentContextList +{
+      }
+      UIInfo UIInfo "{6072FED05E090EDA}" {
+       Name "#AR-Inventory_Pickup"
+      }
+      "Sort Priority" 1
+     }
+    }
+   }
+   SCR_MineAnimationComponent "{6072FED05E090ED8}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+    AlwaysActive 1
+    AnimInjection AnimationAttachmentInfo "{6072FED05E090ED7}" {
+     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+     BindingName "Heavy"
+    }
+    BindWithInjection 1
+    AutoVariablesBind 1
+    MeshVisibilityConfigurations {
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED4}" {
+      Event "ShowFuze"
+      Meshes +{
+      }
+      HideMesh 0
+     }
+     MeshesVisibilitySwitchConfig "{6072FED05E090ED3}" {
+      Event "HidePin"
+      Meshes +{
+      }
+     }
+    }
+   }
+   RplComponent "{6072FED05E090ED2}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 1400.672 72.233 3152.35
+  angleY 88.104
+ }
+}
+GenericEntity : "{61980E6F3CA71107}Prefabs/Weapons/Explosives/Mine_TM62M/Dingus.et" {
+ coords 1402.467 70.677 3152.759
+ angleY 47.077
+}
+$grp GenericEntity : "{A0B7E876766FEA47}PrefabsEditable/Auto/Props/Furniture/E_TableWorkshop_01.et" {
+ {
+  coords 1402.767 70.634 3148.624
+  angleY -8.203
+ }
+ {
+  coords 1401.479 70.634 3148.428
+  angleY -8.203
+ }
+ {
+  coords 1400.164 70.634 3148.249
+  angleY -8.203
+ }
+}

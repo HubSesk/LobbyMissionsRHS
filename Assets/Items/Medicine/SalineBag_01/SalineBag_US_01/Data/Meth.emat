@@ -1,0 +1,19 @@
+MatPBRBasic {
+ Color 0.244 0.308 0.314 1
+ SpecularIBL 0.301 0.278 0.231 1
+ Diffuse 0.896 0.882 0.858 1
+ CastShadow 0
+ DisableInteriorProbes 1
+ SurfaceProperties "{5EAA7FB0A83F90CF}Common/Materials/Game/plastic.gamemat"
+ SpecularMul 1.797
+ AlphaMul 0.803
+ BlendMode None
+ RoughnessScale 1.156
+ MetalnessScale 0.5
+ AOScale 0.516
+ DielectricReflectance 0.146
+ BCRMap "{3E39FF792274A7A7}Assets/Items/Medicine/SalineBag_01/SalineBag_US_01/Data/SalineBag_US_01_NMO.edds"
+ OpacityMap "{7BCB8C0F0C24C11B}Assets/Items/Medicine/SalineBag_01/SalineBag_US_01/Data/SalineBag_US_01_A.edds"
+ NormalPower 1.381
+ NMOMap "{3E39FF792274A7A7}Assets/Items/Medicine/SalineBag_01/SalineBag_US_01/Data/SalineBag_US_01_NMO.edds"
+}

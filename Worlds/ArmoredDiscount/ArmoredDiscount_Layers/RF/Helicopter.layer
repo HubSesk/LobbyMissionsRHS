@@ -1,0 +1,18 @@
+Vehicle Mi8MTT_A_Black1 : "{4A465E25A866520E}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MTT-A_Black.et" {
+ coords 180.238 596.587 1080.89
+}
+SCR_AIGroup RHS_RF_MSV_G_400_6 : "{4E66C5FE1796D009}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/SPECOPS.et" {
+ components {
+  PS_GroupCallsignAssigner "{6072FECEDC293A5B}" {
+   m_iCompanyCallsign 4
+   m_iSquadCallsign 0
+  }
+ }
+ coords 176.418 596.543 1073.983
+ angleY 22
+ m_aUnitPrefabSlots + {
+  "{9F1A54596CE4BB81}Prefabs/Characters/Factions/OPFOR/RF/HeliPilot.et"
+ }
+ m_bSnapToTerrain 0
+ m_sCustomNameSet "Веды"
+}
