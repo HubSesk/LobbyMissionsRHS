@@ -1,0 +1,41 @@
+SCR_ChimeraCharacter : "{DB2DE406DA3041BA}Prefabs/Characters/Factions/OPFOR/UAA/UAA_BASE.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3E413771E1834D2F}Prefabs/Weapons/Rifles/M16/Rifle_M16A2.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{CD83152AA78F35DD}Prefabs/Characters/HeadGear/Hat_Shemagh/Hat_Shemagh.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{D4FBFE83EFD6C582}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_NOT_AMERICA.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{6A39B5843B3F36DA}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{848337D75A23E5F9}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman_no_mid_pouch.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{607333D5B515313A}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_OpenTop_M27_1_pouch.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{607333D5B5153131}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant.et"
+     PrefabsToSpawn {
+      "{86A7681BD1D4E4BB}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VR.et" "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et" "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
+     }
+    }
+   }
+  }
+ }
+ coords 138.684 1 125.936
+}

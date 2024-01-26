@@ -1,11 +1,8 @@
 GenericEntity {
  coords 129.796 1 128.39
 }
-SCR_ChimeraCharacter : "{0190786646CABBC3}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M_V2.et" {
- coords 127.96 1 121.112
-}
 SCR_ChimeraCharacter : "{0D05611212019493}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_TL.et" {
- coords 122.049 1 129.496
+ coords 122.089 1 129.767
 }
 GenericEntity : "{0EC215F0EB3288A6}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_Base.et" {
  coords 129.336 1 128.394
@@ -31,11 +28,11 @@ GenericEntity : "{261A5DAA1C3ED165}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_NT
 SCR_ChimeraCharacter : "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et" {
  coords 135.225 1 134.286
 }
-Vehicle Ural4320_transport_covered_camo1 : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_camo1.et" {
- coords 138.216 1 126.727
-}
 GenericEntity : "{320A76F1F8E04B12}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_NT4_Peq.et" {
  coords 127.72 1 129.557
+}
+SCR_ChimeraCharacter : "{3A97F6BAA3C1B8F2}Prefabs/Characters/Factions/OPFOR/UAA/UAA_RPG.et" {
+ coords 137.269 1 126.021
 }
 SCR_ChimeraCharacter : "{4DD320946B1BC227}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_LAT.et" {
  coords 124.214 1 129.097
@@ -46,14 +43,20 @@ GenericEntity : "{56CE827F9AD5880E}Prefabs/Weapons/Rifles/M40/Rifle_M40A5_Optic_
 GenericEntity : "{627255315038152A}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_SpecialBall.et" {
  coords 129.604 1 128.124
 }
+SCR_ChimeraCharacter : "{6765C54D8F273544}Prefabs/Characters/Factions/OPFOR/UAA/UAA_AS_RPG.et" {
+ coords 138.684 1 125.936
+}
 GenericEntity : "{6883E434BD3306B8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_NT4_Peq_Aimpoint.et" {
- coords 127.086 1 129.256
+ coords 127.086 1.278 129.256
 }
 GenericEntity : "{6D18CC33708EE712}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_Base.et" {
  coords 129.356 1 128.151
 }
 SCR_ChimeraCharacter : "{6D58EE2CD7325FAA}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_GL.et" {
  coords 123.181 1 129.513
+}
+SCR_ChimeraCharacter : "{6D8F524005CBD238}Prefabs/Characters/Factions/OPFOR/UAA/UAA_Rifleman.et" {
+ coords 141.118 1 125.028
 }
 SCR_ChimeraCharacter : "{7AE79CE5B92888B1}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_Recon.et" {
  coords 124.457 1 132.27
@@ -64,11 +67,14 @@ GenericEntity : "{832641A2AB3E89F6}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_M203_R
 SCR_ChimeraCharacter : "{84029128FA6F6BB9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL.et" {
  coords 133.313 1 134.277
 }
+GenericEntity : "{848337D75A23E5F9}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman_no_mid_pouch.et" {
+ coords 135.2 1 127.759
+}
 GenericEntity : "{90D8238D1D8D2DC5}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_NT4.et" {
  coords 127.103 1 128.206
 }
 GenericEntity : "{90D8238D1D8D2DC6}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_Aimpoint.et" {
- coords 127.413 1 129.354
+ coords 127.413 1.26 129.354
 }
 GenericEntity : "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" {
  coords 129.622 1 128.666
@@ -79,23 +85,47 @@ SCR_ChimeraCharacter : "{A6BBE7985C354A62}Prefabs/Characters/Factions/BLUFOR/RHS
 SCR_ChimeraCharacter : "{AA0CBD566DE31601}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_2.et" {
  coords 124.932 1 127.494
 }
-SCR_ChimeraCharacter : "{BE8D39247EDEE362}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M_RPG.et" {
- coords 126.727 1 119.778
-}
 GenericEntity : "{C34F897AB78E1900}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_TA31RCO_ARD_NT4.et" {
  coords 127.066 1 127.104
 }
 SCR_ChimeraCharacter : "{C4AE533F573B7C75}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_Sniper.et" {
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+      }
+     }
+    }
+   }
+  }
+ }
  coords 123.222 1 132.355
-}
-GenericEntity : "{C61F979AA7E29EE7}Prefabs/Weapons/Rifles/SR3M/Rifle_SR3M_supr_pso.et" {
- coords 129.393 1 126.159
 }
 SCR_ChimeraCharacter : "{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic.et" {
  coords 135.163 1 132.253
 }
+$grp GenericEntity : "{D4FBFE83EFD6C582}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_NOT_AMERICA.et" {
+ {
+  coords 135.136 1 126.453
+  angleY 0
+ }
+ {
+  coords 133.862 1 124.899
+ }
+}
+SCR_ChimeraCharacter : "{D5AE777E68E9C4FF}Prefabs/Characters/Factions/OPFOR/UAA/UAA_MG.et" {
+ coords 143.097 1 124.522
+}
+SCR_ChimeraCharacter : "{DB2DE406DA3041BA}Prefabs/Characters/Factions/OPFOR/UAA/UAA_BASE.et" {
+ coords 131.875 1 129.33
+}
 SCR_ChimeraCharacter : "{E07BC0A815B38AC7}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_Corpsman.et" {
  coords 126.61 1 128.482
+}
+GameEntity : "{E3440CF34DC399B0}Prefabs/Items/Equipment/Backpacks/TouristSeat.et" {
+ coords 133.77 1 126.37
 }
 $grp SCR_ChimeraCharacter : "{E398E44759DA1A43}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL.et" {
  {
@@ -111,15 +141,12 @@ SCR_ChimeraCharacter : "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_
 GameEntity : "{E6534FE720EB128F}Prefabs/Characters/Uniforms/BDU_Pants/bdu_pants_base.et" {
  coords 126.15 1 127.006
 }
-GenericEntity : "{EE239B5D7297A414}Prefabs/Weapons/Rifles/SR3M/Rifle_SR3M_supr.et" {
- coords 128.54 1 125.249
+SCR_ChimeraCharacter : "{F0ADCA7A40D7B93C}Prefabs/Characters/Factions/OPFOR/UAA/UAA_Com.et" {
+ coords 133.85 1 127.366
+}
+GenericEntity : "{F2ECCDF74EB78DBC}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7_vr.et" {
+ coords 138.647 1 127.057
 }
 GenericEntity : "{F96BBA7B329ADC1A}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21_t.et" {
  coords 125.363 1 127.072
-}
-SCR_ChimeraCharacter : "{FD91E0A9D6C0277C}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_AN94GL.et" {
- coords 130.11 1 120.251
-}
-SCR_ChimeraCharacter : "{FD91E0A9D6C0277D}Prefabs/Characters/Factions/OPFOR/RF/SPECOPS_SR3M.et" {
- coords 128.58 1 119.576
 }
