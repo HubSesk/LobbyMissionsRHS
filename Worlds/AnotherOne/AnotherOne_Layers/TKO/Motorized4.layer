@@ -1,0 +1,19 @@
+Vehicle Ural4320_Ses_TKA_transport3 : "{6C98ACF4A2DA1970}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_Ses_TKA_transport.et" {
+ coords 3826.244 3.574 2537.741
+ angleY -92
+}
+SCR_AIGroup Ses_TKA_G_021_6 : "{EA9949F006E2DC47}Prefabs/Groups/OPFOR/Group_TKA_RifleSquad.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{60770CD666B8E202}" {
+   m_iCompanyCallsign 2
+  }
+ }
+ coords 3824.964 3.663 2533.877
+ angleY -4.067
+ m_aUnitPrefabSlots {
+  "{54CB5C45A0884FA8}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_TeamLeader.et" "{B4E5FAF6A3D20293}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_Medic.et" "{A38D67186A049F83}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_MG.et" "{C3DAFD25B2D52251}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_SpecialSoldier.et" "{D15C04BB3435495C}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_SpecialSoldier2.et" "{D15C04BB3435495C}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_SpecialSoldier2.et"
+ }
+}

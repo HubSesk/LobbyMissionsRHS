@@ -1,0 +1,41 @@
+Vehicle Ural4320_Ses_TKA_transport1 : "{6C98ACF4A2DA1970}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_Ses_TKA_transport.et" {
+ coords 2827.377 30.453 2282.119
+ angleY 46.583
+}
+Vehicle BTR70_Ses_TKA_camo1 : "{E3286BFF5DAACE01}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_TKA_camo.et" {
+ coords 2846.25 30.101 2292.995
+ angleY 75.293
+}
+$grp SCR_AIGroup : "{EA9949F006E2DC47}Prefabs/Groups/OPFOR/Group_TKA_RifleSquad.et" {
+ Ses_TKA_G_001_8 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{60770CD665256C6D}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2845.56 30.325 2296.21
+  angleY 158.755
+  m_aUnitPrefabSlots + {
+   "{015EC1B41DCFA4AD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew.et" "{015EC1B41DCFA4AD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew.et"
+  }
+ }
+ Ses_TKA_G_002_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{60770CD6650CA1D7}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2827.812 31.352 2278.458
+  angleY -42.325
+ }
+}

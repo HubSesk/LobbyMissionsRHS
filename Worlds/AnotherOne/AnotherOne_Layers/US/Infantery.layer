@@ -1,0 +1,77 @@
+$grp SCR_AIGroup : "{140EEDFF928271F6}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_FireTeam_P.et" {
+ RHS_US_USMC_G_010_4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{60770CD6A472C204}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
+   }
+  }
+  coords 3096.856 9.789 2758.521
+  angleY -67
+ }
+ RHS_US_USMC_G_011_5 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{60770CD6A45CA3F9}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3095.69 9.781 2756.289
+  angleY -67
+  m_aUnitPrefabSlots + {
+   "{17BDAA31CB3B46C4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Rifleman_P.et"
+  }
+ }
+}
+$grp SCR_AIGroup : "{2A4F66BD652F1C8E}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_RifleSquad_P.et" {
+ RHS_US_USMC_G_001_15 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{60770CD6A43269A5}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3082.014 10.287 2694.453
+  angleY 34.616
+ }
+ RHS_US_USMC_G_002_15 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{60770CD6A41298F7}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 3085.68 10.287 2700.031
+  angleY -145.545
+ }
+}
+$grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
+ M1025_armed_M2HB_MERDC3 {
+  coords 3095.973 11.523 2689.124
+  angleY -56
+ }
+ M1025_armed_M2HB_MERDC2 {
+  coords 3091.505 10.248 2761.741
+  angleY -45
+ }
+ M1025_armed_M2HB_MERDC1 {
+  coords 3067.194 10.029 2707.863
+  angleY -92
+ }
+}

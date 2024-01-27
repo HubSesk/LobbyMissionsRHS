@@ -1,0 +1,34 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ GeneralInfo {
+  coords 1658.579 354.706 12719.167
+  m_sTitle "Общая информация"
+  m_sDescriptionLayout "{B9CAB85D4A1600D3}UI/MissionDescription/DescriptionEditableScroll.layout"
+  m_sTextData "Описание нет."\
+  "Извините."
+  m_aVisibleForFactions {
+   "Ses_CDF" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKA"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ TKAObjectives {
+  coords 1936.057 256.512 12402.983
+  m_sTitle "Задачи Армии Такистана"
+  m_sDescriptionLayout "{B9CAB85D4A1600D3}UI/MissionDescription/DescriptionEditableScroll.layout"
+  m_sTextData "Задачи:"\
+  "• Захватить Bar kanday"
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+ }
+ RFObjectives {
+  coords 1812.346 447.996 14182.07
+  m_sTitle "Задачи US"
+  m_sDescriptionLayout "{B9CAB85D4A1600D3}UI/MissionDescription/DescriptionEditableScroll.layout"
+  m_sTextData "Задачи:"\
+  "• Удержать Bar Kanday."\
+  ""
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+ }
+}
