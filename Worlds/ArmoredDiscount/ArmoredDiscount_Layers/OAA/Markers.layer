@@ -1,123 +1,4 @@
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- Ses_TKA_G_121_M {
-  coords 1396.938 29.925 3447.733
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.165 0.145 0.029 1
-  m_sQuadName "infantry-opfor"
-  m_fWorldSize 50
-  m_sDescription "Bree-zah-32"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "Ses_TKA" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKR" "Ses_CDF"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
- }
- Ses_TKA_G_120_M {
-  coords 1398.422 29.95 3453.299
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.165 0.145 0.029 1
-  m_sQuadName "infantry-opfor"
-  m_fWorldSize 50
-  m_sDescription "Bree-zah-31"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "Ses_TKA" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKR" "Ses_CDF"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
- }
- Ses_TKA_G_111_M {
-  coords 1372.743 71.333 3225.997
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.165 0.145 0.029 1
-  m_sQuadName "infantry-opfor"
-  m_fWorldSize 50
-  m_sDescription "Bree-zah-22"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "Ses_TKA" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKR" "Ses_CDF"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
- }
- Ses_TKA_G_110_M {
-  coords 1378.125 71.335 3223.779
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.165 0.145 0.029 1
-  m_sQuadName "infantry-opfor"
-  m_fWorldSize 50
-  m_sDescription "Bree-zah-21"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "Ses_TKA" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKR" "Ses_CDF"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
- }
- Ses_TKA_G_001_M {
-  coords 1396.958 69.563 3203.986
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.165 0.145 0.029 1
-  m_sQuadName "infantry-opfor"
-  m_fWorldSize 50
-  m_sDescription "Rah-tsek-12"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "Ses_TKA" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKR" "Ses_CDF"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
- }
- Ses_TKA_G_200_M {
-  coords 1462.788 104.381 3112.134
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.165 0.145 0.029 1
-  m_sQuadName "infantry-opfor"
-  m_fWorldSize 50
-  m_sDescription "Tseh-drr-11"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "Ses_TKA" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKR" "Ses_CDF"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
- }
- Ses_TKA_G_201_M {
-  coords 1454.146 104.381 3113.93
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.165 0.145 0.029 1
-  m_sQuadName "armored-opfor"
-  m_fWorldSize 50
-  m_sDescription "(Бронетанкисты) Tseh-drr-12"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "Ses_TKA" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKR" "Ses_CDF"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 10
- }
  {
   coords 1461.073 103.759 3093.015
   angleY 58.09
@@ -201,7 +82,126 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.165 0.145 0.029 1
   m_sQuadName "signal-opfor"
   m_fWorldSize 50
-  m_sDescription "Rah-tsek-11"
+  m_sDescription "Alif-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKR" "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Ses_TKA_G_001_M {
+  coords 1396.958 69.563 3203.986
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.165 0.145 0.029 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 50
+  m_sDescription "Alif-12"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKR" "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Ses_TKA_G_110_M {
+  coords 1378.125 71.335 3223.779
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.165 0.145 0.029 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 50
+  m_sDescription "Batikh-21"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKR" "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Ses_TKA_G_111_M {
+  coords 1372.743 71.333 3225.997
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.165 0.145 0.029 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 50
+  m_sDescription "Batikh-22"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKR" "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Ses_TKA_G_120_M {
+  coords 1398.422 29.95 3453.299
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.165 0.145 0.029 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 50
+  m_sDescription "Batikh-31"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKR" "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Ses_TKA_G_121_M {
+  coords 1396.938 29.925 3447.733
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.165 0.145 0.029 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 50
+  m_sDescription "Batikh-32"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKR" "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Ses_TKA_G_201_M {
+  coords 1454.146 104.381 3113.93
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.165 0.145 0.029 1
+  m_sQuadName "armored-opfor"
+  m_fWorldSize 50
+  m_sDescription "(Бронетанкисты) Hamzah-12"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKR" "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Ses_TKA_G_200_M {
+  coords 1462.788 104.381 3112.134
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.165 0.145 0.029 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 50
+  m_sDescription "Hamzah-11"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "Ses_TKA" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKR" "Ses_CDF"
