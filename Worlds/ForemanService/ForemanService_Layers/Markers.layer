@@ -1,0 +1,35 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ ExplosionImage {
+  coords 2340.733 28.764 3479.032
+  angleY 82.489
+  m_sImageSet "{0E253FDD73CBDB43}images/ForemanService/Explosion.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "QUAD"
+  m_fWorldSize 100
+  m_aVisibleForFactions {
+   "Ses_CDF" "RHS_RF_MSV" "RHS_US_USMC"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 15
+ }
+ FactoryMarker {
+  coords 2190.128 28.816 3471.396
+  angleY 90
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "SupplyDepot"
+  m_fWorldSize 75
+  m_sDescription "Хлебный завод"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF" "RHS_RF_MSV" "RHS_US_USMC"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 15
+ }
+}

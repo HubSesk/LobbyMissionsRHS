@@ -1,0 +1,256 @@
+$grp SCR_AIGroup : "{CC34035B3181DD15}Prefabs/Groups/INDFOR/Group_TKR_RifleSquad.et" {
+ Ses_TKR_G_110_7 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6076111EDB7A4862}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+   }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     Name "#AR-Group_Guerrilla_Squad"
+     m_Image "{10E73565E72998BD}UI/Textures/EditorPreviews/Groups/INDFOR/Group_FIA_RifleSquad.edds"
+     m_sFaction "Ses_TKG"
+     m_aAuthoredLabels +{
+     }
+     m_aAutoLabels +{
+     }
+     m_EntityChildrenBudgetCost {
+      SCR_EntityBudgetValue "{60753DC6404083B4}" {
+       m_BudgetType AI
+       m_Value 7
+      }
+     }
+     m_MilitarySymbol SCR_MilitarySymbol "{60753DC6404083BE}" {
+      m_Identity INDFOR
+      m_Dimension LAND
+      m_Icons INFANTRY
+      m_Amplifier SQUAD
+     }
+    }
+   }
+   SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+    m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+     m_Icons INFANTRY
+     m_Amplifier SQUAD
+    }
+   }
+   SCR_PreviewEntityComponent "{56FCFA56AC8EE748}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+    m_bRuntime 0
+    m_aEntries {
+     SCR_BasePreviewEntry "{60753DC6404083A0}" {
+      m_iParentID -1
+      m_Mesh ""
+      m_Flags 3
+      m_Shape MESH
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 0 0 0
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{60753DC6404083A6}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 0 0 0
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{60753DC6404083A5}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 3 0 -3
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{60753DC6404083A4}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition -3 0 -3
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{60753DC6404083AB}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 6 0 -6
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{60753DC6404083AA}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition -6 0 -6
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{60753DC6404083A9}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 9 0 -9
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{60753DC6404083A8}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition -9 0 -9
+      m_vAngles 0 0 0
+     }
+    }
+   }
+  }
+  coords 2057.423 20.584 3642.724
+  angleY 51
+ }
+ Ses_TKR_G_120_7 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6076111EDB44207E}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 2
+   }
+   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+     Name "#AR-Group_Guerrilla_Squad"
+     m_Image "{10E73565E72998BD}UI/Textures/EditorPreviews/Groups/INDFOR/Group_FIA_RifleSquad.edds"
+     m_sFaction "Ses_TKG"
+     m_aAuthoredLabels +{
+     }
+     m_aAutoLabels +{
+     }
+     m_EntityChildrenBudgetCost {
+      SCR_EntityBudgetValue "{60753DC6404083B4}" {
+       m_BudgetType AI
+       m_Value 7
+      }
+     }
+     m_MilitarySymbol SCR_MilitarySymbol "{60753DC6404083BE}" {
+      m_Identity INDFOR
+      m_Dimension LAND
+      m_Icons INFANTRY
+      m_Amplifier SQUAD
+     }
+    }
+   }
+   SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+    m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+     m_Icons INFANTRY
+     m_Amplifier SQUAD
+    }
+   }
+   SCR_PreviewEntityComponent "{56FCFA56AC8EE748}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+    m_bRuntime 0
+    m_aEntries {
+     SCR_BasePreviewEntry "{60753DC6404083A0}" {
+      m_iParentID -1
+      m_Mesh ""
+      m_Flags 3
+      m_Shape MESH
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 0 0 0
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{60753DC6404083A6}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 0 0 0
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{60753DC6404083A5}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 3 0 -3
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{60753DC6404083A4}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition -3 0 -3
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{60753DC6404083AB}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 6 0 -6
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{60753DC6404083AA}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition -6 0 -6
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{60753DC6404083A9}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition 9 0 -9
+      m_vAngles 0 0 0
+     }
+     SCR_BasePreviewEntry "{60753DC6404083A8}" {
+      m_iParentID 0
+      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+      m_Flags 0
+      m_Shape PREFAB
+      m_iPivotID ""
+      m_vScale 1 1 1
+      m_vPosition -9 0 -9
+      m_vAngles 0 0 0
+     }
+    }
+   }
+  }
+  coords 1921.676 24.397 3716.394
+  angleY 102
+ }
+}

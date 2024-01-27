@@ -1,6 +1,17 @@
 SCR_ChimeraCharacter : "{D774AFD56F8E7B1F}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Base.et" {
  ID "520EC961A090B1EE"
  components {
+  FactionAffiliationComponent "{5CC8B5EF85FB50A5}" {
+   "faction affiliation" "Ses_TKA"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "Ses_TKA"
+    m_aAuthoredLabels {
+     70 2 17
+    }
+   }
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
@@ -31,5 +42,5 @@ SCR_ChimeraCharacter : "{D774AFD56F8E7B1F}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 131.875 1 129.33
+ coords 1397.576 69.563 3207.526
 }

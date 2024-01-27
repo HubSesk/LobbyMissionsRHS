@@ -14,11 +14,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Произошедшее, в совокупности с напряженной обстановкой, привело к пониманию необходимости проведения антитеррористической операции со стороны РФ в регионе, под предлогом борьбы с наркоторговлей."\
   "Хоть это и приведет к обострению отношений с США из-за обрывов важнейших каналов снабжения, потеря экспериментальной техники выпущенной ограниченной серией слишком сильно ударит по престижу страны."
   m_aVisibleForFactions {
-   "Ses_CDF" "RHS_RF_MSV" "RHS_US_USMC"
+   "Ses_CDF" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKA"
   }
   m_bEmptyFactionVisibility 1
  }
- OAAObjectives {
+ TKAObjectives {
   coords 1936.057 256.512 12402.983
   m_sTitle "Задачи ЧСО"
   m_sDescriptionLayout "{B9CAB85D4A1600D3}UI/MissionDescription/DescriptionEditableScroll.layout"
@@ -27,7 +27,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "  Курьер прибудет через полчаса с начала миссии, будте осторожнее, вертолет может быть сбит противником."\
   "• Сохранить хотябы один К-17."
   m_aVisibleForFactions {
-   "Ses_CDF"
+   "Ses_TKA"
   }
  }
  RFObjectives {
@@ -65,7 +65,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
    "RHS_RF_MSV"
   }
  }
- OAAObjectivesCool {
+ TKAObjectivesCool {
   coords 1936.057 256.512 12402.983
   m_sTitle "Первопричины происходящего"
   m_sDescriptionLayout "{B9CAB85D4A1600D3}UI/MissionDescription/DescriptionEditableScroll.layout"
@@ -100,7 +100,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Последняя партия <i>сладких подарков</i> уже нашла покупателя в Канаде, необходимо отослать товар как можно раньше, курьер прибудет в течении получаса."\
   "Нельзя допустить переход небольшого недопонимания в полноценный военный конфликт, миру мир."
   m_aVisibleForFactions {
-   "Ses_CDF"
+   "Ses_TKA"
   }
  }
  RFObjectivesCool2 {

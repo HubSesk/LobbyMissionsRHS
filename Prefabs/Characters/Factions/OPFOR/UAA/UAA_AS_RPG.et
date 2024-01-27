@@ -1,6 +1,17 @@
 SCR_ChimeraCharacter : "{DB2DE406DA3041BA}Prefabs/Characters/Factions/OPFOR/UAA/UAA_BASE.et" {
  ID "520EC961A090B1EE"
  components {
+  FactionAffiliationComponent "{5CC8B5EF85FB50A5}" {
+   "faction affiliation" "Ses_TKA"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "Ses_TKA"
+    m_aAuthoredLabels {
+     70 2 17
+    }
+   }
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{3E413771E1834D2F}Prefabs/Weapons/Rifles/M16/Rifle_M16A2.et"
   }

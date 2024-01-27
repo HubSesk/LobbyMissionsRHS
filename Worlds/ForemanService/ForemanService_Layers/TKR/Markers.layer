@@ -1,0 +1,161 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 2162.981 15.595 3468.795
+  angleY 3.2
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Car"
+  m_fWorldSize 1.844
+  m_sDescription "#AR-Vehicle_M151A2_M2_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_CDF" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKA" "Ses_TKR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 2162.484 16.261 3481.695
+  angleY 80
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.399
+  m_sDescription "#AR-Vehicle_M1025_M2_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_CDF" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKA" "Ses_TKR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 2157.139 15.309 3453.135
+  angleY -73
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "APC"
+  m_fWorldSize 3.691
+  m_sDescription "#AR-Vehicle_BTR70_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_CDF" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKA" "Ses_TKR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ Ses_TKR_G_210_M {
+  coords 2237.579 12.138 3341.963
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.01 0.183 0.042 1
+  m_sQuadName "Undefined-indfor"
+  m_fWorldSize 50
+  m_sDescription "Tseh-drr-21"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKR" "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Ses_TKR_G_200_M {
+  coords 2318.367 11.157 3259.02
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.01 0.183 0.042 1
+  m_sQuadName "Undefined-indfor"
+  m_fWorldSize 50
+  m_sDescription "Tseh-drr-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKR" "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Ses_TKR_G_001_M {
+  coords 2158.708 15.892 3470.787
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.01 0.183 0.042 1
+  m_sQuadName "Undefined-indfor"
+  m_fWorldSize 50
+  m_sDescription "Rah-tsek-12"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKR" "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Ses_TKR_G_000_M {
+  coords 2166.159 16.023 3470.961
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.01 0.183 0.042 1
+  m_sQuadName "Undefined-indfor"
+  m_fWorldSize 50
+  m_sDescription "Rah-tsek-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKR" "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Ses_TKR_G_120_M {
+  coords 1921.676 24.397 3716.394
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.01 0.183 0.042 1
+  m_sQuadName "Undefined-indfor"
+  m_fWorldSize 50
+  m_sDescription "Bree-zah-31"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKR" "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Ses_TKR_G_110_M {
+  coords 2057.423 20.584 3642.724
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.01 0.183 0.042 1
+  m_sQuadName "Undefined-indfor"
+  m_fWorldSize 50
+  m_sDescription "Bree-zah-21"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKR" "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+}

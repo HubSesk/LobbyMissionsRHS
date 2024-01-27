@@ -1,0 +1,31 @@
+$grp SCR_AIGroup : "{EA9949F006E2DC47}Prefabs/Groups/OPFOR/Group_TKA_RifleSquad.et" {
+ Ses_TKA_G_121_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6076110D758083B0}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1396.938 29.925 3447.733
+  angleY -6.141
+  m_bSetPlayable 1
+ }
+ Ses_TKA_G_120_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6076110D75B84418}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 1398.422 29.95 3453.299
+  angleY 176.287
+  m_bSetPlayable 1
+ }
+}

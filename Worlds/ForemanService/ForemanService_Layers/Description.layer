@@ -17,29 +17,30 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
   m_bEmptyFactionVisibility 1
  }
- OAAObjectives {
+ TKRObjectives {
   coords 1936.057 256.512 12402.983
-  m_sTitle "Задачи ЧСО"
+  m_sTitle "Задачи радикалов"
   m_sDescriptionLayout "{B9CAB85D4A1600D3}UI/MissionDescription/DescriptionEditableScroll.layout"
   m_sTextData "Задачи:"\
   "• Дождатся подрыва заложенной под заводом взрывчатки."\
-  "  Примерное время прогарания замедлителя 45 минут."
+  "  Примерное время прогарания замедлителя 45 минут."\
+  "Завод укреплен станковыми пулеметами М2."
   m_aVisibleForFactions {
-   "Ses_CDF"
+   "Ses_TKR"
   }
  }
- RFObjectives {
+ TKOObjectives {
   coords 1812.346 447.996 14182.07
-  m_sTitle "Задачи ВСРФ"
+  m_sTitle "Задачи армии Такистана"
   m_sDescriptionLayout "{B9CAB85D4A1600D3}UI/MissionDescription/DescriptionEditableScroll.layout"
   m_sTextData "Задачи:"\
   "• Захватить недостроенный хлебо-булочный завод, до истечения 45 минут."\
-  ""
+  "Позиции противника укреплены станковыми пулеметами М2."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "Ses_TKO"
   }
  }
- RFObjectivesCool {
+ TKOObjectivesCool {
   coords 1812.346 447.996 14182.07
   m_sTitle "Первопричины происходящего"
   m_sDescriptionLayout "{B9CAB85D4A1600D3}UI/MissionDescription/DescriptionEditableScroll.layout"
@@ -55,10 +56,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Противник вооружен хуже ВСРФ, но и наши силы не в лучшем состоянии, на ходу остался лишь один из бумерангов."\
   "Похоже их снабжает военной техникой кто-то из-за границы, но мы пока не разобрались кто."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "Ses_TKO"
   }
  }
- OAAObjectivesCool {
+ TKRObjectivesCool {
   coords 1936.057 256.512 12402.983
   m_sTitle "Первопричины происходящего"
   m_sDescriptionLayout "{B9CAB85D4A1600D3}UI/MissionDescription/DescriptionEditableScroll.layout"
@@ -89,7 +90,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Красный молот, сила."
   m_aVisibleForFactions {
-   "Ses_CDF"
+   "Ses_TKR"
   }
  }
 }
