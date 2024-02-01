@@ -1,0 +1,16 @@
+SCR_ChimeraCharacter : "{DCF7999CCEBD5437}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_AR_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D02AEDA8178EC69}" {
+    }
+    ItemsInitConfigurationItem "{5D02AEDA817965EA}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+ coords 198.036 1 121.185
+}

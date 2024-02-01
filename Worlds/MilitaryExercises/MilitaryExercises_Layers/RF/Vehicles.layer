@@ -1,0 +1,242 @@
+Vehicle UAZ469_uncovered1 : "{16A674FE31B0921C}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{607D160FEA43DCA4}" {
+     SlotTemplate InventoryStorageSlot A {
+      Prefab "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{607D160CA4F69DBB}" {
+     SlotTemplate InventoryStorageSlot A {
+      Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+     }
+     NumSlots 20
+    }
+   }
+  }
+ }
+ coords 2598.472 90.872 5372.25
+ angleX -3.784
+ angleY -92.717
+ angleZ -4.284
+}
+$grp Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+ Ural4320_transport1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{607D160B76E0EA53}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{607D160CBDF01BA1}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      }
+      NumSlots 20
+     }
+    }
+   }
+  }
+  coords 2659.119 92.406 5353.722
+  angleX -1.204
+  angleY -63.008
+  angleZ 0.391
+ }
+ Ural4320_transport2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{607D160B76E0EA53}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{607D160CBF728229}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      }
+      NumSlots 20
+     }
+    }
+   }
+  }
+  coords 2679.874 93.111 5347.271
+  angleX -2
+  angleY -61.998
+  angleZ -0.05
+ }
+ Ural4320_transport3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{607D160B76E0EA53}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{607D160C4168A5C8}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      }
+      NumSlots 20
+     }
+    }
+   }
+  }
+  coords 2694.371 94.083 5333.375
+  angleX -3.996
+  angleY -61.993
+  angleZ -0.101
+ }
+ Ural4320_transport4 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{607D160B76E0EA53}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{607D160C4456748E}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      }
+      NumSlots 20
+     }
+    }
+   }
+  }
+  coords 2709.477 95.204 5329.743
+  angleX -5.199
+  angleY -56.025
+  angleZ -0.273
+ }
+}
+$grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ UAZ1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+    MultiSlots {
+     MultiSlotConfiguration "{607D160FDFB58C8F}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{607D160CBA7A1681}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      }
+      NumSlots 20
+     }
+    }
+   }
+  }
+  coords 2638.353 91.918 5364.738
+  angleY -72
+ }
+ UAZ2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+    MultiSlots {
+     MultiSlotConfiguration "{607D160FE1E71F90}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{607D160CB4384FF4}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      }
+      NumSlots 20
+     }
+    }
+   }
+  }
+  coords 2622.925 91.686 5367.713
+  angleX -1.557
+  angleY -82.946
+  angleZ -1.995
+ }
+}
+Vehicle UAZ452_ambulance1 : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5D7E924E84B181BC}" {
+   MultiSlots {
+    MultiSlotConfiguration "{607D160FD35BC6C6}" {
+     SlotTemplate InventoryStorageSlot A {
+      Prefab "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{607D160CB679E9CE}" {
+     SlotTemplate InventoryStorageSlot A {
+      Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+     }
+     NumSlots 20
+    }
+   }
+  }
+ }
+ coords 2630.504 91.869 5366.957
+ angleY -83
+}
+$grp Vehicle : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker.et" {
+ Ural4320_tanker2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{607D160FE777FC1F}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{607D160C4BACBE53}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      }
+      NumSlots 20
+     }
+    }
+   }
+  }
+  coords 2610.136 91.498 5374.198
+  angleX -2.616
+  angleY -88.928
+  angleZ -3.622
+ }
+ Ural4320_tanker1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{607D160FE5A1C2E9}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{607D160C4850371C}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      }
+      NumSlots 20
+     }
+    }
+   }
+  }
+  coords 2610.338 91.205 5369.153
+  angleX -2.639
+  angleY -89.062
+  angleZ -2.724
+ }
+}

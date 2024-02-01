@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{F971BD317A6C8ED3}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Spotter_P.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{54A49B43AB89B372}" {
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+   }
+  }
+ }
+ coords 1306.514 26.957 5774.753
+}

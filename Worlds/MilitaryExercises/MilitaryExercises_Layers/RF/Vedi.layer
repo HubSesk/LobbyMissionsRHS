@@ -1,0 +1,19 @@
+Vehicle APC_K17_unarmed1 : "{3B899AC9449C35F0}Prefabs/Vehicles/Wheeled/K17/APC_K17_unarmed.et" {
+ coords 2011.269 0.855 7392.894
+ angleX -6.346
+ angleY -118.07
+ angleZ 1.36
+}
+SCR_AIGroup RHS_RF_MSV_G_400_6 : "{4E66C5FE1796D009}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/SPECOPS.et" {
+ components {
+  PS_GroupCallsignAssigner "{607D238251148CEB}" {
+   m_iCompanyCallsign 4
+  }
+ }
+ coords 2019.252 0.969 7395.271
+ angleY -115
+ m_aUnitPrefabSlots + {
+  "{9F1A54596CE4BB81}Prefabs/Characters/Factions/OPFOR/RF/HeliPilot.et"
+ }
+ m_sCustomNameSet "Веды"
+}

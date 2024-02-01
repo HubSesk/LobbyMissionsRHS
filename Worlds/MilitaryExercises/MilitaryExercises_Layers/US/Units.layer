@@ -1,0 +1,132 @@
+Vehicle Ural4320_transport5 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+   MultiSlots {
+    MultiSlotConfiguration "{607D160B76E0EA53}" {
+     SlotTemplate InventoryStorageSlot A {
+      Prefab "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
+     }
+     NumSlots 50
+    }
+    MultiSlotConfiguration "{607D160C4456748E}" {
+     SlotTemplate InventoryStorageSlot A {
+      Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+     }
+     NumSlots 20
+    }
+   }
+  }
+ }
+ coords 2721.605 96.905 5316.252
+ angleX -5.199
+ angleY -58.025
+ angleZ -0.273
+}
+$grp SCR_AIGroup : "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et" {
+ RHS_US_USMC_G_010_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{607D238601204C43}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 1306.807 38.671 6018.108
+  angleY -45.518
+  m_faction "RHS_US_USMC"
+  m_aUnitPrefabSlots {
+   "{382AB962AD7C415A}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_SL_LA_P.et" "{47CABB6C34172998}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_TL_LA_P.et" "{1204639956CF4808}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_Marksman_LA_P.et" "{FB7A16E53FD401CB}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_GL_LA_P.et" "{0A6876EFBC557B95}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_AT_LA_P.et" "{47CABB6C34172998}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_TL_LA_P.et" "{1654FE7FC7BB6421}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_AR_LA_P.et" "{FB7A16E53FD401CB}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_GL_LA_P.et" "{0A6876EFBC557B95}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_AT_LA_P.et"
+  }
+ }
+ RHS_US_USMC_G_001_4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{607D238601193861}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1275.243 37.068 5992.389
+  angleX -0.001
+  angleY -30.518
+  angleZ 0.001
+  m_faction "RHS_US_USMC"
+  m_aUnitPrefabSlots {
+   "{47CABB6C34172998}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_TL_LA_P.et" "{1204639956CF4808}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_Marksman_LA_P.et" "{FB7A16E53FD401CB}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_GL_LA_P.et" "{0A6876EFBC557B95}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_AT_LA_P.et"
+  }
+ }
+ RHS_US_USMC_G_011_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{607D23860172935E}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1294.213 37.786 6031.298
+  angleY 138.482
+  m_faction "RHS_US_USMC"
+  m_aUnitPrefabSlots {
+   "{382AB962AD7C415A}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_SL_LA_P.et" "{47CABB6C34172998}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_TL_LA_P.et" "{1204639956CF4808}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_Marksman_LA_P.et" "{FB7A16E53FD401CB}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_GL_LA_P.et" "{0A6876EFBC557B95}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_AT_LA_P.et" "{47CABB6C34172998}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_TL_LA_P.et" "{1654FE7FC7BB6421}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_AR_LA_P.et" "{FB7A16E53FD401CB}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_GL_LA_P.et" "{0A6876EFBC557B95}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_AT_LA_P.et"
+  }
+ }
+ RHS_US_USMC_G_021_4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{607D23860285492D}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1308.252 26.809 5772.027
+  angleY 152.482
+  m_faction "RHS_US_USMC"
+  m_aUnitPrefabSlots {
+   "{47CABB6C34172998}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_TL_LA_P.et" "{1204639956CF4808}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_Marksman_LA_P.et" "{21DF004F15B7E3DB}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_Spotter_LA_P.et" "{5DA0FE1F9B3F849A}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_SSO_LA_P.et"
+  }
+ }
+ RHS_US_USMC_G_020_4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{607D238602E0F006}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 1453.465 47.307 6193.558
+  angleY 62.482
+  m_faction "RHS_US_USMC"
+  m_aUnitPrefabSlots {
+   "{47CABB6C34172998}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_TL_LA_P.et" "{1204639956CF4808}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_Marksman_LA_P.et" "{21DF004F15B7E3DB}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_Spotter_LA_P.et" "{5DA0FE1F9B3F849A}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_SSO_LA_P.et"
+  }
+ }
+ RHS_US_USMC_G_000_3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{607D238602E0F006}" {
+    m_iCompanyCallsign 0
+   }
+  }
+  coords 1269.62 37.818 6017.731
+  angleY 141.482
+  m_faction "RHS_US_USMC"
+  m_aUnitPrefabSlots {
+   "{47CABB6C34172998}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_TL_LA_P.et" "{E049DF978939650F}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_RTO_P.et" "{EED044482866F45B}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Corpsman_P.et"
+  }
+ }
+}

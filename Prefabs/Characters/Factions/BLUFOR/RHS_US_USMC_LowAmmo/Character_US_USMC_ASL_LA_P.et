@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{F6F1C438FBE915E3}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_ASL_P.et" {
+ ID "51FA90A59C87A851"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{54A49B42D138207E}" {
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5538C29C2FC6375B}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{5538C29C2FA41111}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+ coords 204.256 1 121.831
+}
