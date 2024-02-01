@@ -34,6 +34,10 @@ Vehicle Ural4320_transport_camo1 : "{2CCD539A7AB35B2F}Prefabs/Vehicles/Wheeled/U
  angleY 40.801
  angleZ -4.457
 }
+Vehicle UAZ452_ambulance1 : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" {
+ coords 10627.112 2.344 11853.392
+ angleY 46.017
+}
 $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_MSV_EMR_RifleSquad_P.et" {
  {
   components {
@@ -90,8 +94,6 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_
    }
    PS_GroupCallsignAssigner "{60830BBE4B33E3BF}" {
     m_iCompanyCallsign 2
-    m_iPlatoonCallsign 1
-    m_iSquadCallsign 3
    }
   }
   coords 10537.884 2.328 11820.977
@@ -108,8 +110,7 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_
    }
    PS_GroupCallsignAssigner "{60830BBE4B33E3BF}" {
     m_iCompanyCallsign 2
-    m_iPlatoonCallsign 1
-    m_iSquadCallsign 2
+    m_iSquadCallsign 1
    }
   }
   coords 10567.146 0.782 11837.646
@@ -128,8 +129,7 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_
    }
    PS_GroupCallsignAssigner "{60830BBE4B33E3BF}" {
     m_iCompanyCallsign 2
-    m_iPlatoonCallsign 1
-    m_iSquadCallsign 1
+    m_iSquadCallsign 2
    }
   }
   coords 10605.809 2.5 11759.423
@@ -156,34 +156,17 @@ Vehicle UAZ469_RF_Cumo1 : "{CFCE5F4B0CC93C71}Prefabs/Vehicles/Wheeled/UAZ469/UAZ
  angleY 44.979
  angleZ -1.898
 }
-$grp SCR_AIGroup : "{E4B6AD2D3F270081}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_MSV_EMR_SentryTeam_P.et" {
- {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Line"
-   }
-   PS_GroupCallsignAssigner "{60830BA948804361}" {
-   }
+SCR_AIGroup : "{E4B6AD2D3F270081}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_MSV_EMR_SentryTeam_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
   }
-  coords 10887.896 24.938 11717.372
-  angleY 45
-  m_aUnitPrefabSlots {
-   "{AF5566754C433F0F}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_SL_AN94_P.et" "{8709546B5E7B1BDF}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_RTO_P.et" "{FB9EB9A812604FD4}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_Sharpshooter_Night_P.et" "{2B869031AD8DD0CA}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_Rifleman_P.et"
+  PS_GroupCallsignAssigner "{60830BA948804361}" {
   }
  }
- {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Line"
-   }
-   PS_GroupCallsignAssigner "{60830BA948804361}" {
-    m_iCompanyCallsign 2
-   }
-  }
-  coords 10562.021 2.344 11852.746
-  angleY 141.689
-  m_aUnitPrefabSlots {
-   "{AF5566754C433F0F}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_SL_AN94_P.et" "{8709546B5E7B1BDF}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_RTO_P.et" "{C36865262C5BCA65}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_Rifleman_Night_P.et"
-  }
+ coords 10887.896 24.938 11717.372
+ angleY 45
+ m_aUnitPrefabSlots {
+  "{AF5566754C433F0F}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_SL_AN94_P.et" "{8709546B5E7B1BDF}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_RTO_P.et" "{FB9EB9A812604FD4}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_Sharpshooter_Night_P.et" "{2B869031AD8DD0CA}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_Rifleman_P.et"
  }
 }

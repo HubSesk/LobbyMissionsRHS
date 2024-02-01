@@ -1,0 +1,88 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ General {
+  coords 10897.04 23.541 11759.427
+  m_sTitle "Общая информация"
+  m_sTextData "Ночной рейд морской пехоты США на остров подконтрольный ВСРФ с целью уничтожения артилерии."
+  m_aVisibleForFactions {
+   "RHS_RF_MSV" "RHS_US_USMC"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ Us {
+  coords 10903.584 23.572 11768.462
+  m_sTitle "Задачи USMC"
+  m_sTextData "Гарнизон острова слабо оснащен приборами ночного видения, посторайтесь воспользоваться этим и успеть вывести из строя их артилерийские орудия и заполучить документы из их штаба до того как они смогут заблокировать нам пути отступления (за 50 минут)."\
+  "Если вы доберетесь до самоходки, а у вас нет ПТ средства, доставаёте из нее боезапас и взрывайте с помощью него."\
+  "Так же ходят слухи о секретной такистанской помощи для ВСРФ, постарайтесь найти этому подтвержение и вывезти доказательства с собой."\
+  ""\
+  "Основная задача:"\
+  "• Уничтожить артилерийские установки."\
+  ""\
+  "Дополнительные задачи:"\
+  "• Захватить документы из штаба ВСРФ."\
+  "• Захватить коробку с такистанскими маковыми булками."\
+  ""\
+  "Точка эвакуации - Южная пристань!"
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+ }
+ Rf {
+  coords 10898.948 23.541 11764.078
+  m_sTitle "Задачи ВСРФ"
+  m_sTextData "Поступило сообщение о возможной высадке крупной группы диверсантов на наш остров!"\
+  "Здесь базируются важнейшие артилерийские орудия, уоторые поддерживают наши силы на основном острове Еверон, скорей всего противник стремится уничтожить именно их."\
+  "У гарнизона острова имеется небольшое количество приборов ночного видения, так что солдаты с ночными прицелами и командиры будут вынуждены наводить остальных."\
+  ""\
+  "• Не дать противнику уничтожить артилерийские орудия."\
+  "• Удержать штаб."
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ {
+  coords 10536.874 2.307 11838.248
+  m_fWarnRadius 54
+  m_fZoneRadius 74
+  m_fZoneTeleportedRadius 84
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fRadius 54
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 11656.396 10.317 11326.093
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 11491.61 10.217 10858.577
+ }
+ {
+  coords 10938.094 28.551 11739.938
+  m_fWarnRadius 174
+  m_fZoneRadius 214
+  m_fZoneTeleportedRadius 224
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fRadius 174
+     }
+    }
+   }
+  }
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ coords 10606.443 2.38 11759.718
+}
