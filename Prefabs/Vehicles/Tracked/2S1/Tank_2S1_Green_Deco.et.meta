@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{9824112BBCB732C9}Prefabs/Vehicles/Tracked/2S1/Tank_2S1_Green_Deco.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

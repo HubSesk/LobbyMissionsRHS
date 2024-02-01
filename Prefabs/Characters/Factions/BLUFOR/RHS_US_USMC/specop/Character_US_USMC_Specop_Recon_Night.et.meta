@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{93D0305C25B84EC4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_Recon_Night.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

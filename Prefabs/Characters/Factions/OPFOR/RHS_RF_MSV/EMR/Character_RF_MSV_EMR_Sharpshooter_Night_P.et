@@ -1,11 +1,11 @@
-SCR_ChimeraCharacter : "{C6F7F2BC064B01F1}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_AT.et" {
+SCR_ChimeraCharacter : "{283FF57B06EEDEF0}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_Sharpshooter.et" {
  ID "520EC961A090BE1E"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_bIsPlayable 1
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{FA8BE6075AFFBCA8}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M.et"
+   WeaponTemplate "{455E257F80BE6C1B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_1pn93.et"
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {

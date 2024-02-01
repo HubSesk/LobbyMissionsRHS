@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{D774AFD56F8E7B1F}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5EA287E0AEFD25ED}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_FROG_Trousers.et"
+    }
+    ItemsInitConfigurationItem "{6082F562788FB669}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt.et"
+     PrefabsToSpawn {
+      "{64322D5D501B7D79}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_Base.et"
+     }
+    }
+   }
+  }
+ }
+}

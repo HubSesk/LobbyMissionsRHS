@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{5EB84788D59695A5}Prefabs/Vehicles/Tracked/2S1/VehParts/Turret/2S1_Turret_green2_Deco.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,138 @@
+$grp GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
+ {
+  coords 10937.97 24.752 11699.379
+  angleX 2.163
+  angleY 166.287
+  angleZ 1.314
+ }
+ {
+  coords 10899.233 25.009 11671.686
+  angleY -165
+ }
+ {
+  coords 10903.24 24.925 11714.547
+  angleY 98
+ }
+}
+StaticModelEntity : "{8125DEB23B3FF39E}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/Sandbag_01_bunker_burlap_CompositionDestruction.et" {
+ coords 10944.813 26.809 11870.659
+ angleX -1.617
+ angleY 104.916
+ angleZ 0.132
+}
+$grp StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/CzechHedgehog_01_painted.et" {
+ {
+  coords 11108.196 0.009 11577.582
+  angleX 1.789
+  angleY 0.028
+  angleZ 0.896
+ }
+ {
+  coords 11108.997 0.009 11585.895
+  angleX -0.844
+  angleY -70.5
+  angleZ -0.299
+ }
+ {
+  coords 10959.189 0.009 11675.588
+  angleZ 0.895
+ }
+ {
+  coords 10926.146 0.01 11690.321
+  angleY -61.183
+ }
+}
+StaticModelEntity : "{AE28D47CF26E91EA}Prefabs/Props/Military/Fortification/CzechHedgehog_01_rusty.et" {
+ coords 10977.104 -0.001 11683.824
+}
+GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_01_round_burlap.et" {
+ coords 10923.779 24.081 11734.039
+ angleY 164
+}
+$grp GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
+ {
+  coords 10988.933 27.447 11836.506
+  angleX 0.575
+  angleY 132.342
+  angleZ 4.068
+ }
+ {
+  coords 10987.767 28.1 11842.575
+  angleX -7.997
+  angleY -137.755
+  angleZ 0.726
+ }
+ {
+  coords 10839.418 20.202 11674.76
+  angleX 1.683
+  angleY -35.067
+  angleZ -7.146
+ }
+ {
+  coords 10833.291 19.852 11669.654
+  angleX 1.196
+  angleY 138.105
+  angleZ 1.332
+ }
+ {
+  coords 10891.966 24.391 11733.831
+  angleY -57.75
+ }
+}
+$grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
+ {
+  coords 10837.354 20.066 11673.06
+  angleX 0.476
+  angleY -40.333
+  angleZ 1.944
+ }
+ {
+  coords 10989.733 28.105 11840.859
+  angleX 8.163
+  angleY 41.994
+  angleZ 1.249
+ }
+ {
+  coords 10990.706 27.857 11838.568
+  angleX -1.203
+  angleY 131.581
+  angleZ 8.17
+ }
+ {
+  coords 10920.915 24.999 11688.955
+  angleX -1.258
+  angleY -38.502
+  angleZ -0.143
+ }
+ {
+  coords 10888.402 24.859 11729.921
+  angleX -0.545
+  angleY -40.061
+  angleZ 1.086
+ }
+ {
+  coords 11113.351 35.549 11586.809
+ }
+}
+$grp GenericEntity : "{C7DA8607C3B3057E}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallBurlap_S_USSR_01.et" {
+ {
+  coords 10836.563 20.103 11659.021
+  {
+   GenericEntity {
+    ID "5D70E0D15461E498"
+    coords -1.479 -0.191 12.095
+    angleX -1.038
+    angleY -39.952
+    angleZ -2.631
+   }
+  }
+ }
+ {
+  coords 10943.837 26.824 11874.502
+  angleY -90
+ }
+}
+GenericEntity : "{CD67070EFAFC28C7}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_burlap.et" {
+ coords 10890.595 24.656 11732.062
+ angleY 131
+}

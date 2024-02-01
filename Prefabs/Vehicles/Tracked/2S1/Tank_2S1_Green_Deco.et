@@ -1,0 +1,15 @@
+RHS_Tank : "{52B13341B4A2F012}Prefabs/Vehicles/Tracked/2S1/Tank_2S1_Green.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{5EB84788D59695A5}Prefabs/Vehicles/Tracked/2S1/VehParts/Turret/2S1_Turret_green2_Deco.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   Enabled 0
+  }
+ }
+}

@@ -80,6 +80,12 @@ SCR_ChimeraCharacter : "{D774AFD56F8E7B1F}Prefabs/Characters/Factions/BLUFOR/RHS
       "{00F0B1FA28EF672B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M995.et" "{00F0B1FA28EF672B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M995.et" "{00F0B1FA28EF672B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M995.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et" "{9BBDEE253A16CC66}Prefabs/Weapons/Grenades/M18/Smoke_M18_Yellow.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
      }
     }
+    ItemsInitConfigurationItem "{6082F56915F8E42B}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt.et"
+     PrefabsToSpawn {
+      "{B385064A383A384B}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual_WP.et"
+     }
+    }
    }
   }
  }

@@ -85,6 +85,9 @@ SCR_ChimeraCharacter : "{A6BBE7985C354A62}Prefabs/Characters/Factions/BLUFOR/RHS
 SCR_ChimeraCharacter : "{AA0CBD566DE31601}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_2.et" {
  coords 124.932 1 127.494
 }
+GameEntity : "{B385064A383A384B}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual_WP.et" {
+ coords 128.077 1.907 132.751
+}
 GenericEntity : "{C34F897AB78E1900}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_TA31RCO_ARD_NT4.et" {
  coords 127.066 1 127.104
 }
@@ -96,6 +99,117 @@ SCR_ChimeraCharacter : "{C4AE533F573B7C75}Prefabs/Characters/Factions/BLUFOR/RHS
      InitialStorageSlots {
       SCR_EquipmentStorageSlot BinocularSlot {
       }
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{7C53E6DE2E4BD8CB}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo.et"
+      }
+     }
+    }
+   }
+  }
+  FactionAffiliationComponent "{5CC8B5EF85FB50A5}" {
+   "faction affiliation" "RHS_US_USMC"
+  }
+  MeshObject "{520EA1D2F659C81F}" {
+   Materials {
+    MaterialAssignClass "{5CC8B5EF85FB50A2}" {
+     SourceMaterial "Basebody_01_Male_Arms"
+     AssignedMaterial "{73729450190803B0}Assets/Characters/Basebody/Data/Arms_African_01.emat"
+    }
+    MaterialAssignClass "{5CC8B5EF85FB509F}" {
+     SourceMaterial "Basebody_01_Male_Arms_wound"
+     AssignedMaterial "{C624B1A866D83317}Assets/Characters/Basebody/Data/Basebody_01_Male_Arms_African_wound.emat"
+    }
+    MaterialAssignClass "{5CC8B5EF85FB509E}" {
+     SourceMaterial "Basebody_01_Male_Body"
+     AssignedMaterial "{D82597AFCF8B7E6B}Assets/Characters/Basebody/Data/Body_African_01.emat"
+    }
+    MaterialAssignClass "{5CC8B5EF85FB509B}" {
+     SourceMaterial "Basebody_01_Male_Body_wound"
+     AssignedMaterial "{15944F28620EDC94}Assets/Characters/Basebody/Data/Basebody_01_Male_Body_African_wound.emat"
+    }
+   }
+  }
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Sniper"
+    Icon "{0A78405E73C36477}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Sharpshooter.edds"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{56CE827F9AD5880E}Prefabs/Weapons/Rifles/M40/Rifle_M40A5_Optic_Peq.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponSlotIndex 1
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{04F4D8CBA36A534B}Prefabs/Characters/Heads/Head_Black_02.et"
+     Body "{6253161EEAB88EAB}Prefabs/Characters/Basebody/CharacterBasebody_Black_02.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{FE551345A4A69E3D}Prefabs/Characters/HeadGear/Hat_USMC_Boonie/Hat_USMC_Boonie_Comtac.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{1CF302A33F29FBEF}Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{68CF844B606428D8}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_light.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{76D80043D6BFFB57}Prefabs/Characters/Uniforms/Pants_FROG_Trousers.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{320FA1CD5B1D5601}Prefabs/Characters/Footwear/Boots_USMC_Combat/Footwear_USMC_Combat.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{9A26D311900C33EE}Prefabs/Items/Equipment/Backpacks/FILBE_hydration_pack.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{1300A5F6CA51B204}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5CC8B5EF85FB5080}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_FROG_Trousers.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{5CC8B5EF85FB5082}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt.et"
+    }
+    ItemsInitConfigurationItem "{5EA287E0AEFD25ED}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_light.et"
+    }
+    ItemsInitConfigurationItem "{60440BC7D988E831}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{604411C511BD31BB}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6082F56915F8E42B}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt.et"
+     PrefabsToSpawn +{
      }
     }
    }

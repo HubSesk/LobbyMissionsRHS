@@ -1,0 +1,78 @@
+GenericEntity : "{3670FB020029C146}Prefabs/Meth.et" {
+ coords 10884.771 30.517 11711.332
+ angleY 48.036
+}
+Vehicle UAZ452_ambulance1 : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" {
+ coords 10627.112 2.344 11853.392
+ angleY 46.017
+}
+GenericEntity : "{61980E6F3CA71107}Prefabs/Weapons/Explosives/Mine_TM62M/Dingus.et" {
+ coords 11364.45 21.863 11857.497
+ angleX 1.034
+ angleY 75.003
+ angleZ 0.151
+}
+$grp RHS_Tank : "{9824112BBCB732C9}Prefabs/Vehicles/Tracked/2S1/Tank_2S1_Green_Deco.et" {
+ Tank_2S1_Green_Deco1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5EB8309C3F2D6039}" {
+    MultiSlots {
+     MultiSlotConfiguration "{60830BA8B3005637}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+      }
+      NumSlots 2
+     }
+    }
+   }
+  }
+  coords 10976.494 23.934 11816.773
+  angleX -0.121
+  angleY 82.238
+  angleZ -0.887
+ }
+ Tank_2S1_Green_Deco2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5EB8309C3F2D6039}" {
+    MultiSlots {
+     MultiSlotConfiguration "{60830BA8BD91253A}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+      }
+      NumSlots 2
+     }
+    }
+   }
+  }
+  coords 10833.804 20.029 11683.923
+  angleX -3.779
+  angleY -135.313
+  angleZ 2.546
+ }
+ Tank_2S1_Green_Deco3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5EB8309C3F2D6039}" {
+    MultiSlots {
+     MultiSlotConfiguration "{60830BA8AD839904}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+      }
+      NumSlots 2
+     }
+    }
+    m_aSlotsToShow {
+    }
+   }
+  }
+  coords 10884.353 22.871 11760.602
+  angleX 2.664
+  angleY 146.161
+  angleZ 3.417
+ }
+}
+GenericEntity : "{A95C4BA303CCB6F3}Prefabs/Items/Stuff/SecretDocuments.et" {
+ coords 10884.612 31.27 11712.674
+ angleX -0.181
+ angleY 132.105
+ angleZ 0.015
+}

@@ -1,0 +1,11 @@
+SCR_ChimeraCharacter : "{3B167AFE3D75631C}Prefabs/Characters/Factions/OPFOR/RHS_RF_MSV/EMR/Character_RF_MSV_EMR_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{616D14E89D3F2408}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_Night.et"
+  }
+ }
+}
