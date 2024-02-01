@@ -1,0 +1,204 @@
+Vehicle M997_maxi_ambulance1 : "{00C9BBE426F7D459}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance.et" {
+ coords 2242.227 24.342 6985.254
+ angleX -0.895
+ angleY 178.999
+ angleZ 0.016
+}
+Vehicle M1 : "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6082DA67F543550F}" {
+     SlotTemplate InventoryStorageSlot A {
+      Prefab "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+     NumSlots 35
+    }
+    MultiSlotConfiguration "{6082DA6773D7CB14}" {
+     SlotTemplate InventoryStorageSlot A {
+      Prefab "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{6082DA677B1F9FBF}" {
+     SlotTemplate InventoryStorageSlot A {
+      Prefab "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
+     }
+     NumSlots 6
+    }
+    MultiSlotConfiguration "{6082DA673690F1DA}" {
+     SlotTemplate InventoryStorageSlot A {
+      Prefab "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
+     }
+     NumSlots 6
+    }
+   }
+  }
+ }
+ coords 2240.003 23.232 6914.115
+ angleX -1.79
+ angleY -178.999
+ angleZ -0.031
+}
+SCR_AIGroup RHS_US_USMC_G_400_9 : "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{607D238609CDAF0F}" {
+   m_iCompanyCallsign 4
+  }
+ }
+ coords 2243.525 23.769 6934.583
+ angleY -88.518
+ m_faction "RHS_US_USMC"
+ m_aUnitPrefabSlots {
+  "{797221111AFBE05D}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_SL_P.et" "{DCF7999CCEBD5437}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_AR_P.et" "{17BDAA31CB3B46C4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Rifleman_P.et" "{17BDAA31CB3B46C4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Rifleman_P.et" "{17BDAA31CB3B46C4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Rifleman_P.et" "{17BDAA31CB3B46C4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Rifleman_P.et" "{17BDAA31CB3B46C4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Rifleman_P.et" "{17BDAA31CB3B46C4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Rifleman_P.et" "{17BDAA31CB3B46C4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Rifleman_P.et"
+ }
+}
+$grp Vehicle : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et" {
+ M923A1_transport1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6082DA66EF37EBAA}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+      }
+      NumSlots 35
+     }
+     MultiSlotConfiguration "{6082DA66F97717CE}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{6082DA6682E688E2}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{6082DA668AFFCB53}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
+      }
+      NumSlots 6
+     }
+    }
+   }
+  }
+  coords 2239.898 23.541 6925.042
+  angleX -1.848
+  angleY -176.012
+  angleZ 0.768
+ }
+ M923A1_transport2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6082DA66EF37EBAA}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+      }
+      NumSlots 35
+     }
+     MultiSlotConfiguration "{6082DA66F97717CE}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{6082DA6682E688E2}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{6082DA668AFFCB53}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
+      }
+      NumSlots 6
+     }
+    }
+   }
+  }
+  coords 2240.511 23.954 6937.956
+  angleX -1.848
+  angleY -176.012
+  angleZ 0.768
+ }
+ M923A1_transport4 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6082DA66EF37EBAA}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+      }
+      NumSlots 35
+     }
+     MultiSlotConfiguration "{6082DA66F97717CE}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{6082DA6682E688E2}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{6082DA668AFFCB53}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
+      }
+      NumSlots 6
+     }
+    }
+   }
+  }
+  coords 2241.343 24.724 6962.17
+  angleX -1.848
+  angleY -176.012
+  angleZ 0.768
+ }
+ M923A1_transport3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6082DA66EF37EBAA}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+      }
+      NumSlots 35
+     }
+     MultiSlotConfiguration "{6082DA66F97717CE}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{6082DA6682E688E2}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{6082DA668AFFCB53}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
+      }
+      NumSlots 6
+     }
+    }
+   }
+  }
+  coords 2240.723 24.371 6951.194
+  angleX -1.848
+  angleY -176.012
+  angleZ 0.768
+ }
+}
