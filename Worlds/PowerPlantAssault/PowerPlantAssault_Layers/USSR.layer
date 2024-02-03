@@ -1,11 +1,17 @@
+Vehicle Ural4320_transport_camo1 : "{2CCD539A7AB35B2F}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_camo1.et" {
+ coords 5850.079 212.755 7032.973
+ angleX 3.218
+ angleY -60.012
+ angleZ -0.208
+}
 $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_MSV_EMR_RifleSquad_P.et" {
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Column"
    }
-   PS_GroupCallsignAssigner "{608510621DDCAFE4}" {
-    m_iCompanyCallsign 2
+   PS_GroupCallsignAssigner "{6086C9704B837927}" {
+    m_iCompanyCallsign 3
    }
   }
   coords 7862.943 254.954 4050.487
@@ -19,7 +25,7 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Column"
    }
-   PS_GroupCallsignAssigner "{6085106CA141D92B}" {
+   PS_GroupCallsignAssigner "{6086C970C7C1CAD3}" {
     m_iCompanyCallsign 1
     m_iPlatoonCallsign 1
    }
@@ -35,7 +41,9 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Column"
    }
-   PS_GroupCallsignAssigner "{6085106CA141D92B}" {
+   PS_GroupCallsignAssigner "{6086C970FF6819E5}" {
+   }
+   PS_GroupCallsignAssigner "{6086C9715D40F4B4}" {
    }
   }
   coords 5867.562 211.898 7032.145
@@ -49,7 +57,7 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Column"
    }
-   PS_GroupCallsignAssigner "{6085106CA141D92B}" {
+   PS_GroupCallsignAssigner "{6086C970F4E4F2DA}" {
     m_iSquadCallsign 1
    }
   }
@@ -64,7 +72,7 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Column"
    }
-   PS_GroupCallsignAssigner "{6085106CA141D92B}" {
+   PS_GroupCallsignAssigner "{6086C970EEF1BD9F}" {
     m_iCompanyCallsign 1
    }
   }
@@ -79,7 +87,7 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Column"
    }
-   PS_GroupCallsignAssigner "{6085106CA141D92B}" {
+   PS_GroupCallsignAssigner "{6086C970191F1E34}" {
     m_iCompanyCallsign 1
     m_iSquadCallsign 1
    }
@@ -95,7 +103,7 @@ $grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Column"
    }
-   PS_GroupCallsignAssigner "{6085106CA141D92B}" {
+   PS_GroupCallsignAssigner "{6086C97013029ACD}" {
     m_iCompanyCallsign 1
     m_iSquadCallsign 2
    }
@@ -121,6 +129,12 @@ $grp Vehicle : "{B45DF818CF8F283A}Prefabs/Vehicles/Wheeled/BTR70/BTR70_RF.et" {
   angleY -47
  }
 }
+Vehicle UAZ469_RF_Cumo1 : "{CFCE5F4B0CC93C71}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_RF_Cumo.et" {
+ coords 5869.618 211.755 7028.573
+ angleX 2.824
+ angleY -75.008
+ angleZ -0.17
+}
 Vehicle Ural4320_transport_covered1 : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
  components {
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
@@ -135,8 +149,8 @@ SCR_AIGroup : "{EB4E6D23DF55B868}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_MSV_E
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Line"
   }
-  PS_GroupCallsignAssigner "{6085106234F7380D}" {
-   m_iCompanyCallsign 2
+  PS_GroupCallsignAssigner "{6086C97004A92308}" {
+   m_iCompanyCallsign 3
    m_iPlatoonCallsign 1
    m_iSquadCallsign 1
   }
