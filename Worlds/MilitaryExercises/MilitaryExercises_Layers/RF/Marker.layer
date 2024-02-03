@@ -361,39 +361,3 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
  }
 }
-Vehicle M923A1_transport5 : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et" {
- components {
-  SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
-   MultiSlots {
-    MultiSlotConfiguration "{6082DA66EF37EBAA}" {
-     SlotTemplate InventoryStorageSlot A {
-      Prefab "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
-     }
-     NumSlots 35
-    }
-    MultiSlotConfiguration "{6082DA66F97717CE}" {
-     SlotTemplate InventoryStorageSlot A {
-      Prefab "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
-     }
-     NumSlots 20
-    }
-    MultiSlotConfiguration "{6082DA6682E688E2}" {
-     SlotTemplate InventoryStorageSlot A {
-      Prefab "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
-     }
-     NumSlots 6
-    }
-    MultiSlotConfiguration "{6082DA668AFFCB53}" {
-     SlotTemplate InventoryStorageSlot A {
-      Prefab "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
-     }
-     NumSlots 6
-    }
-   }
-  }
- }
- coords 2242.429 25.125 6974.473
- angleX -1.848
- angleY -176.012
- angleZ 0.768
-}
