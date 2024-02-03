@@ -1,0 +1,28 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  m_sTitle "#PS-Description_HeaderAboutMission"
+  m_sTextData "ВСРФ собирается взять под контроль основную электростанцию острова Эверон."
+  m_aVisibleForFactions {
+   "RHS_US_USMC" "RHS_RF_MSV"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  m_sTitle "Задачи USMC"
+  m_sTextData "Русские начали атаку на электростанцию. С аэропорта выслано подкрепление."\
+  "Необходимо удерживать электростанцию на протяжении 50 минут!"
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+ }
+ {
+  m_sTitle "Задачи ВСРФ"
+  m_sTextData "Разведка доложила о перемещении части обороняющихся в районе электростанции сил противника, необходимо воспользоваться моментом и занять основную электростанцию острова."\
+  "На это у нас есть 50 минут, пока не прибудут резервы противника."\
+  ""\
+  "• Занять територию Электростанции!"
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+ }
+}
