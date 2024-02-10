@@ -10,7 +10,7 @@ SCR_AIGroup : "{0EFF5F602A101F34}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC
  coords 11640.46 2.858 11347.011
  angleY -36.493
  m_aUnitPrefabSlots {
-  "{0D05611212019493}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_TL.et" "{6D58EE2CD7325FAA}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_GL.et" "{1B790332ED999822}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_Assault.et" "{1B790332ED999822}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_Assault.et" "{4DD320946B1BC227}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_LAT.et" "{8C7B70FA935A5ED9}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_Corpsman_Night.et" "{7799EE6A0A117E03}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_Sniper_Night.et" "{93D0305C25B84EC4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_Recon_Night.et"
+  "{0D05611212019493}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_TL.et" "{1B790332ED999822}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_Assault.et" "{1B790332ED999822}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_Assault.et" "{6D58EE2CD7325FAA}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_GL.et" "{4DD320946B1BC227}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_LAT.et" "{0D05611212019493}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_TL.et" "{8C7B70FA935A5ED9}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_Corpsman_Night.et" "{7799EE6A0A117E03}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_Sniper_Night.et" "{93D0305C25B84EC4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_Recon_Night.et"
  }
 }
 SCR_AIGroup : "{78F5629F4C43EC89}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_ScoutTeam_P.et" {
@@ -24,7 +24,7 @@ SCR_AIGroup : "{78F5629F4C43EC89}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC
  coords 11476.711 2.816 10917.716
  angleY -180
  m_aUnitPrefabSlots {
-  "{797221111AFBE05D}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_SL_P.et" "{E049DF978939650F}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_RTO_P.et" "{EED044482866F45B}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Corpsman_P.et"
+  "{797221111AFBE05D}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_SL_P.et" "{E049DF978939650F}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_RTO_P.et" "{EED044482866F45B}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Corpsman_P.et" "{CE55D8114889F059}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_LAT_P.et"
  }
  m_bSnapToTerrain 0
 }
@@ -35,7 +35,7 @@ $grp SCR_AIGroup : "{C1248447D80573B5}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US
     DefaultFormation "Line"
    }
    PS_GroupCallsignAssigner "{60830BA3AA97957D}" {
-    m_iSquadCallsign 1
+    m_iSquadCallsign 3
    }
   }
   coords 11484.997 2.03 10890.815
@@ -61,10 +61,23 @@ $grp SCR_AIGroup : "{C1248447D80573B5}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US
     DefaultFormation "Line"
    }
    PS_GroupCallsignAssigner "{60830BA3BE4659B9}" {
-    m_iSquadCallsign 3
+    m_iSquadCallsign 1
    }
   }
   coords 11495.183 2.385 10917.12
   angleY -105.944
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{60830BA3AA97957D}" {
+    m_iSquadCallsign 4
+   }
+  }
+  coords 11476.079 1.92 10850.833
+  angleY 42.622
+  m_bSnapToTerrain 0
  }
 }
