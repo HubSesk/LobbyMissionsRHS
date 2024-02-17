@@ -1,0 +1,73 @@
+SCR_ChimeraCharacter : "{095979F3159CDCBD}Prefabs/Characters/Factions/INDFOR/PS_CEF/Character_PS_CEF_MG.et" {
+ coords 77.628 1 112.448
+}
+SCR_ChimeraCharacter : "{28B3D232681B7DDE}Prefabs/Characters/Factions/INDFOR/PS_CEF/Character_PS_CEF_Sharpshooter.et" {
+ coords 71.881 1 112.493
+}
+SCR_ChimeraCharacter : "{363317DF27BB7C79}Prefabs/Characters/Factions/INDFOR/PS_CEF/Character_PS_CEF_AMG.et" {
+ coords 88.443 1 112.383
+}
+SCR_ChimeraCharacter : "{36C656F649576A4D}Prefabs/Characters/Factions/INDFOR/PS_CEF/Character_PS_CEF_SL.et" {
+ coords 70.296 1 112.514
+}
+SCR_ChimeraCharacter : "{4BDEBA0E2CC456D4}Prefabs/Characters/Factions/INDFOR/PS_CEF/Character_PS_CEF_SR.et" {
+ coords 68.662 1 112.549
+}
+SCR_ChimeraCharacter : "{56284C1ED1E924D1}Prefabs/Characters/Factions/INDFOR/PS_CEF/Character_PS_CEF_HeliCrew.et" {
+ coords 82.033 1 112.281
+}
+SCR_ChimeraCharacter : "{569BD9C88C64A174}Prefabs/Characters/Factions/INDFOR/PS_CEF/Character_PS_CEF_GL.et" {
+ coords 83.655 1 112.308
+}
+SCR_ChimeraCharacter : "{5B4EA7E97BD3C85E}Prefabs/Characters/Factions/INDFOR/PS_CEF/Character_PS_CEF_AR.et" {
+ coords 86.938 1 112.382
+}
+SCR_ChimeraCharacter : "{60172E5B2B9098FF}Prefabs/Characters/Factions/INDFOR/PS_CEF/Character_PS_CEF_RTO.et" {
+ coords 73.422 1 112.54
+}
+SCR_ChimeraCharacter : "{83E6CE28025AD602}Prefabs/Characters/Factions/INDFOR/PS_CEF/Character_PS_CEF_AT.et" {
+ coords 85.315 1 112.289
+}
+SCR_ChimeraCharacter : "{ACFA4F6047F8B368}Prefabs/Characters/Factions/INDFOR/PS_CEF/Character_PS_CEF_Medic.et" {
+ coords 79.086 1.001 112.393
+}
+SCR_ChimeraCharacter : "{B7AA992C62FA472E}Prefabs/Characters/Factions/INDFOR/PS_CEF/Character_PS_CEF_rifleman.et" {
+ coords 74.751 1 112.432
+}
+SCR_ChimeraCharacter : "{BAAF2C8336854271}Prefabs/Characters/Factions/INDFOR/PS_CEF/Character_PS_CEF_HeliPilot.et" {
+ coords 80.498 1.001 112.372
+}
+SCR_ChimeraCharacter : "{BC8CA004307D76C6}Prefabs/Characters/Factions/INDFOR/PS_CEF/Character_PS_CEF_AAT.et" {
+ coords 89.886 1 112.409
+}
+SCR_ChimeraCharacter : "{BD87709077BBEAEB}Prefabs/Characters/Factions/INDFOR/PS_CEF/Character_PS_CEF_Officer.et" {
+ coords 76.139 1 112.467
+}
+SCR_ChimeraCharacter : "{E005B0767A1A6A7A}Prefabs/Characters/Factions/INDFOR/PS_CEF/Character_PS_CEF_baseLoadout.et" {
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Pants {
+     Prefab "{4695C99179EE497D}Prefabs/Characters/Uniforms/Pants_Green.et"
+    }
+    LoadoutSlotInfo Back {
+     PivotID "scene_root"
+     Name "Backpack"
+     AreaType LoadoutBackpackArea "{5A68E3332875E6B7}" {
+     }
+    }
+    LoadoutSlotInfo Vest {
+    }
+   }
+  }
+ }
+ coords 85.145 1 115.568
+ Flags 1048579
+}
+SCR_ChimeraCharacter : "{E80DD574570DFF78}Prefabs/Characters/Factions/INDFOR/PS_CEF/Character_PS_CEF_base.et" {
+ coords 86.642 1 115.605
+ Flags 1048579
+}
+SCR_ChimeraCharacter : "{F44DA806BB45A6A5}Prefabs/Characters/Factions/INDFOR/PS_CEF/Character_PS_CEF_Unarmed.et" {
+ coords 67.268 1 112.493
+}

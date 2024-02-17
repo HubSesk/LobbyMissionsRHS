@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{BC8CA004307D76C6}Prefabs/Characters/Factions/INDFOR/PS_CEF/Character_PS_CEF_AAT.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

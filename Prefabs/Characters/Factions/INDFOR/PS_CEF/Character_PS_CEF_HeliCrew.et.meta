@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{56284C1ED1E924D1}Prefabs/Characters/Factions/INDFOR/PS_CEF/Character_PS_CEF_HeliCrew.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

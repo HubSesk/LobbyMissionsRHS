@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{78A85B6A4A6A3B56}Worlds/LobbyTest/LobbyTest.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}
