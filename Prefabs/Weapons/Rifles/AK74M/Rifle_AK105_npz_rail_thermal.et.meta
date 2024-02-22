@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{77D9FB783B3354FC}Prefabs/Weapons/Rifles/AK74M/Rifle_AK105_npz_rail_thermal.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

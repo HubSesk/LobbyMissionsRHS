@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{CED159B3C699C7EC}YBNU.et"
+ Name "{594AAB2CB672A89E}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_GL_P.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -10,6 +10,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS4 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

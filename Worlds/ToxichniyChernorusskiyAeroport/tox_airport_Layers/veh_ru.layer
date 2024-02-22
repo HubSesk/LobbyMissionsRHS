@@ -1,22 +1,36 @@
-$grp Vehicle : "{4A465E25A866520E}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MTT-A_Black.et" {
- Mi8MTT_A_Black3 {
-  coords 6566.395 6 2509.715
-  angleY -136.99
+$grp Vehicle : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_camo1.et" {
+ Ural4320_transport_covered_camo1 {
+  coords 8578.226 354.348 6623.378
+  angleX 4.711
+  angleY -56.55
+  angleZ 0.97
  }
- Mi8MTT_A_Black4 {
-  coords 6529.832 6 2476.897
-  angleY -136.99
+ Ural4320_transport_covered_camo2 {
+  coords 8594.048 352.866 6617.386
+  angleX 5.69
+  angleY -56.559
+  angleZ -0.519
  }
- Mi8MTT_A_Black5 {
-  coords 6508.747 6 2447.919
-  angleY -136.99
+ Ural4320_transport_covered_camo3 {
+  coords 8603.611 351.254 6606.61
+  angleX 6.663
+  angleY -56.619
+  angleZ -2.008
  }
- Mi8MTT_A_Black6 {
-  coords 6477.042 6 2415.049
-  angleY -136.99
- }
- Mi8MTT_A_Black7 {
-  coords 6447.513 8 2380.424
-  angleY -136.99
- }
+}
+Vehicle APC_K17_Epoch_camoExpo1 : "{3CFCB80B822033CF}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_camoExpo.et" {
+ coords 8564.505 355.757 6635.89
+ angleX 3.337
+ angleY -50.791
+ angleZ 1.567
+}
+Vehicle Mi8MTT_A_Black5 : "{4A465E25A866520E}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MTT-A_Black.et" {
+ coords 6508.747 6 2447.919
+ angleY -136.99
+}
+RHS_Tank Tank_T14_camo1 : "{9057DDA3E3FAA03B}Prefabs/Vehicles/Tracked/T14/Tank_T14_camo.et" {
+ coords 8620.231 349.323 6595.723
+ angleX 4.464
+ angleY -51.16
+ angleZ 0.153
 }

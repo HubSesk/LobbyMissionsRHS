@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0C9A799E8F66DA2D}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Medic_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

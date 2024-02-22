@@ -1,5 +1,5 @@
 $grp SCR_AIGroup : "{9C7902A055DDA271}Prefabs/Groups/OPFOR/Group_USSR_FireGroup_P.et" {
- RHS_US_USMC_G_012_10 {
+ RHS_US_USMC_G_211_10 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -14,10 +14,10 @@ $grp SCR_AIGroup : "{9C7902A055DDA271}Prefabs/Groups/OPFOR/Group_USSR_FireGroup_
   angleY -59.332
   m_faction "RHS_US_USMC"
   m_aUnitPrefabSlots {
-   "{6CFE2E00DE0B723E}Prefabs/Characters/Factions/BLUFOR/USMC/SL.et" "{9A6BBBFA12B4A9D1}Prefabs/Characters/Factions/BLUFOR/USMC/ASL.et" "{A1FD6EBA9A1B5D4D}Prefabs/Characters/Factions/BLUFOR/USMC/TL1.et" "{A3D5B68A10B93AD6}Prefabs/Characters/Factions/BLUFOR/USMC/GL1.et" "{5361010582C0C4CE}Prefabs/Characters/Factions/BLUFOR/USMC/MG.et" "{69A2B88C24D9D54A}Prefabs/Characters/Factions/BLUFOR/USMC/MEDIC.et" "{CDA95A5A26DFD263}Prefabs/Characters/Factions/BLUFOR/USMC/TL2.et" "{CF81826AAC7DB5F8}Prefabs/Characters/Factions/BLUFOR/USMC/GL2.et" "{D9DEB6DE9506CE71}Prefabs/Characters/Factions/BLUFOR/USMC/AT.et" "{568E38EBA53C2E18}Prefabs/Characters/Factions/BLUFOR/USMC/RADIOMAN.et"
+   "{6CFE2E00DE0B723E}Prefabs/Characters/Factions/BLUFOR/USMC/SL.et" "{A1FD6EBA9A1B5D4D}Prefabs/Characters/Factions/BLUFOR/USMC/TL1.et" "{A3D5B68A10B93AD6}Prefabs/Characters/Factions/BLUFOR/USMC/GL1.et" "{D9DEB6DE9506CE71}Prefabs/Characters/Factions/BLUFOR/USMC/AT.et" "{69A2B88C24D9D54A}Prefabs/Characters/Factions/BLUFOR/USMC/MEDIC.et" "{CDA95A5A26DFD263}Prefabs/Characters/Factions/BLUFOR/USMC/TL2.et" "{D9DEB6DE9506CE71}Prefabs/Characters/Factions/BLUFOR/USMC/AT.et" "{5361010582C0C4CE}Prefabs/Characters/Factions/BLUFOR/USMC/MG.et" "{D9DEB6DE9506CE71}Prefabs/Characters/Factions/BLUFOR/USMC/AT.et" "{568E38EBA53C2E18}Prefabs/Characters/Factions/BLUFOR/USMC/RADIOMAN.et"
   }
  }
- RHS_US_USMC_G_001_10 {
+ RHS_US_USMC_G_200_10 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -31,10 +31,10 @@ $grp SCR_AIGroup : "{9C7902A055DDA271}Prefabs/Groups/OPFOR/Group_USSR_FireGroup_
   angleY -59.332
   m_faction "RHS_US_USMC"
   m_aUnitPrefabSlots {
-   "{6CFE2E00DE0B723E}Prefabs/Characters/Factions/BLUFOR/USMC/SL.et" "{9A6BBBFA12B4A9D1}Prefabs/Characters/Factions/BLUFOR/USMC/ASL.et" "{A1FD6EBA9A1B5D4D}Prefabs/Characters/Factions/BLUFOR/USMC/TL1.et" "{A3D5B68A10B93AD6}Prefabs/Characters/Factions/BLUFOR/USMC/GL1.et" "{5361010582C0C4CE}Prefabs/Characters/Factions/BLUFOR/USMC/MG.et" "{69A2B88C24D9D54A}Prefabs/Characters/Factions/BLUFOR/USMC/MEDIC.et" "{CDA95A5A26DFD263}Prefabs/Characters/Factions/BLUFOR/USMC/TL2.et" "{CF81826AAC7DB5F8}Prefabs/Characters/Factions/BLUFOR/USMC/GL2.et" "{D9DEB6DE9506CE71}Prefabs/Characters/Factions/BLUFOR/USMC/AT.et" "{210F34F2B0B0CBB2}Prefabs/Characters/Factions/BLUFOR/USMC/USMC_Sniper.et"
+   "{6CFE2E00DE0B723E}Prefabs/Characters/Factions/BLUFOR/USMC/SL.et" "{A1FD6EBA9A1B5D4D}Prefabs/Characters/Factions/BLUFOR/USMC/TL1.et" "{D9DEB6DE9506CE71}Prefabs/Characters/Factions/BLUFOR/USMC/AT.et" "{D9DEB6DE9506CE71}Prefabs/Characters/Factions/BLUFOR/USMC/AT.et" "{A3D5B68A10B93AD6}Prefabs/Characters/Factions/BLUFOR/USMC/GL1.et" "{CDA95A5A26DFD263}Prefabs/Characters/Factions/BLUFOR/USMC/TL2.et" "{5361010582C0C4CE}Prefabs/Characters/Factions/BLUFOR/USMC/MG.et" "{69A2B88C24D9D54A}Prefabs/Characters/Factions/BLUFOR/USMC/MEDIC.et" "{D9DEB6DE9506CE71}Prefabs/Characters/Factions/BLUFOR/USMC/AT.et" "{210F34F2B0B0CBB2}Prefabs/Characters/Factions/BLUFOR/USMC/USMC_Sniper.et"
   }
  }
- RHS_US_USMC_G_002_10 {
+ RHS_US_USMC_G_111_10 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -49,10 +49,10 @@ $grp SCR_AIGroup : "{9C7902A055DDA271}Prefabs/Groups/OPFOR/Group_USSR_FireGroup_
   angleY -61.878
   m_faction "RHS_US_USMC"
   m_aUnitPrefabSlots {
-   "{6CFE2E00DE0B723E}Prefabs/Characters/Factions/BLUFOR/USMC/SL.et" "{9A6BBBFA12B4A9D1}Prefabs/Characters/Factions/BLUFOR/USMC/ASL.et" "{A1FD6EBA9A1B5D4D}Prefabs/Characters/Factions/BLUFOR/USMC/TL1.et" "{A3D5B68A10B93AD6}Prefabs/Characters/Factions/BLUFOR/USMC/GL1.et" "{5361010582C0C4CE}Prefabs/Characters/Factions/BLUFOR/USMC/MG.et" "{69A2B88C24D9D54A}Prefabs/Characters/Factions/BLUFOR/USMC/MEDIC.et" "{CDA95A5A26DFD263}Prefabs/Characters/Factions/BLUFOR/USMC/TL2.et" "{CF81826AAC7DB5F8}Prefabs/Characters/Factions/BLUFOR/USMC/GL2.et" "{D9DEB6DE9506CE71}Prefabs/Characters/Factions/BLUFOR/USMC/AT.et" "{210F34F2B0B0CBB2}Prefabs/Characters/Factions/BLUFOR/USMC/USMC_Sniper.et"
+   "{6CFE2E00DE0B723E}Prefabs/Characters/Factions/BLUFOR/USMC/SL.et" "{A1FD6EBA9A1B5D4D}Prefabs/Characters/Factions/BLUFOR/USMC/TL1.et" "{A3D5B68A10B93AD6}Prefabs/Characters/Factions/BLUFOR/USMC/GL1.et" "{D9DEB6DE9506CE71}Prefabs/Characters/Factions/BLUFOR/USMC/AT.et" "{5361010582C0C4CE}Prefabs/Characters/Factions/BLUFOR/USMC/MG.et" "{CDA95A5A26DFD263}Prefabs/Characters/Factions/BLUFOR/USMC/TL2.et" "{CF81826AAC7DB5F8}Prefabs/Characters/Factions/BLUFOR/USMC/GL2.et" "{D9DEB6DE9506CE71}Prefabs/Characters/Factions/BLUFOR/USMC/AT.et" "{D9DEB6DE9506CE71}Prefabs/Characters/Factions/BLUFOR/USMC/AT.et" "{210F34F2B0B0CBB2}Prefabs/Characters/Factions/BLUFOR/USMC/USMC_Sniper.et"
   }
  }
- RHS_US_USMC_G_010_6 {
+ RHS_US_USMC_G_100_7 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -66,7 +66,7 @@ $grp SCR_AIGroup : "{9C7902A055DDA271}Prefabs/Groups/OPFOR/Group_USSR_FireGroup_
   angleY -62.549
   m_faction "RHS_US_USMC"
   m_aUnitPrefabSlots {
-   "{6CFE2E00DE0B723E}Prefabs/Characters/Factions/BLUFOR/USMC/SL.et" "{9A6BBBFA12B4A9D1}Prefabs/Characters/Factions/BLUFOR/USMC/ASL.et" "{A1FD6EBA9A1B5D4D}Prefabs/Characters/Factions/BLUFOR/USMC/TL1.et" "{A3D5B68A10B93AD6}Prefabs/Characters/Factions/BLUFOR/USMC/GL1.et" "{5361010582C0C4CE}Prefabs/Characters/Factions/BLUFOR/USMC/MG.et" "{210F34F2B0B0CBB2}Prefabs/Characters/Factions/BLUFOR/USMC/USMC_Sniper.et" "{69A2B88C24D9D54A}Prefabs/Characters/Factions/BLUFOR/USMC/MEDIC.et"
+   "{6CFE2E00DE0B723E}Prefabs/Characters/Factions/BLUFOR/USMC/SL.et" "{9A6BBBFA12B4A9D1}Prefabs/Characters/Factions/BLUFOR/USMC/ASL.et" "{A1FD6EBA9A1B5D4D}Prefabs/Characters/Factions/BLUFOR/USMC/TL1.et" "{A3D5B68A10B93AD6}Prefabs/Characters/Factions/BLUFOR/USMC/GL1.et" "{5361010582C0C4CE}Prefabs/Characters/Factions/BLUFOR/USMC/MG.et" "{210F34F2B0B0CBB2}Prefabs/Characters/Factions/BLUFOR/USMC/USMC_Sniper.et" "{D9DEB6DE9506CE71}Prefabs/Characters/Factions/BLUFOR/USMC/AT.et"
   }
  }
  "(EagleEye) RHS_US_USMC_G_011_8" {
@@ -84,7 +84,7 @@ $grp SCR_AIGroup : "{9C7902A055DDA271}Prefabs/Groups/OPFOR/Group_USSR_FireGroup_
   angleY 60.87
   m_faction "RHS_US_USMC"
   m_aUnitPrefabSlots {
-   "{919CF01B0F24C0BD}Prefabs/Characters/Factions/BLUFOR/USMC/FACTION_LEADER.et" "{568E38EBA53C2E18}Prefabs/Characters/Factions/BLUFOR/USMC/RADIOMAN.et" "{210F34F2B0B0CBB2}Prefabs/Characters/Factions/BLUFOR/USMC/USMC_Sniper.et" "{69A2B88C24D9D54A}Prefabs/Characters/Factions/BLUFOR/USMC/MEDIC.et" "{17BDAA31CB3B46C4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Rifleman_P.et" "{17BDAA31CB3B46C4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Rifleman_P.et" "{17BDAA31CB3B46C4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Rifleman_P.et" "{17BDAA31CB3B46C4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Rifleman_P.et"
+   "{919CF01B0F24C0BD}Prefabs/Characters/Factions/BLUFOR/USMC/FACTION_LEADER.et" "{568E38EBA53C2E18}Prefabs/Characters/Factions/BLUFOR/USMC/RADIOMAN.et" "{210F34F2B0B0CBB2}Prefabs/Characters/Factions/BLUFOR/USMC/USMC_Sniper.et" "{69A2B88C24D9D54A}Prefabs/Characters/Factions/BLUFOR/USMC/MEDIC.et" "{D9DEB6DE9506CE71}Prefabs/Characters/Factions/BLUFOR/USMC/AT.et" "{17BDAA31CB3B46C4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Rifleman_P.et" "{17BDAA31CB3B46C4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Rifleman_P.et" "{17BDAA31CB3B46C4}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Rifleman_P.et"
   }
   m_sCustomNameSet "EagleEye"
  }
