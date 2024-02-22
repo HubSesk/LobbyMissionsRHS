@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{D7A5F1369F68B235}nvg.et"
+ Name "{C862237C3BEAE394}Prefabs/Weapons/Rifles/AK74M/Rifle_AK105_Ses.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -10,6 +10,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS4 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

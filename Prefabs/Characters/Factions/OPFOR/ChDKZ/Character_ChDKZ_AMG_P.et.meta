@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{409E2C309FE4DAE3}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_AMG_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,14 @@
+GenericEntity : "{42F8DC54A45367C9}Prefabs/Weapons/Rifles/AK74M/Rifle_AK105.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{60973E8AEE59D2FE}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Prefab "{FE2896D202FE7449}Prefabs/Weapons/Attachments/Optics/1p63/Optic_1P63.et"
+     }
+    }
+   }
+  }
+ }
+}
