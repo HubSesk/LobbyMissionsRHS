@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{0700E89E59A44B6B}Worlds/PivnoyBochok/PivnoyBochok.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

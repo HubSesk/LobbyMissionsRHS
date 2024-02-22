@@ -1,0 +1,201 @@
+GenericEntity {
+ ID "60A6F40A1F0D96A0"
+ components {
+  SignalsManagerComponent "{60A6F40A1F0D96AE}" {
+  }
+  SoundComponent "{60A6F40A1F0D96B4}" {
+   Filenames {
+    "{CEB036D3FA90F3C3}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_ATMine_Generic.acp" "{A7B672B164032EE4}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_ATMine_Generic.acp" "{49BA74662F0ACA8C}Sounds/Weapons/Explosives/Mine_TM62M/Weapons_Explosives_TM62M_Handling.acp" "{764506B0AF57183F}Sounds/Weapons/Explosives/_SharedData/Weapons_Explosives_ATMine_Generic_Placement.acp"
+   }
+  }
+  BaseTriggerComponent "{60A6F40A1F0D96B1}" {
+   Enabled 0
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{60A6F40A1F0D96BC}" {
+     EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+   }
+  }
+  MeshObject "{60A6F40A1F0D96B8}" {
+   Object "{7CEF73DF59AFA129}Assets/Props/Commercial/BeerKegMetal_01/BeerKegMetal_01_big.xob"
+   Materials {
+    MaterialAssignClass "{60A6F40A1F0D96BA}" {
+     SourceMaterial "Sandbags_01_End"
+     AssignedMaterial "{2392C281DF136B3B}Assets/Props/Military/Sandbags/Data/Sandbags_01_end_Burlap.emat"
+    }
+   }
+   PixelSizeScale 3
+  }
+  PS_BulbaComponent "{60A6F40A1F0D9687}" {
+  }
+  RigidBody "{60A6F40A1F0D9686}" {
+   Mass 15
+   LinearSleepingThreashold 0.5
+   AngularSleepingThreashold 0.5
+   ResponseIndex "TinyDestructible"
+   ModelGeometry 1
+   Static 0
+  }
+  SCR_MineDamageManager "{60A6F40A1F0D9683}" {
+   Enabled 0
+   "Additional hit zones" {
+    SCR_MineHitZone Main {
+     ColliderNames {
+      "UCL_TM_62M"
+     }
+     HZDefault 1
+     IgnoreExplosions 1
+     MaxHealth 50000
+     DamageReduction 50
+     "Explosive multiplier" 0.001
+    }
+   }
+   EnableDamage 0
+  }
+  SCR_MineInventoryItemComponent "{60A6F40A1F0D968B}" {
+   Attributes SCR_ItemAttributeCollection "{60A6F40A1F0D9694}" {
+    ItemDisplayName WeaponUIInfo "{60A6F40A1F0D9696}" {
+     Name "Бочонок пива"
+     Description "20 литров сочного"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{60A6F40A1F0D9690}" {
+     Weight 21.2
+     SizeSetupStrategy Manual
+     ItemDimensions 20 20 20
+     ItemVolume 4000
+     DimensionScaler 1
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{60A6F40A1F0D969D}" {
+     IkSettings {
+      ItemIKSettings "{60A6F40A1F0D969E}" {
+       InAds 0
+       OutAds 0
+       MovementSpeedRange 0 1
+       IkSettingsStand 6
+       IkSettingsCrouch 6
+       IkSettingsProne 6
+      }
+      ItemIKSettings "{59E4E696CE54F34A}" {
+      }
+     }
+     AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+     AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{60A6F40A1F0D969B}" {
+      CameraPreset Front
+      CameraOrbitAngles -40 0 20
+      CameraDistanceToItem 0.8
+      CameraOffset 0 0 0
+      FOV 60
+      AspectRatio 1
+      AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      LodModel 0
+     }
+     CharacterModifierAttributes "{60A6F40A1F0D9661}" {
+      StanceLimits 0.05 1
+      SpeedLimit 1.2
+      ADSSpeedLimit 1
+      SpeedLimitItemPrimaryAction 1
+      SpeedLimitHighready 1
+      TurnLimit 90
+      AllowGadgetUse 0
+      AllowJumping 0
+     }
+     HolsteredItemAttributes "{60A6F40A1F0D9662}" {
+      HiddenHolstered 1
+     }
+    }
+    CommonItemType "NONE"
+    m_Size SLOT_3x3
+    m_bStackable 0
+   }
+  }
+  SCR_PlaceableItemComponent "{60A6F40A1F0D966D}" {
+   Enabled 0
+   m_fMaxPlacementDistance 2
+   m_ePlacementType XYZ
+  }
+  SCR_PressureTriggerComponent "{60A6F40A1F0D966C}" {
+   Enabled 0
+   m_sFuzeMeshName "Mine_Fuse_TM_62M"
+   m_fMinWeight 150
+  }
+  SCR_MineWeaponComponent "{60A6F40A1F0D966E}" {
+   AllowedRaise "Only lowered"
+   UIInfo GrenadeUIInfo "{60A6F40A1F0D9668}" {
+    Name "Бочонок пива"
+    Description "20 литров сочного пива"
+    m_bShowWeaponName 0
+    m_MagIndicator SCR_MagazineIndicatorConfiguration "{60A6F40A1F0D9674}" {
+     m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+     m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+     m_sOutline "building"
+     m_bProgressBar 0
+    }
+    m_sAmmoType "Potato"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags 0
+   }
+   WeaponSlotType "primary"
+   BeActiveWhenDropped 1
+   BeActiveWhenInitWithoutParent 1
+  }
+  ActionsManagerComponent "{60A6F40A1F0D9676}" {
+   ActionContexts {
+    UserActionContext "{60A6F40A1F0D9670}" {
+     ContextName "default"
+     Position PointInfo "{60A6F40A1F0D9672}" {
+     }
+    }
+   }
+   additionalActions {
+    SCR_BulbaAction "{60A6F40A1F0D967F}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{60A6F40A1F0DDC45}" {
+      Name "#AR-Inventory_Pickup"
+     }
+     "Sort Priority" 1
+    }
+   }
+  }
+  SCR_MineAnimationComponent "{60A6F40A1F0DDC42}" {
+   AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+   AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+   AlwaysActive 1
+   AnimInjection AnimationAttachmentInfo "{60A6F40A1F0DDC7F}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+    BindingName "Heavy"
+   }
+   BindWithInjection 1
+   AutoVariablesBind 1
+   MeshVisibilityConfigurations {
+    MeshesVisibilitySwitchConfig "{60A6F40A1F0DDC7D}" {
+     Event "ShowFuze"
+     Meshes {
+      "Mine_Fuse_TM_62M" "TM_62M_pin"
+     }
+     HideMesh 0
+    }
+    MeshesVisibilitySwitchConfig "{60A6F40A1F0DDC7C}" {
+     Event "HidePin"
+     Meshes {
+      "TM_62M_pin"
+     }
+    }
+   }
+  }
+  RplComponent "{60A6F40A1F0DDC7B}" {
+   "Rpl State Override" Runtime
+  }
+  Hierarchy "{60A6F40A1F0DDC79}" {
+  }
+ }
+ coords 129.242 1 106.205
+}

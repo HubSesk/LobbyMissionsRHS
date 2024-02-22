@@ -1,0 +1,44 @@
+$grp GenericEntity : "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" {
+ {
+  coords 4741.974 340.806 10714.421
+  angleY -23.366
+  angleZ 90
+ }
+ {
+  coords 4741.916 340.805 10714.355
+  angleY -151.764
+  angleZ 90
+ }
+ {
+  coords 4742.049 340.806 10714.377
+  angleY -58.446
+  angleZ 90
+ }
+ {
+  coords 4742 340.806 10714.278
+  angleY 9.864
+  angleZ 90
+ }
+ {
+  coords 4742.088 340.806 10714.292
+  angleY 132.641
+  angleZ 90
+ }
+}
+GenericEntity : "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et" {
+ coords 4741.802 340.808 10714.484
+ angleZ 90
+}
+$grp SCR_AIGroup : "{F23C0D0FEF7E744A}Prefabs/Groups/BLUFOR/Ses_CDF/Group_CDF_RifleSquad_1_P.et" {
+ {
+  coords 4717.883 339.062 10723.177
+ }
+ {
+  coords 4740.779 339.991 10713.308
+  angleY 49.521
+  m_aUnitPrefabSlots {
+   "{5D2361926F964D99}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Unarmed_P.et"
+  }
+  m_bSnapToTerrain 0
+ }
+}
