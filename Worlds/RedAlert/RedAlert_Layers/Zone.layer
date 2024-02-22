@@ -144,3 +144,27 @@ PolylineShapeEntity {
   }
  }
 }
+GenericEntity : "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" {
+ coords 4566.822 319.615 8348.755
+ angleY -88.783
+ angleZ 90
+}
+$grp GameEntity : "{A7E6D7ECD5F684D7}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01.et" {
+ {
+  coords 4517.689 322.017 8274.225
+  angleY -38
+  angleZ -6.903
+ }
+ {
+  coords 4519.373 322.428 8273.839
+ }
+}
+GenericEntity : "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et" {
+ coords 4566.931 319.613 8348.648
+ angleY 116.714
+ angleZ -90
+}
+GameEntity : "{D4028ED16DEE99EE}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_camonet.et" {
+ coords 4517.771 323.398 8274.365
+ angleY -139.228
+}

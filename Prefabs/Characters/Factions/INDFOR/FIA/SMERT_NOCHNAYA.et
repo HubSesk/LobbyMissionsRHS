@@ -18,12 +18,18 @@ SCR_ChimeraCharacter : "{467FE8A4AAADE8AA}Prefabs/Characters/Factions/INDFOR/FIA
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_name "Ваня Ебака"
   }
+  PS_SpectatorLabelCharacter "{5F357473BDE91270}" {
+   Enabled 0
+  }
   SCR_CharacterDamageManagerComponent "{55872AD7B4E959F2}" {
    m_fRegenScale 5
    m_bPermitUnconsciousness 0
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{6883E434BD3306B8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_NT4_Peq_Aimpoint.et"
+   HolsteredHidden 1
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    HolsteredHidden 1
   }
   SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {

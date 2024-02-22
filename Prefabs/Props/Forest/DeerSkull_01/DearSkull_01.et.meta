@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{918C829F0C4E4600}Prefabs/Props/Forest/DeerSkull_01/DearSkull_01.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -49,6 +49,13 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 TagManager : "{2FA9E172CAB1857A}Prefabs/MP/Managers/TagManager.et" {
 }
 PS_GameModeCoop PS_GameMode_Lobb_RFSleep1 : "{D32856305B7E09E8}Prefabs/PS_GameMode_Lobb_RFSleep.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 23
+   m_iStartingMinutes 30
+   m_bRandomWeatherChanges 0
+  }
+ }
  coords 12.83 0 12.861
  m_iFreezeTime 300000
 }
