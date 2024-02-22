@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{73836733325F0F86}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_groinProtection_sso.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

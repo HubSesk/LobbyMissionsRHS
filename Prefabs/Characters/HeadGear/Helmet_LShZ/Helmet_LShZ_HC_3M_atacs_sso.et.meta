@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{6D901CB0F17187A5}Prefabs/Characters/HeadGear/Helmet_LShZ/Helmet_LShZ_HC_3M_atacs_sso.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

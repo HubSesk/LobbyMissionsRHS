@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{D1A192E6DCC86970}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/SOF/sof2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

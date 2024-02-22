@@ -2,23 +2,21 @@ Vehicle M997_maxi_ambulance1 : "{00C9BBE426F7D459}Prefabs/Vehicles/Wheeled/M998/
  coords 1647.607 451.906 14244.204
  angleY 30.624
 }
-Vehicle M1025_armed_M2HB3 : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
- coords 1653.125 451.906 14254.459
- angleY 30.463
+$grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
+ M1025_armed_M2HB3 {
+  coords 1653.125 451.906 14254.459
+  angleY 30.463
+ }
+ M1025_armed_M2HB1 {
+  coords 1631.285 451.907 14213.851
+  angleY 23.89
+ }
 }
 Vehicle M1 : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
  coords 1624.441 451.906 14202.208
  angleY 26.017
 }
-Vehicle M998_MERDC1 : "{6B24D5AFD884D64C}Prefabs/Vehicles/Wheeled/M998/M998_MERDC.et" {
- coords 1635.126 451.906 14222.42
- angleY 27.854
-}
 $grp Vehicle : "{751AFEEA19DDFB04}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_MERDC.et" {
- M998_covered_long_MERDC1 {
-  coords 1630.056 451.906 14213.51
-  angleY 28.237
- }
  M998_covered_long_MERDC2 {
   coords 1614.603 451.906 14182.236
   angleY 28.237
@@ -44,5 +42,9 @@ $grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
  M1025_armed_M2HB_MERDC3 {
   coords 1600.217 451.921 14153.644
   angleY 26.059
+ }
+ M1025_armed_M2HB_MERDC4 {
+  coords 1637.385 451.906 14224.356
+  angleY 27.771
  }
 }
