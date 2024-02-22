@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C4F4CCC5F738F915}Prefabs/Yarmarka/Yarmarka_AK74_36.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

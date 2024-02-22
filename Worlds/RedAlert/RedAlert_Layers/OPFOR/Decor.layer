@@ -1,0 +1,5023 @@
+$grp GenericEntity : "{1072E2CF251EC55E}Prefabs/Bulba.et" {
+ {
+  coords 4529.077 317.937 8315.83
+  angleX 4.78
+  angleY -6.151
+  angleZ -53.576
+ }
+ {
+  coords 4529.69 317.723 8314.938
+  angleY -158.302
+ }
+ {
+  coords 4529.738 318.693 8315.965
+  angleY -16.816
+ }
+ {
+  coords 4529.277 317.723 8316.725
+  angleY 179.92
+ }
+ {
+  coords 4529.047 317.879 8316.302
+  angleZ -37.265
+ }
+ {
+  coords 4530.672 317.926 8317.289
+  angleZ -61.632
+ }
+}
+SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Object "{1ACE204D6AC5C32C}Assets/Structures/Military/Houses/GuardHouse_03/GuardHouse_03.xob"
+   Materials {
+    MaterialAssignClass "{58A0E256125610B3}" {
+     SourceMaterial "Ext_MLOD"
+     AssignedMaterial "{99B7069D6AAEF4F4}Assets/Structures/Military/Houses/GuardHouse_03/Data/GuardHouse_03_Ext_Beige_MLOD.emat"
+    }
+    MaterialAssignClass "{58A0E256125610A4}" {
+     SourceMaterial "Ext_Walls"
+     AssignedMaterial "{95C70E1E5EB0BA41}Assets/Structures/Military/Houses/GuardHouse_03/Data/GuardHouse_03_Ext_Walls_Beige.emat"
+    }
+    MaterialAssignClass "{58A0E256125610D0}" {
+     SourceMaterial "Ext_Wood"
+     AssignedMaterial "{C1ADAEB11A29E9DA}Assets/Structures/Military/Houses/GuardHouse_03/Data/GuardHouse_03_Ext_Wood_Beige.emat"
+    }
+   }
+   ClutterOccluderClipPlane 1
+  }
+  RigidBody "{506EDA9CBE1B57FF}" {
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_AISmartActionSentinelComponent "{58B2977B8256321C}" {
+   AIBehaviorTree "{BC53D77D23308CD6}AI/BehaviorTrees/SmartActions/SA_ObservationPost.bt"
+   Tags {
+    "ObservationPost"
+   }
+   ActionOffset 6.716 1 4.066
+   m_vLookPosition 6.716 1.5 11.679
+   m_fLookDirectionRange 45
+  }
+  SCR_AISmartActionSentinelComponent "{58B2977B865DE545}" {
+   AIBehaviorTree "{BC53D77D23308CD6}AI/BehaviorTrees/SmartActions/SA_ObservationPost.bt"
+   Tags {
+    "ObservationPost"
+   }
+   ActionOffset 12.372 0.281 4.407
+   m_vLookPosition 12.372 1.5 13.986
+   m_fLookDirectionRange 90
+  }
+  SCR_AISmartActionSentinelComponent "{58B2977B8E39E6CC}" {
+   AIBehaviorTree "{BC53D77D23308CD6}AI/BehaviorTrees/SmartActions/SA_ObservationPost.bt"
+   Tags {
+    "ObservationPost"
+   }
+   ActionOffset -8.416 0.335 4.113
+   m_vLookPosition -15.166 1.5 3.087
+   m_fLookDirectionRange 90
+  }
+ }
+ coords 4557.727 0 8354.488
+ angleY -175.326
+ SlotBoneMappings {
+  SlotBoneMappingObject "{589EF6C6050ABBA4}" {
+   BonePrefix "socket_door_ext_01"
+   Prefab "{79F622DEBB73D581}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_EXT_COV_B_brown.et"
+  }
+  SlotBoneMappingObject "{589EF6C60A789B0A}" {
+   BonePrefix "socket_door_ext_02"
+   Prefab "{CC6B92AEE60F0AAC}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_EXT_COV_B_brown.et"
+  }
+  SlotBoneMappingObject "{589EF6C6091D2D21}" {
+   BonePrefix "socket_door_ext_03"
+   Prefab "{CC6B92AEE60F0AAC}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_EXT_COV_B_brown.et"
+  }
+  SlotBoneMappingObject "{589EF6C608892074}" {
+   BonePrefix "socket_door_ext_04"
+   Prefab "{B088F5F8EA2ADEF6}Prefabs/Structures/BuildingParts/Doors/Doorset_GuardHouse_03_A_EXT_B.et"
+  }
+  SlotBoneMappingObject "{589EF6C60831407A}" {
+   BonePrefix "socket_door_int_01"
+   Prefab "{66A908B66DC3277A}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_INT_COV_B.et"
+  }
+  SlotBoneMappingObject "{58A28CDF8996E797}" {
+   BonePrefix "socket_door_int_02"
+   Prefab "{3001595FE0D14B45}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_INT_COV_B.et"
+  }
+  SlotBoneMappingObject "{58A28CDFFB1924B0}" {
+   BonePrefix "socket_door_int_03"
+   Prefab "{66A908B66DC3277A}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_INT_COV_B.et"
+  }
+  SlotBoneMappingObject "{58A28CDFFBC52C8C}" {
+   BonePrefix "socket_door_int_04"
+   Prefab "{3001595FE0D14B45}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_INT_COV_B.et"
+  }
+  SlotBoneMappingObject "{58A28CDFFA658A14}" {
+   BonePrefix "socket_door_int_05"
+   Prefab "{1623DE74CC2B83E5}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_INT_ST_B.et"
+  }
+  SlotBoneMappingObject "{58A28CDF882CF40F}" {
+   BonePrefix "socket_door_int_06"
+   Prefab "{66A908B66DC3277A}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_INT_COV_B.et"
+  }
+  SlotBoneMappingObject "{58A28CDF886BE43C}" {
+   BonePrefix "socket_door_int_07"
+   Prefab "{3001595FE0D14B45}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_INT_COV_B.et"
+  }
+  SlotBoneMappingObject "{58A28CDF88AFB20D}" {
+   BonePrefix "socket_door_int_08"
+   Prefab "{3001595FE0D14B45}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_INT_COV_B.et"
+  }
+  SlotBoneMappingObject "{58A28CDF88F5691C}" {
+   BonePrefix "socket_door_int_09"
+   Prefab "{66A908B66DC3277A}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_INT_COV_B.et"
+  }
+  SlotBoneMappingObject "{58A28CDF8B0B7E38}" {
+   BonePrefix "socket_door_int_10"
+   Prefab "{66A908B66DC3277A}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_INT_COV_B.et"
+  }
+  SlotBoneMappingObject "{58A28CDF8BE155E8}" {
+   BonePrefix "socket_door_int_11"
+   Prefab "{66A908B66DC3277A}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_INT_COV_B.et"
+  }
+  SlotBoneMappingObject "{589EF6C60FB4C922}" {
+   BonePrefix "socket_entry_01"
+   Prefab "{AC8037B92BF3ABE9}Prefabs/Structures/BuildingParts/Entry/ConcreteSlope_02_SmallVehicle.et"
+  }
+  SlotBoneMappingObject "{589EF6C60F0C8AA9}" {
+   BonePrefix "socket_entry_02"
+   Prefab "{731BDEAEE0303E54}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_04_SideWays.et"
+  }
+  SlotBoneMappingObject "{589EF6C60EB02B4C}" {
+   BonePrefix "socket_entry_03"
+   Prefab "{D7462F99BC0CDAE8}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_04.et"
+  }
+  SlotBoneMappingObject "{589EF6C60E096707}" {
+   BonePrefix "socket_entry_04"
+   Prefab "{D7462F99BC0CDAE8}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_04.et"
+  }
+  SlotBoneMappingObject "{589EF6C60D8DE111}" {
+   BonePrefix "socket_utilityboxes_01"
+   Prefab "{642B9684E3A20295}Prefabs/Structures/BuildingParts/UtilityBoxes/UtilityBoxExt_01_L.et"
+  }
+  SlotBoneMappingObject "{589EF6C5C3243556}" {
+   BonePrefix "socket_utilityboxes_02"
+   Prefab "{81B7DA7DEF4795FE}Prefabs/Structures/BuildingParts/UtilityBoxes/UtilityBoxExt_01_M.et"
+  }
+  SlotBoneMappingObject "{589EF6C5C2E86F02}" {
+   BonePrefix "socket_utilityboxes_03"
+   Prefab "{81B7DA7DEF4795FE}Prefabs/Structures/BuildingParts/UtilityBoxes/UtilityBoxExt_01_M.et"
+  }
+  SlotBoneMappingObject "{589EF6C5C1C99BC2}" {
+   BonePrefix "socket_utilityboxes_04"
+   Prefab "{FCAF36858AD4A967}Prefabs/Structures/BuildingParts/UtilityBoxes/UtilityBoxExt_01_S.et"
+  }
+  SlotBoneMappingObject "{589EF6C5C0D80819}" {
+   BonePrefix "socket_win_175x100"
+   Prefab "{3C102361767BA9CB}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock_01/Win_GlassBlock_01_175x100.et"
+  }
+  SlotBoneMappingObject "{589EF6C5C0764B2F}" {
+   BonePrefix "socket_win_275x100"
+   Prefab "{7CE00244C0672B8C}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock_01/Win_GlassBlock_01_275x100.et"
+  }
+  SlotBoneMappingObject "{589EF6C5C7E615F4}" {
+   BonePrefix "socket_win_70x72"
+  }
+  SlotBoneMappingObject "{563C908D9DB97512}" {
+   BonePrefix "socket_win_130x182"
+   Prefab "{02B8D6E6B655FA8D}Prefabs/Structures/BuildingParts/Windows/Win_village_e_a_130x182_2_B.et"
+  }
+  SlotBoneMappingObject "{589EF6C2AA6C6E15}" {
+   BonePrefix "socket_win_130x182"
+   Prefab "{208A9B6682B63E4F}Prefabs/Structures/BuildingParts/Windows/Win_Bars_A/Win_Bars_A_130x182_B.et"
+  }
+  SlotBoneMappingObject "{563C908977A2D135}" {
+   BonePrefix "socket_win_70x72"
+   Prefab "{1457552CD9B5346A}Prefabs/Structures/BuildingParts/Windows/Win_village_e_a_70x72_1_B.et"
+  }
+  SlotBoneMappingObject "{589EF6C242F6E9F8}" {
+   BonePrefix "socket_win_70x72"
+   Prefab "{6F41A804946CD405}Prefabs/Structures/BuildingParts/Windows/Win_Bars_A/Win_Bars_A_70x72.et"
+  }
+ }
+ {
+  $grp Building : "{02B8D6E6B655FA8D}Prefabs/Structures/BuildingParts/Windows/Win_village_e_a_130x182_2_B.et" {
+   {
+    components {
+     Hierarchy "{589EF6C38B8D7B9D}" {
+      Enabled 1
+      PivotID "socket_win_130x182_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{589EF6C38B8CDD6D}" {
+      Enabled 1
+      PivotID "socket_win_130x182_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{589EF6C38B8EA734}" {
+      Enabled 1
+      PivotID "socket_win_130x182_07"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{589EF6C38B8E6CBD}" {
+      Enabled 1
+      PivotID "socket_win_130x182_05"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{589EF6C38B8E0C37}" {
+      Enabled 1
+      PivotID "socket_win_130x182_06"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{589EF6C38B8DCA0B}" {
+      Enabled 1
+      PivotID "socket_win_130x182_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{589EF6C38B8D100B}" {
+      Enabled 1
+      PivotID "socket_win_130x182_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{589EF6C38B8FE3B5}" {
+      Enabled 1
+      PivotID "socket_win_130x182_09"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{589EF6C38B8F400D}" {
+      Enabled 1
+      PivotID "socket_win_130x182_08"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{589EF6C38BB0CA34}" {
+      Enabled 1
+      PivotID "socket_win_130x182_12"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{589EF6C38BB03F52}" {
+      Enabled 1
+      PivotID "socket_win_130x182_11"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{589EF6C38B8F81F5}" {
+      Enabled 1
+      PivotID "socket_win_130x182_10"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{0EE6FE5B2A3ED3F9}Prefabs/Structures/BuildingParts/Doors/DoorSet_Barracks_01_EXT_white.et" {
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     PivotID "socket_door_int_11"
+    }
+   }
+  }
+  $grp Building : "{1457552CD9B5346A}Prefabs/Structures/BuildingParts/Windows/Win_village_e_a_70x72_1_B.et" {
+   {
+    components {
+     Hierarchy "{589EF6C38BB210AC}" {
+      Enabled 1
+      PivotID "socket_win_70x72_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{589EF6C38BB25046}" {
+      Enabled 1
+      PivotID "socket_win_70x72_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{589EF6C38BB35A7A}" {
+      Enabled 1
+      PivotID "socket_win_70x72_05"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{589EF6C38BB31C44}" {
+      Enabled 1
+      PivotID "socket_win_70x72_06"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{589EF6C38BB2D366}" {
+      Enabled 1
+      PivotID "socket_win_70x72_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{589EF6C38BB29457}" {
+      Enabled 1
+      PivotID "socket_win_70x72_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{1623DE74CC2B83E5}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_INT_ST_B.et" {
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     PivotID "socket_door_int_05"
+    }
+   }
+  }
+  $grp GenericEntity : "{208A9B6682B63E4F}Prefabs/Structures/BuildingParts/Windows/Win_Bars_A/Win_Bars_A_130x182_B.et" {
+   {
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_win_130x182_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_win_130x182_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_win_130x182_07"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_win_130x182_08"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_win_130x182_06"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_win_130x182_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_win_130x182_05"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_win_130x182_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_win_130x182_12"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_win_130x182_11"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_win_130x182_09"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_win_130x182_10"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{28411B0C79460DF8}Prefabs/Structures/Core/BuildingFurniture_base.et" {
+   coords 0 0 0
+   {
+    $grp GenericEntity {
+     {
+      components {
+       MeshObject "{60A33EEB78BA7EC8}" {
+        Object "{EA947899E77399ED}Assets/Props/Furniture/Bed_01/Bed_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BA7E89}" {
+        Mass 30
+        ResponseIndex "LargeDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BA7FFD}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 1000
+        m_fForceToDamageScale 350
+        m_DestroySpawnObjects {
+         SCR_DebrisSpawnable "{60A33EEB78BA7F2E}" {
+          m_ModelPrefabs {
+           "{05497BD22331522F}Assets/Props/Furniture/Bed_01/dst/Bed_01_dst_04.xob" "{7243135AD793BD5F}Assets/Props/Furniture/Bed_01/dst/Bed_01_dst_05.xob" "{EB5DAAC3CA748CCF}Assets/Props/Furniture/Bed_01/dst/Bed_01_dst_06.xob" "{9C57C24B3ED663BF}Assets/Props/Furniture/Bed_01/dst/Bed_01_dst_07.xob"
+          }
+          m_eMaterialSoundType WOOD_PLANK_LARGE
+         }
+         SCR_DebrisSpawnable "{60A33EEB78BA7F3F}" {
+          m_ModelPrefabs {
+           "{F4FD2540F19AAF8C}Assets/Props/Furniture/Bed_01/dst/Bed_01_dst_01.xob" "{6DE39CD9EC7D9E1C}Assets/Props/Furniture/Bed_01/dst/Bed_01_dst_02.xob" "{1AE9F45118DF716C}Assets/Props/Furniture/Bed_01/dst/Bed_01_dst_03.xob"
+          }
+          m_fMass 5
+          m_eMaterialSoundType MATRESS
+         }
+        }
+        m_eMaterialSoundType BREAK_WOOD_SOLID
+       }
+       RplComponent "{60A33EEB78BA7FD0}" {
+        Enabled 0
+       }
+      }
+      coords -7.824 0.609 1.084
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BA7B57}" {
+        Object "{7CBA5CDD26BC594C}Assets/Props/Civilian/CoatHook_01/CoatHook_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BA7B3A}" {
+        Mass 10
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BA7BC6}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 400
+        m_fForceToDamageScale 350
+        m_eMaterialSoundType BREAK_WOOD_SOLID
+       }
+       RplComponent "{60A33EEB78BA7BD5}" {
+        Enabled 0
+       }
+      }
+      coords -7.717 2.398 -2.95
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BA7960}" {
+        Object "{F430076EAD1B0A1B}Assets/Props/Furniture/ShelfBarracks_01/ShelfBarracks_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BA7949}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BA791C}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 1000
+        m_fForceToDamageScale 350
+        m_DestroySpawnObjects {
+         SCR_DebrisSpawnable "{60A33EEB78BA7936}" {
+          m_ModelPrefabs {
+           "{7E0EA5A4FEFA0E6C}Assets/Props/Furniture/ShelfBarracks_01/Dst/ShelfBarracks_01_dst_01.xob" "{E7101C3DE31D3FFC}Assets/Props/Furniture/ShelfBarracks_01/Dst/ShelfBarracks_01_dst_02.xob" "{901A74B517BFD08C}Assets/Props/Furniture/ShelfBarracks_01/Dst/ShelfBarracks_01_dst_03.xob"
+          }
+          m_fMass 5
+          m_fDamageToImpulse 3
+          m_fRandomVelocityLinear 3
+          m_eMaterialSoundType WOOD_PLANK_SMALL
+         }
+        }
+        m_eMaterialSoundType BREAK_WOOD_SOLID
+       }
+       RplComponent "{60A33EEB78BA79ED}" {
+        Enabled 0
+       }
+      }
+      coords -7.556 2.222 -3.29
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BA76EA}" {
+        Object "{F430076EAD1B0A1B}Assets/Props/Furniture/ShelfBarracks_01/ShelfBarracks_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BA76D7}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BA768A}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 1000
+        m_fForceToDamageScale 350
+        m_DestroySpawnObjects {
+         SCR_DebrisSpawnable "{60A33EEB78BA76A1}" {
+          m_ModelPrefabs {
+           "{7E0EA5A4FEFA0E6C}Assets/Props/Furniture/ShelfBarracks_01/Dst/ShelfBarracks_01_dst_01.xob" "{E7101C3DE31D3FFC}Assets/Props/Furniture/ShelfBarracks_01/Dst/ShelfBarracks_01_dst_02.xob" "{901A74B517BFD08C}Assets/Props/Furniture/ShelfBarracks_01/Dst/ShelfBarracks_01_dst_03.xob"
+          }
+          m_fMass 5
+          m_fDamageToImpulse 3
+          m_fRandomVelocityLinear 3
+          m_eMaterialSoundType WOOD_PLANK_SMALL
+         }
+        }
+        m_eMaterialSoundType BREAK_WOOD_SOLID
+       }
+       RplComponent "{60A33EEB78BA769A}" {
+        Enabled 0
+       }
+      }
+      coords -6.341 2.222 -3.291
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BA7479}" {
+        Object "{138FB8A2D71B1603}Assets/Props/Furniture/CabinetMetal_01/CabinetMetal_01.xob"
+        Materials {
+         MaterialAssignClass "{60A33EEB78BA77A0}" {
+          SourceMaterial "CabinetMetal_01"
+          AssignedMaterial "{FA92F6BC4D904904}Assets/Props/Furniture/CabinetMetal_01/Data/CabinetMetal_01_V3.emat"
+         }
+        }
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BA7437}" {
+        ResponseIndex "HugeDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BA74E2}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 5000
+        m_fForceToDamageScale 350
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BA74F4}" {
+        Enabled 0
+       }
+      }
+      coords -3.844 0.609 -3.427
+      angleY 180
+      Flags 2098179
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BA75A0}" {
+        Object "{00417CEBAFDB12F3}Assets/Props/Industrial/GasTank_01/GasTank_01.xob"
+        Materials {
+         MaterialAssignClass "{60A33EEB78BA751D}" {
+          SourceMaterial "GasTank_01"
+          AssignedMaterial "{5DF625A8655F4848}Assets/Props/Industrial/GasTank_01/Data/GasTank_01.emat"
+         }
+        }
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BA759E}" {
+        ResponseIndex "MediumDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BA722A}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 300
+        m_fForceToDamageScale 350
+        m_DestroySpawnObjects {
+         SCR_ParticleSpawnable "{60A33EEB78BA7273}" {
+          m_Particle "{5592BC9B67C60D16}Particles/Weapon/Explosion_RGD5.ptc"
+         }
+         SCR_DebrisSpawnable "{60A33EEB78BA7246}" {
+          m_ModelPrefabs {
+           "{5EA3FE36F5EE0E7D}Assets/Props/Industrial/GasTank_01/Dst/GasTank_01_Dst_02.xob" "{29A996BE014CE10D}Assets/Props/Industrial/GasTank_01/Dst/GasTank_01_Dst_03.xob" "{C7BD47AFE8093FED}Assets/Props/Industrial/GasTank_01/Dst/GasTank_01_Dst_01.xob"
+          }
+          m_fMass 5
+          m_fRandomVelocityLinear 3
+          m_eMaterialSoundType METAL_LIGHT
+         }
+        }
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BA723B}" {
+        Enabled 0
+       }
+      }
+      coords 9.684 0.609 -8.421
+      angleY -152
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BA73E2}" {
+        Object "{138FB8A2D71B1603}Assets/Props/Furniture/CabinetMetal_01/CabinetMetal_01.xob"
+        Materials {
+         MaterialAssignClass "{60A33EEB78BA7323}" {
+          SourceMaterial "CabinetMetal_01"
+          AssignedMaterial "{50729867FFC0AF7F}Assets/Props/Furniture/CabinetMetal_01/Data/CabinetMetal_01_V1.emat"
+         }
+        }
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BA73C8}" {
+        ResponseIndex "HugeDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BA7393}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 5000
+        m_fForceToDamageScale 350
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BA7065}" {
+        Enabled 0
+       }
+      }
+      coords -5.36 0.609 -3.451
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BA717B}" {
+        Object "{138FB8A2D71B1603}Assets/Props/Furniture/CabinetMetal_01/CabinetMetal_01.xob"
+        Materials {
+         MaterialAssignClass "{60A33EEB78BA70B5}" {
+          SourceMaterial "CabinetMetal_01"
+          AssignedMaterial "{4083BA0F5D869C57}Assets/Props/Furniture/CabinetMetal_01/Data/CabinetMetal_01_olive_V3.emat"
+         }
+         MaterialAssignClass "{60A33EEB78BA70BB}" {
+          SourceMaterial "Color_palette"
+          AssignedMaterial "{40F12B1BDC73F38E}Common/Materials/ColorPalette/Color_palette_01_LEMON_12_S1_R2.emat"
+         }
+        }
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BA7121}" {
+        ResponseIndex "HugeDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BA711B}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 5000
+        m_fForceToDamageScale 350
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BA71ED}" {
+        Enabled 0
+       }
+      }
+      coords 11.771 0.609 0.42
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BB8EEB}" {
+        Object "{A6A022DF3D20DEEA}Assets/Props/Furniture/CoatRack_01/CoatRack_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BB8ED3}" {
+        Mass 10
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BB8E9C}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 700
+        m_fForceToDamageScale 350
+        m_DestroySpawnObjects {
+         SCR_DebrisSpawnable "{60A33EEB78BB8EA9}" {
+          m_ModelPrefabs {
+           "{84AE4AF0A6A4C199}Assets/Props/Furniture/CoatRack_01/Dst/CoatRack_01_dst_01.xob" "{1DB0F369BB43F009}Assets/Props/Furniture/CoatRack_01/Dst/CoatRack_01_dst_02.xob" "{6ABA9BE14FE11F79}Assets/Props/Furniture/CoatRack_01/Dst/CoatRack_01_dst_03.xob"
+          }
+          m_eMaterialSoundType WOOD_PLANK_SMALL
+         }
+        }
+        m_eMaterialSoundType BREAK_WOOD_SOLID
+       }
+       RplComponent "{60A33EEB78BB8F6E}" {
+        Enabled 0
+       }
+      }
+      coords -7.582 0.609 -0.315
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BB8C12}" {
+        Object "{4BD604449D061412}Assets/Structures/BuildingsParts/Electrical/SocketElectrical/SocketElectrical_01.xob"
+        LODFactors {
+         20 5 1 1 1 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BB8CC1}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BB8CB9}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BB8C8A}" {
+        Enabled 0
+       }
+       Hierarchy "{60A33EEB78BB8D63}" {
+       }
+      }
+      coords 7.063 1.349 5.6
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BB8AE6}" {
+        Object "{4BD604449D061412}Assets/Structures/BuildingsParts/Electrical/SocketElectrical/SocketElectrical_01.xob"
+        LODFactors {
+         20 5 1 1 1 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BB8ACB}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BB8AB8}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BB8A97}" {
+        Enabled 0
+       }
+       Hierarchy "{60A33EEB78BB8A93}" {
+       }
+      }
+      coords 9.939 1.349 5.6
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BB8856}" {
+        Object "{A08CB2C9011CFE05}Assets/Props/Services/HydrantBox_01/HydrantBox_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BB8831}" {
+        ResponseIndex "HugeDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BB88D4}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 800
+        m_fForceToDamageScale 350
+        m_fDamageThresholdMaximum 30000
+        m_DestroySpawnObjects {
+         SCR_DebrisSpawnable "{60A33EEB78BB881F}" {
+          m_ModelPrefabs {
+           "{931720D717E6CB16}Assets/Props/Services/HydrantBox_01/Dst/HydrantBox_01_dst_02.xob"
+          }
+          m_fMass 5
+          m_fDamageToImpulse 1
+          m_fRandomVelocityLinear 1
+          m_eMaterialSoundType METAL_LIGHT
+         }
+        }
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{60A33EEB78BB88EA}" {
+          m_fPhaseHealth 1000
+          m_PhaseModel "{0A09994E0A01FA86}Assets/Props/Services/HydrantBox_01/Dst/HydrantBox_01_dst_01.xob"
+          m_PhaseDestroySpawnObjects {
+           SCR_DebrisSpawnable "{60A33EEB78BB88EC}" {
+            m_ModelPrefabs {
+             "{0A09994E0A01FA86}Assets/Props/Services/HydrantBox_01/Dst/HydrantBox_01_dst_01.xob"
+            }
+            m_fDamageToImpulse 1
+            m_fRandomVelocityLinear 1
+            m_eMaterialSoundType METAL_LIGHT
+           }
+          }
+         }
+        }
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BB88A6}" {
+        Enabled 0
+       }
+      }
+      coords 10.543 1.945 -2.95
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BB89AD}" {
+        Object "{EE6F2FBFF810E662}Assets/Props/Furniture/BunkBed_01/BunkBed_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BB8997}" {
+        ResponseIndex "LargeDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BB8656}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 10000
+        m_fForceToDamageScale 350
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{60A33EEB78BB866E}" {
+          m_fPhaseHealth 15000
+          m_PhaseModel "{7FC8E4D03FAC2E88}Assets/Props/Furniture/BunkBed_01/dst/BunkBed_01_dst.xob"
+         }
+        }
+        m_eMaterialSoundType BREAK_METAL_POLE
+       }
+       RplComponent "{60A33EEB78BB8627}" {
+        Enabled 0
+       }
+      }
+      coords -3.365 0.609 4.393
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BB8759}" {
+        Object "{A8E70069FF549170}Assets/Props/Furniture/Sink_01/Sink_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BB8705}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BB87C5}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 1000
+        m_fForceToDamageScale 350
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{60A33EEB78BB871B}" {
+          m_fPhaseHealth 2500
+          m_PhaseModel "{6F689965A2DC7DCC}Assets/Props/Furniture/Sink_01/dst/Sink_01_dst.xob"
+         }
+        }
+        m_eMaterialSoundType NONE
+       }
+       RplComponent "{60A33EEB78BB87D7}" {
+        Enabled 0
+       }
+      }
+      coords -2.339 0.637 5.6
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BB84F4}" {
+        Object "{A8E70069FF549170}Assets/Props/Furniture/Sink_01/Sink_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BB84D2}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BB848B}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 1000
+        m_fForceToDamageScale 350
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{60A33EEB78BB84A0}" {
+          m_fPhaseHealth 2500
+          m_PhaseModel "{6F689965A2DC7DCC}Assets/Props/Furniture/Sink_01/dst/Sink_01_dst.xob"
+         }
+        }
+        m_eMaterialSoundType NONE
+       }
+       RplComponent "{60A33EEB78BB849A}" {
+        Enabled 0
+       }
+      }
+      coords 3.248 0.735 -6.16
+      angleY 90
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BB859F}" {
+        Object "{195EA4E9A6CB82F5}Assets/Structures/BuildingsParts/Misc/ShowerDrain_01.xob"
+        LODFactors {
+         20 5 1 1 1 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BB8247}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BB8234}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BB8207}" {
+        Enabled 0
+       }
+       Hierarchy "{60A33EEB78BB8203}" {
+       }
+      }
+      coords 6.14 0.609 -7.929
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BB8318}" {
+        Object "{195EA4E9A6CB82F5}Assets/Structures/BuildingsParts/Misc/ShowerDrain_01.xob"
+        LODFactors {
+         20 5 1 1 1 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BB83C1}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BB83BE}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BB8381}" {
+        Enabled 0
+       }
+       Hierarchy "{60A33EEB78BB838D}" {
+       }
+      }
+      coords 4.192 0.609 -7.876
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BB8175}" {
+        Object "{F552AD57783AD277}Assets/Props/Civilian/PaintCan_01/PaintCan_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BB815B}" {
+        ResponseIndex "SmallDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BB811D}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 200
+        m_fForceToDamageScale 350
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{60A33EEB78BB8133}" {
+          m_PhaseModel "{E4DC3E5397403A33}Assets/Props/Civilian/PaintCan_01/Dst/PaintCan_01_dst.xob"
+         }
+        }
+        m_eMaterialSoundType BREAK_PLASTIC
+       }
+       RplComponent "{60A33EEB78BB81EC}" {
+        Enabled 0
+       }
+      }
+      coords 9.165 1.222 -3.431
+      angleY -140
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BB9ED8}" {
+        Object "{F1FC734D73C916D2}Assets/Props/Furniture/Desk_01/Desk_01_long.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BB9E81}" {
+        ResponseIndex "SmallDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BB9F46}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 3000
+        m_fForceToDamageScale 350
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{60A33EEB78BB9E9C}" {
+          m_fPhaseHealth 2500
+          m_PhaseModel "{A7604B36E41DC606}Assets/Props/Furniture/Desk_01/dst/Desk_01_long_dst.xob"
+         }
+        }
+        m_eMaterialSoundType BREAK_WOOD_SOLID
+       }
+       RplComponent "{60A33EEB78BB9F48}" {
+        Enabled 0
+       }
+      }
+      coords 10.314 0.609 5.556
+      angleY 180
+      Flags 1027
+      {
+       GenericEntity : "{13891AA1F5833C4A}Prefabs/Props/Civilian/Notebook_01_Double.et" {
+        coords -0.242 0.906 0.137
+        angleY 94
+       }
+       GenericEntity : "{33882C61BA9F0F90}Prefabs/Props/Civilian/Globe_01.et" {
+        coords -1.753 0.906 0.182
+        angleY 41
+       }
+       GenericEntity : "{9DBA8179AFD4FF9F}Prefabs/Props/Furniture/LightTable_02.et" {
+        coords -0.478 0.906 0.159
+        angleY -28
+       }
+      }
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BB9DF9}" {
+        Object "{C7373FCEC47A1085}Assets/Structures/BuildingsParts/Lights/LampIndustrial_01.xob"
+        LODFactors {
+         4 1 1 1 1 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BB9DAD}" {
+        ResponseIndex "SmallDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BB9A69}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 200
+        m_fForceToDamageScale 350
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{60A33EEB78BB9D83}" {
+          m_fPhaseHealth 500
+          m_PhaseModel "{66DFFD14A0A2B094}Assets/Structures/BuildingsParts/Lights/Dst/LampIndustrial_01_dst_01.xob"
+         }
+        }
+        m_eMaterialSoundType BREAK_GLASS
+       }
+       RplComponent "{60A33EEB78BB9A78}" {
+        Enabled 0
+       }
+       RplComponent "{60A33EEB78BB9A48}" {
+        Enabled 0
+       }
+       Hierarchy "{60A33EEB78BB9A56}" {
+       }
+      }
+      coords 8.675 3.666 -9.012
+      angleY 180
+      angleZ 4.964
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BB9B83}" {
+        Object "{3093CB3E78E4A641}Assets/Props/Furniture/Desk_01/Desk_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BB986D}" {
+        ResponseIndex "SmallDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BB9828}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 3000
+        m_fForceToDamageScale 350
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{60A33EEB78BB984E}" {
+          m_fPhaseHealth 2500
+          m_PhaseModel "{6A5876ADFD704C91}Assets/Props/Furniture/Desk_01/dst/Desk_01_dst.xob"
+         }
+        }
+        m_eMaterialSoundType BREAK_WOOD_SOLID
+       }
+       RplComponent "{60A33EEB78BB983A}" {
+        Enabled 0
+       }
+      }
+      coords -6.933 0.609 -4.873
+      angleY -179.703
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BB99C1}" {
+        Object "{3093CB3E78E4A641}Assets/Props/Furniture/Desk_01/Desk_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BB99AE}" {
+        ResponseIndex "SmallDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BB9998}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 3000
+        m_fForceToDamageScale 350
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{60A33EEB78BB99BE}" {
+          m_fPhaseHealth 2500
+          m_PhaseModel "{6A5876ADFD704C91}Assets/Props/Furniture/Desk_01/dst/Desk_01_dst.xob"
+         }
+        }
+        m_eMaterialSoundType BREAK_WOOD_SOLID
+       }
+       RplComponent "{60A33EEB78BB966A}" {
+        Enabled 0
+       }
+      }
+      coords -10.706 0.609 5.551
+      angleY 180
+      Flags 1027
+      {
+       GenericEntity : "{0133284E3BDEAEC4}Prefabs/Props/Civilian/Ashtray_01_Full_yellow.et" {
+        coords -1.436 0.906 0.281
+        angleY 0
+       }
+       GenericEntity : "{67C2A2742A183D89}Prefabs/Props/Furniture/PhoneTable_01_red.et" {
+        coords -1.284 0.906 0.156
+        angleY 17
+       }
+       GenericEntity : "{9DBA8179AFD4FF9F}Prefabs/Props/Furniture/LightTable_02.et" {
+        coords -0.132 0.906 0.152
+        angleY -31
+       }
+       GenericEntity : "{B3C782D689A52412}Prefabs/Props/Civilian/FileOffice_01_Open.et" {
+        coords -0.57 0.906 0.155
+       }
+      }
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBAE5A}" {
+        Object "{76F0ACAB4239B3D5}Assets/Props/Furniture/MeetingTable_01/MeetingTable_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBAE05}" {
+        ResponseIndex "LargeDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBAEC1}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 1500
+        m_fForceToDamageScale 250
+        m_fDamageThresholdMaximum 30000
+        m_DestroySpawnObjects {
+         SCR_DebrisSpawnable "{60A33EEB78BBAEE3}" {
+          m_ModelPrefabs {
+           "{91F02D1C701DF532}Assets/Props/Furniture/MeetingTable_01/Dst/MeetingTable_01_dst_02.xob" "{08EE94856DFAC4A2}Assets/Props/Furniture/MeetingTable_01/Dst/MeetingTable_01_dst_01.xob"
+          }
+          m_fMass 15
+          m_fDamageToImpulse 0.03
+          m_fRandomVelocityLinear 5
+          m_eMaterialSoundType METAL_POLE
+         }
+        }
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BBAED3}" {
+        Enabled 0
+       }
+      }
+      coords 7.592 0.609 0.675
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBAFA0}" {
+        Object "{138FB8A2D71B1603}Assets/Props/Furniture/CabinetMetal_01/CabinetMetal_01.xob"
+        Materials {
+         MaterialAssignClass "{60A33EEB78BBAFE7}" {
+          SourceMaterial "CabinetMetal_01"
+          AssignedMaterial "{0E9AB124404D2170}Assets/Props/Furniture/CabinetMetal_01/Data/CabinetMetal_01_V2.emat"
+         }
+        }
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBAF94}" {
+        ResponseIndex "HugeDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBAC4F}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 5000
+        m_fForceToDamageScale 350
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BBAC51}" {
+        Enabled 0
+       }
+      }
+      coords -4.594 0.609 -3.427
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBAD52}" {
+        Object "{916B10FC162E505B}Assets/Props/Civilian/StepladderWooden_01/StepladderWooden_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBAD3E}" {
+        Mass 10
+        ResponseIndex "SmallDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBADF2}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 300
+        m_fForceToDamageScale 300
+        m_DestroySpawnObjects {
+         SCR_DebrisSpawnable "{60A33EEB78BBAD13}" {
+          m_ModelPrefabs {
+           "{46BDF1AC9C209D19}Assets/Props/Civilian/LadderWooden_01/Dst/LadderWooden_01_dst_01.xob" "{DFA3483581C7AC89}Assets/Props/Civilian/LadderWooden_01/Dst/LadderWooden_01_dst_02.xob" "{A8A920BD756543F9}Assets/Props/Civilian/LadderWooden_01/Dst/LadderWooden_01_dst_03.xob"
+          }
+          m_fMass 5
+          m_fDamageToImpulse 0.02
+          m_fRandomVelocityLinear 2
+          m_eMaterialSoundType WOOD_PLANK_SMALL
+         }
+        }
+        m_eMaterialSoundType BREAK_WOOD_SOLID
+       }
+       RplComponent "{60A33EEB78BBADC4}" {
+        Enabled 0
+       }
+      }
+      coords 12.037 0.609 -7.456
+      angleX 6.186
+      angleY -90
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBAAA3}" {
+        Object "{6EF1EA2E0BBB512E}Assets/Props/Commercial/CabinetCardFile_01/CabinetCardFile_01.xob"
+        Materials {
+         MaterialAssignClass "{60A33EEB78BBAA11}" {
+          SourceMaterial "CabinetCardFile_01"
+          AssignedMaterial "{68A8C1F690E56659}Assets/Props/Commercial/CabinetCardFile_01/Data/CabinetCardFile_01_green.emat"
+         }
+         MaterialAssignClass "{60A33EEB78BBAA1B}" {
+          SourceMaterial "lod3"
+          AssignedMaterial "{2F9D84E01693D0D9}Assets/Props/Commercial/CabinetCardFile_01/Data/CabinetCardFile_01_LOD_Green.emat"
+         }
+        }
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBAA92}" {
+        Mass 30
+        ResponseIndex "HugeDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBAB21}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 1500
+        m_fForceToDamageScale 350
+        m_DestroySpawnObjects {
+         SCR_PrefabSpawnable "{60A33EEB78BBAB6A}" {
+          m_Prefabs {
+           "{9CBBE8B23794214D}Prefabs/Props/Commercial/CabinetCardFile_01/Dst/CabinetCardFile_01_dst_green.et"
+          }
+         }
+        }
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BBAB33}" {
+        Enabled 0
+       }
+      }
+      coords -10.44 0.609 -0.681
+      angleY 89.545
+      Flags 1027
+      {
+       GenericEntity : "{68885712AD843B29}Prefabs/Props/Civilian/FileOffice_01_Double.et" {
+        coords 0.042 1.441 0.223
+        angleY 90.455
+       }
+      }
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBA8D1}" {
+        Object "{6EF1EA2E0BBB512E}Assets/Props/Commercial/CabinetCardFile_01/CabinetCardFile_01.xob"
+        Materials {
+         MaterialAssignClass "{60A33EEB78BBA817}" {
+          SourceMaterial "CabinetCardFile_01"
+          AssignedMaterial "{68A8C1F690E56659}Assets/Props/Commercial/CabinetCardFile_01/Data/CabinetCardFile_01_green.emat"
+         }
+         MaterialAssignClass "{60A33EEB78BBA813}" {
+          SourceMaterial "lod3"
+          AssignedMaterial "{2F9D84E01693D0D9}Assets/Props/Commercial/CabinetCardFile_01/Data/CabinetCardFile_01_LOD_Green.emat"
+         }
+        }
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBA885}" {
+        Mass 30
+        ResponseIndex "HugeDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBA943}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 1500
+        m_fForceToDamageScale 350
+        m_DestroySpawnObjects {
+         SCR_PrefabSpawnable "{60A33EEB78BBA894}" {
+          m_Prefabs {
+           "{9CBBE8B23794214D}Prefabs/Props/Commercial/CabinetCardFile_01/Dst/CabinetCardFile_01_dst_green.et"
+          }
+         }
+        }
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BBA955}" {
+        Enabled 0
+       }
+      }
+      coords -7.49 0.609 5.287
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBA652}" {
+        Object "{6EF1EA2E0BBB512E}Assets/Props/Commercial/CabinetCardFile_01/CabinetCardFile_01.xob"
+        Materials {
+         MaterialAssignClass "{60A33EEB78BBA988}" {
+          SourceMaterial "CabinetCardFile_01"
+          AssignedMaterial "{68A8C1F690E56659}Assets/Props/Commercial/CabinetCardFile_01/Data/CabinetCardFile_01_green.emat"
+         }
+         MaterialAssignClass "{60A33EEB78BBA994}" {
+          SourceMaterial "lod3"
+          AssignedMaterial "{2F9D84E01693D0D9}Assets/Props/Commercial/CabinetCardFile_01/Data/CabinetCardFile_01_LOD_Green.emat"
+         }
+        }
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBA605}" {
+        Mass 30
+        ResponseIndex "HugeDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBA6CC}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 1500
+        m_fForceToDamageScale 350
+        m_DestroySpawnObjects {
+         SCR_PrefabSpawnable "{60A33EEB78BBA616}" {
+          m_Prefabs {
+           "{9CBBE8B23794214D}Prefabs/Props/Commercial/CabinetCardFile_01/Dst/CabinetCardFile_01_dst_green.et"
+          }
+         }
+        }
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BBA6DE}" {
+        Enabled 0
+       }
+      }
+      coords -10.44 0.609 -1.167
+      angleY 90
+      Flags 1027
+      {
+       $grp GenericEntity : "{876B096F32584485}Prefabs/Props/Civilian/FileOffice_01_Stack.et" {
+        {
+         coords 0.104 1.441 0.224
+        }
+        {
+         coords -0.145 1.441 0.216
+         angleY -7
+        }
+       }
+      }
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBA403}" {
+        Object "{6EF1EA2E0BBB512E}Assets/Props/Commercial/CabinetCardFile_01/CabinetCardFile_01.xob"
+        Materials {
+         MaterialAssignClass "{60A33EEB78BBA47D}" {
+          SourceMaterial "CabinetCardFile_01"
+          AssignedMaterial "{68A8C1F690E56659}Assets/Props/Commercial/CabinetCardFile_01/Data/CabinetCardFile_01_green.emat"
+         }
+         MaterialAssignClass "{60A33EEB78BBA479}" {
+          SourceMaterial "lod3"
+          AssignedMaterial "{2F9D84E01693D0D9}Assets/Props/Commercial/CabinetCardFile_01/Data/CabinetCardFile_01_LOD_Green.emat"
+         }
+        }
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBA4E8}" {
+        Mass 30
+        ResponseIndex "HugeDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBA4B4}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 1500
+        m_fForceToDamageScale 350
+        m_DestroySpawnObjects {
+         SCR_PrefabSpawnable "{60A33EEB78BBA4C3}" {
+          m_Prefabs {
+           "{9CBBE8B23794214D}Prefabs/Props/Commercial/CabinetCardFile_01/Dst/CabinetCardFile_01_dst_green.et"
+          }
+         }
+        }
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BBA487}" {
+        Enabled 0
+       }
+      }
+      coords 4.395 0.609 3.32
+      angleY 89.545
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBA5B3}" {
+        Object "{6EF1EA2E0BBB512E}Assets/Props/Commercial/CabinetCardFile_01/CabinetCardFile_01.xob"
+        Materials {
+         MaterialAssignClass "{60A33EEB78BBA5E8}" {
+          SourceMaterial "CabinetCardFile_01"
+          AssignedMaterial "{68A8C1F690E56659}Assets/Props/Commercial/CabinetCardFile_01/Data/CabinetCardFile_01_green.emat"
+         }
+         MaterialAssignClass "{60A33EEB78BBA5F4}" {
+          SourceMaterial "lod3"
+          AssignedMaterial "{2F9D84E01693D0D9}Assets/Props/Commercial/CabinetCardFile_01/Data/CabinetCardFile_01_LOD_Green.emat"
+         }
+        }
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBA267}" {
+        Mass 30
+        ResponseIndex "HugeDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBA259}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 1500
+        m_fForceToDamageScale 350
+        m_DestroySpawnObjects {
+         SCR_PrefabSpawnable "{60A33EEB78BBA268}" {
+          m_Prefabs {
+           "{9CBBE8B23794214D}Prefabs/Props/Commercial/CabinetCardFile_01/Dst/CabinetCardFile_01_dst_green.et"
+          }
+         }
+        }
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BBA22B}" {
+        Enabled 0
+       }
+      }
+      coords 4.395 0.609 2.833
+      angleY 90
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBA338}" {
+        Object "{D055B781E81BED87}Assets/Structures/BuildingsParts/Electrical/LightSwitch/LightSwitch_02.xob"
+        LODFactors {
+         20 5 1 1 1 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBA3ED}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBA3D8}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BBA3AA}" {
+        Enabled 0
+       }
+       Hierarchy "{60A33EEB78BBA3B5}" {
+       }
+      }
+      coords -9.777 1.91 -2.95
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBA0AA}" {
+        Object "{D055B781E81BED87}Assets/Structures/BuildingsParts/Electrical/LightSwitch/LightSwitch_02.xob"
+        LODFactors {
+         20 5 1 1 1 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBA092}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBA14F}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BBA151}" {
+        Enabled 0
+       }
+       Hierarchy "{60A33EEB78BBA15E}" {
+       }
+      }
+      coords -7.252 1.914 -0.629
+      angleY -90
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBBE38}" {
+        Object "{D055B781E81BED87}Assets/Structures/BuildingsParts/Electrical/LightSwitch/LightSwitch_02.xob"
+        LODFactors {
+         20 5 1 1 1 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBBEE0}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBBEDF}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BBBEA1}" {
+        Enabled 0
+       }
+       Hierarchy "{60A33EEB78BBBEAF}" {
+       }
+      }
+      coords -7.993 1.842 -3.15
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBBF82}" {
+        Object "{D055B781E81BED87}Assets/Structures/BuildingsParts/Electrical/LightSwitch/LightSwitch_02.xob"
+        LODFactors {
+         20 5 1 1 1 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBBC6A}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBBC25}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BBBC28}" {
+        Enabled 0
+       }
+       Hierarchy "{60A33EEB78BBBC34}" {
+       }
+      }
+      coords 8.914 1.971 0.15
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBBD0B}" {
+        Object "{D055B781E81BED87}Assets/Structures/BuildingsParts/Electrical/LightSwitch/LightSwitch_02.xob"
+        LODFactors {
+         20 5 1 1 1 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBBDF2}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBBDA2}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BBBDB4}" {
+        Enabled 0
+       }
+       Hierarchy "{60A33EEB78BBBDB0}" {
+       }
+      }
+      coords 5.154 1.887 -3.15
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBBA8C}" {
+        Object "{D055B781E81BED87}Assets/Structures/BuildingsParts/Electrical/LightSwitch/LightSwitch_02.xob"
+        LODFactors {
+         20 5 1 1 1 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBBB75}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBBB22}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BBBB34}" {
+        Enabled 0
+       }
+       Hierarchy "{60A33EEB78BBBB31}" {
+       }
+      }
+      coords 0.7 1.868 -3.166
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBB80E}" {
+        Object "{D055B781E81BED87}Assets/Structures/BuildingsParts/Electrical/LightSwitch/LightSwitch_02.xob"
+        LODFactors {
+         20 5 1 1 1 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBB8F7}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBB8A6}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BBB8A9}" {
+        Enabled 0
+       }
+       Hierarchy "{60A33EEB78BBB8B5}" {
+       }
+      }
+      coords -1.82 1.842 -3.15
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBB984}" {
+        Object "{D055B781E81BED87}Assets/Structures/BuildingsParts/Electrical/LightSwitch/LightSwitch_02.xob"
+        LODFactors {
+         20 5 1 1 1 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBB66D}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBB65C}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BBB62E}" {
+        Enabled 0
+       }
+       Hierarchy "{60A33EEB78BBB62B}" {
+       }
+      }
+      coords 9.135 1.935 -3.151
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBB73C}" {
+        Object "{D055B781E81BED87}Assets/Structures/BuildingsParts/Electrical/LightSwitch/LightSwitch_02.xob"
+        LODFactors {
+         20 5 1 1 1 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBB7E5}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBB7D3}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BBB7A5}" {
+        Enabled 0
+       }
+       Hierarchy "{60A33EEB78BBB7A1}" {
+       }
+      }
+      coords 3.918 1.874 3.517
+      angleY -90
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBB4A8}" {
+        Object "{D055B781E81BED87}Assets/Structures/BuildingsParts/Electrical/LightSwitch/LightSwitch_02.xob"
+        LODFactors {
+         20 5 1 1 1 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBB490}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBB540}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BBB553}" {
+        Enabled 0
+       }
+       Hierarchy "{60A33EEB78BBB550}" {
+       }
+      }
+      coords 6.243 1.971 0.149
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBB221}" {
+        Object "{D055B781E81BED87}Assets/Structures/BuildingsParts/Electrical/LightSwitch/LightSwitch_02.xob"
+        LODFactors {
+         20 5 1 1 1 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBB209}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBB2F8}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BBB2CA}" {
+        Enabled 0
+       }
+       Hierarchy "{60A33EEB78BBB2D6}" {
+       }
+      }
+      coords 9.583 2.023 -8.601
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBB3DD}" {
+        Object "{D055B781E81BED87}Assets/Structures/BuildingsParts/Electrical/LightSwitch/LightSwitch_02.xob"
+        LODFactors {
+         20 5 1 1 1 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBB385}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBB073}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BBB042}" {
+        Enabled 0
+       }
+       Hierarchy "{60A33EEB78BBB04F}" {
+       }
+      }
+      coords 4.119 1.983 3.46
+      angleY 90
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBCF12}" {
+        Object "{487D683EDCC5BB27}Assets/Structures/BuildingsParts/Heating/StoveColumn_01.xob"
+        LODFactors {
+         20 5 1 1 1 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBCFF8}" {
+        ResponseIndex "HugeDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBCF9D}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Explosive multiplier" 90
+         }
+        }
+        m_fForceToDamageScale 350
+        m_bDeleteAfterFinalPhase 0
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{60A33EEB78BBCFB6}" {
+          m_fPhaseHealth 1000
+          m_PhaseModel "{A747C20BC31BABD2}Assets/Structures/BuildingsParts/Heating/dst/StoveColumn_01_dst.xob"
+         }
+        }
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BBCF9B}" {
+       }
+       RplComponent "{60A33EEB78BBCC6C}" {
+        Enabled 0
+       }
+       Hierarchy "{60A33EEB78BBCC6B}" {
+       }
+      }
+      coords -1.335 0.609 -3.644
+      angleY 180
+      Flags 2098179
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBCD38}" {
+        Object "{3DBA54FA9776E02C}Assets/Props/Furniture/BenchWooden_01/BenchWooden_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBCDE1}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBCDA1}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 1000
+        m_fForceToDamageScale 350
+        m_fDamageThresholdMaximum 30000
+        m_DestroySpawnObjects {
+         SCR_DebrisSpawnable "{60A33EEB78BBCDC7}" {
+          m_ModelPrefabs {
+           "{7580625CDBA52C7E}Assets/Props/Furniture/BenchWooden_01/Dst/BenchWooden_01_dst_01.xob" "{EC9EDBC5C6421DEE}Assets/Props/Furniture/BenchWooden_01/Dst/BenchWooden_01_dst_02.xob" "{9B94B34D32E0F29E}Assets/Props/Furniture/BenchWooden_01/Dst/BenchWooden_01_dst_03.xob"
+          }
+          m_fDamageToImpulse 4
+          m_fRandomVelocityLinear 4
+          m_eMaterialSoundType WOOD_PLANK_SMALL
+         }
+        }
+        m_eMaterialSoundType BREAK_WOOD_SOLID
+       }
+       RplComponent "{60A33EEB78BBCDB3}" {
+        Enabled 0
+       }
+      }
+      coords -7.294 0.609 -3.372
+      angleY -179
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBCAA9}" {
+        Object "{A54976B6CB1BD4F0}Assets/Props/Furniture/ChairSchool_01/ChairSchool_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBCA94}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBCB58}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 800
+        m_fForceToDamageScale 350
+        m_DestroySpawnObjects {
+         SCR_DebrisSpawnable "{60A33EEB78BBCB69}" {
+          m_ModelPrefabs {
+           "{7374E885A653671B}Assets/Props/Furniture/ChairSchool_01/Dst/ChairSchool_01_dst3.xob" "{74B312D4C0D5DDD8}Assets/Props/Furniture/ChairSchool_01/Dst/ChairSchool_01_dst4.xob"
+          }
+          m_fMass 1
+          m_fDamageToImpulse 3
+          m_fRandomVelocityLinear 3
+          m_eMaterialSoundType WOOD_PLANK_SMALL
+         }
+         SCR_DebrisSpawnable "{60A33EEB78BBCB70}" {
+          m_ModelPrefabs {
+           "{047E800D52F1886B}Assets/Props/Furniture/ChairSchool_01/Dst/ChairSchool_01_dst2.xob"
+          }
+          m_fMass 3
+          m_fDamageToImpulse 4
+          m_fRandomVelocityLinear 4
+          m_eMaterialSoundType METAL_LIGHT
+         }
+        }
+        m_eMaterialSoundType BREAK_METAL_POLE
+       }
+       RplComponent "{60A33EEB78BBCB29}" {
+        Enabled 0
+       }
+      }
+      coords 10.441 0.609 -7.811
+      angleY -164
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBC8E0}" {
+        Object "{789311902B5FF0FF}Assets/Props/Civilian/Notebook_01/Notebook_01_Single.xob"
+        Materials {
+         MaterialAssignClass "{60A33EEB78BBC851}" {
+          SourceMaterial "Notebook_01"
+          AssignedMaterial "{6DBA359EA58C72E1}Assets/Props/Civilian/Notebook_01/Data/Notebook_01_Orange.emat"
+         }
+         MaterialAssignClass "{60A33EEB78BBC85B}" {
+          SourceMaterial "Palette"
+          AssignedMaterial "{C9BC6C21112291DE}Assets/Props/Civilian/Notebook_01/Data/Notebook_01_Orange_MLOD.emat"
+         }
+        }
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBC8D5}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBC880}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+        m_eMaterialSoundType BREAK_SANDBAG
+       }
+       RplComponent "{60A33EEB78BBC893}" {
+        Enabled 1
+       }
+      }
+      coords -5.377 1.515 -5.098
+      angleY 8.297
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBC67D}" {
+        Object "{62C27FEBF2823AE3}Assets/Props/Civilian/NoticeBoardCork_01/NoticeBoardCork_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBC658}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBC6E2}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 300
+        m_fForceToDamageScale 350
+        m_DestroySpawnObjects {
+         SCR_DebrisSpawnable "{60A33EEB78BBC63E}" {
+          m_ModelPrefabs {
+           "{8A1508D63AB78ABE}Assets/Props/Civilian/NoticeBoardCork_01/Dst/NoticeBoardCork_01_Dst_01.xob" "{130BB14F2750BB2E}Assets/Props/Civilian/NoticeBoardCork_01/Dst/NoticeBoardCork_01_Dst_02.xob"
+          }
+          m_fMass 1
+          m_fDamageToImpulse 3
+          m_fRandomVelocityLinear 3
+          m_eMaterialSoundType WOOD_PLANK_SMALL
+         }
+        }
+       }
+       RplComponent "{60A33EEB78BBC6F5}" {
+        Enabled 0
+       }
+      }
+      coords 7.555 1.969 0.164
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBC715}" {
+        Object "{62C27FEBF2823AE3}Assets/Props/Civilian/NoticeBoardCork_01/NoticeBoardCork_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBC7F3}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBC7B7}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 300
+        m_fForceToDamageScale 350
+        m_DestroySpawnObjects {
+         SCR_DebrisSpawnable "{60A33EEB78BBC7C2}" {
+          m_ModelPrefabs {
+           "{8A1508D63AB78ABE}Assets/Props/Civilian/NoticeBoardCork_01/Dst/NoticeBoardCork_01_Dst_01.xob" "{130BB14F2750BB2E}Assets/Props/Civilian/NoticeBoardCork_01/Dst/NoticeBoardCork_01_Dst_02.xob"
+          }
+          m_fMass 1
+          m_fDamageToImpulse 3
+          m_fRandomVelocityLinear 3
+          m_eMaterialSoundType WOOD_PLANK_SMALL
+         }
+        }
+       }
+       RplComponent "{60A33EEB78BBC7B9}" {
+        Enabled 0
+       }
+      }
+      coords -9.842 1.872 5.586
+      angleY 180
+      scale 0.82
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBC568}" {
+        Object "{063E7C47FB4AA64E}Assets/Props/Furniture/Dresser_01/Dresser_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBC555}" {
+        ResponseIndex "SmallDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBC508}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 3000
+        m_fForceToDamageScale 350
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{60A33EEB78BBC521}" {
+          m_fPhaseHealth 2500
+          m_PhaseModel "{EF798C3710ADA550}Assets/Props/Furniture/Dresser_01/dst/Dresser_01_dst_01.xob"
+         }
+        }
+        m_eMaterialSoundType BREAK_WOOD_SOLID
+       }
+       RplComponent "{60A33EEB78BBC51A}" {
+        Enabled 0
+       }
+      }
+      coords -7.26 0.609 2.237
+      scale 0.76
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBC2C4}" {
+        Object "{6EF1EA2E0BBB512E}Assets/Props/Commercial/CabinetCardFile_01/CabinetCardFile_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBC2B1}" {
+        Mass 30
+        ResponseIndex "HugeDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBC343}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 1500
+        m_fForceToDamageScale 350
+        m_DestroySpawnObjects {
+         SCR_PrefabSpawnable "{60A33EEB78BBC28A}" {
+          m_Prefabs {
+           "{A871BDDC9C0AC8C5}Prefabs/Props/Commercial/CabinetCardFile_01/Dst/CabinetCardFile_01_dst_grey.et"
+          }
+         }
+        }
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BBC355}" {
+        Enabled 0
+       }
+      }
+      coords 11.085 0.609 -8.307
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBC045}" {
+        Object "{6EF1EA2E0BBB512E}Assets/Props/Commercial/CabinetCardFile_01/CabinetCardFile_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBC037}" {
+        Mass 30
+        ResponseIndex "HugeDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBC0F6}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 1500
+        m_fForceToDamageScale 350
+        m_DestroySpawnObjects {
+         SCR_PrefabSpawnable "{60A33EEB78BBC007}" {
+          m_Prefabs {
+           "{A871BDDC9C0AC8C5}Prefabs/Props/Commercial/CabinetCardFile_01/Dst/CabinetCardFile_01_dst_grey.et"
+          }
+         }
+        }
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BBC0F8}" {
+        Enabled 0
+       }
+      }
+      coords 12.043 0.609 -8.293
+      angleY 0.446
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBC11C}" {
+        Object "{6EF1EA2E0BBB512E}Assets/Props/Commercial/CabinetCardFile_01/CabinetCardFile_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBC1C0}" {
+        Mass 30
+        ResponseIndex "HugeDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBC18F}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 1500
+        m_fForceToDamageScale 350
+        m_DestroySpawnObjects {
+         SCR_PrefabSpawnable "{60A33EEB78BBC1DF}" {
+          m_Prefabs {
+           "{A871BDDC9C0AC8C5}Prefabs/Props/Commercial/CabinetCardFile_01/Dst/CabinetCardFile_01_dst_grey.et"
+          }
+         }
+        }
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BBC191}" {
+        Enabled 0
+       }
+      }
+      coords -10.446 0.609 -3.89
+      angleY 91.501
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBDEBE}" {
+        Object "{6EF1EA2E0BBB512E}Assets/Props/Commercial/CabinetCardFile_01/CabinetCardFile_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBDF62}" {
+        Mass 30
+        ResponseIndex "HugeDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBDF23}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 1500
+        m_fForceToDamageScale 350
+        m_DestroySpawnObjects {
+         SCR_PrefabSpawnable "{60A33EEB78BBDF72}" {
+          m_Prefabs {
+           "{A871BDDC9C0AC8C5}Prefabs/Props/Commercial/CabinetCardFile_01/Dst/CabinetCardFile_01_dst_grey.et"
+          }
+         }
+        }
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BBDF35}" {
+        Enabled 0
+       }
+      }
+      coords -10.432 0.609 -3.407
+      angleY 90
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBDC49}" {
+        Object "{6EF1EA2E0BBB512E}Assets/Props/Commercial/CabinetCardFile_01/CabinetCardFile_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBDC3E}" {
+        Mass 30
+        ResponseIndex "HugeDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBDCFF}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 1500
+        m_fForceToDamageScale 350
+        m_DestroySpawnObjects {
+         SCR_PrefabSpawnable "{60A33EEB78BBDC0E}" {
+          m_Prefabs {
+           "{A871BDDC9C0AC8C5}Prefabs/Props/Commercial/CabinetCardFile_01/Dst/CabinetCardFile_01_dst_grey.et"
+          }
+         }
+        }
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BBDCC2}" {
+        Enabled 0
+       }
+      }
+      coords 11.572 0.609 -8.299
+      angleY -1.255
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBD90E}" {
+        Object "{E033A2903B925FB7}Assets/Props/Furniture/LampFluorescent_01/LampFluorescent_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBD9E9}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBD9A7}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BBD9A9}" {
+        Enabled 0
+       }
+      }
+      coords -1.808 4.281 -1.523
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBD6F8}" {
+        Object "{E033A2903B925FB7}Assets/Props/Furniture/LampFluorescent_01/LampFluorescent_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBD6A4}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBD694}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BBD766}" {
+        Enabled 0
+       }
+      }
+      coords 8.098 4.281 -1.523
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBD7B6}" {
+        Object "{E033A2903B925FB7}Assets/Props/Furniture/LampFluorescent_01/LampFluorescent_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBD793}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBD443}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BBD455}" {
+        Enabled 0
+       }
+      }
+      coords -5.502 4.281 -1.522
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBD567}" {
+        Object "{E033A2903B925FB7}Assets/Props/Furniture/LampFluorescent_01/LampFluorescent_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBD545}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBD536}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BBD507}" {
+        Enabled 0
+       }
+      }
+      coords 2.832 4.281 -1.522
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBD24B}" {
+        Object "{E033A2903B925FB7}Assets/Props/Furniture/LampFluorescent_01/LampFluorescent_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBD229}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBD21A}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BBD2EC}" {
+        Enabled 0
+       }
+      }
+      coords -5.738 4.281 -5.981
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBD333}" {
+        Object "{E033A2903B925FB7}Assets/Props/Furniture/LampFluorescent_01/LampFluorescent_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBD312}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBD3C2}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BBD3D5}" {
+        Enabled 0
+       }
+      }
+      coords 5.131 4.281 -5.994
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBD01B}" {
+        Object "{E033A2903B925FB7}Assets/Props/Furniture/LampFluorescent_01/LampFluorescent_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBD0F9}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBD0AA}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BBD0BC}" {
+        Enabled 0
+       }
+      }
+      coords -8.94 4.281 1.389
+      angleY 90
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBD1C8}" {
+        Object "{7071D507EA7CA65D}Assets/Props/Furniture/BenchWooden_03/BenchWooden_03.xob"
+        LODFactors {
+        }
+       }
+       RigidBody "{60A33EEB78BBD1B3}" {
+        ModelGeometry 1
+        Static 1
+       }
+      }
+      coords 12.072 0.609 -6.25
+      angleY -90
+      Flags 1027
+      {
+       GenericEntity : "{BCE07A58672955B9}Prefabs/Props/Civilian/Bucket_01.et" {
+        coords -0.54 0.5 0.026
+        angleY -138
+       }
+      }
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBEF77}" {
+        Object "{8D4E2E836BBABBDD}Assets/Props/Civilian/Bucket_01/Bucket_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBEF50}" {
+        Mass 3
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBEF0C}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BBEF1E}" {
+        Enabled 0
+       }
+      }
+      coords -6.462 0.609 -3.414
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBEC2B}" {
+        Object "{8D4E2E836BBABBDD}Assets/Props/Civilian/Bucket_01/Bucket_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBEC17}" {
+        Mass 3
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBECC4}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BBECD6}" {
+        Enabled 0
+       }
+      }
+      coords 3.481 0.609 -6.732
+      angleY -157
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBEDF4}" {
+        Object "{5C506E2B3F4CC6D1}Assets/Props/Furniture/Boiler_01/Boiler_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBEDDF}" {
+        Mass 45
+        ResponseIndex "HugeDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBED9E}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 3500
+        m_fForceToDamageScale 350
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{60A33EEB78BBEDB5}" {
+          m_fPhaseHealth 2000
+          m_PhaseModel "{905C8CBCB89610BC}Assets/Props/Furniture/Boiler_01/dst/Boiler_01_dst_01.xob"
+         }
+        }
+        m_eMaterialSoundType BREAK_METAL_POLE
+       }
+       RplComponent "{60A33EEB78BBEA6F}" {
+        Enabled 0
+       }
+      }
+      coords 7.198 2.959 -7.962
+      angleY 90
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBEA96}" {
+        Object "{70387CC3F62CFAC9}Assets/Props/Furniture/Rack_03/Rack_03.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBEB73}" {
+        ResponseIndex "HugeDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBEB22}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BBEB35}" {
+        Enabled 0
+       }
+      }
+      coords 8.928 0.609 -3.185
+      angleY 180
+      scale 0.95
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBE8E4}" {
+        Object "{2A3B9E45C4ACA4FC}Assets/Props/Furniture/Faucet_01/Faucet_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBE8C0}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBE887}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 300
+        m_fForceToDamageScale 350
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{60A33EEB78BBE8DF}" {
+          m_fPhaseHealth 200
+          m_PhaseModel "{5F14173BDD97FC22}Assets/Props/Furniture/Faucet_01/dst/Faucet_01_dst_01.xob"
+         }
+        }
+        m_eMaterialSoundType BREAK_METAL_POLE
+       }
+       RplComponent "{60A33EEB78BBE889}" {
+        Enabled 0
+       }
+      }
+      coords -2.327 1.799 5.6
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBE9A1}" {
+        Object "{2A3B9E45C4ACA4FC}Assets/Props/Furniture/Faucet_01/Faucet_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBE98F}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBE67B}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 300
+        m_fForceToDamageScale 350
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{60A33EEB78BBE991}" {
+          m_fPhaseHealth 200
+          m_PhaseModel "{5F14173BDD97FC22}Assets/Props/Furniture/Faucet_01/dst/Faucet_01_dst_01.xob"
+         }
+        }
+        m_eMaterialSoundType BREAK_METAL_POLE
+       }
+       RplComponent "{60A33EEB78BBE64D}" {
+        Enabled 0
+       }
+      }
+      coords 3.248 1.897 -6.15
+      angleY 90
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBE761}" {
+        Object "{C215E3788A672644}Assets/Props/Furniture/ChairOffice_01/ChairOffice_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBE74C}" {
+        Mass 10
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBE716}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 700
+        m_fForceToDamageScale 350
+        m_DestroySpawnObjects {
+         SCR_DebrisSpawnable "{60A33EEB78BBE724}" {
+          m_ModelPrefabs {
+           "{FB70F4FC4D9A9F57}Assets/Props/Furniture/ChairOffice_01/Dst/ChairOffice_01_dst02.xob" "{8BBD6625DFBECAE4}Assets/Props/Furniture/ChairOffice_01/Dst/ChairOffice_01_dst04.xob"
+          }
+          m_fRandomVelocityLinear 5
+          m_eMaterialSoundType METAL_LIGHT
+         }
+         SCR_DebrisSpawnable "{60A33EEB78BBE72D}" {
+          m_ModelPrefabs {
+           "{8C7A9C74B9387027}Assets/Props/Furniture/ChairOffice_01/Dst/ChairOffice_01_dst03.xob" "{626E4D65507DAEC7}Assets/Props/Furniture/ChairOffice_01/Dst/ChairOffice_01_dst01.xob" "{FCB70EAD2B1C2594}Assets/Props/Furniture/ChairOffice_01/Dst/ChairOffice_01_dst05.xob"
+          }
+          m_fMass 3
+          m_eMaterialSoundType WOOD_PLANK_SMALL
+         }
+        }
+        m_eMaterialSoundType BREAK_METAL_POLE
+       }
+       RplComponent "{60A33EEB78BBE718}" {
+        Enabled 0
+       }
+      }
+      coords -9.665 0.609 4.824
+      angleY 15
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBE41F}" {
+        Object "{C215E3788A672644}Assets/Props/Furniture/ChairOffice_01/ChairOffice_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBE4FD}" {
+        Mass 10
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBE4B1}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 700
+        m_fForceToDamageScale 350
+        m_DestroySpawnObjects {
+         SCR_DebrisSpawnable "{60A33EEB78BBE4CD}" {
+          m_ModelPrefabs {
+           "{FB70F4FC4D9A9F57}Assets/Props/Furniture/ChairOffice_01/Dst/ChairOffice_01_dst02.xob" "{8BBD6625DFBECAE4}Assets/Props/Furniture/ChairOffice_01/Dst/ChairOffice_01_dst04.xob"
+          }
+          m_fRandomVelocityLinear 5
+          m_eMaterialSoundType METAL_LIGHT
+         }
+         SCR_DebrisSpawnable "{60A33EEB78BBE4C8}" {
+          m_ModelPrefabs {
+           "{8C7A9C74B9387027}Assets/Props/Furniture/ChairOffice_01/Dst/ChairOffice_01_dst03.xob" "{626E4D65507DAEC7}Assets/Props/Furniture/ChairOffice_01/Dst/ChairOffice_01_dst01.xob" "{FCB70EAD2B1C2594}Assets/Props/Furniture/ChairOffice_01/Dst/ChairOffice_01_dst05.xob"
+          }
+          m_fMass 3
+          m_eMaterialSoundType WOOD_PLANK_SMALL
+         }
+        }
+        m_eMaterialSoundType BREAK_METAL_POLE
+       }
+       RplComponent "{60A33EEB78BBE483}" {
+        Enabled 0
+       }
+      }
+      coords -5.673 0.609 -5.545
+      angleY -4.703
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBE5A6}" {
+        Object "{C215E3788A672644}Assets/Props/Furniture/ChairOffice_01/ChairOffice_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBE585}" {
+        Mass 10
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBE279}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 700
+        m_fForceToDamageScale 350
+        m_DestroySpawnObjects {
+         SCR_DebrisSpawnable "{60A33EEB78BBE595}" {
+          m_ModelPrefabs {
+           "{FB70F4FC4D9A9F57}Assets/Props/Furniture/ChairOffice_01/Dst/ChairOffice_01_dst02.xob" "{8BBD6625DFBECAE4}Assets/Props/Furniture/ChairOffice_01/Dst/ChairOffice_01_dst04.xob"
+          }
+          m_fRandomVelocityLinear 5
+          m_eMaterialSoundType METAL_LIGHT
+         }
+         SCR_DebrisSpawnable "{60A33EEB78BBE591}" {
+          m_ModelPrefabs {
+           "{8C7A9C74B9387027}Assets/Props/Furniture/ChairOffice_01/Dst/ChairOffice_01_dst03.xob" "{626E4D65507DAEC7}Assets/Props/Furniture/ChairOffice_01/Dst/ChairOffice_01_dst01.xob" "{FCB70EAD2B1C2594}Assets/Props/Furniture/ChairOffice_01/Dst/ChairOffice_01_dst05.xob"
+          }
+          m_fMass 3
+          m_eMaterialSoundType WOOD_PLANK_SMALL
+         }
+        }
+        m_eMaterialSoundType BREAK_METAL_POLE
+       }
+       RplComponent "{60A33EEB78BBE24C}" {
+        Enabled 0
+       }
+      }
+      coords 11.428 0.609 4.935
+      angleY 12
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBE373}" {
+        Object "{9FEC61F9EF5D8BEC}Assets/Props/Furniture/TableWorkshop_01/TableWorkshop_01_Short.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBE35A}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBE3D8}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 300
+        m_fForceToDamageScale 200
+        m_fDamageThresholdMaximum 20000
+        m_DestroySpawnObjects {
+         SCR_DebrisSpawnable "{60A33EEB78BBE3E0}" {
+          m_ModelPrefabs {
+           "{E0F9496510CD54E0}Assets/Props/Furniture/TableWorkshop_01/Dst/TableWorkshop_01_dst_01.xob" "{79E7F0FC0D2A6570}Assets/Props/Furniture/TableWorkshop_01/Dst/TableWorkshop_01_dst_02.xob" "{0EED9874F9888A00}Assets/Props/Furniture/TableWorkshop_01/Dst/TableWorkshop_01_dst_03.xob" "{092A62259F0E30C3}Assets/Props/Furniture/TableWorkshop_01/Dst/TableWorkshop_01_dst_04.xob" "{7E200AAD6BACDFB3}Assets/Props/Furniture/TableWorkshop_01/Dst/TableWorkshop_01_dst_05.xob" "{E73EB334764BEE23}Assets/Props/Furniture/TableWorkshop_01/Dst/TableWorkshop_01_dst_06.xob" "{9034DBBC82E90153}Assets/Props/Furniture/TableWorkshop_01/Dst/TableWorkshop_01_dst_07.xob"
+          }
+          m_fMass 5
+          m_fDamageToImpulse 0.02
+          m_fRandomVelocityLinear 2
+          m_eMaterialSoundType WOOD_PLANK_SMALL
+         }
+        }
+        m_eMaterialSoundType BREAK_WOOD_SOLID
+       }
+       RplComponent "{60A33EEB78BBE3A9}" {
+        Enabled 0
+       }
+      }
+      coords 10.337 0.609 -8.138
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBE089}" {
+        Object "{243039883C576CD5}Assets/Props/Furniture/TableSmall_01/TableSmall_01.xob"
+        Materials {
+         MaterialAssignClass "{60A33EEB78BBE0FA}" {
+          SourceMaterial "TableSmall_01"
+          AssignedMaterial "{CC831151AD178BEF}Assets/Props/Furniture/TableSmall_01/Data/TableSmall_01_V2.emat"
+         }
+         MaterialAssignClass "{60A33EEB78BBE0C5}" {
+          SourceMaterial "Color_palette"
+          AssignedMaterial "{C3EA9882C7C17E6F}Assets/Props/Furniture/TableSmall_01/Data/TableSmall_01_CP_LightWood.emat"
+         }
+        }
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBE170}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBE11B}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 800
+        m_fForceToDamageScale 350
+        m_DestroySpawnObjects {
+         SCR_DebrisSpawnable "{60A33EEB78BBE12E}" {
+          m_ModelPrefabs {
+           "{961E870C68F3F850}Prefabs/Props/Furniture/TableSmall_01/Dst/TableSmall_01_dst_01_light.et" "{7F57C87C0D3BC794}Prefabs/Props/Furniture/TableSmall_01/Dst/TableSmall_01_dst_02_light.et" "{81578839F869ABD8}Prefabs/Props/Furniture/TableSmall_01/Dst/TableSmall_01_dst_03_light.et" "{FEB78A376102C31A}Prefabs/Props/Furniture/TableSmall_01/Dst/TableSmall_01_dst_04_light.et"
+          }
+          m_eMaterialSoundType WOOD_PLANK_SMALL
+         }
+        }
+        m_eMaterialSoundType BREAK_WOOD_SOLID
+       }
+       RplComponent "{60A33EEB78BBE1ED}" {
+        Enabled 0
+       }
+      }
+      coords -10.382 0.609 -4.512
+      angleY -171.58
+      Flags 1027
+     }
+     {
+      components {
+       SignalsManagerComponent "{60A33EEB78BBFE1C}" {
+       }
+       MeshObject "{60A33EEB78BBFEDE}" {
+        Object "{1FEE17094799D7DA}Assets/Props/Furniture/ClockWall_01/ClockWall_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBFE87}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       ProcAnimComponent "{60A33EEB78BBFE9B}" {
+        Parameters {
+         ProcAnimParams "{60A33EEB78BBFE9C}" {
+          ResourceName "{8874E8B89A7D57F1}anims/proc/Clock_hands.pap"
+          BoneNames {
+           "HourHand" "MinuteHand" ""
+          }
+          SimulateOnDedicatedServer 0
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBFF57}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BBFF59}" {
+        Enabled 0
+       }
+      }
+      coords 9.229 3.154 5.6
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       SignalsManagerComponent "{60A33EEB78BBFD82}" {
+       }
+       MeshObject "{60A33EEB78BBFA42}" {
+        Object "{1FEE17094799D7DA}Assets/Props/Furniture/ClockWall_01/ClockWall_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBFA2D}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       ProcAnimComponent "{60A33EEB78BBFA30}" {
+        Parameters {
+         ProcAnimParams "{60A33EEB78BBFA31}" {
+          ResourceName "{8874E8B89A7D57F1}anims/proc/Clock_hands.pap"
+          BoneNames {
+           "HourHand" "MinuteHand" ""
+          }
+          SimulateOnDedicatedServer 0
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBFAEA}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BBFAFD}" {
+        Enabled 0
+       }
+      }
+      coords -7.252 3.112 -0.023
+      angleY -90
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBF81B}" {
+        Object "{A37F3027FD5051FD}Assets/Props/Industrial/Pallets/Pallet_01.xob"
+        LODFactors {
+         120 50 8 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBF8C5}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBF88B}" {
+        Enabled 1
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 800
+        m_fForceToDamageScale 350
+        m_DestroySpawnObjects {
+         SCR_DebrisSpawnable "{60A33EEB78BBF8D9}" {
+          m_ModelPrefabs {
+           "{D66B05CEFF83BD4B}Assets/Props/Industrial/Pallets/dst/Pallet_01_dst_01.xob" "{4F75BC57E2648CDB}Assets/Props/Industrial/Pallets/dst/Pallet_01_dst_02.xob" "{387FD4DF16C663AB}Assets/Props/Industrial/Pallets/dst/Pallet_01_dst_03.xob" "{3FB82E8E7040D968}Assets/Props/Industrial/Pallets/dst/Pallet_01_Dst_04.xob"
+          }
+          m_eMaterialSoundType WOOD_PLANK_SMALL
+         }
+         SCR_ParticleSpawnable "{60A33EEB78BBF8A3}" {
+          m_Particle "{63D673751320F318}Particles/Props/Dest_Prop_Wood_Medium.ptc"
+         }
+        }
+        m_eMaterialSoundType BREAK_WOOD_SOLID
+       }
+       RplComponent "{60A33EEB78BBF89D}" {
+        Enabled 1
+       }
+      }
+      coords 11.859 0.609 -4.447
+      angleY 180
+      Flags 1027
+      {
+       GenericEntity : "{FCBEDECB2A39B6BC}Prefabs/Props/Military/Generators/GeneratorPortable_USSR_01.et" {
+        coords -0.029 0.133 -0.129
+        angleY 3
+       }
+      }
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBF4AA}" {
+        Object "{A2FC14F0DB8B8F67}Assets/Structures/BuildingsParts/Heating/RadiatorCastIron_01/RadiatorCastIron_01_95.xob"
+        LODFactors {
+         10 2 2 3 2 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBF49F}" {
+        ResponseIndex "HugeDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBF554}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BBF525}" {
+        Enabled 0
+       }
+       Hierarchy "{60A33EEB78BBF521}" {
+       }
+      }
+      coords -8.382 1.063 5.6
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBF2E5}" {
+        Object "{A2FC14F0DB8B8F67}Assets/Structures/BuildingsParts/Heating/RadiatorCastIron_01/RadiatorCastIron_01_95.xob"
+        LODFactors {
+         10 2 2 3 2 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBF2CE}" {
+        ResponseIndex "HugeDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBF2BA}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BBF28D}" {
+        Enabled 0
+       }
+       Hierarchy "{60A33EEB78BBF28A}" {
+       }
+      }
+      coords 12.298 1.055 2.75
+      angleY -90
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBF3AE}" {
+        Object "{A2FC14F0DB8B8F67}Assets/Structures/BuildingsParts/Heating/RadiatorCastIron_01/RadiatorCastIron_01_95.xob"
+        LODFactors {
+         10 2 2 3 2 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBF397}" {
+        ResponseIndex "HugeDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBF046}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BBF056}" {
+        Enabled 0
+       }
+       Hierarchy "{60A33EEB78BBF053}" {
+       }
+      }
+      coords -10.752 1.045 -5.969
+      angleY 90
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BBF158}" {
+        Object "{A2FC14F0DB8B8F67}Assets/Structures/BuildingsParts/Heating/RadiatorCastIron_01/RadiatorCastIron_01_95.xob"
+        LODFactors {
+         10 2 2 3 2 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BBF101}" {
+        ResponseIndex "HugeDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BBF1F0}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BBF1C2}" {
+        Enabled 0
+       }
+       Hierarchy "{60A33EEB78BBF1C0}" {
+       }
+      }
+      coords -10.752 1.06 0.286
+      angleY 90
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BB0EA0}" {
+        Object "{D0C561ECDD48AC28}Assets/Props/Civilian/WallMap_01/WallMap_01.xob"
+        LODFactors {
+        }
+       }
+       RigidBody "{60A33EEB78BB0E8E}" {
+        Mass 10
+        ModelGeometry 1
+        Static 1
+       }
+      }
+      coords -10.74 2.127 1.9
+      angleY 90
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BB0F85}" {
+        Object "{E478689E643AC3CA}Assets/Props/Civilian/Heater_01/Heater_01.xob"
+        Materials {
+         MaterialAssignClass "{60A33EEB78BB0FC6}" {
+          SourceMaterial "Heater_01_green"
+          AssignedMaterial "{8B696CDA98063EE0}Assets/Props/Civilian/Heater_01/Data/Heater_01_orange.emat"
+         }
+         MaterialAssignClass "{60A33EEB78BB0FC0}" {
+          SourceMaterial "Color_palette_01"
+          AssignedMaterial "{98D0BB3667BE0E68}Common/Materials/ColorPalette/Color_palette_01_ORANGE_12_S4_R1.emat"
+         }
+        }
+       }
+       RigidBody "{60A33EEB78BB0C66}" {
+        Mass 10
+        ModelGeometry 1
+        Static 1
+       }
+      }
+      coords 10.204 0.609 5.259
+      angleY 92
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BB0C9E}" {
+        Object "{22504F1DC9576BA6}Assets/Props/Furniture/Shower_01/Shower_01_addon.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BB0D47}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BB0D0A}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 500
+        m_fForceToDamageScale 350
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{60A33EEB78BB0D25}" {
+          m_fPhaseHealth 500
+          m_PhaseModel "{AEA1D87B925F0F6D}Assets/Props/Furniture/Shower_01/Dst/Shower_01_Dst_addon.xob"
+          m_PhaseDestroySpawnObjects {
+           SCR_DebrisSpawnable "{60A33EEB78BB0D26}" {
+            m_ModelPrefabs {
+             "{AEA1D87B925F0F6D}Assets/Props/Furniture/Shower_01/Dst/Shower_01_Dst_addon.xob"
+            }
+           }
+          }
+         }
+        }
+        m_eMaterialSoundType BREAK_METAL_POLE
+       }
+       RplComponent "{60A33EEB78BB0D1C}" {
+        Enabled 0
+       }
+      }
+      coords 6.998 1.573 -7.902
+      angleY -90
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BB0A32}" {
+        Object "{22504F1DC9576BA6}Assets/Props/Furniture/Shower_01/Shower_01_addon.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BB0A10}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BB637B}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 500
+        m_fForceToDamageScale 350
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{60A33EEB78BB6343}" {
+          m_fPhaseHealth 500
+          m_PhaseModel "{AEA1D87B925F0F6D}Assets/Props/Furniture/Shower_01/Dst/Shower_01_Dst_addon.xob"
+          m_PhaseDestroySpawnObjects {
+           SCR_DebrisSpawnable "{60A33EEB78BB0AE9}" {
+            m_ModelPrefabs {
+             "{AEA1D87B925F0F6D}Assets/Props/Furniture/Shower_01/Dst/Shower_01_Dst_addon.xob"
+            }
+           }
+          }
+         }
+        }
+        m_eMaterialSoundType BREAK_METAL_POLE
+       }
+       RplComponent "{60A33EEB78BB6309}" {
+        Enabled 0
+       }
+      }
+      coords 3.248 1.622 -7.898
+      angleY 90
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BB626E}" {
+        Object "{4C75B33596056778}Assets/Props/Furniture/LampFluorescent_02/LampFluorescent_02.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BB620B}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BB6237}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fForceToDamageScale 350
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BB61C5}" {
+        Enabled 0
+       }
+      }
+      coords 8.127 4.281 3.135
+      angleY 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BB60CB}" {
+        Object "{0A6A467EC3F7D875}Assets/Structures/BuildingsParts/Lights/LightIndustrial_01.xob"
+        LODFactors {
+         20 5 1 1 1 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BB60E3}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BB6092}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 200
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BB60A0}" {
+        Enabled 0
+       }
+       RplComponent "{60A33EEB78BB60B0}" {
+        Enabled 0
+       }
+       Hierarchy "{60A33EEB78BB60B2}" {
+       }
+      }
+      coords 1.225 4.281 -5.966
+      angleX -89.96
+      angleZ 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BB6F69}" {
+        Object "{0A6A467EC3F7D875}Assets/Structures/BuildingsParts/Lights/LightIndustrial_01.xob"
+        LODFactors {
+         20 5 1 1 1 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BB6F01}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BB6F30}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 200
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BB6EC7}" {
+        Enabled 0
+       }
+       RplComponent "{60A33EEB78BB6ED4}" {
+        Enabled 0
+       }
+       Hierarchy "{60A33EEB78BB6ED7}" {
+       }
+      }
+      coords 9.567 4.281 -6.019
+      angleX -89.96
+      angleZ 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BB6DE2}" {
+        Object "{0A6A467EC3F7D875}Assets/Structures/BuildingsParts/Lights/LightIndustrial_01.xob"
+        LODFactors {
+         20 5 1 1 1 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BB6D9A}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BB6D4B}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 200
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BB6D59}" {
+        Enabled 0
+       }
+       RplComponent "{60A33EEB78BB6D6E}" {
+        Enabled 0
+       }
+       Hierarchy "{60A33EEB78BB6D69}" {
+       }
+      }
+      coords -2.265 4.281 3.109
+      angleX -89.96
+      angleY 180
+      angleZ 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BB6C78}" {
+        Object "{0A6A467EC3F7D875}Assets/Structures/BuildingsParts/Lights/LightIndustrial_01.xob"
+        LODFactors {
+         20 5 1 1 1 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BB6C11}" {
+        ResponseIndex "TinyDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BB6BC6}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 200
+        m_fForceToDamageScale 350
+       }
+       RplComponent "{60A33EEB78BB6BD4}" {
+        Enabled 0
+       }
+       RplComponent "{60A33EEB78BB6BE5}" {
+        Enabled 0
+       }
+       Hierarchy "{60A33EEB78BB6BE4}" {
+       }
+      }
+      coords 1.556 4.281 3.116
+      angleX -89.96
+      angleY 180
+      angleZ 180
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BB6AF1}" {
+        Object "{0362A91A995E18ED}Assets/Props/Civilian/SackTruck_01/SackTruck_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BB6AAD}" {
+        Mass 20
+        LinearDamping 0.1
+        AngularDamping 0.1
+        ResponseIndex "SmallDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BB6A51}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 2000
+        m_fForceToDamageScale 350
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{60A33EEB78BB6AB8}" {
+          m_fPhaseHealth 2000
+          m_PhaseModel "{59F49E4695679C21}Assets/Props/Civilian/SackTruck_01/Dst/SackTruck_01_dst.xob"
+         }
+        }
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BB6A67}" {
+        Enabled 0
+       }
+      }
+      coords 7.448 0.609 -8.173
+      angleY -99
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BB695C}" {
+        Object "{BD8B1D1F2D82641B}Assets/Props/Furniture/Toilet_01/Toilet_01.xob"
+        LODFactors {
+        }
+       }
+       RigidBody "{60A33EEB78BB6974}" {
+        ResponseIndex "SmallDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BB693B}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 2000
+        m_fForceToDamageScale 350
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{60A33EEB78BB6902}" {
+          m_fPhaseHealth 3000
+          m_PhaseModel "{CE8A5FC3C0EC74FE}Assets/Props/Furniture/Toilet_01/dst/Toilet_01_dst_01.xob"
+         }
+        }
+        m_eMaterialSoundType NONE
+       }
+       ActionsManagerComponent "{60A33EEB78BB68F9}" {
+        ActionContexts {
+         UserActionContext "{60A33EEB78BB68D9}" {
+          ContextName "Flush"
+          Position PointInfo "{60A33EEB78BB68DE}" {
+           Offset -0.3391 1.0789 0.095
+          }
+          Radius 0.7
+          Omnidirectional 0
+         }
+        }
+        additionalActions {
+         SCR_FlushToilet "{60A33EEB78BB68FE}" {
+          ParentContextList {
+           "Flush"
+          }
+          UIInfo UIInfo "{60A33EEB78BB68E8}" {
+          }
+          m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{60A33EEB78BB68E2}" {
+           m_sSoundProject "{78F34A21E46A6835}Sounds/Props/Furniture/Toilet_01/Props_Toilet_01.acp"
+           m_sSoundEventName "SOUND_TOILET"
+          }
+          m_vSoundOffset 0 1 0.15
+         }
+        }
+       }
+       RplComponent "{60A33EEB78BB68F4}" {
+       }
+      }
+      coords 3.256 0.609 -3.723
+      angleY 90
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BB770C}" {
+        Object "{BD8B1D1F2D82641B}Assets/Props/Furniture/Toilet_01/Toilet_01.xob"
+        LODFactors {
+        }
+       }
+       RigidBody "{60A33EEB78BB772E}" {
+        ResponseIndex "SmallDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BB76D3}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 2000
+        m_fForceToDamageScale 350
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{60A33EEB78BB7739}" {
+          m_fPhaseHealth 3000
+          m_PhaseModel "{CE8A5FC3C0EC74FE}Assets/Props/Furniture/Toilet_01/dst/Toilet_01_dst_01.xob"
+         }
+        }
+        m_eMaterialSoundType NONE
+       }
+       ActionsManagerComponent "{60A33EEB78BA8EEB}" {
+        ActionContexts {
+         UserActionContext "{60A33EEB78BB76FD}" {
+          ContextName "Flush"
+          Position PointInfo "{60A33EEB78BB76E2}" {
+           Offset -0.3391 1.0789 0.095
+          }
+          Radius 0.7
+          Omnidirectional 0
+         }
+        }
+        additionalActions {
+         SCR_FlushToilet "{60A33EEB78BB76F0}" {
+          ParentContextList {
+           "Flush"
+          }
+          UIInfo UIInfo "{60A33EEB78BB76F5}" {
+          }
+          m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{60A33EEB78BB76F1}" {
+           m_sSoundProject "{78F34A21E46A6835}Sounds/Props/Furniture/Toilet_01/Props_Toilet_01.acp"
+           m_sSoundEventName "SOUND_TOILET"
+          }
+          m_vSoundOffset 0 1 0.15
+         }
+        }
+       }
+       RplComponent "{60A33EEB78BA8E97}" {
+       }
+      }
+      coords -1.522 0.609 0.162
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BA8D7B}" {
+        Object "{F6D90BF6B8A347B7}Assets/Props/Furniture/Wardrobe_01/Wardrobe_01.xob"
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BA8D05}" {
+        ResponseIndex "MediumDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BA8CC7}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 2000
+        m_fForceToDamageScale 350
+        m_aDamagePhases {
+         SCR_DamagePhaseData "{60A33EEB78BA8D3D}" {
+          m_fPhaseHealth 3000
+          m_PhaseModel "{E3960AC7ED8D4A31}Assets/Props/Furniture/Wardrobe_01/dst/Wardrobe_01_dst_01.xob"
+         }
+        }
+        m_eMaterialSoundType BREAK_WOOD_SOLID
+       }
+       RplComponent "{60A33EEB78BA8CC9}" {
+        Enabled 0
+       }
+      }
+      coords -10.709 0.609 -2.933
+      angleX 0.05
+      angleY 90.36
+      angleZ -0.376
+      Flags 1027
+     }
+     {
+      components {
+       MeshObject "{60A33EEB78BA8B85}" {
+        Object "{138FB8A2D71B1603}Assets/Props/Furniture/CabinetMetal_01/CabinetMetal_01.xob"
+        Materials {
+         MaterialAssignClass "{60A33EEB78BA8BD5}" {
+          SourceMaterial "CabinetMetal_01"
+          AssignedMaterial "{B48BFD97505BF423}Assets/Props/Furniture/CabinetMetal_01/Data/CabinetMetal_01_olive_V2.emat"
+         }
+         MaterialAssignClass "{60A33EEB78BA8BDE}" {
+          SourceMaterial "Color_palette"
+          AssignedMaterial "{40F12B1BDC73F38E}Common/Materials/ColorPalette/Color_palette_01_LEMON_12_S1_R2.emat"
+         }
+        }
+        LODFactors {
+         5 2 1.5 1 1 1
+        }
+       }
+       RigidBody "{60A33EEB78BA8B55}" {
+        ResponseIndex "HugeDestructible"
+        ModelGeometry 1
+        Static 1
+       }
+       SCR_DestructionMultiPhaseComponent "{60A33EEB78BA8B6C}" {
+        Enabled 0
+        "Additional hit zones" {
+         ScriptedHitZone Default {
+          HZDefault 1
+          "Melee multiplier" 1
+          "Kinetic multiplier" 1
+          "Explosive multiplier" 90
+          "Incendiary multiplier" 1
+         }
+        }
+        m_fBaseHealth 5000
+        m_fForceToDamageScale 350
+        m_eMaterialSoundType BREAK_METAL
+       }
+       RplComponent "{60A33EEB78BA8B1E}" {
+        Enabled 0
+       }
+      }
+      coords 11.006 0.609 0.417
+      angleY -1.204
+      Flags 1027
+     }
+    }
+    GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+     components {
+      MeshObject "{5872F0EB7FA40561}" {
+       Object "{4FBF5B87205EAE8A}Assets/Props/Civilian/WoodKindling_01/WoodKindling_Crate_01.xob"
+      }
+      RigidBody "{5872F0EB7DFB5A9D}" {
+       Mass 10
+       ResponseIndex "TinyDestructible"
+       ModelGeometry 1
+       Static 1
+      }
+      SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+       m_fBaseHealth 400
+      }
+     }
+     coords -1.23 0.609 -4.841
+     angleY 179
+     Flags 2098179
+     {
+      GenericEntity : "{AA3D2C0BB0D2B56B}Prefabs/Props/Crates/Crate_01_green.et" {
+       components {
+        Hierarchy "{5C64D58A1DE54631}" {
+        }
+       }
+       Flags 2098179
+      }
+     }
+    }
+   }
+  }
+  $grp GenericEntity : "{3001595FE0D14B45}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_INT_COV_B.et" {
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "socket_door_int_04"
+     }
+    }
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "socket_door_int_02"
+     }
+    }
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "socket_door_int_08"
+     }
+    }
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "socket_door_int_07"
+     }
+    }
+   }
+  }
+  $grp GenericEntity : "{3C102361767BA9CB}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock_01/Win_GlassBlock_01_175x100.et" {
+   {
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_win_175x100_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_win_175x100_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{4C9E12B6211058AE}Prefabs/Structures/BuildingParts/Misc/VentCover_01_1x1.et" {
+   {
+    coords 3.533 4.843 6.056
+    angleY -3.946
+   }
+   {
+    coords -2.185 4.843 6.063
+    angleY 1.169
+   }
+   {
+    coords 6.303 4.847 6.062
+    angleY -0.608
+   }
+   {
+    coords 9.239 4.844 6.05
+    angleX -0.031
+    angleY -0.219
+    angleZ -2.241
+   }
+   {
+    coords 12.047 4.842 6.048
+    angleY 0.689
+   }
+   {
+    coords -0.536 0.878 -8.582
+   }
+   {
+    coords 5.127 3.675 -8.602
+   }
+   {
+    coords 5.127 3.675 -9
+    angleY 180
+   }
+   {
+    coords -10.538 4.843 6.055
+   }
+   {
+    coords -4.807 4.843 6.068
+    angleY 3.338
+   }
+   {
+    coords -7.758 4.843 6.055
+   }
+   {
+    coords 0.77 4.841 6.055
+    angleY 1.154
+   }
+   {
+    coords -10.752 2.909 5.259
+    angleY 90
+   }
+   {
+    coords -0.536 0.878 -9
+    angleY 180
+   }
+   {
+    coords -11.152 2.909 5.26
+    angleY -90
+   }
+  }
+  EnvironmentProbeEntity : "{565470F7BA530E0D}Prefabs/Structures/Core/ProbeHouse_Base.et" {
+   coords -6.9 1.918 -5.272
+  }
+  GenericEntity : "{642B9684E3A20295}Prefabs/Structures/BuildingParts/UtilityBoxes/UtilityBoxExt_01_L.et" {
+   components {
+    Hierarchy "{612AE78C95E98EEB}" {
+     Enabled 1
+     PivotID "socket_utilityboxes_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{66A908B66DC3277A}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_INT_COV_B.et" {
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_int_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_int_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_int_06"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_int_09"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_int_10"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{6F41A804946CD405}Prefabs/Structures/BuildingParts/Windows/Win_Bars_A/Win_Bars_A_70x72.et" {
+   {
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_win_70x72_06"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_win_70x72_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_win_70x72_05"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_win_70x72_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_win_70x72_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_win_70x72_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{731BDEAEE0303E54}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_04_SideWays.et" {
+   components {
+    Hierarchy "{5488F0388A297CDE}" {
+     Enabled 1
+     PivotID "socket_entry_02"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{79F622DEBB73D581}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_EXT_COV_B_brown.et" {
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_ext_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_ext_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_ext_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{7CE00244C0672B8C}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock_01/Win_GlassBlock_01_275x100.et" {
+   components {
+    MeshObject "{0753E6C34272713D}" {
+     Materials {
+      MaterialAssignClass "{58A28CDD6DAD4F28}" {
+       SourceMaterial "Win_GlassBlock_01_Glass_Ext"
+       AssignedMaterial "{BDF3C1FA95C91E57}Assets/Structures/BuildingsParts/Windows/Win_GlassBlock_01/Data/Win_GlassBlock_01_Glass_Int.emat"
+      }
+      MaterialAssignClass "{58A28CDD6DAD4F47}" {
+       SourceMaterial "Win_GlassBlock_01_Mortar_Ext"
+       AssignedMaterial "{5047A3886CA5DC6A}Assets/Structures/BuildingsParts/Windows/Win_GlassBlock_01/Data/Win_GlassBlock_01_Mortar_Int.emat"
+      }
+     }
+    }
+    Hierarchy "{7642683663DE57B3}" {
+     Enabled 1
+     PivotID "socket_win_275x100_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{81B7DA7DEF4795FE}Prefabs/Structures/BuildingParts/UtilityBoxes/UtilityBoxExt_01_M.et" {
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "socket_utilityboxes_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "socket_utilityboxes_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{AC8037B92BF3ABE9}Prefabs/Structures/BuildingParts/Entry/ConcreteSlope_02_SmallVehicle.et" {
+   components {
+    Hierarchy "{5488F0388A297CDE}" {
+     Enabled 1
+     PivotID "socket_entry_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{B088F5F8EA2ADEF6}Prefabs/Structures/BuildingParts/Doors/Doorset_GuardHouse_03_A_EXT_B.et" {
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     Enabled 1
+     PivotID "socket_door_ext_04"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{C02CD56C0C344D69}Prefabs/Structures/BuildingParts/Misc/VentCover_01_Circular.et" {
+   {
+    coords 1.137 3.003 -9.001
+    angleY 180
+   }
+   {
+    coords 1.136 3.003 -8.602
+   }
+   {
+    coords 3.635 2.839 5.601
+    angleY 180
+   }
+   {
+    coords 3.635 2.839 6.001
+   }
+  }
+  $grp GenericEntity : "{D7462F99BC0CDAE8}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_04.et" {
+   {
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      Enabled 1
+      PivotID "socket_entry_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      Enabled 1
+      PivotID "socket_entry_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{E67E7C6D9340BED5}Prefabs/Structures/BuildingParts/Misc/VentCover_01_3x1.et" {
+   {
+    coords -1.706 0.881 5.599
+    angleY 180
+   }
+   {
+    coords -1.705 0.881 6
+   }
+   {
+    coords -2.698 0.874 -8.601
+   }
+   {
+    coords -2.696 0.874 -9
+    angleY 180
+   }
+   {
+    coords 5.385 0.881 5.6
+    angleY 180
+   }
+   {
+    coords 5.385 0.881 6
+   }
+  }
+  GenericEntity : "{FCAF36858AD4A967}Prefabs/Structures/BuildingParts/UtilityBoxes/UtilityBoxExt_01_S.et" {
+   components {
+    Hierarchy "{612AE78C95E98EEB}" {
+     Enabled 1
+     PivotID "socket_utilityboxes_04"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{70BB4AC95C8CF178}UI/MissionImages/RedAlert/RedAlert2.imageset"
+ Configurations {
+  ImageSetResourceClass PC {
+  }
+  ImageSetResourceClass XBOX_ONE : PC {
+  }
+  ImageSetResourceClass XBOX_SERIES : PC {
+  }
+  ImageSetResourceClass PS4 : PC {
+  }
+  ImageSetResourceClass HEADLESS : PC {
+  }
+ }
+}

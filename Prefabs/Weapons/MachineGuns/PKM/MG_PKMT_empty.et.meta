@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{15736F5B34E1AB9B}Prefabs/Weapons/MachineGuns/PKM/MG_PKMT_empty.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,78 @@
+Vehicle UAZ469_uncovered1 : "{16A674FE31B0921C}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered.et" {
+ coords 4534.137 317.808 8341.565
+ angleX -0.614
+ angleY -73.988
+ angleZ -1.107
+}
+Vehicle Ural4320_transport1 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+ coords 4514.12 316.458 8292.648
+ angleX -1.777
+ angleY -172.993
+ angleZ -0.218
+}
+$grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ UAZ1 {
+  coords 4505.063 316.021 8277.342
+  angleX 0.895
+ }
+ UAZ2 {
+  components {
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo Frame {
+      Prefab "{CB57B46FCFE1A189}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Roof/UAZ469_roof_frame.et"
+     }
+     RegisteringComponentSlotInfo Door_L01 {
+      Prefab "{AB2E315D4519F8DE}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/UAZ469_door_L01_bottom.et"
+     }
+     RegisteringComponentSlotInfo Door_R01 {
+      Prefab "{AA8102F7B249EBCE}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/UAZ469_door_R01_bottom.et"
+     }
+     RegisteringComponentSlotInfo Door_L02 {
+      Prefab "{810A16FEB3F79EF1}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/UAZ469_door_L02_bottom.et"
+     }
+     RegisteringComponentSlotInfo Door_R02 {
+      Prefab "{80A5255444A78DE1}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/UAZ469_door_R02_bottom.et"
+     }
+    }
+   }
+  }
+  coords 4557.835 317.813 8305.927
+  angleY -167
+ }
+}
+Vehicle UAZ452_ambulance1 : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" {
+ coords 4555.282 318.702 8351.375
+ angleY -178
+}
+Vehicle Ural4320_tanker1 : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker.et" {
+ coords 4523.096 316.473 8291.146
+ angleX -1.061
+ angleY -168.013
+ angleZ 0.69
+}
+RHS_Tank Tank_T14_empty1 : "{55A2F7562081201C}Prefabs/Vehicles/Tracked/T14/Tank_T14_empty.et" {
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{8F7D491DF08FB800}Prefabs/Vehicles/Tracked/T14/VehParts/Turret/T14_Turret_empty.et"
+    }
+   }
+  }
+ }
+ coords 4384.427 328.234 8057.945
+ angleX 8.53
+ angleY -1.746
+ angleZ -11.612
+}
+Vehicle APC_K17_base1 : "{8C271634056DAD5A}Prefabs/Vehicles/Wheeled/K17/APC_K17_base.et" {
+ coords 4532.641 316.717 8289.781
+ angleZ -2.684
+}
+Vehicle Ural4320_transport_covered1 : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
+ coords 4518.73 316.468 8291.933
+ angleX -0.879
+ angleY -169.021
+ angleZ -0.17
+}

@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{360A4E970E65A285}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Empty.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_AntiTankAssistant"
+    Icon "{FB48FAD32DA8BC91}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AmmoBearer.edds"
+    m_aAuthoredLabels + {
+     1670057115 27
+    }
+    m_aAutoLabels {
+     122 48
+    }
+   }
+  }
+ }
+ coords 154.969 1.001 90.336
+}

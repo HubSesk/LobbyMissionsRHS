@@ -1,0 +1,21 @@
+Turret : "{70899C1C6ED89CF6}Prefabs/Vehicles/Tracked/T14/VehParts/Turret/T14_Turret.et" {
+ ID "51ACD0965653D003"
+ components {
+  SlotManagerComponent "{5E9F6C090FB07213}" {
+   Slots {
+    RegisteringComponentSlotInfo Commander_Turret {
+     Prefab "{4FAC8F46536AC47F}Prefabs/Vehicles/Tracked/T14/VehParts/Turret/T14_Commander_Turret_empty.et"
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{BA32443B193772A9}Prefabs/Weapons/HeavyWeapons/2A82/Weapon_2A82_empty.et"
+  }
+  WeaponSlotComponent "{5E9F6C09F1CB3CEB}" {
+   WeaponTemplate "{15736F5B34E1AB9B}Prefabs/Weapons/MachineGuns/PKM/MG_PKMT_empty.et"
+  }
+  WeaponSlotComponent "{5EA21B1BE70E9E45}" {
+   WeaponTemplate "{2069FB1730DEC875}Prefabs/Weapons/HeavyWeapons/SmokeLauncher/Weapon_SmokeLauncherT14_empty.et"
+  }
+ }
+}

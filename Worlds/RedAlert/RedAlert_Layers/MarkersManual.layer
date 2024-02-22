@@ -1,0 +1,71 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 5576.775 324.31 8522.939
+  angleY 83.794
+  m_sImageSet "{304B6BECEA90733F}UI/MissionImages/RedAlert/RedAlert1.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "QUAD"
+  m_fWorldSize 500
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKA" "Ses_TKR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1 3 0
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 5588.069 314.259 7785.274
+  angleY 100
+  m_sImageSet "{70BB4AC95C8CF178}UI/MissionImages/RedAlert/RedAlert2.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "QUAD"
+  m_fWorldSize 500
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKA" "Ses_TKR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1 3 0
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 5075.958 323.737 7382.718
+  angleY 109.972
+  m_sImageSet "{8EBB0A8CA9DE9D34}UI/MissionImages/RedAlert/RedAlert3.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "QUAD"
+  m_fWorldSize 500
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKA" "Ses_TKR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1 3 0
+  }
+  m_iZOrder 0
+ }
+ RFMilitaryBase {
+  coords 4509.947 317.121 8262.781
+  m_sImageSet "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "Building_Barracks"
+  m_fWorldSize 60
+  m_sDescription "Военная база ВСРФ"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKA" "Ses_TKR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+}

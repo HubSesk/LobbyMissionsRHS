@@ -1,0 +1,310 @@
+$grp GenericEntity : "{1072E2CF251EC55E}Prefabs/Bulba.et" {
+ {
+  coords 4561.059 319.705 8359.954
+  angleY -130.169
+ }
+ {
+  coords 4563.039 320.875 8360.314
+  angleY -135.383
+ }
+ {
+  coords 4568.354 319.403 8358.173
+  angleY -105.81
+ }
+ {
+  coords 4560.432 320.875 8362.336
+  angleY 20.446
+ }
+ {
+  coords 4519.192 321.504 8273.596
+  angleX -6.255
+  angleY -65.298
+  angleZ -74.203
+ }
+ {
+  coords 4516.951 321.178 8271.639
+  angleY 14.479
+ }
+}
+$grp GenericEntity : "{67268BD85DDCD99C}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_GP25_empty.et" {
+ {
+  coords 4515.158 321.656 8274.966
+  angleX 75
+  angleY -75
+ }
+ {
+  coords 4514.738 321.656 8273.556
+  angleX 75
+  angleY -75
+ }
+ {
+  coords 4521.578 321.656 8271.703
+  angleX 75
+  angleY 105
+ }
+ {
+  coords 4521.986 321.656 8273.119
+  angleX 75
+  angleY 105
+ }
+ {
+  coords 4519.1 321.656 8270.995
+  angleX 75
+  angleY -165
+ }
+ {
+  coords 4519.264 321.656 8270.951
+  angleX 75
+  angleY -165
+ }
+ {
+  coords 4521.235 321.654 8270.41
+  angleX 75
+  angleY 105
+ }
+}
+GenericEntity : "{A6B23619BE486572}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_empty.et" {
+ coords 4521.258 321.683 8270.576
+ angleX 75
+ angleY 105
+}
+$grp GenericEntity : "{CCFD35D79DD95EB9}Prefabs/Yarmarka/AK74M_Empty_Rack.et" {
+ {
+  coords 4514.429 321.178 8273.025
+  angleY 105
+  {
+   GenericEntity {
+    ID "60A33EF9791306A9"
+    Flags 6291459
+   }
+   GenericEntity {
+    ID "60A33EF9791306A8"
+    Flags 6291459
+   }
+   GenericEntity {
+    ID "60A33EF97912D503"
+    Flags 6291459
+   }
+  }
+ }
+ {
+  coords 4515.153 321.178 8275.566
+  angleY 105
+  {
+   GenericEntity {
+    ID "60A33EF979120F4B"
+    components {
+     WeaponComponent "{CFBAA4B706BA66E8}" {
+      components {
+       MuzzleComponent "{CA6BE4D6B867541F}" {
+        FireModes {
+         BaseFireMode "{B80A64F4A8EF8333}" {
+          ManualAction 1
+         }
+         BaseFireMode "{55349E9229B55D93}" {
+          ManualAction 1
+         }
+        }
+       }
+      }
+     }
+    }
+    coords 0.414 0.444 0.129
+    angleX 78.836
+    angleY -180
+    angleZ -5.912
+   }
+   GenericEntity {
+    ID "60A33EF9790DD4BF"
+    Flags 6291459
+   }
+   GenericEntity {
+    ID "60A33EF979127D9B"
+    coords -0.256 0.45 0.157
+    angleX 75.888
+    angleY -178.357
+    angleZ -8.648
+   }
+   GenericEntity {
+    ID "60A33EF9791306A8"
+    coords -0.588 0.443 0.126
+    angleX 79.079
+    angleY -178.39
+    angleZ 2.062
+   }
+   GenericEntity {
+    ID "60A33EF9790DD480"
+    Flags 6291459
+   }
+  }
+ }
+ {
+  coords 4521.583 321.178 8271.097
+  angleY -75
+  {
+   GenericEntity {
+    ID "60A33EF9790DD4BF"
+    Flags 6291459
+   }
+   GenericEntity {
+    ID "60A33EF979120F4B"
+    coords 0.414 0.444 0.129
+    angleX 78.836
+    angleY -180
+    angleZ -16.555
+   }
+   GenericEntity {
+    ID "60A33EF979127D78"
+    coords 0.093 0.444 0.131
+    angleX 78.836
+    angleY -180
+    angleZ 13.03
+   }
+   GenericEntity {
+    ID "60A33EF97912D503"
+    coords -0.415 0.448 0.15
+    angleX 75.888
+    angleY -178.357
+    angleZ 5.592
+   }
+   GenericEntity {
+    ID "60A33EF9791306A9"
+    coords -0.751 0.442 0.12
+    angleX 79.455
+    angleY -178.372
+    angleZ -7.89
+    Flags 6291459
+   }
+   GenericEntity {
+    ID "60A33EF9790DD480"
+    Flags 6291459
+   }
+   GenericEntity {
+    ID "60A33EF9791306A8"
+    Flags 6291459
+   }
+  }
+ }
+ {
+  coords 4522.282 321.178 8273.647
+  angleY -75
+  {
+   GenericEntity {
+    ID "60A33EF9790DD4BF"
+    components {
+     WeaponComponent "{CFBAA4B706BA66E8}" {
+      components {
+       MuzzleComponent "{CA6BE4D6B867541F}" {
+        FireModes {
+         BaseFireMode "{B80A64F4A8EF8333}" {
+          ManualAction 1
+         }
+         BaseFireMode "{55349E9229B55D93}" {
+          ManualAction 1
+         }
+        }
+       }
+      }
+     }
+    }
+    coords 0.745 0.444 0.131
+    angleX 78.836
+    angleY 180
+    angleZ -5.153
+   }
+   GenericEntity {
+    ID "60A33EF979127D78"
+    coords 0.093 0.444 0.131
+    angleX 78.836
+    angleY -180
+    angleZ -6.179
+   }
+   GenericEntity {
+    ID "60A33EF979127D9B"
+    coords -0.126 0.127 0.419
+    angleX -11.796
+    angleY 7.22
+    angleZ -87.561
+   }
+   GenericEntity {
+    ID "60A33EF9791306A8"
+    coords -0.587 0.443 0.126
+    angleX 79.079
+    angleY -178.39
+    angleZ 7.99
+    Flags 6291459
+   }
+   GenericEntity {
+    ID "60A33EF9791306A9"
+    Flags 6291459
+   }
+  }
+ }
+ {
+  coords 4519.794 321.178 8270.64
+  angleY 15.162
+  {
+   GenericEntity {
+    ID "60A33EF9791306A9"
+    Flags 6291459
+   }
+   GenericEntity {
+    ID "60A33EF9791306A8"
+    Flags 6291459
+   }
+   GenericEntity {
+    ID "60A33EF97912D503"
+    Flags 6291459
+   }
+   GenericEntity {
+    ID "60A33EF979127D9B"
+    Flags 6291459
+   }
+   GenericEntity {
+    ID "60A33EF979127D98"
+    Flags 6291459
+   }
+  }
+ }
+}
+$grp GenericEntity : "{CF68FC4172612D3F}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_empty.et" {
+ {
+  coords 4531.85 318.466 8336.987
+  angleX 75
+  angleY -75
+ }
+ {
+  coords 4514.71 321.591 8273.406
+  angleX 75
+  angleY -75
+ }
+}
+$grp GenericEntity : "{E8D6A8598AEE4E53}Prefabs/Weapons/MachineGuns/RPK74M/MG_RPK74M_Empty.et" {
+ {
+  coords 4521.836 321.561 8272.971
+  angleX 71.508
+  angleY 95.656
+ }
+ {
+  coords 4521.569 321.567 8271.885
+  angleX 75
+  angleY 105
+ }
+ {
+  coords 4514.833 321.557 8273.694
+  angleX 75
+  angleY -75
+ }
+ {
+  coords 4515.161 321.559 8274.783
+  angleX 76.214
+  angleY -77.012
+  angleZ 6.265
+ }
+ {
+  coords 4519.789 322.194 8270.762
+  angleX -0.246
+  angleY -61.73
+  angleZ -87.594
+ }
+}

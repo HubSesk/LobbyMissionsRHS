@@ -1,6 +1,262 @@
 SCR_FactionManager FactionManager_Editor1 : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionManager_Editor.et" {
  coords 116.89 1 124.976
 }
-SCR_ChimeraCharacter : "{2622E13969EAB273}Prefabs/Characters/Factions/PS_CEF/Character_CEF_base.et" {
+SCR_ChimeraCharacter {
  coords 119.326 1 128.429
+}
+SCR_ChimeraCharacter : "{0848BAB1B94FCBBA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew.et" {
+ coords 157.398 1 97.043
+}
+SCR_ChimeraCharacter : "{1C78331E156A3D65}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AT.et" {
+ coords 153.043 1 93.967
+}
+$grp SCR_ChimeraCharacter : "{360A4E970E65A285}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Empty.et" {
+ {
+  components {
+   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+     Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+     m_aAutoLabels {
+      122 46
+     }
+    }
+    m_sIconBoneName "spine5"
+    m_vIconPos 0 0 0
+   }
+  }
+  coords 156.924 1.001 109.868
+ }
+ {
+  components {
+   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+     Name "#AR-Role_SquadLeader"
+     Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+     m_aAuthoredLabels + {
+      42 38
+     }
+     m_aAutoLabels {
+      122
+     }
+    }
+   }
+  }
+  coords 156.825 1.001 108.791
+ }
+ {
+  components {
+   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+     Name "#AR-Role_Sharpshooter"
+     Icon "{0A78405E73C36477}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Sharpshooter.edds"
+     m_aAuthoredLabels + {
+      33
+     }
+     m_aAutoLabels {
+      122 47
+     }
+    }
+   }
+  }
+  coords 156.764 1.001 107.521
+ }
+ {
+  components {
+   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+     Name "#AR-Role_RadioOperator"
+     Icon "{B9F0BD39FF1881A3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_RadioOperator.edds"
+     m_aAuthoredLabels + {
+      35
+     }
+     m_aAutoLabels {
+      122 45
+     }
+    }
+   }
+  }
+  coords 156.536 1.001 105.784
+ }
+ {
+  components {
+   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+     Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+     m_aAutoLabels {
+      122 46
+     }
+    }
+   }
+  }
+  coords 156.309 1.001 104.087
+ }
+ {
+  components {
+   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+     Name "#AR-Role_MachineGunner"
+     Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
+     m_aAuthoredLabels + {
+      34
+     }
+     m_aAutoLabels {
+      122 43
+     }
+    }
+   }
+  }
+  coords 156.067 1.001 102.176
+ }
+ {
+  components {
+   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+     Name "#AR-Role_Medic"
+     Icon "{F3FCC3B9732551D9}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Medic.edds"
+     m_aAuthoredLabels + {
+      24
+     }
+     m_aAutoLabels {
+      122 44
+     }
+    }
+   }
+  }
+  coords 155.791 1.001 100.496
+ }
+ {
+  components {
+   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+     Name "#AR-Role_Grenadier"
+     Icon "{DDAEEF112BEBCF94}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Grenadier.edds"
+     m_aAuthoredLabels + {
+      38
+     }
+     m_aAutoLabels {
+      122 41
+     }
+    }
+   }
+  }
+  coords 155.638 1.001 98.924
+ }
+ {
+  components {
+   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+     Name "#RHS-Role_Crewman"
+     m_aAutoLabels {
+      122
+     }
+    }
+   }
+  }
+  coords 155.586 1.001 97.284
+ }
+ {
+  components {
+   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+     Name "#AR-Role_AntiTank"
+     Icon "{00B30C29FAF85E1C}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AntiTank.edds"
+     m_sFaction "USSR"
+     m_aAuthoredLabels {
+      70 2 10 25
+     }
+     m_aAutoLabels {
+      122 40
+     }
+    }
+   }
+  }
+  coords 155.514 1.001 95.91
+ }
+ {
+  components {
+   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+     Name "#AR-Role_AutomaticRifleman"
+     Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
+     m_aAuthoredLabels + {
+      34
+     }
+     m_aAutoLabels {
+      122 43
+     }
+    }
+   }
+  }
+  coords 155.349 1.001 93.728
+ }
+ {
+  components {
+   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+     Name "#AR-Role_AssistantMachineGunner"
+     Icon "{FB48FAD32DA8BC91}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AmmoBearer.edds"
+     m_aAuthoredLabels + {
+      27
+     }
+     m_aAutoLabels {
+      122 48
+     }
+    }
+   }
+  }
+  coords 155.099 1.001 92.262
+ }
+ {
+  components {
+   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+     Name "#AR-Role_AntiTankAssistant"
+     Icon "{FB48FAD32DA8BC91}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AmmoBearer.edds"
+     m_aAuthoredLabels + {
+      1670057115 27
+     }
+     m_aAutoLabels {
+      122 48
+     }
+    }
+   }
+  }
+  coords 154.969 1.001 90.336
+ }
+}
+SCR_ChimeraCharacter : "{45D0301F2794BDF7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_AT.et" {
+ coords 157.195 1 95.502
+}
+SCR_ChimeraCharacter : "{5A1F1BD88FC6C6E9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Rifleman.et" {
+ coords 157.952 1 103.865
+}
+SCR_ChimeraCharacter : "{68EB286921B4E7FD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Sharpshooter.et" {
+ coords 158.361 1 107.084
+}
+SCR_ChimeraCharacter : "{6A5FD56634DE57DD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_AAT.et" {
+ coords 156.395 1 90.05
+}
+SCR_ChimeraCharacter : "{7E590EDD929739E4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Medic.et" {
+ coords 157.665 1 100.246
+}
+SCR_ChimeraCharacter : "{8DE84439090A3D21}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_SR.et" {
+ coords 158.543 1 109.751
+}
+SCR_ChimeraCharacter : "{90AD27FFA9AACA81}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_GL.et" {
+ coords 157.485 1 98.568
+}
+SCR_ChimeraCharacter : "{9D7859DE5E1DA3AB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_AR.et" {
+ coords 156.94 1 93.686
+}
+SCR_ChimeraCharacter : "{B6C45B392F33B9E4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_RTO.et" {
+ coords 158.199 1 105.358
+}
+SCR_ChimeraCharacter : "{CF6F87C43052B748}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_MG.et" {
+ coords 157.781 1 101.867
+}
+SCR_ChimeraCharacter : "{E0E062BD23185D62}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_AMG.et" {
+ coords 156.7 1 92.252
+}
+SCR_ChimeraCharacter : "{F0F0A8C16C9901B8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_SL.et" {
+ coords 158.437 1 108.462
 }

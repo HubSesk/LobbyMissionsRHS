@@ -1,0 +1,146 @@
+PolylineShapeEntity {
+ components {
+  PS_PolyZone "{60ACB74F3CA564B5}" {
+   m_mPolygonTexture "{EE369172FCB6F4B2}UI/layouts/Textures/WarningZone.edds"
+   m_mPolygonTextureBorder "{15A6B5F9E6E1DB8E}UI/layouts/Textures/WarningZoneBorder.edds"
+  }
+ }
+ coords 4968.836 334.666 8059.324
+ Points {
+  ShapePoint "{60ACB74F9B76130C}" {
+   Position 0 0 0
+  }
+  ShapePoint "{60ACB74F9B7677EC}" {
+   Position 8.419 -0.76 -150.837
+  }
+  ShapePoint "{60ACB74F9FD428B0}" {
+   Position -33.434 -0.947 -231.805
+  }
+  ShapePoint "{60ACB74FA046F447}" {
+   Position -92.552 -1.63 -236.092
+  }
+  ShapePoint "{60ACB74FA2F035A3}" {
+   Position -244.268 -8.615 -348.62
+  }
+  ShapePoint "{60ACB74FA44CE7AC}" {
+   Position -306.465 -8.438 -467.285
+  }
+  ShapePoint "{60ACB74FA61EA910}" {
+   Position -303.01 -17.981 -665.172
+  }
+  ShapePoint "{60ACB74FA7F131E5}" {
+   Position -342.787 -24.547 -755.833
+  }
+  ShapePoint "{60ACB74FB10FF41D}" {
+   Position -627.251 -45.666 -804.527
+  }
+  ShapePoint "{60ACB74FB229A7A1}" {
+   Position -869.71 -42.075 -786.879
+  }
+  ShapePoint "{60ACB74FB542D003}" {
+   Position -1276.74 -32.403 -411
+  }
+  ShapePoint "{60ACB74FB637ED0A}" {
+   Position -1683.046 -34.237 -158.149
+  }
+  ShapePoint "{60ACB74FBC78FCE2}" {
+   Position -1944.226 -30.414 -98.784
+  }
+  ShapePoint "{60ACB74FBFBD8088}" {
+   Position -2271.734 -31.734 177.875
+  }
+  ShapePoint "{60ACB74FBF133857}" {
+   Position -2752.077 -39.994 831.207
+  }
+  ShapePoint "{60ACB74F48E38DE9}" {
+   Position -2828.231 -80.538 1403.518
+  }
+  ShapePoint "{60ACB74F49A0F5BE}" {
+   Position -2657.429 -82.122 1973.789
+  }
+  ShapePoint "{60ACB74F4BE41B85}" {
+   Position -2439.251 -62.638 2071.307
+  }
+  ShapePoint "{60ACB74F52371A58}" {
+   Position -4967.71 109.249 7258.686
+  }
+  ShapePoint "{60ACB74F5CBF1B29}" {
+   Position -4893.333 0 -8028.156
+  }
+  ShapePoint "{60ACB74F63C46B4C}" {
+   Position 10373.732 -488.362 -8039.574
+  }
+  ShapePoint "{60ACB74F681B42C6}" {
+   Position 10390.406 -123.322 7300.23
+  }
+  ShapePoint "{60ACB74F6FCF865C}" {
+   Position -4920.165 108.793 7294.701
+  }
+  ShapePoint "{60ACB74F730A1A6D}" {
+   Position -2285.847 -51.777 2128.917
+  }
+  ShapePoint "{60ACB74F06A3A8E9}" {
+   Position -2135.587 -45.808 2127.787
+  }
+  ShapePoint "{60ACB74F07B4DC88}" {
+   Position -1788.436 -13.187 2161.796
+  }
+  ShapePoint "{60ACB74F0BF9EBD8}" {
+   Position -1508.725 13.495 2102.541
+  }
+  ShapePoint "{60ACB74F10970810}" {
+   Position -1096.78 19.546 2221.734
+  }
+  ShapePoint "{60ACB74F11F8DD0B}" {
+   Position -525.978 5.546 2295.399
+  }
+  ShapePoint "{60ACB74F1C0D520E}" {
+   Position -110.899 5.543 1614.905
+  }
+  ShapePoint "{60ACB74F1D19B7D2}" {
+   Position 2.644 5.559 1311.665
+  }
+  ShapePoint "{60ACB74F1F56F6AF}" {
+   Position 57.209 15.27 886.508
+  }
+  ShapePoint "{60ACB74F23C816B0}" {
+   Position 289.319 5.539 660.187
+  }
+  ShapePoint "{60ACB74F241BA632}" {
+   Position 166.185 12.912 484.553
+  }
+  ShapePoint "{60ACB74F25F956AB}" {
+   Position 83.983 12.428 356.68
+  }
+  ShapePoint "{60ACB74F2EC9F380}" {
+   Position 62.991 12.928 267.889
+  }
+  ShapePoint "{60ACB74F310EBFFE}" {
+   Position 19.32 9.734 196.543
+  }
+  ShapePoint "{60ACB74F32DA95FA}" {
+   Position 15.706 5.534 99.38
+  }
+  ShapePoint "{60ACB74F349B0FD2}" {
+   Position -1.009 2.401 61.871
+  }
+ }
+ IsClosed 1
+ {
+  PS_PolyZoneTrigger {
+   components {
+    Hierarchy "{60ACB74C27BD43DA}" {
+    }
+   }
+   TriggerShapeType Polyline
+   "Polyline Height" 10000
+   TriggerActivationType "All changes"
+   PeriodicQueries 1
+   ClassesFilter {
+    "SCR_ChimeraCharacter"
+   }
+   m_polyZoneEffect PS_PolyZoneEffectScreenBlure "{60ACB74CC1B55EF5}" {
+   }
+  }
+ }
+}

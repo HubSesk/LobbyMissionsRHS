@@ -1,0 +1,22 @@
+PanelWidgetClass {
+ {
+  OverlayWidgetClass "{604CC4352EAED014}" {
+   Prefab "{604CC4352EAED014}"
+   {
+    ImageWidgetClass "{60ACB74A6EC6889F}" {
+     Name "Image0"
+     Slot OverlayWidgetSlot {
+      HorizontalAlign 0
+     }
+     Texture "{64101535581F0B46}UI/layouts/HUD/PolyZoneEffects/WrongDirection.edds"
+     Size 1210 806
+    }
+    TextWidgetClass "{604CC4352EAED015}" {
+     Prefab "{604CC4352EAED015}"
+     "Is Visible" 0
+     Text ""
+    }
+   }
+  }
+ }
+}

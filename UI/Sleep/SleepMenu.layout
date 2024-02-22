@@ -1,0 +1,37 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ {
+  ImageWidgetClass "{60ACB749F654E74D}" {
+   Name "Image0"
+   Slot FrameWidgetSlot "{60ACB749F654E0A9}" {
+    Anchor 0 0 1 1
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX -1820
+    OffsetRight 0
+    SizeY -1050
+    OffsetBottom 0
+   }
+   Color 0 0 0 1
+  }
+  TextWidgetClass "{60ACB74982FAC538}" {
+   Name "Text0"
+   Slot FrameWidgetSlot "{60ACB74982FAC50F}" {
+    Anchor 0 1 1 1
+    PositionX 0
+    OffsetLeft 0
+    PositionY -134
+    OffsetTop -134
+    SizeX 0
+    OffsetRight 0
+    SizeY 134
+    OffsetBottom 0
+   }
+   Text "ZZZZZzzzzzzzzzzzzzzzzzz....."
+   "Font Size" 128
+   "Min Font Size" 128
+  }
+ }
+}

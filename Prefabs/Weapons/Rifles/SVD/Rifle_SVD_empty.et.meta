@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{CF68FC4172612D3F}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_empty.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

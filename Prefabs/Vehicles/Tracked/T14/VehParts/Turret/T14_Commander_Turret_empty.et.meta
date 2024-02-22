@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{4FAC8F46536AC47F}Prefabs/Vehicles/Tracked/T14/VehParts/Turret/T14_Commander_Turret_empty.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

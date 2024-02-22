@@ -1,0 +1,12 @@
+RHS_Tank : "{48BB423641D40E77}Prefabs/Vehicles/Tracked/T14/Tank_T14.et" {
+ ID "5CDE8068D49AAEBB"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{8F7D491DF08FB800}Prefabs/Vehicles/Tracked/T14/VehParts/Turret/T14_Turret_empty.et"
+    }
+   }
+  }
+ }
+}

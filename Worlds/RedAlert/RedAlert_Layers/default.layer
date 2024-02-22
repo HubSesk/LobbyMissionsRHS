@@ -1,0 +1,82 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ Formations {
+  AIFormationDefinition "{60A4BB1F59824E23}" {
+   Name "dfq1"
+   Offsets {
+    0 0 0 0 0 -2 0 0 -4 1 0 -4 2 0 -4 3 0 -4 0 0 -18 0 0 -21 0 0 -24 0 0 -27 0 0 -30
+   }
+  }
+  AIFormationDefinition "{60A4BB1D87A645EA}" {
+   Name "dfq2"
+   Offsets {
+    0 0 0 0 0 -1.7 -2 0 -3.7 -1 0 -3.7 0 0 -3.7 1 0 -3.7 0 0 -18 0 0 -21 0 0 -24 0 0 -27 0 0 -30
+   }
+  }
+  AIFormationDefinition "{60A4C0CCEE6EE0E1}" {
+   Name "dfq3"
+   Offsets {
+    0 0 0 0 0 -1.7 -2 0 -3 -1 0 -3 0 0 -3 1 0 -3 0 0 -18 0 0 -21 0 0 -24 0 0 -27 0 0 -30
+   }
+  }
+  AIFormationDefinition "{60A4C0CB8E075B61}" {
+   Name "dfq4"
+   Offsets {
+    0 0 0 1 0 0 3 0 0 4 0 0 6 0 0 7 0 0 9 0 0 10 0 0 12 0 0 13 0 0 15 0 0
+   }
+  }
+  AIFormationDefinition "{60A4C0C4381EA275}" {
+   Name "dfq5"
+   Offsets {
+    0 0 0 1 0 0 0 0 -4 1 0 -4 0 0 -8 1 0 -8 0 0 -12 1 0 -12 0 0 -16 1 0 -16
+   }
+  }
+  AIFormationDefinition "{60A4D2165D0B05E8}" {
+   Name "dfq7"
+   Offsets {
+    0 0 0 1 0 0 3 0 0 -2.606 0.4 -23.661 6 0 0 7 0 0 -1.296 0.4 -24.059 10 0 0 12 0 0 13 0 0 15 0 0
+   }
+  }
+  AIFormationDefinition "{60ACB77F8D876F8C}" {
+   Name "dfq6"
+   Offsets {
+    0 0 0 -4 0 0 -6 0 0 30.776 2.541 92.661 0 0 -8 1 0 -8 0 0 -12 1 0 -12 0 0 -16 1 0 -16
+   }
+  }
+ }
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+}
+TagManager : "{2FA9E172CAB1857A}Prefabs/MP/Managers/TagManager.et" {
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  PS_SleepRFComponent "{60ACB747F056154C}" {
+  }
+  SCR_InitWeatherComponent "{5F3AFB2830A6CBFF}" {
+   m_sInitialStartingWeatherId "Cloudy"
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 13
+   m_bRandomWeatherChanges 1
+  }
+ }
+ m_fAutoReloadTime 300
+ m_iAvailableReconnectTime 300000
+ m_bRemoveSquadMarkers 1
+ m_iFreezeTime 12200
+ {
+  SCR_FactionManager "5F2B25DD2FE1CDD2" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{5978B9CE6585BBE8}" {
+     m_bIsPlayable 1
+    }
+    SCR_Faction "{5D9F7285A1D004FE}" {
+     m_bIsPlayable 1
+    }
+   }
+  }
+ }
+}
+HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
+}

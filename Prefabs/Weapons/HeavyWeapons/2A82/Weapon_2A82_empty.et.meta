@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{BA32443B193772A9}Prefabs/Weapons/HeavyWeapons/2A82/Weapon_2A82_empty.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

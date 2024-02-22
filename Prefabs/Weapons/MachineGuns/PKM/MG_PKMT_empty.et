@@ -1,0 +1,62 @@
+GenericEntity : "{BD0E49080CC706E0}Prefabs/Weapons/MachineGuns/PKM/MG_PKMT_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    CustomAttributes {
+     PreviewRenderAttributes "{5534BB9B9A3E369E}" {
+      CameraPreset Left
+      CameraDistanceToItem 1.2
+     }
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     WeaponAimModifiers {
+      RecoilWeaponAimModifier "{60ACB7795DC57098}" {
+       LinearData RecoilData "{60ACB7795DC5709F}" {
+        "Curve X" {
+         0 0.5 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.032 0.55 0.045 0.75 0.065 0.7 0.071 0.65 0.095 0.5 0.25 0.45 0.45 0.52 0.7 0.495 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.032 0.65 0.045 0.95 0.065 0.95 0.071 0.85 0.095 0.7 0.25 0.35 0.45 0.55 0.7 0.485 1 0.5
+        }
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" -0.001 -0.006 -0.022
+        "Curve Maxs" 0 -0.005 -0.018
+       }
+       AngularData RecoilData "{60ACB7795DC570E1}" {
+        "Curve X" {
+         0 0.5 0.019 0.411 0.055 0.539 0.11 0.474 0.216 0.497 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.034 0.431 0.045 0.85 0.095 0.7 0.238 0.487 0.443 0.5 0.7 0.5 1 0.5
+        }
+        "Curve Magnitudes" 2 2 1
+        "Curve Mins" -0.001 0.3 -4
+        "Curve Maxs" 0.001 0.6 4
+       }
+       TurnOffsetData RecoilData "{60ACB7795DC570E3}" {
+        "Curve X" {
+         0 0.5 0.06 1 0.121 0.499 1 0.5
+        }
+        "Curve Magnitudes" 0.65 5 0
+        "Curve Mins" -0.5 0.3 0
+        "Curve Maxs" 0.5 0.6 0
+        "Base Recoil Scale" 1
+       }
+      }
+     }
+     ReloadDuration 10
+     AllowWeaponDeployment 0
+     MagazineTemplate ""
+    }
+   }
+  }
+ }
+}

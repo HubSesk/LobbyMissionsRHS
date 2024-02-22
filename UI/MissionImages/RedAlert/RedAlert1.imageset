@@ -1,0 +1,18 @@
+ImageSetClass {
+ RefSize 1020 515
+ Textures {
+  ImageSetTextureClass {
+   screenSize FHD
+   size 1020 515
+   path "{B2D42524959372D4}UI/MissionImages/RedAlert/RedAlert1.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass QUAD {
+   Name "QUAD"
+   Pos 0 0
+   Size 1020 515
+   Flags 0
+  }
+ }
+}

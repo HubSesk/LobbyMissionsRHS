@@ -1,0 +1,111 @@
+GenericEntity {
+ ID "60A33EF9790DD4B8"
+ components {
+  MeshObject "{5584D66370F85163}" {
+   Object "{B98BC8DC4C59B8DA}Assets/Props/Military/Camps/WeaponRackStand_01/WeaponRackStand_01.xob"
+  }
+  RigidBody "{5584D66370F8515B}" {
+   ResponseIndex "MediumDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5584D66370F85127}" {
+   Enabled 0
+   "Additional hit zones" {
+    ScriptedHitZone Default {
+     HZDefault 1
+    }
+   }
+   m_fBaseHealth 1500
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{5584D66370F85125}" {
+     m_ModelPrefabs {
+      "{91F02D1C701DF532}Assets/Props/Furniture/MeetingTable_01/Dst/MeetingTable_01_dst_02.xob" "{08EE94856DFAC4A2}Assets/Props/Furniture/MeetingTable_01/Dst/MeetingTable_01_dst_01.xob"
+     }
+     m_fRandomVelocityLinear 5
+    }
+   }
+   m_eMaterialSoundType BREAK_WOOD_SOLID
+  }
+  RplComponent "{5C909BDDB002D6D8}" {
+  }
+  Hierarchy "{589E95D9A655A15F}" {
+  }
+ }
+ coords 134.077 1 124.171
+ Flags 1027
+ {
+  $grp GenericEntity : "{A2DA950437258452}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_Empty.et" {
+   {
+    ID "60A33EF9790DD480"
+    coords 0.583 0.444 0.13
+    angleX 78.836
+    angleY -180
+    angleZ 0.456
+   }
+   {
+    ID "60A33EF9790DD4BF"
+    coords 0.744 0.444 0.131
+    angleX 78.836
+    angleY -180
+    angleZ -9.11
+   }
+   {
+    ID "60A33EF979120F4A"
+    coords 0.25 0.443 0.126
+    angleX 78.836
+    angleY -180
+    angleZ 2.057
+   }
+   {
+    ID "60A33EF979120F4B"
+    coords 0.414 0.444 0.129
+    angleX 78.836
+    angleY 180
+    angleZ -3.422
+   }
+   {
+    ID "60A33EF979127D78"
+    coords 0.092 0.444 0.131
+    angleX 78.836
+    angleY 180
+    angleZ 7.428
+   }
+   {
+    ID "60A33EF979127D98"
+    coords -0.076 0.444 0.13
+    angleX 78.836
+    angleY 180
+    angleZ 7.428
+   }
+   {
+    ID "60A33EF979127D9B"
+    coords -0.255 0.45 0.157
+    angleX 75.888
+    angleY -178.357
+    angleZ -6.153
+   }
+   {
+    ID "60A33EF97912D503"
+    coords -0.415 0.448 0.15
+    angleX 75.888
+    angleY -178.357
+    angleZ -0.115
+   }
+   {
+    ID "60A33EF9791306A8"
+    coords -0.588 0.443 0.126
+    angleX 79.079
+    angleY -178.39
+    angleZ -2.355
+   }
+   {
+    ID "60A33EF9791306A9"
+    coords -0.751 0.442 0.12
+    angleX 79.455
+    angleY -178.372
+    angleZ 0.515
+   }
+  }
+ }
+}

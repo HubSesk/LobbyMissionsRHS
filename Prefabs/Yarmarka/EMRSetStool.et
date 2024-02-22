@@ -1,0 +1,22 @@
+GenericEntity : "{BC77A0CE72611DC3}Prefabs/Props/Furniture/Stool_01.et" {
+ ID "51E86A94E237A0D4"
+ coords 4517.372 317.723 8314.332
+ angleY -31.501
+ {
+  GameEntity : "{738798231DAF3078}Prefabs/Characters/Uniforms/Pants_6b51_VKPO.et" {
+   ID "60A33EF56C638A75"
+   coords 0.017 0.524 0.026
+   angleY 130.443
+  }
+  GenericEntity : "{7C828AB80ED1D9B0}Prefabs/Characters/Footwear/Boots_Faradey_906/Footware_Faradey_906.et" {
+   ID "60A33EF56C638A77"
+   coords -0.04 0 -0.063
+   angleY -121.337
+  }
+  GameEntity : "{E05D8C4D2B36C8F3}Prefabs/Characters/Uniforms/Jacket_6b51_VKPO.et" {
+   ID "60A33EF56C638A72"
+   coords -0.032 0.494 -0.008
+   angleY 40.311
+  }
+ }
+}

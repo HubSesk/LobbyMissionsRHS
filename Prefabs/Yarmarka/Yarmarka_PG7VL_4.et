@@ -1,0 +1,43 @@
+GenericEntity : "{2B1D0128ED660BE9}Prefabs/Props/Crates/BoxWooden_01.et" {
+ ID "F0DBA538AC2A0552"
+ coords 127.169 1 127.761
+ {
+  $grp Projectile : "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et" {
+   {
+    ID "60A33EFEA4015418"
+    coords 0.06 0.322 0.202
+    angleX 33.137
+    angleY 36.073
+    angleZ -107.77
+   }
+   {
+    ID "60A33EFEA401541D"
+    coords 0.041 0.242 -0.038
+    angleX -12.922
+    angleY 69.229
+    angleZ -79.584
+   }
+   {
+    ID "60A33EFEA401FF05"
+    coords -0.028 0.169 -0.082
+    angleX -33.438
+    angleY 86.594
+    angleZ -86.476
+   }
+   {
+    ID "60A33EFEA401FF06"
+    coords -0.01 0.169 0.002
+    angleX -31.282
+    angleY 85.038
+    angleZ -85.573
+   }
+   {
+    ID "60A33EFEA401FF07"
+    coords -0.019 0.193 0.102
+    angleX -26.518
+    angleY 89.048
+    angleZ -87.868
+   }
+  }
+ }
+}
