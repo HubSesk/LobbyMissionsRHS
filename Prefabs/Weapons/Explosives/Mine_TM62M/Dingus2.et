@@ -1,0 +1,20 @@
+GenericEntity : "{61980E6F3CA71107}Prefabs/Weapons/Explosives/Mine_TM62M/Dingus.et" {
+ ID "59EC9890DE0228CB"
+ components {
+  MeshObject "{5968D9C73C08706E}" {
+   Materials {
+    MaterialAssignClass "{60AD4531A4FC7171}" {
+     SourceMaterial "dingus"
+     AssignedMaterial "{3344536ABEBD75B3}Assets/cats/maxwell/data/dingus2.emat"
+    }
+   }
+  }
+  SCR_MineDamageManager "{5A187C4DB2CF86F2}" {
+   "Additional hit zones" {
+    SCR_MineHitZone Main {
+     MaxHealth 10
+    }
+   }
+  }
+ }
+}

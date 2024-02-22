@@ -34,6 +34,35 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
  }
 }
+GenericEntity : "{7BF46B8343579CFB}Prefabs/Weapons/Explosives/Mine_TM62M/Dingus2.et" {
+ components {
+  BaseTriggerComponent "{59E4E69D8E9B4323}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{59EC98924EA033BD}" {
+     ExitEffectPrefab "{17B08DA4B050BBFE}Prefabs/Vehicles/Missles/kh55/KH55_CAS.et"
+    }
+   }
+  }
+  MeshObject "{5968D9C73C08706E}" {
+   Materials {
+    MaterialAssignClass "{60AD4531A4FC7171}" {
+     SourceMaterial "dingus"
+     AssignedMaterial "{3344536ABEBD75B3}Assets/cats/maxwell/data/dingus2.emat"
+    }
+   }
+  }
+  SCR_MineDamageManager "{5A187C4DB2CF86F2}" {
+   "Additional hit zones" {
+    SCR_MineHitZone Main {
+     MaxHealth 10
+    }
+   }
+  }
+ }
+ coords 4492.945 344.57 10798.313
+ angleY -62.297
+ angleZ -12.944
+}
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  {
   coords 6512.962 6.001 2454.552
