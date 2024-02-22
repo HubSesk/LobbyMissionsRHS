@@ -2,9 +2,100 @@ GenericEntity : "{15BEDC6B899035DB}Prefabs/YarmarkaBox.et" {
  coords 5818.467 5.832 9786.682
  angleY 87.024
 }
+$grp GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_plastic.et" {
+ {
+  coords 5812.199 16.468 9783.438
+  angleY 1.291
+ }
+ {
+  coords 5808.963 16.515 9783.546
+  angleY 1.576
+ }
+ {
+  coords 5812.528 16.492 9791.074
+ }
+ {
+  coords 5805.697 16.521 9783.611
+  angleY 2.533
+ }
+ {
+  coords 5802.471 16.495 9783.79
+  angleY 2.998
+ }
+ {
+  coords 5799.313 16.547 9783.968
+  angleY 3.875
+ }
+ {
+  coords 5795.964 16.529 9788.251
+  angleY -86
+ }
+ {
+  coords 5818.48 19.715 9783.257
+  angleY 2
+ }
+ {
+  coords 5821.864 19.778 9786.759
+  angleY 92
+ }
+ {
+  coords 5817.724 19.727 9790.577
+  angleY -176
+ }
+ {
+  coords 5803.295 10.079 9780.12
+  angleY 2.998
+ }
+}
+$grp GenericEntity : "{35F2A674E602198F}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_plastic.et" {
+ {
+  coords 5796.727 16.511 9784.105
+  angleY -178
+ }
+ {
+  coords 5795.875 16.519 9785.682
+  angleY 94
+ }
+ {
+  coords 5796.108 16.5 9790.878
+  angleY -86
+ }
+ {
+  coords 5821.154 19.764 9783.115
+  angleY 4
+ }
+ {
+  coords 5815.928 19.689 9783.355
+  angleY -178
+ }
+ {
+  coords 5820.307 19.741 9790.343
+  angleY 4
+ }
+ {
+  coords 5815.69 19.688 9790.654
+  angleY -176
+ }
+ {
+  coords 5798.135 16.525 9791.1
+  angleY -175
+ }
+ {
+  coords 5800.679 10.079 9780.246
+  angleY -178
+ }
+ {
+  coords 5806.041 10.079 9780.089
+  angleY 3
+ }
+}
 GenericEntity : "{61980E6F3CA71107}Prefabs/Weapons/Explosives/Mine_TM62M/Dingus.et" {
  coords 5595.572 37.122 9830.61
  angleX 1.814
  angleY 3.218
  angleZ 3.022
+}
+StaticModelEntity : "{D4177594212A056F}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_plastic_foundation.et" {
+ coords 5722.718 10.35 9690.032
+ angleY -172.806
 }
