@@ -19,7 +19,7 @@ class PS_SleepRFComponent : ScriptComponent
 		if (!character)
 			return;
 		
-		SCR_FactionAffiliationComponent factionAffiliationComponent = SCR_FactionAffiliationComponent.Cast(character.FindComponent(SCR_FactionAffiliationComponent));
+		FactionAffiliationComponent factionAffiliationComponent = FactionAffiliationComponent.Cast(character.FindComponent(FactionAffiliationComponent));
 		if (!factionAffiliationComponent)
 			return;
 		
@@ -31,8 +31,10 @@ class PS_SleepRFComponent : ScriptComponent
 		if (gameModeState == SCR_EGameModeState.GAME)
 		{
 			MenuBase topMenu = GetGame().GetMenuManager().GetTopMenu();
-			if (!topMenu)
+			MenuBase fadeMenu = GetGame().GetMenuManager().FindMenuByPreset(ChimeraMenuPreset.FadeToGame);
+			if (!topMenu || fadeMenu == topMenu)
 			{
+				GetGame().GetMenuManager().CloseMenuByPreset(ChimeraMenuPreset.FadeToGame);
 				GetGame().GetMenuManager().OpenMenu(ChimeraMenuPreset.SleepMenu);	
 			}
 		}

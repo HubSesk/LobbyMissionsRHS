@@ -17,6 +17,9 @@ class PS_SleepMenu: ChimeraMenuBase
 	override void OnMenuUpdate(float tDelta)
 	{
 		if (m_GameModeCoop.m_bFreezeTimeEnd) 
+		{
 			Close();
+			GetGame().GetMenuManager().OpenMenu(ChimeraMenuPreset.FadeToGame);	
+		}
 	}
 };
