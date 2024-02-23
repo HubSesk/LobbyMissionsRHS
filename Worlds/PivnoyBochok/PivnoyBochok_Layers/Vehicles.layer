@@ -1,3 +1,188 @@
+Vehicle BTR70_Ses_CDF_camo1 : "{6A440128395C6FB3}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF_camo.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{5A60D38E3C46CBE8}" {
+     SlotTemplate InventoryStorageSlot Morphine {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{5A60D38E3D91D053}" {
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{5A60D38E3DE4B1EA}" {
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{5A7CC6862AA09361}" {
+     SlotTemplate InventoryStorageSlot Backpack {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{5A7CC6862BCACE88}" {
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{5A7CC6862B68506F}" {
+     SlotTemplate InventoryStorageSlot MineFlag {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ coords 4828.422 339.364 10440.873
+ angleY -120.125
+}
+$grp Vehicle : "{A2E23CB8DDCFE82E}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_base.et" {
+ Ural4320_transport_CIV_base2 {
+  coords 2878.747 270.19 9697.969
+  angleX 3.777
+  angleY 50.205
+  angleZ 0.344
+ }
+ Ural4320_transport_CIV_base3 {
+  coords 2539.117 254.952 9662.709
+  angleX -4.622
+  angleY -40.301
+  angleZ -5.428
+ }
+ Ural4320_transport_CIV_base4 {
+  coords 2478.859 253.68 9656.239
+  angleX 0.891
+  angleY 95.309
+  angleZ 0.083
+ }
+ Ural4320_transport_CIV_base1 {
+  coords 2845.608 269.507 9722.129
+  angleX 0.905
+  angleY 139.056
+  angleZ 5.127
+ }
+}
+$grp Vehicle : "{B88FFB13228A022D}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_Ses_CDF_transport.et" {
+ Ural4320_Ses_CDF_transport2 {
+  coords 4834.321 339.364 10428.997
+  angleY -120.872
+ }
+ Ural4320_Ses_CDF_transport1 {
+  coords 4807.738 339.21 10471.175
+  angleY -121.337
+ }
+}
+$grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ BTR1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{5A60D38E3C46CBE8}" {
+      SlotTemplate InventoryStorageSlot Morphine {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{5A60D38E3DAEB055}" {
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{5A60D38E3D89BD31}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{5A60D38E3D91D053}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5A60D38E3DE4B1EA}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{5A7CC6862AA09361}" {
+      SlotTemplate InventoryStorageSlot Backpack {
+      }
+     }
+     MultiSlotConfiguration "{5A7CC6862BCACE88}" {
+      SlotTemplate InventoryStorageSlot ATMine {
+       Enabled 0
+      }
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{5A7CC6862B68506F}" {
+      SlotTemplate InventoryStorageSlot MineFlag {
+       Enabled 0
+      }
+     }
+    }
+   }
+  }
+  coords 2862.496 271.537 9744.817
+  angleY -154.811
+ }
+ BTR2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{5A60D38E3C46CBE8}" {
+      SlotTemplate InventoryStorageSlot Morphine {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{5A60D38E3DAEB055}" {
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{5A60D38E3D89BD31}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{5A60D38E3D91D053}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5A60D38E3DE4B1EA}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{5A7CC6862AA09361}" {
+      SlotTemplate InventoryStorageSlot Backpack {
+      }
+     }
+     MultiSlotConfiguration "{5A7CC6862BCACE88}" {
+      SlotTemplate InventoryStorageSlot ATMine {
+       Enabled 0
+      }
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{5A7CC6862B68506F}" {
+      SlotTemplate InventoryStorageSlot MineFlag {
+       Enabled 0
+      }
+     }
+    }
+   }
+  }
+  coords 2530.207 255.862 9609.86
+  angleX -1.926
+  angleY -47.654
+  angleZ -0.544
+ }
+}
 Vehicle Ural4320_CDF_transport_covered1 : "{F10C3707D4835945}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_CDF_transport_covered.et" {
  components {
   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {

@@ -9,6 +9,8 @@ TagManager : "{2FA9E172CAB1857A}Prefabs/MP/Managers/TagManager.et" {
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  coords 4713.097 339.094 10686.382
+ m_bKillRedundantUnits 1
+ m_iFreezeTime 300000
  {
   SCR_FactionManager "60A555932926A68D" {
    ID "5ED9088735FF2D8B"
@@ -25,6 +27,23 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
 HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
  coords 4714.083 339.094 10688.767
 }
-PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
- coords 4714.615 339.094 10686.16
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 4718.445 339.062 10722.5
+ m_fWarnRadius 45
+ m_fZoneRadius 55
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 4828.965 339.135 10426.598
+ }
+ {
+  coords 2517.133 259.039 9649.599
+  m_fWarnRadius 85
+  m_fZoneRadius 125
+ }
+ {
+  coords 2882.189 276.858 9742.506
+  m_fWarnRadius 85
+  m_fZoneRadius 125
+ }
 }

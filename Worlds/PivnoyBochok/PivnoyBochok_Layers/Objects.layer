@@ -23,20 +23,24 @@ $grp GenericEntity : "{31DEE33F05F7C9D0}Prefabs/Props/Military/Sandbags/Sandbag_
   angleY -36.929
  }
  {
-  coords 4705.518 349.02 10728.208
-  angleY 52.544
+  coords 4706.208 349.02 10726.184
+  angleY 142.487
  }
  {
-  coords 4704.924 349.02 10726.008
+  coords 4702.781 349.02 10728.758
   angleY -38.22
  }
  {
-  coords 4700.432 349.021 10729.107
-  angleY -38.22
+  coords 4733.759 339.321 10743.836
+  angleX -1.52
+  angleY 50.914
+  angleZ 2.386
  }
  {
-  coords 4700.747 349.021 10727.027
-  angleY 52.544
+  coords 4740.098 339.158 10730.024
+  angleX -2.555
+  angleY 82.984
+  angleZ 1.215
  }
 }
 GenericEntity : "{326E60F7A7358EDA}Prefabs/Props/Crates/CrateWooden_01_blue.et" {
@@ -44,6 +48,16 @@ GenericEntity : "{326E60F7A7358EDA}Prefabs/Props/Crates/CrateWooden_01_blue.et" 
  angleX 90
  angleY 180
  angleZ 144.21
+}
+$grp GenericEntity : "{53EB8BF116A99F3B}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_base.et" {
+ {
+  coords 4704.43 349.02 10724.861
+  angleY 143.914
+ }
+ {
+  coords 4702.499 348.98 10726.813
+  angleY 53.117
+ }
 }
 $grp GenericEntity : "{5821AF9613353C80}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_burlap_camonet.et" {
  {
@@ -59,6 +73,10 @@ $grp GenericEntity : "{5821AF9613353C80}Prefabs/Props/Military/Sandbags/Sandbag_
   angleY 49.03
  }
 }
+GenericEntity : "{74E665E138AA8E21}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_CDF.et" {
+ coords 4705.981 349.568 10728.776
+ angleY -149.517
+}
 GenericEntity : "{7E2EC66747A3FBA3}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_base.et" {
  coords 4720.229 340.407 10748.711
  angleX 89.972
@@ -67,7 +85,7 @@ GenericEntity : "{7E2EC66747A3FBA3}Prefabs/Props/Crates/CrateWooden_02/CrateWood
 }
 $grp GenericEntity : "{8777F96EBE817623}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_base.et" {
  {
-  coords 4706.657 339.039 10733.12
+  coords 4706.657 339.039 10733.119
   angleY 102.114
  }
  {
@@ -75,7 +93,7 @@ $grp GenericEntity : "{8777F96EBE817623}Prefabs/Props/Military/Sandbags/Sandbag_
   angleY -44.538
  }
  {
-  coords 4709.988 339.038 10733.864
+  coords 4709.988 339.038 10733.863
   angleY -47.147
  }
  {
@@ -118,56 +136,112 @@ $grp GenericEntity : "{8777F96EBE817623}Prefabs/Props/Military/Sandbags/Sandbag_
   angleY 53.214
  }
  {
-  coords 4743.706 339.166 10727.484
-  angleY 87.704
+  coords 4743.706 339.144 10727.484
+  angleX 0.93
+  angleY 87.718
+  angleZ 0.859
  }
  {
-  coords 4743.232 339.188 10734.303
+  coords 4743.232 339.187 10734.303
   angleY 75.132
  }
  {
-  coords 4742.539 339.187 10736.934
+  coords 4742.539 339.187 10736.935
   angleY 76.821
  }
  {
-  coords 4732.173 339.198 10750.531
-  angleY 178.61
+  coords 4732.173 339.043 10750.531
+  angleX 0.086
+  angleY 178.615
+  angleZ 3.575
  }
  {
-  coords 4734.535 339.203 10749.613
-  angleY 46.102
+  coords 4734.535 339.176 10749.612
+  angleX -0.596
+  angleY 46.122
+  angleZ -1.91
  }
  {
-  coords 4736.494 339.244 10747.791
-  angleY 46.102
+  coords 4736.494 339.246 10747.791
+  angleX -1.266
+  angleY 46.103
+  angleZ -0.024
  }
  {
-  coords 4741.948 339.219 10739.599
-  angleY 75.234
+  coords 4741.948 339.212 10739.599
+  angleX 0.228
+  angleY 75.237
+  angleZ 0.866
  }
  {
   coords 4740.829 339.219 10742.136
   angleY 56.734
  }
  {
-  coords 4739.346 339.152 10732.512
-  angleY 86.192
+  coords 4740.441 339.121 10727.313
+  angleX 1.026
+  angleY 80.836
+  angleZ 0.741
  }
  {
-  coords 4739.62 339.13 10729.849
-  angleY 80.823
+  coords 4735.375 339.255 10741.703
+  angleX -0.248
+  angleY 56.292
+  angleZ 1.241
  }
  {
-  coords 4737.1 339.269 10740.925
-  angleY 48.772
+  coords 4731.895 339.363 10745.539
+  angleX -2.99
+  angleY 34.32
+  angleZ 1.207
  }
  {
-  coords 4735.446 339.397 10742.988
-  angleY 48.499
+  coords 4739.564 339.159 10732.625
+  angleX 1.146
+  angleY 70.172
+  angleZ 0.538
+ }
+ {
+  coords 4704.926 349.02 10729.112
+  angleY 53.112
  }
 }
-GenericEntity : "{881558ACD5FC31C0}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x2.et" {
- coords 4721.616 339.932 10746.436
+$grp GenericEntity : "{881558ACD5FC31C0}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x2.et" {
+ {
+  coords 4721.616 339.932 10746.436
+ }
+ {
+  coords 4721.746 339.928 10759.335
+ }
+ {
+  coords 4752.628 339.992 10712.66
+  angleY 7.415
+ }
+ {
+  coords 4752.113 340.027 10711.038
+  angleX -21.897
+  angleY 11.617
+  angleZ 1.692
+ }
+ {
+  coords 4742.153 339.992 10704.525
+ }
+ {
+  coords 4742.132 339.992 10705.712
+  angleY 16.832
+ }
+ {
+  coords 4724.278 340.425 10758.562
+  angleX 90
+  angleY 180
+  angleZ 70.834
+ }
+ {
+  coords 4724.24 341.418 10758.414
+  angleX 89.972
+  angleY -180
+  angleZ 66.316
+ }
 }
 $grp GenericEntity : "{A7930B258A9B4CA8}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_plastic.et" {
  {
@@ -215,17 +289,33 @@ $grp GenericEntity : "{B496AC9BEE590838}Prefabs/Compositions/Misc/SubComposition
   angleY -73.728
  }
 }
-GameEntity : "{CCFBDDED9E41349A}PrefabsEditable/Auto/Props/Civilian/LampKerosene_01/E_LampKerosene_01_military_USSR.et" {
- components {
-  SCR_LampComponent "{5D2AB5C8865F22C4}" {
-   m_eInitialLightState LIT
+$grp GameEntity : "{CCFBDDED9E41349A}PrefabsEditable/Auto/Props/Civilian/LampKerosene_01/E_LampKerosene_01_military_USSR.et" {
+ {
+  components {
+   SCR_LampComponent "{5D2AB5C8865F22C4}" {
+    m_eInitialLightState LIT
+   }
   }
+  coords 4741.993 340.798 10714.701
  }
- coords 4741.993 340.798 10714.701
+ {
+  components {
+   SCR_LampComponent "{5D2AB5C8865F22C4}" {
+    m_eInitialLightState LIT
+   }
+  }
+  coords 4719.936 340.914 10750.038
+ }
 }
-GenericEntity : "{CF92D5CE4EC7F917}Prefabs/Props/Military/Radios/RadioStation_RF10/RadioStation_RF10.et" {
- coords 4716.323 340.812 10752.375
- angleY -72.593
+$grp GenericEntity : "{CF92D5CE4EC7F917}Prefabs/Props/Military/Radios/RadioStation_RF10/RadioStation_RF10.et" {
+ {
+  coords 4716.323 340.812 10752.375
+  angleY -72.593
+ }
+ {
+  coords 4724.055 339.998 10709.844
+  angleY 54.395
+ }
 }
 GenericEntity : "{D63716E01EF9AC74}Prefabs/Props/Forest/ForestBench_01/ForestBench_01.et" {
  coords 4723.337 339.097 10709.35
@@ -260,4 +350,8 @@ $grp GenericEntity : "{DC4B11930753ABC2}Prefabs/Props/Military/Sandbags/Sandbag_
 GenericEntity : "{E4416C4C6938BEEE}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x1.et" {
  coords 4719.934 339.928 10750.017
  angleY 26.421
+}
+GenericEntity : "{E840D82CE1F92BBD}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_base.et" {
+ coords 4707.044 348.953 10727.813
+ angleY 52.973
 }
