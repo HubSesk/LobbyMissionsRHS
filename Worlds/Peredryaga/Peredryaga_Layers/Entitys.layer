@@ -10,12 +10,31 @@ TagManager : "{2FA9E172CAB1857A}Prefabs/MP/Managers/TagManager.et" {
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 16
+   m_iStartingHours 18
   }
  }
  coords 4032.738 377.91 11586.915
+ m_fAutoReloadTime 300
+ m_iAvailableReconnectTime 300000
  m_bKillRedundantUnits 1
+ m_bRemoveSquadMarkers 1
  m_iFreezeTime 300000
+ {
+  SCR_FactionManager {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{5978B9CE6585BBE8}" {
+     m_bIsPlayable 1
+    }
+    SCR_Faction "{5D9F7285A1D004FE}" {
+     m_bIsPlayable 1
+    }
+    SCR_Faction "{604D1A678B852591}" {
+     m_bIsPlayable 1
+    }
+   }
+  }
+ }
 }
 HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
  coords 4032.133 378.038 11586.707
