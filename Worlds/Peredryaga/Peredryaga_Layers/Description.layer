@@ -1,0 +1,114 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 4031.886 377.775 11586.059
+  m_sTitle "Правила"
+  m_sTextData "1. Не транслировать музыку и прочие сторонние звуки в радио каналы, в рацию противника в том числе."\
+  ""\
+  "2. Не переодеваться в форму противника/снимать униформу иди обувь если это не является обговоренным элементом миссии."\
+  ""\
+  "3. Не использовать внеигровую комуникацию/стримы для получения информации во время игры."\
+  ""\
+  "4. Запрещено использование сторонних програм для изменения графики игры (будь то reshade, или утилиты от Нвидии/Амд для влияния на графику игры.)"\
+  ""\
+  "5. Запрещено занятие ролей командиров отрядов/стороны до 18 лет."
+  m_aVisibleForFactions {
+   "RHS_RF_MSV" "Ses_NAPA" "Ses_CDF"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 4052.521 376.025 11687.596
+  m_sTitle "Легенда"
+  m_sTextData "Пока ЧДКЗ и основные силы ЧСО отвлеклись на пивные бочки, бойцам ВС РФ удалось под шумок завладеть ОЧЕНЬ секретными документами по поводу маковых булок с территории Такистана. Но везение длилось недолго. Про документы узнали бойцы НАПА и резервные войска ЧСО, в которых стороны очень заинтересованы. Теперь бойцам РФ необходимо продержаться 45 минут до прибытия поддержки."
+  m_aVisibleForFactions {
+   "RHS_RF_MSV" "Ses_NAPA" "Ses_CDF"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 4052.305 376.063 11693.729
+  m_sTitle "Задачи ВС РФ"
+  m_sTextData "- Не дать противнику завладеть документами"\
+  ""\
+  "- Продержаться 45 минут"
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+ }
+ {
+  coords 4049.95 376.063 11691.483
+  m_sTitle "Правила ВС РФ"
+  m_sTextData "- НЕЛЬЗЯ трогать документы"\
+  ""\
+  "- НЕЛЬЗЯ перемещать документы, для бойцов ВС РФ они приклеены на клей момент и вам не под силу их поднять. И проверять это не надо. "
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+ }
+ {
+  coords 4051.209 376.062 11695.908
+  m_sTitle "Задачи НАПА"
+  m_sTextData "- Заполучить документы и унести за территорию военной части"
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+ }
+ {
+  coords 4050.044 376.062 11692.823
+  m_sTitle "Правила ЧСО"
+  m_sTextData "- Заполучить документы и унести за территорию военной части"
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 4049.186 381.047 11710.671
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "SupplyDepot"
+  m_fWorldSize 65
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV" "Ses_NAPA" "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 4016.746 376.062 11699.416
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 65
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV" "Ses_NAPA" "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 5286.41 306.5 10583.69
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "infantry-blufor"
+  m_fWorldSize 65
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV" "Ses_NAPA" "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 3368.389 220.1 12470.621
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "infantry-indfor"
+  m_fWorldSize 65
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV" "Ses_NAPA" "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+}

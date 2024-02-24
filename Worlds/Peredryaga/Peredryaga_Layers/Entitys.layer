@@ -1,34 +1,35 @@
 SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
- coords 4714.342 339.094 10686.347
+ coords 4031.393 377.67 11586.01
 }
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
- coords 4713.069 339.094 10687.604
+ coords 4031.554 377.654 11585.877
 }
 TagManager : "{2FA9E172CAB1857A}Prefabs/MP/Managers/TagManager.et" {
- coords 4713.013 339.094 10685.57
+ coords 4032.44 377.967 11586.651
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  components {
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 7
+   m_iStartingHours 18
   }
  }
- coords 4713.097 339.094 10686.382
+ coords 4032.738 377.91 11586.915
  m_fAutoReloadTime 300
  m_iAvailableReconnectTime 300000
  m_bKillRedundantUnits 1
  m_bRemoveSquadMarkers 1
  m_iFreezeTime 300000
  {
-  SCR_FactionManager "60A555932926A68D" {
+  SCR_FactionManager {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{5978B9CE6585BBE8}" {
+     m_bIsPlayable 1
     }
     SCR_Faction "{5D9F7285A1D004FE}" {
      m_bIsPlayable 1
     }
-    SCR_Faction "{604D1A678A26714B}" {
+    SCR_Faction "{604D1A678B852591}" {
      m_bIsPlayable 1
     }
    }
@@ -36,25 +37,19 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  }
 }
 HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
- coords 4714.083 339.094 10688.767
+ coords 4032.133 378.038 11586.707
 }
 SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
- coords 4718.445 339.062 10722.5
- m_fWarnRadius 45
- m_fZoneRadius 55
+ coords 4038.786 376.062 11711.683
 }
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  {
-  coords 4828.965 339.135 10426.598
+  coords 3423.945 220.077 12483.493
+  m_fWarnRadius 120
+  m_fZoneRadius 160
+  m_fZoneTeleportedRadius 170
  }
  {
-  coords 2517.133 259.039 9649.599
-  m_fWarnRadius 85
-  m_fZoneRadius 125
- }
- {
-  coords 2882.189 276.858 9742.506
-  m_fWarnRadius 85
-  m_fZoneRadius 125
+  coords 5276.938 306.499 10572.523
  }
 }

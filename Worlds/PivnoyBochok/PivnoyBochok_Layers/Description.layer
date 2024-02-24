@@ -1,0 +1,439 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 2575.105 257.71 9629.901
+  m_sTitle "Легенда"
+  m_sTextData "На днях Чернорусское Движение Красной Звезды обнаружило большой склад с бочонками вкуснейшего пива и сразу же уволокли его к себе на перевалочный пункт. Однако Чернорусская разведка, коя осталась без картошки, узнала об этом мародёрстве и решила провести тихую операцию по возвращению государственного имущества. Глубокой ночь бойцы ЧСО смогли тайком забрать всё разливное и уехать на аэропорт, где уже были поставлены укреплённые сооружения. По итогу было решено оставить бочки в старых бункерах, чтобы было похолоднее."\
+  ""\
+  "На утро командование ЧДКЗ заметило пропажу и тут же отправило свою разведку на поиск вора. Поняв что к чему, ЧДКЗ перегруппировали свои силы для атаки на укреплённые позиции противника, где и располагается желанный и сочный алкоголь."\
+  ""\
+  "Теперь ЧСО нужно продержаться 50 минут до прибытия поддержки."
+  m_aVisibleForFactions {
+   "Ses_CDF" "Ses_ChDKZ"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 4714.615 339.094 10686.16
+  m_sTitle "Правила"
+  m_sTextData "1. Не транслировать музыку и прочие сторонние звуки в радио каналы, в рацию противника в том числе."\
+  ""\
+  "2. Не переодеваться в форму противника/снимать униформу иди обувь если это не является обговоренным элементом миссии."\
+  ""\
+  "3. Не использовать внеигровую комуникацию/стримы для получения информации во время игры."\
+  ""\
+  "4. Запрещено использование сторонних програм для изменения графики игры (будь то reshade, или утилиты от Нвидии/Амд для влияния на графику игры.)"\
+  ""\
+  "5. Запрещено занятие ролей командиров отрядов/стороны до 18 лет."
+  m_aVisibleForFactions {
+   "Ses_CDF" "Ses_ChDKZ"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 2569.282 257.353 9639.291
+  m_sTitle "История о двух братьях"
+  m_sTextData "Жили-были два славных молодца, два брата-каптёра. Младший был Иван, старший же - Тимур. Оба они, не покладая рук, работали всю жизнь на складах с государственной провизией."\
+  ""\
+  "И вот наступили тяжёлые времена, времена кровавой и тяжёлой войны. Бравые парни тут же встали на помощь своей родине и поступили на военную службу, но их распределили в разные части. Их обоих поставили на должность каптёра как самых опытных, чтобы они следили за чистотой в роте."\
+  ""\
+  "Война всё шла и шла. С каждым днём противник наступал всё ближе и ближе. Провизии становилось меньше и меньше. И вот, стало известно, что на одну из военных баз, где служил старший брат, вот-вот будет совершено нападение противника, а целью их будет самое ценное - склад с картошкой. Командование поставила задачу Тимуру - охранять склад любой ценой. Так и погиб брат Тимур на этом складе славной смертью в неравном бою, защищая картошку своим телом и отстаивая свой долг."\
+  ""\
+  "Иван, узнав о гибели своего брата, очень сильно расстроился. Он не мог поверить в его гибель. И тогда Ваня пообещал самому себе отстоять честь брата. Соотечественники как раз смогли вернуть сворованное государственное имущество, кое и предстоит защитить младшему брату. "
+  m_aVisibleForFactions {
+   "Ses_CDF" "Ses_ChDKZ"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  coords 2573.807 257.663 9628.993
+  m_sTitle "Сведения ЧСО"
+  m_sTextData "- У противника имеется два БТР-70"
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+ {
+  coords 2572.918 257.651 9625.035
+  m_sTitle "Правила ЧСО"
+  m_sTextData "- Пивные бочки запрещено выносить за пределы укреплённого пункта"\
+  ""\
+  "- Каптёру запрещено покидать пределы укреплённого пункта"
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+ {
+  coords 2573.717 257.701 9624.206
+  m_sTitle "Задачи ЧСО"
+  m_sTextData "- Не дать завладеть противнику местом хранения бочек с пивом"\
+  ""\
+  "- Не дать противнику вынести бочки с пивом"\
+  ""\
+  "- Продержаться 50 минут"
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+ {
+  coords 2567.918 257.261 9641.037
+  m_sTitle "Задачи ЧДКЗ"
+  m_sTextData "- Захватить склады хранения бочек с пивом / вынести бочки с пивом за пределы аэродрома до прибытия поддержки противника (50 минут)"
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+ }
+ {
+  coords 2569.237 257.424 9628.606
+  m_sTitle "Сведения ЧДКЗ"
+  m_sTextData "- У противника имеется техника"
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 4721.236 339.063 10706.08
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.445 1
+  m_sQuadName "infantry-blufor"
+  m_fWorldSize 50
+  m_sDescription "Атлас Вайт 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+ {
+  coords 4700.488 349.021 10727.811
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.445 1
+  m_sQuadName "signal-blufor"
+  m_fWorldSize 50
+  m_sDescription "Атлас Ред 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+ {
+  coords 4812.056 339.157 10460.569
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.445 1
+  m_sQuadName "infantry-blufor"
+  m_fWorldSize 50
+  m_sDescription "Блейзер Ред 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+ {
+  coords 4850.4 339.156 10415.04
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.445 1
+  m_sQuadName "infantry-blufor"
+  m_fWorldSize 50
+  m_sDescription "Блейзер Ред 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+ {
+  coords 4808.563 339.156 10427.937
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.445 1
+  m_sQuadName "armored-blufor"
+  m_fWorldSize 50
+  m_sDescription "Хаос Ред 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+ {
+  coords 4828.567 339.364 10440.979
+  angleY -29.846
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.445 1
+  m_sQuadName "APC"
+  m_fWorldSize 25
+  m_sDescription "БТР-70"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+ {
+  coords 4741.113 339.992 10714.12
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.445 1
+  m_sQuadName "infantry-blufor"
+  m_fWorldSize 50
+  m_sDescription "Атлас Ред 2 (Каптер)"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+ {
+  coords 4835.113 339.364 10429.195
+  angleY -29.846
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.445 1
+  m_sQuadName "Truck"
+  m_fWorldSize 25
+  m_sDescription "Урал"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+ {
+  coords 4807.695 339.187 10471.155
+  angleY -29.846
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.445 1
+  m_sQuadName "Truck"
+  m_fWorldSize 25
+  m_sDescription "Урал"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+ {
+  coords 4729.951 339.062 10731.599
+  angleY 151.059
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.445 1
+  m_sQuadName "Truck"
+  m_fWorldSize 25
+  m_sDescription "Урал"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+ {
+  coords 4741.376 339.992 10716.359
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.445 1
+  m_sQuadName "SupplyDepot"
+  m_fWorldSize 50
+  m_sDescription "Склад с пивом"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF" "Ses_ChDKZ"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 4718.008 339.928 10749.438
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.445 1
+  m_sQuadName "SupplyDepot"
+  m_fWorldSize 50
+  m_sDescription "Склад с пивом"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF" "Ses_ChDKZ"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 3741.203 359.794 10223.963
+  angleY 61.435
+  m_sImageSet "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.552 0.002 0 1
+  m_sQuadName "AR_icon_arrow_04"
+  m_fWorldSize 150
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 2476.585 253.674 9648.454
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 50
+  m_sDescription "Актив-12"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+ }
+ {
+  coords 2477.884 253.914 9656.693
+  angleY -178.13
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.552 0.002 0 1
+  m_sQuadName "Truck"
+  m_fWorldSize 25
+  m_sDescription "Урал"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+ }
+ {
+  coords 2483.516 254.046 9640.345
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "signal-opfor"
+  m_fWorldSize 50
+  m_sDescription "Актив-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+ }
+ {
+  coords 2527.426 254.531 9672.092
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 50
+  m_sDescription "Актив-13"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+ }
+ {
+  coords 2522.351 255.711 9607.429
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "armored-opfor"
+  m_fWorldSize 50
+  m_sDescription "Актив-21"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+ }
+ {
+  coords 2539.432 254.991 9662.078
+  angleY 52.273
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.552 0.002 0 1
+  m_sQuadName "Truck"
+  m_fWorldSize 25
+  m_sDescription "Урал"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+ }
+ {
+  coords 2529.979 256.278 9609.753
+  angleY 42.988
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.552 0.002 0 1
+  m_sQuadName "APC"
+  m_fWorldSize 25
+  m_sDescription "БТР-70"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+ }
+ {
+  coords 2839.769 268.808 9716.22
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 50
+  m_sDescription "Буран-12"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+ }
+ {
+  coords 2882.132 269.805 9688.277
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 50
+  m_sDescription "Буран-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+ }
+ {
+  coords 2871.355 271.537 9746.923
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "armored-opfor"
+  m_fWorldSize 50
+  m_sDescription "Буран-21"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+ }
+ {
+  coords 2845.949 269.536 9722.179
+  angleY -131.26
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.552 0.002 0 1
+  m_sQuadName "Truck"
+  m_fWorldSize 25
+  m_sDescription "Урал"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+ }
+ {
+  coords 2879.081 270.232 9698.547
+  angleY 142.6
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.552 0.002 0 1
+  m_sQuadName "Truck"
+  m_fWorldSize 25
+  m_sDescription "Урал"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+ }
+ {
+  coords 2862.678 272.005 9745.315
+  angleY -65.178
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.552 0.002 0 1
+  m_sQuadName "APC"
+  m_fWorldSize 25
+  m_sDescription "БТР-70"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+ }
+}

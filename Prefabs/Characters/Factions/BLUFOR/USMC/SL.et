@@ -15,8 +15,19 @@ SCR_ChimeraCharacter : "{4E448FFA42302009}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{5CC8B5EF85FB5080}" {
     }
     ItemsInitConfigurationItem "{5EA287E0AEFD25ED}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/FILBE_hydration_pack.et"
      PrefabsToSpawn {
       "{2518CA6044D6BBDD}Prefabs/Weapons/Attachments/Optics/ta31rco/Optic_TA31RCO.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6082F562788FB669}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{54A49B42D138207E}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch.et"
+     PrefabsToSpawn + {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
      }
     }
    }

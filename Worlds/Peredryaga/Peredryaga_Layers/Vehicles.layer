@@ -1,0 +1,158 @@
+Vehicle BTR70_Ses_CDF_camo1 : "{6A440128395C6FB3}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF_camo.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{5A60D38E3C46CBE8}" {
+     SlotTemplate InventoryStorageSlot Morphine {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{5A60D38E3DAEB055}" {
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{5A60D38E3D91D053}" {
+     SlotTemplate InventoryStorageSlot AKammunition {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{5A60D38E3DE4B1EA}" {
+     SlotTemplate InventoryStorageSlot UGLammo {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+     SlotTemplate InventoryStorageSlot RPKammunition {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
+     SlotTemplate InventoryStorageSlot PKMammunition {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{5A7CC6862AA09361}" {
+     SlotTemplate InventoryStorageSlot Backpack {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{5A7CC6862BCACE88}" {
+     SlotTemplate InventoryStorageSlot ATMine {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{5A7CC6862B68506F}" {
+     SlotTemplate InventoryStorageSlot MineFlag {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ coords 5253.211 306.5 10579.957
+ angleY 49.193
+}
+$grp Vehicle : "{A2E23CB8DDCFE82E}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_base.et" {
+ Ural4320_transport_CIV_base3 {
+  coords 3472.89 220.041 12476.995
+  angleY -106.286
+ }
+ Ural4320_transport_CIV_base4 {
+  coords 3520.72 220.063 12487.413
+  angleX -0.251
+  angleY -106.283
+  angleZ -0.859
+ }
+ Ural4320_transport_CIV_base1 {
+  coords 3319.972 220.151 12482.186
+  angleX 1.43
+  angleY 143.013
+  angleZ -1.077
+ }
+ Ural4320_transport_CIV_base2 {
+  coords 3401.542 220.368 12457.787
+  angleX 1.854
+  angleY -175.555
+  angleZ -0.753
+ }
+}
+$grp Vehicle : "{B88FFB13228A022D}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_Ses_CDF_transport.et" {
+ Ural4320_Ses_CDF_transport1 {
+  coords 5282.031 306.5 10576.659
+  angleY -36.218
+ }
+ Ural4320_Ses_CDF_transport2 {
+  coords 5279.334 306.531 10549.671
+  angleY 48.583
+ }
+ Ural4320_Ses_CDF_transport3 {
+  coords 5320.788 306.478 10537.834
+  angleY -36.218
+ }
+ Ural4320_Ses_CDF_transport4 {
+  coords 5265.414 304.74 10627.882
+  angleX -4.453
+  angleY -32.319
+  angleZ -0.354
+ }
+}
+Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{5A60D38E3C46CBE8}" {
+     SlotTemplate InventoryStorageSlot Morphine {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{5A60D38E3DAEB055}" {
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{5A60D38E3D91D053}" {
+     SlotTemplate InventoryStorageSlot AKammunition {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{5A60D38E3DE4B1EA}" {
+     SlotTemplate InventoryStorageSlot UGLammo {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+     SlotTemplate InventoryStorageSlot RPKammunition {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
+     SlotTemplate InventoryStorageSlot PKMammunition {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{5A7CC6862AA09361}" {
+     SlotTemplate InventoryStorageSlot Backpack {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{5A7CC6862BCACE88}" {
+     SlotTemplate InventoryStorageSlot ATMine {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{5A7CC6862B68506F}" {
+     SlotTemplate InventoryStorageSlot MineFlag {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ coords 3358.689 220.215 12462.307
+ angleX 1.806
+ angleY 73.396
+ angleZ -3.336
+}

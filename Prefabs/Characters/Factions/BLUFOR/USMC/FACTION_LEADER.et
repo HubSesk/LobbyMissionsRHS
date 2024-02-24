@@ -17,6 +17,9 @@ SCR_ChimeraCharacter : "{4E448FFA42302009}Prefabs/Characters/Factions/BLUFOR/RHS
     LoadoutSlotInfo Hat {
      Prefab "{01C0F39F7D5B09FF}Prefabs/Characters/HeadGear/Hat_Beanie/Hat_beanie_Black_peltor_ochki.et"
     }
+    LoadoutSlotInfo Back {
+     Prefab "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.et"
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
@@ -26,6 +29,12 @@ SCR_ChimeraCharacter : "{4E448FFA42302009}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{5EA287E0AEFD25ED}" {
      PrefabsToSpawn {
       "{2518CA6044D6BBDD}Prefabs/Weapons/Attachments/Optics/ta31rco/Optic_TA31RCO.et"
+     }
+    }
+    ItemsInitConfigurationItem "{54A49B42D138207E}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch.et"
+     PrefabsToSpawn + {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
      }
     }
    }
