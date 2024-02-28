@@ -5,6 +5,32 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 TagManager : "{2FA9E172CAB1857A}Prefabs/MP/Managers/TagManager.et" {
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_InitWeatherComponent "{60B929B90FFEB1CF}" {
+   m_sInitialStartingWeatherId "Overcast"
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 16
+  }
+ }
+ m_fAutoReloadTime 300
+ m_bKillRedundantUnits 1
+ m_bRemoveSquadMarkers 1
+ m_iFreezeTime 300000
 }
 HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 7496.902 35.61 3197.435
+  m_fWarnRadius 100
+  m_fZoneRadius 130
+  m_fZoneTeleportedRadius 145
+ }
+ {
+  coords 7125.609 15.36 5116.248
+  m_fWarnRadius 145
+  m_fZoneRadius 170
+  m_fZoneTeleportedRadius 185
+ }
 }

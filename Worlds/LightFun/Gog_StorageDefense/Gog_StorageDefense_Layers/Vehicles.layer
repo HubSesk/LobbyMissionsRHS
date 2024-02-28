@@ -1,6 +1,124 @@
-Vehicle BTR70_RF1 : "{B45DF818CF8F283A}Prefabs/Vehicles/Wheeled/BTR70/BTR70_RF.et" {
- coords 7524.135 20.297 3274.525
- angleX -3.973
- angleY -147.056
- angleZ -0.444
+$grp Vehicle : "{677628B9FB43F83D}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo_camo1.et" {
+ Ural4320_ammo_camo1 {
+  coords 7175.271 6.818 5084.67
+  angleX -0.397
+  angleY 153.697
+  angleZ -0.803
+ }
+ Ural4320_ammo_camo2 {
+  coords 7082.406 5.979 5074.663
+  angleY 88.325
+ }
+ Ural4320_ammo_camo3 {
+  coords 7037.988 5.066 5085.183
+  angleX 2.526
+  angleY 138.512
+  angleZ 0.155
+ }
+}
+Vehicle UAZ469_Camo1 : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
+ coords 7228.963 4.569 5180.782
+ angleX -4.807
+ angleY -159.929
+ angleZ 0.145
+}
+$grp Vehicle : "{E960470F2959B1BF}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF_Camo.et" {
+ BTR70_AFRF_Camo1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5A60D38E3C6A4E2F}" {
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{5A60D38E3D89BD31}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{5A60D38E3D91D053}" {
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{609EA3D1CA4AD45A}" {
+      SlotTemplate InventoryStorageSlot Backpack {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{609EA3D1CA4AD45D}" {
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{609EA3D1CA4AD45C}" {
+      SlotTemplate InventoryStorageSlot MineFlag {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{609EA3D1CA4AD443}" {
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{609EA3D1CA4AD442}" {
+      NumSlots 8
+     }
+    }
+   }
+  }
+  coords 7016.234 3.717 5111.348
+  angleX 1.469
+  angleY 145.134
+  angleZ -1.023
+ }
+ BTR70_AFRF_Camo2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5A60D38E3C6A4E2F}" {
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{5A60D38E3D89BD31}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{5A60D38E3D91D053}" {
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{609EA3D1CA4AD45A}" {
+      SlotTemplate InventoryStorageSlot Backpack {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{609EA3D1CA4AD45D}" {
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{609EA3D1CA4AD45C}" {
+      SlotTemplate InventoryStorageSlot MineFlag {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{609EA3D1CA4AD443}" {
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{609EA3D1CA4AD442}" {
+      NumSlots 8
+     }
+    }
+   }
+  }
+  coords 7216.739 5.117 5141.204
+  angleX 1.949
+  angleY -166.552
+  angleZ -0.454
+ }
 }
