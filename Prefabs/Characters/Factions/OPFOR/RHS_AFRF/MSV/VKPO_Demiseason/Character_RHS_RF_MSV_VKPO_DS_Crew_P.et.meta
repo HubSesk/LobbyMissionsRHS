@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{F0F0A8C16C9901B9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_SL.et"
+ Name "{1F45A8542E2BDFA1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew_P.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -10,6 +10,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS4 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }
