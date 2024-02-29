@@ -1,8 +1,21 @@
-GenericEntity : "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" {
- coords 1088.699 3 5119.229
+GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USSR.et" {
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_sDefaultMaterial "{15AB376863D1724E}Assets/Props/Fabric/Flags/Data/Flag_1_2_Russia.emat"
+  }
+ }
+ coords 6215.572 20.28 7595.922
+ angleY -147.825
 }
-GenericEntity : "{7343AD5762833EC4}Prefabs/Items/Equipment/Maps/BanyaBochkaBlueprint.et" {
- coords 1087.995 3.145 5118.474
- angleX 84.499
- angleZ 48.15
+$grp GenericEntity : "{7343AD5762833EC4}Prefabs/Items/Equipment/Maps/BanyaBochkaBlueprint.et" {
+ {
+  coords 6205.271 18.246 7595.357
+  angleY -21.991
+ }
+ {
+  coords 6225.73 18.515 7545.011
+  angleX 90
+  angleY -21.991
+  angleZ -179.758
+ }
 }
