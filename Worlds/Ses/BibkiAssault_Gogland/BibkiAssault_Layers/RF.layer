@@ -9,15 +9,12 @@ Vehicle Ural4320_command_camo1 : "{2C95509CA3E61DE1}Prefabs/Vehicles/Wheeled/Ura
  angleY -35.64
  angleZ 1.455
 }
-SCR_AIGroup : "{5A97E7731DB3A3DE}Prefabs/Groups/OPFOR/RHS_AFRF/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_RifleSquad_P.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "Column"
-  }
+$grp SCR_AIGroup : "{5A97E7731DB3A3DE}Prefabs/Groups/OPFOR/RHS_AFRF/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_RifleSquad_P.et" {
+ {
+  coords 5519.783 123.589 6874.566
+  angleY 10.674
  }
- coords 5519.783 123.589 6874.566
- angleY 10.674
- m_aUnitPrefabSlots {
-  "{32429C48531DF8D4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_SL_P.et" "{97C724C5875B4CB9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_AR_P.et" "{2A177642F84050A7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_AT_P.et" "{516B9BD8BA7B90B3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_AAT_P.et" "{FD32470583BEF993}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_SR_P.et" "{2F5E3906F00D4B17}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Rifleman_P.et" "{1F45A8542E2BDFA1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew_P.et" "{1F45A8542E2BDFA1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew_P.et"
+ {
+  coords 6215.94 11.171 7616.745
  }
 }
