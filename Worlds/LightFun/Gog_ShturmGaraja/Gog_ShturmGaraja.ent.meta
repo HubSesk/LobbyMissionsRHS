@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1F37CE7E7AABEEC6}Worlds/LightFun/Gog_ShturmGaraja/Gog_ShturmGaraja.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

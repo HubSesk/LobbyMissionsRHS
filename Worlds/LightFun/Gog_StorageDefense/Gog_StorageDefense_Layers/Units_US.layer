@@ -52,7 +52,8 @@ $grp SCR_AIGroup : "{1259735277942616}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US
     DefaultFormation "Line"
    }
    PS_GroupCallsignAssigner "{60B929A98A57FF10}" {
-    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
    }
   }
   coords 7540.482 18.563 3192.504
