@@ -129,4 +129,18 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    4 1
   }
  }
+ Base2All2 {
+  coords 6204.447 19.892 7601.63
+  m_MarkerColor 0.502 0.376 0 1
+  m_sQuadName "mark-exclamation"
+  m_fWorldSize 50
+  m_sDescription "Конструкторское бюро"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
 }
