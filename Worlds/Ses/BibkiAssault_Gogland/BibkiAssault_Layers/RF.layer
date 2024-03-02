@@ -1,11 +1,53 @@
 $grp Vehicle : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_camo1.et" {
  Ural4320_transport_covered_camo1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{60C41BE3771D08AE}" {
+      SlotTemplate InventoryStorageSlot PKMammunition {
+       Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{60C41BE37C5CDC9D}" {
+      SlotTemplate InventoryStorageSlot AKammunition {
+       Prefab "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+      }
+      NumSlots 30
+     }
+    }
+   }
+  }
   coords 5484.428 92.511 7700.283
   angleX -2.799
   angleY 10.047
   angleZ 0.412
  }
  Ural4320_transport_covered_camo2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{60C41BE0975D6A49}" {
+      SlotTemplate InventoryStorageSlot AKammunition {
+       Prefab "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{60C41BE09DDBCEAD}" {
+      SlotTemplate InventoryStorageSlot HandGrenades {
+       Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      }
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{60C41BE366CB2777}" {
+      SlotTemplate InventoryStorageSlot PKMammunition {
+       Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 6
+     }
+    }
+   }
+  }
   coords 5517.665 123.406 6851.423
   angleY 10.047
  }
