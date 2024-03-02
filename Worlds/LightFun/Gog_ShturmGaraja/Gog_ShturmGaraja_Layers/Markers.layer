@@ -1,0 +1,463 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ RHS_RF_MSV_G_020_M {
+  coords 4539.657 6.294 7685.088
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 65
+  m_sDescription "Aktiv-31"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ RHS_RF_MSV_G_021_M {
+  coords 4550.146 9.191 7766.196
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 65
+  m_sDescription "Aktiv-32"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ RHS_RF_MSV_G_100_M {
+  coords 4613.05 7.586 7841.146
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "armored-opfor"
+  m_fWorldSize 65
+  m_sDescription "Buran-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ RHS_RF_MSV_G_010_M {
+  coords 4685.196 10.8 7339.958
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 65
+  m_sDescription "Aktiv-21"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ RHS_RF_MSV_G_011_M {
+  coords 4762.27 11.103 7392.732
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 65
+  m_sDescription "Aktiv-22"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ RHS_RF_MSV_G_000_M {
+  coords 4694.205 10.904 7324.936
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "signal-opfor"
+  m_fWorldSize 65
+  m_sDescription "Aktiv-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 5774.607 10.74 8735.104
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-blufor"
+  m_fWorldSize 65
+  m_sDescription "Atlas White 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 5790.904 10.406 8731.524
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-blufor"
+  m_fWorldSize 65
+  m_sDescription "Atlas White 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 5775.724 6.75 8791.851
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-blufor"
+  m_fWorldSize 65
+  m_sDescription "Atlas White 3"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 5778.129 6.75 8782.021
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "signal-blufor"
+  m_fWorldSize 65
+  m_sDescription "Atlas Red 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 7271.936 5.82 5319.673
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "armored-blufor"
+  m_fWorldSize 65
+  m_sDescription "Chaos Blue 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 7289.87 5.164 5306.249
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "armored-blufor"
+  m_fWorldSize 65
+  m_sDescription "Chaos Blue 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 4621.036 5.849 7831.904
+  angleX 5.713
+  angleY 127.891
+  angleZ -0.076
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "APC"
+  m_fWorldSize 25
+  m_sDescription "#RHS-Vehicle_K17_Berezok_Name #RHS-Camo"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 7267.656 5.952 5337.231
+  angleX -1.028
+  angleY -80.691
+  angleZ 0.738
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "APC"
+  m_fWorldSize 25
+  m_sDescription "#AR-Vehicle_M1025_M2_Name"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 7279.311 5.56 5290.241
+  angleY 78.667
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "APC"
+  m_fWorldSize 25
+  m_sDescription "#AR-Vehicle_M1025_M2_Name"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 7297.962 5.56 5292.693
+  angleY 78.667
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "APC"
+  m_fWorldSize 25
+  m_sDescription "#AR-Vehicle_M1025_M2_Name"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 7258.734 5.714 5323.265
+  angleX 3.035
+  angleY 225.885
+  angleZ 8.209
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "APC"
+  m_fWorldSize 25
+  m_sDescription "#AR-Vehicle_M1025_M2_Name"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 4705.83 11.582 7326.434
+  angleY 58.197
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "Car"
+  m_fWorldSize 25
+  m_sDescription "#AR-Vehicle_UAZ469_Name"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 4689.083 10.768 7334.327
+  angleX -2.406
+  angleY 153.049
+  angleZ -0.784
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "Truck"
+  m_fWorldSize 25
+  m_sDescription "#AR-Vehicle_Ural4320_Ammo_Name #RHS-Camo"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 4544.39 5.306 7700.718
+  angleX 0.959
+  angleY 88.634
+  angleZ 2.661
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "Truck"
+  m_fWorldSize 25
+  m_sDescription "#AR-Vehicle_Ural4320_Ammo_Name #RHS-Camo"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 4767.691 8.411 7381.289
+  angleX 3.215
+  angleY 150.716
+  angleZ 0.248
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "Truck"
+  m_fWorldSize 25
+  m_sDescription "#RHS-Vehicle_Ural4320_transport_camo_Name"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 4554.051 8.128 7761.497
+  angleX 1.257
+  angleY 128.138
+  angleZ -0.151
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "Truck"
+  m_fWorldSize 25
+  m_sDescription "#RHS-Vehicle_Ural4320_transport_camo_Name"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ RHS_US_USMC_G_010_M2 {
+  coords 5794.375 10.74 8734.777
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 65
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ RHS_US_USMC_G_010_M3 {
+  coords 7266.012 6.284 5313.545
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Garage"
+  m_fWorldSize 80
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ RHS_RF_MSV_G_010_M2 {
+  coords 4693.235 10.696 7330.821
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 80
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ RHS_RF_MSV_G_010_M3 {
+  coords 4548.02 7.671 7747.679
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 80
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+}
