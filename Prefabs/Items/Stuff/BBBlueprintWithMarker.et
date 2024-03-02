@@ -1,0 +1,26 @@
+GenericEntity : "{7343AD5762833EC4}Prefabs/Items/Equipment/Maps/BanyaBochkaBlueprint.et" {
+ ID "508AB2013EEE1E00"
+ coords 6807.292 122.932 2949.722
+ angleX 69.94
+ angleY -66.902
+ {
+  PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+   ID "60C42A138CB11FEA"
+   coords 0 0 0
+   angleX -21.624
+   angleY 81.677
+   angleZ -68.348
+   m_sImageSet "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
+   m_sImageSetGlow "{6980E83C053C9B5D}UI/Textures/Icons/icons_wrapperUI-128-glow.imageset"
+   m_MarkerColor 0.502 0.376 0 1
+   m_sQuadName "field-manual"
+   m_fWorldSize 35
+   m_sDescription "Secret documents!"
+   m_bUseWorldScale 0
+   m_aVisibleForFactions {
+    "RHS_US_USMC"
+   }
+   m_bVisibleForEmptyFaction 0
+  }
+ }
+}

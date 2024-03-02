@@ -1,0 +1,75 @@
+$grp SCR_AIGroup : "{5A97E7731DB3A3DE}Prefabs/Groups/OPFOR/RHS_AFRF/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_RifleSquad_P.et" {
+ RHS_RF_MSV_G_100_7 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "ColumnTight"
+   }
+   PS_GroupCallsignAssigner "{60C3784114DD3182}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 0
+   }
+  }
+  coords 5618.702 123.406 6835.071
+  angleY 34.479
+  m_aUnitPrefabSlots {
+   "{FA24FE3DFCE7DB0F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_SL_DS_F2_P.et" "{EA51AA2E42AD591E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_MG_DS_F2_P.et" "{C13A7039B735EA21}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_AMG_DS_F2_P.et" "{CB0D4839B9D207CA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_AT_DS_F2_P.et" "{D1486D724E757114}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_AAT_DS_F2_P.et" "{E4C86C3D18239BB7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_Rifleman_DS_F2_P.et" "{E4C86C3D18239BB7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_Rifleman_DS_F2_P.et"
+  }
+ }
+ RHS_RF_MSV_G_101_7 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "LineTight"
+   }
+   PS_GroupCallsignAssigner "{60C37841142C3311}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5611.827 123.713 6803.728
+  angleY -160.66
+  m_aUnitPrefabSlots {
+   "{FA24FE3DFCE7DB0F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_SL_DS_F2_P.et" "{EA51AA2E42AD591E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_MG_DS_F2_P.et" "{C13A7039B735EA21}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_AMG_DS_F2_P.et" "{CB0D4839B9D207CA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_AT_DS_F2_P.et" "{D1486D724E757114}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_AAT_DS_F2_P.et" "{E4C86C3D18239BB7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_Rifleman_DS_F2_P.et" "{E4C86C3D18239BB7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_Rifleman_DS_F2_P.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ RHS_RF_MSV_G_102_0 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "TightLine"
+   }
+   PS_GroupCallsignAssigner "{60C37841143B8034}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 2
+   }
+   PS_GroupLateLinkerComponent "{60C35382CF238448}" {
+   }
+  }
+  coords 5539.938 123.388 6746.886
+  angleY 21.386
+  m_aUnitPrefabSlots {
+  }
+  {
+   $grp SCR_ChimeraCharacter : "{9F1A54596CE4BB81}Prefabs/Characters/Factions/OPFOR/RF/HeliPilot.et" {
+    {
+     components {
+      PS_PlayableComponent "{5EFCC1946F475F15}" {
+       m_name "Гоша Грецкий"
+      }
+     }
+     coords 28.615 0.375 -6.778
+     angleY -21.386
+    }
+    {
+     components {
+      PS_PlayableComponent "{5EFCC1946F475F15}" {
+       m_name "Саня Воздушный"
+      }
+     }
+     coords -32.068 0.287 -5.808
+     angleY 27.322
+    }
+   }
+  }
+ }
+}

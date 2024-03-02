@@ -1,0 +1,189 @@
+SCR_AIGroup RHS_RF_MSV_G_400_6 : "{4E66C5FE1796D009}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/SPECOPS.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "LineTight"
+  }
+  PS_GroupCallsignAssigner "{60C37841140C6D76}" {
+   m_iCompanyCallsign 4
+  }
+ }
+ coords 6788.411 126.794 2885.337
+ angleY -114.544
+ m_aUnitPrefabSlots + {
+  "{1F45A8542E2BDFA1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew_P.et"
+ }
+}
+$grp SCR_AIGroup : "{5A97E7731DB3A3DE}Prefabs/Groups/OPFOR/RHS_AFRF/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_RifleSquad_P.et" {
+ RHS_RF_MSV_G_012_7 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "TightLine"
+   }
+   PS_GroupCallsignAssigner "{60C378411415E550}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 6822.116 115.133 2966.302
+  angleY 94.479
+  m_aUnitPrefabSlots {
+   "{FA24FE3DFCE7DB0F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_SL_DS_F2_P.et" "{EA51AA2E42AD591E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_MG_DS_F2_P.et" "{C13A7039B735EA21}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_AMG_DS_F2_P.et" "{CB0D4839B9D207CA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_AT_DS_F2_P.et" "{D1486D724E757114}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_AAT_DS_F2_P.et" "{E4C86C3D18239BB7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_Rifleman_DS_F2_P.et" "{E4C86C3D18239BB7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_Rifleman_DS_F2_P.et"
+  }
+ }
+ RHS_RF_MSV_G_000_0 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "TightLine"
+   }
+   PS_GroupCallsignAssigner "{60C378411464FD00}" {
+    m_iCompanyCallsign 0
+    m_iSquadCallsign 0
+   }
+   PS_GroupLateLinkerComponent "{60C35382CF238448}" {
+   }
+  }
+  coords 6818.105 116.781 2949.868
+  angleY 21.386
+  m_aUnitPrefabSlots {
+  }
+  {
+   SCR_ChimeraCharacter Jora : "{3512204D26196116}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Kepters/Petrovic.et" {
+    components {
+     PS_PlayableComponent "{5EFCC1946F475F15}" {
+      m_name "Жора Шумский"
+     }
+    }
+    coords -4.569 0 -4.05
+    angleY 39.243
+   }
+   SCR_ChimeraCharacter Shmatko : "{8E265209BFB62647}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Kepters/Vasilic.et" {
+    components {
+     SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+      components {
+       SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+        InitialStorageSlots {
+         SCR_EquipmentStorageSlot WristwatchSlot {
+          Prefab "{6FD6C96121905202}Prefabs/Items/Equipment/Watches/Watch_Vostok.et"
+         }
+        }
+       }
+      }
+     }
+     PS_PlayableComponent "{5EFCC1946F475F15}" {
+      m_name "Генерал Шматько"
+     }
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank GENERAL
+     }
+     SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+      m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+       Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+      }
+     }
+     CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+      WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+     }
+     BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+      Slots {
+       LoadoutSlotInfo Hat {
+        Prefab "{3523CB7D5961246B}Prefabs/Characters/HeadGear/Hat_PeakedCap_USSR_01/Hat_PeakedCap_USSR_01.et"
+       }
+       LoadoutSlotInfo Jacket {
+        Prefab "{82C659FB6237E828}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_OD.et"
+       }
+       LoadoutSlotInfo Pants {
+        Prefab "{B17978F2A1E5E3A4}Prefabs/Characters/Uniforms/Tactical_Pants/tactical_pants_base.et"
+       }
+      }
+     }
+     SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+      InitialInventoryItems {
+       ItemsInitConfigurationItem "{60C35380F4998B81}" {
+        TargetStorage "Prefabs/Characters/Uniforms/Tactical_Pants/tactical_pants_base.et"
+        PrefabsToSpawn {
+         "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+        }
+       }
+      }
+     }
+    }
+    coords -0.231 0 0.588
+    angleY -4.282
+   }
+   SCR_ChimeraCharacter : "{BDF5A606600CE65E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/SOF/sof1.et" {
+    components {
+     PS_PlayableComponent "{5EFCC1946F475F15}" {
+      m_name "Рядовой Дранкель"
+     }
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank CORPORAL
+     }
+     SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+      m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+       Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+      }
+     }
+     SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+      InitialInventoryItems {
+       ItemsInitConfigurationItem "{607CE36FF22B14B6}" {
+       }
+       ItemsInitConfigurationItem "{60C3538049BF9524}" {
+        TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_ATACS_SSO.et"
+        PrefabsToSpawn {
+         "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+        }
+       }
+      }
+     }
+    }
+    coords 1.248 0 0.165
+    angleY 9.96
+   }
+   SCR_ChimeraCharacter : "{D1A192E6DCC86970}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/SOF/sof2.et" {
+    components {
+     PS_PlayableComponent "{5EFCC1946F475F15}" {
+      m_name "Рядовой Жранкель"
+     }
+     SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+      m_iRank CORPORAL
+     }
+     SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+      m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+       Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+      }
+     }
+     SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+      InitialInventoryItems {
+       ItemsInitConfigurationItem "{60C353807D3DAF21}" {
+        TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_ATACS_SSO.et"
+        PrefabsToSpawn {
+         "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+        }
+       }
+      }
+     }
+    }
+    coords -1.57 0 0.216
+    angleY -32.065
+   }
+  }
+ }
+ RHS_RF_MSV_G_011_7 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "TightLine"
+   }
+   PS_GroupCallsignAssigner "{60C37841144F7F4F}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 6826.561 115.133 2962.345
+  angleY -40.521
+  m_aUnitPrefabSlots {
+   "{FA24FE3DFCE7DB0F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_SL_DS_F2_P.et" "{EA51AA2E42AD591E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_MG_DS_F2_P.et" "{C13A7039B735EA21}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_AMG_DS_F2_P.et" "{CB0D4839B9D207CA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_AT_DS_F2_P.et" "{D1486D724E757114}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_AAT_DS_F2_P.et" "{E4C86C3D18239BB7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_Rifleman_DS_F2_P.et" "{E4C86C3D18239BB7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_Rifleman_DS_F2_P.et"
+  }
+ }
+}

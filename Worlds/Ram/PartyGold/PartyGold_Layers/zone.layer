@@ -1,0 +1,319 @@
+$grp PolylineShapeEntity {
+ FreezeZone_1 {
+  components {
+   PS_PolyZone "{60C3785CBCC19CA4}" {
+    m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+    m_cPolygonColor 0.376 0.471 0.749 1
+    m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+    m_cPolygonBorderColor 0.376 0.471 0.749 1
+    m_aVisibleForFactions {
+     "" "RHS_RF_MSV" "RHS_US_USMC"
+    }
+    m_aHideOnGameModeStates {
+     1
+    }
+   }
+  }
+  coords 5621.575 125.753 6694.834
+  Points {
+   ShapePoint "{60C3785CA78BB134}" {
+    Position 0 0 0
+   }
+   ShapePoint "{60C3785CA6709F0C}" {
+    Position -16.977 1.37 -31.839
+   }
+   ShapePoint "{60C3785CA8121503}" {
+    Position -60.906 5.405 -15.579
+   }
+   ShapePoint "{60C3785CAADF6B49}" {
+    Position -160.822 -0.203 10.113
+   }
+   ShapePoint "{60C3785CAA4AE8B6}" {
+    Position -181.298 -0.218 48.928
+   }
+   ShapePoint "{60C3785CAC93BB30}" {
+    Position -161.966 0.056 145.992
+   }
+   ShapePoint "{60C3785CAD288201}" {
+    Position -193.208 4.008 260.009
+   }
+   ShapePoint "{60C3785CAE3DCDF4}" {
+    Position -163.129 3.309 279.358
+   }
+   ShapePoint "{60C3785CAF3EE1E4}" {
+    Position -119.887 2.499 269.797
+   }
+   ShapePoint "{60C3785CB0F3E123}" {
+    Position -67.148 -6.258 256.314
+   }
+   ShapePoint "{60C3785CB1CB63F1}" {
+    Position -19.584 -4.456 223.502
+   }
+   ShapePoint "{60C3785CB2E3DC44}" {
+    Position 5.481 -4.019 170.447
+   }
+   ShapePoint "{60C3785CB391B193}" {
+    Position 17.975 -2.95 117.381
+   }
+   ShapePoint "{60C3785CB3531F7A}" {
+    Position 10.633 -3.528 68.248
+   }
+   ShapePoint "{60C3785CB5A2D092}" {
+    Position 5.402 -1.405 32.213
+   }
+  }
+  IsClosed 1
+  {
+   PS_PolyZoneTriggerFreezeZone {
+    components {
+     Hierarchy "{60C3785C77D1EA38}" {
+     }
+    }
+    TriggerShapeType Sphere
+    SphereRadius 500
+    TriggerActivationType "All changes"
+    PeriodicQueries 1
+    ClassesFilter {
+     "SCR_ChimeraCharacter"
+    }
+    m_polyZoneEffect PS_PolyZoneEffectFreezeZone "{60C3785C794801AD}" {
+     m_fKillTime 30
+    }
+    m_bReversed 1
+   }
+  }
+ }
+ FreezeZone_2 {
+  components {
+   PS_PolyZone "{60C3785CBCC19CA4}" {
+    m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+    m_cPolygonColor 0.376 0.471 0.749 1
+    m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+    m_cPolygonBorderColor 0.376 0.471 0.749 1
+    m_aVisibleForFactions {
+     "" "RHS_RF_MSV" "RHS_US_USMC"
+    }
+    m_aHideOnGameModeStates {
+     1
+    }
+   }
+  }
+  coords 6819.405 126.147 2862.073
+  Points {
+   ShapePoint "{60C3785CA78BB134}" {
+    Position -15.987 -0.383 -1.982
+   }
+   ShapePoint "{60C3785CAADF6B49}" {
+    Position -75.056 4.661 0.09
+   }
+   ShapePoint "{60C3785CAA4AE8B6}" {
+    Position -85.224 1.529 59.044
+   }
+   ShapePoint "{60C3785C2FD6F1CF}" {
+    Position -57.958 -14.14 125.381
+   }
+   ShapePoint "{60C3785CB3531F7A}" {
+    Position 20.396 -17.76 107.218
+   }
+   ShapePoint "{60C3785CB5A2D092}" {
+    Position 14.733 -5.252 32.445
+   }
+  }
+  IsClosed 1
+  {
+   PS_PolyZoneTriggerFreezeZone {
+    components {
+     Hierarchy "{60C3785C77D1EA38}" {
+     }
+    }
+    TriggerShapeType Sphere
+    SphereRadius 500
+    TriggerActivationType "All changes"
+    PeriodicQueries 1
+    ClassesFilter {
+     "SCR_ChimeraCharacter"
+    }
+    m_polyZoneEffect PS_PolyZoneEffectFreezeZone "{60C3785C794801AD}" {
+     m_fKillTime 30
+    }
+    m_bReversed 1
+   }
+  }
+ }
+ FreezeZone_3 {
+  components {
+   PS_PolyZone "{60C3785CBCC19CA4}" {
+    m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+    m_cPolygonColor 0.376 0.471 0.749 1
+    m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+    m_cPolygonBorderColor 0.376 0.471 0.749 1
+    m_aVisibleForFactions {
+     "" "RHS_RF_MSV" "RHS_US_USMC"
+    }
+    m_aHideOnGameModeStates {
+     1
+    }
+   }
+  }
+  coords 7457.299 8.694 1066.936
+  Points {
+   ShapePoint "{60C3785CA78BB134}" {
+    Position -15.987 -0.383 -1.982
+   }
+   ShapePoint "{60C3785CAADF6B49}" {
+    Position -75.056 4.661 0.09
+   }
+   ShapePoint "{60C3785CAA4AE8B6}" {
+    Position -149.007 -3.757 20.442
+   }
+   ShapePoint "{60C3785C2FD6F1CF}" {
+    Position -131.817 -3.433 83.751
+   }
+   ShapePoint "{60C3785CB3531F7A}" {
+    Position -25.727 -3.575 90.947
+   }
+   ShapePoint "{60C3785CB5A2D092}" {
+    Position 10.706 -1.621 32.411
+   }
+  }
+  IsClosed 1
+  {
+   PS_PolyZoneTriggerFreezeZone {
+    components {
+     Hierarchy "{60C3785C77D1EA38}" {
+     }
+    }
+    TriggerShapeType Sphere
+    SphereRadius 500
+    TriggerActivationType "All changes"
+    PeriodicQueries 1
+    ClassesFilter {
+     "SCR_ChimeraCharacter"
+    }
+    m_polyZoneEffect PS_PolyZoneEffectFreezeZone "{60C3785C794801AD}" {
+     m_fKillTime 30
+    }
+    m_bReversed 1
+   }
+  }
+ }
+ Borders {
+  components {
+   PS_PolyZone "{60C3785F867B8ADE}" {
+    m_bReversed 1
+    m_aVisibleForFactions {
+     "" "RHS_RF_MSV" "RHS_US_USMC"
+    }
+   }
+  }
+  coords 7233.003 -3.694 935.764
+  Points {
+   ShapePoint "{60C3785FE544370D}" {
+    Position 0 0 0
+   }
+   ShapePoint "{60C3785FE5446A2A}" {
+    Position -321.082 1.21 167.749
+   }
+   ShapePoint "{60C3785FEA5F17D9}" {
+    Position -911.304 -1.011 338.956
+   }
+   ShapePoint "{60C3785FEB7F993B}" {
+    Position -1254.089 -1.279 439.048
+   }
+   ShapePoint "{60C3785FECE7409E}" {
+    Position -1362.489 0.801 907.138
+   }
+   ShapePoint "{60C3785FEC6C773D}" {
+    Position -1529.928 0.116 1329.979
+   }
+   ShapePoint "{60C3785FEECC8CA0}" {
+    Position -1534.13 -0.555 1591.907
+   }
+   ShapePoint "{60C3785FF0C4C74F}" {
+    Position -1783.411 -8.118 2203.056
+   }
+   ShapePoint "{60C3785FF1965D5E}" {
+    Position -1893.464 -4.306 2642.239
+   }
+   ShapePoint "{60C3785FF4407113}" {
+    Position -2197.511 -10.197 3003.925
+   }
+   ShapePoint "{60C3785FF5E6BECC}" {
+    Position -2355.593 -21.612 3572.392
+   }
+   ShapePoint "{60C3785FF53C0DF1}" {
+    Position -2558.057 -14.401 4088.026
+   }
+   ShapePoint "{60C3785FF5651529}" {
+    Position -2556.156 -15.866 4730.887
+   }
+   ShapePoint "{60C3785FF79956B9}" {
+    Position -2401.896 -18.657 5339.233
+   }
+   ShapePoint "{60C3785FF7141DA7}" {
+    Position -2065.22 58.944 5877.054
+   }
+   ShapePoint "{60C3785FF8EF2953}" {
+    Position -1808.811 111.344 6113.576
+   }
+   ShapePoint "{60C3785F688F17EC}" {
+    Position -1672.313 117.023 6098.366
+   }
+   ShapePoint "{60C3785FF8072BF8}" {
+    Position -1443.563 71.048 6099.429
+   }
+   ShapePoint "{60C3785FF9A861AC}" {
+    Position -1176.166 60.995 6004.925
+   }
+   ShapePoint "{60C3785FF94F5DD1}" {
+    Position -478.732 -15.821 5865.847
+   }
+   ShapePoint "{60C3785FFA6A1CBC}" {
+    Position -241.445 -13.654 5555.557
+   }
+   ShapePoint "{60C3785FFBA31F2D}" {
+    Position 358.678 -91.462 5123.041
+   }
+   ShapePoint "{60C3785FFB949182}" {
+    Position 1068.147 -7.427 3117.552
+   }
+   ShapePoint "{60C3785FFBC453E9}" {
+    Position 1193.979 -7.489 2852.008
+   }
+   ShapePoint "{60C3785FFB358918}" {
+    Position 1203.16 -7.292 2062.764
+   }
+   ShapePoint "{60C3785FFB662328}" {
+    Position 1320.296 -6.346 1376.393
+   }
+   ShapePoint "{60C3785FFB567A04}" {
+    Position 951.003 -14.489 916.541
+   }
+   ShapePoint "{60C3785FFEBC6EEC}" {
+    Position 716.976 -13.866 406.742
+   }
+   ShapePoint "{60C3785FFECF7458}" {
+    Position 280.432 -5.446 -29.007
+   }
+  }
+  IsClosed 1
+  {
+   PS_PolyZoneTriggerFreezeZone {
+    components {
+     Hierarchy "{60C3785C77D1EA38}" {
+     }
+    }
+    TriggerShapeType Sphere
+    SphereRadius 50000
+    TriggerActivationType "All changes"
+    PeriodicQueries 1
+    ClassesFilter {
+     "SCR_ChimeraCharacter"
+    }
+    m_polyZoneEffect PS_PolyZoneEffectScreenBlure "{60C3785C794801AD}" {
+    }
+    m_bReversed 1
+   }
+  }
+ }
+}

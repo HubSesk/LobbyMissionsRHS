@@ -1,0 +1,87 @@
+$grp SCR_AIGroup : "{C1248447D80573B5}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_RifleSquadSES_P.et" {
+ RHS_US_USMC_G_001_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "TightLine"
+   }
+   PS_GroupCallsignAssigner "{60C37840DA31BAE3}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 1
+   }
+  }
+  coords 7343.657 4.855 1103.26
+  angleY 16.232
+ }
+ RHS_US_USMC_G_002_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "TightLine"
+   }
+   PS_GroupCallsignAssigner "{60C37840DA1916A5}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 7368.799 5.573 1100.201
+  angleY -0.805
+ }
+ RHS_US_USMC_G_010_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "TightLine"
+   }
+   PS_GroupCallsignAssigner "{60C37840DA623270}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
+   }
+  }
+  coords 7397.104 5.479 1099.568
+  angleY -0.805
+ }
+ RHS_US_USMC_G_011_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "TightLine"
+   }
+   PS_GroupCallsignAssigner "{60C37840DA4ADED7}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 7419.132 5.479 1100.415
+  angleY -7.173
+ }
+ RHS_US_USMC_G_000_5 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "TightLine"
+   }
+   PS_GroupCallsignAssigner "{60C37840DA539CFD}" {
+    m_iCompanyCallsign 0
+   }
+  }
+  coords 7336.522 4.855 1117.282
+  angleY 66.652
+  m_aUnitPrefabSlots {
+   "{797221111AFBE05D}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_SL_P.et" "{AA0CBD566DE31601}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_2.et" "{E07BC0A815B38AC7}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_Corpsman.et" "{C4AE533F573B7C75}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_Sniper.et" "{AA0CBD566DE31601}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_2.et"
+  }
+ }
+ RHS_US_USMC_G_020_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "TightLine"
+   }
+   PS_GroupCallsignAssigner "{60C37840DBBEA6A2}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 0
+   }
+  }
+  coords 7445.688 5.479 1108.532
+  angleY -32.965
+ }
+}
