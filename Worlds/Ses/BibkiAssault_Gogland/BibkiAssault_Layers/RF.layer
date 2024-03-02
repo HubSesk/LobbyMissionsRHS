@@ -1,8 +1,14 @@
-Vehicle Ural4320_transport_covered_camo1 : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_camo1.et" {
- coords 5484.428 92.511 7700.283
- angleX -2.799
- angleY 10.047
- angleZ 0.412
+$grp Vehicle : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_camo1.et" {
+ Ural4320_transport_covered_camo1 {
+  coords 5484.428 92.511 7700.283
+  angleX -2.799
+  angleY 10.047
+  angleZ 0.412
+ }
+ Ural4320_transport_covered_camo2 {
+  coords 5517.665 123.406 6851.423
+  angleY 10.047
+ }
 }
 Vehicle Ural4320_command_camo1 : "{2C95509CA3E61DE1}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command_camo1.et" {
  components {
@@ -44,8 +50,8 @@ $grp SCR_AIGroup : "{5A97E7731DB3A3DE}Prefabs/Groups/OPFOR/RHS_AFRF/VKPO_Demisea
   }
   coords 5539.183 123.693 6901.158
   angleY 12.292
-  m_aUnitPrefabSlots + {
-   "{1F45A8542E2BDFA1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew_P.et" "{1F45A8542E2BDFA1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew_P.et"
+  m_aUnitPrefabSlots {
+   "{32429C48531DF8D4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_SL_P.et" "{02AAEF44AAA1F920}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_MG_P.et" "{79D602DEE89A3934}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_AMG_P.et" "{2A177642F84050A7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_AT_P.et" "{516B9BD8BA7B90B3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_AAT_P.et" "{FD32470583BEF993}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_SR_P.et" "{6A3ED866A896DC56}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Rifleman3_P.et" "{1F45A8542E2BDFA1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew_P.et" "{1F45A8542E2BDFA1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew_P.et"
   }
  }
  {
@@ -62,7 +68,7 @@ $grp SCR_AIGroup : "{5A97E7731DB3A3DE}Prefabs/Groups/OPFOR/RHS_AFRF/VKPO_Demisea
   coords 5522.814 123.408 6852.613
   angleY 28.205
   m_aUnitPrefabSlots + {
-   "{1F45A8542E2BDFA1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew_P.et" "{1F45A8542E2BDFA1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew_P.et"
+   "{A510310AC6FE0E11}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Sharpshooter_P.et" "{6A3ED866A896DC56}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Rifleman3_P.et"
   }
  }
  {
@@ -107,17 +113,9 @@ Vehicle UAZ469_Camo1 : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469
  angleY 59.396
  angleZ 5.472
 }
-$grp Vehicle : "{E960470F2959B1BF}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF_Camo.et" {
- BTR70_AFRF_Camo1 {
-  coords 5531.755 123.527 6885.191
-  angleX 1.467
-  angleY -20.548
-  angleZ 1.362
- }
- BTR70_AFRF_Camo2 {
-  coords 5517.437 123.408 6850.471
-  angleX -0.967
-  angleY 4.811
-  angleZ 0.817
- }
+Vehicle BTR70_AFRF_Camo1 : "{E960470F2959B1BF}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF_Camo.et" {
+ coords 5531.755 123.527 6885.191
+ angleX 1.467
+ angleY -20.548
+ angleZ 1.362
 }

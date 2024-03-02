@@ -31,6 +31,28 @@ GenericEntity : "{7343AD5762833EC4}Prefabs/Items/Equipment/Maps/BanyaBochkaBluep
  coords 6205.271 18.246 7595.357
  angleY -21.991
 }
+$grp GenericEntity : "{A95C4BA303CCB6F3}Prefabs/Items/Stuff/SecretDocuments.et" {
+ {
+  coords 6199.917 17.598 7603.009
+  {
+   PS_ManualMarker {
+    ID "5F2949136C2E0301"
+    m_aVisibleForFactions {
+    }
+   }
+  }
+ }
+ {
+  coords 6201.266 14.397 7599.611
+  {
+   PS_ManualMarker {
+    ID "5F2949136C2E0301"
+    m_aVisibleForFactions {
+    }
+   }
+  }
+ }
+}
 Vehicle UAZ452_ambulance_shizavoz1 : "{DCC71BE22DA8EEA1}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance_shizavoz.et" {
  coords 6317.181 8.773 7354.906
  angleX 2.491

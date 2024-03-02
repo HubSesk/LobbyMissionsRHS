@@ -14,30 +14,28 @@ $grp Vehicle : "{04BDACC0BB83284E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transpo
 }
 $grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
  M1025_armed_M2HB1 {
-  coords 7126.761 6.408 5076.61
-  angleX -1.79
+  coords 7078.772 5.947 5076.314
   angleY -90.352
-  angleZ 0.011
  }
  M1025_armed_M2HB2 {
-  coords 7141.109 6.715 5077.252
-  angleX -0.895
+  coords 7093.122 6.043 5076.957
+  angleX -0.901
   angleY -90.352
-  angleZ 0.005
+  angleZ -0.89
  }
 }
 $grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
  M923A1_transport_covered1 {
-  coords 7177.875 6.716 5092.949
-  angleX 1.238
-  angleY -122.916
-  angleZ 0.265
+  coords 7116.397 6.535 5266.451
+  angleX 0.895
+  angleY -89.588
+  angleZ 0.006
  }
  M923A1_transport_covered2 {
-  coords 7207.842 5.792 5122.113
-  angleX 1.221
-  angleY -150.25
-  angleZ -0.333
+  coords 7145.385 6.156 5269.193
+  angleX -0.895
+  angleY -91.556
+  angleZ 0.024
  }
 }
 Vehicle M998_covered1 : "{B55C6990A6A9411B}Prefabs/Vehicles/Wheeled/M998/M998_covered.et" {
@@ -56,7 +54,7 @@ $grp SCR_AIGroup : "{C1248447D80573B5}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US
     m_iCompanyCallsign 3
    }
   }
-  coords 7133.511 7.651 5071.496
+  coords 7086.64 7.581 5070.712
   angleY -2.297
   m_aUnitPrefabSlots {
    "{797221111AFBE05D}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_SL_P.et" "{DCF7999CCEBD5437}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_AR_P.et" "{B96B61A1EEC29714}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_RTO2_P.et" "{CE55D8114889F059}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_LAT_P.et" "{ABF41117838C445F}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_TL_P.et" "{DCF7999CCEBD5437}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_AR_P.et" "{06CDE24A723FB279}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_GL_P.et" "{CE55D8114889F059}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_LAT_P.et"
@@ -73,7 +71,7 @@ $grp SCR_AIGroup : "{C1248447D80573B5}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US
     m_iSquadCallsign 1
    }
   }
-  coords 7083.631 7.323 5071.801
+  coords 7059.541 7.323 5070.833
   angleY -2.297
   m_aUnitPrefabSlots {
    "{797221111AFBE05D}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_SL_P.et" "{2E3BBFA1660D2FB7}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_AR_M249_P.et" "{06CDE24A723FB279}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_GL_P.et" "{CE55D8114889F059}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_LAT_P.et" "{ABF41117838C445F}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_TL_P.et" "{DCF7999CCEBD5437}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_AR_P.et" "{06CDE24A723FB279}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_GL_P.et" "{CE55D8114889F059}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_LAT_P.et"
@@ -88,8 +86,8 @@ $grp SCR_AIGroup : "{C1248447D80573B5}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US
     m_iCompanyCallsign 2
    }
   }
-  coords 7180.577 7.03 5084.433
-  angleY -8.917
+  coords 7101.561 6.222 5260.257
+  angleY -93.521
   m_aUnitPrefabSlots {
    "{797221111AFBE05D}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_SL_P.et" "{E049DF978939650F}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_RTO_P.et" "{ABF41117838C445F}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_TL_P.et" "{DCF7999CCEBD5437}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_AR_P.et" "{06CDE24A723FB279}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_GL_P.et" "{CE55D8114889F059}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_LAT_P.et" "{ABF41117838C445F}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_TL_P.et" "{DCF7999CCEBD5437}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_AR_P.et" "{06CDE24A723FB279}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_GL_P.et" "{CE55D8114889F059}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_LAT_P.et"
   }
@@ -134,8 +132,8 @@ $grp SCR_AIGroup : "{C1248447D80573B5}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US
     m_iSquadCallsign 1
    }
   }
-  coords 7197.206 5.939 5113.101
-  angleY -157.666
+  coords 7141.901 6.325 5263.08
+  angleY -93.316
  }
  {
   components {
@@ -154,11 +152,13 @@ $grp SCR_AIGroup : "{C1248447D80573B5}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US
 }
 $grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
  M1025_armed_M2HB_MERDC1 {
-  coords 7090.845 6.041 5077.635
+  coords 7066.755 5.884 5076.668
   angleY -93.05
  }
  M1025_armed_M2HB_MERDC2 {
-  coords 7077.379 5.947 5077.003
-  angleY -91.091
+  coords 7053.289 5.799 5076.036
+  angleX -1.754
+  angleY -91.147
+  angleZ 1.824
  }
 }

@@ -143,26 +143,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 5517.437 123.408 6850.471
-  angleX -0.967
-  angleY 94.811
-  angleZ 0.817
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.555 0.002 0 1
-  m_sQuadName "APC"
-  m_fWorldSize 3.691
-  m_sDescription "#AR-Vehicle_BTR70_Name"
-  m_bUseWorldScale 1
-  m_aVisibleForFactions {
-   "RHS_RF_MSV"
-  }
-  m_aHideOnGameModeStates {
-   3 1
-  }
-  m_iZOrder 0
- }
- {
   coords 5531.755 123.527 6885.191
   angleX 1.467
   angleY 69.452
@@ -217,6 +197,25 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_aVisibleForFactions {
    "RHS_RF_MSV"
   }
+  m_aHideOnGameModeStates {
+   3 1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 5517.665 123.406 6851.423
+  angleY 100.047
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "Truck"
+  m_fWorldSize 3.722
+  m_sDescription "#AR-Vehicle_Ural4320_Transport_Covered_Name #RHS-Camo"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    3 1
   }
