@@ -10,10 +10,14 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
    m_sInitialStartingWeatherId "Cloudy"
   }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 17
    m_iStartingMinutes 30
   }
  }
+ m_bAdminMode 1
+ m_bMarkersOnlyOnBriefing 1
+ m_bKillRedundantUnits 1
+ m_bRemoveSquadMarkers 1
+ m_iFreezeTime 300000
 }
 HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
 }
