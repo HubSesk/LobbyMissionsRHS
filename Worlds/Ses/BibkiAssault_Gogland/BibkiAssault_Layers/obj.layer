@@ -1,21 +1,39 @@
-GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USSR.et" {
- components {
-  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
-   m_sDefaultMaterial "{15AB376863D1724E}Assets/Props/Fabric/Flags/Data/Flag_1_2_Russia.emat"
+$grp GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USSR.et" {
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{15AB376863D1724E}Assets/Props/Fabric/Flags/Data/Flag_1_2_Russia.emat"
+   }
   }
+  coords 6215.572 20.28 7595.922
+  angleY -147.825
  }
- coords 6215.572 20.28 7595.922
- angleY -147.825
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{15AB376863D1724E}Assets/Props/Fabric/Flags/Data/Flag_1_2_Russia.emat"
+   }
+  }
+  coords 5605.903 88.102 7720.107
+  angleY -147.825
+ }
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{15AB376863D1724E}Assets/Props/Fabric/Flags/Data/Flag_1_2_Russia.emat"
+   }
+  }
+  coords 5378.983 104.719 7863.623
+  angleY -147.825
+ }
 }
-$grp GenericEntity : "{7343AD5762833EC4}Prefabs/Items/Equipment/Maps/BanyaBochkaBlueprint.et" {
- {
-  coords 6205.271 18.246 7595.357
-  angleY -21.991
- }
- {
-  coords 6225.73 18.515 7545.011
-  angleX 90
-  angleY -21.991
-  angleZ -179.758
- }
+GenericEntity : "{7343AD5762833EC4}Prefabs/Items/Equipment/Maps/BanyaBochkaBlueprint.et" {
+ coords 6205.271 18.246 7595.357
+ angleY -21.991
+}
+Vehicle UAZ452_ambulance_shizavoz1 : "{DCC71BE22DA8EEA1}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance_shizavoz.et" {
+ coords 6317.181 8.773 7354.906
+ angleX 2.491
+ angleY -55.09
+ angleZ -0.443
 }
