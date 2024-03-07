@@ -1,0 +1,173 @@
+$grp Vehicle : "{2CCD539A7AB35B2F}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_camo1.et" {
+ Ural4320_transport_camo1 {
+  coords 5895.208 38.885 5740.028
+  angleX 0.893
+  angleY -4.303
+  angleZ -0.067
+ }
+ Ural4320_transport_camo3 {
+  coords 5904.673 37.747 5620.197
+  angleX 5.351
+  angleY -2.506
+  angleZ -0.234
+ }
+ Ural4320_transport_camo2 {
+  coords 5899.406 39.661 5699.15
+  angleX -1.773
+  angleY -7.988
+  angleZ 0.249
+ }
+}
+Vehicle APC_K17_Berezok_camo1 : "{DD0CB0331A3D8CA7}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok_camo1.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5CE26149257047CD}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5CE261495B1779F4}" {
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{5DE729984447E1C3}" {
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{5D557449EB938170}" {
+     NumSlots 12
+    }
+    MultiSlotConfiguration "{5D557449C8388090}" {
+     NumSlots 8
+    }
+    MultiSlotConfiguration "{5D557449DBF8D3B0}" {
+     SlotTemplate InventoryStorageSlot Magazine {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{5D557449317CA1EC}" {
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{5D5574490FC7E93E}" {
+     SlotTemplate InventoryStorageSlot Bag {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{5DE7299E8FA5ED73}" {
+     SlotTemplate InventoryStorageSlot nvg {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ coords 5891.942 40.715 5777.554
+ angleX 1.775
+ angleY -7.385
+ angleZ -0.23
+}
+$grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
+ M1025_armed_M2HB_MERDC1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECAE4FAF13E}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5A60CECAC8B21989}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{5A60CECA3D786B16}" {
+      SlotTemplate InventoryStorageSlot UGLammo {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{5A7CC68685CE799D}" {
+      SlotTemplate InventoryStorageSlot Backpack {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{5A7CC686F738D96E}" {
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{5A7CC686D9F9D394}" {
+      SlotTemplate InventoryStorageSlot MineFlags {
+       Prefab "{4FCBBDF274FD2157}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_Ball.et"
+      }
+      NumSlots 2
+     }
+    }
+   }
+  }
+  coords 5244.482 5.775 9216.605
+  angleY 179.955
+ }
+ M1025_armed_M2HB_MERDC2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECAE4FAF13E}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5A60CECAC8B21989}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{5A60CECA3D786B16}" {
+      SlotTemplate InventoryStorageSlot UGLammo {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{5A7CC68685CE799D}" {
+      SlotTemplate InventoryStorageSlot Backpack {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{5A7CC686F738D96E}" {
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{5A7CC686D9F9D394}" {
+      SlotTemplate InventoryStorageSlot MineFlags {
+       Enabled 0
+      }
+     }
+    }
+   }
+  }
+  coords 5251.379 5.775 9215.666
+  angleY 179.955
+ }
+ M1025_armed_M2HB_MERDC3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECAE4FAF13E}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5A60CECAC8B21989}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{5A60CECA3D786B16}" {
+      SlotTemplate InventoryStorageSlot UGLammo {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{5A7CC68685CE799D}" {
+      SlotTemplate InventoryStorageSlot Backpack {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{5A7CC686F738D96E}" {
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{5A7CC686D9F9D394}" {
+      SlotTemplate InventoryStorageSlot MineFlags {
+       Enabled 0
+      }
+     }
+    }
+   }
+  }
+  coords 5646.583 3.835 9332.388
+  angleX 1.496
+  angleY -56.684
+  angleZ 0.983
+ }
+}
+Vehicle Mi8MT1 : "{DF5CCB7C0FF049F4}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT.et" {
+ coords 6864.592 91.283 2073.126
+ angleX 3.888
+}
