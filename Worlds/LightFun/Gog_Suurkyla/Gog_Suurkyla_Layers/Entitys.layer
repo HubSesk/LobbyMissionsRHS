@@ -16,7 +16,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  m_fAutoReloadTime 300
  m_bKillRedundantUnits 1
  m_bRemoveSquadMarkers 1
- m_iFreezeTime 300000
+ m_iFreezeTime 210000
 }
 HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
 }
@@ -46,5 +46,7 @@ $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/Restri
  }
  {
   coords 6879.503 101.991 2066.774
+  m_fZoneRadius 225
+  m_fZoneTeleportedRadius 250
  }
 }
