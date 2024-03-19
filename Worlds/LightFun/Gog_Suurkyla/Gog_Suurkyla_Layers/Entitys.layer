@@ -1,0 +1,52 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+}
+TagManager : "{2FA9E172CAB1857A}Prefabs/MP/Managers/TagManager.et" {
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_InitWeatherComponent "{60CF59C9DAC05BE1}" {
+   m_sInitialStartingWeatherId "Overcast"
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 13
+  }
+ }
+ m_fAutoReloadTime 300
+ m_bKillRedundantUnits 1
+ m_bRemoveSquadMarkers 1
+ m_iFreezeTime 210000
+}
+HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
+}
+$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ {
+  coords 5276.685 12.374 9075.672
+ }
+ {
+  coords 5241.557 11.156 9202.604
+ }
+ {
+  coords 5651.906 7.759 9326.857
+ }
+ {
+  coords 5172.861 15.931 8877.126
+ }
+ {
+  coords 5452.473 16.267 9216.4
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 5895.545 53.293 5696.494
+  m_fWarnRadius 135
+  m_fZoneRadius 175
+  m_fZoneTeleportedRadius 200
+ }
+ {
+  coords 6879.503 101.991 2066.774
+  m_fZoneRadius 225
+  m_fZoneTeleportedRadius 250
+ }
+}

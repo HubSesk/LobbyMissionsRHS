@@ -27,6 +27,10 @@ class PS_SleepRFComponent : ScriptComponent
 		if (faction.GetFactionKey() != "RHS_RF_MSV")
 			return;
 		
+		PS_SleepResistComponent sleepResistComponent = PS_SleepResistComponent.Cast(character.FindComponent(PS_SleepResistComponent));
+		if (sleepResistComponent)
+			return;
+		
 		SCR_EGameModeState gameModeState = m_GameModeCoop.GetState();
 		if (gameModeState == SCR_EGameModeState.GAME)
 		{
@@ -52,3 +56,14 @@ class PS_SleepRFComponent : ScriptComponent
 		SetEventMask(owner, EntityEvent.INIT | EntityEvent.FRAME);
 	}
 }
+
+class PS_SleepResistComponentClass : ScriptComponentClass
+{
+	
+}
+
+class PS_SleepResistComponent : ScriptComponent
+{
+	
+}
+

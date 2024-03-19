@@ -1,0 +1,31 @@
+GenericEntity : "{865B9E01D2C0B2D7}Prefabs/Items/Equipment/Maps/PaperMap_01_full.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "Чертеж Бани-бочки"
+     Description "Секретный чертеж разработанный в тайне ученными. Имеет стратегическое значение."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     SizeSetupStrategy Manual
+     ItemDimensions 5 5 5
+     DimensionScaler 1
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+   }
+  }
+  MeshObject "{50A65CD737F4F8A3}" {
+   Materials {
+    MaterialAssignClass "{60B8F2A1133CC087}" {
+     SourceMaterial "03__Default"
+     AssignedMaterial "{EE77084C368E1D70}Assets/Items/Equipment/Maps/Map_Paper_01/Data/BanyaBochkaBlueprint.emat"
+    }
+   }
+  }
+  PS_SpectatorLabel "{60C348E95C2F577E}" {
+   m_sSpectatorLabelLayout "{EB54CDF302DF8E41}UI/Spectator/SpectatorLabelIcon_Documents.layout"
+  }
+ }
+}

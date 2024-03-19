@@ -1,0 +1,127 @@
+$grp Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+ Ural4320_transport2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{60C37851E0902259}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{C862237C3BEAE394}Prefabs/Weapons/Rifles/AK74M/Rifle_AK105_Ses.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{60C37857FAD18714}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{60C37857956415E1}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+      }
+      NumSlots 16
+     }
+     MultiSlotConfiguration "{60C37857A0C93367}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{9B5AA2C731485ACA}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Base.et"
+      }
+      NumSlots 100
+     }
+     MultiSlotConfiguration "{60C37857A925F51E}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{60C37857BD8D9750}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
+      }
+      NumSlots 80
+     }
+     MultiSlotConfiguration "{60C378574CD3C4B8}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
+      }
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{60C378575CB2E688}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et"
+      }
+      NumSlots 16
+     }
+     MultiSlotConfiguration "{60C378576397C2D5}" {
+      SlotTemplate InventoryStorageSlot a {
+       Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      }
+      NumSlots 40
+     }
+     MultiSlotConfiguration "{60C3785773B20338}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      }
+      NumSlots 40
+     }
+     MultiSlotConfiguration "{60C378577A4B36F3}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{60C37850C81583AB}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{FE2896D202FE7449}Prefabs/Weapons/Attachments/Optics/1p63/Optic_1P63.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{60C37850F8969B8A}" {
+      SlotTemplate InventoryStorageSlot A {
+       Prefab "{8D4BAA235F7EDBEA}Prefabs/Weapons/Attachments/Optics/1p78/Optic_1P78.et"
+      }
+      NumSlots 12
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_RF_MSV"
+   }
+  }
+  coords 5621.989 123.406 6792.573
+  angleY 119.821
+ }
+ Ural4320_transport3 {
+  components {
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_RF_MSV"
+   }
+  }
+  coords 5618.347 123.406 6760.453
+  angleY -166.348
+ }
+}
+$grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ UAZ2 {
+  components {
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_RF_MSV"
+   }
+  }
+  coords 5618.753 123.406 6801.482
+  angleY -165.388
+ }
+ UAZ3 {
+  components {
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_RF_MSV"
+   }
+  }
+  coords 5613.856 123.406 6813.115
+  angleY 99.657
+ }
+}
+GenericEntity : "{A8DAE66D16C11147}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Ammunition_USSR_UnRetarded.et" {
+ coords 5605.074 124.429 6802.412
+ angleY 102.506
+ Flags 2098179
+}

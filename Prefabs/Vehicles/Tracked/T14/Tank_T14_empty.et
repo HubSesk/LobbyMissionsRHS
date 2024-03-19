@@ -1,6 +1,28 @@
 RHS_Tank : "{48BB423641D40E77}Prefabs/Vehicles/Tracked/T14/Tank_T14.et" {
  ID "5CDE8068D49AAEBB"
  components {
+  SCR_UniversalInventoryStorageComponent "{5CDE8068D4984EEF}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5E304C34917726C9}" {
+     SlotTemplate InventoryStorageSlot Mag {
+      Enabled 0
+     }
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{5E304C3490494A1E}" {
+     SlotTemplate InventoryStorageSlot HE {
+      Enabled 0
+     }
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{5E304C349073EEE5}" {
+     SlotTemplate InventoryStorageSlot PKT {
+      Enabled 0
+     }
+     NumSlots 0
+    }
+   }
+  }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo Turret {

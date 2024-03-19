@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{41E512C612ED557C}Worlds/Ses/BibkiAssault_Gogland/BibkiAssault.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+  ENTResourceClass Xbox : PC {
+  }
+ }
+}

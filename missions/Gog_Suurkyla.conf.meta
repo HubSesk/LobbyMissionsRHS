@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{AAE9E8D366A7D9B2}missions/Gog_Suurkyla.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

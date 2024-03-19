@@ -1,0 +1,74 @@
+$grp GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USSR.et" {
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{15AB376863D1724E}Assets/Props/Fabric/Flags/Data/Flag_1_2_Russia.emat"
+   }
+  }
+  coords 6215.572 20.28 7595.922
+  angleY -147.825
+ }
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{15AB376863D1724E}Assets/Props/Fabric/Flags/Data/Flag_1_2_Russia.emat"
+   }
+  }
+  coords 5605.903 88.102 7720.107
+  angleY -147.825
+ }
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{15AB376863D1724E}Assets/Props/Fabric/Flags/Data/Flag_1_2_Russia.emat"
+   }
+  }
+  coords 5378.983 104.719 7863.623
+  angleY -147.825
+ }
+}
+$grp GenericEntity : "{15BEDC6B899035DB}Prefabs/Yarmarka/YarmarkaBox.et" {
+ {
+  coords 7230.09 4.178 5170.912
+  angleY 110
+ }
+ {
+  coords 7135.589 6.023 5262.166
+ }
+}
+GenericEntity : "{61980E6F3CA71107}Prefabs/Weapons/Explosives/Mine_TM62M/Dingus.et" {
+ coords 6203.193 17.191 7594.91
+ angleY 175.647
+}
+GenericEntity : "{7343AD5762833EC4}Prefabs/Items/Equipment/Maps/BanyaBochkaBlueprint.et" {
+ coords 6205.271 18.246 7595.357
+ angleY -21.991
+}
+$grp GenericEntity : "{A95C4BA303CCB6F3}Prefabs/Items/Stuff/SecretDocuments.et" {
+ {
+  coords 6199.917 17.598 7603.009
+  {
+   PS_ManualMarker {
+    ID "5F2949136C2E0301"
+    m_aVisibleForFactions {
+    }
+   }
+  }
+ }
+ {
+  coords 6201.266 14.397 7599.611
+  {
+   PS_ManualMarker {
+    ID "5F2949136C2E0301"
+    m_aVisibleForFactions {
+    }
+   }
+  }
+ }
+}
+Vehicle UAZ452_ambulance_shizavoz1 : "{DCC71BE22DA8EEA1}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance_shizavoz.et" {
+ coords 6317.181 8.773 7354.906
+ angleX 2.491
+ angleY -55.09
+ angleZ -0.443
+}

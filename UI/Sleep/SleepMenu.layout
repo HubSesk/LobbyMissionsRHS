@@ -1,20 +1,36 @@
 FrameWidgetClass {
  Name "rootFrame"
  {
+  ImageWidgetClass "{60B0ED41B74E334E}" {
+   Name "Image1"
+   Slot FrameWidgetSlot "{60ACB749F654E0A9}" {
+    Anchor 0.5 1 0.5 1
+    PositionX -960
+    OffsetLeft -960
+    PositionY -1080
+    OffsetTop -1080
+    SizeX 1920
+    OffsetRight -960
+    SizeY 1080
+    OffsetBottom 0
+   }
+   Color 0 0 0 0.063
+  }
   ImageWidgetClass "{60ACB749F654E74D}" {
    Name "Image0"
    Slot FrameWidgetSlot "{60ACB749F654E0A9}" {
-    Anchor 0 0 1 1
-    PositionX 0
-    OffsetLeft 0
-    PositionY 0
-    OffsetTop 0
-    SizeX -1820
-    OffsetRight 0
-    SizeY -1050
-    OffsetBottom 0
+    Anchor 0.5 0 0.5 0
+    PositionX -857
+    OffsetLeft -857
+    PositionY 131
+    OffsetTop 131
+    SizeX 1688
+    OffsetRight -831
+    SizeY 949
+    OffsetBottom -1080
    }
-   Color 0 0 0 1
+   Texture "{6DF7D604A2785C1A}images/CrossWord.edds"
+   Size 1280 915
   }
   TextWidgetClass "{60ACB74982FAC538}" {
    Name "Text0"
@@ -29,6 +45,7 @@ FrameWidgetClass {
     SizeY 134
     OffsetBottom 0
    }
+   Color 1 1 1 0.294
    Text "ZZZZZzzzzzzzzzzzzzzzzzz....."
    "Font Size" 128
    "Min Font Size" 128

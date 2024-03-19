@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{53747CB52FAFA189}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_AAR_P.et"
+ Name "{53747CB52FAFA18A}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_AAR_P.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -10,6 +10,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS4 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

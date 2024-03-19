@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1EAFCAD89CDD0B5E}Worlds/Gog_StorageDefense.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,68 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ Formations {
+  AIFormationDefinition "{60C3538D95FAC39D}" {
+   Name "TightLine"
+   Offsets {
+    0 0 0 1 0 0 -1 0 0 2 0 0 -2 0 0 3 0 0 -3 0 0 4 0 0 -4 0 0 5 0 0 -5 0 0
+   }
+  }
+  AIFormationDefinition "{60C3539CCF541F60}" {
+   Name "ColumnTight"
+   Offsets {
+    0 0 0 0 0 -1 0 0 -2 0 0 -3 0 0 -4 0 0 -5 0 0 -6 0 0 -7 0 0 -8 0 0 -9 0 0 -10
+   }
+  }
+ }
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+}
+TagManager : "{2FA9E172CAB1857A}Prefabs/MP/Managers/TagManager.et" {
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  PS_ObjectiveManager "{60846DEA6E152749}" {
+   m_aObjectiveLavels {
+    PS_ObjectiveLevel "{60BA84346F79B79E}" {
+     m_iScore 0
+    }
+    PS_ObjectiveLevel "{60BA84343AC819B2}" {
+     m_iScore 25
+    }
+    PS_ObjectiveLevel "{60BA8437C52AEEC4}" {
+     m_iScore 50
+    }
+    PS_ObjectiveLevel "{60BA8437C9F5791C}" {
+     m_iScore 75
+    }
+   }
+  }
+  SCR_InitWeatherComponent "{5F3AFB2830A6CBFF}" {
+   m_sInitialStartingWeatherId "Cloudy"
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 13
+   m_bRandomWeatherChanges 1
+  }
+ }
+ m_fAutoReloadTime 300
+ m_iAvailableReconnectTime 300000
+ m_bAdminMode 1
+ m_bKillRedundantUnits 1
+ m_bRemoveSquadMarkers 1
+ m_iFreezeTime 120000
+ {
+  SCR_FactionManager "5F2B25DD2FE1CDD2" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{5978B9CE6585BBE8}" {
+     m_bIsPlayable 1
+    }
+    SCR_Faction "{5D9F7285A1D004FE}" {
+     m_bIsPlayable 1
+    }
+   }
+  }
+ }
+}
+HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
+}

@@ -1,0 +1,425 @@
+$grp Vehicle : "{04BDACC0BB83284E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered_MERDC.et" {
+ M923A1_transport_covered_MERDC1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+    MultiSlots {
+     MultiSlotConfiguration "{60C41BE6971519D2}" {
+      SlotTemplate InventoryStorageSlot ATMine {
+       Prefab "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et"
+      }
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{60C41BE1A160DF16}" {
+      SlotTemplate InventoryStorageSlot SmokeGrenades {
+       Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+      }
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{60C41BE1B1D34C81}" {
+      SlotTemplate InventoryStorageSlot UGLammo {
+       Prefab "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+      }
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{60C41BE187F2064D}" {
+      SlotTemplate InventoryStorageSlot HandGrenades {
+       Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+      }
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{60C41BE18A7F806B}" {
+      SlotTemplate InventoryStorageSlot M16ammo {
+       Prefab "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et"
+      }
+      NumSlots 24
+     }
+     MultiSlotConfiguration "{60C41BE069816332}" {
+      SlotTemplate InventoryStorageSlot M16ammo {
+       Prefab "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 10
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_US_USMC"
+   }
+  }
+  coords 7218.936 4.444 5157.115
+  angleX 1.768
+  angleY -171.066
+  angleZ 0.278
+ }
+ M923A1_transport_covered_MERDC2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+    MultiSlots {
+     MultiSlotConfiguration "{60C41BE694759133}" {
+      SlotTemplate InventoryStorageSlot ATMine {
+       Prefab "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et"
+      }
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{60C41BE1A46AB0DD}" {
+      SlotTemplate InventoryStorageSlot SmokeGrenades {
+       Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+      }
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{60C41BE1BFC2C1B3}" {
+      SlotTemplate InventoryStorageSlot UGLammo {
+       Prefab "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+      }
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{60C41BE185B54F94}" {
+      SlotTemplate InventoryStorageSlot HandGrenades {
+       Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+      }
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{60C41BE1886467C9}" {
+      SlotTemplate InventoryStorageSlot M16ammo {
+       Prefab "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et"
+      }
+      NumSlots 24
+     }
+     MultiSlotConfiguration "{60C41BE19338726D}" {
+      SlotTemplate InventoryStorageSlot M16ammo {
+       Prefab "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 10
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_US_USMC"
+   }
+  }
+  coords 7228.186 4.899 5185.307
+  angleX -4.808
+  angleY -159.722
+  angleZ 0.128
+ }
+}
+$grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
+ M1025_armed_M2HB1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{60C41BE0069A3D68}" {
+      SlotTemplate InventoryStorageSlot UGLammo {
+       Prefab "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 3
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_US_USMC"
+   }
+  }
+  coords 7078.772 5.947 5076.314
+  angleY -90.352
+ }
+ M1025_armed_M2HB2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{60C41BE00418C059}" {
+      SlotTemplate InventoryStorageSlot UGLammo {
+       Prefab "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 3
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_US_USMC"
+   }
+  }
+  coords 7093.122 6.043 5076.957
+  angleX -0.901
+  angleY -90.352
+  angleZ -0.89
+ }
+}
+$grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
+ M923A1_transport_covered1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+    MultiSlots {
+     MultiSlotConfiguration "{60C41BE6A97D1B71}" {
+      SlotTemplate InventoryStorageSlot ATMine {
+       Prefab "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et"
+      }
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{60C41BE107E03F37}" {
+      SlotTemplate InventoryStorageSlot HandGrenades {
+       Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+      }
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{60C41BE10A1B61F6}" {
+      SlotTemplate InventoryStorageSlot M16ammo {
+       Prefab "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et"
+      }
+      NumSlots 24
+     }
+     MultiSlotConfiguration "{60C41BE1EBA7CED3}" {
+      SlotTemplate InventoryStorageSlot UGLammo {
+       Prefab "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+      }
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{60C41BE1DCEC1BB5}" {
+      SlotTemplate InventoryStorageSlot SmokeGrenades {
+       Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+      }
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{60C41BE0711992B7}" {
+      SlotTemplate InventoryStorageSlot M16ammo {
+       Prefab "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 10
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_US_USMC"
+   }
+  }
+  coords 7116.397 6.535 5266.451
+  angleX 0.895
+  angleY -89.588
+  angleZ 0.006
+ }
+ M923A1_transport_covered2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+    MultiSlots {
+     MultiSlotConfiguration "{60C41BE681914305}" {
+      SlotTemplate InventoryStorageSlot ATMine {
+       Prefab "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et"
+      }
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{60C41BE1F26A6A55}" {
+      SlotTemplate InventoryStorageSlot HandGrenades {
+       Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+      }
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{60C41BE1F1B9AD30}" {
+      SlotTemplate InventoryStorageSlot M16ammo {
+       Prefab "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et"
+      }
+      NumSlots 24
+     }
+     MultiSlotConfiguration "{60C41BE1F1F7A07E}" {
+      SlotTemplate InventoryStorageSlot UGLammo {
+       Prefab "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+      }
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{60C41BE1DAE30ABD}" {
+      SlotTemplate InventoryStorageSlot SmokeGrenades {
+       Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+      }
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{60C41BE0746FBC00}" {
+      SlotTemplate InventoryStorageSlot M16ammo {
+       Prefab "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 10
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_US_USMC"
+   }
+  }
+  coords 7145.385 6.156 5269.193
+  angleX -0.895
+  angleY -91.556
+  angleZ 0.024
+ }
+}
+Vehicle M998_covered1 : "{B55C6990A6A9411B}Prefabs/Vehicles/Wheeled/M998/M998_covered.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{60C41BE1A74CA821}" {
+     SlotTemplate InventoryStorageSlot SmokeGrenades {
+      Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{60C41BE0434E89AD}" {
+     SlotTemplate InventoryStorageSlot UGLammo {
+      Prefab "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+     }
+     NumSlots 8
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "RHS_US_USMC"
+  }
+ }
+ coords 7240.727 5.545 5213.495
+ angleX 1.998
+ angleY -150.329
+ angleZ 0.108
+}
+$grp SCR_AIGroup : "{C1248447D80573B5}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_RifleSquadSES_P.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{60BAACD6FDFB41D9}" {
+    m_iCompanyCallsign 3
+   }
+  }
+  coords 7086.64 7.581 5070.712
+  angleY -2.297
+  m_aUnitPrefabSlots {
+   "{797221111AFBE05D}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_SL_P.et" "{DCF7999CCEBD5437}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_AR_P.et" "{B96B61A1EEC29714}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_RTO2_P.et" "{CE55D8114889F059}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_LAT_P.et" "{ABF41117838C445F}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_TL_P.et" "{DCF7999CCEBD5437}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_AR_P.et" "{06CDE24A723FB279}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_GL_P.et" "{CE55D8114889F059}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_LAT_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{60BAACD6F3A27050}" {
+    m_iCompanyCallsign 3
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 7059.541 7.323 5070.833
+  angleY -2.297
+  m_aUnitPrefabSlots {
+   "{797221111AFBE05D}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_SL_P.et" "{2E3BBFA1660D2FB7}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_AR_M249_P.et" "{06CDE24A723FB279}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_GL_P.et" "{CE55D8114889F059}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_LAT_P.et" "{ABF41117838C445F}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_TL_P.et" "{DCF7999CCEBD5437}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_AR_P.et" "{06CDE24A723FB279}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_GL_P.et" "{CE55D8114889F059}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_LAT_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{60BAACC77C6AD02D}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 7101.561 6.222 5260.257
+  angleY -93.521
+  m_aUnitPrefabSlots {
+   "{797221111AFBE05D}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_SL_P.et" "{E049DF978939650F}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_RTO_P.et" "{ABF41117838C445F}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_TL_P.et" "{DCF7999CCEBD5437}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_AR_P.et" "{06CDE24A723FB279}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_GL_P.et" "{CE55D8114889F059}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_LAT_P.et" "{ABF41117838C445F}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_TL_P.et" "{DCF7999CCEBD5437}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_AR_P.et" "{06CDE24A723FB279}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_GL_P.et" "{CE55D8114889F059}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_LAT_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{60BAACC77C6AD02D}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 7234.957 4.842 5182.389
+  angleY -25.617
+  m_aUnitPrefabSlots {
+   "{797221111AFBE05D}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_SL_P.et" "{E049DF978939650F}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_RTO_P.et" "{DCF7999CCEBD5437}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_AR_P.et" "{06CDE24A723FB279}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_GL_P.et" "{CE55D8114889F059}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_LAT_P.et" "{ABF41117838C445F}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_TL_P.et" "{DCF7999CCEBD5437}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_AR_P.et" "{06CDE24A723FB279}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_GL_P.et" "{CE55D8114889F059}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_LAT_P.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{60BAACC77C6AD02D}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 7213.005 4.98 5145.645
+  angleY -165.611
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{60BAACC77C6AD02D}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 7141.901 6.325 5263.08
+  angleY -93.316
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{60BAACC77C6AD02D}" {
+   }
+  }
+  coords 7247.262 5.5 5209.428
+  angleY -95.05
+  m_aUnitPrefabSlots {
+   "{797221111AFBE05D}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_SL_P.et" "{F971BD317A6C8ED3}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Spotter_P.et" "{EED044482866F45B}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Corpsman_P.et"
+  }
+ }
+}
+$grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
+ M1025_armed_M2HB_MERDC1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{60C41BE03A44E5BE}" {
+      SlotTemplate InventoryStorageSlot UGLammo {
+       Prefab "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 3
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_US_USMC"
+   }
+  }
+  coords 7066.755 5.884 5076.668
+  angleY -93.05
+ }
+ M1025_armed_M2HB_MERDC2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{60C41BE037A5AEED}" {
+      SlotTemplate InventoryStorageSlot UGLammo {
+       Prefab "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 3
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_US_USMC"
+   }
+  }
+  coords 7053.289 5.799 5076.036
+  angleX -1.754
+  angleY -91.147
+  angleZ 1.824
+ }
+}

@@ -1,0 +1,21 @@
+Vehicle : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{60C328FD4F7AFD1C}" {
+     SourceMaterial "uaz452_body"
+     AssignedMaterial "{04B66BFC0D3DEA45}Assets/Vehicles/Wheeled/UAZ452/Data/uaz452_body_white.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction ""
+    m_aAutoLabels {
+     12 122 50
+    }
+   }
+  }
+ }
+}

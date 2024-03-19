@@ -1,0 +1,41 @@
+Vehicle Ural4320_transport1 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+ components {
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "RHS_RF_MSV"
+  }
+ }
+ coords 6815.512 116.781 2936.147
+ angleY 41.484
+}
+Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ components {
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "RHS_RF_MSV"
+  }
+ }
+ coords 6810.062 116.781 2928.985
+ angleY -93.085
+}
+Vehicle UAZ469_uncovered_CIV_base1 : "{26AF1879FBDA37EB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_base.et" {
+ components {
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "RHS_RF_MSV"
+  }
+ }
+ coords 6811.157 116.781 2948.923
+ angleY 12.593
+}
+$grp Vehicle : "{4A465E25A866520E}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MTT-A_Black.et" {
+ Mi8MTT_A_Black1 {
+  coords 5506.697 124.094 6756.745
+  angleY -151
+ }
+ Mi8MTT_A_Black2 {
+  coords 5570.076 124.107 6728.454
+  angleY -169
+ }
+}
+Vehicle APC_K17_Epoch1 : "{F86AB1BD36B33407}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch.et" {
+ coords 6784.102 124.969 2884.867
+ angleY 148.919
+}
