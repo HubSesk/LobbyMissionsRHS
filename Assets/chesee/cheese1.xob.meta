@@ -9,24 +9,10 @@ MetaFileClass {
     }
    }
    MeshParams {
-    MeshParam big_cheese1 {
-    }
-    MeshParam big_cheese2 {
-    }
-    MeshParam small_cheese1 {
-    }
     MeshParam small_cheese2 {
     }
    }
    GeometryParams {
-    GeometryParam UCX_chezbargo2 {
-     LayerPreset "ItemFireView"
-     SurfaceProperties {
-      "{31861CEDECF9F0C7}Common/Materials/Game/linoleum.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
     GeometryParam UCL_chezbargo1 {
      SurfaceProperties {
       "{31861CEDECF9F0C7}Common/Materials/Game/linoleum.gamemat"
