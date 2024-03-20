@@ -1,0 +1,80 @@
+GenericEntity : "{C95E11C60810F432}Prefabs/Items/Core/Item_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "Crackers"
+     Description "Army crackers"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 5 5 5
+     ItemVolume 125
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{60E8E2A79C64BF23}" {
+     AnimationInstance "{332D4A7512E78419}Assets/Items/Equipment/workspaces/Radio_ANPRC68_player.asi"
+     AnimationIKPose ""
+     AnimationAttachments {
+      AnimationAttachmentInfo "{60E8E2A79C64BF24}" {
+       AnimGraph "{1262B0C648B36FB7}Assets/Items/Medicine/Workspaces/Bandage_US.agr"
+       AnimInstance "{CA8E77D43958646F}Assets/Items/Medicine/Workspaces/Bandage_US_player.asi"
+       BindingName "Gadget"
+      }
+      AnimationAttachmentInfo "{60E8E2A79C64BF2A}" {
+       AnimGraph "{83675D0B0AB1B2C3}Assets/Items/Equipment/workspaces/paper_map.agr"
+       AnimInstance "{56794534F6B8C3D7}Assets/Items/Equipment/workspaces/player_map.asi"
+       BindingName "Gadget"
+      }
+      AnimationAttachmentInfo "{60E8E2A79C64BF29}" {
+       AnimGraph "{402BB5FA2891D687}Assets/Items/Equipment/workspaces/Radio_ANPRC68.agr"
+       AnimInstance "{332D4A7512E78419}Assets/Items/Equipment/workspaces/Radio_ANPRC68_player.asi"
+       BindingName "Gadget"
+      }
+     }
+     HandAdditiveRotation 0 90 90
+     HandAdditiveTranslation 0 0.115 0.02
+     AllowInspection 1
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{60E8E2A79C64BF2C}" {
+      CameraPreset Front
+      CameraOrbitAngles -90 0 90
+      CameraDistanceToItem 0.2
+      FOV 60
+      AspectRatio 1
+      AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+     }
+    }
+   }
+  }
+  MeshObject "{60E8E2A79C64BF51}" {
+   Object "{A47ED22E6647430A}Assets/Items/Food/ArmyCrackers_Soviet_01.xob"
+   PixelSizeScale 1
+  }
+  RigidBody "{60E8E2A79C64BF56}" {
+   Mass 2
+   CenterOfMass 0 0.02 0
+   LinearDamping 0.5
+   AngularDamping 0.5
+   AngularSleepingThreashold 1
+   ModelGeometry 1
+   CCDRadius 0.02
+  }
+  SCR_GadgetComponent "{60E8E2A79C64BF5F}" {
+   m_eAnimVariable MAP
+  }
+  SCR_SoundDataComponent "{5B18D20ED0099A17}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{5B18D209080A5D15}" {
+     m_sSoundProject "{02B22546DD1483B8}Sounds/Items/_SharedData/PickUp/Items_PickUp_FieldDressing_US.acp"
+    }
+    SCR_AudioSourceConfiguration "{5B18D2091B885AE6}" {
+     m_sSoundProject "{02B22546DD1483B8}Sounds/Items/_SharedData/PickUp/Items_PickUp_FieldDressing_US.acp"
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}

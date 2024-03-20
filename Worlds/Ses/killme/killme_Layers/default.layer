@@ -7,10 +7,19 @@ SCR_ChimeraCharacter {
 SCR_ChimeraCharacter : "{0848BAB1B94FCBBA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew.et" {
  coords 157.398 1 97.043
 }
+GenericEntity : "{0BA040955F2D11DC}Prefabs/Items/Food/Cheese_Ses.et" {
+ coords 126.286 1 127.036
+}
+GenericEntity : "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" {
+ coords 125.886 1 127.014
+}
 SCR_ChimeraCharacter : "{1C78331E156A3D65}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AT.et" {
  coords 153.043 1 93.967
 }
-$grp SCR_ChimeraCharacter : "{360A4E970E65A285}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Empty.et" {
+GenericEntity : "{2F8F0BFDF42FC830}Prefabs/Weapons/Explosives/Mine_TM62M/CheeseRound_2.et" {
+ coords 126.728 1 127.733
+}
+$grp SCR_ChimeraCharacter : "{360A4E970E65A285}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/uhhh/Character_RHS_RF_MSV_VKPO_DS_Empty_P.et" {
  {
   components {
    SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -224,17 +233,29 @@ $grp SCR_ChimeraCharacter : "{360A4E970E65A285}Prefabs/Characters/Factions/OPFOR
   coords 154.969 1.001 90.336
  }
 }
+GenericEntity : "{43DB3F1D48EB471E}Prefabs/Weapons/Explosives/Mine_TM62M/CheeseRound_1.et" {
+ coords 126.846 1 128.341
+}
 SCR_ChimeraCharacter : "{45D0301F2794BDF7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_AT.et" {
  coords 157.195 1 95.502
 }
+GenericEntity : "{536EA7D8D7E9AB29}Prefabs/Weapons/Explosives/Mine_TM62M/CheeseRound_Base.et" {
+ coords 125.456 1 128.308
+}
 SCR_ChimeraCharacter : "{5A1F1BD88FC6C6E9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Rifleman.et" {
  coords 157.952 1 103.865
+}
+GenericEntity : "{61980E6F3CA71107}Prefabs/Weapons/Explosives/Mine_TM62M/Dingus.et" {
+ coords 126.643 1 128.984
 }
 SCR_ChimeraCharacter : "{68EB286921B4E7FD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Sharpshooter.et" {
  coords 158.361 1 107.084
 }
 SCR_ChimeraCharacter : "{6A5FD56634DE57DD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_AAT.et" {
  coords 156.395 1 90.05
+}
+GenericEntity : "{7BF46B8343579CFB}Prefabs/Weapons/Explosives/Mine_TM62M/Dingus2.et" {
+ coords 126.841 1 129.826
 }
 SCR_ChimeraCharacter : "{7E590EDD929739E4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Medic.et" {
  coords 157.665 1 100.246
@@ -248,6 +269,9 @@ SCR_ChimeraCharacter : "{90AD27FFA9AACA81}Prefabs/Characters/Factions/OPFOR/RHS_
 SCR_ChimeraCharacter : "{9D7859DE5E1DA3AB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_AR.et" {
  coords 156.94 1 93.686
 }
+GenericEntity : "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_US_01.et" {
+ coords 125.759 1 127.26
+}
 SCR_ChimeraCharacter : "{B6C45B392F33B9E4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_RTO.et" {
  coords 158.199 1 105.358
 }
@@ -259,4 +283,7 @@ SCR_ChimeraCharacter : "{E0E062BD23185D62}Prefabs/Characters/Factions/OPFOR/RHS_
 }
 SCR_ChimeraCharacter : "{F0F0A8C16C9901B8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_SL.et" {
  coords 158.437 1 108.462
+}
+GenericEntity : "{F5536A71DA5B86EE}Prefabs/Items/Food/MRE_Ses.et" {
+ coords 126.096 1 127.345
 }

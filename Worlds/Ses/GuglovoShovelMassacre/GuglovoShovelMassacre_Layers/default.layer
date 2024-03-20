@@ -4,16 +4,38 @@ DestructionManager : "{E5B570B5F32A7BAE}Prefabs/Systems/Destruction/DestructionM
 }
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
 }
-TagManager : "{2FA9E172CAB1857A}Prefabs/MP/Managers/TagManager.et" {
-}
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
- m_bKillRedundantUnits 1
+ m_bAdminMode 1
+ m_bMarkersOnlyOnBriefing 1
+ m_bRemoveRedundantUnits 1
  m_bRemoveSquadMarkers 1
  m_iFreezeTime 300000
+ m_bDisableChat 1
+ m_bReserveSlots 1
 }
 HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
 }
-Vehicle UAZ469_Ses_ChDKZ1 : "{EF3C004C1F1E24C6}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Ses_ChDKZ.et" {
- coords 8415.288 360.219 6665.034
- angleY 86.459
+Vehicle Ural4320_ChDKZ_transport_covered1 : "{A20790423F867CAC}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ChDKZ_transport_covered.et" {
+ components {
+  PS_SpectatorLabel "{60E2A7E4CE10D83D}" {
+   m_cMapMarkerConfig PS_ManualMarkerConfig "{60E2A7E4D411CC13}" {
+    m_sQuadName "radialCircle"
+   }
+  }
+ }
+ coords 5336.747 332.958 8586.798
+ angleX -1.96
+ angleY 128.175
+ angleZ -0.403
+ {
+  PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+   coords 0 0 0
+   angleY 0
+   m_MarkerColor 0.502 0 0.376 1
+   m_sQuadName "point-of-interest"
+   m_fWorldSize 45
+   m_sDescription "COCK!"
+   m_bVisibleForEmptyFaction 1
+  }
+ }
 }

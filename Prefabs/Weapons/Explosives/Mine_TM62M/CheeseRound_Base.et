@@ -2,11 +2,14 @@ GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM
  ID "59EC9890DE0228CB"
  components {
   MeshObject "{5968D9C73C08706E}" {
-   Object "{FBCA82F53CC2B61D}Assets/cats/maxwell/maxwell.xob"
+   Object "{DFE16E96FB2F3833}Assets/chesee/cheese1.xob"
   }
   SCR_MineDamageManager "{5A187C4DB2CF86F2}" {
    "Additional hit zones" {
     SCR_MineHitZone Main {
+     ColliderNames {
+      "UCL_chezbargo1"
+     }
      IgnoreExplosions 1
      MaxHealth 50000
      DamageReduction 50
@@ -17,15 +20,15 @@ GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM
   SCR_MineInventoryItemComponent "{59E4E694B93DC656}" {
    Attributes SCR_ItemAttributeCollection "{5A10B8E3F1D55606}" {
     ItemDisplayName WeaponUIInfo "{5A10B8E3F31D239B}" {
-     Name "Dingus"
-     Description "Cute cat"
+     Name "Cheese Wheel"
+     Description "Yum!"
     }
     ItemPhysAttributes ItemPhysicalAttributes "{5A10B8E3E50A16D2}" {
-     Weight 4.2
+     Weight 10
     }
     CustomAttributes {
      PreviewRenderAttributes "{5A12A52945DC707E}" {
-      CameraOrbitAngles 0 225 0
+      CameraOrbitAngles -40 225 0
       CameraDistanceToItem 0.35
       CameraOffset 0 0 0
      }
@@ -43,15 +46,15 @@ GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM
   }
   SCR_MineWeaponComponent "{59F2DC2C202D1AFB}" {
    UIInfo GrenadeUIInfo "{5CDCD73FE938D67D}" {
-    Name "Dingus"
-    Description "Cute cat"
+    Name "Cheese"
+    Description "Yum!"
     m_bShowWeaponName 1
     m_MagIndicator SCR_MagazineIndicatorConfiguration "{5CDCD73FF80278AD}" {
      m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
      m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
-     m_sOutline "animals"
+     m_sOutline "careerCircle"
     }
-    m_sAmmoType "Dingus"
+    m_sAmmoType "Cheese"
     m_eAmmoTypeFlags 0
    }
   }

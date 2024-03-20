@@ -1,0 +1,75 @@
+GenericEntity : "{C95E11C60810F432}Prefabs/Items/Core/Item_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "MRE"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.65
+     SizeSetupStrategy Manual
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{60E8E2AE2A7DF0C9}" {
+     AnimationInstance "{332D4A7512E78419}Assets/Items/Equipment/workspaces/Radio_ANPRC68_player.asi"
+     AnimationIKPose ""
+     AnimationAttachments {
+      AnimationAttachmentInfo "{55EAD7272ED1ABB5}" {
+       AnimGraph "{1262B0C648B36FB7}Assets/Items/Medicine/Workspaces/Bandage_US.agr"
+       AnimInstance "{CA8E77D43958646F}Assets/Items/Medicine/Workspaces/Bandage_US_player.asi"
+       BindingName "Gadget"
+      }
+      AnimationAttachmentInfo "{5556881A7A745799}" {
+       AnimGraph "{83675D0B0AB1B2C3}Assets/Items/Equipment/workspaces/paper_map.agr"
+       AnimInstance "{56794534F6B8C3D7}Assets/Items/Equipment/workspaces/player_map.asi"
+       BindingName "Gadget"
+      }
+      AnimationAttachmentInfo "{5A6C68D9E9C72006}" {
+       AnimGraph "{402BB5FA2891D687}Assets/Items/Equipment/workspaces/Radio_ANPRC68.agr"
+       AnimInstance "{332D4A7512E78419}Assets/Items/Equipment/workspaces/Radio_ANPRC68_player.asi"
+       BindingName "Gadget"
+      }
+     }
+     HandAdditiveRotation 90 0 0
+     HandAdditiveTranslation 0.03 0.08 0.03
+     AllowInspection 1
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{60E8E2A55AC67AB9}" {
+      CameraPreset Left
+      CameraOrbitAngles -90 90 0
+      FOV 60
+      AspectRatio 1
+      AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+     }
+    }
+   }
+  }
+  MeshObject "{60E8E2AFCBF7716D}" {
+   Object "{250B64167B3A6475}Assets/Items/Food/MRE_01.xob"
+  }
+  RigidBody "{60E8E2AFCBF7709F}" {
+   Mass 2
+   CenterOfMass 0 0.02 0
+   LinearDamping 0.5
+   AngularDamping 0.5
+   AngularSleepingThreashold 1
+   ModelGeometry 1
+   CCDRadius 0.02
+  }
+  SCR_SoundDataComponent "{5B18D20ED0099A17}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{5B18D209080A5D15}" {
+     m_sSoundProject "{02B22546DD1483B8}Sounds/Items/_SharedData/PickUp/Items_PickUp_FieldDressing_US.acp"
+    }
+    SCR_AudioSourceConfiguration "{5B18D2091B885AE6}" {
+     m_sSoundProject "{02B22546DD1483B8}Sounds/Items/_SharedData/PickUp/Items_PickUp_FieldDressing_US.acp"
+    }
+   }
+  }
+  SCR_GadgetComponent "{60E8E2A9682AD7FB}" {
+   m_eAnimVariable MAP
+  }
+ }
+ coords -2.9 0 6.3
+}

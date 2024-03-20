@@ -1,0 +1,88 @@
+GenericEntity : "{8AFB84CC3CA603F2}Prefabs/Props/BoxBoom.et" {
+ coords 129.683 1 120.85
+}
+GenericEntity : "{B50D77066AB43165}Prefabs/Props/BoomBox.et" {
+ coords 129.744 1 133.55
+}
+GenericEntity : "{B9D990C378611374}Prefabs/Props/Military/Arsenal/AmmoBoxes/FIA/AmmoBox_Ammunition_FIA.et" {
+ coords 130.354 1 127.631
+}
+GenericEntity : "{DD07AE4E1B3E5EE2}Prefabs/Props/Furniture/FirstAidBox_01.et" {
+ components {
+  SCR_SoundDataComponent "{60E2B94F22164D41}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{60E2B94F2902E392}" {
+     m_sSoundProject "{A73D28179B395F19}Sounds/Props/Military/AmmoBoxes/AmmoBox_Big_Wooden/Props_AmmoBox_Big_Wooden.acp"
+     m_sSoundEventName "SOUND_CONTAINER_OPEN"
+    }
+    SCR_AudioSourceConfiguration "{60E2B94F289F1267}" {
+     m_sSoundProject "{A73D28179B395F19}Sounds/Props/Military/AmmoBoxes/AmmoBox_Big_Wooden/Props_AmmoBox_Big_Wooden.acp"
+     m_sSoundEventName "SOUND_CONTAINER_CLOSE"
+    }
+   }
+  }
+  UniversalInventoryStorageComponent "{60E2B94A3D8CA27D}" {
+   Attributes SCR_ItemAttributeCollection "{60E2B94A062C4905}" {
+    ItemDisplayName SCR_InventoryUIInfo "{60E2B948A8BC4505}" {
+     Name "#AR-Ammobox_Name"
+     Description "#AR-Ammobox_Name"
+     m_aItemHints {
+      SCR_SupplyAvailableItemHintUIInfo "{5E76A7E6F3D189F7}" {
+       Name "#AR-Item_SupplyConsumer_Hint1"
+       Icon "{8EB808BFA227C080}UI/Textures/Icons/InventoryHints/InventoryHint_SuppliesStored.edds"
+       m_cColor 1 1 1 1
+       m_bHideInArsenal 1
+      }
+     }
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{599E60F5A7F31EE8}" {
+     }
+     PreviewRenderAttributes "{599E60F49CE0CD91}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1.5
+      FOV 30
+      AspectRatio 1
+     }
+    }
+    m_bDraggable 0
+   }
+   Priority 1000
+   MultiSlots {
+    MultiSlotConfiguration "{60E2B949A0A0A7DD}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et"
+     }
+     NumSlots 2
+    }
+   }
+  }
+  ActionsManagerComponent "{60E2B949C2430610}" {
+   ActionContexts {
+    UserActionContext "{60E2B949CCAC9D0D}" {
+     ContextName "default"
+     Position PointInfo "{5476B36C45ADDA89}" {
+      Offset 0.1366 0.1925 0
+     }
+     Radius 0.5
+     Height 0
+    }
+   }
+   additionalActions {
+    SCR_OpenStorageAction "{60E2B949DD379442}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{52E6EC759A11C684}" {
+      Name "#AR-Inventory_OpenArsenalStorage"
+     }
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords 130.641 1.577 126.193
+ angleY -91.697
+}
