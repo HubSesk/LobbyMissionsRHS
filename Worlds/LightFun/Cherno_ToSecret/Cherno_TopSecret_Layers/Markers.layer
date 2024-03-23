@@ -1,0 +1,217 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ Ses_CDF_G_000_M {
+  coords 4031.029 376.062 11707.495
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-blufor"
+  m_fWorldSize 35
+  m_sDescription "Атлас Ред 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF" "Ses_ChDKZ" "Ses_NAPA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ Ses_ChDKZ_G_200_M {
+  coords 4569.265 340.847 10790.542
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 45
+  m_sDescription "Компас-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF" "Ses_ChDKZ" "Ses_NAPA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ Ses_ChDKZ_G_100_M {
+  coords 4529.29 339.031 10799.44
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 45
+  m_sDescription "Буран-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF" "Ses_ChDKZ" "Ses_NAPA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ Ses_ChDKZ_G_210_M {
+  coords 4585.732 338.687 10852.608
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 45
+  m_sDescription "Компас-21"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF" "Ses_ChDKZ" "Ses_NAPA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ Ses_ChDKZ_G_110_M {
+  coords 4507.385 339 10850.454
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 45
+  m_sDescription "Буран-21"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF" "Ses_ChDKZ" "Ses_NAPA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ Ses_ChDKZ_G_000_M {
+  coords 4543.377 346.847 10854.276
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "signal-opfor"
+  m_fWorldSize 45
+  m_sDescription "Актив-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF" "Ses_ChDKZ" "Ses_NAPA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ Ses_NAPA_G_210_M {
+  coords 3573.04 219.938 12597.449
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-indfor"
+  m_fWorldSize 35
+  m_sDescription "Сэдр-21"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF" "Ses_ChDKZ" "Ses_NAPA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ Ses_NAPA_G_200_M {
+  coords 3534.645 220.063 12589.987
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-indfor"
+  m_fWorldSize 35
+  m_sDescription "Сэдр-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF" "Ses_ChDKZ" "Ses_NAPA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ Ses_NAPA_G_110_M {
+  coords 3554.803 220.231 12556.383
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-indfor"
+  m_fWorldSize 35
+  m_sDescription "Бжиза-21"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF" "Ses_ChDKZ" "Ses_NAPA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ Ses_NAPA_G_100_M {
+  coords 3578.409 220.069 12508.105
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-indfor"
+  m_fWorldSize 35
+  m_sDescription "Бжиза-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF" "Ses_ChDKZ" "Ses_NAPA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ Ses_NAPA_G_000_M {
+  coords 3562.337 220.122 12528.114
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "signal-indfor"
+  m_fWorldSize 35
+  m_sDescription "Рацек-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF" "Ses_ChDKZ" "Ses_NAPA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ Ses_CDF_G_000_M2 {
+  coords 4049.277 381.967 11710.472
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 0.767 0 1
+  m_sQuadName "SupplyDepot"
+  m_fWorldSize 35
+  m_sDescription "Документы"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF" "Ses_ChDKZ" "Ses_NAPA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+}

@@ -1,26 +1,26 @@
 SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
- coords 4031.393 377.67 11586.01
 }
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
- coords 4031.554 377.654 11585.877
-}
-TagManager : "{2FA9E172CAB1857A}Prefabs/MP/Managers/TagManager.et" {
- coords 4032.44 377.967 11586.651
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  components {
+  SCR_InitWeatherComponent "{60EECCEA84EC9D43}" {
+   m_sInitialStartingWeatherId "Overcast"
+  }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 18
+   m_iStartingHours 13
   }
  }
- coords 4032.738 377.91 11586.915
  m_fAutoReloadTime 300
- m_iAvailableReconnectTime 300000
- m_bKillRedundantUnits 1
+ m_bAdminMode 1
+ m_bMarkersOnlyOnBriefing 1
+ m_bRemoveRedundantUnits 1
  m_bRemoveSquadMarkers 1
- m_iFreezeTime 300000
+ m_iFreezeTime 180000
+ m_bDisableChat 1
+ m_bReserveSlots 1
  {
-  SCR_FactionManager {
+  SCR_FactionManager "60EECCE1831C2D65" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{5978B9CE6585BBE8}" {
@@ -37,19 +37,18 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  }
 }
 HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
- coords 4032.133 378.038 11586.707
 }
 SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
  coords 4038.786 376.062 11711.683
 }
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  {
-  coords 3423.945 220.077 12483.493
-  m_fWarnRadius 120
-  m_fZoneRadius 160
-  m_fZoneTeleportedRadius 170
+  coords 4545.139 338.687 10839.346
+  m_fWarnRadius 75
+  m_fZoneRadius 115
+  m_fZoneTeleportedRadius 130
  }
  {
-  coords 5276.938 306.499 10572.523
+  coords 3566.096 220.966 12556.191
  }
 }

@@ -1,0 +1,16 @@
+GenericEntity : "{A95C4BA303CCB6F3}Prefabs/Items/Stuff/SecretDocuments.et" {
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "Секретные документики"
+     Description "Очень-очень-супер-пупер-дупер-мега-омега секретные документы"
+    }
+   }
+  }
+  MeshObject "{5AB0B9C3C3E4A143}" {
+   Object "{789311902B5FF0FF}Assets/Props/Civilian/Notebook_01/Notebook_01_Single.xob"
+  }
+ }
+ coords 4049.375 381.949 11710.443
+}
