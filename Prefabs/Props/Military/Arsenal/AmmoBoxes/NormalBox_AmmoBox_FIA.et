@@ -38,9 +38,21 @@ GenericEntity : "{42894F191BC9EDE1}Prefabs/Props/Core/AmmoBox_Base.et" {
    MultiSlots {
     MultiSlotConfiguration "{60E9555485610438}" {
      SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_US_01.et"
+      Prefab "{03094E059B554A9C}Prefabs/Weapons/Magazines/UK59/Box_762x54_UK59_50rnd_4Ball_1Tracer.et"
      }
-     NumSlots 2
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{60EE99F54507EFB3}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{48720FC416263FC1}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Ball.et"
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{60EE99F54D57B349}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{BBB50A815A2F916C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Ball.et"
+     }
+     NumSlots 25
     }
    }
    m_fMaxWeight 10000

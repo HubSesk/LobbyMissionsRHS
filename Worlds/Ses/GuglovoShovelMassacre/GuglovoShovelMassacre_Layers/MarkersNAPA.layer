@@ -1,0 +1,116 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 7397.392 402.037 9117.643
+  angleX -2.453
+  angleY 258.557
+  angleZ 1.409
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.22
+  m_sDescription "#AR-Vehicle_Skoda105_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+  m_aHideOnGameModeStates {
+   0 3 1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 7399.937 402.349 9129.658
+  angleX -1.075
+  angleY -55.317
+  angleZ 4.688
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.229
+  m_sDescription "#AR-Vehicle_Skoda1203_Minibus_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+  m_aHideOnGameModeStates {
+   0 3 1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 7405.17 402.132 9134.917
+  angleX 2.403
+  angleY -39.79
+  angleZ 8.414
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.043
+  m_sDescription "#AR-Vehicle_UAZ469_UK59_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+  m_aHideOnGameModeStates {
+   0 3 1
+  }
+  m_iZOrder 0
+ }
+ Ses_NAPA_G_000_M {
+  coords 7434.231 403.228 9136.959
+  m_sImageSet "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+  m_sImageSetGlow "{67B3A6DC2D712B52}UI/Textures/Icons/icons_mapMarkersUI-glow.imageset"
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "circle-2"
+  m_fWorldSize 20
+  m_sDescription "Racek-11"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+  m_aHideOnGameModeStates {
+   0 3
+  }
+  m_iZOrder 0
+ }
+ Ses_NAPA_G_101_M {
+  coords 7415.255 403.332 9132.03
+  m_sImageSet "{E23427CAC80DA8B7}UI/Textures/Icons/icons_mapMarkersUI.imageset"
+  m_sImageSetGlow "{67B3A6DC2D712B52}UI/Textures/Icons/icons_mapMarkersUI-glow.imageset"
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "circle-2"
+  m_fWorldSize 20
+  m_sDescription "Bříza-12"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+  m_aHideOnGameModeStates {
+   0 3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 7397.907 402.277 9123.929
+  angleX -1.039
+  angleY -85.285
+  angleZ 1.71
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.22
+  m_sDescription "#AR-Vehicle_Skoda105_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+  m_aHideOnGameModeStates {
+   0 3 1
+  }
+  m_iZOrder 0
+ }
+}

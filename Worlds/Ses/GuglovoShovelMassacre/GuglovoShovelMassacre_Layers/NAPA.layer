@@ -1,0 +1,117 @@
+$grp StaticModelEntity : "{48A04E0A139BB167}Prefabs/Structures/Military/Camps/TentSmallFIA_01/TentSmallFIA_01.et" {
+ {
+  coords 7429.071 402.781 9144.24
+  angleY -161.648
+ }
+ {
+  coords 7418.448 402.504 9141.397
+  angleY 152.268
+ }
+ {
+  coords 7439.335 403.136 9136.521
+  angleX -6.302
+  angleY 46.686
+  angleZ -0.185
+ }
+ {
+  coords 7443.822 402.8 9134.741
+  angleX -1.352
+  angleY -10.373
+  angleZ 7.484
+ }
+ {
+  coords 7444.242 402.269 9140.063
+  angleX 11.708
+  angleY -128.355
+  angleZ 1.978
+ }
+}
+Vehicle S1203_transport_beige1 : "{543799AC5C52989C}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_beige.et" {
+ components {
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_NAPA"
+  }
+ }
+ coords 7399.937 402.349 9129.658
+ angleX -1.075
+ angleY -145.317
+ angleZ 4.688
+}
+Vehicle S105_white1 : "{63880E311299A016}Prefabs/Vehicles/Wheeled/S105/S105_white.et" {
+ components {
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_NAPA"
+  }
+ }
+ coords 7397.392 402.037 9117.643
+ angleX -2.453
+ angleY 168.557
+ angleZ 1.409
+}
+Vehicle UAZ469_UK59_Ses_NAPA1 : "{A33FC5774C0166A3}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_UK59_Ses_NAPA.et" {
+ coords 7405.17 402.132 9134.917
+ angleX 2.403
+ angleY -129.79
+ angleZ 8.414
+}
+Vehicle S105_green1 : "{AD80FB47D868C775}Prefabs/Vehicles/Wheeled/S105/S105_green.et" {
+ components {
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_NAPA"
+  }
+ }
+ coords 7397.907 402.277 9123.929
+ angleX -1.039
+ angleY -175.285
+ angleZ 1.71
+}
+GenericEntity : "{B9D990C378611374}Prefabs/Props/Military/Arsenal/AmmoBoxes/NormalBox_AmmoBox_FIA.et" {
+ coords 7430.162 407.771 9123.739
+ angleY 76.066
+}
+$grp GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+ {
+  coords 7441.824 402.824 9138.269
+  angleX -7.082
+  angleY -0.556
+  angleZ 4.502
+ }
+ {
+  coords 7424.138 402.778 9142.161
+  angleX -2.681
+  angleY 0.084
+  angleZ -1.792
+ }
+}
+$grp SCR_AIGroup : "{F83A6FB6CB36AE0F}Prefabs/Groups/INDFOR/Ses_NAPA/Group_Ses_NAPA_RifleSquad.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{60EE99FB1861C469}" {
+   }
+  }
+  coords 7434.231 403.228 9136.959
+  angleY -100.148
+  m_aUnitPrefabSlots {
+   "{F186A546CC076F55}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_PL.et" "{570733DA8D2BE835}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG.et" "{E6A32FEAA73639D4}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Medic.et" "{DDB884019AEDE28A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AT.et" "{3BC9EFCE8DC9B614}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman.et" "{81AABF85182C9FA3}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman2.et" "{6436F37C14C908C8}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman3.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{60EE99FB1861C469}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 7415.255 403.332 9132.03
+  angleY 78.873
+  m_aUnitPrefabSlots {
+   "{68981CDFD1E05EC5}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_SL.et" "{825CF2A0231AA133}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG2.et" "{E6A32FEAA73639D4}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Medic.et" "{CD129913E6D6649A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_LAT.et" "{3BC9EFCE8DC9B614}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman.et" "{81AABF85182C9FA3}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman2.et" "{6436F37C14C908C8}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman3.et"
+  }
+ }
+}
