@@ -15,7 +15,25 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
 }
 HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
 }
-Vehicle Ural4320_ChDKZ_transport_covered1 : "{A20790423F867CAC}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ChDKZ_transport_covered.et" {
+$grp Vehicle : "{52441D784D145D52}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF.et" {
+ BTR70_Ses_CDF1 {
+  coords 10110.654 245.09 5495.752
+  angleX -0.099
+  angleY -96.355
+  angleZ -0.89
+ }
+ BTR70_Ses_CDF2 {
+  coords 10119.365 245.062 5485.208
+  angleY -129.076
+ }
+ BTR70_Ses_CDF3 {
+  coords 10140.722 245.005 5468.943
+  angleX 1.259
+  angleY -129.074
+  angleZ 0.131
+ }
+}
+Vehicle Ural4320_ChDKZ_transport_covered1 : "{A20790423F867CAC}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_Ses_ChDKZ_transport_covered.et" {
  components {
   PS_SpectatorLabel "{60E2A7E4CE10D83D}" {
    m_cMapMarkerConfig PS_ManualMarkerConfig "{60E2A7E4D411CC13}" {
