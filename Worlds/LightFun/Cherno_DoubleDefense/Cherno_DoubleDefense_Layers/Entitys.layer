@@ -1,0 +1,113 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+}
+DestructionManager : "{E5B570B5F32A7BAE}Prefabs/Systems/Destruction/DestructionManager.et" {
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_InitWeatherComponent "{60F740E4FF28D4AC}" {
+   m_sInitialStartingWeatherId "Overcast"
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 14
+  }
+ }
+ m_fAutoReloadTime 300
+ m_bMarkersOnlyOnBriefing 1
+ m_bRemoveRedundantUnits 1
+ m_bRemoveSquadMarkers 1
+ m_iFreezeTime 180000
+ m_bDisableChat 1
+ m_bReserveSlots 1
+}
+HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
+}
+$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ {
+  coords 6188.777 276.566 10414.167
+  m_fWarnRadius 42
+  m_fZoneRadius 60
+  m_fZoneTeleportedRadius 70
+ }
+ {
+  coords 5920.184 278.934 10151.004
+  m_fWarnRadius 52
+  m_fZoneRadius 65
+  m_fZoneTeleportedRadius 75
+ }
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  m_sTitle "Одна точка под контролем"
+  m_iScore 50
+  m_sFactionKey "Ses_CDF"
+ }
+ {
+  m_sTitle "Две точки под контролем"
+  m_iOrder 2
+  m_iScore 50
+  m_sFactionKey "Ses_CDF"
+ }
+ {
+  coords 5377.888 299.438 10768.104
+  m_sTitle "ЧДКЗ захватило точку противника"
+  m_iOrder 1
+  m_iScore 25
+  m_sFactionKey "Ses_CDF"
+ }
+ {
+  m_sTitle "Одна точка под контролем"
+  m_iScore 50
+  m_sFactionKey "Ses_ChDKZ"
+ }
+ {
+  m_sTitle "Две точки под контролем"
+  m_iScore 50
+  m_sFactionKey "Ses_ChDKZ"
+ }
+ {
+  m_sTitle "Одна точка под контролем"
+  m_iScore 50
+  m_sFactionKey "Ses_NAPA"
+ }
+ {
+  coords 5924.768 279.113 10149.215
+  m_sTitle "Две точки под контролем"
+  m_iOrder 2
+  m_iScore 50
+  m_sFactionKey "Ses_NAPA"
+ }
+ {
+  coords 5919.708 279.156 10146.688
+  m_sTitle "ЧДКЗ захватило точку противника"
+  m_iOrder 1
+  m_iScore 25
+  m_sFactionKey "Ses_NAPA"
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 5169.272 347.185 8562.872
+ }
+ {
+  coords 4955.25 167.125 12860.115
+ }
+ {
+  coords 3803.955 345.886 10546.408
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ {
+  coords 6621.321 336.13 10695.577
+ }
+ {
+  coords 5374.541 298.754 10774.883
+ }
+ {
+  coords 5427.76 322.236 10040.17
+ }
+ {
+  coords 6502.25 357.349 9745.196
+ }
+}

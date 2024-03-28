@@ -2,7 +2,7 @@ SCR_ChimeraCharacter : "{3333379EC5576A15}Prefabs/Characters/Factions/OPFOR/ChDK
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Командир стороны"
+   m_name "Личная охрана"
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
@@ -17,15 +17,15 @@ SCR_ChimeraCharacter : "{3333379EC5576A15}Prefabs/Characters/Factions/OPFOR/ChDK
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{3FA38ECE65392FC3}Prefabs/Weapons/Rifles/AKS74UN/Rifle_AKS74UN.et"
+   WeaponTemplate "{3F7F0D1881E59439}Prefabs/Weapons/Rifles/AK74/Rifle_AK74_Ses_RHSMag.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{E97A86BB050ED6D1}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_blue_Dirty.et"
+     Prefab "{DBE8E40D24D6226E}Prefabs/Characters/HeadGear/Hat_M88_01/Hat_M88_ChDKZ_W.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{17DBD854BFF6CD8D}Prefabs/Characters/Uniforms/Shirt_Turtleneck_01/Shirt_Turtleneck_01_grey_Dirty.et"
+     Prefab "{5BEE8146EAA1893B}Prefabs/Characters/Uniforms/Shirt_Turtleneck_01/Shirt_Turtleneck_01_DarkBlue_Dirty.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{DCF980831E880F6B}Prefabs/Characters/Uniforms/ChDKZ/Pants_M88_ChDKZ.et"
@@ -44,10 +44,10 @@ SCR_ChimeraCharacter : "{3333379EC5576A15}Prefabs/Characters/Factions/OPFOR/ChDK
      TargetStorage "Prefabs/Characters/Vests/Vest_Type56/Vest_Type56.et"
      TargetPurpose 64
     }
-    ItemsInitConfigurationItem "{60EECCE44E39305B}" {
+    ItemsInitConfigurationItem "{60F6B56641578BD5}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_Type56/Vest_Type56.et"
      PrefabsToSpawn {
-      "{BBB50A815A2F916C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Ball.et" "{BBB50A815A2F916C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Ball.et" "{BBB50A815A2F916C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Ball.et"
+      "{BBB50A815A2F916C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Ball.et" "{BBB50A815A2F916C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Ball.et" "{BBB50A815A2F916C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Ball.et" "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et"
      }
     }
    }
