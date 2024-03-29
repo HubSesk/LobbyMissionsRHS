@@ -1,0 +1,100 @@
+$grp Vehicle : "{2CCD539A7AB35B2F}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_camo1.et" {
+ Ural4320_transport_camo1 {
+  coords 310.342 295.309 9327.109
+  angleX -1.562
+  angleY 29.25
+  angleZ -0.874
+ }
+ Ural4320_transport_camo2 {
+  coords 340.448 294.688 9435.968
+  angleX -0.857
+  angleY 61.418
+  angleZ -1.572
+ }
+ Ural4320_transport_camo3 {
+  coords 1177.078 378.266 12284.513
+  angleX -0.01
+  angleY -90.309
+  angleZ -1.79
+ }
+}
+$grp Vehicle : "{DD0CB0331A3D8CA7}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok_camo1.et" {
+ APC_K17_Berezok_camo1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5CE26149257047CD}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5CE261495B1779F4}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5DE729984447E1C3}" {
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{5D557449EB938170}" {
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{5D557449DBF8D3B0}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5D557449317CA1EC}" {
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{5D5574490FC7E93E}" {
+      SlotTemplate InventoryStorageSlot Bag {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{5DE7299E8FA5ED73}" {
+      SlotTemplate InventoryStorageSlot nvg {
+       Enabled 0
+      }
+     }
+    }
+   }
+  }
+  coords 302.954 295.062 9371.501
+  angleY 120.549
+ }
+ APC_K17_Berezok_camo2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5CE26149257047CD}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5CE261495B1779F4}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5DE729984447E1C3}" {
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{5D557449EB938170}" {
+      NumSlots 12
+     }
+     MultiSlotConfiguration "{5D557449DBF8D3B0}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5D557449317CA1EC}" {
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{5D5574490FC7E93E}" {
+      SlotTemplate InventoryStorageSlot Bag {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{5DE7299E8FA5ED73}" {
+      SlotTemplate InventoryStorageSlot nvg {
+       Enabled 0
+      }
+     }
+    }
+   }
+  }
+  coords 1134.124 379.157 12298.287
+  angleX 1.119
+  angleY -119.43
+  angleZ -1.659
+ }
+}
+Vehicle GAZ_TIGR_Unarmed_Green1 : "{EF97074C3EED623F}Prefabs/Vehicles/Wheeled/TIGR/GAZ_TIGR_Unarmed_Green.et" {
+ coords 1169.263 379.183 12321.746
+ angleX -0.84
+ angleY -159.823
+ angleZ -0.309
+}

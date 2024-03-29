@@ -1,47 +1,4 @@
-Vehicle BTR70_Ses_CDF_camo1 : "{6A440128395C6FB3}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF_camo.et" {
- components {
-  SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
-   MultiSlots {
-    MultiSlotConfiguration "{5A60D38E3CF4827A}" {
-     NumSlots 2
-    }
-    MultiSlotConfiguration "{5A60D38E3C46CBE8}" {
-     SlotTemplate InventoryStorageSlot Morphine {
-      Enabled 0
-     }
-    }
-    MultiSlotConfiguration "{5A60D38E3D91D053}" {
-     NumSlots 5
-    }
-    MultiSlotConfiguration "{5A60D38E3DE4B1EA}" {
-     NumSlots 4
-    }
-    MultiSlotConfiguration "{5A60D38E3DCB490D}" {
-     NumSlots 2
-    }
-    MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
-     NumSlots 1
-    }
-    MultiSlotConfiguration "{5A7CC6862AA09361}" {
-     SlotTemplate InventoryStorageSlot Backpack {
-      Enabled 0
-     }
-    }
-    MultiSlotConfiguration "{5A7CC6862BCACE88}" {
-     NumSlots 4
-    }
-    MultiSlotConfiguration "{5A7CC6862B68506F}" {
-     SlotTemplate InventoryStorageSlot MineFlag {
-      Enabled 0
-     }
-    }
-   }
-  }
- }
- coords 4828.422 339.364 10440.873
- angleY -120.125
-}
-$grp Vehicle : "{8C579E1054F354A2}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_ChDKZ_camo.et" {
+$grp Vehicle {
  BTR70_Ses_ChDKZ_camo1 {
   components {
    SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {

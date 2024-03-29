@@ -108,19 +108,11 @@ $grp Vehicle : "{160E1EDDBFFF8CFD}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_ChDKZ
   angleZ -0.516
  }
 }
-$grp Vehicle : "{499E2EBD08B7FE17}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM_Ses_ChDKZ.et" {
- UAZ469_PKM_Ses_ChDKZ1 {
-  coords 3798.635 346.079 10533.563
-  angleX 1.097
-  angleY 164.897
-  angleZ 0.631
- }
- UAZ469_PKM_Ses_ChDKZ2 {
-  coords 3795.643 345.618 10545.063
-  angleX 1.976
-  angleY 162.531
-  angleZ 0.316
- }
+Vehicle UAZ469_PKM_Ses_ChDKZ2 : "{499E2EBD08B7FE17}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM_Ses_ChDKZ.et" {
+ coords 3796.557 345.745 10541.442
+ angleX 1.976
+ angleY 162.531
+ angleZ 0.316
 }
 $grp Vehicle : "{8918EDE86C8CB551}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_Ses_ChDKZ_transport.et" {
  Ural4320_Ses_ChDKZ_transport1 {

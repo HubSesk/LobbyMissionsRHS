@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{F210A36BBC37CCD2}missions/Peredryaga.conf"
+ Name "{21660B129DC2BB3F}missions/Cherno_Biathlon.conf"
  Configurations {
   CONFResourceClass PC {
   }
@@ -8,6 +8,8 @@ MetaFileClass {
   CONFResourceClass XBOX_SERIES : PC {
   }
   CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
   }
   CONFResourceClass HEADLESS : PC {
   }
