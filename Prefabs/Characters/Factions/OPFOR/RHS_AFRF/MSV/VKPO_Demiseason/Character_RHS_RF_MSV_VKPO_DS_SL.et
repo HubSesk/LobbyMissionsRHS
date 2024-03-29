@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{4CD88E5A61AE773D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{60CF30886E45B82B}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_VKPO.et"
+    }
+   }
+  }
+ }
+}
