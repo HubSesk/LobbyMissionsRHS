@@ -1,6 +1,17 @@
 GenericEntity : "{CCC00D009D4949B0}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M_base.et" {
  ID "5968D2B6A82C6019"
  components {
+  MeshObject "{5968D9C73C08706E}" {
+   Object "{EB0A22FF818604FF}Assets/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_dst_3.xob"
+  }
+  SCR_MineDamageManager "{5A187C4DB2CF86F2}" {
+   "Additional hit zones" {
+    SCR_MineHitZone Main {
+     MaxHealth 1000
+     "Explosive multiplier" 3
+    }
+   }
+  }
   SCR_MineInventoryItemComponent "{59E4E694B93DC656}" {
    Enabled 0
   }

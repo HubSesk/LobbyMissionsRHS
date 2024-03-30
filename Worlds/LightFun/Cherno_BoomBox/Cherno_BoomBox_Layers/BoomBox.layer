@@ -58,55 +58,7 @@ $grp GenericEntity : "{8AFB84CC3CA603F2}Prefabs/Props/BoxBoom.et" {
 }
 $grp GenericEntity : "{BB0A8FCF61A04C7A}Prefabs/Props/MineExplosive.et" {
  {
-  components {
-   MeshObject "{5968D9C73C08706E}" {
-    Object "{EB0A22FF818604FF}Assets/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_dst_3.xob"
-   }
-   SCR_MineDamageManager "{5A187C4DB2CF86F2}" {
-    "Additional hit zones" {
-     SCR_MineHitZone Main {
-      MaxHealth 1000
-      "Explosive multiplier" 3
-     }
-    }
-   }
-  }
   coords 1223.419 279.178 8747.703
- }
- {
-  components {
-   MeshObject "{5968D9C73C08706E}" {
-    Object "{EB0A22FF818604FF}Assets/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_dst_3.xob"
-   }
-   SCR_MineDamageManager "{5A187C4DB2CF86F2}" {
-    "Additional hit zones" {
-     SCR_MineHitZone Main {
-      MaxHealth 1000
-      "Explosive multiplier" 3
-     }
-    }
-   }
-  }
-  coords 1204.999 279.531 8690.841
-  angleY -90.572
- }
- {
-  components {
-   MeshObject "{5968D9C73C08706E}" {
-    Object "{EB0A22FF818604FF}Assets/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_dst_3.xob"
-   }
-   SCR_MineDamageManager "{5A187C4DB2CF86F2}" {
-    "Additional hit zones" {
-     SCR_MineHitZone Main {
-      MaxHealth 1000
-      "Explosive multiplier" 3
-     }
-    }
-   }
-  }
-  coords 1250.231 278.686 8906.366
-  angleY 78.213
-  angleZ -3.051
  }
  {
   components {
@@ -124,5 +76,27 @@ $grp GenericEntity : "{BB0A8FCF61A04C7A}Prefabs/Props/MineExplosive.et" {
   }
   coords 1185.498 278.776 8771.24
   angleY -133.142
+ }
+ {
+  coords 1250.231 278.686 8906.365
+  angleY 78.213
+  angleZ -3.051
+ }
+ {
+  components {
+   MeshObject "{5968D9C73C08706E}" {
+    Object "{EB0A22FF818604FF}Assets/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_dst_3.xob"
+   }
+   SCR_MineDamageManager "{5A187C4DB2CF86F2}" {
+    "Additional hit zones" {
+     SCR_MineHitZone Main {
+      MaxHealth 1000
+      "Explosive multiplier" 3
+     }
+    }
+   }
+  }
+  coords 1204.999 279.531 8690.841
+  angleY -90.572
  }
 }
