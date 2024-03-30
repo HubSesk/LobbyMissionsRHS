@@ -1,0 +1,41 @@
+GenericEntity : "{CCC00D009D4949B0}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M_base.et" {
+ ID "5968D2B6A82C6019"
+ components {
+  SCR_MineInventoryItemComponent "{59E4E694B93DC656}" {
+   Enabled 0
+  }
+  SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+   m_sFuzeMeshName "Mine_Fuse_TM_62M"
+  }
+  SCR_MineWeaponComponent "{59F2DC2C202D1AFB}" {
+   Enabled 0
+  }
+  SCR_MineAnimationComponent "{60FCB9D591B77EFE}" {
+   Enabled 0
+   AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+   AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+   AnimInjection AnimationAttachmentInfo "{60FCB9D591B77EC5}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+    BindingName "Heavy"
+   }
+   BindWithInjection 1
+   AutoVariablesBind 1
+   MeshVisibilityConfigurations {
+    MeshesVisibilitySwitchConfig "{60FCB9D591B77EC6}" {
+     Event "ShowFuze"
+     Meshes {
+      "Mine_Fuse_TM_62M" "TM_62M_pin"
+     }
+     HideMesh 0
+    }
+    MeshesVisibilitySwitchConfig "{60FCB9D591B77EC1}" {
+     Event "HidePin"
+     Meshes {
+      "TM_62M_pin"
+     }
+    }
+   }
+  }
+ }
+}
