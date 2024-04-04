@@ -1,0 +1,13 @@
+Vehicle : "{3B899AC9449C35F0}Prefabs/Vehicles/Wheeled/K17/APC_K17_unarmed.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6109309788BDA313}" {
+     SourceMaterial "Hull"
+     AssignedMaterial "{BA9960BE0FD033F4}Assets/Vehicles/Wheeled/K17bumerang/Data/camo_expo/Hull_camoExpo.emat"
+    }
+   }
+  }
+ }
+}

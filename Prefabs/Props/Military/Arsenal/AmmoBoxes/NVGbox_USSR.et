@@ -1,0 +1,67 @@
+GenericEntity : "{42894F191BC9EDE1}Prefabs/Props/Core/AmmoBox_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Enabled 1
+   Object "{9E1DFF036BCE913E}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Ammunition_01.xob"
+   Materials {
+    MaterialAssignClass "{61093095B52E32E4}" {
+     SourceMaterial "EquipmentBoxWooden_Ammunition_01"
+     AssignedMaterial "{EB85A5589049E9D1}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Ammunition_01_USSR.emat"
+    }
+    MaterialAssignClass "{61093095B52E32FE}" {
+     SourceMaterial "EquipmentBoxWooden_decal_US"
+     AssignedMaterial "{17332645A86C9BA6}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_decal_USSR.emat"
+    }
+   }
+   ObjectHeightmapBias 0
+   ObjectHeightmapTraceBias 0
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
+    CustomAttributes {
+     PreviewRenderAttributes "{61093095B52E32F5}" {
+     }
+     PreviewRenderAttributes "{61093095B52E32F4}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1.5
+      FOV 30
+      AspectRatio 1
+     }
+    }
+    m_bDraggable 0
+   }
+   Priority 1000
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 10000
+   MultiSlots {
+    MultiSlotConfiguration "{61093095B52E32C8}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{B0534A120633D08D}Prefabs/Items/Equipment/Nightvision/1PN138/NVG_1PN138.et"
+     }
+     NumSlots 25
+    }
+    MultiSlotConfiguration "{6109309347DC31DE}" {
+     SlotTemplate InventoryStorageSlot shitvg1 {
+      Prefab "{64A680729707DBFE}Prefabs/Weapons/Attachments/Optics/1p87/Optic_1P87_1PN138.et"
+     }
+     NumSlots 10
+    }
+   }
+   m_fMaxWeight 10000
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   ActionContexts {
+    UserActionContext "{5476B36C47B0461A}" {
+     Position PointInfo "{5476B36C45ADDA89}" {
+      Offset -0.0003 0.2264 0.1798
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,107 @@
+$grp GenericEntity : "{0FE25F81E87E8131}Prefabs/Props/Airport/RunwayLightPortable_01/RunwayLightPortable_01_red.et" {
+ {
+  coords 10048.152 3.432 1567.215
+ }
+ {
+  coords 10048.674 3.549 1575.337
+ }
+}
+GenericEntity : "{61980E6F3CA71107}Prefabs/Items/Cats/Dingus.et" {
+ coords 9975.212 5.664 1607.459
+ angleY -165.912
+}
+GenericEntity : "{6CD34D6526429EEC}Prefabs/Props/Furniture/BarTable_01.et" {
+ coords 10048.357 2.531 1575.38
+ angleY 12.49
+}
+StaticModelEntity : "{7B2D1744E9F2A3B3}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Ashtray_US_01.et" {
+ coords 10047.672 2.532 1567.511
+ angleY 22.771
+}
+GenericEntity : "{7BF46B8343579CFB}Prefabs/Items/Cats/Sugnid.et" {
+ coords 10125.495 16.215 1477.951
+ angleY 54.66
+}
+$grp GenericEntity : "{BAFB49BFD5975547}Prefabs/Props/Military/Arsenal/AmmoBoxes/NVGBOX_US.et" {
+ {
+  coords 10047.969 3.549 1575.456
+  angleY -17.327
+ }
+ {
+  coords 10047.761 3.431 1567.506
+  angleY -47.727
+ }
+}
+$grp SCR_AIGroup : "{BBF68148AB94A7C7}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_SniperTeam.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 10052.512 2.56 1561.377
+  angleY 10.11
+  m_aUnitPrefabSlots {
+   "{B74E289F7EDF5D62}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Spotter.et" "{CFB9FD7F799BAEF8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Sniper_THERMAL.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 10046.223 2.562 1562.717
+  angleY 16.291
+  m_aUnitPrefabSlots {
+   "{B74E289F7EDF5D62}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Spotter.et" "{CFB9FD7F799BAEF8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Sniper_THERMAL.et"
+  }
+ }
+}
+$grp SCR_AIGroup : "{F831DFB4A9B46152}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_RifleSquad.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 10061.629 3.15 1573.558
+  angleY -159.14
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 10033.847 2.56 1577.151
+  angleY 105.039
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 10095.36 2.559 1563.234
+  angleY -164.842
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 10090.637 2.532 1553.659
+  angleY 15.718
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 10059.782 2.531 1562.835
+  angleY 5.123
+ }
+}

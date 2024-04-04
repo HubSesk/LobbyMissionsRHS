@@ -1,0 +1,19 @@
+GenericEntity : "{8C3B6ECD9D061E98}Prefabs/Weapons/Rifles/AK74M/Rifle_AK105_npz_b30u_b31n.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{60973E8B35781C43}" {
+     AttachmentSlot InventoryStorageSlot RIS_Slot {
+      Prefab "{3A4E2F9091E70EC7}Prefabs/Weapons/Attachments/Optics/infratech1tws/Optic_Infratech1tws.et"
+     }
+    }
+    AttachmentSlotComponent "{60D0F0FD79AEB5D2}" {
+     AttachmentSlot InventoryStorageSlot FrontRail {
+      Prefab "{CB8AB382E3F45336}Prefabs/Weapons/Attachments/Lasers/perst_classic/Laser_perst_classic_base.et"
+     }
+    }
+   }
+  }
+ }
+}
