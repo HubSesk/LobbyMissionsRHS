@@ -11,46 +11,71 @@ $grp GenericEntity : "{0FE25F81E87E8131}Prefabs/Props/Airport/RunwayLightPortabl
  }
 }
 $grp SCR_AIGroup : "{256AEA338E84EC28}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Group_RHS_RF_MSV_VKPO_S_RifleSquad.et" {
- {
+ RHS_RF_MSV_G_001_6 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{610AF5384855FD55}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 1
    }
   }
   coords 8792.22 195.872 3875.593
   angleY -14.139
  }
- {
+ RHS_RF_MSV_G_002_6 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{610AF5384BB6B0EB}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
    }
   }
   coords 8813.449 195.952 3876.92
   angleY 2.295
  }
- {
+ RHS_RF_MSV_G_010_6 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{610AF5384C325F57}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
    }
   }
   coords 8773.117 195.969 3877.534
   angleY 25.616
  }
- {
+ RHS_RF_MSV_G_011_6 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{610AF5384D41E81F}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
    }
   }
   coords 8792.158 198.258 3925.295
   angleY 143.291
  }
- {
+ RHS_RF_MSV_G_012_8 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{610AF5384FEAED2F}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
    }
   }
   coords 8780.447 197.24 3913.672
@@ -59,19 +84,29 @@ $grp SCR_AIGroup : "{256AEA338E84EC28}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Sum
    "{F1E1A7A59FE370C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Crew.et" "{F1E1A7A59FE370C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Crew.et"
   }
  }
- {
+ RHS_RF_MSV_G_020_6 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{610AF53850085F1B}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 0
    }
   }
   coords 8780.574 198.488 3942.689
   angleY 93.251
  }
- {
+ RHS_RF_MSV_G_021_7 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{610AF5385D8DB6D3}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
    }
   }
   coords 4886.528 28.594 11842.655

@@ -33,10 +33,15 @@ $grp GenericEntity : "{BAFB49BFD5975547}Prefabs/Props/Military/Arsenal/AmmoBoxes
  }
 }
 $grp SCR_AIGroup : "{BBF68148AB94A7C7}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_SniperTeam.et" {
- {
+ RHS_US_USMC_G_020_2 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{610AF5387886BF01}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 0
    }
   }
   coords 10052.512 2.56 1561.377
@@ -45,10 +50,15 @@ $grp SCR_AIGroup : "{BBF68148AB94A7C7}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_US
    "{B74E289F7EDF5D62}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Spotter.et" "{CFB9FD7F799BAEF8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Sniper_THERMAL.et"
   }
  }
- {
+ RHS_US_USMC_G_021_2 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{610AF5387976FBD3}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
    }
   }
   coords 10046.223 2.562 1562.717
@@ -59,46 +69,71 @@ $grp SCR_AIGroup : "{BBF68148AB94A7C7}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_US
  }
 }
 $grp SCR_AIGroup : "{F831DFB4A9B46152}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_RifleSquad.et" {
- {
+ RHS_US_USMC_G_001_9 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{610AF5386FC227CC}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 1
    }
   }
   coords 10061.629 3.15 1573.558
   angleY -159.14
  }
- {
+ RHS_US_USMC_G_002_9 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{610AF53872FBBCBE}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
    }
   }
   coords 10033.847 2.56 1577.151
   angleY 105.039
  }
- {
+ RHS_US_USMC_G_010_9 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{610AF5387378D82A}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
    }
   }
   coords 10095.36 2.559 1563.234
   angleY -164.842
  }
- {
+ RHS_US_USMC_G_011_9 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{610AF53875944BF7}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
    }
   }
   coords 10090.637 2.532 1553.659
   angleY 15.718
  }
- {
+ RHS_US_USMC_G_012_9 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{610AF538767F4C0C}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
    }
   }
   coords 10059.782 2.531 1562.835
