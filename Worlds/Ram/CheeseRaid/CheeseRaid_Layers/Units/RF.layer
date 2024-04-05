@@ -1,0 +1,124 @@
+$grp Vehicle : "{3B899AC9449C35F0}Prefabs/Vehicles/Wheeled/K17/APC_K17_unarmed.et" {
+ APC_K17_unarmed1 {
+  coords 2614.29 51.197 7253.18
+  angleX -1.983
+  angleY 124.358
+  angleZ -0.271
+ }
+ APC_K17_unarmed2 {
+  coords 2627.168 50.755 7244.643
+  angleX -1.976
+  angleY 125.576
+  angleZ -0.313
+ }
+ APC_K17_unarmed3 {
+  coords 2601.377 51.423 7263.103
+  angleX -0.599
+  angleY 131.952
+  angleZ 0.666
+ }
+}
+$grp SCR_AIGroup : "{CB03012D8F709807}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VSR/Group_RHS_RF_MSV_VSR_Base.et" {
+ RHS_RF_MSV_G_001_5 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{6108F92BD870E59E}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2623.134 50.83 7242.968
+  angleY 37.242
+  m_aUnitPrefabSlots {
+   "{7284A0C1AC626E1F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_SL.et" "{EABACB837362304D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Breacher.et" "{FABC8CBA1DFF203D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Breacher2.et" "{1F20C043111AB756}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Breacher3.et" "{D5640BB562716235}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Marksman.et"
+  }
+ }
+ RHS_RF_MSV_G_002_5 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{6108F92BDACB329A}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2610.223 50.83 7250.504
+  angleY 37.242
+  m_aUnitPrefabSlots {
+   "{7284A0C1AC626E1F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_SL.et" "{EABACB837362304D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Breacher.et" "{FABC8CBA1DFF203D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Breacher2.et" "{1F20C043111AB756}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Breacher3.et" "{D5640BB562716235}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Marksman.et"
+  }
+ }
+ RHS_RF_MSV_G_010_5 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{6108F92BDB65E502}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
+   }
+  }
+  coords 2617.691 50.83 7254.673
+  angleY -142.758
+  m_aUnitPrefabSlots {
+   "{7284A0C1AC626E1F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_SL.et" "{EABACB837362304D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Breacher.et" "{FABC8CBA1DFF203D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Breacher2.et" "{1F20C043111AB756}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Breacher3.et" "{D5640BB562716235}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Marksman.et"
+  }
+ }
+ RHS_RF_MSV_G_011_5 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{6108F92BDD87DD98}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2631.17 50.83 7246.45
+  angleY -142.758
+  m_aUnitPrefabSlots {
+   "{7284A0C1AC626E1F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_SL.et" "{EABACB837362304D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Breacher.et" "{FABC8CBA1DFF203D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Breacher2.et" "{1F20C043111AB756}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Breacher3.et" "{D5640BB562716235}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Marksman.et"
+  }
+ }
+ RHS_RF_MSV_G_010_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{6108F92BDB65E502}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
+   }
+  }
+  coords 2605.465 50.83 7264.615
+  angleY -142.758
+  m_aUnitPrefabSlots {
+   "{7284A0C1AC626E1F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_SL.et" "{EABACB837362304D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Breacher.et" "{FABC8CBA1DFF203D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Breacher2.et" "{1F20C043111AB756}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Breacher3.et" "{D5640BB562716235}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Marksman.et"
+  }
+ }
+ RHS_RF_MSV_G_010_3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation ""
+   }
+   PS_GroupCallsignAssigner "{6108F92BDB65E502}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
+   }
+  }
+  coords 2594.994 50.83 7260.7
+  angleY 37.242
+  m_aUnitPrefabSlots {
+   "{7284A0C1AC626E1F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_SL.et" "{EABACB837362304D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Breacher.et" "{FABC8CBA1DFF203D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Breacher2.et" "{1F20C043111AB756}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Breacher3.et" "{D5640BB562716235}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Blk/Character_RHS_RF_SOBR_Marksman.et"
+  }
+ }
+}
