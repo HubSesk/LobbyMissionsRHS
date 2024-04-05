@@ -1,0 +1,113 @@
+$grp SCR_AIGroup : "{F83A6FB6CB36AE0F}Prefabs/Groups/INDFOR/Ses_NAPA/Group_Ses_NAPA_RifleSquad.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6109261255FC46D0}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 8386.177 321.489 10539.142
+  m_aUnitPrefabSlots {
+   "{68981CDFD1E05EC5}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_SL.et" "{0510EDC0E364FCD6}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AR.et" "{CD129913E6D6649A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_LAT.et" "{6436F37C14C908C8}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman3.et"
+  }
+  m_sCustomNameSet "Снабжение"
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{610926125AE83F3E}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 7302.301 378.515 9094.772
+  angleY -88.342
+  m_aUnitPrefabSlots {
+   "{D6151C32A8CF721B}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_SL_Poor.et" "{1545B3B53A67328A}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_GL_Poor.et" "{F425CEF440A6D3E1}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_MG_Poor.et" "{25DDDE6E20BE0A4F}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_LAT_Poor.et" "{C5B9F1EFFF589C3F}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_Rifleman2_Poor.et" "{C04C3228140A6689}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_Rifleman3_Poor.et" "{244BC0A4E44B55BE}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_Rifleman_Poor.et" "{E57F9A0D78CCC124}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_Sharpshooter_Poor.et" "{19C264F6418C65E5}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_Medic_Poor.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{610926125AE83F3E}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 7283.709 376.915 9094.766
+  angleY 2.059
+  m_aUnitPrefabSlots {
+   "{D6151C32A8CF721B}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_SL_Poor.et" "{1545B3B53A67328A}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_GL_Poor.et" "{F425CEF440A6D3E1}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_MG_Poor.et" "{25DDDE6E20BE0A4F}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_LAT_Poor.et" "{C5B9F1EFFF589C3F}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_Rifleman2_Poor.et" "{C04C3228140A6689}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_Rifleman3_Poor.et" "{D985797F84B6838B}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_Rifleman4_Poor.et" "{E57F9A0D78CCC124}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_Sharpshooter_Poor.et" "{19C264F6418C65E5}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_Medic_Poor.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{610926125AE83F3E}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 7280.095 376.571 9113.511
+  angleY -43.117
+  m_aUnitPrefabSlots {
+   "{D6151C32A8CF721B}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_SL_Poor.et" "{1545B3B53A67328A}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_GL_Poor.et" "{F425CEF440A6D3E1}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_MG_Poor.et" "{25DDDE6E20BE0A4F}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_LAT_Poor.et" "{C5B9F1EFFF589C3F}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_Rifleman2_Poor.et" "{C04C3228140A6689}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_Rifleman3_Poor.et" "{D985797F84B6838B}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_Rifleman4_Poor.et" "{E57F9A0D78CCC124}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_Sharpshooter_Poor.et" "{19C264F6418C65E5}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_Medic_Poor.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{610926125AE83F3E}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 7282.444 376.901 9077.356
+  angleY -114.555
+  m_aUnitPrefabSlots {
+   "{D6151C32A8CF721B}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_SL_Poor.et" "{C5B9F1EFFF589C3F}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_Rifleman2_Poor.et" "{C04C3228140A6689}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_Rifleman3_Poor.et" "{244BC0A4E44B55BE}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_Rifleman_Poor.et" "{D985797F84B6838B}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_Rifleman4_Poor.et" "{25DDDE6E20BE0A4F}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_LAT_Poor.et" "{19C264F6418C65E5}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_Medic_Poor.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{610926125AE83F3E}" {
+   }
+  }
+  coords 7288.834 377.365 9103.393
+  angleY -166.264
+  m_aUnitPrefabSlots {
+   "{48A53651DB946C85}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Insurgent.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6109261255FC46D0}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 5339.563 332.554 9880.55
+  m_aUnitPrefabSlots {
+   "{68981CDFD1E05EC5}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_SL.et" "{0510EDC0E364FCD6}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AR.et" "{CD129913E6D6649A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_LAT.et" "{6436F37C14C908C8}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman3.et"
+  }
+  m_sCustomNameSet "Разведка"
+ }
+}

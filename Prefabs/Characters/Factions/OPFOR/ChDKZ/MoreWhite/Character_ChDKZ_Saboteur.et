@@ -39,9 +39,10 @@ SCR_ChimeraCharacter : "{3333379EC5576A15}Prefabs/Characters/Factions/OPFOR/ChDK
      Prefab "{244A6A1121439AAC}Prefabs/Characters/HeadGear/Helmet_LShZ/Balaclava_LShZ_base.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{D7402E3D0399FF54}Prefabs/Characters/Uniforms/Jacket_M88_VSR.et"
+     Prefab "{A7101B0A8F80B41F}Prefabs/Characters/Uniforms/ChDKZ/Jacket_M88_ChDKZ.et"
     }
     LoadoutSlotInfo Pants {
+     Prefab "{DCF980831E880F6B}Prefabs/Characters/Uniforms/ChDKZ/Pants_M88_ChDKZ.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{3DE0155EC9767B98}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok.et"
@@ -54,6 +55,7 @@ SCR_ChimeraCharacter : "{3333379EC5576A15}Prefabs/Characters/Factions/OPFOR/ChDK
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{604D1A7A68ADA3DB}" {
+     TargetStorage "Prefabs/Characters/Uniforms/ChDKZ/Pants_M88_ChDKZ.et"
     }
     ItemsInitConfigurationItem "{604D1A7C305A8294}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_Type56/Vest_Type56.et"

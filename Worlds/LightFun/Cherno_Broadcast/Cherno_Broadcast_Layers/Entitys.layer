@@ -1,0 +1,52 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+}
+DestructionManager : "{E5B570B5F32A7BAE}Prefabs/Systems/Destruction/DestructionManager.et" {
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_InitWeatherComponent "{610926196A1BBA9F}" {
+   m_sInitialStartingWeatherId "Cloudy"
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 14
+   m_iStartingMinutes 30
+  }
+ }
+}
+HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
+}
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 8376.516 320.904 10545.053
+ m_fZoneRadius 65
+ m_fZoneTeleportedRadius 75
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  m_sTitle "Защитить документы"
+  m_sFactionKey "Ses_NAPA"
+ }
+ {
+  m_sTitle "Захватить документы"
+  m_sFactionKey "Ses_CDF"
+ }
+}
+GenericEntity : "{ACA883344E568FDB}Prefabs/Props/Military/Radios/RadioStation.et" {
+ coords 5330.791 367.417 9916.201
+ angleY 90
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 7280.945 377.447 9109.683
+ }
+ {
+  coords 5325.246 332.315 9907.232
+ }
+ {
+  coords 3855.69 329.11 10866.471
+  m_fWarnRadius 100
+  m_fZoneRadius 130
+  m_fZoneTeleportedRadius 145
+ }
+}

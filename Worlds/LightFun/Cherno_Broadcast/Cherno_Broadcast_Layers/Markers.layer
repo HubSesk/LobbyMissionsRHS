@@ -1,0 +1,507 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ Ses_CDF_G_200_M {
+  coords 3879.665 328.892 10927.122
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "armored-blufor"
+  m_fWorldSize 35
+  m_sDescription "Хаос Ред 1"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 1
+  m_bShowForAnyFaction 1
+ }
+ Ses_CDF_G_210_M {
+  coords 3864.191 328.684 10870.954
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "armored-blufor"
+  m_fWorldSize 35
+  m_sDescription "Хаос Уайт 1"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 1
+  m_bShowForAnyFaction 1
+ }
+ Ses_CDF_G_220_M {
+  coords 3868.273 328.978 10799.3
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "infantry-blufor"
+  m_fWorldSize 35
+  m_sDescription "Хаос Блю 1"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 1
+  m_bShowForAnyFaction 1
+ }
+ Ses_CDF_G_100_M {
+  coords 3888.567 330.095 10823.189
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "armored-blufor"
+  m_fWorldSize 35
+  m_sDescription "Блэйзер Ред 1"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 1
+  m_bShowForAnyFaction 1
+ }
+ Ses_CDF_G_110_M {
+  coords 3825.67 327.414 10871.547
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "infantry-blufor"
+  m_fWorldSize 35
+  m_sDescription "Блэйзер Уайт 1"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 1
+  m_bShowForAnyFaction 1
+ }
+ Ses_CDF_G_000_M {
+  coords 3806.875 325.995 10898.839
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "signal-blufor"
+  m_fWorldSize 35
+  m_sDescription "Атлас Ред 1"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 1
+  m_bShowForAnyFaction 1
+ }
+ Ses_NAPA_G_100_M {
+  coords 8386.177 321.489 10539.142
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "maintenance-indfor"
+  m_fWorldSize 35
+  m_sDescription "(Снабжение) Бжиза-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 1
+ }
+ Ses_NAPA_G_212_M {
+  coords 7302.301 378.515 9094.772
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-indfor"
+  m_fWorldSize 35
+  m_sDescription "Сэдр-23"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 1
+ }
+ Ses_NAPA_G_211_M {
+  coords 7283.709 376.915 9094.766
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-indfor"
+  m_fWorldSize 35
+  m_sDescription "Сэдр-22"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 1
+ }
+ Ses_NAPA_G_210_M {
+  coords 7280.095 376.571 9113.511
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-indfor"
+  m_fWorldSize 35
+  m_sDescription "Сэдр-21"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 1
+ }
+ Ses_NAPA_G_200_M {
+  coords 7282.444 376.901 9077.356
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-indfor"
+  m_fWorldSize 35
+  m_sDescription "Сэдр-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 1
+ }
+ Ses_NAPA_G_000_M {
+  coords 7302.354 377.365 9119.848
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "signal-indfor"
+  m_fWorldSize 35
+  m_sDescription "Рацек-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 1
+ }
+ Ses_NAPA_G_110_M {
+  coords 5339.563 332.554 9880.55
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "motorized-indfor"
+  m_fWorldSize 35
+  m_sDescription "(Разведка) Бжиза-21"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 3873.23 329.276 10800.864
+  angleX 0.258
+  angleY 264.494
+  angleZ 2.671
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "APC"
+  m_fWorldSize 6
+  m_sDescription "#AR-Vehicle_BTR70_Name"
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 3865.029 328.365 10875.562
+  angleX 1.391
+  angleY 211.191
+  angleZ -2.296
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "APC"
+  m_fWorldSize 6
+  m_sDescription "#AR-Vehicle_BTR70_Name"
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 3886.969 328.627 10925.232
+  angleX 0.142
+  angleY 181.138
+  angleZ -7.124
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "APC"
+  m_fWorldSize 6
+  m_sDescription "#AR-Vehicle_BTR70_Name"
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 5335.051 332.473 9887.75
+  angleX -0.014
+  angleY 179.118
+  angleZ -0.895
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Car"
+  m_fWorldSize 5
+  m_sDescription "#AR-Vehicle_UAZ469_Variant2_Name"
+  m_bUseWorldScale 1
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 3809.832 326.074 10893.403
+  angleX -0.692
+  angleY 266.771
+  angleZ 3.621
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "Car"
+  m_fWorldSize 5
+  m_sDescription "#AR-Vehicle_UAZ469_Name"
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 3811.627 326.201 10901.889
+  angleX -0.567
+  angleY -77.82
+  angleZ 2.623
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "Car"
+  m_fWorldSize 5
+  m_sDescription "#AR-Vehicle_UAZ469_Name"
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 3883.475 329.498 10833.571
+  angleX -0.784
+  angleY -6.765
+  angleZ 0.994
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "Truck"
+  m_fWorldSize 6
+  m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 3821.057 326.969 10868.563
+  angleX 3.22
+  angleY 216.739
+  angleZ 0.171
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "Truck"
+  m_fWorldSize 6
+  m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 8377.333 320.777 10546.964
+  angleX 2.644
+  angleY -50.727
+  angleZ 1.006
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Truck"
+  m_fWorldSize 6
+  m_sDescription "#AR-Vehicle_Ural4320_Transport_Covered_Variant2_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 8392.777 320.85 10548.547
+  angleX 3.984
+  angleY 185.453
+  angleZ -4.099
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Truck"
+  m_fWorldSize 6
+  m_sDescription "#AR-Vehicle_Ural4320_Transport_Covered_Variant3_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ Doc {
+  coords 7288.083 378.204 9105.738
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 35
+  m_sDescription "Документы"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 2
+ }
+ Radio {
+  coords 5331.143 366.426 9916.255
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "US_Relay"
+  m_fWorldSize 35
+  m_sDescription "Радиопередатчик"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 2
+  m_bShowForAnyFaction 1
+ }
+ Equip {
+  coords 8540.741 331.435 10539.551
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "SupplyDepot"
+  m_fWorldSize 35
+  m_sDescription "Снаряжение"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 2
+ }
+ Ukerp {
+  coords 7425.97 428.026 9111.047
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "point-of-interest"
+  m_fWorldSize 35
+  m_sDescription "Старая башня (4 НСВ)"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 2
+ }
+ Ukerp2 {
+  coords 7109.839 375.692 8970.531
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "point-of-interest"
+  m_fWorldSize 35
+  m_sDescription "НСВ"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 2
+ }
+ Ukerp3 {
+  coords 7147.747 365.538 9187.965
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "point-of-interest"
+  m_fWorldSize 35
+  m_sDescription "ПКМ"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 2
+ }
+ RadioPic {
+  coords 3534.261 357.494 10542.26
+  angleY 110
+  m_sImageSet "{C55C62B988A5121B}UI/radio.edds"
+  m_sImageSetGlow ""
+  m_sQuadName ""
+  m_fWorldSize 450
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 3
+  m_bShowForAnyFaction 1
+ }
+ DocPic {
+  coords 3742.985 349.646 10081.183
+  angleY 80
+  m_sImageSet "{8FC1CBD68DC626F6}UI/docs.edds"
+  m_sImageSetGlow ""
+  m_sQuadName ""
+  m_fWorldSize 450
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 3
+  m_bShowForAnyFaction 1
+ }
+}
