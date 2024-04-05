@@ -1,0 +1,108 @@
+$grp GenericEntity : "{0FE25F81E87E8131}Prefabs/Props/Airport/RunwayLightPortable_01/RunwayLightPortable_01_red.et" {
+ {
+  coords 8775.073 197.6 3898.212
+  angleY 81.986
+ }
+ {
+  coords 8785.146 197.364 3887.392
+ }
+ {
+  coords 4884.761 28.594 11845.235
+ }
+}
+$grp SCR_AIGroup : "{256AEA338E84EC28}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Group_RHS_RF_MSV_VKPO_S_RifleSquad.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 8792.22 195.872 3875.593
+  angleY -14.139
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 8813.449 195.952 3876.92
+  angleY 2.295
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 8773.117 195.969 3877.534
+  angleY 25.616
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 8792.158 198.258 3925.295
+  angleY 143.291
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 8780.447 197.24 3913.672
+  angleY -86.146
+  m_aUnitPrefabSlots + {
+   "{F1E1A7A59FE370C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Crew.et" "{F1E1A7A59FE370C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Crew.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 8780.574 198.488 3942.689
+  angleY 93.251
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 4886.528 28.594 11842.655
+  angleY 2.295
+  m_aUnitPrefabSlots {
+   "{7E2F869707C3C057}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_SL_thermal.et" "{135F5E0601BBC4E9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_Rifleman.et" "{58BA009D212B8E8E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_AT.et" "{41E4A355893B09FE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_Marksman.et" "{D205B74636ED8431}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_MG.et" "{49074A7C5718B0C3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_Rifleman2.et" "{22ED316FC87B1CCF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Character_AFRF_HeliCrew_P.et"
+  }
+ }
+}
+GameEntity : "{2A1F25C19148E083}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_no_cover.et" {
+ coords 4884.729 28.905 11844.698
+}
+$grp StaticModelEntity : "{7B2D1744E9F2A3B3}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Ashtray_US_01.et" {
+ {
+  coords 8775.3 196.7 3898.729
+  angleY 104.757
+ }
+ {
+  coords 8784.665 196.464 3887.688
+  angleY 22.771
+ }
+}
+$grp GenericEntity : "{D94F720E64D628EB}Prefabs/Props/Military/Arsenal/AmmoBoxes/NVGbox_USSR.et" {
+ {
+  coords 8784.381 197.364 3887.579
+ }
+ {
+  coords 8775.327 197.599 3898.678
+  angleY 37.969
+ }
+ {
+  coords 4884.779 28.594 11844.672
+ }
+}

@@ -1,0 +1,90 @@
+GenericEntity : "{42894F191BC9EDE1}Prefabs/Props/Core/AmmoBox_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{9E1DFF036BCE913E}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Ammunition_01.xob"
+   Materials {
+    MaterialAssignClass "{61093095AE387509}" {
+     SourceMaterial "EquipmentBoxWooden_Ammunition_01"
+     AssignedMaterial "{3309CD539419AC39}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Ammunition_01_US.emat"
+    }
+    MaterialAssignClass "{61093095AE387502}" {
+     SourceMaterial "EquipmentBoxWooden_decal_US"
+     AssignedMaterial "{012E52E127F407FD}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_decal_US.emat"
+    }
+   }
+   ObjectHeightmapBias 0
+   ObjectHeightmapTraceBias 0
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
+    CustomAttributes {
+     PreviewRenderAttributes "{61093095AE387519}" {
+     }
+     PreviewRenderAttributes "{61093095AE38751F}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1.5
+      FOV 30
+      AspectRatio 1
+     }
+    }
+    m_bDraggable 0
+   }
+   Priority 1000
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 10000
+   MultiSlots {
+    MultiSlotConfiguration "{61093095AE387513}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{59E0D9B5B6967152}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP.et"
+     }
+     NumSlots 3
+    }
+    MultiSlotConfiguration "{610930946EAC9209}" {
+     SlotTemplate InventoryStorageSlot nvg2 {
+      Prefab "{68C135B5F4F7C759}Prefabs/Items/Equipment/Nightvision/PVS31/PVS31_BLK_MC.et"
+     }
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{6109309479AA502A}" {
+     SlotTemplate InventoryStorageSlot nvg3 {
+      Prefab "{64322D5D501B7D79}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_Base.et"
+     }
+     NumSlots 12
+    }
+    MultiSlotConfiguration "{610930942C6FC048}" {
+     SlotTemplate InventoryStorageSlot nvg3 {
+      Prefab "{9A9555D10664B8CB}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_WP.et"
+     }
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{610930943BA82E25}" {
+     SlotTemplate InventoryStorageSlot ms2k {
+      Prefab "{643AB339663E92F7}Prefabs/Items/Equipment/Nightvision/MS2000/Marker_MS2000.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{61093094C6B903C1}" {
+     SlotTemplate InventoryStorageSlot switch {
+      Prefab "{207687AEF9630E41}Prefabs/Items/Equipment/Nightvision/switch/Switch.et"
+     }
+     NumSlots 7
+    }
+   }
+   m_fMaxWeight 10000
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   ActionContexts {
+    UserActionContext "{5476B36C47B0461A}" {
+     Position PointInfo "{5476B36C45ADDA89}" {
+      Offset -0.0003 0.2264 0.1798
+     }
+    }
+   }
+  }
+ }
+}
