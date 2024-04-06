@@ -1,0 +1,14 @@
+GameEntity : "{E8F48DA5F61F0550}Prefabs/Characters/Uniforms/Suit_Pilot_US_01/Suit_Pilot_US_01_base.et" {
+ ID "5104869D194C6243"
+ components {
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornMaterialsOverride {
+    "{CA2A6BE924BE4BC2}Assets/Characters/Uniforms/Suit_Pilot_US_01/Data/Suit_Pilot_US_01.emat"
+   }
+   BlockedSlots {
+    LoadoutPantsArea "{610B53CBB07DB28E}" {
+    }
+   }
+  }
+ }
+}

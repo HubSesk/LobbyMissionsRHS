@@ -236,6 +236,9 @@ $grp Turret : "{3EA26CFD7A202636}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV_SPP.
   angleY 76.647
  }
 }
+GenericEntity : "{41CA4A143FE5433E}PrefabsEditable/Auto/Structures/Military/Flags/FlagPole_02_V1_NAPA_Editable.et" {
+ coords 7291.797 378.708 9099.74
+}
 $grp GenericEntity : "{453433739A2A5851}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/FIA/EquipmentBoxStack_FIA_01_V3_covered.et" {
  {
   coords 7305.403 378.432 9078.1
@@ -309,7 +312,6 @@ $grp StaticModelEntity : "{48A04E0A139BB167}Prefabs/Structures/Military/Camps/Te
  }
  {
   coords 7315.592 379.13 9125.764
-  angleY 0
   angleZ -3.576
  }
  {
@@ -599,7 +601,6 @@ $grp GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSma
  }
  {
   coords 7279.216 376.545 9135.341
-  angleY 0
   angleZ -3.576
  }
  {
