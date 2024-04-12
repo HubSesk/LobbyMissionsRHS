@@ -1,0 +1,107 @@
+ParticleEffectEntity {
+ coords 6011.599 8.946 7514.985
+ EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+}
+GenericEntity : "{0DBE058F13F0C7E8}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_US.et" {
+ coords 4277.606 13.06 9158.726
+}
+GenericEntity : "{0EDC6FC17B3368D2}Prefabs/Vehicles/Helicopters/UH1H/Dst/Dbr/Dbr_UH1H_Blade_04.et" {
+ coords 6003.412 7.969 7510.22
+ angleY 26.971
+}
+SCR_AIGroup DeadPilots : "{19843E954790DF28}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_FireTeam.et" {
+ coords 6011.017 31.104 7521.896
+ angleY -9.423
+ m_aUnitPrefabSlots {
+  "{538B8DC349E775CD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliCrew_UnP.et" "{538B8DC349E775CD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliCrew_UnP.et"
+ }
+ m_bSnapToTerrain 0
+}
+Vehicle M923A1_command1 : "{36BDCC88B17B3BFB}Prefabs/M923A1_command.et" {
+ coords 4288.688 8.585 9156.383
+ angleX 1.789
+ angleY -0.028
+ angleZ -0.896
+}
+Vehicle HeliCrash1 : "{49842C04DB51263D}Prefabs/HeliCrash.et" {
+ coords 6011.975 7.039 7518.926
+ angleX -2.673
+ angleY 20.247
+ angleZ 5.854
+}
+DecalEntity : "{4E2502622DA0DB28}Prefabs/Decals/Miscellaneous/Decal_Damage_Burnt_01.et" {
+ coords 6012.377 7.746 7520.728
+ angleX -90
+ angleY -180
+ angleZ -180
+ scale 10
+}
+DecalEntity : "{80B1153302345834}Prefabs/Decals/Miscellaneous/Decal_Damage_Burnt_03.et" {
+ coords 6011.517 7.692 7517.402
+ angleX -90
+ angleY -180
+ angleZ -180
+ scale 5
+}
+GenericEntity : "{BA2032E0BE7EF9A0}Prefabs/Vehicles/Helicopters/UH1H/Dst/Dbr/Dbr_UH1H_Blade_01.et" {
+ coords 6015.704 7.539 7520.25
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 6497.749 84.101 5776.528
+  angleY 80
+  m_sImageSet "{F8E0D16BC93CB6D7}UI/UH1.edds"
+  m_sImageSetGlow ""
+  m_sQuadName ""
+  m_fWorldSize 500
+  m_bUseWorldScale 1
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 5958.514 39.625 5627.83
+  angleY 110
+  m_sImageSet "{1FB023D1E7803333}UI/RShM_US.edds"
+  m_sImageSetGlow ""
+  m_sQuadName ""
+  m_fWorldSize 500
+  m_bUseWorldScale 1
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+}
+DecalEntity : "{D1D104EBCB9C5E2D}Prefabs/Decals/Miscellaneous/Decal_Damage_Burnt_02.et" {
+ coords 6014.622 7.595 7520.157
+ angleX -90
+ angleY -180
+ angleZ -180
+ scale 10
+}
+GenericEntity : "{D674060002BA768E}Prefabs/Vehicles/Helicopters/UH1H/Dst/Dbr/Dbr_UH1H_Blade_02.et" {
+ coords 6009.142 7.918 7520.842
+ angleX -13.809
+ angleY -42.222
+ angleZ 8.826
+}
+GenericEntity : "{E10AA6EC8BE400F3}Prefabs/RazvedInfo.et" {
+ components {
+  ActionsManagerComponent "{6114DC21909DCF9D}" {
+   additionalActions {
+    PS_SpawnPrefabAction "{6114DC21909DCF60}" {
+     m_sPrefab "{FD51FDFD06F9FA9A}PrefabsEditable/Markers/RazvedInfo.et"
+     m_vPosition 4288.786 8.598 9156.73
+    }
+   }
+  }
+ }
+ coords 6012.953 8.198 7519.296
+ angleX -8.123
+ angleY 90
+ angleZ 1.278
+}

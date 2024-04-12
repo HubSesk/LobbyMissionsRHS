@@ -1,0 +1,261 @@
+GenericEntity : "{0B0C600941B2A6A8}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_plastic.et" {
+ coords 4293.841 8.843 9121.462
+ angleY 52.722
+}
+$grp StaticModelEntity : "{23C109BC7122FA1D}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/Sandbag_01_bunker_plastic_camonet_CompositionDestruction.et" {
+ {
+  coords 4292.978 9.086 9122.477
+  angleY 138.753
+ }
+ {
+  coords 4269.595 7.563 9119.442
+  angleY -170.729
+ }
+}
+$grp GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_plastic.et" {
+ {
+  coords 4266.015 6.261 9121.267
+  angleX 0.569
+  angleY 9.14
+  angleZ -3.531
+ }
+ {
+  coords 4303.021 9.073 9153.606
+  angleX -1.861
+  angleY -59.562
+  angleZ -2.13
+ }
+ {
+  coords 4300.295 8.834 9144.504
+  angleX -1.861
+  angleY -59.562
+  angleZ -2.13
+ }
+}
+$grp GenericEntity : "{35F2A674E602198F}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_plastic.et" {
+ {
+  coords 4291.135 8.269 9139.797
+  angleX -2.283
+  angleY -144.65
+  angleZ 1.671
+ }
+ {
+  coords 4258.792 5.903 9124.64
+  angleX -2.689
+  angleY -147.23
+  angleZ 2.522
+ }
+ {
+  coords 4288.406 8.688 9169.703
+  angleY 121.452
+ }
+ {
+  coords 4296.528 8.656 9144.382
+  angleX -2.174
+  angleY -148.227
+  angleZ 1.81
+ }
+ {
+  coords 4302.292 9.045 9155.398
+  angleX -1.419
+  angleY -148.108
+  angleZ 2.278
+ }
+ {
+  coords 4282.205 8.005 9140.846
+  angleX -1.755
+  angleY -146.759
+  angleZ -2.219
+ }
+ {
+  coords 4279.022 8.296 9143.016
+  angleX 0.424
+  angleY 31.431
+  angleZ 4.447
+ }
+}
+Turret : "{73530808E4B455BA}Prefabs/Weapons/Tripods/Tripod_M3_M2HB.et" {
+ coords 4293.852 10.045 9121.544
+ angleY 140.579
+}
+$grp GenericEntity : "{A7930B258A9B4CA8}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_plastic.et" {
+ {
+  coords 4276.311 7.062 9120.521
+  angleX -3.783
+  angleY -8.056
+  angleZ -7.541
+ }
+ {
+  coords 4295.783 8.391 9132.133
+  angleX -2.364
+  angleY -53.884
+  angleZ -2.829
+ }
+ {
+  coords 4304.433 9.185 9159.909
+  angleX -1.69
+  angleY -55.099
+  angleZ -2.269
+ }
+ {
+  coords 4298.797 9.03 9167.542
+  angleX 2.175
+  angleY 31.8
+  angleZ -1.809
+ }
+}
+GenericEntity : "{B6307C189CCCA0B9}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_plastic.et" {
+ coords 4283.854 7.607 9120.789
+ angleX 0.823
+ angleY -179.234
+ angleZ 5.367
+}
+$grp GenericEntity : "{F29A05EBA7063E7C}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_plastic.et" {
+ {
+  coords 4273.573 6.841 9120.442
+  angleZ -4.467
+ }
+ {
+  coords 4278.774 7.289 9120.961
+  angleX -8.412
+  angleY -18.039
+  angleZ -2.856
+ }
+ {
+  coords 4281.338 7.442 9121.445
+  angleX -5.293
+  angleY 0.581
+  angleZ -6.269
+ }
+ {
+  coords 4286.343 7.75 9121.543
+ }
+ {
+  coords 4288.951 7.719 9121.716
+  angleY -10.726
+ }
+ {
+  coords 4294.322 8.304 9130.187
+  angleX -2.414
+  angleY -54.899
+  angleZ -2.787
+ }
+ {
+  coords 4296.674 8.49 9134.659
+  angleX -3.604
+  angleY -91.907
+  angleZ -0.774
+ }
+ {
+  coords 4295.332 8.443 9137.039
+  angleX 2.628
+  angleY 31.389
+  angleZ -2.586
+ }
+ {
+  coords 4293.073 8.339 9138.505
+  angleX 2.295
+  angleY 35.768
+  angleZ -1.654
+ }
+ {
+  coords 4263.188 6.064 9122.117
+  angleX 2.426
+  angleY 27.084
+  angleZ -2.776
+ }
+ {
+  coords 4260.83 6.011 9123.42
+  angleX 2.569
+  angleY 30.103
+  angleZ -2.645
+ }
+ {
+  coords 4302.662 9.108 9158.927
+  angleX 2.297
+  angleY 35.832
+  angleZ -1.652
+ }
+ {
+  coords 4304.81 9.226 9161.854
+  angleX 1.573
+  angleY 35.86
+  angleZ -2.175
+ }
+ {
+  coords 4301.049 9.113 9166.079
+  angleX 2.209
+  angleY 32.894
+  angleZ -1.767
+ }
+ {
+  coords 4296.526 8.931 9168.956
+  angleX 1.459
+  angleY 32.923
+  angleZ -2.253
+ }
+ {
+  coords 4294.188 8.799 9170.332
+  angleX 2.421
+  angleY 26.975
+  angleZ -2.781
+ }
+ {
+  coords 4291.7 8.714 9171.563
+  angleX 0.407
+  angleY 27.003
+  angleZ -0.798
+ }
+ {
+  coords 4289.553 8.688 9171.79
+  angleY 122.294
+ }
+ {
+  coords 4274.793 8.591 9145.704
+  angleX 0.551
+  angleY 32.44
+  angleZ 2.47
+ }
+ {
+  coords 4277.017 8.459 9144.226
+  angleX 0.072
+  angleY 32.413
+  angleZ 3.224
+ }
+ {
+  coords 4284.103 7.918 9139.62
+  angleX 1.784
+  angleY 32.479
+  angleZ 2.195
+ }
+ {
+  coords 4301.487 8.963 9151.182
+  angleX 1.726
+  angleY 123.985
+  angleZ 2.241
+ }
+ {
+  coords 4305.917 9.364 9167.512
+  angleX 2.295
+  angleY 35.771
+  angleZ -1.654
+ }
+ {
+  coords 4308.089 9.441 9165.946
+  angleX 2.295
+  angleY 35.771
+  angleZ -1.654
+ }
+ {
+  coords 4301.865 8.931 9147.023
+  angleX -2.23
+  angleY -56.186
+  angleZ -1.493
+ }
+ {
+  coords 4298.502 8.729 9143.171
+  angleX 2.118
+  angleY 30.024
+  angleZ -1.875
+ }
+}

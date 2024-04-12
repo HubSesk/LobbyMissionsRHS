@@ -1,0 +1,56 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SignalsManagerComponent "{6114DC21909DCF95}" {
+  }
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{789311902B5FF0FF}Assets/Props/Civilian/Notebook_01/Notebook_01_Single.xob"
+   Materials {
+    MaterialAssignClass "{6114DC212BCD6ED0}" {
+     SourceMaterial "Notebook_01"
+     AssignedMaterial "{6DBA359EA58C72E1}Assets/Props/Civilian/Notebook_01/Data/Notebook_01_Orange.emat"
+    }
+    MaterialAssignClass "{6114DC212BCD6EAF}" {
+     SourceMaterial "Palette"
+     AssignedMaterial "{C9BC6C21112291DE}Assets/Props/Civilian/Notebook_01/Data/Notebook_01_Orange_MLOD.emat"
+    }
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "SmallDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  ActionsManagerComponent "{6114DC21909DCF9D}" {
+   ActionContexts {
+    UserActionContext "{6114DC21909DCF9E}" {
+     ContextName "Radio"
+     Position PointInfo "{6114DC21909DCF9A}" {
+      Offset 0 0 0
+     }
+    }
+   }
+   additionalActions {
+    PS_SpawnPrefabAction "{6114DC21909DCF60}" {
+     ParentContextList {
+      "Radio"
+     }
+     UIInfo UIInfo "{6114DC21909DCF6D}" {
+      Name "Разведданные"
+      Description "Супер-пупер секретики"
+     }
+     Duration 10
+     "Sort Priority" 1
+     m_sName "Изучить разведданные"
+     m_sPrefab "{7370FB693F8D5D24}PrefabsEditable/Markers/NapaMark.et"
+     m_vPosition 7288.484 378.252 9105.587
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+   "Rpl State Override" Runtime
+  }
+ }
+ coords 0 0 0
+}

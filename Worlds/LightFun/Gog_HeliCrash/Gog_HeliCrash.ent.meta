@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{7218E3F69494D2E5}Worlds/LightFun/Gog_HeliCrash/HeliCrash.ent"
+ Name "{B7E2B24860C683C3}Worlds/LightFun/Gog_HeliCrash/Gog_HeliCrash.ent"
  Configurations {
   ENTResourceClass PC {
   }
@@ -8,6 +8,8 @@ MetaFileClass {
   ENTResourceClass XBOX_SERIES : PC {
   }
   ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
   }
   ENTResourceClass HEADLESS : PC {
   }
