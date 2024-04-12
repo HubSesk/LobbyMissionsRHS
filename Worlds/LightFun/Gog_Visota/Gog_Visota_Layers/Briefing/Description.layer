@@ -10,47 +10,45 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "4. Запрещено использование сторонних програм для изменения графики игры (будь то reshade, или утилиты от Нвидии/Амд для влияния на графику игры.)"\
   ""\
   "5. Запрещено занятие ролей командиров отрядов/стороны до 18 лет."
-  m_aVisibleForFactions {
-   "RHS_RF_MSV" "RHS_US_USMC"
-  }
   m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
  }
  {
   m_sTitle "Легенда"
-  m_sTextData "USMC заняло поселение. Бойцам ВС РФ предстоит захватить два ключевых здания, чтобы взять под свой контроль территорию."
-  m_aVisibleForFactions {
-   "RHS_RF_MSV" "RHS_US_USMC"
-  }
+  m_sTextData "КМП США заняли ключевую точку на высоте, где обустроились на заброшенной стройке. ВС РФ собирается штурмовать поцизии противника, чтобы завладеть высотой и зданием."
   m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
  }
  {
-  m_sTitle "Задача USMC"
-  m_sTextData "- Не дать противнику завладеть ключевыми зданиями за 35 минут"
-  m_aVisibleForFactions {
-   "RHS_US_USMC"
-  }
- }
- {
-  m_sTitle "Сведения USMC"
-  m_sTextData "- У противника есть К-17 \"Бумеранг\""\
+  m_sTitle "Сведения КМП США"
+  m_sTextData "По данным разведки удалось узнать:"\
   ""\
-  "- У противника есть вертолёт"
+  "- Противник владеет К-17 \"Бумеранг\""\
+  ""\
+  "- Противник нападает с нескольких направлений"
   m_aVisibleForFactions {
    "RHS_US_USMC"
   }
  }
  {
-  m_sTitle "Задача ВС РФ"
-  m_sTextData "- Захватить два ключевых здания за 35 минут"
+  m_sTitle "Задача КМП США"
+  m_sTextData "- Удержать ключевую точку за 30 минут"
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+ }
+ {
+  m_sTitle "Сведения ВС РФ"
+  m_sTextData "По данным разведки удалось узнать:"\
+  ""\
+  "- Противник владеет несколькими Humvee с M2"
   m_aVisibleForFactions {
    "RHS_RF_MSV"
   }
  }
  {
-  m_sTitle "Сведения ВС РФ"
-  m_sTextData "- Все силы противника располагаются в поселении"\
-  ""\
-  "- У противника есть 3 M1025 с M2"
+  m_sTitle "Задача ВС РФ"
+  m_sTextData "- Захватить ключевую точку за 30 минут"
   m_aVisibleForFactions {
    "RHS_RF_MSV"
   }
