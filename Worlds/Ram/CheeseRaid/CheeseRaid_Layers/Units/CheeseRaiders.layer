@@ -198,6 +198,20 @@ $grp SCR_AIGroup : "{E4023AFD012F4B90}Prefabs/Groups/PS_CRIMINALS/Group_PS_Chees
   coords 2863.211 86.125 6394.233
   angleY 170.768
  }
+ PS_CheeseRaiders_G_323_6 {
+  components {
+   PS_GroupCallsignAssigner "{6108F934B6D3E1B1}" {
+    m_iCompanyCallsign 3
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 3
+   }
+  }
+  coords 2900.633 87.186 6351.714
+  angleY -99.259
+  m_aUnitPrefabSlots {
+   "{6AACA58A0D0C7B47}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Ruffian.et" "{407286CD8563E6B6}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Tough.et" "{C5066E523D973159}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Yegg.et" "{F597A1631D944418}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Thug.et"
+  }
+ }
 }
 SCR_AIGroup PS_CheeseRaiders_G_221_4 : "{E569289C7086C378}Prefabs/Groups/PS_CRIMINALS/Group_PS_CheeseRiders_Merk.et" {
  components {

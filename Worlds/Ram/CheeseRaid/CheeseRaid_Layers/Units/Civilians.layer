@@ -1,0 +1,13 @@
+SCR_AIGroup PS_FactoryWorkers_G_000_1 : "{869F91D5B504E8E0}Prefabs/Groups/PS_CIVILIANS/Group_PS_FactoryWorkers_Base.et" {
+ components {
+  PS_GroupCallsignAssigner "{611350EEEFE41E55}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+  }
+ }
+ coords 2870.675 86.17 6389.293
+ angleY 165.94
+ m_aUnitPrefabSlots {
+  "{6D1FECE43772498A}Prefabs/Characters/Factions/PS_CIVILIANS/PS_FactoryWorkers/Character_FactioryWorker_VeganSiroed.et" "{5DFB58C71EC5FFF8}Prefabs/Characters/Factions/PS_CIVILIANS/PS_FactoryWorkers/Character_FactioryWorker_Courier.et"
+ }
+}

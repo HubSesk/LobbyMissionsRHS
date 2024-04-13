@@ -17,14 +17,14 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_iZOrder 10
  }
- PS_CheeseRaiders_G_000_M {
+ PS_CheeseRaiders_G_002_M {
   coords 2863.211 86.125 6394.233
   m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.503 0.494 0.278 1
   m_sQuadName "Undefined-indfor"
   m_fWorldSize 50
-  m_sDescription "Артель Афериста Агриппы"
+  m_sDescription "Артель Афериста Вартаняна"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "FIA" "RHS_US_USMC" "RHS_RF_MSV" "PS_CheeseRaiders"
@@ -132,7 +132,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.503 0.494 0.278 1
   m_sQuadName "Undefined-indfor"
   m_fWorldSize 50
-  m_sDescription "Ватага Воротилы Агриппы"
+  m_sDescription "Ватага Весельчака Агриппы"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "FIA" "RHS_US_USMC" "RHS_RF_MSV" "PS_CheeseRaiders"
@@ -150,7 +150,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.503 0.494 0.278 1
   m_sQuadName "Undefined-indfor"
   m_fWorldSize 50
-  m_sDescription "Ватага Воротилы Бадюка"
+  m_sDescription "Ватага Весельчака Бадюка"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "FIA" "RHS_US_USMC" "RHS_RF_MSV" "PS_CheeseRaiders"
@@ -168,7 +168,25 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.503 0.494 0.278 1
   m_sQuadName "Undefined-indfor"
   m_fWorldSize 50
-  m_sDescription "Группа Воротилы Вартаняна"
+  m_sDescription "Группа Весельчака Вартаняна"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA" "RHS_US_USMC" "RHS_RF_MSV" "PS_CheeseRaiders"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 10
+ }
+ PS_CheeseRaiders_G_323_M {
+  coords 2900.633 87.186 6351.714
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.503 0.494 0.278 1
+  m_sQuadName "Undefined-indfor"
+  m_fWorldSize 50
+  m_sDescription "Группа Весельчака Гоги"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "FIA" "RHS_US_USMC" "RHS_RF_MSV" "PS_CheeseRaiders"
@@ -429,6 +447,45 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_iZOrder 0
  }
+ {
+  coords 2593.1 51.59 7273.77
+  angleX -0.787
+  angleY 241.458
+  angleZ 0.428
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "APC"
+  m_fWorldSize 4.551
+  m_sDescription "#RHS-Vehicle_K17_unarmed_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR" "RHS_RF_MSV" "RHS_US_USMC" "PS_CheeseRaiders"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ RHS_RF_MSV_G_000_M {
+  coords 2631.17 50.83 7246.45
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "Undefined-opfor"
+  m_fWorldSize 50
+  m_sDescription "Aktiv-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA" "RHS_US_USMC" "RHS_RF_MSV" "PS_CheeseRaiders"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 10
+ }
  RHS_RF_MSV_G_001_M {
   coords 2623.134 50.83 7242.968
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
@@ -447,62 +504,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_iZOrder 10
  }
- RHS_RF_MSV_G_002_M {
+ RHS_RF_MSV_G_010_M {
   coords 2610.223 50.83 7250.504
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "Undefined-opfor"
-  m_fWorldSize 50
-  m_sDescription "Aktiv-13"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "FIA" "RHS_US_USMC" "RHS_RF_MSV" "PS_CheeseRaiders"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   1
-  }
-  m_iZOrder 10
- }
- RHS_RF_MSV_G_010_M {
-  coords 2605.465 50.83 7264.615
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "Undefined-opfor"
-  m_fWorldSize 50
-  m_sDescription "Aktiv-21"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "FIA" "RHS_US_USMC" "RHS_RF_MSV" "PS_CheeseRaiders"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   1
-  }
-  m_iZOrder 10
- }
- RHS_RF_MSV_G_010_M {
-  coords 2594.994 50.83 7260.7
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "Undefined-opfor"
-  m_fWorldSize 50
-  m_sDescription "Aktiv-21"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "FIA" "RHS_US_USMC" "RHS_RF_MSV" "PS_CheeseRaiders"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   1
-  }
-  m_iZOrder 10
- }
- RHS_RF_MSV_G_010_M {
-  coords 2617.691 50.83 7254.673
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -520,13 +523,67 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
  }
  RHS_RF_MSV_G_011_M {
-  coords 2631.17 50.83 7246.45
+  coords 2617.691 50.83 7254.673
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
   m_sQuadName "Undefined-opfor"
   m_fWorldSize 50
   m_sDescription "Aktiv-22"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA" "RHS_US_USMC" "RHS_RF_MSV" "PS_CheeseRaiders"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 10
+ }
+ RHS_RF_MSV_G_020_M {
+  coords 2596.425 50.83 7260.986
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "Undefined-opfor"
+  m_fWorldSize 50
+  m_sDescription "Aktiv-31"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA" "RHS_US_USMC" "RHS_RF_MSV" "PS_CheeseRaiders"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 10
+ }
+ RHS_RF_MSV_G_021_M {
+  coords 2605.465 50.83 7264.615
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "Undefined-opfor"
+  m_fWorldSize 50
+  m_sDescription "Aktiv-32"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA" "RHS_US_USMC" "RHS_RF_MSV" "PS_CheeseRaiders"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 10
+ }
+ RHS_RF_MSV_G_030_M {
+  coords 2586.7 50.83 7274.964
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "Undefined-opfor"
+  m_fWorldSize 50
+  m_sDescription "Aktiv-41"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "FIA" "RHS_US_USMC" "RHS_RF_MSV" "PS_CheeseRaiders"

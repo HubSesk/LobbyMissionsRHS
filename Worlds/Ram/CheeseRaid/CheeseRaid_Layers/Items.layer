@@ -1,0 +1,125 @@
+DecalEntity : "{1DC3A792132D86CB}Prefabs/Decals/Blood/BloodStain_Large_02.et" {
+ coords 2869.728 0.941 6388.992
+ angleX -90
+ angleZ 12.77
+ scale 1.5
+}
+GenericEntity : "{283D8C6005885ACB}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V_StockLess.et" {
+ coords 2877.272 86.534 6373.067
+ angleZ 90
+}
+DecalEntity : "{32D707B931FD52FE}Prefabs/Decals/Blood/BloodStain_Wall_01.et" {
+ coords 2869.545 0.942 6388.695
+ angleX -90
+ angleY -180
+ angleZ -180
+ scale 0.8
+}
+GenericEntity : "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et" {
+ coords 2870.053 87.067 6388.415
+ angleY -35.085
+}
+DecalEntity : "{3BD66CDD309673DB}Prefabs/Decals/Blood/BloodStain_Drops_01.et" {
+ coords 2870.104 0.912 6388.853
+ angleX -38.599
+ angleY -94.344
+ angleZ 88.366
+ scale 2
+}
+$grp GenericEntity : "{48720FC416263FC1}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Ball.et" {
+ {
+  coords 2877.007 86.53 6372.927
+  angleZ -90
+ }
+ {
+  coords 2877.072 86.53 6372.923
+  angleY 79.075
+  angleZ -90
+ }
+}
+$grp GenericEntity : "{4B0D5960ECE64D82}Prefabs/Weapons/Magazines/Vz52/Magazine_762x39_Vz52_10rnd.et" {
+ {
+  coords 2866.869 86.652 6387.507
+  angleX -2.052
+  angleY 93.74
+  angleZ 89.516
+ }
+ {
+  coords 2866.852 86.654 6387.414
+  angleX 1.449
+  angleY -63.171
+  angleZ 92.424
+ }
+}
+GenericEntity : "{880A80C1FD1AE546}Prefabs/Weapons/Handguns/APS/Handgun_APS.et" {
+ coords 2894.463 87.811 6357.381
+ angleX 2.308
+ angleY -137.003
+ angleZ 83.046
+}
+$grp GenericEntity : "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" {
+ {
+  coords 2886.075 87.746 6363.038
+  angleY -56.992
+ }
+ {
+  coords 2886.062 87.746 6363.02
+  angleY -52.278
+ }
+ {
+  coords 2861.173 87.26 6364.5
+  angleZ -84.206
+ }
+ {
+  coords 2861.115 87.262 6364.387
+  angleX -2.013
+  angleY -87.735
+  angleZ 83.176
+ }
+ {
+  coords 2865.347 87.287 6359.885
+  angleX 0.4
+  angleY -2.921
+  angleZ -82.212
+ }
+ {
+  coords 2865.297 87.291 6359.982
+  angleZ 98.927
+ }
+}
+GenericEntity : "{96A2309CE280198F}Prefabs/Weapons/Rifles/Vz52/Rifle_Vz52.et" {
+ coords 2867.022 86.635 6387.508
+ angleX 1.917
+ angleY -172.362
+ angleZ -95.307
+}
+GenericEntity : "{BE899726C8C87711}PrefabsEditable/Auto/Props/Civilian/E_TableSaw_01.et" {
+ coords 2869.729 86.17 6389.094
+ angleY 173.241
+}
+$grp GenericEntity : "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et" {
+ {
+  coords 2886.177 87.699 6363.043
+  angleX 7.431
+  angleY -0.027
+  angleZ 89.789
+ }
+ {
+  coords 2865.445 87.274 6359.929
+  angleX 0.846
+  angleY -173.195
+  angleZ -97.053
+ }
+}
+$grp GenericEntity : "{DFC0532A49E17C39}Prefabs/Weapons/Magazines/aps_magazine/Magazine_9x18_APS_20rnd_Ball.et" {
+ {
+  coords 2894.347 87.823 6357.486
+  angleX 2.584
+  angleY -17.521
+  angleZ -84.296
+ }
+ {
+  coords 2894.302 87.825 6357.436
+  angleZ -86.019
+ }
+}

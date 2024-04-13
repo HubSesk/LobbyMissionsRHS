@@ -1,0 +1,18 @@
+PS_ManualMarker PS_FactoryWorkers_G_000_M : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 2870.675 86.17 6389.293
+ m_sImageSet "{24A99F601D7D8E90}UI/Textures/Editor/EditableEntities/Characters/Vegan.edds"
+ m_sImageSetGlow ""
+ m_MarkerColor 0.15 0 0.361 1
+ m_sQuadName "Undefined-indfor"
+ m_fWorldSize 50
+ m_sDescription "Веган сыроед"
+ m_bUseWorldScale 0
+ m_aVisibleForFactions {
+  "FIA" "RHS_US_USMC" "RHS_RF_MSV" "PS_CheeseRaiders" "PS_FactoryWorkers"
+ }
+ m_bVisibleForEmptyFaction 1
+ m_aHideOnGameModeStates {
+  1
+ }
+ m_iZOrder 10
+}

@@ -1,0 +1,35 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 5125.742 77.747 7397.688
+  angleY 100
+  m_sImageSet "{B88E1BEB5454ED1F}images/CheeseRaid/Vegan2.edds"
+  m_sImageSetGlow ""
+  m_fWorldSize 1500
+  m_aVisibleForFactions {
+   "" "FIA" "RHS_US_USMC" "RHS_RF_MSV" "PS_CheeseRaiders" "PS_FactoryWorkers"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 4781.983 77.747 5971.144
+  angleY 85
+  m_sImageSet "{95EF65EB27D033D5}images/CheeseRaid/SOBR.edds"
+  m_sImageSetGlow ""
+  m_fWorldSize 1500
+  m_aVisibleForFactions {
+   "" "FIA" "RHS_US_USMC" "RHS_RF_MSV" "PS_CheeseRaiders" "PS_FactoryWorkers"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 4895.647 77.747 4530.433
+  angleY 95
+  m_sImageSet "{9A0EAFEB51A4605B}images/CheeseRaid/Bratki.edds"
+  m_sImageSetGlow ""
+  m_fWorldSize 1500
+  m_aVisibleForFactions {
+   "" "FIA" "RHS_US_USMC" "RHS_RF_MSV" "PS_CheeseRaiders" "PS_FactoryWorkers"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+}
