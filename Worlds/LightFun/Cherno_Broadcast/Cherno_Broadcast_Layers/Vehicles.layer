@@ -1,0 +1,177 @@
+$grp Vehicle : "{52441D784D145D52}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF.et" {
+ BTR70_Ses_CDF1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5A60D38E3C6A4E2F}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{5A60D38E3DAEB055}" {
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{5A60D38E3D91D053}" {
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{5A60D38E3DE4B1EA}" {
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
+      SlotTemplate InventoryStorageSlot PKMammunition {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{60E55E1361A6658C}" {
+      SlotTemplate InventoryStorageSlot Backpack {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{60E55E1361A665B6}" {
+      NumSlots 4
+     }
+    }
+   }
+  }
+  coords 3873.23 329.276 10800.864
+  angleX 0.258
+  angleY 174.494
+  angleZ 2.671
+ }
+ BTR70_Ses_CDF2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5A60D38E3C6A4E2F}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{5A60D38E3DAEB055}" {
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{5A60D38E3D91D053}" {
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{5A60D38E3DE4B1EA}" {
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
+      SlotTemplate InventoryStorageSlot PKMammunition {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{60E55E1361A6658C}" {
+      SlotTemplate InventoryStorageSlot Backpack {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{60E55E1361A665B6}" {
+      NumSlots 4
+     }
+    }
+   }
+  }
+  coords 3865.029 328.365 10875.562
+  angleX 1.391
+  angleY 121.191
+  angleZ -2.296
+ }
+ BTR70_Ses_CDF3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5A60D38E3C6A4E2F}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{5A60D38E3DAEB055}" {
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{5A60D38E3D91D053}" {
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{5A60D38E3DE4B1EA}" {
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
+      SlotTemplate InventoryStorageSlot PKMammunition {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{60E55E1361A6658C}" {
+      SlotTemplate InventoryStorageSlot Backpack {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{60E55E1361A665B6}" {
+      NumSlots 4
+     }
+    }
+   }
+  }
+  coords 3886.969 328.627 10925.232
+  angleX 0.142
+  angleY 91.138
+  angleZ -7.124
+ }
+}
+Vehicle Ural4320_transport_covered_CIV_orange2 : "{66241E0CEDFCEE00}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_orange.et" {
+ coords 8392.777 320.85 10548.547
+ angleX 3.984
+ angleY 95.453
+ angleZ -4.099
+}
+$grp Vehicle : "{A36B7742CB4CC488}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Ses_CDF.et" {
+ UAZ469_Ses_CDF2 {
+  coords 3811.627 326.201 10901.889
+  angleX -0.567
+  angleY -167.82
+  angleZ 2.623
+ }
+ UAZ469_Ses_CDF1 {
+  coords 3809.832 326.074 10893.403
+  angleX -0.692
+  angleY 176.771
+  angleZ 3.621
+ }
+}
+$grp Vehicle : "{B88FFB13228A022D}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_Ses_CDF_transport.et" {
+ Ural4320_Ses_CDF_transport2 {
+  coords 3821.057 326.969 10868.563
+  angleX 3.22
+  angleY 126.739
+  angleZ 0.171
+ }
+ Ural4320_Ses_CDF_transport1 {
+  coords 3883.475 329.498 10833.571
+  angleX -0.784
+  angleY -96.765
+  angleZ 0.994
+ }
+}
+Vehicle UAZ469_covered_CIV_VAK1 : "{C0234595C5AD5233}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_VAK.et" {
+ coords 5335.051 332.473 9887.75
+ angleX -0.014
+ angleY 89.118
+ angleZ -0.895
+}
+Vehicle Ural4320_transport_covered_CIV_blue1 : "{F66EAD0D2016B6BB}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_blue.et" {
+ coords 8377.333 320.777 10546.964
+ angleX 2.644
+ angleY -140.727
+ angleZ 1.006
+}

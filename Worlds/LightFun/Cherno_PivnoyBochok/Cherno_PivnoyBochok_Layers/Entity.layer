@@ -1,19 +1,19 @@
 SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
- coords 4714.342 339.094 10686.347
 }
 DestructionManager : "{E5B570B5F32A7BAE}Prefabs/Systems/Destruction/DestructionManager.et" {
- coords 7676.09 343.099 7677.369
 }
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
- coords 4713.069 339.094 10687.604
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  components {
+  SCR_InitWeatherComponent "{610CBC2C67546A49}" {
+   m_sInitialStartingWeatherId "Cloudy"
+  }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 7
+   m_iStartingHours 18
+   m_iStartingMinutes 30
   }
  }
- coords 4713.097 339.094 10686.382
  m_fAutoReloadTime 300
  m_bMarkersOnlyOnBriefing 1
  m_bRemoveRedundantUnits 1
@@ -38,12 +38,21 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  }
 }
 HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
- coords 4714.083 339.094 10688.767
 }
 SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
  coords 4718.445 339.062 10722.5
  m_fWarnRadius 45
  m_fZoneRadius 55
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  m_sTitle "Бочки с пивом вынесены"
+  m_sFactionKey "Ses_ChDKZ"
+ }
+ {
+  m_sTitle "Бочки с пивом защищены"
+  m_sFactionKey "Ses_CDF"
+ }
 }
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  {

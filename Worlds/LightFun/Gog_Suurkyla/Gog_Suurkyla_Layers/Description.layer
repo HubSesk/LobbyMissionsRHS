@@ -24,10 +24,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_bEmptyFactionVisibility 1
  }
  {
-  m_sTitle "Задачи USMC"
-  m_sTextData "1. Не дать противнику завладеть ключевыми зданиями"\
-  ""\
-  "2. Продержаться 50 минут"
+  m_sTitle "Задача USMC"
+  m_sTextData "- Не дать противнику завладеть ключевыми зданиями за 35 минут"
   m_aVisibleForFactions {
    "RHS_US_USMC"
   }
@@ -42,10 +40,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
  }
  {
-  m_sTitle "Задачи ВС РФ"
-  m_sTextData "1. Захватить два ключевых здания за 50 минут"\
-  ""\
-  "2. Уничтожить большую часть противника"
+  m_sTitle "Задача ВС РФ"
+  m_sTextData "- Захватить два ключевых здания за 35 минут"
   m_aVisibleForFactions {
    "RHS_RF_MSV"
   }

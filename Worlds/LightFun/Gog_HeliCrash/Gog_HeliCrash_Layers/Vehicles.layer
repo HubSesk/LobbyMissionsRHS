@@ -1,0 +1,181 @@
+Vehicle Ural4320_command_camo1 : "{2C95509CA3E61DE1}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command_camo1.et" {
+ coords 5728.261 49.206 6132.735
+ angleX 4.804
+ angleY -24.723
+ angleZ -0.245
+}
+$grp Vehicle : "{2CCD539A7AB35B2F}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_camo1.et" {
+ Ural4320_transport_camo1 {
+  coords 6355.06 55.406 6252.936
+  angleY 65.244
+ }
+ Ural4320_transport_camo2 {
+  coords 6326.372 55.406 6240.489
+  angleY 65.244
+ }
+ Ural4320_transport_camo3 {
+  coords 5715.487 51.355 6155.919
+  angleX 3.997
+  angleY -26.875
+  angleZ -0.022
+ }
+}
+$grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+ BTR70_AFRF1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5A60D38E3C6A4E2F}" {
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{5A60D38E3DAEB055}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{5A60D38E3D91D053}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+      SlotTemplate InventoryStorageSlot RPKammunition {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{60EB3061E5B6F273}" {
+      SlotTemplate InventoryStorageSlot Backpack {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{60EB3061E5B6F277}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{60EB3061E5B6F275}" {
+      SlotTemplate InventoryStorageSlot MineFlag {
+       Enabled 0
+      }
+     }
+    }
+   }
+  }
+  coords 5697.882 52.84 6187.635
+  angleX 1.194
+  angleY -25.667
+  angleZ 0.419
+ }
+ BTR70_AFRF2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5A60D38E3C6A4E2F}" {
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{5A60D38E3DAEB055}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{5A60D38E3D91D053}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+      SlotTemplate InventoryStorageSlot RPKammunition {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{60EB3061E5B6F273}" {
+      SlotTemplate InventoryStorageSlot Backpack {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{60EB3061E5B6F277}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{60EB3061E5B6F275}" {
+      SlotTemplate InventoryStorageSlot MineFlag {
+       Enabled 0
+      }
+     }
+    }
+   }
+  }
+  coords 6387.465 55.352 6263.031
+  angleX -0.853
+  angleY 88.66
+  angleZ 1.81
+ }
+}
+Vehicle UH1H1 : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
+ coords 1194.502 3.355 5060.64
+}
+$grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
+ M1025_armed_M2HB_MERDC1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECAE4FAF13E}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5A60CECAC8B21989}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{5A7CC68685CE799D}" {
+      SlotTemplate InventoryStorageSlot Backpack {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{5A7CC686D9F9D394}" {
+      SlotTemplate InventoryStorageSlot MineFlags {
+       Enabled 0
+      }
+     }
+    }
+   }
+  }
+  coords 4620.236 5.076 11013.049
+  angleX -1.519
+  angleY 55.549
+  angleZ -2.213
+ }
+ M1025_armed_M2HB_MERDC2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECAE4FAF13E}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5A60CECAC8B21989}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{5A7CC68685CE799D}" {
+      SlotTemplate InventoryStorageSlot Backpack {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{5A7CC686D9F9D394}" {
+      SlotTemplate InventoryStorageSlot MineFlags {
+       Enabled 0
+      }
+     }
+    }
+   }
+  }
+  coords 4634.875 4.92 11016.854
+  angleX 1.972
+  angleY 106.726
+  angleZ -0.342
+ }
+}
+Vehicle UAZ469_Camo1 : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
+ coords 5732.795 48.251 6121.922
+ angleX 4.78
+ angleY -28.208
+ angleZ -0.536
+}

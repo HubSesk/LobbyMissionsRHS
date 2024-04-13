@@ -1,27 +1,127 @@
-$grp Vehicle : "{A2E23CB8DDCFE82E}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_base.et" {
- Ural4320_transport_CIV_base2 {
-  coords 2878.747 270.19 9697.969
-  angleX 3.777
-  angleY 50.205
-  angleZ 0.344
+$grp Vehicle : "{160E1EDDBFFF8CFD}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_ChDKZ.et" {
+ BTR70_Ses_ChDKZ1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5A60D38E3D91D053}" {
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{60E55E1381A7CBA3}" {
+      SlotTemplate InventoryStorageSlot Backpack {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{60E55E1381A7CBA6}" {
+      NumSlots 4
+     }
+    }
+   }
+  }
+  coords 2529.535 255.834 9609.719
+  angleX 1.974
+  angleY 125.997
+  angleZ 0.328
  }
- Ural4320_transport_CIV_base3 {
-  coords 2539.117 254.952 9662.709
-  angleX -4.622
-  angleY -40.301
-  angleZ -5.428
+ BTR70_Ses_ChDKZ2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5A60D38E3D91D053}" {
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{60E55E1381A7CBA3}" {
+      SlotTemplate InventoryStorageSlot Backpack {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{60E55E1381A7CBA6}" {
+      NumSlots 4
+     }
+    }
+   }
+  }
+  coords 2865.071 271.537 9746.209
+  angleY 61.717
  }
- Ural4320_transport_CIV_base4 {
-  coords 2478.859 253.68 9656.239
-  angleX 0.891
-  angleY 95.309
-  angleZ 0.083
+}
+Vehicle BTR70_Ses_CDF1 : "{52441D784D145D52}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{5A60D38E3DAEB055}" {
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{5A60D38E3D91D053}" {
+     NumSlots 6
+    }
+    MultiSlotConfiguration "{5A60D38E3DE4B1EA}" {
+     NumSlots 8
+    }
+    MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{60E55E1361A6658C}" {
+     SlotTemplate InventoryStorageSlot Backpack {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{60E55E1361A665B6}" {
+     NumSlots 4
+    }
+   }
+  }
  }
- Ural4320_transport_CIV_base1 {
-  coords 2845.608 269.507 9722.129
-  angleX 0.905
-  angleY 139.056
-  angleZ 5.127
+ coords 4827.74 339.364 10440.138
+ angleY -118.033
+}
+Vehicle UAZ469_uncovered_Ses_ChDKZ1 : "{6CC21EBAB10F2A89}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Ses_ChDKZ.et" {
+ coords 2483.964 253.749 9655.731
+ angleX 0.894
+ angleY 92.959
+ angleZ 0.046
+}
+$grp Vehicle : "{8918EDE86C8CB551}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_Ses_ChDKZ_transport.et" {
+ Ural4320_Ses_ChDKZ_transport1 {
+  coords 2877.315 270.124 9698.171
+  angleX 5.028
+  angleY 50.527
+  angleZ 0.486
+ }
+ Ural4320_Ses_ChDKZ_transport2 {
+  coords 2844.39 269.55 9724.814
+  angleX 0.25
+  angleY 138.835
+  angleZ 5.708
+ }
+ Ural4320_Ses_ChDKZ_transport4 {
+  coords 2538.352 254.856 9663.792
+  angleX -5.603
+  angleY -51.7
+  angleZ -4.409
  }
 }
 $grp Vehicle : "{B88FFB13228A022D}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_Ses_CDF_transport.et" {
@@ -34,7 +134,7 @@ $grp Vehicle : "{B88FFB13228A022D}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_Ses
   angleY -121.337
  }
 }
-Vehicle Ural4320_CDF_transport_covered1 : "{F10C3707D4835945}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_CDF_transport_covered.et" {
+Vehicle Ural4320_CDF_transport_covered1 : "{F10C3707D4835945}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_Ses_CDF_transport_covered.et" {
  components {
   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
    MultiSlots {

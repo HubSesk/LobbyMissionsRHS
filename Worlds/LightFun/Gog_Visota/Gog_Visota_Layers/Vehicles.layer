@@ -1,0 +1,72 @@
+$grp Vehicle : "{2CCD539A7AB35B2F}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_camo1.et" {
+ Ural4320_transport_camo4 {
+  coords 5949.15 43.305 5112.068
+  angleX 2.669
+  angleY 96.016
+  angleZ 0.281
+ }
+ Ural4320_transport_camo3 {
+  coords 5991.811 44.5 5107.745
+  angleY 96.795
+ }
+ Ural4320_transport_camo1 {
+  coords 7174.283 93.106 1871.88
+  angleX 8.881
+ }
+ Ural4320_transport_camo2 {
+  coords 7173.965 95.915 1909.502
+  angleX -0.895
+ }
+}
+Vehicle APC_K17_Berezok_camo1 : "{DD0CB0331A3D8CA7}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok_camo1.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5CE26149257047CD}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5CE261495B1779F4}" {
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{5DE729984447E1C3}" {
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{5D557449EB938170}" {
+     NumSlots 6
+    }
+    MultiSlotConfiguration "{5D557449DBF8D3B0}" {
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{5D557449317CA1EC}" {
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{5DE7299E8FA5ED73}" {
+     SlotTemplate InventoryStorageSlot nvg {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ coords 7175.346 86.051 1825.698
+ angleX 7.984
+ angleY -4.143
+ angleZ -0.576
+}
+$grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
+ M1025_armed_M2HB_MERDC1 {
+  coords 7021.826 100.781 3986.359
+  angleY -15.515
+ }
+ M1025_armed_M2HB_MERDC2 {
+  coords 7029.426 100.719 3961.289
+  angleY 162.184
+ }
+ M1025_armed_M2HB_MERDC3 {
+  coords 7031.919 100.688 3952.635
+  angleY 162.194
+ }
+}
+Vehicle UAZ469_Camo1 : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
+ coords 6024.365 42.858 5111.25
+ angleX -4.469
+ angleY 67.52
+ angleZ 0.882
+}
