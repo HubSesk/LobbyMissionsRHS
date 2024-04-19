@@ -1,8 +1,8 @@
 SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
 }
-PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+DestructionManager : "{E5B570B5F32A7BAE}Prefabs/Systems/Destruction/DestructionManager.et" {
 }
-TagManager : "{2FA9E172CAB1857A}Prefabs/MP/Managers/TagManager.et" {
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  components {
@@ -16,10 +16,12 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
  }
  m_fAutoReloadTime 300
- m_iAvailableReconnectTime 300000
- m_bKillRedundantUnits 1
+ m_bMarkersOnlyOnBriefing 1
+ m_bRemoveRedundantUnits 1
  m_bRemoveSquadMarkers 1
- m_iFreezeTime 220000
+ m_iFreezeTime 180000
+ m_bDisableChat 1
+ m_bReserveSlots 1
  {
   SCR_FactionManager "5F2B25DD2FE1CDD2" {
    ID "5ED9088735FF2D8B"
@@ -41,16 +43,35 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
 }
 HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
 }
-SCR_AIGroup : "{0EFF5F602A101F34}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_Specop_P.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "Column"
-  }
-  PS_GroupCallsignAssigner "{604A462B1E17B86E}" {
-   m_iCompanyCallsign 3
-   m_iPlatoonCallsign 2
-  }
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  m_sTitle "ЧСО захватили оба поселения"
+  m_iScore 75
+  m_sFactionKey "RHS_US_USMC"
  }
- coords 5430.386 302.721 5471.331
- angleY -87.677
+ {
+  m_sTitle "Бумеранг уничтожен"
+  m_iScore 25
+  m_sFactionKey "RHS_US_USMC"
+ }
+ {
+  m_sTitle "Погорёвка захвачена"
+  m_iScore 50
+  m_sFactionKey "Ses_CDF"
+ }
+ {
+  m_sTitle "Рогово захвачено"
+  m_iScore 50
+  m_sFactionKey "Ses_CDF"
+ }
+ {
+  m_sTitle "Погорёвка защищена"
+  m_iScore 50
+  m_sFactionKey "RHS_RF_MSV"
+ }
+ {
+  m_sTitle "Рогово защищено"
+  m_iScore 50
+  m_sFactionKey "RHS_RF_MSV"
+ }
 }

@@ -1,24 +1,32 @@
-$grp Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
- Ural4320_transport1 {
-  coords 2021.235 292.55 13068.879
-  angleX 3.169
-  angleY 6.218
-  angleZ 3.935
+$grp Vehicle : "{2CCD539A7AB35B2F}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_camo1.et" {
+ Ural4320_transport_camo2 {
+  coords 2019.392 291.799 13052.909
+  angleX 2.35
+  angleY 5.18
+  angleZ 3.8
  }
- Ural4320_transport2 {
-  coords 2037.689 294.211 13107.074
-  angleX 1.959
-  angleY 34.119
-  angleZ 3.485
+ Ural4320_transport_camo3 {
+  coords 2017.456 290.924 13032.022
+  angleX 2.511
+  angleY 5.186
+  angleZ 2.023
  }
- Ural4320_transport4 {
-  coords 2065.77 295.002 13135.852
-  angleX 1.759
-  angleY 49.062
-  angleZ 2.027
+ Ural4320_transport_camo1 {
+  coords 2058.661 295.003 13130.772
+  angleX -0.093
+  angleY 47.109
+  angleZ 2.529
  }
 }
-Vehicle APC_K17_Epoch1 : "{F86AB1BD36B33407}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch.et" {
- coords 2085.643 295.293 13153.65
- angleY 47
+Vehicle APC_K17_Berezok_camo1 : "{DD0CB0331A3D8CA7}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok_camo1.et" {
+ coords 2084.607 295.384 13155.723
+ angleX 0.924
+ angleY 52.52
+ angleZ 2.674
+}
+Vehicle UAZ469_Camo1 : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
+ coords 2014.935 289.722 13011.436
+ angleX 4.466
+ angleY 0.07
+ angleZ 0.898
 }

@@ -5,7 +5,7 @@ $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/Restri
  {
   coords 4875.333 277.898 6763.163
   m_fWarnRadius 134
-  m_fZoneRadius 174
+  m_fZoneRadius 180
   m_fZoneTeleportedRadius 184
   {
    GenericEntity {
@@ -36,5 +36,7 @@ $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/Restri
  }
  {
   coords 6130.557 347.316 9008.878
+  m_fZoneRadius 125
+  m_fZoneTeleportedRadius 135
  }
 }

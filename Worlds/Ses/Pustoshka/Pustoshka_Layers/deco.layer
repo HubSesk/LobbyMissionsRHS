@@ -123,17 +123,38 @@ $grp GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_
   angleY -91.112
  }
 }
-GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
- coords 3143.576 302.792 8083.084
- angleX 0.642
- angleY 45.264
- angleZ -1.895
+$grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
  {
-  GenericEntity {
-   ID "5CC6B48B9C8C2A7C"
-   coords 1.833 0.809 -1.822
-   angleY -96.241
-   angleZ 68.969
+  coords 3143.576 302.792 8083.084
+  angleX 0.642
+  angleY 45.264
+  angleZ -1.895
+  {
+   GenericEntity {
+    ID "5CC6B48B9C8C2A7C"
+    coords 1.833 0.809 -1.822
+    angleY -96.241
+    angleZ 68.969
+   }
+  }
+ }
+ {
+  coords 3043.27 302.99 8005.838
+  angleX -1.997
+  angleY -66.814
+  angleZ 0.117
+  {
+   GenericEntity {
+    ID "5CC6B48B9C8C2A7C"
+    coords -19.448 0.461 -6.852
+    angleY -96.241
+    angleZ 0
+   }
+   StaticModelEntity {
+    ID "5CC6B48B9C8C2BDB"
+    coords 17.81 0.009 1.137
+    angleY 20.33
+   }
   }
  }
 }

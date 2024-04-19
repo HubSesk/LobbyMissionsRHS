@@ -1,15 +1,33 @@
-SCR_AIGroup "(Веды) RHS_RF_MSV_G_300_6" : "{4E66C5FE1796D009}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/SPECOPS.et" {
- components {
-  PS_GroupCallsignAssigner "{6047325DCC44906F}" {
-   m_iCompanyCallsign 3
-   m_iPlatoonCallsign 0
+$grp SCR_AIGroup : "{61DD5A8910ECF5C6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Group_RHS_RF_MSV_VKPO_S_LightFireTeam.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6126F38752B3721D}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 2922.425 212.815 12624.846
+  angleY 4.473
+  m_aUnitPrefabSlots {
+   "{578A9679C9CBA788}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_SL.et" "{58BA009D212B8E8E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_AT.et" "{FFF764BBA021A8C0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_AAT.et" "{135F5E0601BBC4E9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_Rifleman.et" "{49074A7C5718B0C3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_Rifleman2.et" "{135F5E0601BBC4E9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_Rifleman.et" "{49074A7C5718B0C3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_Rifleman2.et" "{A6C8A0545DBD8260}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_Medic.et" "{41E4A355893B09FE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_Marksman.et"
   }
  }
- coords 2924.914 212.614 12629.772
- angleY 17
- m_aUnitPrefabSlots + {
-  "{9F1A54596CE4BB81}Prefabs/Characters/Factions/OPFOR/RF/HeliPilot.et"
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6126F38752B3721D}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 2912.807 213.212 12640.314
+  angleY 115.457
+  m_aUnitPrefabSlots {
+   "{BB9DCEEA3CD5A516}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_HeliCrew.et" "{BB9DCEEA3CD5A516}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_HeliCrew.et"
+  }
  }
- m_sCustomNameSet "Веды"
- m_bSetPlayable 1
 }
