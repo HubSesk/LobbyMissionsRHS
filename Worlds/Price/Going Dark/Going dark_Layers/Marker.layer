@@ -1,0 +1,73 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ BluStart {
+  coords 6965.081 321.333 8286.183
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "Undefined-blufor"
+  m_fWorldSize 35
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+ }
+ NapaCamp {
+  coords 7432.893 388.358 9015.225
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 35
+  m_sDescription "Лагерь Напы"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ NapaCamp2 {
+  coords 6513.015 334.368 9291.467
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 35
+  m_sDescription "Лагерь Напы"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ NapaCamp3 {
+  coords 7491.153 409.453 9773.493
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 35
+  m_sDescription "Лагерь Напы"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ NapaCamp4 {
+  coords 6896.337 380.048 9806.565
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 35
+  m_sDescription "Лагерь Напы"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ NapaCamp5 {
+  coords 8062.936 468.385 9190.853
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 35
+  m_sDescription "Лагерь Напы"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ NapaBase {
+  coords 7367.822 386.952 9375.896
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 35
+  m_sDescription "База Напы"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+}

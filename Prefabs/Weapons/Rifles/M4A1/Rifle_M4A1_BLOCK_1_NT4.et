@@ -1,0 +1,108 @@
+GenericEntity : "{BCFDDDC7EF1A030D}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_1.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{0B7CADA8F1774FA0}Sounds/Weapons/Rifles/M4A1/Suppressed/RHS_Weapons_Rifles_M4A1_Shot_Suppressed.acp" "{9FE8ECD9A435366A}Sounds/Weapons/Rifles/M27IAR/RHS_Weapons_Rifles_M27IAR_Handling.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{07E8D425196745F4}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_Plastic.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp"
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "#RHS-Weapon_MK18_Name"
+     Description "#RHS-Weapon_M4A1_BLOCK_II_Description"
+    }
+    CustomAttributes {
+     AimingModifierAttributes "{566C7D15A071B88E}" {
+      DeploymentPoints {
+       PivotPointInfoItem "{5E0ED058CD731B24}" {
+        "Point info" DeploymentPointInfo dp {
+         Offset 0 0.0356 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDA2E5FAA2B6}" {
+     AttachmentSlot InventoryStorageSlot Buttstock {
+      Offset 0 0 -0.0022
+      Prefab "{BC68AE520F42BF35}Prefabs/Weapons/Attachments/Stocks/Buttstock_AR15_SOPMOD/RHS_M4_SOPMOD_Black.et"
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDA47E3F452D}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+      Prefab "{8347F5847566D85B}Prefabs/Weapons/Attachments/Handguards/Handguard_AR15_DD/BLK/RHS_M4A1_DD9_55_BLK.et"
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDA5B623AB37}" {
+     AttachmentSlot InventoryStorageSlot Handguard_lower {
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDA70372C8BA}" {
+     AttachmentSlot InventoryStorageSlot Barrel {
+      Prefab "{7B75124A0F96ACF3}Prefabs/Weapons/Rifles/M4A1/base_parts/RHS_M4_BARREL_10_3.et"
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot InventoryStorageSlot Optics {
+      Offset 0 0 0.0236
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE949ECF03E3}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE9573F14F0C}" {
+      Offset 0 0.1115 0.2929
+      Prefab "{5AE8F3A22BDB534F}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_black.et"
+      InspectionWidgetOffset 0 0.1115 0.3184
+     }
+     AttachmentType AttachmentRIS1913 "{5EA2BE94941B23EB}" {
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE95B630A07A}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE95B7F1B3D5}" {
+     }
+    }
+    AttachmentSlotComponent "{60975A200E76C9BE}" {
+     Enabled 1
+    }
+    AttachmentSlotComponent "{609EE5047488AAA1}" {
+     AttachmentSlot InventoryStorageSlot REAR_IRONSIGHT {
+      Prefab "{1A8E5E21EC65EE58}Prefabs/Weapons/Attachments/Optics/reap_ir/reap_ir.et"
+     }
+    }
+    AttachmentSlotComponent "{61227ED015B04BAB}" {
+     AttachmentSlot InventoryStorageSlot "{5EB2C96A8030BC9E}" {
+      Offset 0 0.0558 0.3259
+      MergePhysics 1
+      Enabled 0
+      Name "Bipod"
+      InspectionWidgetOffset 0 0.0546 0.3683
+     }
+     AttachmentType AttachmentUnderbarrelRIS1913Short "{61227ED015B04BA5}" {
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       EffectPosition EntitySlotInfo "{C9B3271BB85B5D32}" {
+        Offset 0 0 -0.0815
+       }
+      }
+     }
+     BUTSTOCK_TRANSFORMATION DeploymentPointInfo bt {
+      Offset 0 0.0057 -0.1164
+     }
+     MagazineTemplate "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "#RHS-Weapon_MK18_Name"
+    Description "#RHS-Weapon_M4A1_BLOCK_II_Description"
+   }
+  }
+ }
+ coords 618.901 51.436 2264.643
+}

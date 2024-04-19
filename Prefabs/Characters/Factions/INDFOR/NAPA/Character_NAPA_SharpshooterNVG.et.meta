@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{8C6A35FB30BD2980}Prefabs/Characters/HeadGear/Helmet_CVC_01/Helmet_CVC_Shroud_Tan_nvg.et"
+ Name "{F83B7FB4A5DEA67E}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_SharpshooterNVG.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -9,7 +9,11 @@ MetaFileClass {
   }
   EntityTemplateResourceClass PS4 : PC {
   }
+  EntityTemplateResourceClass PS5 : PC {
+  }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

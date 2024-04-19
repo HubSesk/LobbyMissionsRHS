@@ -1,0 +1,79 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ Med {
+  coords 7430.607 388.367 8918.118
+  m_sTitle "Снабжение"
+  m_sTextData "Уничтожить машину снабжения в мед.лагере"
+  m_iScore 25
+  m_sFactionKey "RHS_US_USMC"
+ }
+ KSHM {
+  coords 7407.771 388.738 8873.93
+  m_sTitle "КШМ"
+  m_sTextData "Уничтожить КШМ в лагере у озера"
+  m_iScore 25
+  m_sFactionKey "RHS_US_USMC"
+ }
+ MG {
+  coords 7412.224 389.213 8868.758
+  m_sTitle "Машина БК"
+  m_sTextData "Уничтожить машину с БК в районе пулеметных точек"
+  m_iScore 25
+  m_sFactionKey "RHS_US_USMC"
+ }
+ Rem {
+  coords 7399.755 388.361 8869.838
+  m_sTitle "Машина тех.оснащения"
+  m_sTextData "Уничтожить рем.машину в ремонтном лагере"
+  m_iScore 25
+  m_sFactionKey "RHS_US_USMC"
+ }
+ Stroy {
+  coords 7390.253 387.899 8862.718
+  m_sTitle "Машина снабжения 2"
+  m_sTextData "Уничтожить строительную машину в лагере снабжения"
+  m_iScore 25
+  m_sFactionKey "RHS_US_USMC"
+ }
+ Base {
+  coords 7417.769 389.453 8872.707
+  m_sTitle "Топливозаправщики"
+  m_sTextData "Уничтожить топливозаправщики на главной базе"
+  m_sFactionKey "RHS_US_USMC"
+ }
+ NAPABase {
+  coords 7397.92 389.694 9386.825
+  m_sTitle "Защитить базу"
+  m_iScore 25
+  m_sFactionKey "Ses_NAPA"
+ }
+ NAPACamp {
+  coords 7397.916 389.399 9382.027
+  m_sTitle "Защитить лагерь"
+  m_iScore 25
+  m_sFactionKey "Ses_NAPA"
+ }
+ NAPACamp2 {
+  coords 7402.92 390.786 9388.595
+  m_sTitle "Защитить лагерь"
+  m_iScore 25
+  m_sFactionKey "Ses_NAPA"
+ }
+ NAPACamp3 {
+  coords 7395.375 389.831 9389.621
+  m_sTitle "Защитить лагерь"
+  m_iScore 25
+  m_sFactionKey "Ses_NAPA"
+ }
+ NAPACamp4 {
+  coords 7403.392 391.199 9390.44
+  m_sTitle "Защитить лагерь"
+  m_iScore 25
+  m_sFactionKey "Ses_NAPA"
+ }
+ NAPACamp5 {
+  coords 7406.419 391.621 9390.308
+  m_sTitle "Защитить лагерь"
+  m_iScore 25
+  m_sFactionKey "Ses_NAPA"
+ }
+}

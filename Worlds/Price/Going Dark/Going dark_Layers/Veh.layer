@@ -1,0 +1,64 @@
+Vehicle Ural4320_engineer_FIA1 : "{076B33106723D087}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer_FIA.et" {
+ coords 7474.242 408.446 9776.188
+ angleX 5.065
+ angleY 101.702
+ angleZ 1.958
+}
+Vehicle Ural4320_repair_FIA1 : "{34178E3A92776DA6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair_FIA.et" {
+ coords 6895.097 379.866 9821.305
+ angleX -8.626
+ angleY -69.314
+ angleZ -2.297
+}
+$grp Vehicle : "{3F5D19AC3C7E20DC}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo_FIA.et" {
+ Ural4320_ammo_FIA2 {
+  coords 8065.006 466.742 9217.996
+  angleX -0.475
+  angleY 39.621
+  angleZ -5.029
+ }
+ Ural4320_ammo_FIA1 {
+  coords 7430.804 387.996 9006.636
+  angleX -2.58
+  angleY 178.901
+  angleZ 5.4
+ }
+}
+$grp Vehicle : "{C63F988320179F4F}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_NAPA.et" {
+ BTR70_Ses_NAPA2 {
+  coords 7412.469 391.675 9383.185
+  angleX 9.751
+  angleY 17.604
+  angleZ -4.318
+ }
+ BTR70_Ses_NAPA1 {
+  coords 7418.192 393.49 9390.038
+  angleX 10.099
+  angleY 36.677
+  angleZ -0.21
+ }
+ BTR70_Ses_NAPA3 {
+  coords 7412.42 390.523 9373.482
+  angleX 9.751
+  angleY 17.604
+  angleZ -4.318
+ }
+}
+$grp Vehicle : "{DC1C2350CF665F9E}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_tanker.et" {
+ Ural4320_FIA_tanker2 {
+  coords 7358.243 386.659 9391.618
+  angleX 2.532
+  angleY 114.179
+  angleZ 3.094
+ }
+ Ural4320_FIA_tanker1 {
+  coords 7355.644 386.352 9387.956
+  angleX 2.961
+  angleY 112.56
+  angleZ 2.197
+ }
+}
+Vehicle Ural4320_FIA_command1 : "{E6AEC014D162D686}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_command.et" {
+ coords 6523.37 334.947 9290.821
+ angleY -118.669
+}

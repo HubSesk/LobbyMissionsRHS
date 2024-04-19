@@ -1,0 +1,154 @@
+$grp SCR_AIGroup : "{F83A6FB6CB36AE0F}Prefabs/Groups/INDFOR/Ses_NAPA/Group_Ses_NAPA_RifleSquad.et" {
+ Ses_NAPA_G_001_10 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6126A2528B28F35E}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 1
+   }
+  }
+  coords 7418.707 379.997 9366.431
+  m_aUnitPrefabSlots {
+   "{68981CDFD1E05EC5}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_SL.et" "{825CF2A0231AA133}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG2.et" "{E6A32FEAA73639D4}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Medic.et" "{DDB884019AEDE28A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AT.et" "{3BC9EFCE8DC9B614}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman.et" "{81AABF85182C9FA3}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman2.et" "{6436F37C14C908C8}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman3.et" "{825CF2A0231AA133}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG2.et" "{5902D64461A58200}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman4.et"
+  }
+ }
+ Ses_NAPA_G_002_10 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6126A25280765784}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 6887.912 378.18 9826.219
+  angleY 125.004
+  m_aUnitPrefabSlots {
+   "{68981CDFD1E05EC5}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_SL.et" "{825CF2A0231AA133}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG2.et" "{E6A32FEAA73639D4}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Medic.et" "{DDB884019AEDE28A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AT.et" "{3BC9EFCE8DC9B614}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman.et" "{81AABF85182C9FA3}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman2.et" "{6436F37C14C908C8}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman3.et" "{825CF2A0231AA133}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG2.et" "{5902D64461A58200}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman4.et" "{81AABF85182C9FA3}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman2.et"
+  }
+ }
+ Ses_NAPA_G_010_10 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6126A2528127E491}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
+   }
+  }
+  coords 6508.218 334.654 9278.027
+  angleY 45.743
+  m_aUnitPrefabSlots {
+   "{68981CDFD1E05EC5}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_SL.et" "{825CF2A0231AA133}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG2.et" "{E6A32FEAA73639D4}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Medic.et" "{DDB884019AEDE28A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AT.et" "{3BC9EFCE8DC9B614}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman.et" "{81AABF85182C9FA3}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman2.et" "{6436F37C14C908C8}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman3.et" "{825CF2A0231AA133}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG2.et" "{5902D64461A58200}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman4.et" "{81AABF85182C9FA3}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman2.et"
+  }
+ }
+ Ses_NAPA_G_011_10 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6126A252FF04C3E3}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 7427.805 387.626 8994.489
+  angleY 74.061
+  m_aUnitPrefabSlots {
+   "{68981CDFD1E05EC5}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_SL.et" "{825CF2A0231AA133}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG2.et" "{E6A32FEAA73639D4}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Medic.et" "{DDB884019AEDE28A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AT.et" "{3BC9EFCE8DC9B614}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman.et" "{81AABF85182C9FA3}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman2.et" "{6436F37C14C908C8}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman3.et" "{825CF2A0231AA133}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG2.et" "{5902D64461A58200}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman4.et" "{81AABF85182C9FA3}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman2.et"
+  }
+ }
+ Ses_NAPA_G_012_10 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6126A252FDCAD70D}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 7503.9 409.666 9765.545
+  angleY 28.381
+  m_aUnitPrefabSlots {
+   "{68981CDFD1E05EC5}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_SL.et" "{825CF2A0231AA133}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG2.et" "{E6A32FEAA73639D4}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Medic.et" "{DDB884019AEDE28A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AT.et" "{3BC9EFCE8DC9B614}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman.et" "{81AABF85182C9FA3}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman2.et" "{6436F37C14C908C8}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman3.et" "{825CF2A0231AA133}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG2.et" "{5902D64461A58200}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman4.et" "{81AABF85182C9FA3}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman2.et"
+  }
+ }
+ Ses_NAPA_G_020_10 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6126A252FA7C9F6C}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 0
+   }
+  }
+  coords 7330.792 384.529 9375.722
+  angleY 28.381
+  m_aUnitPrefabSlots {
+   "{68981CDFD1E05EC5}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_SL.et" "{825CF2A0231AA133}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG2.et" "{E6A32FEAA73639D4}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Medic.et" "{DDB884019AEDE28A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AT.et" "{3BC9EFCE8DC9B614}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman.et" "{81AABF85182C9FA3}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman2.et" "{6436F37C14C908C8}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman3.et" "{825CF2A0231AA133}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG2.et" "{5902D64461A58200}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman4.et" "{81AABF85182C9FA3}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman2.et"
+  }
+ }
+ Ses_NAPA_G_021_10 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6126A252FB516F3C}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 7315.619 382.839 9358.764
+  angleY -8.905
+  m_aUnitPrefabSlots {
+   "{68981CDFD1E05EC5}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_SL.et" "{825CF2A0231AA133}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG2.et" "{E6A32FEAA73639D4}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Medic.et" "{DDB884019AEDE28A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AT.et" "{3BC9EFCE8DC9B614}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman.et" "{81AABF85182C9FA3}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman2.et" "{6436F37C14C908C8}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman3.et" "{825CF2A0231AA133}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG2.et" "{5902D64461A58200}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman4.et" "{81AABF85182C9FA3}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman2.et"
+  }
+ }
+ Ses_NAPA_G_022_10 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6126A252F84E12A9}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 8060.048 467.098 9197.439
+  angleY -157.514
+  m_aUnitPrefabSlots {
+   "{68981CDFD1E05EC5}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_SL.et" "{825CF2A0231AA133}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG2.et" "{E6A32FEAA73639D4}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Medic.et" "{DDB884019AEDE28A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AT.et" "{3BC9EFCE8DC9B614}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman.et" "{81AABF85182C9FA3}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman2.et" "{6436F37C14C908C8}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman3.et" "{825CF2A0231AA133}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG2.et" "{5902D64461A58200}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman4.et" "{81AABF85182C9FA3}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman2.et"
+  }
+ }
+ Ses_NAPA_G_100_7 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6126A66EB13BDF18}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 0
+   }
+  }
+  coords 7398.452 389.573 9384.847
+  angleY 87.908
+  m_aUnitPrefabSlots {
+   "{68981CDFD1E05EC5}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_SL.et" "{E6A32FEAA73639D4}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Medic.et" "{DDB884019AEDE28A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AT.et"
+  }
+ }
+}

@@ -1,0 +1,40 @@
+GameEntity : "{0C05EC01BC9518B2}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_XP_Black.et" {
+ ID "50D485E1435D6C72"
+ components {
+  RHS_ClothNodeStorageComponent "{5DB13C5777E6E695}" {
+   Attributes SCR_ItemAttributeCollection "{5DB13C5760610D64}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_OPSCORE_XP_Name (#RHS-Color_BLK/#RHS-Headgear_AMP_Name_Short)"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{40ED520CE1154848}Prefabs/Characters/HeadGear/Helmet_LShZ/Balaclava_LShZ_black.et"
+    }
+    RHS_LoadoutSlotInfo NVG {
+     Prefab "{2B10341C641EC041}Prefabs/Items/Equipment/Thermals/PATROL_IR/Thermal_PatrolIr.et"
+    }
+    RHS_LoadoutSlotInfo Headset {
+     Enabled 0
+    }
+    RHS_LoadoutSlotInfo TopVelcro {
+     Prefab "{643AB339663E92F7}Prefabs/Items/Equipment/Nightvision/MS2000/Marker_MS2000.et"
+    }
+    RHS_LoadoutSlotInfo LeftVelcro {
+     Prefab "{5F7EF7FEBC39B874}Prefabs/Items/Equipment/Nightvision/HelstarStrobe/Helstar.et"
+    }
+   }
+   WornModel "{B49E855286466594}Assets/Characters/HeadGear/Helmet_OPSCORE/opscore_XP_AMP.xob"
+   WornMaterialsOverride {
+    "{1C8135639C62DA7F}Assets/Characters/HeadGear/Helmet_OPSCORE/Data/MATERIAL_MATERIAL_NONE.emat" "{5E51D3886AB11AF8}Assets/Characters/HeadGear/Helmet_OPSCORE/Data/MATERIAL_AMP.emat" "{5AF2D549A2532A07}Assets/Characters/HeadGear/Helmet_OPSCORE/Data/MATERIAL_XP_Black.emat" "" "{2E0C227C3AD88157}Assets/Characters/HeadGear/Helmet_OPSCORE/Data/straps_black.emat"
+   }
+   ItemModel "{4EA0E0109449E8A6}Assets/Characters/HeadGear/Helmet_OPSCORE/opscore_XP_AMP_ground.xob"
+   ItemMaterialsOverride {
+    "" "" "{5AF2D549A2532A07}Assets/Characters/HeadGear/Helmet_OPSCORE/Data/MATERIAL_XP_Black.emat"
+   }
+   DebugWornModel 0
+  }
+ }
+}
