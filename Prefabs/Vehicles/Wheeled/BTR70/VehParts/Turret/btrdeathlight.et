@@ -1,0 +1,35 @@
+GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/LampTower_01.et" {
+ ID "5111E74D4E7A8DB6"
+ components {
+  ParametricMaterialInstanceComponent "{5F1AD8DAD19F707F}" {
+  }
+  SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+   Enabled 1
+  }
+  RplComponent "{58FC7CAC2034C3E2}" {
+   Enabled 1
+  }
+ }
+ coords 18.828 -4.805 -14.246
+ {
+  LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+   ID "6128C35E6993506F"
+   components {
+    StreetLampComponent "{55A0954A909C9109}" {
+     Enabled 0
+    }
+    RplComponent "{585699AC653DD54C}" {
+     Enabled 1
+    }
+   }
+   coords -0.016 0.202 0.182
+   angleX -30
+   angleY -5
+   LV 7.8
+   Radius 100
+   SpotAngle 45
+   DistanceAttenuation 0.46
+   VolLightIntensity 5
+  }
+ }
+}

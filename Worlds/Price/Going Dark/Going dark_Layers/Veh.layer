@@ -1,3 +1,23 @@
+$grp Vehicle : "{10D30517B00BDC39}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_NAPADeathLight.et" {
+ BTR70_Ses_NAPADeathLight1 {
+  coords 7414.107 391.013 9379.245
+  angleX 7.016
+  angleY -0.881
+  angleZ -7.179
+ }
+ BTR70_Ses_NAPADeathLight2 {
+  coords 7419.525 391.735 9379.854
+  angleX 7.016
+  angleY -0.881
+  angleZ -7.179
+ }
+ BTR70_Ses_NAPADeathLight3 {
+  coords 7417.409 392.904 9389.938
+  angleX 9.237
+  angleY 17.896
+  angleZ -2.6
+ }
+}
 $grp Vehicle : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et" {
  Ural4320_ammo1 {
   components {
@@ -176,24 +196,4 @@ Vehicle Ural4320_repair1 : "{A5647958579A4149}Prefabs/Vehicles/Wheeled/Ural4320/
  angleX -7.603
  angleY -68.483
  angleZ -0.127
-}
-$grp Vehicle : "{C63F988320179F4F}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_NAPA.et" {
- BTR70_Ses_NAPA2 {
-  coords 7412.469 391.675 9383.185
-  angleX 9.751
-  angleY 17.604
-  angleZ -4.318
- }
- BTR70_Ses_NAPA1 {
-  coords 7418.192 393.49 9390.038
-  angleX 10.099
-  angleY 36.677
-  angleZ -0.21
- }
- BTR70_Ses_NAPA3 {
-  coords 7412.42 390.523 9373.482
-  angleX 9.751
-  angleY 17.604
-  angleZ -4.318
- }
 }
