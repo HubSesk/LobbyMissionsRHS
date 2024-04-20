@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{3C4A97E31A549629}Worlds/ChernarussianMeeting/CM.ent"
+ Name "{3C4A97E31A549629}Worlds/Ses/Rogovo/Rogovo1.ent"
  Configurations {
   ENTResourceClass PC {
   }
@@ -10,6 +10,10 @@ MetaFileClass {
   ENTResourceClass PS4 : PC {
   }
   ENTResourceClass HEADLESS : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass Xbox : PC {
   }
  }
 }
