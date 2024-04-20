@@ -13,17 +13,23 @@ GameEntity : "{0C05EC01BC9518B2}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helme
     RHS_LoadoutSlotInfo Masks {
      Prefab "{40ED520CE1154848}Prefabs/Characters/HeadGear/Helmet_LShZ/Balaclava_LShZ_black.et"
     }
+    RHS_LoadoutSlotInfo BackVelcro {
+     Prefab "{397A4D4ED2E51C6A}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_BLK.et"
+    }
     RHS_LoadoutSlotInfo NVG {
-     Prefab "{2B10341C641EC041}Prefabs/Items/Equipment/Thermals/PATROL_IR/Thermal_PatrolIr.et"
+     Prefab "{59E0D9B5B6967152}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP.et"
     }
     RHS_LoadoutSlotInfo Headset {
      Enabled 0
     }
+    RHS_LoadoutSlotInfo Rail_Right {
+     Prefab "{207687AEF9630E41}Prefabs/Items/Equipment/Nightvision/switch/Switch.et"
+    }
     RHS_LoadoutSlotInfo TopVelcro {
-     Prefab "{643AB339663E92F7}Prefabs/Items/Equipment/Nightvision/MS2000/Marker_MS2000.et"
+     Prefab "{5F7EF7FEBC39B874}Prefabs/Items/Equipment/Nightvision/HelstarStrobe/Helstar.et"
     }
     RHS_LoadoutSlotInfo LeftVelcro {
-     Prefab "{5F7EF7FEBC39B874}Prefabs/Items/Equipment/Nightvision/HelstarStrobe/Helstar.et"
+     Prefab "{4135547E507D4471}Prefabs/Items/Equipment/Patches/Patch_USMC_Recon_Black.et"
     }
    }
    WornModel "{B49E855286466594}Assets/Characters/HeadGear/Helmet_OPSCORE/opscore_XP_AMP.xob"

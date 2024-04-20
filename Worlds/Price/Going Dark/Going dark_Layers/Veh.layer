@@ -1,28 +1,181 @@
-Vehicle Ural4320_engineer_FIA1 : "{076B33106723D087}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer_FIA.et" {
- coords 7474.242 408.446 9776.188
- angleX 5.065
- angleY 101.702
- angleZ 1.958
-}
-Vehicle Ural4320_repair_FIA1 : "{34178E3A92776DA6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair_FIA.et" {
- coords 6895.097 379.866 9821.305
- angleX -8.626
- angleY -69.314
- angleZ -2.297
-}
-$grp Vehicle : "{3F5D19AC3C7E20DC}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo_FIA.et" {
- Ural4320_ammo_FIA2 {
-  coords 8065.006 466.742 9217.996
-  angleX -0.475
-  angleY 39.621
-  angleZ -5.029
+$grp Vehicle : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et" {
+ Ural4320_ammo1 {
+  components {
+   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+     m_sFaction "Ses_NAPA"
+     m_aAutoLabels {
+      15 122 54
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "Ses_NAPA"
+   }
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     EntitySlotInfo Label_L {
+      Enabled 0
+     }
+     EntitySlotInfo Label_R {
+      Enabled 0
+     }
+     RegisteringComponentSlotInfo AmmoDecal {
+     }
+    }
+   }
+  }
+  coords 7430.801 387.836 9006.34
+  angleX -1.468
+  angleY 176.592
+  angleZ 5.45
  }
- Ural4320_ammo_FIA1 {
-  coords 7430.804 387.996 9006.636
-  angleX -2.58
-  angleY 178.901
-  angleZ 5.4
+ Ural4320_ammo2 {
+  components {
+   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+     m_sFaction "Ses_NAPA"
+     m_aAutoLabels {
+      15 122 54
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "Ses_NAPA"
+   }
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     EntitySlotInfo Label_L {
+      Enabled 0
+     }
+     EntitySlotInfo Label_R {
+      Enabled 0
+     }
+     RegisteringComponentSlotInfo AmmoDecal {
+     }
+    }
+   }
+  }
+  coords 8065.652 466.275 9218.345
+  angleX 0.188
+  angleY 39.271
+  angleZ -4.463
  }
+}
+$grp Vehicle : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker.et" {
+ Ural4320_tanker1 {
+  components {
+   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+     m_sFaction "Ses_NAPA"
+     m_aAutoLabels {
+      15 122 54
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "Ses_NAPA"
+   }
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     EntitySlotInfo Label_L {
+      Enabled 0
+     }
+     EntitySlotInfo Label_R {
+      Enabled 0
+     }
+    }
+   }
+  }
+  coords 7357.01 386.432 9387.311
+  angleX 3.632
+  angleY 109.218
+  angleZ 3.155
+ }
+ Ural4320_tanker2 {
+  components {
+   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+     m_sFaction "Ses_NAPA"
+     m_aAutoLabels {
+      15 122 54
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "Ses_NAPA"
+   }
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     EntitySlotInfo Label_L {
+      Enabled 0
+     }
+     EntitySlotInfo Label_R {
+      Enabled 0
+     }
+    }
+   }
+  }
+  coords 7358.87 386.701 9391.705
+  angleX 2.438
+  angleY 115.896
+  angleZ 3.168
+ }
+}
+Vehicle Ural4320_engineer1 : "{6E9142CD2471741C}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer.et" {
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "Ses_NAPA"
+    m_aAutoLabels {
+     15 122 54
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_NAPA"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo Label_L {
+     Enabled 0
+    }
+    EntitySlotInfo Label_R {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 7474.549 408.31 9776.541
+ angleX 4.702
+ angleY 110.608
+ angleZ 2.717
+}
+Vehicle Ural4320_repair1 : "{A5647958579A4149}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair.et" {
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "Ses_NAPA"
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_NAPA"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo Label_L {
+     Enabled 0
+    }
+    EntitySlotInfo Label_R {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 6895.352 379.74 9820.485
+ angleX -7.603
+ angleY -68.483
+ angleZ -0.127
 }
 $grp Vehicle : "{C63F988320179F4F}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_NAPA.et" {
  BTR70_Ses_NAPA2 {
@@ -43,22 +196,4 @@ $grp Vehicle : "{C63F988320179F4F}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_NAPA.
   angleY 17.604
   angleZ -4.318
  }
-}
-$grp Vehicle : "{DC1C2350CF665F9E}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_tanker.et" {
- Ural4320_FIA_tanker2 {
-  coords 7358.243 386.659 9391.618
-  angleX 2.532
-  angleY 114.179
-  angleZ 3.094
- }
- Ural4320_FIA_tanker1 {
-  coords 7355.644 386.352 9387.956
-  angleX 2.961
-  angleY 112.56
-  angleZ 2.197
- }
-}
-Vehicle Ural4320_FIA_command1 : "{E6AEC014D162D686}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_command.et" {
- coords 6523.37 334.947 9290.821
- angleY -118.669
 }
