@@ -1,0 +1,45 @@
+Vehicle Ural4320_Ses_TKA_transport1 : "{6C98ACF4A2DA1970}Prefabs/Vehicles/Wheeled/Ural4320/Ses_TKA/Ural4320_Ses_TKA_transport.et" {
+ coords 134.716 389.958 232.47
+ angleX -0.838
+ angleY 110.67
+ angleZ -0.316
+}
+Vehicle BTR70_Ses_TKA1 : "{6F963B40DE04868A}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_TKA.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{5A60D38E3C6A4E2F}" {
+     NumSlots 8
+    }
+    MultiSlotConfiguration "{5A60D38E3C46CBE8}" {
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{5A60D38E3DAEB055}" {
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{5A60D38E3D91D053}" {
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{5A60D38E3DE4B1EA}" {
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+     SlotTemplate InventoryStorageSlot RPKammunition {
+      Enabled 0
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
+     NumSlots 1
+    }
+   }
+  }
+ }
+ coords 2931.96 11.813 2861.901
+ angleX 1.983
+ angleY 108.956
+ angleZ -0.265
+}

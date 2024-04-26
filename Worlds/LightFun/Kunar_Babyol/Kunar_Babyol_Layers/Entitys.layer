@@ -1,0 +1,60 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_InitWeatherComponent "{613522451634FAB8}" {
+   m_sInitialStartingWeatherId "Cloudy"
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 9
+  }
+ }
+}
+HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
+}
+$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ {
+  coords 3343.215 327.225 1732.744
+ }
+ {
+  coords 2855.624 381.394 715.055
+ }
+ {
+  coords 1459.453 343.027 2145.686
+ }
+ {
+  coords 1277.427 348.654 1737.299
+ }
+ {
+  coords 2258.432 134.123 1592.939
+ }
+ {
+  coords 2245.098 132.131 1477.373
+ }
+ {
+  coords 2135.346 140.878 1472.02
+ }
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  m_sTitle "Полевой штаб удержан"
+  m_sFactionKey "Ses_TKR"
+ }
+ {
+  m_sTitle "Полевой штаб захвачен"
+  m_sFactionKey "Ses_TKA"
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 2930.115 13.662 2861.637
+ }
+ {
+  coords 146.977 390 241.898
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ coords 2275.313 149.64 1672.95
+}

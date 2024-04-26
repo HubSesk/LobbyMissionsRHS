@@ -1,0 +1,373 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ Ses_TKA_G_310_M {
+  coords 3345.069 327.884 1734.591
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 45
+  m_sDescription "Kasrah-21"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ Ses_TKA_G_300_M {
+  coords 2857.794 381.531 718.8
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 45
+  m_sDescription "Kasrah-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ Ses_TKA_G_210_M {
+  coords 1458.217 339.95 2148.404
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 45
+  m_sDescription "Hamzah-21"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ Ses_TKA_G_200_M {
+  coords 1279.336 350.905 1734.505
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 45
+  m_sDescription "Hamzah-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ Ses_TKA_G_100_M {
+  coords 2935.029 11.825 2868.058
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "armored-opfor"
+  m_fWorldSize 45
+  m_sDescription "Batikh-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ Ses_TKA_G_010_M {
+  coords 139.32 390 257.727
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "motorized-opfor"
+  m_fWorldSize 45
+  m_sDescription "Alif-21"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ Ses_TKA_G_000_M {
+  coords 123.743 390 254.935
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "signal-opfor"
+  m_fWorldSize 45
+  m_sDescription "Alif-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ Ses_TKR_G_010_M {
+  coords 2256.123 138.53 1600.895
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-indfor"
+  m_fWorldSize 45
+  m_sDescription "Alif-21"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKR"
+  }
+  m_aHideOnGameModeStates {
+   3 1
+  }
+  m_iZOrder 0
+ }
+ Ses_TKR_G_020_M {
+  coords 2281.33 151.909 1674.15
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-indfor"
+  m_fWorldSize 45
+  m_sDescription "Alif-31"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKR"
+  }
+  m_aHideOnGameModeStates {
+   3 1
+  }
+  m_iZOrder 0
+ }
+ Ses_TKR_G_100_M {
+  coords 2231.704 119.731 1479.375
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-indfor"
+  m_fWorldSize 45
+  m_sDescription "Batikh-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKR"
+  }
+  m_aHideOnGameModeStates {
+   3 1
+  }
+  m_iZOrder 0
+ }
+ Ses_TKR_G_110_M {
+  coords 2139.276 141.205 1469.154
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-indfor"
+  m_fWorldSize 45
+  m_sDescription "Batikh-21"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKR"
+  }
+  m_aHideOnGameModeStates {
+   3 1
+  }
+  m_iZOrder 0
+ }
+ Ses_TKR_G_000_M {
+  coords 2230.56 129.504 1580.058
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "signal-indfor"
+  m_fWorldSize 45
+  m_sDescription "Alif-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKR"
+  }
+  m_aHideOnGameModeStates {
+   3 1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 2931.96 11.813 2861.901
+  angleX 1.983
+  angleY 198.956
+  angleZ -0.265
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "APC"
+  m_fWorldSize 5
+  m_sDescription "#AR-Vehicle_BTR70_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 134.716 389.958 232.47
+  angleX -0.838
+  angleY 200.669
+  angleZ -0.316
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "Truck"
+  m_fWorldSize 5
+  m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ Task_Attack {
+  coords 2261.769 137.134 1572.244
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 35
+  m_sDescription "Полевой штаб"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ Task_Defend {
+  coords 2261.234 137.18 1571.845
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 35
+  m_sDescription "Полевой штаб"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKR"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ Arrow2 {
+  coords 2847.724 194.765 1491.971
+  angleY -78.733
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "arrow-large-3"
+  m_fWorldSize 60
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ Arrow1 {
+  coords 2410.007 235.387 1058.297
+  angleY -18.168
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "arrow-large-3"
+  m_fWorldSize 60
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ Arrow5 {
+  coords 1862.074 146.896 1104.699
+  angleY 40.06
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "arrow-large-3"
+  m_fWorldSize 60
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ Arrow6 {
+  coords 2649.364 61.537 1969.782
+  angleY -139.055
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "arrow-large-3"
+  m_fWorldSize 60
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ Arrow4 {
+  coords 1697.298 316.264 1611.084
+  angleY 98.093
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "arrow-large-3"
+  m_fWorldSize 60
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ Arrow3 {
+  coords 2085.75 244.606 2006.863
+  angleY 153.103
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "arrow-large-3"
+  m_fWorldSize 60
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+}
