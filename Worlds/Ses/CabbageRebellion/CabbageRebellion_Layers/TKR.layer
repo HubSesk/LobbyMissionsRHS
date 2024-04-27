@@ -1,0 +1,93 @@
+$grp SCR_AIGroup : "{CC34035B3181DD15}Prefabs/Groups/INDFOR/TKR/Group_TKR_RifleSquad.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{61355621884625FC}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 378.253 362.856 324.202
+  angleY 174.039
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{61355621884625FC}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 378.429 365.492 350.049
+  angleY 177.215
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{61355621884625FC}" {
+   }
+  }
+  coords 465.951 355.833 322.341
+  angleY -83.778
+  m_aUnitPrefabSlots {
+   "{325212741F0BF673}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Leader.et" "{8C6CDBEEC8372D43}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Marksman.et" "{3809AA34C6EE551D}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Medic.et" "{A1F70829C119B970}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Militiamen2.et" "{77D631E3FC6EDBAA}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_AR.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{61355621884625FC}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 433.149 357.197 308.281
+  angleY -177.448
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{61355621884625FC}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 466.01 352.577 295.302
+  angleY 93.803
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{61355621884625FC}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 501.194 346.801 309.024
+ }
+}
+$grp GenericEntity : "{D9DF8E01E73A2E97}PrefabsEditable/Auto/Structures/Military/Flags/FlagPole_02_V1_TKR_Editable.et" {
+ {
+  coords 467.385 361.768 316.482
+ }
+ {
+  coords 383.476 373.559 352.815
+  angleY -141.058
+ }
+}
+Vehicle S1203_transport_blue1 : "{F77C41245A580FD1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_blue.et" {
+ coords 428.589 359.432 329.558
+ angleX -3.576
+ angleY 89.193
+ angleZ 0.05
+}
