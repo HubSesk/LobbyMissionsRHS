@@ -1,0 +1,150 @@
+GenericEntity : "{33F2C8479CDD1F1A}Prefabs/Structures/BuildingParts/Doors/Door_WoodenWall_01_RIGHT_EXT_COV_B.et" {
+ coords 1891.669 17.578 3806.082
+ angleY -160.351
+}
+$grp GenericEntity : "{53D74CD446A87F13}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagLongHighBurlap_S_USSR_01.et" {
+ {
+  coords 1915.399 24.602 3822.1
+  angleY -107.56
+ }
+ {
+  coords 1914.481 24.603 3825.461
+  angleY -107.56
+ }
+ {
+  coords 1915.968 22.468 3824.361
+  angleY -107.56
+ }
+}
+StaticModelEntity : "{732A335C72D8ADE2}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_burlap_foundation.et" {
+ coords 1883.413 17.861 3821.087
+ angleY -31.698
+ {
+  GenericEntity {
+   ID "5A532DCF487275B2"
+   coords 0 0.1 0
+  }
+ }
+}
+$grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
+ {
+  coords 1892.569 18.496 3828.285
+  angleY 150.554
+ }
+ {
+  coords 1894.844 18.563 3829.722
+  angleY 150.554
+ }
+ {
+  coords 1901.932 18.622 3832.89
+  angleY 160.355
+ }
+ {
+  coords 1887.853 18.568 3825.831
+  angleY 150.554
+ }
+ {
+  coords 1890.213 18.519 3827.041
+  angleY 150.554
+ }
+ {
+  coords 1897.098 18.54 3830.888
+  angleY 150.554
+ }
+ {
+  coords 1899.463 18.572 3831.902
+  angleY 160.355
+ }
+ {
+  coords 1906.833 17.951 3835.107
+  angleY 160.355
+  angleZ 2.482
+ }
+ {
+  coords 1909.358 18.075 3836.052
+  angleY 160.355
+  angleZ 3.927
+ }
+ {
+  coords 1911.886 18.347 3837.143
+  angleY 160.355
+  angleZ 5.313
+ }
+ {
+  coords 1904.307 17.961 3834.23
+  angleY 160.355
+  angleZ 3.91
+ }
+ {
+  coords 1885.908 18.376 3808.782
+  angleY 26.978
+ }
+ {
+  coords 1903.513 18.736 3802.65
+  angleY -0.854
+ }
+ {
+  coords 1895.558 18.779 3804.203
+  angleY 22.479
+ }
+ {
+  coords 1888.281 18.451 3807.619
+  angleY 26.978
+ }
+ {
+  coords 1900.736 18.739 3802.709
+  angleY 8.414
+ }
+ {
+  coords 1885.508 18.399 3824.386
+  angleY 150.554
+ }
+ {
+  coords 1880.871 18.464 3820.432
+  angleY 87.789
+ }
+ {
+  coords 1913.584 19.189 3805.461
+  angleY -19.008
+ }
+ {
+  coords 1881.78 18.387 3812.364
+  angleY 61.968
+ }
+ {
+  coords 1898.068 18.699 3803.263
+  angleY 16.751
+ }
+ {
+  coords 1893.146 18.599 3805.577
+  angleY 26.978
+ }
+ {
+  coords 1906.271 18.733 3802.634
+  angleY -5.772
+ }
+ {
+  coords 1881.111 18.413 3817.662
+  angleY 87.789
+ }
+ {
+  coords 1911.266 18.767 3804.759
+  angleY -38.125
+ }
+ {
+  coords 1883.559 18.347 3810.289
+  angleY 40.925
+ }
+ {
+  coords 1881.222 18.403 3815.006
+  angleY 87.789
+ }
+ {
+  coords 1908.911 18.816 3803.313
+  angleY -24.916
+ }
+}
+GenericEntity : "{CD67070EFAFC28C7}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_burlap.et" {
+ coords 1914.851 23.009 3824.027
+ angleY 72.55
+}

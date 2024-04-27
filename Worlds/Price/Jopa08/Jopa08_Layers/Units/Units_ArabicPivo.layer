@@ -1,0 +1,129 @@
+$grp SCR_AIGroup : "{EA9949F006E2DC47}Prefabs/Groups/OPFOR/Ses_TKA/Group_TKA_RifleSquad.et" {
+ "(К-17Э с модулем Эпоха) Ses_TKA_G_001_8" {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6136965736DF641D}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1444.662 29.235 3462.724
+  angleY 164.944
+  m_aUnitPrefabSlots + {
+   "{015EC1B41DCFA4AD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew.et" "{015EC1B41DCFA4AD}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Crew.et"
+  }
+  m_sCustomNameSet "К-17Э с модулем Эпоха"
+ }
+ Ses_TKA_G_002_8 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6136965737CFB56C}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1419.929 29.47 3456.724
+  angleY 165.788
+  m_aUnitPrefabSlots + {
+   "{33B4C2A3A4CAF0AB}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Rifleman.et" "{33B4C2A3A4CAF0AB}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Rifleman.et"
+  }
+ }
+ Ses_TKA_G_010_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6136965734DEF2AF}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
+   }
+  }
+  coords 1405.566 29.858 3449.386
+  angleY -8.899
+ }
+ Ses_TKA_G_011_8 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{61369657341DDEDF}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1617.453 226.251 2447.316
+  angleY 49.916
+  m_aUnitPrefabSlots + {
+   "{33B4C2A3A4CAF0AB}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Rifleman.et" "{33B4C2A3A4CAF0AB}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Rifleman.et"
+  }
+ }
+ Ses_TKA_G_012_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6136965732FC9CAA}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1623.354 224.793 2468.789
+  angleY 138.237
+ }
+ "(ССО) Ses_TKA_G_020_8" {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{61369657321E84BE}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 0
+   }
+  }
+  coords 3955.385 4.815 2549.842
+  m_aUnitPrefabSlots {
+   "{54CB5C45A0884FA8}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_TeamLeader.et" "{12F431E2027BF994}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_SpecialRTO.et" "{C3DAFD25B2D52251}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_SpecialSoldier.et" "{D15C04BB3435495C}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_SpecialSoldier2.et" "{3FB09CBA64F82F18}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Sharpshooter.et" "{C3DAFD25B2D52251}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_SpecialSoldier.et" "{C3DAFD25B2D52251}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_SpecialSoldier.et" "{D15C04BB3435495C}Prefabs/Characters/Factions/OPFOR/TKA/SpecialForces/Character_TKA_SpecialSoldier2.et"
+  }
+  m_sCustomNameSet "ССО"
+ }
+ Ses_TKA_G_021_8 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6136965730B947F0}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2383.735 89.588 1565.757
+  angleY -55.191
+  m_aUnitPrefabSlots + {
+   "{33B4C2A3A4CAF0AB}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Rifleman.et" "{33B4C2A3A4CAF0AB}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Rifleman.et"
+  }
+ }
+ Ses_TKA_G_022_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6136965731E1493E}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1371.469 30.125 3448.343
+ }
+}

@@ -1,0 +1,34 @@
+$grp GenericEntity : "{090B9013CF776866}Prefabs/Props/Furniture/TableLong_01/TableLong_01_base.et" {
+ {
+  coords 1889.365 17.892 3824.431
+  angleY -23.949
+ }
+ {
+  coords 1893.242 17.801 3826.55
+  angleY -23.949
+ }
+}
+GenericEntity : "{0AA2F5202F5AB12D}Prefabs/Props/Military/Arsenal/AmmoBoxes/NormalBox_AmmoBox_US.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   MultiSlots {
+    MultiSlotConfiguration "{60E964D3F7AF8805}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et"
+     }
+     NumSlots 5
+    }
+   }
+  }
+ }
+ coords 1889.389 18.792 3824.478
+ angleY 154.808
+}
+GenericEntity : "{15BEDC6B899035DB}Prefabs/Yarmarka/YarmarkaBox.et" {
+ coords 1892.428 18.701 3826.189
+ angleY 65.314
+}
+GenericEntity : "{E5A62C51B1B1BB8B}Prefabs/Props/Military/Arsenal/AmmoBoxes/NormalBox_MedicalBox_US.et" {
+ coords 1893.267 18.701 3826.507
+ angleY 156.87
+}
