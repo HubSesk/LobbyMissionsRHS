@@ -1,7 +1,9 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  {
   m_sTitle "#PS-Description_HeaderAboutMission"
-  m_sTextData "ВСРФ собирается взять под контроль основную электростанцию острова Эверон."
+  m_sTextData "ВСРФ собирается взять под контроль основную электростанцию острова Эверон."\
+  ""\
+  "Не забывайте проверять инвентарь техники и осматриваться на старте миссии!"
   m_aVisibleForFactions {
    "RHS_US_USMC" "RHS_RF_MSV"
   }
