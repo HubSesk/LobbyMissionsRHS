@@ -1,0 +1,160 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 428.589 359.432 329.558
+  angleX -3.576
+  angleY 179.193
+  angleZ 0.05
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.502 0.125 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.229
+  m_sDescription "#AR-Vehicle_Skoda1203_Minibus_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_TKR"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ Ses_TKR_G_101_M {
+  coords 378.253 362.856 324.202
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.01 0.183 0.042 1
+  m_sQuadName "Undefined-indfor"
+  m_fWorldSize 50
+  m_sDescription "Batikh-12"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKR"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 10
+ }
+ Ses_TKR_G_100_M {
+  coords 378.429 366.209 350.049
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.01 0.183 0.042 1
+  m_sQuadName "Undefined-indfor"
+  m_fWorldSize 50
+  m_sDescription "Batikh-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKR"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 10
+ }
+ Ses_TKR_G_000_M {
+  coords 465.951 355.833 322.341
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.01 0.183 0.042 1
+  m_sQuadName "Undefined-indfor"
+  m_fWorldSize 50
+  m_sDescription "Alif-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKR"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 10
+ }
+ Ses_TKR_G_102_M {
+  coords 433.149 357.197 308.281
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.01 0.183 0.042 1
+  m_sQuadName "Undefined-indfor"
+  m_fWorldSize 50
+  m_sDescription "Batikh-13"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKR"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 10
+ }
+ Ses_TKR_G_002_M {
+  coords 466.01 352.577 295.302
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.01 0.183 0.042 1
+  m_sQuadName "Undefined-indfor"
+  m_fWorldSize 50
+  m_sDescription "Alif-13"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKR"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 10
+ }
+ Ses_TKR_G_001_M {
+  coords 501.194 346.801 309.024
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.01 0.183 0.042 1
+  m_sQuadName "Undefined-indfor"
+  m_fWorldSize 50
+  m_sDescription "Alif-12"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKR"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 10
+ }
+ {
+  coords 1305.274 213.486 987.078
+  angleZ 0.05
+  m_sImageSet "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "characters"
+  m_fWorldSize 120
+  m_sDescription "Армия Такистана"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_TKR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 1305.274 213.486 987.078
+  angleZ 0.05
+  m_sImageSet "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "characters"
+  m_fWorldSize 120
+  m_sDescription "Армия Такистана"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   5 1
+  }
+  m_iZOrder 0
+ }
+}

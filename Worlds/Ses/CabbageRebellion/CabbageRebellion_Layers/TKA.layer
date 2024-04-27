@@ -9,6 +9,12 @@ $grp Vehicle : "{3A87697F1B1415DB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM_Ses
       }
       NumSlots 10
      }
+     MultiSlotConfiguration "{6136A7D113ECA029}" {
+      SlotTemplate InventoryStorageSlot AKammunition {
+       Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      }
+      NumSlots 6
+     }
     }
    }
   }
@@ -27,6 +33,12 @@ $grp Vehicle : "{3A87697F1B1415DB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM_Ses
       }
       NumSlots 10
      }
+     MultiSlotConfiguration "{6136A7D11D5AE76E}" {
+      SlotTemplate InventoryStorageSlot AKammunition {
+       Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      }
+      NumSlots 6
+     }
     }
    }
   }
@@ -37,6 +49,36 @@ $grp Vehicle : "{3A87697F1B1415DB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM_Ses
  }
 }
 Vehicle Ural4320_Ses_TKA_transport1 : "{6C98ACF4A2DA1970}Prefabs/Vehicles/Wheeled/Ural4320/Ses_TKA/Ural4320_Ses_TKA_transport.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6136A7D12A0D7D41}" {
+     SlotTemplate InventoryStorageSlot AKammunition {
+      Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{6136A7D134E2C81B}" {
+     SlotTemplate InventoryStorageSlot AKammunition {
+      Prefab "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+     }
+     NumSlots 15
+    }
+    MultiSlotConfiguration "{6136A7D13E2F6695}" {
+     SlotTemplate InventoryStorageSlot AKammunition {
+      Prefab "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et"
+     }
+     NumSlots 15
+    }
+    MultiSlotConfiguration "{6136A7D138A57BB7}" {
+     SlotTemplate InventoryStorageSlot AKammunition {
+      Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+     NumSlots 10
+    }
+   }
+  }
+ }
  coords 1396.744 197.06 1009.677
  angleX 5.421
  angleY -96.345
@@ -84,6 +126,12 @@ Vehicle Mi8MT_TKA1 : "{A8BFC494FC1757A6}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT
      }
      NumSlots 1
     }
+    MultiSlotConfiguration "{6136A7D08EC544E5}" {
+     SlotTemplate InventoryStorageSlot AKammunition {
+      Prefab "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et"
+     }
+     NumSlots 10
+    }
    }
   }
  }
@@ -91,6 +139,36 @@ Vehicle Mi8MT_TKA1 : "{A8BFC494FC1757A6}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT
  angleX 4.23
 }
 Vehicle Ural4320_Ses_TKA_transport_covered1 : "{AC3FA513706226DD}Prefabs/Vehicles/Wheeled/Ural4320/Ses_TKA/Ural4320_Ses_TKA_transport_covered.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6136A7D098D9018E}" {
+     SlotTemplate InventoryStorageSlot AKammunition {
+      Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{6136A7D1704FD26D}" {
+     SlotTemplate InventoryStorageSlot AKammunition {
+      Prefab "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+     }
+     NumSlots 15
+    }
+    MultiSlotConfiguration "{6136A7D142738C1A}" {
+     SlotTemplate InventoryStorageSlot AKammunition {
+      Prefab "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et"
+     }
+     NumSlots 15
+    }
+    MultiSlotConfiguration "{6136A7D10BFFADFA}" {
+     SlotTemplate InventoryStorageSlot AKammunition {
+      Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+     NumSlots 10
+    }
+   }
+  }
+ }
  coords 1268.319 218.031 979.659
  angleY -95.753
 }
@@ -239,6 +317,18 @@ $grp SCR_AIGroup : "{EA9949F006E2DC47}Prefabs/Groups/OPFOR/Ses_TKA/Group_TKA_Rif
  }
 }
 Vehicle UAZ469_Ses_TKA1 : "{F3C22A3CC0664AB7}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Ses_TKA.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6136A7D0ACFB2090}" {
+     SlotTemplate InventoryStorageSlot AKammunition {
+      Prefab "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+     }
+     NumSlots 5
+    }
+   }
+  }
+ }
  coords 1432.529 193.732 1015.331
  angleX 5.312
  angleY -97.347

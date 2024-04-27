@@ -11,6 +11,9 @@ $grp SCR_AIGroup : "{CC34035B3181DD15}Prefabs/Groups/INDFOR/TKR/Group_TKR_RifleS
   }
   coords 378.253 362.856 324.202
   angleY 174.039
+  m_aUnitPrefabSlots {
+   "{325212741F0BF673}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Leader.et" "{25C1EFF99221CF49}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_MG.et" "{AF7E582285E7C5F6}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_AT.et" "{CB6F0A17F436FFE9}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Militiamen.et" "{CB6F0A17F436FFE9}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Militiamen.et" "{A1F70829C119B970}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Militiamen2.et" "{446B44D0CDFC2E1B}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Militiamen3.et"
+  }
  }
  {
   components {
@@ -21,7 +24,7 @@ $grp SCR_AIGroup : "{CC34035B3181DD15}Prefabs/Groups/INDFOR/TKR/Group_TKR_RifleS
     m_iCompanyCallsign 1
    }
   }
-  coords 378.429 365.492 350.049
+  coords 378.429 366.209 350.049
   angleY 177.215
  }
  {
@@ -51,6 +54,9 @@ $grp SCR_AIGroup : "{CC34035B3181DD15}Prefabs/Groups/INDFOR/TKR/Group_TKR_RifleS
   }
   coords 433.149 357.197 308.281
   angleY -177.448
+  m_aUnitPrefabSlots {
+   "{325212741F0BF673}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Leader.et" "{25C1EFF99221CF49}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_MG.et" "{77D631E3FC6EDBAA}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_AR.et" "{AF7E582285E7C5F6}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_AT.et" "{CB6F0A17F436FFE9}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Militiamen.et" "{A1F70829C119B970}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Militiamen2.et" "{446B44D0CDFC2E1B}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Militiamen3.et"
+  }
  }
  {
   components {
@@ -63,6 +69,9 @@ $grp SCR_AIGroup : "{CC34035B3181DD15}Prefabs/Groups/INDFOR/TKR/Group_TKR_RifleS
   }
   coords 466.01 352.577 295.302
   angleY 93.803
+  m_aUnitPrefabSlots {
+   "{325212741F0BF673}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Leader.et" "{25C1EFF99221CF49}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_MG.et" "{CB6F0A17F436FFE9}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Militiamen.et" "{AF7E582285E7C5F6}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_AT.et" "{CB6F0A17F436FFE9}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Militiamen.et" "{A1F70829C119B970}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Militiamen2.et" "{446B44D0CDFC2E1B}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Militiamen3.et"
+  }
  }
  {
   components {
@@ -74,6 +83,9 @@ $grp SCR_AIGroup : "{CC34035B3181DD15}Prefabs/Groups/INDFOR/TKR/Group_TKR_RifleS
    }
   }
   coords 501.194 346.801 309.024
+  m_aUnitPrefabSlots {
+   "{325212741F0BF673}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Leader.et" "{25C1EFF99221CF49}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_MG.et" "{CB6F0A17F436FFE9}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Militiamen.et" "{AF7E582285E7C5F6}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_AT.et" "{CB6F0A17F436FFE9}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Militiamen.et" "{A1F70829C119B970}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Militiamen2.et" "{446B44D0CDFC2E1B}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Militiamen3.et"
+  }
  }
 }
 $grp GenericEntity : "{D9DF8E01E73A2E97}PrefabsEditable/Auto/Structures/Military/Flags/FlagPole_02_V1_TKR_Editable.et" {
@@ -86,6 +98,18 @@ $grp GenericEntity : "{D9DF8E01E73A2E97}PrefabsEditable/Auto/Structures/Military
  }
 }
 Vehicle S1203_transport_blue1 : "{F77C41245A580FD1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_blue.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{607097C321D5128E}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6136A7D1FE1F66AD}" {
+     SlotTemplate InventoryStorageSlot ATMine {
+      Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+     }
+     NumSlots 4
+    }
+   }
+  }
+ }
  coords 428.589 359.432 329.558
  angleX -3.576
  angleY 89.193
