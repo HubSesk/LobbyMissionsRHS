@@ -48,7 +48,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  Ses_CDF_G_110_M {
-  coords 3386.469 196.148 12991.635
+  coords 3433.104 196.148 12712.12
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.025 0.61 0.446 1
@@ -64,7 +64,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  Ses_CDF_G_000_M {
-  coords 3245.701 203.312 13051.727
+  coords 3387.334 203.312 12992.253
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.025 0.61 0.446 1
@@ -120,7 +120,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 1 1 1 1
   m_sQuadName "armored-opfor"
   m_fWorldSize 45
-  m_sDescription "Актив-31"
+  m_sDescription "Актив-31 (Экипаж)"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "RHS_RF_MSV"
@@ -137,7 +137,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 1 1 1 1
   m_sQuadName "infantry-opfor"
   m_fWorldSize 45
-  m_sDescription "Буран-21"
+  m_sDescription "Буран-21 (Экипаж)"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "RHS_RF_MSV"
@@ -297,26 +297,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_iZOrder 0
  }
- {
-  coords 339.992 294.75 9433.981
-  angleX -0.414
-  angleY 152.462
-  angleZ -0.794
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.555 0.002 0 1
-  m_sQuadName "Truck"
-  m_fWorldSize 5
-  m_sDescription "#AR-Vehicle_Ural4320_Transport_Covered_Name #RHS-Camo"
-  m_bUseWorldScale 1
-  m_aVisibleForFactions {
-   "RHS_RF_MSV"
-  }
-  m_aHideOnGameModeStates {
-   3 1
-  }
-  m_iZOrder 0
- }
  RHS_RF_MSV_G_010_M {
   coords 5913.766 227.816 13541.954
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
@@ -324,7 +304,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 1 1 1 1
   m_sQuadName "maintenance-opfor"
   m_fWorldSize 45
-  m_sDescription "Актив-21"
+  m_sDescription "Актив-21 (Рембат)"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "RHS_RF_MSV"
@@ -496,6 +476,42 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 339.093 294.759 9433.434
+  angleX -0.503
+  angleY 145.839
+  angleZ -0.741
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "APC"
+  m_fWorldSize 5
+  m_sDescription "#RHS-Vehicle_K17_Epoch_Name #RHS-Camo"
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3 1
+  }
+  m_iZOrder 0
+ }
+ Ukrep {
+  coords 3400.478 224.241 12729.355
+  angleY 126.803
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "flag-2"
+  m_fWorldSize 40
+  m_sDescription "Укрепление с НСВ"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_aHideOnGameModeStates {
+   3
   }
   m_iZOrder 0
  }

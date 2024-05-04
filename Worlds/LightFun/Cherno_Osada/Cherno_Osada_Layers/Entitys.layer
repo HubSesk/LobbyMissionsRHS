@@ -23,6 +23,28 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
 }
 HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
 }
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  m_sTitle "Захватить дом мэра"
+  m_iScore 50
+  m_sFactionKey "RHS_RF_MSV"
+ }
+ {
+  m_sTitle "Захватить административное здание"
+  m_iScore 50
+  m_sFactionKey "RHS_RF_MSV"
+ }
+ {
+  m_sTitle "Удержать дом мэра"
+  m_iScore 50
+  m_sFactionKey "Ses_CDF"
+ }
+ {
+  m_sTitle "Удержать административное здание"
+  m_iScore 50
+  m_sFactionKey "Ses_CDF"
+ }
+}
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  {
   coords 316.989 294.883 9370.775

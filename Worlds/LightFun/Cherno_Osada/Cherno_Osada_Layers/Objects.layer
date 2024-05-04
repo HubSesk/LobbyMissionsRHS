@@ -1,8 +1,218 @@
+$grp GenericEntity : "{06B68C58B72EAAC6}Prefabs/Items/Equipment/Backpacks/Backpack_ALICE_Medium.et" {
+ {
+  coords 3386.437 224.571 12741.094
+ }
+ {
+  coords 3416.665 224.571 12738.947
+ }
+}
+$grp GenericEntity : "{0A7A25EF56265A70}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_plastic.et" {
+ {
+  coords 3385.862 223.818 12735.913
+  angleY 5.161
+ }
+ {
+  coords 3385.139 223.818 12740.56
+  angleY -89.622
+ }
+ {
+  coords 3387.002 223.818 12741.953
+  angleY 4.591
+ }
+ {
+  coords 3385.888 223.818 12734.195
+  angleY 95.6
+ }
+ {
+  coords 3387.513 223.818 12731.138
+  angleY 6.107
+ }
+ {
+  coords 3392.188 223.818 12738.887
+  angleY -87.598
+ }
+ {
+  coords 3416.039 223.818 12740.192
+  angleY 5.273
+ }
+ {
+  coords 3416.544 223.818 12733.758
+  angleY 3.806
+ }
+ {
+  coords 3413.893 223.818 12733.852
+  angleY 2.914
+ }
+ {
+  coords 3412.958 223.818 12732.154
+  angleY -86.019
+ }
+ {
+  coords 3410.417 223.818 12737.637
+  angleY -85.626
+ }
+ {
+  coords 3385.739 223.818 12732.379
+  angleY 95.6
+ }
+ {
+  coords 3390.181 223.818 12730.885
+  angleY 6.107
+ }
+ {
+  coords 3391.205 223.818 12732.592
+  angleY 95.6
+ }
+ {
+  coords 3392.131 223.818 12734.141
+  angleY -174.406
+ }
+ {
+  coords 3392.943 223.818 12737.058
+  angleY -174.406
+ }
+ {
+  coords 3411.143 223.818 12729.492
+  angleY -174.406
+ }
+ {
+  coords 3412.891 223.818 12730.775
+  angleY -86.019
+ }
+ {
+  coords 3408.634 223.818 12729.636
+  angleY -174.406
+ }
+ {
+  coords 3407.874 223.818 12731.558
+  angleY -86.019
+ }
+ {
+  coords 3409.491 223.783 12736.018
+  angleY 4.4
+ }
+ {
+  coords 3408.882 223.818 12733.255
+  angleY -174.669
+ }
+ {
+  coords 3417.855 223.818 12738.825
+  angleY -86.019
+ }
+}
+Turret : "{29F0CC704A582154}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV.et" {
+ coords 3455.314 195.447 12989.445
+ angleY 54.237
+}
+$grp Turret : "{3EA26CFD7A202636}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV_SPP.et" {
+ {
+  coords 3421.319 224.738 12734.938
+  angleY 93.331
+ }
+ {
+  coords 3381.28 224.689 12737.938
+  angleY -89.869
+ }
+ {
+  coords 3390.746 224.711 12743.461
+  angleY 3.265
+ }
+ {
+  coords 3412.616 224.745 12741.98
+  angleY 3.116
+ }
+}
+$grp GenericEntity : "{3F2D1FB239682B87}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_plastic.et" {
+ {
+  coords 3382.454 223.849 12737.848
+  angleY -87.747
+ }
+ {
+  coords 3390.702 223.818 12742.434
+  angleY 2.937
+ }
+ {
+  coords 3412.521 223.818 12740.971
+  angleY 5.121
+ }
+ {
+  coords 3420.124 223.818 12735.064
+  angleY 94.616
+ }
+}
+$grp GenericEntity : "{4CD3159446EC131B}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_APIT.et" {
+ {
+  coords 3416.74 224.571 12738.584
+ }
+ {
+  coords 3416.732 224.571 12738.365
+ }
+ {
+  coords 3416.583 224.819 12736.812
+ }
+ {
+  coords 3416.48 224.817 12736.217
+ }
+ {
+  coords 3416.261 224.822 12736.491
+  angleY -73.468
+ }
+ {
+  coords 3416.46 224.571 12738.539
+  angleY -73.468
+ }
+ {
+  coords 3386.553 224.819 12738.426
+  angleY -73.468
+ }
+ {
+  coords 3386.647 224.571 12740.555
+  angleY -73.468
+ }
+ {
+  coords 3386.226 224.571 12740.605
+  angleY -86.551
+ }
+ {
+  coords 3386.419 224.571 12740.655
+  angleY -81.684
+ }
+ {
+  coords 3386.272 224.826 12738.918
+  angleY -172.958
+ }
+ {
+  coords 3386.127 224.81 12738.347
+  angleY -154.877
+ }
+}
+GenericEntity : "{61980E6F3CA71107}Prefabs/Items/Cats/Dingus.et" {
+ coords 3423.551 199.388 12835.309
+ angleY -123.589
+}
 $grp GenericEntity : "{74E665E138AA8E21}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_CDF.et" {
  {
   coords 3428.082 203.972 12987.495
  }
  {
   coords 3344.938 211.508 13111.97
+ }
+}
+$grp GenericEntity : "{F3EC400DB092C2A4}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_plastic.et" {
+ {
+  coords 3381.208 223.468 12737.989
+  angleY 2.4
+ }
+ {
+  coords 3390.75 223.47 12743.55
+  angleY 94.461
+ }
+ {
+  coords 3412.625 223.468 12742.022
+  angleY 95.323
+ }
+ {
+  coords 3421.388 223.499 12734.937
+  angleY -176.246
  }
 }
