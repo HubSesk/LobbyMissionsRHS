@@ -1,0 +1,44 @@
+$grp Vehicle : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
+ UH1H1 {
+  coords 3013.31 8.987 2060.94
+  angleY 75.009
+ }
+ UH1H2 {
+  coords 2977.613 9.235 2058.778
+  angleY 73.499
+ }
+ UH1H3 {
+  coords 3000.838 8.994 2099.896
+  angleY 76.626
+ }
+ UH1H4 {
+  coords 2965.582 8.907 2091.51
+  angleY 77.405
+ }
+}
+Vehicle M998_covered_long_MERDC1 : "{751AFEEA19DDFB04}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_MERDC.et" {
+ coords 3892.335 15.271 8438.986
+}
+$grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ BTR1 {
+  coords 4569.112 14.812 10362.895
+  angleY -144.765
+ }
+ BTR2 {
+  coords 4582.427 14.725 10379.229
+  angleY -148.604
+ }
+}
+$grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
+ Ural4320_transport_covered1 {
+  coords 4591.437 14.719 10397.733
+  angleY -165.046
+ }
+ Ural4320_transport_covered2 {
+  coords 4593.528 14.994 10424.573
+  angleY 174.867
+ }
+}
+Vehicle M1025_armed_M2HB_MERDC1 : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
+ coords 3892.906 15.204 8446.78
+}

@@ -1,0 +1,42 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 2620.275 0.87 2144.112
+  m_sTitle "Захватить Алмаз (Госпиталь)"
+  m_sTextData "2 отряда противника расположены на госпитале. У противника предположительно есть техника. Разведка докладывает, что противник собирается перебросить подкрепление по воздуху c востока. "
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_iScore 50
+  m_sFactionKey "USSR"
+ }
+ {
+  coords 2620.015 0.846 2140.655
+  m_sTitle "Сохранить более 50% развернутых сил"
+  m_sTextData "Сохранить более 50% развернутых сил"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_iScore 50
+  m_sFactionKey "USSR"
+ }
+ {
+  coords 2619.769 0.822 2139.235
+  m_sTitle "Удержать Лаки (Госпиталь) от захвата."
+  m_sTextData "По данным разведки их силы двинутся с запада. У них есть бронированная техника."
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_iScore 50
+  m_sFactionKey "US"
+ }
+ {
+  coords 2619.396 0.778 2137.505
+  m_sTitle "Сохранить более 50% развернутых сил"
+  m_sTextData "Сохранить более 50% развернутых сил"
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_iScore 50
+  m_sFactionKey "US"
+ }
+}

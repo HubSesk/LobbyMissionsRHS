@@ -1,0 +1,33 @@
+$grp GenericEntity : "{76D4FE49EA6C57F3}Prefabs/Compositions/Slotted/SlotFlatLarge/LivingArea_L_US_01.et" {
+ {
+  coords 2950.354 5.988 2203.383
+  angleX 1.778
+  angleY 173.467
+  angleZ -0.204
+ }
+ {
+  coords 3924.79 15.349 8446.896
+ }
+}
+GenericEntity : "{CDD0712FD6215F03}Prefabs/Compositions/Slotted/SlotFlatMedium/FieldHospital_M_US_01.et" {
+ coords 2906.612 6.531 2082.874
+ angleY -7.536
+}
+$grp StaticModelEntity : "{CF1FFB7BAA1A0769}Prefabs/Structures/Military/Camps/HelipadImprovised_01/HelipadImprovised_US_01.et" {
+ {
+  coords 3001.372 1.368 2099.447
+  angleY 75.768
+ }
+ {
+  coords 3013.254 1.451 2060.704
+  angleY 75.768
+ }
+ {
+  coords 2966.465 1.221 2091.421
+  angleY 75.768
+ }
+ {
+  coords 2978.36 1.481 2058.827
+  angleY 75.768
+ }
+}

@@ -1,0 +1,117 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 4606.214 15.269 10424.791
+  angleY 175.597
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "arrow-large-2"
+  m_fWorldSize 50
+  m_sDescription "Актив"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 4475.728 77.478 8626.52
+  angleY -109.166
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "arrow-large-2"
+  m_fWorldSize 50
+  m_sDescription "Разведка (Буран)"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 3917.058 15.048 8472.661
+  angleY 90.322
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "flag-3"
+  m_fWorldSize 50
+  m_sDescription "Госпиталь (Атлас)"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   5 1
+  }
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 2967.291 7.355 2134.74
+  angleY 22.927
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "arrow-large-2"
+  m_fWorldSize 50
+  m_sDescription "Блейзер"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 3902.878 15.3 8444.792
+  angleY 95.622
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "destroy"
+  m_fWorldSize 50
+  m_sDescription "Алмаз (Госпиталь)"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 3891.744 15.25 8456.203
+  angleY 91.647
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "flag-3"
+  m_fWorldSize 50
+  m_sDescription "Лаки (Госпиталь)"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 4028.338 27.836 8915.945
+  angleY -142.642
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "arrow-large-2"
+  m_fWorldSize 50
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 3535.759 0 8412.394
+  angleY 83.752
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "arrow-large-2"
+  m_fWorldSize 50
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_bShowForAnyFaction 1
+ }
+}
