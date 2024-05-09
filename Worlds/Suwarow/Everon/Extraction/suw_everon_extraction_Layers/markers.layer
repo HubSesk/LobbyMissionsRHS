@@ -1,0 +1,43 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 7172.278 137.473 2353.307
+  angleY 86.295
+  m_MarkerColor 0 0.502 0.125 1
+  m_sQuadName "mark-exclamation"
+  m_fWorldSize 50
+  m_sDescription "Документы."
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 8818.637 95.132 2768.362
+  angleY 73.588
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "flag"
+  m_fWorldSize 50
+  m_sDescription "США"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 6773.896 7.795 3941.034
+  angleY 79.419
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "flag"
+  m_fWorldSize 50
+  m_sDescription "РФ"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+}

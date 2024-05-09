@@ -1,0 +1,58 @@
+GenericEntity : "{6D56FED1E55A8F84}Prefabs/Items/Misc/IntelligenceFolder_E_01/IntelligenceFolder_E_01.et" {
+ coords 7169.323 141.86 2347.694
+}
+$grp Vehicle : "{A33FC5774C0166A3}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_UK59_Ses_NAPA.et" {
+ UAZ469_UK59_Ses_NAPA1 {
+  coords 7181.424 137.156 2372.977
+ }
+ UAZ469_UK59_Ses_NAPA2 {
+  coords 7184.216 137.403 2338.194
+  angleY -179.646
+ }
+}
+$grp Vehicle : "{D9BCD36DBDCF660C}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Ses_NAPA.et" {
+ UAZ469_Ses_NAPA1 {
+  coords 7185.366 137.156 2372.788
+ }
+ UAZ469_Ses_NAPA2 {
+  coords 7181.043 137.396 2338.629
+  angleY 178.054
+ }
+}
+$grp SCR_AIGroup : "{F83A6FB6CB36AE0F}Prefabs/Groups/INDFOR/Ses_NAPA/Group_Ses_NAPA_RifleSquad.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 7179.65 137.329 2357.061
+  angleY 88.163
+  m_aUnitPrefabSlots + {
+   "{DDB884019AEDE28A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AT.et" "{0510EDC0E364FCD6}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AR.et" "{CD129913E6D6649A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_LAT.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 7183.765 137.267 2357.141
+  angleY 88.163
+  m_aUnitPrefabSlots +{
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 7185.375 137.232 2357.261
+  angleY 88.163
+  m_aUnitPrefabSlots {
+   "{68981CDFD1E05EC5}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_SL.et" "{570733DA8D2BE835}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG.et" "{E6A32FEAA73639D4}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Medic.et" "{DDB884019AEDE28A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AT.et" "{CD129913E6D6649A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_LAT.et" "{DDB884019AEDE28A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AT.et"
+  }
+ }
+}

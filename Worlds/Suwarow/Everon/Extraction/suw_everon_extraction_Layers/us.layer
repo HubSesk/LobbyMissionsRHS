@@ -1,0 +1,68 @@
+$grp Vehicle : "{589F8D16C55CFD00}Prefabs/Vehicles/Wheeled/M998/kiok_m1114_armed_m2tower_green.et" {
+ kiok_m1114_armed_m2tower_green1 {
+  coords 8814.772 94.806 2758.187
+  angleY 164.41
+ }
+ kiok_m1114_armed_m2tower_green2 {
+  coords 8812.32 95.123 2765.948
+  angleY 164.41
+ }
+}
+$grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
+ M923A1_transport_covered1 {
+  coords 8808.244 95.655 2776.446
+  angleX -3.655
+  angleY 158.485
+  angleZ 0.479
+ }
+ M923A1_transport_covered2 {
+  coords 8804.814 96.397 2786.762
+  angleX -3.655
+  angleY 158.485
+  angleZ 0.479
+ }
+ M923A1_transport_covered3 {
+  coords 8799.552 97.213 2797.693
+  angleX -3.655
+  angleY 158.485
+  angleZ 0.479
+ }
+}
+$grp SCR_AIGroup : "{F831DFB4A9B46152}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_RifleSquad.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 8826.742 95.144 2773.612
+  angleY -108.463
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 8825.438 95.169 2773.179
+  angleY -108.463
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 8824.542 95.158 2773.026
+  angleY -108.463
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 8823.476 95.168 2772.646
+  angleY -108.463
+ }
+}

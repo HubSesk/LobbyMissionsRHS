@@ -1,0 +1,101 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 6535.165 0 2410.053
+  angleY 11.33
+  m_sTitle "Захватить документы и вывезти их"
+  m_sTextData "Захватите документы в городе Регина и доставьте их на точку РФ."
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_iScore 75
+  m_sFactionKey "RHS_RF_MSV"
+ }
+ {
+  coords 6535.595 0 2412.001
+  angleY 11.33
+  m_sTitle "Уничтожить силы ВС США и НАПА"
+  m_sTextData "Уничтожить силы ВС США и НАПА. По информации разведки: ВС США обладает 2 бронированными автомобилями и 3 грузовиками. НАПА обладает 2 вооруженными автомобилями."
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_iScore 75
+  m_sFactionKey "RHS_RF_MSV"
+ }
+ {
+  coords 6537.917 -0 2403.168
+  angleY 11.33
+  m_sTitle "Сохранить более 50% развернутых сил"
+  m_sTextData "Сохраните более 50% развернутых сил, чтобы миссия считалось идеально выполненной."
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_iScore 25
+  m_sFactionKey "RHS_RF_MSV"
+ }
+ {
+  coords 6535.723 0 2412.633
+  angleY 11.33
+  m_sTitle "Захватить документы и вывезти их"
+  m_sTextData "Захватите документы в городе Регина и доставьте их на точку США."
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_iScore 75
+  m_sFactionKey "RHS_US_USMC"
+ }
+ {
+  coords 6535.929 0 2413.545
+  angleY 11.33
+  m_sTitle "Уничтожить силы ВС РФ и НАПА"
+  m_sTextData "Уничтожить силы ВС РФ и НАПА. По информации разведки: ВС РФ обладает 2 бронированными автомобилями и 3 грузовиками. НАПА обладает 2 вооруженными автомобилями."
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_iScore 75
+  m_sFactionKey "RHS_US_USMC"
+ }
+ {
+  coords 6537.101 0 2413.598
+  angleY 11.33
+  m_sTitle "Сохранить более 50% развернутых сил"
+  m_sTextData "Сохраните более 50% развернутых сил, чтобы миссия считалось идеально выполненной."
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_iScore 25
+  m_sFactionKey "RHS_US_USMC"
+ }
+ {
+  coords 6540.106 0 2428.274
+  angleY 11.33
+  m_sTitle "Защитить документы"
+  m_sTextData "Вы знаете, что ВС США и ВС РФ объявили охоту за документами. Ваша задача их защитить и ни в коем случае не дать им их вывезти. Вам запрещается перемещать эти документы до момента, пока враг не тронул их и не перенес в другое место тогда Вы имеете право взять документы и вернуть в изначальное место."
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+  m_iScore 75
+  m_sFactionKey "Ses_NAPA"
+ }
+ {
+  coords 6540.708 -0 2430.689
+  angleY 11.33
+  m_sTitle "Уничтожить ВС США и ВС РФ"
+  m_sTextData "Уничтожить силы ВС РФ и ВС США. По информации разведки: ВС РФ и ВС США обладают 2 бронированными автомобилями и 3 грузовиками."
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+  m_iScore 75
+  m_sFactionKey "Ses_NAPA"
+ }
+ {
+  coords 6541.147 -0 2431.708
+  angleY 11.33
+  m_sTitle "Сохранить более 50% развернутых сил"
+  m_sTextData "Сохраните более 50% развернутых сил, чтобы миссия считалось идеально выполненной."
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+  m_iScore 25
+  m_sFactionKey "Ses_NAPA"
+ }
+}
