@@ -1,0 +1,222 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 7650.27 12.38 8134.701
+  angleY 92.854
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "mark-exclamation"
+  m_fWorldSize 50
+  m_sDescription "Центавр (Военная база)"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 6189.383 183.156 7448.87
+  angleY 0
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "dot"
+  m_fWorldSize 50
+  m_sDescription "Актив-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 6941.176 84.515 8251.832
+  angleY 0
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "dot"
+  m_fWorldSize 50
+  m_sDescription "Актив-12"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 7455.169 19.37 8769.236
+  angleY 0
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "dot"
+  m_fWorldSize 50
+  m_sDescription "Актив-13"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 7608.304 12.344 8140.011
+  angleY 0
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "dot"
+  m_fWorldSize 50
+  m_sDescription "Актив-21"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 7597.078 12.464 8162.441
+  angleY 0
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "dot"
+  m_fWorldSize 50
+  m_sDescription "Актив-22"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 7671.32 12.965 8079.532
+  angleY 0
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "dot"
+  m_fWorldSize 50
+  m_sDescription "Актив-31"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 7683.752 13.022 8095.431
+  angleY 0
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "dot"
+  m_fWorldSize 50
+  m_sDescription "Актив-32"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 5762.87 217.393 7062.017
+  angleY 0
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "dot"
+  m_fWorldSize 50
+  m_sDescription "Атлас Ред 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 5766.622 217.633 7073.519
+  angleY 0
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "dot"
+  m_fWorldSize 50
+  m_sDescription "Атлас Ред 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 10147.616 2.531 1517.175
+  angleY 0
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "dot"
+  m_fWorldSize 50
+  m_sDescription "Блейзер Ред 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 10138.79 2.531 1520.227
+  angleY 0
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "dot"
+  m_fWorldSize 50
+  m_sDescription "Блейзер Ред 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 10152.995 2.438 1500.03
+  angleY 0
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "dot"
+  m_fWorldSize 50
+  m_sDescription "Хаос Ред 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 10146.146 2.437 1502.008
+  angleY 0
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "dot"
+  m_fWorldSize 50
+  m_sDescription "Хаос Ред 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 6055.826 212.087 7041.201
+  angleY 15.524
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "arrow-large"
+  m_fWorldSize 50
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_bShowForAnyFaction 1
+ }
+}
