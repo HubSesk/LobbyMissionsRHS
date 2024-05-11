@@ -1,31 +1,31 @@
-$grp Vehicle : "{589F8D16C55CFD00}Prefabs/Vehicles/Wheeled/M998/kiok_m1114_armed_m2tower_green.et" {
- kiok_m1114_armed_m2tower_green1 {
-  coords 8814.772 94.806 2758.187
-  angleY 164.41
- }
- kiok_m1114_armed_m2tower_green2 {
-  coords 8812.32 95.123 2765.948
-  angleY 164.41
- }
-}
 $grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
  M923A1_transport_covered1 {
-  coords 8808.244 95.655 2776.446
+  coords 8808.244 95.649 2776.446
   angleX -3.655
   angleY 158.485
   angleZ 0.479
  }
  M923A1_transport_covered2 {
-  coords 8804.814 96.397 2786.762
+  coords 8804.814 96.398 2786.762
   angleX -3.655
   angleY 158.485
   angleZ 0.479
  }
  M923A1_transport_covered3 {
-  coords 8799.552 97.213 2797.693
+  coords 8799.552 97.214 2797.693
   angleX -3.655
   angleY 158.485
   angleZ 0.479
+ }
+}
+$grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
+ M1025_armed_M2HB_MERDC1 {
+  coords 8815.457 94.804 2758.454
+  angleY 160.761
+ }
+ M1025_armed_M2HB_MERDC2 {
+  coords 8813.105 95.068 2764.722
+  angleY 160.761
  }
 }
 $grp SCR_AIGroup : "{F831DFB4A9B46152}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_RifleSquad.et" {
