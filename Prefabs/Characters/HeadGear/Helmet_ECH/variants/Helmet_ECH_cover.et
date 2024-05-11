@@ -1,0 +1,26 @@
+GameEntity : "{50CAAEEDC59F23C6}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Enabled 0
+     Prefab "{2934192D7BA3465E}Prefabs/Characters/Eyewear/gascan/Eyewear_gascan.et"
+    }
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{6C51FC9775C601E5}Prefabs/Characters/HeadGear/Helmet_ECH/Headgear_ECH_cover_base.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab ""
+    }
+    RHS_LoadoutSlotInfo NVG {
+     Prefab ""
+    }
+    RHS_LoadoutSlotInfo Headset {
+     Enabled 0
+     Prefab "{85D618A51C013F7A}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_yellow.et"
+    }
+   }
+  }
+ }
+}

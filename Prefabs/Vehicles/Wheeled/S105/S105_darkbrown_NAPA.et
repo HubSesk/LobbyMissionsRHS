@@ -1,0 +1,21 @@
+Vehicle : "{DA79E34823120087}Prefabs/Vehicles/Wheeled/S105/S105_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{615538EF0B3D0F43}" {
+     SourceMaterial "S105Body_mat"
+     AssignedMaterial "{922DF7DFE9943C0D}Assets/Vehicles/Wheeled/S105/Data/S105Body_mat_darkbrown.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_Image "{B15A98B98AAD15F8}UI/Textures/EditorPreviews/Vehicles/Wheeled/S105/S105_darkbrown.edds"
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_NAPA"
+  }
+ }
+}

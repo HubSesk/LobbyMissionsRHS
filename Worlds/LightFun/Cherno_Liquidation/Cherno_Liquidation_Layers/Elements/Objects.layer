@@ -1,0 +1,57 @@
+GenericEntity : "{1ABA1239EEA6FAC6}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_Bunker_Soviet.et" {
+ coords 6543.068 323.353 6071.727
+ angleY 162.487
+}
+GenericEntity : "{79AA43911CC6C3E8}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_Small_Soviet.et" {
+ coords 6552.332 322.125 6084.174
+ angleY 69.645
+}
+GenericEntity : "{A700AD9077074654}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_Large_Soviet.et" {
+ coords 6537.727 322.181 6101.128
+ angleY -7.353
+}
+GenericEntity : "{B6307C189CCCA0B9}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_plastic.et" {
+ coords 6545.812 321.954 6083.692
+ angleY 21.467
+}
+StaticModelEntity : "{E27FB14C3073BF80}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/Sandbag_01_bunker_plastic_CompositionDestruction.et" {
+ coords 6543.068 323.14 6071.727
+ angleY 162.487
+}
+GenericEntity : "{EA3695BD1C032FE2}PrefabsEditable/Auto/Structures/Military/Flags/FlagPole_02_V1_ChDKZ_Editable.et" {
+ coords 6543.03 322.122 6091.918
+}
+$grp GenericEntity : "{F29A05EBA7063E7C}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_plastic.et" {
+ {
+  coords 6540.512 321.88 6074.491
+  angleY 72.564
+ }
+ {
+  coords 6539.755 321.912 6076.921
+  angleY 72.564
+ }
+ {
+  coords 6538.991 321.957 6079.436
+  angleY 72.564
+ }
+ {
+  coords 6539.32 321.981 6081.349
+  angleY 160.6
+ }
+ {
+  coords 6541.783 321.966 6082.217
+  angleY 160.6
+ }
+ {
+  coords 6547.28 321.837 6075.965
+  angleY 160.6
+ }
+ {
+  coords 6548.738 321.857 6077.33
+  angleY 72.564
+ }
+ {
+  coords 6547.954 321.878 6079.917
+  angleY 72.564
+ }
+}

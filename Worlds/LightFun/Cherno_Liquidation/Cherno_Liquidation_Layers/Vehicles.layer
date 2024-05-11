@@ -1,0 +1,106 @@
+Vehicle Ural4320_transport_covered_CIV_orange1 : "{66241E0CEDFCEE00}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_orange.et" {
+ coords 4753.925 321.822 5697.315
+ angleX 1.137
+ angleY 108.939
+ angleZ -0.556
+}
+$grp Vehicle : "{9C1CFC294070828D}Prefabs/Vehicles/Wheeled/S105/S105_darkblue_NAPA.et" {
+ S105_darkblue_NAPA1 {
+  coords 6779.802 161.802 4095.972
+  angleX 4.435
+  angleY 29.949
+  angleZ -0.538
+ }
+ S105_darkblue_NAPA2 {
+  coords 4760.91 321.92 5694.723
+  angleX 0.842
+  angleY 109.824
+  angleZ 0.304
+ }
+}
+$grp Vehicle : "{A33FC5774C0166A3}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_UK59_Ses_NAPA.et" {
+ UAZ469_UK59_Ses_NAPA1 {
+  coords 8261.135 353.11 7010.198
+  angleX -1.239
+  angleY 123.149
+  angleZ 0.26
+ }
+ UAZ469_UK59_Ses_NAPA2 {
+  coords 6198.383 332.55 8011.542
+  angleX 4.393
+  angleY -92.278
+  angleZ -1.961
+ }
+}
+$grp Vehicle : "{C0234595C5AD5233}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_VAK.et" {
+ UAZ469_covered_CIV_VAK2 {
+  coords 6184.11 333.016 8010.996
+  angleX 0.035
+  angleY -87.738
+  angleZ -0.895
+ }
+ UAZ469_covered_CIV_VAK3 {
+  coords 6772.635 160.788 4081.892
+  angleX 1.991
+  angleY 32.181
+  angleZ 0.196
+ }
+}
+Vehicle BTR70_Ses_NAPA1 : "{C63F988320179F4F}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_NAPA.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+    }
+    MultiSlotConfiguration "{60E55E1264BAA329}" {
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{60E55E1264B9490C}" {
+     NumSlots 4
+    }
+   }
+  }
+ }
+ coords 4690.527 283.3 6331.669
+ angleX -3.356
+ angleY 28.632
+ angleZ 4.27
+}
+$grp Vehicle : "{DCC71BE22DA8EEA1}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance_shizavoz.et" {
+ UAZ452_ambulance_shizavoz1 {
+  coords 6191.007 332.943 8011.684
+  angleX 2.653
+  angleY -90.984
+  angleZ -1.834
+ }
+ UAZ452_ambulance_shizavoz2 {
+  coords 6775.73 161.181 4088.967
+  angleX 3.669
+  angleY 19.606
+  angleZ 0.357
+ }
+}
+$grp Vehicle : "{EB326E661D5C857D}Prefabs/Vehicles/Wheeled/S105/S105_darkbrown_NAPA.et" {
+ S105_darkbrown_NAPA1 {
+  coords 8258.651 353.219 7016.396
+  angleY 55.968
+ }
+ S105_darkbrown_NAPA2 {
+  coords 6891.463 296.286 7746.788
+  angleX -0.95
+  angleY -176.41
+  angleZ 0.837
+ }
+ S105_darkbrown_NAPA3 {
+  coords 4767.511 322.112 5691.866
+  angleX 2.001
+  angleY 117.036
+  angleZ 0.016
+ }
+}
+Vehicle Ural4320_transport_covered_CIV_JZD1 : "{FB219B49A448A8EB}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_JZD.et" {
+ coords 8250.951 353.293 7012.469
+ angleX -2.513
+ angleY 72.509
+ angleZ -2.021
+}

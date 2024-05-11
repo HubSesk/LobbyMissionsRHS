@@ -1,0 +1,52 @@
+Vehicle M923A1_command_MERDC1 : "{38186F12F27A61C6}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command_MERDC.et" {
+ coords 8594.688 331.929 7981.86
+ angleX -3.571
+ angleY 176.883
+ angleZ 0.194
+}
+Vehicle M923A1_transport_MERDC1 : "{3F2AA823B6C65E1E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_MERDC.et" {
+ coords 8585.51 332.867 7857.416
+ angleX 5.299
+ angleY -171.623
+ angleZ 0.779
+}
+$grp Vehicle : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
+ UH1H1 {
+  coords 3978.5 306.039 8384.174
+  angleX 0.818
+  angleY 113.917
+  angleZ 0.363
+ }
+ UH1H2 {
+  coords 4145.702 314.333 8667.953
+  angleX 1.858
+  angleY 87.784
+  angleZ 1.719
+ }
+}
+$grp Vehicle : "{751AFEEA19DDFB04}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_MERDC.et" {
+ M998_covered_long_MERDC1 {
+  coords 8591.445 329.906 7913.164
+  angleY -175.986
+ }
+ M998_covered_long_MERDC2 {
+  coords 8594.635 330.651 7958.555
+  angleX -2.677
+  angleY -175.977
+  angleZ -0.188
+ }
+}
+$grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
+ M1025_armed_M2HB_MERDC1 {
+  coords 8589.947 330.19 7897.906
+  angleX 1.79
+  angleY -179.266
+  angleZ 0.023
+ }
+ M1025_armed_M2HB_MERDC2 {
+  coords 8594.064 330.207 7944.608
+  angleX -1.79
+  angleY -179.265
+  angleZ -0.023
+ }
+}

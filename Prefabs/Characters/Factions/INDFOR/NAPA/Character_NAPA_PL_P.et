@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{F186A546CC076F55}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_PL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{60FB76D813CB65B0}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_US_BDU.et"
+     PrefabsToSpawn {
+      "{02CF96D8F971B5B7}Prefabs/Items/Equipment/Radios/Radio_R148_FIA_Multi.et"
+     }
+    }
+   }
+  }
+ }
+}
