@@ -1,0 +1,200 @@
+$grp StaticModelEntity : "{2CF6244D6C76F560}Prefabs/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_dirt_straight.et" {
+ {
+  coords 3851.564 102.521 6291.19
+  angleX -17.267
+  angleY 53.019
+  angleZ -1.711
+ }
+ {
+  coords 3844.931 102.585 6296.729
+  angleX -14.256
+  angleY -129.186
+ }
+ {
+  coords 3844.616 101.923 6345.332
+  angleX -18.04
+  angleY 70.439
+ }
+ {
+  coords 3837.59 102.283 6356.709
+  angleX -16.926
+  angleY -123.847
+ }
+ {
+  coords 3834.346 102.004 6362.949
+  angleX -19.114
+  angleY -112.58
+  angleZ 1.976
+ }
+ {
+  coords 3836.747 102.008 6363.659
+  angleX -16.626
+  angleY 67.154
+  angleZ -2.541
+ }
+ {
+  coords 3905.441 102.501 6317.024
+  angleX -16.785
+  angleY -139.482
+  angleZ 1.367
+ }
+ {
+  coords 3911.774 102.248 6310.7
+  angleX -16.785
+  angleY -139.482
+  angleZ 1.367
+ }
+ {
+  coords 3908.184 102.165 6318.397
+  angleX -11.657
+  angleY 44.254
+  angleZ -0.325
+ }
+ {
+  coords 3914.028 102.185 6312.411
+  angleX -15.108
+  angleY 44.274
+  angleZ -0.33
+ }
+ {
+  coords 3901.537 102.038 6325.183
+  angleX -16.951
+  angleY 44.285
+  angleZ -0.333
+ }
+ {
+  coords 3895.989 101.794 6331.903
+  angleX -16.288
+  angleY 59.715
+  angleZ -4.771
+ }
+ {
+  coords 3891.413 101.969 6332.693
+  angleX -22.096
+  angleY -130.868
+  angleZ 2.242
+ }
+}
+$grp StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+ {
+  coords 3841.752 -0.025 6337.888
+  angleY -20.323
+ }
+ {
+  coords 3844.877 0 6357.498
+ }
+ {
+  coords 3834.583 0.664 6302.965
+  angleY 49.283
+ }
+ {
+  coords 3853.317 0.481 6283.713
+  angleY 49.283
+ }
+ {
+  coords 3915.272 0.931 6305.561
+  angleY 49.283
+ }
+ {
+  coords 3892.866 0.733 6336.927
+  angleY 18.495
+ }
+}
+GenericEntity : "{3CD490132ECE6645}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_USSR_03.et" {
+ coords 3832.293 101.608 6369.388
+}
+$grp StaticModelEntity : "{53CF78A46139AA55}Prefabs/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_dirt_wave.et" {
+ {
+  coords 3850.516 102.782 6289.745
+  angleX -13.892
+  angleY -126.571
+  angleZ 0.191
+ }
+ {
+  coords 3846.051 102.287 6298.75
+  angleX -17.894
+  angleY 53.396
+  angleZ -1.835
+ }
+ {
+  coords 3899.557 102.233 6323.336
+  angleX -14.19
+  angleY -134.14
+ }
+}
+$grp StaticModelEntity : "{5C2E29ECFAD48807}Prefabs/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_dirt_turnin.et" {
+ {
+  coords 3835.733 101.557 6303.234
+  angleX -15.766
+  angleY -134.787
+  angleZ 2.73
+ }
+ {
+  coords 3840.835 101.324 6345.425
+  angleX -19.468
+  angleY -104.476
+  angleZ -2.281
+ }
+}
+GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
+ coords 3866.778 102.063 6308.076
+ angleY -69.396
+}
+$grp GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et" {
+ {
+  coords 3868.607 102.092 6301.841
+  angleY 40.44
+ }
+ {
+  coords 3864.086 102.093 6303.2
+  angleY 46.637
+ }
+ {
+  coords 3881.662 102.044 6316.746
+  angleY 50.093
+ }
+}
+$grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
+ {
+  coords 3874.323 102.127 6300.589
+  angleY 49.193
+ }
+ {
+  coords 3872.577 102.08 6302.663
+  angleY 49.193
+ }
+ {
+  coords 3866.925 102.091 6303.482
+  angleX 1.354
+  angleY 49.165
+  angleZ -1.17
+ }
+ {
+  coords 3883.164 102.054 6314.927
+  angleX 1.354
+  angleY 49.165
+  angleZ -1.17
+ }
+}
+GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
+ coords 3877.884 102.115 6298.84
+ angleY -98.747
+}
+$grp GenericEntity : "{CD67070EFAFC28C7}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_burlap.et" {
+ {
+  coords 3848.878 102.068 6347.896
+  angleY 63.503
+ }
+ {
+  coords 3878.659 102.332 6296.885
+  angleY 61.551
+ }
+ {
+  coords 3884.952 102.138 6312.939
+  angleY 48.778
+ }
+}
+GenericEntity : "{F0EC223F2A1094C0}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_burlap.et" {
+ coords 3847.538 102.459 6361.396
+ angleY -131.5
+}

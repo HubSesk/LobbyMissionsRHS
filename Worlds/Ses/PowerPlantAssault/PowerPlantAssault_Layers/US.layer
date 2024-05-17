@@ -1,6 +1,12 @@
-GenericEntity : "{15BEDC6B899035DB}Prefabs/Yarmarka/YarmarkaBox.et" {
- coords 4950.863 28.25 11935.113
- angleY -90.375
+$grp GenericEntity : "{15BEDC6B899035DB}Prefabs/Yarmarka/YarmarkaBox.et" {
+ {
+  coords 4950.863 28.25 11935.113
+  angleY -90.375
+ }
+ {
+  coords 5850.25 5.511 9789.612
+  angleY -176.99
+ }
 }
 Vehicle M1025_armed_M2HB2 : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
  components {
