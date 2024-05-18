@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A393E67C3982F6F4}Worlds/LightFun/Eden_Zamok/Eden_Zamok.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

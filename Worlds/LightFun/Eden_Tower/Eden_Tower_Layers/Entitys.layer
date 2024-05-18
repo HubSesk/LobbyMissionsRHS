@@ -1,0 +1,84 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_InitWeatherComponent "{6164F04578AB5217}" {
+   m_sInitialStartingWeatherId "Cloudy"
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 14
+  }
+ }
+ m_fAutoReloadTime 300
+ m_bMarkersOnlyOnBriefing 1
+ m_bRemoveRedundantUnits 1
+ m_bRemoveSquadMarkers 1
+ m_iFreezeTime 180000
+ m_bDisableChat 1
+ m_bReserveSlots 1
+}
+HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
+}
+$grp GenericEntity : "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et" {
+ {
+  coords 9372.842 196.687 1154.566
+ }
+ {
+  coords 9373.381 196.673 1154.654
+ }
+ {
+  coords 9373.121 196.654 1154.353
+ }
+ {
+  coords 9373.594 196.62 1154.302
+ }
+ {
+  coords 9372.458 196.719 1154.675
+ }
+ {
+  coords 9372.522 196.662 1154.238
+ }
+ {
+  coords 9372.877 196.617 1154.015
+ }
+ {
+  coords 9372.047 196.714 1154.477
+ }
+ {
+  coords 9372.075 196.655 1154.016
+ }
+ {
+  coords 9372.448 196.635 1153.687
+ }
+ {
+  coords 9373.287 196.596 1153.885
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 10333.146 26.724 318.773
+ m_fZoneRadius 90
+ m_fZoneTeleportedRadius 115
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  m_sTitle "Башня захвачена"
+  m_sFactionKey "RHS_RF_MSV"
+ }
+ {
+  m_sTitle "Башня защищена"
+  m_sFactionKey "RHS_US_USMC"
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 9366.598 192.571 1147.949
+ }
+ {
+  coords 8405.674 222.925 1987.865
+ }
+ {
+  coords 10019.391 36.907 903.536
+ }
+}
