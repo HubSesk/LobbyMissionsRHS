@@ -1,0 +1,76 @@
+$grp Vehicle : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_camo1.et" {
+ Ural4320_transport_covered_camo1 {
+  coords 6353.544 5.708 9648.24
+  angleX -1.173
+  angleY -67.089
+  angleZ 0.476
+ }
+ Ural4320_transport_covered_camo2 {
+  coords 6314.472 5.133 9660.914
+  angleX -0.857
+  angleY -73.112
+  angleZ -0.26
+ }
+}
+$grp Vehicle : "{36BDCC88B17B3BFB}Prefabs/M923A1_command.et" {
+ KShM {
+  coords 4323.761 1.125 9511.127
+  angleY -69.487
+ }
+ KShM3 {
+  coords 4444.743 15.094 9583.387
+  angleY 20.644
+ }
+ KShM2 {
+  coords 4470.149 13.494 9468.489
+  angleX 2.385
+  angleY 51.002
+  angleZ 1.522
+ }
+}
+Vehicle UAZ452_ambulance1 : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" {
+ coords 6404.107 9.832 9664.558
+ angleX -3.532
+ angleY -171.592
+ angleZ 0.329
+}
+$grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+ BTR70_AFRF1 {
+  coords 6425.353 7.136 9633.948
+  angleX -1.78
+  angleY -96.115
+  angleZ 0.191
+ }
+ BTR70_AFRF2 {
+  coords 6459.374 8.86 9642.297
+  angleX -2.001
+  angleY -115.546
+  angleZ -0.036
+ }
+ BTR70_AFRF3 {
+  coords 6490.48 10.244 9655.126
+  angleX -1.082
+  angleY -103.731
+  angleZ -0.657
+ }
+}
+$grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
+ M1025_armed_M2HB_MERDC2 {
+  coords 4668.988 25.13 12224.553
+  angleX 2.307
+  angleY 156.386
+  angleZ -5.869
+ }
+ M1025_armed_M2HB_MERDC1 {
+  coords 4667.077 24.589 12237.098
+  angleX -2.572
+  angleY 171.403
+  angleZ -5.025
+ }
+}
+Vehicle UAZ469_Camo1 : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
+ coords 6421.38 10.027 9661.87
+ angleX -3.511
+ angleY -174.512
+ angleZ 0.509
+}

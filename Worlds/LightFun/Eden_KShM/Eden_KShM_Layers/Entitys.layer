@@ -1,0 +1,78 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_InitWeatherComponent "{61636DCECC2966B7}" {
+   m_sInitialStartingWeatherId "Rainy"
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 15
+  }
+ }
+ m_fAutoReloadTime 300
+ m_bMarkersOnlyOnBriefing 1
+ m_bRemoveRedundantUnits 1
+ m_bRemoveSquadMarkers 1
+ m_iFreezeTime 180000
+ m_bDisableChat 1
+ m_bReserveSlots 1
+}
+HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
+}
+$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ {
+  coords 4317.269 1.125 9515.055
+ }
+ {
+  coords 4449.98 15.094 9582.235
+ }
+ {
+  coords 4470.575 18.984 9461.897
+ }
+ {
+  coords 4666.732 24.845 12232.048
+ }
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  m_sTitle "Уничтожен 1 ком. пункт"
+  m_iScore 25
+  m_sFactionKey "RHS_RF_MSV"
+ }
+ {
+  m_sTitle "Уничтожено 2 ком. пункта"
+  m_iScore 50
+  m_sFactionKey "RHS_RF_MSV"
+ }
+ {
+  m_sTitle "Уничтожено 3 ком. пункта"
+  m_iScore 25
+  m_sFactionKey "RHS_RF_MSV"
+ }
+ {
+  m_sTitle "Защищен 1 ком. пункт"
+  m_iScore 25
+  m_sFactionKey "RHS_US_USMC"
+ }
+ {
+  m_sTitle "Защищено 2 ком. пункта"
+  m_iScore 50
+  m_sFactionKey "RHS_US_USMC"
+ }
+ {
+  m_sTitle "Защищено 3 ком. пункта"
+  m_iScore 25
+  m_sFactionKey "RHS_US_USMC"
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 6399.005 6.229 9655.31
+ m_fWarnRadius 115
+ m_fZoneRadius 155
+ m_fZoneTeleportedRadius 170
+}
+SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ coords 4529.618 18.252 9522.135
+}

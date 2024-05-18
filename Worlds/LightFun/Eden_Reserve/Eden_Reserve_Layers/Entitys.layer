@@ -1,0 +1,90 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_InitWeatherComponent "{61631EC07A60C3D0}" {
+   m_sInitialStartingWeatherId "Cloudy"
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 19
+   m_iStartingMinutes 20
+  }
+ }
+ m_fAutoReloadTime 300
+ m_bMarkersOnlyOnBriefing 1
+ m_bRemoveRedundantUnits 1
+ m_bRemoveSquadMarkers 1
+ m_iFreezeTime 180000
+ m_bDisableChat 1
+ m_bReserveSlots 1
+}
+HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
+}
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 3915.342 17.751 8447.854
+ m_fZoneRadius 110
+ m_fZoneTeleportedRadius 135
+}
+GenericEntity : "{61980E6F3CA71107}Prefabs/Items/Cats/Dingus.et" {
+ coords 8802.5 210.123 3899.381
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  m_sTitle "Защищен 1 ящик"
+  m_iScore 25
+  m_sFactionKey "RHS_RF_MSV"
+ }
+ {
+  m_sTitle "Защищено 2 ящика"
+  m_iScore 50
+  m_sFactionKey "RHS_RF_MSV"
+ }
+ {
+  m_sTitle "Защищено 3 ящика"
+  m_iScore 25
+  m_sFactionKey "RHS_RF_MSV"
+ }
+ {
+  m_sTitle "Уничтожен 1 ящик"
+  m_iScore 25
+  m_sFactionKey "RHS_US_USMC"
+ }
+ {
+  m_sTitle "Уничтожено 2 ящика"
+  m_iScore 50
+  m_sFactionKey "RHS_US_USMC"
+ }
+ {
+  m_sTitle "Уничтожено 3 ящика"
+  m_iScore 25
+  m_sFactionKey "RHS_US_USMC"
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 8826.38 228.322 3941.664
+  m_fWarnRadius 115
+  m_fZoneRadius 140
+  m_fZoneTeleportedRadius 165
+ }
+ {
+  coords 7570.55 80.346 5509.162
+  m_fZoneRadius 120
+  m_fZoneTeleportedRadius 130
+ }
+}
+PS_ManualMarker Task3 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 10297.938 5.808 4155.489
+ angleY 110
+ m_sImageSet "{AB6AE6A2B11B7F23}UI/BoomBox.edds"
+ m_sImageSetGlow ""
+ m_sQuadName ""
+ m_fWorldSize 600
+ m_bVisibleForEmptyFaction 1
+ m_aHideOnGameModeStates {
+ }
+ m_iZOrder 1
+ m_bShowForAnyFaction 1
+}
