@@ -1,0 +1,14 @@
+Vehicle BTR70_Ses_TKA1 : "{6F963B40DE04868A}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_TKA.et" {
+ coords 3924.957 21.751 3095.354
+ angleX 1.774
+ angleY -82.459
+ angleZ 0.235
+}
+SCR_AIGroup : "{EA9949F006E2DC47}Prefabs/Groups/OPFOR/Ses_TKA/Group_TKA_RifleSquad.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+ }
+ coords 3905.933 22.577 3091.612
+}

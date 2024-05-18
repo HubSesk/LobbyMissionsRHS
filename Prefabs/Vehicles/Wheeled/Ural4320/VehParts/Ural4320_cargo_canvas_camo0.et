@@ -1,0 +1,20 @@
+GenericEntity : "{5F533EBE61514610}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_cargo_canvas.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{6162BBEC3768CD1F}" {
+     SourceMaterial "base1"
+     AssignedMaterial "{A043AB0B28025E16}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Cargo_camo1.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{5D83561ABAB4ED0D}" {
+   Slots {
+    RegisteringComponentSlotInfo Canvas {
+     Prefab "{5D1E10B35D37BA44}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_canvas.et"
+    }
+   }
+  }
+ }
+}

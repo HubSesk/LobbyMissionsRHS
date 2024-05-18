@@ -1,0 +1,395 @@
+GenericEntity : "{03D047EC48C4146E}Prefabs/Items/Tort.et" {
+ components {
+  PS_SpectatorLabel "{6162BBC086F0942F}" {
+   m_sSpectatorLabelLayout "{0D012E4EF2C3F40A}UI/Spectator/SpectatorLabelIcon_Cabbage.layout"
+  }
+  SCR_MineInventoryItemComponent "{59E4E694B93DC656}" {
+   Attributes SCR_ItemAttributeCollection "{5A10B8E3F1D55606}" {
+    ItemDisplayName WeaponUIInfo "{5A10B8E3F31D239B}" {
+     Name "Cake"
+    }
+   }
+  }
+  SCR_MineWeaponComponent "{59F2DC2C202D1AFB}" {
+   UIInfo GrenadeUIInfo "{5CDCD73FE938D67D}" {
+    Name "Cake"
+    m_sAmmoType "Cake"
+   }
+  }
+ }
+ coords 4822.974 170.796 7031.843
+ angleY 179.801
+ {
+  PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+   coords 0 0 0
+   angleY 0
+   m_sImageSet "{2EFEA2AF1F38E7F0}UI/Textures/Icons/icons_wrapperUI-64.imageset"
+   m_sImageSetGlow "{ABC6B36856013403}UI/Textures/Icons/icons_wrapperUI-64-glow.imageset"
+   m_MarkerColor 0.561 0.071 0.439 1
+   m_sQuadName "careerCircleSelected"
+   m_fWorldSize 40
+   m_sDescription "Cake"
+   m_bUseWorldScale 0
+   m_aVisibleForFactions {
+    "RHS_RF_MSV"
+   }
+   m_aHideOnGameModeStates {
+    3
+   }
+  }
+ }
+}
+$grp GenericEntity : "{239A675E28539819}Prefabs/Items/Crops.et" {
+ {
+  components {
+   PS_SpectatorLabel "{6162BBE1C897F34B}" {
+   }
+  }
+  coords 3731.052 80.028 6604.33
+  {
+   PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    m_sImageSet "{2EFEA2AF1F38E7F0}UI/Textures/Icons/icons_wrapperUI-64.imageset"
+    m_sImageSetGlow "{ABC6B36856013403}UI/Textures/Icons/icons_wrapperUI-64-glow.imageset"
+    m_MarkerColor 0 0.502 0.125 1
+    m_sQuadName "careerCircleSelected"
+    m_fWorldSize 40
+    m_sDescription "Cabbage"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "RHS_RF_MSV"
+    }
+    m_aHideOnGameModeStates {
+     3
+    }
+   }
+  }
+ }
+ {
+  components {
+   PS_SpectatorLabel "{6162BBE1C897F34B}" {
+   }
+  }
+  coords 3733.132 80.048 6606.516
+  {
+   PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    m_sImageSet "{2EFEA2AF1F38E7F0}UI/Textures/Icons/icons_wrapperUI-64.imageset"
+    m_sImageSetGlow "{ABC6B36856013403}UI/Textures/Icons/icons_wrapperUI-64-glow.imageset"
+    m_MarkerColor 0 0.502 0.125 1
+    m_sQuadName "careerCircleSelected"
+    m_fWorldSize 40
+    m_sDescription "Cabbage"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "RHS_RF_MSV"
+    }
+    m_aHideOnGameModeStates {
+     3
+    }
+   }
+  }
+ }
+ {
+  components {
+   PS_SpectatorLabel "{6162BBE1C897F34B}" {
+   }
+  }
+  coords 3475.706 103.16 6446.02
+  {
+   PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    m_sImageSet "{2EFEA2AF1F38E7F0}UI/Textures/Icons/icons_wrapperUI-64.imageset"
+    m_sImageSetGlow "{ABC6B36856013403}UI/Textures/Icons/icons_wrapperUI-64-glow.imageset"
+    m_MarkerColor 0 0.502 0.125 1
+    m_sQuadName "careerCircleSelected"
+    m_fWorldSize 40
+    m_sDescription "Cabbage"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "RHS_RF_MSV"
+    }
+    m_aHideOnGameModeStates {
+     3
+    }
+   }
+  }
+ }
+ {
+  components {
+   PS_SpectatorLabel "{6162BBE1C897F34B}" {
+   }
+  }
+  coords 3478.318 103.065 6447.075
+  {
+   PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    m_sImageSet "{2EFEA2AF1F38E7F0}UI/Textures/Icons/icons_wrapperUI-64.imageset"
+    m_sImageSetGlow "{ABC6B36856013403}UI/Textures/Icons/icons_wrapperUI-64-glow.imageset"
+    m_MarkerColor 0 0.502 0.125 1
+    m_sQuadName "careerCircleSelected"
+    m_fWorldSize 40
+    m_sDescription "Cabbage"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "RHS_RF_MSV"
+    }
+    m_aHideOnGameModeStates {
+     3
+    }
+   }
+  }
+ }
+ {
+  components {
+   PS_SpectatorLabel "{6162BBE1C897F34B}" {
+   }
+  }
+  coords 3477.148 103.21 6444.472
+  {
+   PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    m_sImageSet "{2EFEA2AF1F38E7F0}UI/Textures/Icons/icons_wrapperUI-64.imageset"
+    m_sImageSetGlow "{ABC6B36856013403}UI/Textures/Icons/icons_wrapperUI-64-glow.imageset"
+    m_MarkerColor 0 0.502 0.125 1
+    m_sQuadName "careerCircleSelected"
+    m_fWorldSize 40
+    m_sDescription "Cabbage"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "RHS_RF_MSV"
+    }
+    m_aHideOnGameModeStates {
+     3
+    }
+   }
+  }
+ }
+ {
+  components {
+   PS_SpectatorLabel "{6162BBE1C897F34B}" {
+   }
+  }
+  coords 3479.139 103.139 6445.212
+  {
+   PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    m_sImageSet "{2EFEA2AF1F38E7F0}UI/Textures/Icons/icons_wrapperUI-64.imageset"
+    m_sImageSetGlow "{ABC6B36856013403}UI/Textures/Icons/icons_wrapperUI-64-glow.imageset"
+    m_MarkerColor 0 0.502 0.125 1
+    m_sQuadName "careerCircleSelected"
+    m_fWorldSize 40
+    m_sDescription "Cabbage"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "RHS_RF_MSV"
+    }
+    m_aHideOnGameModeStates {
+     3
+    }
+   }
+  }
+ }
+ {
+  components {
+   PS_SpectatorLabel "{6162BBE1C897F34B}" {
+   }
+  }
+  coords 3480.518 103.227 6442.807
+  {
+   PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    m_sImageSet "{2EFEA2AF1F38E7F0}UI/Textures/Icons/icons_wrapperUI-64.imageset"
+    m_sImageSetGlow "{ABC6B36856013403}UI/Textures/Icons/icons_wrapperUI-64-glow.imageset"
+    m_MarkerColor 0 0.502 0.125 1
+    m_sQuadName "careerCircleSelected"
+    m_fWorldSize 40
+    m_sDescription "Cabbage"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "RHS_RF_MSV"
+    }
+    m_aHideOnGameModeStates {
+     3
+    }
+   }
+  }
+ }
+ {
+  components {
+   PS_SpectatorLabel "{6162BBE1C897F34B}" {
+   }
+  }
+  coords 3478.065 103.335 6441.501
+  {
+   PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    m_sImageSet "{2EFEA2AF1F38E7F0}UI/Textures/Icons/icons_wrapperUI-64.imageset"
+    m_sImageSetGlow "{ABC6B36856013403}UI/Textures/Icons/icons_wrapperUI-64-glow.imageset"
+    m_MarkerColor 0 0.502 0.125 1
+    m_sQuadName "careerCircleSelected"
+    m_fWorldSize 40
+    m_sDescription "Cabbage"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "RHS_RF_MSV"
+    }
+    m_aHideOnGameModeStates {
+     3
+    }
+   }
+  }
+ }
+ {
+  components {
+   PS_SpectatorLabel "{6162BBE1C897F34B}" {
+   }
+  }
+  coords 3479.654 103.381 6438.469
+  {
+   PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    m_sImageSet "{2EFEA2AF1F38E7F0}UI/Textures/Icons/icons_wrapperUI-64.imageset"
+    m_sImageSetGlow "{ABC6B36856013403}UI/Textures/Icons/icons_wrapperUI-64-glow.imageset"
+    m_MarkerColor 0 0.502 0.125 1
+    m_sQuadName "careerCircleSelected"
+    m_fWorldSize 40
+    m_sDescription "Cabbage"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "RHS_RF_MSV"
+    }
+    m_aHideOnGameModeStates {
+     3
+    }
+   }
+  }
+ }
+ {
+  components {
+   PS_SpectatorLabel "{6162BBE1C897F34B}" {
+   }
+  }
+  coords 3481.78 103.294 6440.536
+  {
+   PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    m_sImageSet "{2EFEA2AF1F38E7F0}UI/Textures/Icons/icons_wrapperUI-64.imageset"
+    m_sImageSetGlow "{ABC6B36856013403}UI/Textures/Icons/icons_wrapperUI-64-glow.imageset"
+    m_MarkerColor 0 0.502 0.125 1
+    m_sQuadName "careerCircleSelected"
+    m_fWorldSize 40
+    m_sDescription "Cabbage"
+    m_bUseWorldScale 0
+    m_aVisibleForFactions {
+     "RHS_RF_MSV"
+    }
+    m_aHideOnGameModeStates {
+     3
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{2F8F0BFDF42FC830}Prefabs/Items/Food/CheeseRound_2.et" {
+ components {
+  PS_BulbaComponent "{6162BBE2911CBF90}" {
+  }
+  PS_SpectatorLabel "{6162BBE165CEA06B}" {
+   m_sSpectatorLabelLayout "{1E869A101D239B56}UI/Spectator/SpectatorLabelIcon_Cheese.layout"
+  }
+ }
+ coords 2906.478 77.726 6616.085
+ {
+  PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+   coords 0 0 0
+   m_sImageSet "{2EFEA2AF1F38E7F0}UI/Textures/Icons/icons_wrapperUI-64.imageset"
+   m_sImageSetGlow "{ABC6B36856013403}UI/Textures/Icons/icons_wrapperUI-64-glow.imageset"
+   m_MarkerColor 0.769 0.576 0 1
+   m_sQuadName "careerCircleSelected"
+   m_fWorldSize 40
+   m_sDescription "Cheese"
+   m_bUseWorldScale 0
+   m_aVisibleForFactions {
+    "RHS_RF_MSV"
+   }
+   m_aHideOnGameModeStates {
+    3
+   }
+  }
+ }
+}
+GenericEntity : "{43DB3F1D48EB471E}Prefabs/Items/Food/CheeseRound_1.et" {
+ components {
+  PS_BulbaComponent "{6162BBE29DEABA6E}" {
+  }
+  PS_SpectatorLabel "{6162BBE15807C842}" {
+   m_sSpectatorLabelLayout "{1E869A101D239B56}UI/Spectator/SpectatorLabelIcon_Cheese.layout"
+  }
+ }
+ coords 2905.965 77.726 6615.796
+ angleY -108.56
+ {
+  PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+   coords 0 0 0
+   m_sImageSet "{2EFEA2AF1F38E7F0}UI/Textures/Icons/icons_wrapperUI-64.imageset"
+   m_sImageSetGlow "{ABC6B36856013403}UI/Textures/Icons/icons_wrapperUI-64-glow.imageset"
+   m_MarkerColor 0.769 0.576 0 1
+   m_sQuadName "careerCircleSelected"
+   m_fWorldSize 40
+   m_sDescription "Cheese"
+   m_bUseWorldScale 0
+   m_aVisibleForFactions {
+    "RHS_RF_MSV"
+   }
+   m_aHideOnGameModeStates {
+    3
+   }
+  }
+ }
+}
+GenericEntity : "{543B089BFEA21693}Prefabs/Items/Food/CheeseSmol_1.et" {
+ coords 2906.457 77.882 6616.129
+ angleY -105.304
+}
+GenericEntity : "{61980E6F3CA71107}Prefabs/Items/Cats/Dingus.et" {
+ components {
+  PS_BulbaComponent "{6162BBEF4F0191C3}" {
+  }
+  PS_SpectatorLabel "{6162BBEF4BFE89FD}" {
+  }
+ }
+ coords 4274.75 62.061 5830.464
+ angleY -106.83
+ {
+  PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+   coords 0 0 0
+   angleY -163.17
+   m_sImageSet "{2EFEA2AF1F38E7F0}UI/Textures/Icons/icons_wrapperUI-64.imageset"
+   m_sImageSetGlow "{ABC6B36856013403}UI/Textures/Icons/icons_wrapperUI-64-glow.imageset"
+   m_MarkerColor 0.561 0.071 0.439 1
+   m_sQuadName "animals"
+   m_fWorldSize 40
+   m_sDescription "Cat"
+   m_bUseWorldScale 0
+   m_aVisibleForFactions {
+    "RHS_RF_MSV"
+   }
+   m_aHideOnGameModeStates {
+    3
+   }
+  }
+ }
+}
+GenericEntity : "{7BF46B8343579CFB}Prefabs/Items/Cats/Sugnid.et" {
+ components {
+  PS_BulbaComponent "{6162BBEF520CAFCB}" {
+  }
+  PS_SpectatorLabel "{6162BBEF5F3A95AF}" {
+  }
+ }
+ coords 4274.264 62.061 5831.426
+}
+GenericEntity : "{B9F504773F71C2AE}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_RF.et" {
+ coords 3878.341 115.545 6305.081
+}

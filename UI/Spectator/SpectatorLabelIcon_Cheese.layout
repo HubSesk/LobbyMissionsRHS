@@ -1,0 +1,61 @@
+FrameWidgetClass {
+ Name "SpectatorLabelIconFrame"
+ Clipping False
+ components {
+  PS_SpectatorLabelIcon "{5F34C8DE03BF1CFC}" {
+  }
+ }
+ {
+  PanelWidgetClass "{6162BBE17BF5DD97}" {
+   Name "SpectatorLabel"
+   Slot FrameWidgetSlot "{5EE8948F20BE16F5}" {
+    SizeToContent 1
+   }
+   Color 0 0 0 0
+   style pixel_outline
+   {
+    OverlayWidgetClass "{6162BBE17BF5DD95}" {
+     Name "SpectatorLabelOverlay"
+     Slot FrameWidgetSlot "{5EE89488CCB4B2FF}" {
+      OffsetLeft 0
+      OffsetTop 0
+      SizeX 100
+      OffsetRight -100
+      SizeY 30
+      OffsetBottom -30
+      SizeToContent 1
+     }
+     {
+      TextWidgetClass "{6162BBE17BF5DD9B}" {
+       Name "SpectatorLabelText"
+       Slot OverlayWidgetSlot "{5EE89488FD3D84DE}" {
+        Padding 4 4 4 4
+       }
+       Color 0.878 0.82 0.937 1
+       Text "Cheese"
+       "Font Size" 32
+       "Min Font Size" 32
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+     }
+    }
+   }
+  }
+  ImageWidgetClass "{6162BBE17BF5DD9A}" {
+   Name "SpectatorLabelIcon"
+   Slot FrameWidgetSlot "{5EE8948CA93791EA}" {
+    OffsetLeft 0
+    OffsetTop 0
+    SizeX 64
+    OffsetRight -64
+    SizeY 64
+    OffsetBottom -64
+   }
+   Color 0.769 0.576 0 1
+   Texture "{12BA7AE37121F768}UI/Textures/Icons/icons_wrapperUI-96.imageset"
+   Image "careerCircleSelected"
+   Size 96 96
+  }
+ }
+}
