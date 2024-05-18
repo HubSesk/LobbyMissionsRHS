@@ -31,7 +31,7 @@ SCR_ChimeraCharacter : "{F0F0A8C16C9901B8}Prefabs/Characters/Factions/OPFOR/RHS_
    WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{F9DF0AA717A9A9A1}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_GP25.et"
+   WeaponTemplate "{F848482D5122F758}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK105_npz_b10m_b19n_RG.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -45,7 +45,7 @@ SCR_ChimeraCharacter : "{F0F0A8C16C9901B8}Prefabs/Characters/Factions/OPFOR/RHS_
      Prefab "{738798231DAF3078}Prefabs/Characters/Uniforms/Pants_6b51_VKPO.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{290EB58C0B52EB1C}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratnik_6B45_GL.et"
+     Prefab "{915E9D97CFAB02D6}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratnik_6B45_officer.et"
     }
    }
   }
@@ -53,6 +53,11 @@ SCR_ChimeraCharacter : "{F0F0A8C16C9901B8}Prefabs/Characters/Factions/OPFOR/RHS_
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6062F65EC3690C43}" {
      TargetStorage "Prefabs/Characters/Uniforms/Pants_6b51_VKPO.et"
+    }
+    ItemsInitConfigurationItem "{607C14E5A9202E9E}" {
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et" "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et"
+     }
     }
    }
   }

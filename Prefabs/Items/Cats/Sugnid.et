@@ -1,4 +1,4 @@
-GenericEntity : "{61980E6F3CA71107}Prefabs/Weapons/Explosives/Mine_TM62M/Dingus.et" {
+GenericEntity : "{61980E6F3CA71107}Prefabs/Items/Cats/Dingus.et" {
  ID "59EC9890DE0228CB"
  components {
   MeshObject "{5968D9C73C08706E}" {
@@ -21,6 +21,11 @@ GenericEntity : "{61980E6F3CA71107}Prefabs/Weapons/Explosives/Mine_TM62M/Dingus.
     ItemDisplayName WeaponUIInfo "{5A10B8E3F31D239B}" {
      Name "Sugnid"
     }
+   }
+  }
+  SCR_MineWeaponComponent "{59F2DC2C202D1AFB}" {
+   UIInfo GrenadeUIInfo "{5CDCD73FE938D67D}" {
+    Name "Sugnid"
    }
   }
  }
