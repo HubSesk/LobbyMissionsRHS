@@ -2,7 +2,7 @@ GenericEntity : "{3670FB020029C146}Prefabs/Meth.et" {
  coords 10884.771 30.517 11711.332
  angleY 48.036
 }
-GenericEntity : "{61980E6F3CA71107}Prefabs/Weapons/Explosives/Mine_TM62M/Dingus.et" {
+GenericEntity : "{61980E6F3CA71107}Prefabs/Items/Cats/Dingus.et" {
  coords 11364.45 21.863 11857.497
  angleX 1.034
  angleY 75.003
@@ -47,6 +47,8 @@ $grp RHS_Tank : "{9824112BBCB732C9}Prefabs/Vehicles/Tracked/2S1/Tank_2S1_Green_D
  }
  Tank_2S1_Green_Deco3 {
   components {
+   PS_SpectatorLabel "{6164BB0A6D2E43DD}" {
+   }
    SCR_UniversalInventoryStorageComponent "{5EB8309C3F2D6039}" {
     MultiSlots {
      MultiSlotConfiguration "{60830BA8AD839904}" {
