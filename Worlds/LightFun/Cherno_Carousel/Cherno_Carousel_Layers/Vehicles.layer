@@ -1,0 +1,181 @@
+Vehicle Ural4320_Ses_CDF_tanker1 : "{10BAF58D6690A1E4}Prefabs/Vehicles/Wheeled/Ural4320/Ses_CDF/Ural4320_Ses_CDF_tanker.et" {
+ coords 6355.313 304.975 7773.198
+ angleX 0.814
+ angleY 62.964
+ angleZ 1.594
+}
+Vehicle Ural4320_tanker_camo1 : "{13139B95B13DDA35}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker_camo1.et" {
+ coords 5267.698 337 9771.206
+}
+$grp Vehicle : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_camo1.et" {
+ Ural4320_transport_covered_camo1 {
+  coords 5257.209 337 9770.877
+  angleY -0.454
+ }
+ Ural4320_transport_covered_camo2 {
+  coords 5239.408 336.969 9772.037
+  angleX 0.895
+  angleY 0.507
+  angleZ 0.008
+ }
+ Ural4320_transport_covered_camo3 {
+  coords 5262.447 337 9771.005
+  angleY -2.147
+ }
+}
+Vehicle Ural4320_command_camo1 : "{2C95509CA3E61DE1}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command_camo1.et" {
+ coords 5245.478 336.997 9772.3
+ angleX 0.895
+ angleY -0.014
+ angleZ -0.895
+}
+$grp Vehicle : "{37DA845E90392CAE}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Ses_CDF.et" {
+ UAZ469_uncovered_Ses_CDF1 {
+  coords 6289.954 301.312 7754.718
+  angleY 127.51
+ }
+ UAZ469_uncovered_Ses_CDF2 {
+  coords 6283.584 301.33 7759.486
+  angleX 0.169
+  angleY 127.346
+  angleZ 1.255
+ }
+}
+$grp Vehicle : "{52441D784D145D52}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF.et" {
+ BTR70_Ses_CDF1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5A60D38E3D91D053}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 6383.197 305.106 7778.904
+  angleX 0.533
+  angleY -143.498
+  angleZ -0.72
+ }
+ BTR70_Ses_CDF2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5A60D38E3D91D053}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 6375.322 304.977 7767.724
+  angleX -2.689
+  angleY -143.449
+  angleZ -0.879
+ }
+ BTR70_Ses_CDF3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5A60D38E3D91D053}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 6365.823 304.085 7757.635
+  angleX -3.574
+  angleY -124.824
+  angleZ -5.121
+ }
+}
+Vehicle Ural4320_camo1 : "{76C687EA8C6E953F}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_camo1.et" {
+ coords 5251.514 337 9770.983
+}
+$grp Vehicle : "{95C19D971E734B61}Prefabs/Vehicles/Wheeled/Ural4320/Ses_CDF/Ural4320_Ses_CDF_transport.et" {
+ Ural4320_Ses_CDF_transport1 {
+  coords 6380.244 305.094 7797.661
+  angleY 135.937
+ }
+ Ural4320_Ses_CDF_transport2 {
+  coords 6388.712 305.094 7792.255
+  angleY -153.978
+ }
+ Ural4320_Ses_CDF_transport3 {
+  coords 6374.042 305.094 7792.308
+  angleY 118.569
+ }
+}
+Vehicle Ural4320_Ses_CDF_command1 : "{B8C6D4393223FDC2}Prefabs/Vehicles/Wheeled/Ural4320/Ses_CDF/Ural4320_Ses_CDF_command.et" {
+ coords 6326.069 305.156 7797.051
+ angleY 139.686
+}
+Vehicle Ural4320_repair_camo1 : "{BED355ED51A1E859}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair_camo1.et" {
+ coords 5234.254 336.969 9772.396
+}
+Vehicle APC_K17_Berezok_camo1 : "{DD0CB0331A3D8CA7}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok_camo1.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5CE26149257047CD}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5CE261495B1779F4}" {
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{5DE729984447E1C3}" {
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{5D557449A3BB9133}" {
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{5D557449EB938170}" {
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{5D557449DBF8D3B0}" {
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{5D557449317CA1EC}" {
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{5DE7299E8FA5ED73}" {
+     SlotTemplate InventoryStorageSlot nvg {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ coords 5203.989 336.946 9776.563
+ angleX -0.955
+ angleY -93.946
+ angleZ -0.831
+}
+Vehicle Mi8MT_CDF1 : "{F81699EAF73DD999}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_CDF.et" {
+ coords 10407.31 284.309 5945.129
+ angleX 4.29
+ angleY 96.878
+}

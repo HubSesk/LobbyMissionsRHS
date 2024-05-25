@@ -1,0 +1,724 @@
+GenericEntity : "{3F7F008A231212FE}Prefabs/Info1.et" {
+ coords 5207.953 338.279 9839.437
+ angleY 90
+}
+GenericEntity : "{532B346A9FD69DD0}Prefabs/Info2.et" {
+ coords 5204.594 338.265 9839.119
+ angleY 90
+}
+GenericEntity : "{B6B7789393330ABB}Prefabs/Info3.et" {
+ coords 5203.771 338.285 9839.331
+ angleY 90
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ Flag_Russia {
+  coords 4914.229 337.062 9760.204
+  angleY 90
+  m_sImageSet "{3082AE43D1074D70}UI/Flags/Flag_Russia.edds"
+  m_sImageSetGlow ""
+  m_sQuadName ""
+  m_fWorldSize 200
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_bShowForAnyFaction 1
+ }
+ Flag_CDF {
+  coords 2576.351 276.42 11576.64
+  angleY 90
+  m_sImageSet "{8D54FC01332850C3}UI/Flags/Flag_Chernarus.edds"
+  m_sImageSetGlow ""
+  m_sQuadName ""
+  m_fWorldSize 200
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_bShowForAnyFaction 1
+ }
+ Flag_CDF2 {
+  coords 5510.172 313.746 7743.425
+  angleY 90
+  m_sImageSet "{8D54FC01332850C3}UI/Flags/Flag_Chernarus.edds"
+  m_sImageSetGlow ""
+  m_sQuadName ""
+  m_fWorldSize 500
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_bShowForAnyFaction 1
+ }
+ Ses_CDF_G_010_M {
+  coords 6287.558 305.066 7801.213
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "armored-blufor"
+  m_fWorldSize 35
+  m_sDescription "Атлас Уайт 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ Ses_CDF_G_011_M {
+  coords 6278.961 305.099 7831.656
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "armored-blufor"
+  m_fWorldSize 35
+  m_sDescription "Атлас Уайт 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ Ses_CDF_G_020_M {
+  coords 6308.442 305.036 7845.531
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "armored-blufor"
+  m_fWorldSize 35
+  m_sDescription "Атлас Блю 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ Ses_CDF_G_021_M {
+  coords 6345.986 305.031 7822.282
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "infantry-blufor"
+  m_fWorldSize 35
+  m_sDescription "Атлас Блю 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ Ses_CDF_G_100_M {
+  coords 10486.914 286.257 5805.437
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "infantry-blufor"
+  m_fWorldSize 35
+  m_sDescription "(Десант) Блэйзер Ред 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ Ses_CDF_G_030_M {
+  coords 6283.267 301.281 7753.708
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "motorized-blufor"
+  m_fWorldSize 35
+  m_sDescription "(Разведка) Атлас Грин 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ Ses_CDF_G_110_M {
+  coords 10477.956 285.419 5795.492
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "air-blufor"
+  m_fWorldSize 35
+  m_sDescription "(Пилоты) Блэйзер Уайт 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ Ses_CDF_G_000_M {
+  coords 6318.086 305.145 7792.974
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "signal-blufor"
+  m_fWorldSize 35
+  m_sDescription "(Командование) Атлас Ред 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ Ses_CDF_G_200_M {
+  coords 2353.636 250.084 11776.711
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "motorized-blufor"
+  m_fWorldSize 35
+  m_sDescription "(Передовая разведка) Хаос Ред 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ RHS_RF_MSV_G_200_M {
+  coords 5238.163 336.969 9843.38
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 45
+  m_sDescription "Компас-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ RHS_RF_MSV_G_210_M {
+  coords 5217.192 337.062 9826.291
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 45
+  m_sDescription "Компас-21"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ RHS_RF_MSV_G_110_M {
+  coords 5207.155 337.028 9798.391
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "armored-opfor"
+  m_fWorldSize 45
+  m_sDescription "(Экипаж) Буран-21"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ RHS_RF_MSV_G_220_M {
+  coords 5211.072 337.187 9854.218
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 45
+  m_sDescription "Компас-31"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ RHS_RF_MSV_G_000_M {
+  coords 5219.404 337.125 9840.013
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "signal-opfor"
+  m_fWorldSize 45
+  m_sDescription "(Командование) Актив-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ RHS_RF_MSV_G_100_M {
+  coords 5241.033 337.063 9813.541
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "maintenance-opfor"
+  m_fWorldSize 45
+  m_sDescription "(РемБат) Буран-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 5203.989 336.946 9776.563
+  angleX -0.955
+  angleY -3.946
+  angleZ -0.831
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "APC"
+  m_fWorldSize 4
+  m_sDescription "#RHS-Vehicle_K17_Berezok_Name #RHS-Camo"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3 1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6383.197 305.106 7778.904
+  angleX 0.533
+  angleY -53.498
+  angleZ -0.72
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "APC"
+  m_fWorldSize 4
+  m_sDescription "#AR-Vehicle_BTR70_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_aHideOnGameModeStates {
+   3 1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6375.322 304.977 7767.724
+  angleX -2.689
+  angleY -53.449
+  angleZ -0.879
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "APC"
+  m_fWorldSize 4
+  m_sDescription "#AR-Vehicle_BTR70_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_aHideOnGameModeStates {
+   3 1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6365.823 304.085 7757.635
+  angleX -3.574
+  angleY -34.824
+  angleZ -5.121
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "APC"
+  m_fWorldSize 4
+  m_sDescription "#AR-Vehicle_BTR70_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_aHideOnGameModeStates {
+   3 1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 10407.31 284.309 5945.129
+  angleX 4.29
+  angleY 186.878
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "Helicopter"
+  m_fWorldSize 6
+  m_sDescription "#AR-Vehicle_Mi8MT_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_aHideOnGameModeStates {
+   3 1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6289.954 301.312 7754.718
+  angleY 217.51
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "Car"
+  m_fWorldSize 4
+  m_sDescription "#AR-Vehicle_UAZ469_Open_Variant1_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_aHideOnGameModeStates {
+   3 1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 5251.514 337 9770.983
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "Truck"
+  m_fWorldSize 4
+  m_sDescription "#RHS-Vehicle_Ural4320_camo_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3 1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6283.584 301.33 7759.486
+  angleX 0.169
+  angleY 217.346
+  angleZ 1.255
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "Car"
+  m_fWorldSize 4
+  m_sDescription "#AR-Vehicle_UAZ469_Open_Variant1_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_aHideOnGameModeStates {
+   3 1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 5234.254 336.969 9772.396
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "Truck"
+  m_fWorldSize 4
+  m_sDescription "#AR-Vehicle_Ural4320_Repair_Name #RHS-Camo"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3 1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 5245.478 336.997 9772.3
+  angleX 0.895
+  angleY 89.986
+  angleZ -0.895
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "Truck"
+  m_fWorldSize 4
+  m_sDescription "#RHS-Vehicle_Ural4320_comms_camo_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3 1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6326.069 305.156 7797.051
+  angleY 229.686
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "Truck"
+  m_fWorldSize 4
+  m_sDescription "#AR-Vehicle_Ural4320_Comms_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_aHideOnGameModeStates {
+   3 1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6355.313 304.975 7773.198
+  angleX 0.814
+  angleY 152.964
+  angleZ 1.594
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "Truck"
+  m_fWorldSize 4
+  m_sDescription "#AR-Vehicle_Ural4320_Fuel_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_aHideOnGameModeStates {
+   3 1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6380.244 305.094 7797.661
+  angleY 225.937
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "Truck"
+  m_fWorldSize 4
+  m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_aHideOnGameModeStates {
+   3 1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6388.712 305.094 7792.255
+  angleY -63.978
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "Truck"
+  m_fWorldSize 4
+  m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_aHideOnGameModeStates {
+   3 1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6374.042 305.094 7792.308
+  angleY 208.569
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "Truck"
+  m_fWorldSize 4
+  m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_aHideOnGameModeStates {
+   3 1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 5267.698 337 9771.206
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "Truck"
+  m_fWorldSize 4
+  m_sDescription "#RHS-Vehicle_Ural4320_fuel_camo_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3 1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 5257.209 337 9770.877
+  angleY 89.546
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "Truck"
+  m_fWorldSize 4
+  m_sDescription "#AR-Vehicle_Ural4320_Transport_Covered_Name #RHS-Camo"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3 1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 5239.408 336.969 9772.037
+  angleX 0.895
+  angleY 90.507
+  angleZ 0.008
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "Truck"
+  m_fWorldSize 4
+  m_sDescription "#AR-Vehicle_Ural4320_Transport_Covered_Name #RHS-Camo"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3 1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 5262.447 337 9771.005
+  angleY 87.853
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "Truck"
+  m_fWorldSize 4
+  m_sDescription "#AR-Vehicle_Ural4320_Transport_Covered_Name #RHS-Camo"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3 1
+  }
+  m_iZOrder 0
+ }
+ Task_Def {
+  coords 2818.249 224.193 12388.473
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 35
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ Task_Def2 {
+  coords 1504.063 289.443 12014.26
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 35
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ Task_Def3 {
+  coords 2228.278 273.408 11103.087
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 35
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ Task_Doc {
+  coords 5205.287 337.368 9837.271
+  angleY 90
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "SupplyDepot"
+  m_fWorldSize 35
+  m_sDescription "Документы"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+}

@@ -1,0 +1,144 @@
+$grp SCR_AIGroup : "{F497C91720379FE7}Prefabs/Groups/BLUFOR/Group_CDF_RifleSquad.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{61724DCB6A41DF95}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 6287.558 305.066 7801.213
+  angleY 37.302
+  m_aUnitPrefabSlots {
+   "{16165F4184929A6A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SL.et" "{6679FF6DCBBFDDE9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SR_P.et" "{7B9EAE5EB616387A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AR.et" "{29897044D8592C9A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_MG.et" "{2A4051EDC38853A7}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AMG.et" "{9DE22FB5586591CC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Rifleman.et" "{930302D9F14EEFC0}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Crew.et" "{930302D9F14EEFC0}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Crew.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{61724DCB68ADB2AF}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 6278.961 305.099 7831.656
+  angleY 126.065
+  m_aUnitPrefabSlots {
+   "{16165F4184929A6A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SL.et" "{6679FF6DCBBFDDE9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SR_P.et" "{29897044D8592C9A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_MG.et" "{2A4051EDC38853A7}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AMG.et" "{764BD07F41A15150}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_GL.et" "{9DE22FB5586591CC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Rifleman.et" "{930302D9F14EEFC0}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Crew.et" "{930302D9F14EEFC0}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Crew.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{61724DCB6E140656}" {
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 6308.442 305.036 7845.531
+  angleY -148.887
+  m_aUnitPrefabSlots {
+   "{16165F4184929A6A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SL.et" "{7B9EAE5EB616387A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AR.et" "{A336C79FCF9F2626}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AT.et" "{A0FFE636D44E5918}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AAT.et" "{29897044D8592C9A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_MG.et" "{2A4051EDC38853A7}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AMG.et" "{930302D9F14EEFC0}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Crew.et" "{930302D9F14EEFC0}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Crew.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{61724DCB6C076E96}" {
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 6345.986 305.031 7822.282
+  angleY -148.887
+  m_aUnitPrefabSlots {
+   "{16165F4184929A6A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SL.et" "{6679FF6DCBBFDDE9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SR_P.et" "{A336C79FCF9F2626}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AT.et" "{A0FFE636D44E5918}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AAT.et" "{29897044D8592C9A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_MG.et" "{2A4051EDC38853A7}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AMG.et" "{9DE22FB5586591CC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Rifleman.et" "{16165F4184929A69}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Medic.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{61724DCB526BA985}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 10486.914 286.257 5805.437
+  angleY -111.309
+  m_aUnitPrefabSlots {
+   "{16165F4184929A6A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SL.et" "{6679FF6DCBBFDDE9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SR_P.et" "{7B9EAE5EB616387A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AR.et" "{A336C79FCF9F2626}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AT.et" "{A0FFE636D44E5918}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AAT.et" "{29897044D8592C9A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_MG.et" "{2A4051EDC38853A7}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AMG.et" "{9DE22FB5586591CC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Rifleman.et"
+  }
+  m_sCustomNameSet "Десант"
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{61724DCB508CCF2A}" {
+    m_iPlatoonCallsign 3
+   }
+  }
+  coords 6283.267 301.281 7753.708
+  angleY 40.634
+  m_aUnitPrefabSlots {
+   "{16165F4184929A6A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SL.et" "{0AEF7A41FDCBF6E5}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Scout.et" "{0AEF7A41FDCBF6E5}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Scout.et" "{5C3875FDB56CB949}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Rifleman2.et" "{0779E285709FDE15}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Spotter.et" "{03A6062FDF62A7F9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Sniper.et"
+  }
+  m_sCustomNameSet "Разведка"
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{61724DCB560E09EB}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 10477.956 285.419 5795.492
+  angleY -22.998
+  m_aUnitPrefabSlots {
+   "{B6DD8BD8A1B8DCDF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Pilot.et" "{B6DD8BD8A1B8DCDF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Pilot.et"
+  }
+  m_sCustomNameSet "Пилоты"
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{61724DCB546BB9B0}" {
+   }
+  }
+  coords 6318.086 305.145 7792.974
+  angleY 37.302
+  m_aUnitPrefabSlots {
+   "{E89293B73AC0DA03}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_PL.et" "{7C646869CFA3B721}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_RTO.et"
+  }
+  m_sCustomNameSet "Командование"
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{61724DCB5AD03F0E}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 2353.636 250.084 11776.711
+  angleY 130.29
+  m_aUnitPrefabSlots {
+   "{0AEF7A41FDCBF6E5}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Scout.et" "{0779E285709FDE15}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Spotter.et" "{9DE22FB5586591CD}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Miner.et" "{9DE22FB5586591CD}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Miner.et"
+  }
+  m_sCustomNameSet "Передовая разведка"
+ }
+}

@@ -1,0 +1,56 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SignalsManagerComponent "{61724DC3F47C1E8F}" {
+  }
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{789311902B5FF0FF}Assets/Props/Civilian/Notebook_01/Notebook_01_Single.xob"
+   Materials {
+    MaterialAssignClass "{61724DC3F47C1E91}" {
+     SourceMaterial "Notebook_01"
+     AssignedMaterial "{6DBA359EA58C72E1}Assets/Props/Civilian/Notebook_01/Data/Notebook_01_Orange.emat"
+    }
+    MaterialAssignClass "{61724DC3F47C1E93}" {
+     SourceMaterial "Palette"
+     AssignedMaterial "{C9BC6C21112291DE}Assets/Props/Civilian/Notebook_01/Data/Notebook_01_Orange_MLOD.emat"
+    }
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "SmallDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  ActionsManagerComponent "{61724DC3F47C1E98}" {
+   ActionContexts {
+    UserActionContext "{61724DC3F47C1E9A}" {
+     ContextName "Radio"
+     Position PointInfo "{61724DC3F47C1E64}" {
+      Offset 0 0 0
+     }
+    }
+   }
+   additionalActions {
+    PS_SpawnPrefabAction "{61724DC3F47C1E61}" {
+     ParentContextList {
+      "Radio"
+     }
+     UIInfo UIInfo "{61724DC3F47C1E60}" {
+      Name "Документы"
+      Description "Документы с планом"
+     }
+     Duration 10
+     "Sort Priority" 1
+     m_sName "Изучить документы"
+     m_sPrefab "{46EB9F4A7F46F9A4}PrefabsEditable/Markers/InfoMark1.et"
+     m_vPosition 2815.352 224.193 12387.906
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+   "Rpl State Override" Runtime
+  }
+ }
+ coords 0 0 0
+}
