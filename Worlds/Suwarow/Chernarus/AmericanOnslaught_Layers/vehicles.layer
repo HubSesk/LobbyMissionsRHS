@@ -1,0 +1,66 @@
+Vehicle BTR70_AFRF1 : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+ coords 1365.661 288.044 12017.905
+ angleX -3.22
+ angleY 120.567
+ angleZ 0.176
+}
+$grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
+ M923A1_transport_covered1 {
+  coords 6383.382 305.084 7798.243
+  angleY -148.849
+ }
+ M923A1_transport_covered3 {
+  coords 6388.599 305.094 7792.678
+  angleY -148.849
+ }
+}
+$grp Vehicle : "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M998_covered_long.et" {
+ M998_covered_long1 {
+  coords 6381.639 305.094 7790.771
+  angleY 117.909
+ }
+ M998_covered_long2 {
+  coords 6376.343 305.094 7793.563
+  angleY 117.909
+ }
+ M998_covered_long3 {
+  coords 6370.539 305.094 7796.369
+  angleY 117.909
+ }
+}
+$grp Vehicle : "{9DD4FD3527CB46C8}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_closed.et" {
+ Ural4320_transport_covered_closed1 {
+  coords 1417.392 284.226 11988.916
+  angleY 119.733
+ }
+ Ural4320_transport_covered_closed2 {
+  coords 1425.557 283.778 11984.508
+  angleY 119.733
+ }
+ Ural4320_transport_covered_closed3 {
+  coords 1433.866 283.5 11979.923
+  angleY 119.733
+ }
+ Ural4320_transport_covered_closed4 {
+  coords 1441.883 283.406 11975.314
+  angleY 119.733
+ }
+}
+$grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
+ M1025_armed_M2HB_MERDC1 {
+  coords 6381.833 305.094 7781.708
+  angleY 148.845
+ }
+ M1025_armed_M2HB_MERDC4 {
+  coords 6369.388 305.094 7792.826
+  angleY 118.287
+ }
+ M1025_armed_M2HB_MERDC3 {
+  coords 6374.664 305.094 7790.103
+  angleY 118.287
+ }
+ M1025_armed_M2HB_MERDC2 {
+  coords 6379.787 305.094 7787.672
+  angleY 118.287
+ }
+}
