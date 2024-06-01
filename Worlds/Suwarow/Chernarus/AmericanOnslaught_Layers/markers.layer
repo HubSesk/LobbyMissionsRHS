@@ -30,21 +30,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
  }
  {
-  coords 1385.513 286.701 12003.696
-  angleY 0
-  m_MarkerColor 0.502 0 0 1
-  m_sQuadName "dot"
-  m_fWorldSize 50
-  m_sDescription "Подкрепление Буран (БТР + 4 Урала)"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_RF_MSV"
-  }
-  m_aHideOnGameModeStates {
-   3
-  }
- }
- {
   coords 3797.104 311.094 8890.548
   angleY 115.006
   m_MarkerColor 0.502 0 0 1
@@ -87,9 +72,11 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  {
   coords 6337.397 305.113 7789.614
-  angleY 0
+  angleY 87.145
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
   m_MarkerColor 0 0.125 0.502 1
-  m_sQuadName "dot"
+  m_sQuadName "infantry-blufor"
   m_fWorldSize 50
   m_sDescription "Развертывание ВС США"
   m_bUseWorldScale 0
@@ -113,12 +100,14 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  {
-  coords 6377.227 305.094 7785.139
-  angleY 0
+  coords 6383.657 305.106 7789.792
+  angleY 87.145
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
   m_MarkerColor 0 0.125 0.502 1
-  m_sQuadName "dot"
+  m_sQuadName "infantry-blufor"
   m_fWorldSize 50
-  m_sDescription "4 Хаммера с М2"
+  m_sDescription "M998"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "RHS_US_USMC"
@@ -128,27 +117,14 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
  }
  {
-  coords 6384.996 305.106 7789.194
-  angleY 0
+  coords 6382.002 305.094 7796.804
+  angleY 87.145
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
   m_MarkerColor 0 0.125 0.502 1
-  m_sQuadName "dot"
+  m_sQuadName "Motorized-rifle-blufor"
   m_fWorldSize 50
-  m_sDescription "3 Хаммера"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_US_USMC"
-  }
-  m_aHideOnGameModeStates {
-   3
-  }
- }
- {
-  coords 6385.404 305.094 7795.937
-  angleY 0
-  m_MarkerColor 0 0.125 0.502 1
-  m_sQuadName "dot"
-  m_fWorldSize 50
-  m_sDescription "2 Грузовика"
+  m_sDescription "M923"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "RHS_US_USMC"
@@ -216,5 +192,192 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_aHideOnGameModeStates {
   }
   m_bShowForAnyFaction 1
+ }
+ {
+  coords 1364.218 288.927 12015.426
+  angleY 87.145
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "Motorized-rifle-opfor"
+  m_fWorldSize 50
+  m_sDescription "БТР-70 Буран-14"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 1439.112 283.406 11973.097
+  angleY 87.145
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "motorized-opfor"
+  m_fWorldSize 50
+  m_sDescription "Урал Буран-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 1432.61 283.476 11977.064
+  angleY 87.145
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "motorized-opfor"
+  m_fWorldSize 50
+  m_sDescription "Урал Буран-12"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 1423.527 283.809 11982.325
+  angleY 87.145
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "motorized-opfor"
+  m_fWorldSize 50
+  m_sDescription "Урал Буран-13"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 6387.978 308.018 7792.251
+  angleY 87.145
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "Motorized-rifle-blufor"
+  m_fWorldSize 50
+  m_sDescription "M923"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 6377.692 306.1 7791.671
+  angleY 87.145
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "infantry-blufor"
+  m_fWorldSize 50
+  m_sDescription "M998"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 6371.967 305.594 7795.116
+  angleY 87.145
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "infantry-blufor"
+  m_fWorldSize 50
+  m_sDescription "M998"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 6383.468 305.098 7779.595
+  angleY 87.145
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "infantry-blufor"
+  m_fWorldSize 50
+  m_sDescription "M1025"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 6380.133 305.094 7787.614
+  angleY 87.145
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "infantry-blufor"
+  m_fWorldSize 50
+  m_sDescription "M1025"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 6373.846 305.125 7791.231
+  angleY 87.145
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "infantry-blufor"
+  m_fWorldSize 50
+  m_sDescription "M1025"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 6369.42 305.104 7793.08
+  angleY 87.145
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "infantry-blufor"
+  m_fWorldSize 50
+  m_sDescription "M1025"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
  }
 }

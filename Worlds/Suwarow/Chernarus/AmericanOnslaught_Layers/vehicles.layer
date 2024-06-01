@@ -1,5 +1,5 @@
 Vehicle BTR70_AFRF1 : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
- coords 1365.661 288.044 12017.905
+ coords 1366.216 288.04 12018.604
  angleX -3.22
  angleY 120.567
  angleZ 0.176
@@ -29,17 +29,17 @@ $grp Vehicle : "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M998_covered_lon
  }
 }
 $grp Vehicle : "{9DD4FD3527CB46C8}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_closed.et" {
- Ural4320_transport_covered_closed1 {
-  coords 1417.392 284.226 11988.916
-  angleY 119.733
- }
  Ural4320_transport_covered_closed2 {
   coords 1425.557 283.778 11984.508
-  angleY 119.733
+  angleX -2.774
+  angleY 119.76
+  angleZ -0.555
  }
  Ural4320_transport_covered_closed3 {
   coords 1433.866 283.5 11979.923
-  angleY 119.733
+  angleX -1.221
+  angleY 119.726
+  angleZ 0.333
  }
  Ural4320_transport_covered_closed4 {
   coords 1441.883 283.406 11975.314
