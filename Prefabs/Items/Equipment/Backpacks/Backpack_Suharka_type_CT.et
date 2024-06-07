@@ -1,0 +1,37 @@
+GenericEntity : "{D693417ED79D8202}Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_base.et" {
+ ID "511E9C6ADE70F798"
+ components {
+  MeshObject "{511E9C6ADE70F7BD}" {
+   Object "{4C0FDA7A04E9592F}Assets/Items/Equipment/Backpacks/Backpack_Ratnik_Suharka/rhs_ratnik_suharka_type1_item.xob"
+   Materials {
+    MaterialAssignClass "{618F521D93A9720E}" {
+     SourceMaterial "ratnik_suharka_fastex"
+     AssignedMaterial "{B78702FF904D92DA}Assets/Items/Equipment/Backpacks/Backpack_Ratnik_Suharka/data/ratnik_suharka_fastex_CT.emat"
+    }
+    MaterialAssignClass "{618F521D93A9721C}" {
+     SourceMaterial "ratnik_suharka_type1"
+     AssignedMaterial "{F77C95C3B853E704}Assets/Items/Equipment/Backpacks/Backpack_Ratnik_Suharka/data/ratnik_suharka_type_CT.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB03A40528FA}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB039E9715D1}" {
+    ItemDisplayName UIInfo "{5222CB03904B414C}" {
+     Name "#RHS-Backpack_Ratnik_Suharka_1_Name"
+     Description "#RHS-Backpack_Ratnik_Suharka_1_Description"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{511E9C6ADE70F7BB}" {
+   WornModel "{E0FB9D2FE901F6EC}Assets/Items/Equipment/Backpacks/Backpack_Ratnik_Suharka/rhs_ratnik_suharka_type1.xob"
+   WornMaterialsOverride {
+    "{F77C95C3B853E704}Assets/Items/Equipment/Backpacks/Backpack_Ratnik_Suharka/data/ratnik_suharka_type_CT.emat" "{B78702FF904D92DA}Assets/Items/Equipment/Backpacks/Backpack_Ratnik_Suharka/data/ratnik_suharka_fastex_CT.emat"
+   }
+   ItemModel "{4C0FDA7A04E9592F}Assets/Items/Equipment/Backpacks/Backpack_Ratnik_Suharka/rhs_ratnik_suharka_type1_item.xob"
+   ItemMaterialsOverride {
+    "{F77C95C3B853E704}Assets/Items/Equipment/Backpacks/Backpack_Ratnik_Suharka/data/ratnik_suharka_type_CT.emat" "{B78702FF904D92DA}Assets/Items/Equipment/Backpacks/Backpack_Ratnik_Suharka/data/ratnik_suharka_fastex_CT.emat"
+   }
+  }
+ }
+ coords 1220.652 38.011 2841.177
+}

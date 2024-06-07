@@ -1,0 +1,45 @@
+GameEntity : "{D9B30C3875AC2590}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_base.et" {
+ ID "50D485E1435D6C72"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Materials {
+    MaterialAssignClass "{618F521A6D6969B2}" {
+     SourceMaterial "MATERIAL_NONE"
+     AssignedMaterial "{6096E42511E15FAB}Assets/Characters/HeadGear/Helmet_TORnew/data/tor_new_blk.emat"
+    }
+   }
+  }
+  RHS_ClothNodeStorageComponent "{5DB13C5777E6E695}" {
+   Attributes SCR_ItemAttributeCollection "{5DB13C5760610D64}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_tor_small_black_Name"
+     Description "#RHS-Headgear_tor_Description"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{0A6931140B34A0FE}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok_tor.et"
+    }
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{F0E79FF45C972F8D}Prefabs/Characters/HeadGear/Helmet_TOR/Headgear_tor_cover_black.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{40ED520CE1154848}Prefabs/Characters/HeadGear/Helmet_LShZ/Balaclava_LShZ_black.et"
+    }
+    RHS_LoadoutSlotInfo Headset {
+     Prefab "{EB916F0BF524EF25}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_black.et"
+    }
+   }
+   WornModel "{9E986C431C669554}Assets/Characters/HeadGear/Helmet_TORnew/tor_s.xob"
+   WornMaterialsOverride {
+    "{6096E42511E15FAB}Assets/Characters/HeadGear/Helmet_TORnew/data/tor_new_blk.emat"
+   }
+   ItemModel "{6A3CD830475F5B1D}Assets/Characters/HeadGear/Helmet_TORnew/tor_s_ground.xob"
+   ItemMaterialsOverride {
+    "{6096E42511E15FAB}Assets/Characters/HeadGear/Helmet_TORnew/data/tor_new_blk.emat"
+   }
+  }
+ }
+}

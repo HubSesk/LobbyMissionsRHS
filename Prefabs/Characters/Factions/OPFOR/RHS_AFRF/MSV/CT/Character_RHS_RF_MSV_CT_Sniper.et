@@ -1,0 +1,85 @@
+SCR_ChimeraCharacter : "{45A8C75A9E23BDEF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_BaseLoadout.et" {
+ ID "520EC961A090BE1E"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_name "Снайпер"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Rifleman"
+    Icon "{0A78405E73C36477}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Sharpshooter.edds"
+    m_Image "{B3CBDB96C5D08BD3}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Rifleman.edds"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels {
+     122 46
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6415B7923DE28C1B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{A6ECE6A502C5ACF9}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_small_black_CT1.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{E3CF7D0A9D08022E}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Black.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{3EE5D06F1BB8F48F}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_black.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{9C624FF37082B70A}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_black.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{DC1B4232ADF468EA}Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_type_CT.et"
+    }
+    LoadoutSlotInfo Vest {
+     Enabled 0
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6062F658F714ECE6}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_black.et"
+     PrefabsToSpawn {
+      "{715F17F82E028CF5}Prefabs/Items/Equipment/Radios/Radio_R148_Single.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6062F658F714ECED}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Black.et"
+    }
+    ItemsInitConfigurationItem "{618F521FF613A8AE}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_type_CT.et"
+     PrefabsToSpawn {
+      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+     }
+    }
+    ItemsInitConfigurationItem "{618F521FF613A8B0}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_type_CT.et"
+     PrefabsToSpawn {
+      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+     }
+    }
+    ItemsInitConfigurationItem "{618F521FF613DBC4}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_type_CT.et"
+     PrefabsToSpawn {
+      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+     }
+    }
+    ItemsInitConfigurationItem "{618F521FF613DBC2}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_type_CT.et"
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+}

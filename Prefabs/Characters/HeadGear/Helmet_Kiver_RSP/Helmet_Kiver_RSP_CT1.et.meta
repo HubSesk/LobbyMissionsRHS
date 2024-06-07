@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{357159B262FD1ED5}Prefabs/Characters/HeadGear/Helmet_Kiver_RSP/Helmet_Kiver_RSP_CT1.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

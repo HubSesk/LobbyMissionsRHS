@@ -1,0 +1,118 @@
+$grp SCR_AIGroup : "{21392E41C94DF128}Prefabs/Groups/PS_CRIMINALS/Group_PS_CheeseRiders_Gang.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{618F52126C0E3849}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 7068.348 5.752 5229.75
+  m_aUnitPrefabSlots + {
+   "{F597A1631D944418}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Thug.et" "{407286CD8563E6B6}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Tough.et"
+  }
+  m_bDeleteWhenEmpty 0
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{618F52126C0E3849}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 7442.152 8.287 5342.096
+  m_aUnitPrefabSlots + {
+   "{F597A1631D944418}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Thug.et" "{407286CD8563E6B6}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Tough.et"
+  }
+  m_bSnapToTerrain 0
+  m_bDeleteWhenEmpty 0
+ }
+}
+$grp SCR_AIGroup : "{807C0101E3FDD72E}Prefabs/Groups/PS_CRIMINALS/Group_PS_CheeseRiders_Brothers.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{618F5212CB90FB24}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 7109.847 5.817 5189.006
+  angleY -132.921
+  m_aUnitPrefabSlots + {
+   "{3BE3C43DC4FE5F35}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Gunman.et" "{3BE3C43DC4FE5F35}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Gunman.et" "{73BAC68AC5458990}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Brigadier.et"
+  }
+  m_bDeleteWhenEmpty 0
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{618F5212CB90FB24}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 7419.694 8.289 5431.413
+  angleY -132.921
+  m_aUnitPrefabSlots + {
+   "{3BE3C43DC4FE5F35}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Gunman.et" "{3BE3C43DC4FE5F35}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Gunman.et" "{73BAC68AC5458990}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Brigadier.et"
+  }
+  m_bSnapToTerrain 0
+  m_bDeleteWhenEmpty 0
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{618F5212CB90FB24}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 7204.706 4.764 5299.414
+  angleY 112.725
+  m_aUnitPrefabSlots + {
+   "{3BE3C43DC4FE5F35}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Gunman.et" "{3BE3C43DC4FE5F35}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Gunman.et" "{73BAC68AC5458990}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Brigadier.et"
+  }
+  m_bSnapToTerrain 0
+  m_bDeleteWhenEmpty 0
+ }
+}
+SCR_AIGroup : "{9363C234DEAA21E7}Prefabs/Groups/PS_CRIMINALS/Group_PS_CheeseRiders_Boss.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{618F1C0E77196A8F}" {
+  }
+ }
+ coords 7269.028 5.832 5327.074
+ angleY -110.367
+ m_aUnitPrefabSlots + {
+  "{11F605A548991114}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Mercenary.et" "{11F605A548991114}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Mercenary.et" "{11F605A548991114}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Mercenary.et"
+ }
+ m_bDeleteWhenEmpty 0
+}
+SCR_AIGroup : "{E569289C7086C378}Prefabs/Groups/PS_CRIMINALS/Group_PS_CheeseRiders_Merk.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{618F52114E1FCC51}" {
+   m_iPlatoonCallsign 1
+  }
+ }
+ coords 7283.028 5.104 5302.623
+ m_aUnitPrefabSlots + {
+  "{11F605A548991114}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Mercenary.et" "{11F605A548991114}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Mercenary.et" "{11F605A548991114}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Mercenary.et" "{11F605A548991114}Prefabs/Characters/Factions/PS_CRIMINALS/PS_CheeseRaiders/Character_CheeseRaider_Mercenary.et"
+ }
+ m_bDeleteWhenEmpty 0
+}

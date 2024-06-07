@@ -1,0 +1,87 @@
+GameEntity : "{ABCD327C7E4EEE01}Prefabs/Characters/HeadGear/Helmet_LShZ/Helmet_LShZ_base.et" {
+ ID "50D485E1435D6C72"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{52C8D601873E6784}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_LShZ_3_mod3_Name"
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{E4FA432359C4BB6E}Assets/Characters/HeadGear/Helmet_Kiver_RSP/kiver_rsp_item.xob"
+  }
+  RHS_ClothNodeStorageComponent "{5DB13C5777E6E695}" {
+   Attributes SCR_ItemAttributeCollection "{5DB13C5760610D64}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_kiver_rsp_Name"
+     Description "#RHS-Headgear_kiver_rsp_Description"
+    }
+    CustomAttributes {
+     RHS_CustomAttributes "{5DB8F5B9ACB547EA}" {
+      m_sShortName "#RHS-Headgear_kiver_rsp_Name"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{9C030889E9A05770}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok.et"
+    }
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{679FEE1DC98FE1C3}Prefabs/Characters/HeadGear/Helmet_Kiver_RSP/Headgear_Kiver_RSP_cover_green.et"
+     AreaType RHS_LoadoutKiverCoverSlotArea "{618F1C06C42EC5D4}" {
+     }
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{40ED520CE1154848}Prefabs/Characters/HeadGear/Helmet_LShZ/Balaclava_LShZ_black.et"
+    }
+    RHS_LoadoutSlotInfo BackVelcro {
+     Offset 0 0.1051 0.1281
+     m_fMorphValue 0.7
+     m_aEnablers {
+      "MeshCover"
+     }
+     m_vPatchAdditivePosition 0 -0.02 0.001
+     m_vPatchAdditiveRotation 0.5 -4 0
+    }
+    RHS_LoadoutSlotInfo NVG {
+     Offset -0.001 0.1485 -0.1521
+     Angles -9.6365 180 0
+    }
+    RHS_LoadoutSlotInfo Headset {
+     Prefab "{EB916F0BF524EF25}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_black.et"
+    }
+    RHS_LoadoutSlotInfo Rail_Right {
+     Offset -0.1128 0.1342 -0.0233
+     Angles 0 180 -3.0925
+    }
+    RHS_LoadoutSlotInfo Rail_Left {
+     Offset 0.1175 0.1375 -0.0217
+    }
+    RHS_LoadoutSlotInfo TopVelcro {
+     Offset 0 0.2218 -0.0006
+    }
+    RHS_LoadoutSlotInfo LeftVelcro {
+     Offset 0.0807 0.1843 -0.0045
+     Angles 41.1276 88.109 0.0334
+     m_fMorphValue 0.3
+     m_aEnablers {
+      "MeshCover"
+     }
+    }
+    RHS_LoadoutSlotInfo RightVelcro {
+     Offset -0.0825 0.1836 -0.007
+     Angles 39.7153 -89.56229 0.3021
+     m_fMorphValue 0.3
+     m_aEnablers {
+      "MeshCover"
+     }
+    }
+   }
+   WornModel "{7C007C9A626F48A9}Assets/Characters/HeadGear/Helmet_Kiver_RSP/kiver_rsp.xob"
+   ItemModel "{E4FA432359C4BB6E}Assets/Characters/HeadGear/Helmet_Kiver_RSP/kiver_rsp_item.xob"
+  }
+ }
+}

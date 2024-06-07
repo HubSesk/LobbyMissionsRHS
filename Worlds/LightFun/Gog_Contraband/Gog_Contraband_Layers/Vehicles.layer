@@ -1,0 +1,74 @@
+$grp Vehicle : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_camo1.et" {
+ Ural4320_transport_covered_camo2 {
+  coords 5387.978 6.875 4883.914
+ }
+ Ural4320_transport_covered_camo1 {
+  coords 5372.839 5.637 4896.206
+  angleX 1.788
+  angleY 0.056
+  angleZ 1.791
+ }
+ Ural4320_transport_covered_camo4 {
+  coords 5417.112 5.738 4932.24
+  angleX 3.704
+  angleY -67.514
+  angleZ -4.261
+ }
+ Ural4320_transport_covered_camo3 {
+  coords 5414.232 6.875 4899.513
+  angleY -59.833
+ }
+}
+Vehicle S105_darkred1 : "{8000A0F649FB4B0D}Prefabs/Vehicles/Wheeled/S105/S105_darkred.et" {
+ coords 7262.535 5.936 5324.953
+ angleX -1.76
+ angleY 169.423
+ angleZ 0.329
+}
+Vehicle S105_green1 : "{AD80FB47D868C775}Prefabs/Vehicles/Wheeled/S105/S105_green.et" {
+ coords 7114.749 6.675 5174.525
+ angleX -3.102
+ angleY -72.14
+ angleZ 0.879
+}
+Vehicle APC_K17_unarmed_camo1 : "{DC6A0BC75B198106}Prefabs/Vehicles/Wheeled/K17/APC_K17_unarmed_camo1.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5CE26149257047CD}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5DE729985908AF47}" {
+     SlotTemplate InventoryStorageSlot tourniqet {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{5DE729984447E1C3}" {
+     SlotTemplate InventoryStorageSlot morphine {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{5D557449EB938170}" {
+     SlotTemplate InventoryStorageSlot Magazine {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{5D557449C8388090}" {
+     SlotTemplate InventoryStorageSlot Magazine {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{5D557449DBF8D3B0}" {
+     SlotTemplate InventoryStorageSlot Magazine {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ coords 5380.227 6.875 4929.073
+ angleY -31.557
+}
+Vehicle S1203_transport_blue1 : "{F77C41245A580FD1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_blue.et" {
+ coords 7193.449 4.885 5304.771
+ angleX 1.788
+ angleY 0.056
+ angleZ 1.791
+}
