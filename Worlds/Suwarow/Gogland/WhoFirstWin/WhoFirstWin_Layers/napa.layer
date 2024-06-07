@@ -1,0 +1,27 @@
+SCR_AIGroup : "{126BE8C46FA39581}Prefabs/Groups/INDFOR/Group_FIA_FireTeam_P.et" {
+ coords 7351.634 9.066 5316.702
+ m_aUnitPrefabSlots {
+  "{D6D900561F38CBD3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AC_Civ_Unarmed.et"
+ }
+ m_sCustomNameSet "VIP"
+}
+$grp SCR_AIGroup : "{F83A6FB6CB36AE0F}Prefabs/Groups/INDFOR/Ses_NAPA/Group_Ses_NAPA_RifleSquad.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 7357.204 7.688 5315.875
+  angleY -126.76
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 7359.72 7.879 5318.219
+  angleY -126.76
+ }
+}

@@ -1,0 +1,278 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 7422.674 8.289 5407.409
+  angleY 71.755
+  m_MarkerColor 0 0.502 0.125 1
+  m_sQuadName "mark-exclamation"
+  m_fWorldSize 50
+  m_sDescription "Грозный"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 5541.015 123.406 6775.616
+  angleY 71.755
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.552 0.002 0 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 50
+  m_sDescription "Спецназ"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 5530.885 125.504 6898.488
+  angleY 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.552 0.002 0 1
+  m_sQuadName "APC"
+  m_fWorldSize 50
+  m_sDescription "К-17 Транспортный"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 5528.356 127.336 6892.623
+  angleY 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.552 0.002 0 1
+  m_sQuadName "APC"
+  m_fWorldSize 50
+  m_sDescription "К-17 Транспортный"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 5530.051 125.597 6884.754
+  angleY 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.552 0.002 0 1
+  m_sQuadName "Truck"
+  m_fWorldSize 50
+  m_sDescription "Урал Транспортный"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 5529.355 125.44 6879.629
+  angleY 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.552 0.002 0 1
+  m_sQuadName "Truck"
+  m_fWorldSize 50
+  m_sDescription "Урал Транспортный"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 5528.406 125.392 6875.093
+  angleY 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.552 0.002 0 1
+  m_sQuadName "Truck"
+  m_fWorldSize 50
+  m_sDescription "Урал Транспортный"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 5527.395 125.349 6870.808
+  angleY 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.552 0.002 0 1
+  m_sQuadName "Truck"
+  m_fWorldSize 50
+  m_sDescription "Урал Транспортный"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 5568.398 123.737 6730.155
+  angleY 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.552 0.002 0 1
+  m_sQuadName "Helicopter"
+  m_fWorldSize 50
+  m_sDescription "Ми-8МТТ"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 1281.75 2.75 5027.477
+  angleY 71.755
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Helicopter-blufor"
+  m_fWorldSize 50
+  m_sDescription "КМП США"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 1324.534 2.75 5047.941
+  angleY 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Helicopter"
+  m_fWorldSize 50
+  m_sDescription "UH1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 1340.317 2.75 5032.825
+  angleY 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Helicopter"
+  m_fWorldSize 50
+  m_sDescription "UH1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 1356.703 2.75 5017.695
+  angleY 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Helicopter"
+  m_fWorldSize 50
+  m_sDescription "UH1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 1372.137 2.75 5003.828
+  angleY 0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Helicopter"
+  m_fWorldSize 50
+  m_sDescription "UH1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 7364.522 8.28 5319.809
+  angleY 0
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.502 0.125 1
+  m_sQuadName "infantry-indfor"
+  m_fWorldSize 50
+  m_sDescription "НАПА"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 7364.522 8.28 5319.809
+  angleY 0
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.502 0.125 1
+  m_sQuadName "infantry-indfor"
+  m_fWorldSize 50
+  m_sDescription "НАПА"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 8115.394 -7.315 5553.608
+  angleY 126.47
+  m_sImageSet "{44C93BE98C18E5E8}Worlds/Suwarow/Gogland/WhoFirstWin/image_whofirstwin_vip.edds"
+  m_sImageSetGlow ""
+  m_sQuadName ""
+  m_fWorldSize 1000
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+}

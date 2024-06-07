@@ -1,0 +1,55 @@
+$grp Vehicle : "{00AED68EFBF251BA}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_closed_camo1.et" {
+ Ural4320_transport_covered_closed_camo1 {
+  coords 5532.672 123.625 6883.623
+  angleY -74.49
+ }
+ Ural4320_transport_covered_closed_camo2 {
+  coords 5532.149 123.452 6878.79
+  angleY -74.49
+ }
+ Ural4320_transport_covered_closed_camo3 {
+  coords 5531.125 123.422 6874.063
+  angleY -74.49
+ }
+ Ural4320_transport_covered_closed_camo4 {
+  coords 5530.003 123.406 6869.513
+  angleY -74.49
+ }
+}
+Vehicle Mi8MTT_A_Black_no_pylons2 : "{5BF04078A1EC66D8}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MTT-A_Black_no_pylons.et" {
+ coords 5569.776 123.713 6730.994
+}
+$grp Vehicle : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
+ UH1H6 {
+  coords 1342.982 2.75 5034.896
+  angleY -126.379
+ }
+ UH1H7 {
+  coords 1358.984 2.75 5020.261
+  angleY -126.379
+ }
+ UH1H8 {
+  coords 1375.092 2.75 5005.749
+  angleY -126.379
+ }
+ UH1H5 {
+  coords 1326.994 2.75 5049.779
+  angleY -126.379
+ }
+}
+Vehicle APC_K17_unarmed_camo1 : "{DC6A0BC75B198106}Prefabs/Vehicles/Wheeled/K17/APC_K17_unarmed_camo1.et" {
+ coords 5532.575 123.575 6891.325
+ angleY -73.46
+}
+SCR_AIGroup : "{F83A6FB6CB36AE0F}Prefabs/Groups/INDFOR/Ses_NAPA/Group_Ses_NAPA_RifleSquad.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+ }
+ coords 7362.213 7.715 5319.405
+ angleY -126.76
+ m_aUnitPrefabSlots + {
+  "{DDB884019AEDE28A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AT.et"
+ }
+}
