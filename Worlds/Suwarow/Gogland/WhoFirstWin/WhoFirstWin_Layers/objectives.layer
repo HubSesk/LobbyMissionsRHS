@@ -7,11 +7,11 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
   "30 минут удерживать корабль."\
   "Если врагов в триггере больше, чем игроков Вашей команды, то Вы проиграли."
   m_aVisibleForFactions {
-   "Ses_NAPA"
+   "PS_CheeseRaiders"
   }
   m_iOrder 1
-  m_iScore 50
-  m_sFactionKey "Ses_NAPA"
+  m_iScore 75
+  m_sFactionKey "PS_CheeseRaiders"
  }
  {
   coords 7268.313 0 6056.292
@@ -22,22 +22,22 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
   ""\
   "Защищайте и удерживайте VIP в течении 30 минут. Если VIP погибает, то эта задача считается проваленой в независимости из-за кого он погиб."
   m_aVisibleForFactions {
-   "Ses_NAPA"
+   "PS_CheeseRaiders"
   }
   m_iOrder 1
-  m_iScore 50
-  m_sFactionKey "Ses_NAPA"
+  m_iScore 75
+  m_sFactionKey "PS_CheeseRaiders"
  }
  {
   coords 7364.471 0 5379.478
   m_sTitle "Уничтожить вражеские силы"
   m_sTextData "Уничтожьте все вражеские силы в триггере."
   m_aVisibleForFactions {
-   "Ses_NAPA"
+   "PS_CheeseRaiders"
   }
   m_iOrder 1
   m_iScore 75
-  m_sFactionKey "Ses_NAPA"
+  m_sFactionKey "PS_CheeseRaiders"
  }
  {
   coords 7254.525 0 6048.712
@@ -50,7 +50,7 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
    "RHS_RF_MSV"
   }
   m_iOrder 1
-  m_iScore 50
+  m_iScore 75
   m_sFactionKey "RHS_RF_MSV"
  }
  {
@@ -65,7 +65,7 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
    "RHS_RF_MSV"
   }
   m_iOrder 1
-  m_iScore 50
+  m_iScore 75
   m_sFactionKey "RHS_RF_MSV"
  }
  {
@@ -90,22 +90,22 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
    "RHS_US_USMC"
   }
   m_iOrder 1
-  m_iScore 50
+  m_iScore 75
   m_sFactionKey "RHS_US_USMC"
  }
  {
   coords 7257.205 0 6027.085
-  m_sTitle "Эвакуировать VIP"
-  m_sTextData "На корабле оказался очень важный VIP. Он очень важен для нас. Сохраните его жизнь и эвакуируйте."\
+  m_sTitle "Убить VIP"
+  m_sTextData "На корабле оказался очень важный VIP, которого нужно убить. Сделайте всё, чтобы выполнить поставленную задачу."\
   ""\
   "Он изображен на фото справа от корабля на карте."\
   ""\
-  "Эвакуируйте VIP в течении 30 минут. Если VIP погибает, то эта задача считается проваленой в независимости из-за кого он погиб."
+  "Ликвидируйте VIP в течении 30 минут. Если VIP погибает, то эта задача считается выполненной в независимости из-за кого он погиб."
   m_aVisibleForFactions {
    "RHS_US_USMC"
   }
   m_iOrder 1
-  m_iScore 50
+  m_iScore 75
   m_sFactionKey "RHS_US_USMC"
  }
  {

@@ -41,15 +41,3 @@ Vehicle APC_K17_unarmed_camo1 : "{DC6A0BC75B198106}Prefabs/Vehicles/Wheeled/K17/
  coords 5532.575 123.575 6891.325
  angleY -73.46
 }
-SCR_AIGroup : "{F83A6FB6CB36AE0F}Prefabs/Groups/INDFOR/Ses_NAPA/Group_Ses_NAPA_RifleSquad.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "Line"
-  }
- }
- coords 7362.213 7.715 5319.405
- angleY -126.76
- m_aUnitPrefabSlots + {
-  "{DDB884019AEDE28A}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AT.et"
- }
-}
