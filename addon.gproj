@@ -3,7 +3,7 @@ GameProject {
  GUID "5F0ECCEE7B9AA8CE"
  TITLE "SesMissionsRHS"
  Dependencies {
-  "58D0FB3206B6F859" "595F2BF2F44836FB"
+  "58D0FB3206B6F859"
  }
  Configurations {
   GameProjectConfig PC {
@@ -13,6 +13,9 @@ GameProject {
   GameProjectConfig XBOX_SERIES {
   }
   GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 : PC {
+   PlatformHardware PS5
   }
   GameProjectConfig HEADLESS {
   }
