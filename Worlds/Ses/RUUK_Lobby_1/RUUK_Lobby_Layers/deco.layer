@@ -1,0 +1,185 @@
+GenericEntity : "{00EC57C047FB8AE9}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_Light_USSR_01.et" {
+ coords 1378.435 74.995 1136.38
+ angleY 143.071
+ {
+  GenericEntity {
+   ID "5CB0D991D90370E8"
+   {
+    GenericEntity {
+     ID "59A2EA8548F2D78C"
+     Flags 2098179
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{1AC1F28A21804631}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_Sign_USSR_01.et" {
+ coords 1859.274 109.514 337.483
+ angleY 148.648
+}
+StaticModelEntity : "{2AD330CAD22BE0AC}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/CzechHedgehog_01_painted_CompositionDestruction.et" {
+ coords 1084.168 -0 1352.421
+ angleX -7.109
+ angleY 0.335
+ angleZ -2.705
+}
+$grp GenericEntity : "{2F2BBFDA3A2C73D4}Prefabs/Props/Civilian/RadioSmall_01_black.et" {
+ {
+  coords 1237.515 60.962 1225.274
+  angleY -152.294
+ }
+ {
+  coords 1379.786 75.168 1144.955
+  angleY 138.485
+ }
+}
+GenericEntity : "{3BAF6AA8C20D924E}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Barricade_Logs_01.et" {
+ coords 1046.968 33.601 1367.058
+ angleX -6.685
+ angleY -20.334
+ angleZ 2.47
+}
+Vehicle Mi8MT_CDF_Deco1 : "{4622896BBDF1AE59}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_CDF_Deco.et" {
+ coords 948.589 112.823 2834.088
+ angleX 4.341
+ angleY -107.269
+ angleZ -0.858
+}
+GenericEntity : "{57FB5E487EC91D64}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Barricade_Logs_02.et" {
+ coords 1054.125 34.454 1359.264
+ angleX 5.938
+ angleY 168.423
+ angleZ -2.122
+}
+GenericEntity : "{5E6CBF60621C39CD}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Ammunition_USSR.et" {
+ coords 1227.048 58.148 1232.077
+ angleX -14.44
+ angleY 80.762
+ angleZ -18.111
+}
+StaticModelEntity : "{605A7848CB4D361A}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Bunker_Camouflaged_USSR_01.et" {
+ coords 1387.354 75.3 1141.508
+ angleX -4.687
+ angleY -34.81
+ angleZ 1.081
+}
+StaticModelEntity : "{6DEC3A82BA35F108}Prefabs/Compositions/Misc/SubCompositions/Tent_BarrackHQ_Cluttered_USSR_01.et" {
+ coords 1544.351 92.918 961.413
+ angleY 55.203
+ {
+  GenericEntity {
+   ID "58C28EA038167BE7"
+   Flags 2098179
+  }
+ }
+}
+GenericEntity : "{78A930FB0825AAA0}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Camo_long_high_USSR.et" {
+ coords 1224.413 58.253 1238.72
+ angleY -83.55
+}
+GenericEntity : "{A2D4DAC9EDE8BD6E}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01_NSV.et" {
+ coords 1108.788 57.147 1215.081
+ angleX -4.471
+ angleY -13.498
+}
+StaticModelEntity : "{AE28D47CF26E91EA}Prefabs/Props/Military/Fortification/CzechHedgehog_01_rusty.et" {
+ coords 1091.325 -0 1358.038
+ angleX 1.884
+ angleY 70.886
+ angleZ -8.172
+}
+GenericEntity : "{B26712B1722C8A09}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Barricade_Logs_03.et" {
+ coords 1102.046 34.755 1367.998
+ angleX -9.42
+ angleY -43.888
+ angleZ 0.443
+}
+$grp GenericEntity : "{D7B21E69929A0546}Prefabs/Structures/Military/Camps/Shelters/ShelterStorageUSSR_01.et" {
+ {
+  coords 1234.795 60.65 1225.526
+  angleX -5.66
+  angleY -53.08
+ }
+ {
+  coords 1259.42 64.64 1205.47
+  angleX -8.351
+  angleY -48.884
+  angleZ 3.092
+ }
+ {
+  coords 1379.117 74.906 1142.525
+  angleX 0.018
+  angleY -130.406
+  angleZ 5.107
+ }
+ {
+  coords 1318.425 74.348 1137.853
+  angleX 1.966
+  angleY -140.351
+  angleZ 0.356
+ }
+ {
+  coords 1111.695 38.764 1343.963
+  angleX -5.691
+  angleY -78.963
+  angleZ 6.855
+ }
+ {
+  coords 1465.871 83.592 1071.215
+  angleX 1.12
+  angleY -142.837
+  angleZ 4.984
+ }
+ {
+  coords 1145.933 43.992 1333.899
+  angleX -7.907
+  angleY -67.741
+  angleZ -0.162
+ }
+ {
+  coords 1188.567 51.708 1290.844
+  angleX -7.731
+  angleY -23.61
+  angleZ -5.471
+ }
+}
+$grp GenericEntity : "{E027C0CF067256FA}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01.et" {
+ {
+  coords 1225.961 57.777 1248.151
+  angleY 0
+ }
+ {
+  coords 1098.648 36.931 1348.413
+  angleY -35.641
+ }
+ {
+  coords 1194.162 52.499 1288.385
+  angleY 0
+ }
+}
+$grp GenericEntity : "{EA3695BD1C032FE2}PrefabsEditable/Auto/Structures/Military/Flags/FlagPole_02_V1_ChDKZ_Editable.et" {
+ {
+  coords 1380.201 74.211 1140.135
+ }
+ {
+  coords 1438.667 108.542 911.424
+  angleX 64.592
+  angleY 5.09
+  angleZ -88.898
+ }
+ {
+  coords 1233.673 59.725 1223.706
+ }
+}
+GenericEntity : "{F39B4625596DF5A4}PrefabsEditable/Auto/Structures/Military/Flags/FlagPole_02_V1_Chernarus_Editable.et" {
+ coords 802.335 113.745 2874.435
+ angleY 84.708
+}
+GenericEntity : "{F76340CCD79DCC5A}Prefabs/Props/Civilian/RadioSmall_01_red.et" {
+ coords 1448.281 95.299 915.098
+ angleY -97.727
+}
+GenericEntity : "{F9EBA10CC445ED63}PrefabsEditable/Auto/Structures/Military/Flags/FlagPole_02_V1_CDF_Editable.et" {
+ coords 786.022 113.322 2801.72
+ angleY -76.937
+}

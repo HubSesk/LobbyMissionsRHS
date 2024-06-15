@@ -1,0 +1,67 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 852.12 115.76 2947.921
+  m_sTitle "Описание миссии"
+  m_sTextData "ЧСО готовят наступление на укрепления ЧДКЗ."\
+  ""\
+  "!!! ЧДКЗ НЕ МОГУТ ВЫХОДИТЬ ЗА КРАСНУЮ ЛИНИЮ !!!"
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 837.607 115.353 2948.601
+  m_sTitle "Задачи ЧСО"
+  m_sTextData "Взять под контроль укрепления отмеченные на карте желтыми маркерами."
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_iOrder 1
+ }
+ {
+  coords 828.978 115.106 2950.409
+  m_sTitle "Задачи ЧДКЗ"
+  m_sTextData "Удержать укрепления отмеченные на карте желтыми маркерами."
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_iOrder 1
+ }
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 850.836 115.525 2950.803
+  m_sTitle "Укрепление 1"
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_iScore 50
+  m_sFactionKey "Ses_CDF"
+ }
+ {
+  coords 845.15 115.389 2952.12
+  m_sTitle "Укрепление 2"
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_iScore 50
+  m_sFactionKey "Ses_CDF"
+ }
+ {
+  coords 829.187 114.905 2945.335
+  m_sTitle "Укрепление 2"
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+  m_iScore 50
+  m_sFactionKey "Ses_ChDKZ"
+ }
+ {
+  coords 834.872 115.041 2944.018
+  m_sTitle "Укрепление 1"
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+  m_iScore 50
+  m_sFactionKey "Ses_ChDKZ"
+ }
+}
