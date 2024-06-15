@@ -1,0 +1,133 @@
+$grp GenericEntity : "{0DBE058F13F0C7E8}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_US.et" {
+ {
+  coords 7504.365 177.699 4330.103
+ }
+ {
+  coords 7471.441 174.861 4266.382
+ }
+}
+$grp GenericEntity : "{1D2887BB9A7D4670}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_CommandPost_USSR_01.et" {
+ {
+  coords 6468.291 162.078 6495.021
+  angleY -20.596
+ }
+ {
+  coords 4691.977 27.873 11101.193
+  angleY 9.983
+ }
+}
+StaticModelEntity : "{2D303C505CC6576A}Prefabs/Structures/Military/Camps/TentUSSR_01/TentUSSR_01_camonet_foundation.et" {
+ coords 6409.485 161.756 6471.622
+}
+StaticModelEntity : "{5824BC6E4A1AF407}Prefabs/Compositions/Misc/SubCompositions/Tent_Medical_Cluttered_USSR_01.et" {
+ coords 6469.85 161.673 6484.189
+ angleY -108.74
+}
+GenericEntity : "{621AD664E58BC26B}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Supply_Small_USSR_01.et" {
+ coords 6421.33 161.956 6460.069
+ angleY 0
+}
+$grp GenericEntity : "{A7930B258A9B4CA8}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_plastic.et" {
+ {
+  coords 7468.109 172.085 4273.682
+  angleY 11.299
+ }
+ {
+  coords 7470.743 172.085 4273.08
+  angleY 11.299
+ }
+ {
+  coords 7473.932 172.085 4270.476
+  angleY 100.959
+ }
+ {
+  coords 7464.434 172.085 4272.586
+  angleY 100.959
+ }
+ {
+  coords 7463.351 172.085 4267.28
+  angleY 100.959
+ }
+ {
+  coords 7462.853 172.085 4264.688
+  angleY 100.959
+ }
+ {
+  coords 7474.501 172.085 4259.209
+  angleY 100.959
+ }
+}
+GenericEntity : "{D2FAA54116D41ABA}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Supply_Medium_A_USSR_01.et" {
+ coords 6430.965 161.628 6459.739
+ angleX 0
+ angleY 0
+ angleZ 0
+}
+$grp GenericEntity : "{DC82213D62A2F621}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Supply_Large_USSR_01.et" {
+ {
+  coords 6444.156 162.51 6463.966
+  angleX 0
+  angleY 0
+  angleZ 0
+ }
+ {
+  coords 4681.275 27.828 11100.175
+  angleX 0
+  angleY 0
+  angleZ 0
+ }
+}
+GenericEntity : "{E2255DBD0B5F477A}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallPlastic_S_US_01.et" {
+ coords 7500.831 166.228 4334.483
+ angleY -75
+}
+GenericEntity : "{EB610025D1631E00}Prefabs/Vehicles/Airplanes/IL76/Plane_IL76.et" {
+ coords 4821.027 27.844 11067.625
+ angleY -89.428
+}
+$grp GenericEntity : "{F29A05EBA7063E7C}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_plastic.et" {
+ {
+  coords 7465.547 172.085 4274.252
+  angleY 11.466
+ }
+ {
+  coords 7473.414 172.085 4272.585
+  angleY 11.466
+ }
+ {
+  coords 7473.313 172.085 4267.824
+  angleY 102.664
+ }
+ {
+  coords 7463.92 172.085 4269.958
+  angleY 102.664
+ }
+ {
+  coords 7462.338 172.085 4262.06
+  angleY 102.664
+ }
+ {
+  coords 7465.183 172.085 4259.108
+  angleY 10.125
+ }
+ {
+  coords 7467.88 172.085 4258.619
+  angleY 10.125
+ }
+ {
+  coords 7470.614 172.085 4258.174
+  angleY 10.125
+ }
+ {
+  coords 7473.22 172.085 4257.668
+  angleY 10.125
+ }
+ {
+  coords 7473.814 172.085 4260.357
+  angleY 10.125
+ }
+ {
+  coords 7465.451 172.085 4268.218
+  angleY 11.466
+ }
+}

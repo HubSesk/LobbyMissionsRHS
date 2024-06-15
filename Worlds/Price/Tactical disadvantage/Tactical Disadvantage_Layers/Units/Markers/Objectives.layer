@@ -1,0 +1,108 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 7468.398 172.085 4263.5
+  m_sTitle "Администрация захвачена"
+  m_iScore 50
+  m_sFactionKey "RHS_RF_MSV"
+ }
+ {
+  coords 7472.307 172.085 4269.783
+  m_sTitle "Штаб захвачен"
+  m_iScore 50
+  m_sFactionKey "RHS_RF_MSV"
+ }
+ {
+  coords 7465.622 172.085 4261.035
+  m_sTitle "Администрация удержана"
+  m_iScore 50
+  m_sFactionKey "RHS_US_USMC"
+ }
+ {
+  coords 7468.79 172.085 4261.337
+  m_sTitle "Штаб удержан"
+  m_iScore 50
+  m_sFactionKey "RHS_US_USMC"
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 7468.419 172.085 4265.542
+  angleY 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 35
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+ }
+ {
+  coords 7500.519 175.469 4326.275
+  angleY 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 35
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+ }
+ {
+  coords 7502.494 175.398 4333.937
+  angleY 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 35
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+ }
+ {
+  coords 7466.762 172.085 4261.848
+  angleY 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 35
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+ }
+ {
+  coords 7173.626 139.997 4680.018
+  angleY 134.067
+  m_sImageSetGlow ""
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "arrow-large"
+  m_fWorldSize 55
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 7879.539 145.793 4447.99
+  angleY -132.59
+  m_sImageSetGlow ""
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "arrow-large"
+  m_fWorldSize 55
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 7473.836 164.562 4299.632
+  angleY 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 55
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+ }
+}
