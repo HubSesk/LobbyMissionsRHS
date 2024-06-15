@@ -1,0 +1,146 @@
+$grp PolylineShapeEntity {
+ {
+  components {
+   PS_PolyZone "{619E5323253BC7B4}" {
+    m_cPolygonColor 0 0 0 0
+    m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+    m_cPolygonBorderColor 0 0 0 1
+    m_bReversed 1
+    m_aVisibleForFactions {
+     "" "Ses_CDF" "Ses_ChDKZ"
+    }
+   }
+  }
+  coords 2100 106.047 492.997
+  Points {
+   ShapePoint "{619E53237F085E52}" {
+    Position -1952.79 -6.402 -334.039
+   }
+   ShapePoint "{619E532F9AF4FC74}" {
+    Position 530.357 23.464 -302.806
+   }
+   ShapePoint "{619E532378A4C29D}" {
+    Position 480.808 -0.272 3289.995
+   }
+   ShapePoint "{619E53234528ADCB}" {
+    Position -1984.853 42.203 3410.999
+   }
+   ShapePoint "{619E532342293B75}" {
+    Position -1998.924 -22.034 1385.631
+   }
+   ShapePoint "{619E532340FD0E3A}" {
+    Position -1966.988 -23.698 -5.132
+   }
+  }
+  IsClosed 1
+ }
+ {
+  components {
+   PS_PolyZone "{619E532A8B003659}" {
+    m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+    m_cPolygonBorderColor 0.502 0 0 1
+    m_bLineMode 1
+    m_aVisibleForFactions {
+     "" "Ses_CDF" "Ses_ChDKZ"
+    }
+   }
+  }
+  coords 2629.57 96.378 1127.796
+  Points {
+   ShapePoint "{619E532AAC1456D0}" {
+    Position 0 -0 0
+   }
+   ShapePoint "{619E532AAC1480A2}" {
+    Position 5 0.044 0
+   }
+   ShapePoint "{619E532AA800A55D}" {
+    Position -980.065 -39.592 134.46
+   }
+   ShapePoint "{619E532AB51060C0}" {
+    Position -1364.048 -61.164 299.537
+   }
+   ShapePoint "{619E532AB4FB9078}" {
+    Position -1510.651 -72.637 360.588
+   }
+   ShapePoint "{619E532AB15246DF}" {
+    Position -1661.981 -81.877 383.113
+   }
+   ShapePoint "{619E532AB07220EC}" {
+    Position -1686.024 -77.178 278.723
+   }
+   ShapePoint "{619E532ABFD9DA40}" {
+    Position -1793.362 -79.273 181.096
+   }
+   ShapePoint "{619E532ABE92EDD5}" {
+    Position -1923.591 -80.241 97.421
+   }
+   ShapePoint "{619E532ABD944722}" {
+    Position -2044.218 -78.762 84.511
+   }
+   ShapePoint "{619E532ABC3A28F2}" {
+    Position -2097.611 -80.386 6.415
+   }
+   ShapePoint "{619E532ABB8503CB}" {
+    Position -2136.556 -83.816 -96.844
+   }
+   ShapePoint "{619E532ABB6569CF}" {
+    Position -2234.961 -83.349 -168.562
+   }
+   ShapePoint "{619E532ABACC2571}" {
+    Position -2336.046 -82.08 -215.089
+   }
+   ShapePoint "{619E532AB938216F}" {
+    Position -2418.112 -80.775 -291.041
+   }
+   ShapePoint "{619E532A87293528}" {
+    Position -2525.496 -75.454 -307.667
+   }
+  }
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  components {
+   SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
+    m_bFollowTerrain 1
+   }
+  }
+  coords 1170.373 67 823.028
+  m_fWarnRadius 550
+  m_fZoneRadius 600
+  m_fZoneTeleportedRadius 610
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_bFollowTerrain 1
+      m_fRadius 550
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
+    m_bFollowTerrain 1
+   }
+  }
+  coords 1064.495 113.5 3051.897
+  m_fWarnRadius 380
+  m_fZoneRadius 420
+  m_fZoneTeleportedRadius 410
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_bFollowTerrain 1
+      m_fRadius 380
+     }
+    }
+   }
+  }
+ }
+}
