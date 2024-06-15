@@ -1,0 +1,307 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 7650.534 12.38 8135.334
+  angleY 92.854
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "mark-exclamation"
+  m_fWorldSize 50
+  m_sDescription "Центавр (Военная база)"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 6189.383 183.156 7448.869
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 50
+  m_sDescription "Актив-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 6941.176 84.515 8251.832
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 50
+  m_sDescription "Актив-13"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 7680.641 12.464 8066.453
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 50
+  m_sDescription "Актив-21"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 7671.32 12.965 8079.532
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "Motorized-rifle-opfor"
+  m_fWorldSize 50
+  m_sDescription "Актив-31 - БТР"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 7683.752 13.022 8095.431
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "Motorized-rifle-opfor"
+  m_fWorldSize 50
+  m_sDescription "Актив-32 - БТР"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 5762.87 217.393 7062.017
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "infantry-blufor"
+  m_fWorldSize 50
+  m_sDescription "Атлас Ред 2 (2 M1025 (М2)"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 5766.622 217.633 7073.519
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "infantry-blufor"
+  m_fWorldSize 50
+  m_sDescription "Атлас Ред 1 (2 M1025 (М2)"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 10147.615 2.531 1517.175
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "infantry-blufor"
+  m_fWorldSize 50
+  m_sDescription "Блейзер Ред 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 10152.936 2.438 1493.905
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Helicopter-blufor"
+  m_fWorldSize 50
+  m_sDescription "Хаос Ред 2 (UH1H2)"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 6055.826 212.087 7041.201
+  angleY 15.524
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "arrow-large"
+  m_fWorldSize 50
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 6627.391 147.51 7087.112
+  angleY 15.524
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "arrow-large"
+  m_fWorldSize 50
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 7087.973 70.242 7140.763
+  angleY 15.524
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "arrow-large"
+  m_fWorldSize 50
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 10172.434 2.438 1496.539
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Helicopter-blufor"
+  m_fWorldSize 50
+  m_sDescription "Хаос Ред 1 (UH1H2)"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 10144.055 2.531 1517.944
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "infantry-blufor"
+  m_fWorldSize 50
+  m_sDescription "Блейзер Ред 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 6192.972 183.15 7446.864
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 50
+  m_sDescription "Актив-12"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 6945.657 84.202 8248.056
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 50
+  m_sDescription "Актив-14"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 10166.414 2.5 1517.845
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Helicopter-blufor"
+  m_fWorldSize 50
+  m_sDescription "Хаос Ред 3 (UH1H2)"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 7669.489 12.338 8070.76
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 50
+  m_sDescription "Актив-23"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+ {
+  coords 7678.349 12.424 8067.432
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "infantry-opfor"
+  m_fWorldSize 50
+  m_sDescription "Актив-22"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+ }
+}

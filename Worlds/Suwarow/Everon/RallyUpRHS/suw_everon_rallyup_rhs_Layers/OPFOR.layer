@@ -1,0 +1,157 @@
+$grp SCR_AIGroup : "{256AEA338E84EC28}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Group_RHS_RF_MSV_VKPO_S_RifleSquad.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{619ED9942A36FE73}" {
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 7669.627 12.881 8078.08
+  angleY 132.144
+  m_aUnitPrefabSlots {
+   "{F1E1A7A59FE370C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Crew.et" "{F1E1A7A59FE370C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Crew.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{619ED9942A36FE73}" {
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 7681.906 13.007 8093.019
+  angleY 132.144
+  m_aUnitPrefabSlots {
+   "{F1E1A7A59FE370C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Crew.et" "{F1E1A7A59FE370C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Crew.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{619ED9942A36FE73}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 7674.647 12.316 8066.691
+  angleY -48.396
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{619ED9942A36FE73}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 7673.713 12.339 8067.424
+  angleY -48.396
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{619ED9942A36FE73}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 7672.76 12.352 8068.407
+  angleY -48.396
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{619ED9942A36FE73}" {
+   }
+  }
+  coords 6188.776 183.245 7449.522
+  angleY 132.144
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{619ED9942A36FE73}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 6942.942 84.413 8250.466
+  angleY 132.144
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{619ED9942A36FE73}" {
+    m_iSquadCallsign 3
+   }
+  }
+  coords 6943.951 84.334 8249.331
+  angleY 132.144
+ }
+}
+$grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ UAZ1 {
+  coords 7706.387 12.969 8096.317
+  angleY -49.754
+ }
+ UAZ2 {
+  coords 7709.953 12.969 8099.773
+  angleY -49.754
+ }
+ UAZ3 {
+  coords 7713.742 12.969 8104.491
+  angleY -49.754
+ }
+}
+$grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ BTR1 {
+  coords 7678.765 12.937 8082.222
+  angleY -139.861
+ }
+ BTR2 {
+  coords 7685.897 12.969 8090.92
+  angleY -139.861
+ }
+}
+PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 10141.56 2.531 1518.431
+ m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+ m_sImageSetGlow ""
+ m_MarkerColor 0.016 0.552 0.905 1
+ m_sQuadName "infantry-blufor"
+ m_fWorldSize 50
+ m_sDescription "Блейзер Ред 3"
+ m_bUseWorldScale 0
+ m_aVisibleForFactions {
+  "RHS_US_USMC"
+ }
+ m_aHideOnGameModeStates {
+  3
+ }
+}
+$grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
+ Ural4320_transport_covered1 {
+  coords 7702.692 12.969 8092.601
+  angleY -47.938
+ }
+ Ural4320_transport_covered2 {
+  coords 7698.509 12.969 8087.987
+  angleY -47.938
+ }
+}
