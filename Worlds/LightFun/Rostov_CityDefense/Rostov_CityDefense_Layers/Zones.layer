@@ -1,0 +1,50 @@
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 1016.547 26.187 1793.556
+}
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+   m_cPolygonColor 0.834 0.217 0.176 1
+   m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+   m_cPolygonBorderColor 1 0.061 0 1
+   m_aVisibleForFactions {
+    "" "RHS_RF_MSV" "RHS_US_USMC"
+   }
+  }
+ }
+ coords 3491.615 136.204 316.153
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 205.938 8.653 -110.592
+  }
+  ShapePoint "{619E9D91F7D13E5A}" {
+   Position -3208.377 -36.014 -110
+  }
+  ShapePoint "{619E9D91F5656D32}" {
+   Position -3182.323 6.514 3406.981
+  }
+  ShapePoint "{619E9D91FB2E4CD3}" {
+   Position 212.726 -35.281 3391.224
+  }
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 1061.067 20.909 1621.661
+ }
+ {
+  coords 2971.435 115.542 814.867
+  m_fWarnRadius 115
+  m_fZoneRadius 170
+  m_fZoneTeleportedRadius 180
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ {
+  coords 935.306 25.687 1746.641
+ }
+ {
+  coords 1143.008 25.375 1846.106
+ }
+}

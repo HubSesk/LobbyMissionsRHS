@@ -1,0 +1,79 @@
+Vehicle Ural4320_tanker_camo1 : "{13139B95B13DDA35}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker_camo1.et" {
+ coords 2959.04 115.5 782.788
+ angleY 45.699
+}
+Vehicle Ural4320_command_camo1 : "{2C95509CA3E61DE1}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command_camo1.et" {
+ coords 2967.444 115.531 791.632
+ angleY 45.066
+}
+$grp Vehicle : "{2CCD539A7AB35B2F}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_camo1.et" {
+ Ural4320_transport_camo1 {
+  coords 2952.481 114.545 833.598
+  angleX 1.263
+  angleY 130.977
+  angleZ -0.089
+ }
+ Ural4320_transport_camo2 {
+  coords 2966.031 113.465 898.195
+  angleX 1.265
+  angleY -133.421
+  angleZ 0.035
+ }
+ Ural4320_transport_camo3 {
+  coords 2907.399 114.241 817.991
+  angleX 1.266
+  angleY 133.842
+  angleZ -0.026
+ }
+ Ural4320_transport_camo4 {
+  coords 3005.463 114.309 854.739
+  angleX 1.259
+  angleY -129.08
+  angleZ 0.131
+ }
+}
+Vehicle APC_K17_Epoch_camo1 : "{3918E80DF5393F8C}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_camo1.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5CE26149257047CD}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5CE261495B1779F4}" {
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{5D557449EB938170}" {
+     NumSlots 3
+    }
+    MultiSlotConfiguration "{5D557449DBF8D3B0}" {
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{5D557449317CA1EC}" {
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{5DE7299E8FA5ED73}" {
+     SlotTemplate InventoryStorageSlot nvg {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ coords 3000.23 116.352 785.896
+ angleX 1.856
+ angleY 138.525
+ angleZ 0.748
+}
+Vehicle Ural4320_repair_camo1 : "{BED355ED51A1E859}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair_camo1.et" {
+ coords 2994.242 115.366 816.36
+ angleX 1.264
+ angleY -138.455
+ angleZ -0.076
+}
+$grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
+ M1025_armed_M2HB_MERDC1 {
+  coords 935.228 25.687 1752.639
+  angleY 84.68
+ }
+ M1025_armed_M2HB_MERDC2 {
+  coords 938.335 25.687 1744.398
+  angleY 45.833
+ }
+}
