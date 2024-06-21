@@ -103,6 +103,18 @@ Vehicle UAZ469_PKM_Ses_ChDKZ1 : "{499E2EBD08B7FE17}Prefabs/Vehicles/Wheeled/UAZ4
  angleZ 0.121
 }
 Vehicle Ural4320_Ses_ChDKZ_transport_covered1 : "{66A75AF67285BE70}Prefabs/Vehicles/Wheeled/Ural4320/Ses_ChDKZ/Ural4320_Ses_ChDKZ_transport_covered.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+   MultiSlots {
+    MultiSlotConfiguration "{619F0A53162645E6}" {
+     SlotTemplate InventoryStorageSlot ATMine {
+      Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+     }
+     NumSlots 8
+    }
+   }
+  }
+ }
  coords 1429.471 93.262 885.257
  angleX 0.883
  angleY -170.472
@@ -127,6 +139,18 @@ Vehicle UAZ469_uncovered_Ses_ChDKZ1 : "{6CC21EBAB10F2A89}Prefabs/Vehicles/Wheele
  angleZ -3.58
 }
 Vehicle Ural4320_Ses_ChDKZ_transport1 : "{8918EDE86C8CB551}Prefabs/Vehicles/Wheeled/Ural4320/Ses_ChDKZ/Ural4320_Ses_ChDKZ_transport.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+   MultiSlots {
+    MultiSlotConfiguration "{619F0A531E4F127A}" {
+     SlotTemplate InventoryStorageSlot ATMine {
+      Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+     }
+     NumSlots 8
+    }
+   }
+  }
+ }
  coords 1131.774 61.271 1183.969
  angleX -7.139
  angleY -35.907
