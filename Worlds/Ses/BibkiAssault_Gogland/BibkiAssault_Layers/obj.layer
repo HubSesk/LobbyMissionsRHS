@@ -36,13 +36,17 @@ $grp GenericEntity : "{15BEDC6B899035DB}Prefabs/Yarmarka/YarmarkaBox.et" {
   coords 7135.589 6.023 5262.166
  }
 }
-GenericEntity : "{61980E6F3CA71107}Prefabs/Weapons/Explosives/Mine_TM62M/Dingus.et" {
+GenericEntity : "{61980E6F3CA71107}Prefabs/Items/Cats/Dingus.et" {
  coords 6203.193 17.191 7594.91
  angleY 175.647
 }
 GenericEntity : "{7343AD5762833EC4}Prefabs/Items/Equipment/Maps/BanyaBochkaBlueprint.et" {
  coords 6205.271 18.246 7595.357
  angleY -21.991
+}
+Vehicle Ural4320_BanyaBochka1 : "{7B6BD15EC601BD8B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_BanyaBochka.et" {
+ coords 6190.524 12.59 7635.475
+ angleY -21.781
 }
 $grp GenericEntity : "{A95C4BA303CCB6F3}Prefabs/Items/Stuff/SecretDocuments.et" {
  {

@@ -1,0 +1,42 @@
+Vehicle : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
+ ID "5206D4E7C4A16F13"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{61AAD23E6254E7A1}" {
+     SourceMaterial "Ural_Body"
+     AssignedMaterial "{D34F8F957C2FEA2E}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Body_camo1.emat"
+    }
+    MaterialAssignClass "{61AAD23E6254E7AB}" {
+     SourceMaterial "Ural_Details"
+     AssignedMaterial "{1AD5A5307222E6D2}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Details_camo1.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#RHS-Vehicle_Ural4320_comms_camo_Name"
+    m_sFaction "RHS_RF_MSV"
+    m_aAutoLabels {
+     1653989487 122 54
+    }
+   }
+  }
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 11360.7
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "RHS_RF_MSV"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Radio {
+     Prefab "{5A9D873C6A6710F8}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_combox_camo1.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   Enabled 0
+  }
+ }
+}

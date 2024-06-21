@@ -1,0 +1,17 @@
+SCR_DestructibleBuildingEntity {
+ ID "61AAD2318FB90F85"
+ components {
+  MeshObject "{61AAD2318FB90FB8}" {
+   Object "{A58AD3C8CC48E385}Prefabs/Structures/Models/Tem_Sauna.xob"
+   LODFactors {
+    20 10 5 1
+   }
+  }
+  RigidBody "{61AAD2318FB90FA0}" {
+   ResponseIndex "Normal"
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 6332.384 87.202 5825.606
+}

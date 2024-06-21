@@ -1,0 +1,15 @@
+Vehicle : "{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et" {
+ ID "0000000000000001"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Bochka {
+     Offset 0 0.8797 -2.4058
+     MergePhysics 1
+     Prefab "{5D1A15C466A5909F}Prefabs/Structures/Models/tem_sauna_onmove.et"
+     DisablePhysicsInteraction 1
+    }
+   }
+  }
+ }
+}

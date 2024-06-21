@@ -2,8 +2,6 @@ SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
 }
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
 }
-TagManager : "{2FA9E172CAB1857A}Prefabs/MP/Managers/TagManager.et" {
-}
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  components {
   PS_ObjectiveManager "{60846DEA6E152749}" {
@@ -31,7 +29,6 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  }
  m_bAdminMode 1
  m_bMarkersOnlyOnBriefing 1
- m_bKillRedundantUnits 1
  m_bRemoveSquadMarkers 1
  m_iFreezeTime 300000
  m_bDisableChat 1
