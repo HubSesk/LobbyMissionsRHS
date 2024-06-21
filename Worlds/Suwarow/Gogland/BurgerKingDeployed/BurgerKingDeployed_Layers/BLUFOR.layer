@@ -1,0 +1,163 @@
+GenericEntity : "{01C1E49247672515}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_BurgerKing.et" {
+ coords 5808.173 39.394 5814.812
+ angleY 167.505
+}
+$grp GenericEntity : "{20759E1CA7F808BE}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUS_01.et" {
+ {
+  coords 5800.713 40.478 5812.013
+ }
+ {
+  coords 5802.302 40.362 5817.848
+ }
+}
+Vehicle M1025_MERDC1 : "{27E2E58E734A80EC}Prefabs/Vehicles/Wheeled/M998/M1025_MERDC.et" {
+ coords 5859.086 39.608 5734.559
+}
+GenericEntity : "{627F29E940C7A12A}Prefabs/Props/Civilian/CarrierFood_01/CarrierFood_01.et" {
+ coords 5800.595 40.479 5812.969
+}
+Turret : "{73530808E4B455BA}Prefabs/Weapons/Tripods/Tripod_M3_M2HB.et" {
+ coords 5907.285 42.129 5652.06
+ angleY -179.604
+}
+Vehicle M998_covered_MERDC1 : "{AF0578D66D51946B}Prefabs/Vehicles/Wheeled/M998/M998_covered_MERDC.et" {
+ coords 5854.05 39.625 5731.599
+}
+SCR_AIGroup : "{C848B065E20A890E}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_LightFireTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{61AB2C3A2E468CFE}" {
+   m_iPlatoonCallsign 1
+  }
+ }
+ coords 5844.501 39.779 5733.679
+ angleY 68.583
+ m_sCustomNameSet "RECON"
+}
+$grp SCR_DestructibleEntity : "{C8A5C92E74ABB5EA}Prefabs/Props/Civilian/PicnicTable/PicnicTable_01.et" {
+ {
+  coords 5805.913 39.574 5815.309
+ }
+ {
+  coords 5800.741 39.581 5812.53
+ }
+ {
+  coords 5802.197 39.465 5818.469
+ }
+}
+GenericEntity : "{CBE2BA7FF0914514}Prefabs/Structures/BuildingParts/Signs/Commercial/SignCommercial_01_FoodStore.et" {
+ coords 5811.337 41.779 5813.272
+ angleY 65.644
+}
+Vehicle M923A1_transport_covered_closed_MERDC1 : "{DC21E543DF39D2C0}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered_closed_MERDC.et" {
+ coords 5807.021 39.625 5809.875
+ angleY 62.167
+}
+Vehicle M1025_armed_M2HB_MERDC1 : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A7CC686F738D96E}" {
+     NumSlots 8
+    }
+   }
+  }
+ }
+ coords 5864.889 39.458 5735.987
+}
+SCR_DestructibleEntity : "{DFE61380A81DCA62}Prefabs/Props/Commercial/SignPub_01_Eden_FoodMarket_V2.et" {
+ coords 5798.749 39.555 5821.712
+}
+StaticModelEntity : "{E27FB14C3073BF80}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/Sandbag_01_bunker_plastic_CompositionDestruction.et" {
+ coords 5907.49 41.043 5654.131
+ angleY 179.239
+ {
+  GenericEntity {
+   ID "5A532DCF3ECE3109"
+   coords -0.002 0.1 0
+  }
+  GenericEntity {
+   ID "5A532DCF3ECE312F"
+   coords -0.002 0.1 0
+  }
+ }
+}
+$grp SCR_AIGroup : "{F831DFB4A9B46152}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_RifleSquad.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{61AB2C3AB628760A}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 5838.926 39.625 5728.075
+  angleY 69.89
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{61AB2C3ABAFF4F99}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5840.654 39.625 5728.715
+  angleY 69.89
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{61AB2C3A8B021046}" {
+    m_iSquadCallsign 3
+   }
+  }
+  coords 5837.426 39.625 5727.547
+  angleY 69.89
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{61AB2C3ABC116CC0}" {
+   }
+  }
+  coords 5842.081 39.625 5729.223
+  angleY 69.89
+ }
+}
+StaticModelEntity : "{F9F0FBA940588BAF}Prefabs/Compositions/Misc/SubCompositions/Tent_Barrack_Cluttered_US_02.et" {
+ coords 5791.443 39.62 5810.392
+ angleY -117.182
+}
+GenericEntity : "{FB0F12529D2FD0DA}Prefabs/Props/Military/FieldKitchenTrailerUS_01.et" {
+ coords 5803.296 39.457 5823.171
+ angleY 111.709
+}
+$grp GenericEntity : "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et" {
+ {
+  coords 5901.714 37.307 5615.889
+ }
+ {
+  coords 5904.516 39.96 5646.9
+ }
+ {
+  coords 5907.203 39.626 5640.014
+ }
+ {
+  coords 5904.098 37.775 5620.601
+ }
+ {
+  coords 5907.258 35.372 5598.133
+ }
+ {
+  coords 5909.871 34.824 5593.8
+ }
+}
