@@ -12,8 +12,12 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
    m_bRandomWeatherChanges 1
   }
  }
+ m_bMarkersOnlyOnBriefing 1
+ m_bRemoveRedundantUnits 1
  m_bRemoveSquadMarkers 1
- m_iFreezeTime 180000
+ m_iFreezeTime 240000
+ m_bDisableChat 1
+ m_bReserveSlots 1
  {
   SCR_FactionManager "5EE323AF84C15BB4" {
    ID "5ED9088735FF2D8B"
