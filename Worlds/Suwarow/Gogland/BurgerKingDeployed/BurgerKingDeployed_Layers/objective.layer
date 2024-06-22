@@ -16,7 +16,9 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  {
   coords 3843.265 0 4989.366
   m_sTitle "Уничтожить вражеские силы"
-  m_sTextData "ВС РФ атакуют нашу базу. Наша задача их уничтожить."
+  m_sTextData "ВС РФ атакуют нашу базу. Наша задача их уничтожить."\
+  ""\
+  "У них есть бронетехника."
   m_aVisibleForFactions {
    "RHS_US_USMC"
   }
@@ -38,7 +40,9 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  {
   coords 3846.3 0 4988.768
   m_sTitle "Уничтожить силы ВС США"
-  m_sTextData "Уничтожить силы ВС США на базе."
+  m_sTextData "Уничтожить силы ВС США на базе."\
+  ""\
+  "У них есть крупнокалиберные пулеметы и мины."
   m_aVisibleForFactions {
    "RHS_RF_MSV"
   }
