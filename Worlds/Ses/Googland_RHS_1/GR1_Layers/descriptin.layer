@@ -1,20 +1,3 @@
-SCR_AIGroup : "{140EEDFF928271F6}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_FireTeam_P.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "Line"
-  }
-  PS_GroupCallsignAssigner "{5F2CF5CD6173AD97}" {
-   m_iCompanyCallsign 1
-   m_iPlatoonCallsign 1
-   m_iSquadCallsign 3
-  }
- }
- coords 4695.147 14.518 10548.815
- angleY 110.139
- m_aUnitPrefabSlots {
-  "{ABF41117838C445F}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_TL_P.et" "{DCF7999CCEBD5437}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_AR_P.et" "{06CDE24A723FB279}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_GL_P.et" "{CE55D8114889F059}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_LAT_P.et"
- }
-}
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  general {
   m_sTitle "#PS-Description_HeaderAboutMission"
@@ -30,41 +13,18 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Необходимо удержать базу в которой дислацируется подводная лодка, а также сохранить в целости документы на своих местах."\
   ""\
   "• Удержать базу с подводной лодкой."\
-  "• Сохранить документы нра своих местах."\
-  "• Бойцы ВСРФ не имеют права брать секретные документы из ящика, только возвращать после похищения!"
+  "• Сохранить документы на базе."
   m_aVisibleForFactions {
    "RHS_RF_MSV"
   }
  }
  us {
   m_sTitle "Задачи USMC"
-  m_sTextData "В кратчайшие сроки необходимо захватить хотя бы один экземпляр документов, для эвакуации необходимо будет уничтожить радар на базе."\
-  ""\
-  "• Захватить хотя бы один экземпляр документов."\
-  "• Уничтожить радар для вызова вертолета."\
-  "• Эвакуировать документы на вертолете."\
-  ""\
-  "• В МАШИНАХ ЛЕЖАТ ДОПОЛНИТЕЛЬНЫЕ ГРАНАТОМЕТЫ!"
+  m_sTextData "Задачи:"\
+  "• Захватить как можно больше документов."\
+  "• Эвакуировать документы вертолетом на вертолетный остров."
   m_aVisibleForFactions {
    "RHS_US_USMC"
   }
  }
-}
-Vehicle M1025_armed_M2HB4 : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
- components {
-  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
-   MultiSlots {
-    MultiSlotConfiguration "{5F2F04731484BB61}" {
-     SlotTemplate InventoryStorageSlot Bandages {
-      Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
-     }
-     NumSlots 2
-    }
-   }
-  }
- }
- coords 4695.625 15.458 10541.221
- angleX 7.506
- angleY -150.184
- angleZ 1.22
 }
