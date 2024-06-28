@@ -1,0 +1,137 @@
+$grp PolylineShapeEntity {
+ {
+  components {
+   PS_PolyZone "{61B8D15A813D581E}" {
+    m_bLineMode 1
+    m_aVisibleForFactions {
+     "RHS_RF_MSV"
+    }
+   }
+  }
+  coords 1455.073 60.245 6159.525
+  Points {
+   ShapePoint "{61B8D15A8B14D71C}" {
+    Position 0 0.001 0
+   }
+   ShapePoint "{61B8D15A8B258EA5}" {
+    Position 5 -1.123 0
+   }
+   ShapePoint "{61B8D15AF4FBF1D2}" {
+    Position 40.848 -5.837 -224.86
+   }
+   ShapePoint "{61B8D15AF5D304B4}" {
+    Position -38.708 -11.271 -305.441
+   }
+   ShapePoint "{61B8D15AF2D03B1C}" {
+    Position -14.358 1.502 -372.226
+   }
+   ShapePoint "{61B8D15AF3E0D011}" {
+    Position -73.239 -18.023 -409.446
+   }
+   ShapePoint "{61B8D15AF0B02795}" {
+    Position -134.003 -45.903 -418.902
+   }
+  }
+ }
+ {
+  components {
+   PS_PolyZone "{61B8D1586478EF7F}" {
+    m_bReversed 1
+    m_aVisibleForFactions {
+     "RHS_RF_MSV" "RHS_US_USMC" ""
+    }
+   }
+  }
+  coords 3305.995 0 7715.177
+  angleX -1.762
+  angleY -0.22
+  angleZ 7.128
+  Points {
+   ShapePoint "{61B8D1580FF53B83}" {
+    Position 0 0.001 0
+   }
+   ShapePoint "{61B8D1580FF5B2CD}" {
+    Position 5 -0.486 0
+   }
+   ShapePoint "{61B8D1580B26172B}" {
+    Position 469.904 53.083 -4143.26
+   }
+   ShapePoint "{61B8D15803A8F98E}" {
+    Position -3209.866 -3.405 -1760.301
+   }
+   ShapePoint "{61B8D1587E3000DC}" {
+    Position -1871.938 0 464.916
+   }
+  }
+ }
+}
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 5243.503 21.125 4095.985
+  m_sTitle "Описание"
+  m_sTextData "Операция морпехов США по захвату последнего оплота РФ на острове Эверон. Хотя кому я это пишу, описания все равно никто не читает..."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 5250.054 21.768 4094.092
+  m_sTitle "Правила"
+  m_sTextData "1.Не транслировать музыку и прочие сторонние звуки в голосовой чат."\
+  "2.Не переодеваться в форму противника/снимать униформу иди обувь если это не является обговоренным элементом миссии."\
+  "3.Не использовать внеигровую комуникацию/стримы для получения информации во время игры."\
+  "4.Запрещено использование сторонних програм для изменения графики игры (будь то reshade, или утилиты от Нвидии/Амд для влияния на графику игры.)"\
+  "5.Запрещено таргетированно кикать игроков из личной неприязни. 6.Не трогайте кнопку кика если не готовы объяснять причину."\
+  "Запрещено неадекватное поведение по всех смыслах этого слова. Не стоит обзывать людей даже в компуктерных играх."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 5252.93 21.58 4087.607
+  m_sTitle "Правила сторон"
+  m_sTextData "Бумерангу запрещенно покидать линию обороны."\
+  ""
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 1438.557 52.125 5865.855
+  m_sTitle "Правила сторон"
+  m_sTextData "Короче мне лень писать, защитите домик под маркером и кайфуйте"\
+  "У вас есть крутая линия обороны, на карте отмечена, за нее бумерангу не надо выезжать"\
+  "Горы там используйте как позицию, вот мой совет."\
+  ""
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+ }
+ {
+  coords 1441.1 53.258 5853.124
+  m_sTitle "Правила сторон"
+  m_sTextData "Короче мне лень писать, захватите домик под маркером и кайфуйте."\
+  "У них там есть че то стреляющее короче да вот."\
+  ""
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+ }
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 5160.934 14.537 4031.693
+  m_sTitle "Администрация захвачена."
+  m_sFactionKey "RHS_US_USMC"
+ }
+ {
+  coords 5166.02 14.395 4022.739
+  m_sTitle "Станция связи защищена."
+  m_sFactionKey "RHS_RF_MSV"
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 1278.638 38.897 6014.766
+ }
+ {
+  coords 3493.404 115.475 5005.012
+ }
+}

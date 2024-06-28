@@ -1,0 +1,66 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 5143.328 27.298 4046.508
+  angleY 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 35
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+ }
+ {
+  coords 5147.15 27.287 4047.508
+  angleY 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 35
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+ }
+ {
+  coords 5127.286 14.003 4007.298
+  angleY 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 35
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 5883.002 61.888 4590.183
+  angleY -111.983
+  m_sImageSetGlow ""
+  m_sQuadName "arrow-large-3"
+  m_fWorldSize 35
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+ }
+ {
+  coords 5912.144 4.005 4313.547
+  angleY -91.58
+  m_sImageSetGlow ""
+  m_sQuadName "arrow-large-3"
+  m_fWorldSize 35
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+ }
+ {
+  coords 5605.099 81.703 4860.514
+  angleY -154.114
+  m_sImageSetGlow ""
+  m_sQuadName "arrow-large-3"
+  m_fWorldSize 35
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+ }
+}
