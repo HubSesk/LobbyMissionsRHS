@@ -1,0 +1,36 @@
+$grp GenericEntity : "{8AFB84CC3CA603F2}Prefabs/Props/BoxBoom.et" {
+ {
+  coords 9605.754 10.146 5207.121
+  angleY 142.179
+ }
+ {
+  coords 9610.75 16.258 5379.947
+  angleY -35.249
+ }
+ {
+  coords 9558.735 9.705 5389.947
+  angleY -79.887
+  angleZ -5.69
+ }
+}
+GenericEntity : "{B50D77066AB43165}Prefabs/Props/BoomBox.et" {
+ coords 9575.777 10.139 5224.67
+}
+$grp GenericEntity : "{BB0A8FCF61A04C7A}Prefabs/Props/MineExplosive.et" {
+ {
+  coords 9605.754 10.875 5207.121
+  angleY 142.179
+ }
+ {
+  coords 9575.777 10.875 5224.67
+ }
+ {
+  coords 9610.75 16.987 5379.947
+  angleY -35.249
+ }
+ {
+  coords 9558.723 10.446 5389.875
+  angleY -79.887
+  angleZ -5.69
+ }
+}

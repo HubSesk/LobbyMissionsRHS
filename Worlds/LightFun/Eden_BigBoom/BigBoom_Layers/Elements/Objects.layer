@@ -1,0 +1,836 @@
+GenericEntity : "{00B3E3FD05C85DBD}Prefabs/Structures/Military/CamoNets/FIA/CamoNet_Small_Top_FIA_01_V1.et" {
+ coords 9585.406 12.574 5413.918
+ angleX -2.676
+ angleY -15.416
+ angleZ -2.97
+}
+GenericEntity : "{03B44EA7652D0D17}Prefabs/Props/Military/Radios/RadioStation_R123M_01.et" {
+ components {
+  Hierarchy "{51D4F0B3132BBDEE}" {
+   Enabled 0
+  }
+ }
+ coords 9579.504 13.804 5411.556
+ angleX 0.068
+ angleY 142.088
+ angleZ -1.69
+}
+$grp GenericEntity : "{0CFF151E124D337F}Prefabs/Structures/Military/CamoNets/FIA/CamoNet_Small_FIA_01_V2.et" {
+ {
+  coords 9566.513 14.406 5368.397
+  angleY 25.859
+ }
+ {
+  coords 9712.021 17.619 5262.384
+  angleY -74.624
+ }
+}
+GenericEntity : "{13CB32BC2782FCDB}Prefabs/Props/Military/Compositions/FIA/RadioStation_FIA.et" {
+ components {
+  SCR_FactionAffiliationComponent "{5CB6D5B110622424}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{5CB6D5B110622410}" {
+   Enabled 0
+  }
+  RplComponent "{5CB6D5B110622400}" {
+   Enabled 0
+  }
+ }
+ coords 9624.095 17.964 5377.89
+ angleY -31.305
+}
+GenericEntity : "{160E4E4110803F26}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_FIA.et" {
+ coords 9617.207 17.097 5383.979
+}
+GenericEntity : "{17E6E7BC798AD3F4}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Small_01/SupplyStack_Small_01_Base.et" {
+ coords 9592.335 10.875 5220.325
+ angleY -84.796
+}
+GenericEntity : "{1897E1AC413536BB}Prefabs/Props/Military/Compositions/FIA/PersonnelService_FIA.et" {
+ components {
+  SCR_CampaignBuildingProviderComponent "{5ED7185081A6289C}" {
+   Enabled 0
+  }
+  SCR_FactionAffiliationComponent "{5D22B92ED7E59790}" {
+   Enabled 0
+  }
+  SCR_ResourceComponent "{5D7CC617A89926F3}" {
+   Enabled 0
+  }
+  SCR_ServicePointComponent "{60567C5242176FCB}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{5CB6953CEF1EFF85}" {
+   Enabled 0
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 0
+  }
+  Hierarchy "{5D2348248804F1C6}" {
+   Enabled 0
+  }
+ }
+ coords 9626.262 17.047 5380.028
+ angleX 0.597
+ angleY -81.464
+ angleZ -1.271
+}
+GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
+ coords 9573.897 10.914 5217.195
+ angleY 7.192
+}
+$grp GenericEntity : "{25861AD07CEE719A}Prefabs/Compositions/Misc/SubCompositions/Sandbag_MG_USSR_01_PKM.et" {
+ {
+  components {
+   RplComponent "{570C956757493F07}" {
+    Enabled 0
+   }
+  }
+  coords 9565.354 14.287 5367.059
+  angleX -2.355
+  angleY -151.344
+  angleZ -0.078
+  {
+   GenericEntity {
+    ID "570C9564D02F5C92"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+     RplComponent "{5624A88DC2D9928D}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "570CFD743B9A8A19"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+     RplComponent "{5624A88DC2D9928D}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "570CFD743B9A8A64"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+     RplComponent "{5624A88DC2D9928D}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "570CFD7463457874"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+     RplComponent "{5624A88DC2D9928D}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "570CFD7463457953"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+     RplComponent "{5624A88DC2D9928D}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "570CFD746345798D"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+     RplComponent "{5624A88DC2D9928D}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "570CFD74634579FD"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+     RplComponent "{5624A88DC2D9928D}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5C5AC612D4755239"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+     RplComponent "{5624A88DC2D9928D}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5C5AC612D47552FB"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+     RplComponent "{5624A88DC2D9928D}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   RplComponent "{570C956757493F07}" {
+    Enabled 0
+   }
+  }
+  coords 9711.058 17.493 5259.682
+  angleX -2.325
+  angleY -162.586
+  angleZ 0.382
+  {
+   GenericEntity {
+    ID "570C9564D02F5C92"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+     RplComponent "{5624A88DC2D9928D}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "570CFD743B9A8A19"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+     RplComponent "{5624A88DC2D9928D}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "570CFD743B9A8A64"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+     RplComponent "{5624A88DC2D9928D}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "570CFD7463457874"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+     RplComponent "{5624A88DC2D9928D}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "570CFD7463457953"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+     RplComponent "{5624A88DC2D9928D}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "570CFD746345798D"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+     RplComponent "{5624A88DC2D9928D}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "570CFD74634579FD"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+     RplComponent "{5624A88DC2D9928D}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5C5AC612D4755239"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+     RplComponent "{5624A88DC2D9928D}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5C5AC612D47552FB"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+     RplComponent "{5624A88DC2D9928D}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+}
+$grp StaticModelEntity : "{2B7C757ADED04D7B}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/TentFIA_01_camonet_CompositionDestruction.et" {
+ {
+  components {
+   SCR_SlotCompositionComponent "{5A588831C0833999}" {
+    Enabled 0
+   }
+   RplComponent "{5E76C88DC85E82F4}" {
+    Enabled 0
+   }
+  }
+  coords 9623.673 16.866 5380.462
+  angleY -122.087
+ }
+ {
+  components {
+   SCR_SlotCompositionComponent "{5A588831C0833999}" {
+    Enabled 0
+   }
+   RplComponent "{5E76C88DC85E82F4}" {
+    Enabled 0
+   }
+  }
+  coords 9582.098 12.749 5410.664
+  angleY 141.908
+ }
+}
+GenericEntity : "{314AC5D330DCADF4}Prefabs/Structures/Military/Camps/Canvas_Covers/FIA/CanvasCover_Medium_A_FIA.et" {
+ coords 9610.548 16.967 5379.803
+ angleY -26.63
+}
+GenericEntity : "{3260189525F39062}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_base.et" {
+ coords 9610.186 16.592 5367.136
+ angleX 1.139
+ angleY 40.818
+ angleZ 6.864
+}
+GenericEntity : "{34736979381CA219}Prefabs/Props/Military/Radios/RadioStation_ANGRC160_01.et" {
+ coords 9578.895 13.818 5411.081
+ angleX 0.127
+ angleY 125.749
+ angleZ -0.031
+}
+$grp GenericEntity : "{3582FEEA4BD89C81}Prefabs/Structures/Military/Camps/Canvas_Covers/FIA/CanvasCover_Medium_FIA.et" {
+ {
+  coords 9610.285 16.669 5368.055
+  angleX -0.113
+  angleY 39.788
+  angleZ 5.712
+ }
+ {
+  coords 9591.964 10.875 5221.396
+  angleY -154.51
+ }
+}
+GenericEntity : "{3CF7EAA0F05546FF}Prefabs/Props/Furniture/PhoneTable_01_Base.et" {
+ coords 9580.177 13.822 5412.146
+ angleX -0.205
+ angleY 155.743
+ angleZ 1.381
+}
+$grp GenericEntity : "{3DFA7F32B1C56399}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V3_storage_FIA_covered.et" {
+ {
+  coords 9555.593 10.178 5386.821
+ }
+ {
+  coords 9608.736 17.039 5379.961
+ }
+ {
+  coords 9605.223 10.854 5204.972
+ }
+ {
+  coords 9576.571 10.875 5226.199
+ }
+}
+$grp GenericEntity : "{4757ED104D5989CE}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V3.et" {
+ {
+  coords 9611.109 16.578 5368.069
+  angleX -0.459
+  angleY 43.256
+  angleZ 5.695
+ }
+ {
+  coords 9579.439 14.406 5373.942
+  angleY 43.256
+ }
+}
+$grp StaticModelEntity : "{48A04E0A139BB167}Prefabs/Structures/Military/Camps/TentSmallFIA_01/TentSmallFIA_01.et" {
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+    Enabled 0
+   }
+   RplComponent "{5DB6DEFB1CE55E57}" {
+    Enabled 0
+   }
+  }
+  coords 9607.358 17.113 5374.779
+  angleZ 4.467
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+    Enabled 0
+   }
+   RplComponent "{5DB6DEFB1CE55E57}" {
+    Enabled 0
+   }
+  }
+  coords 9608.216 16.996 5371.543
+  angleX 4.193
+  angleY -32.921
+  angleZ 1.542
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+    Enabled 0
+   }
+   RplComponent "{5DB6DEFB1CE55E57}" {
+    Enabled 0
+   }
+  }
+  coords 9622.671 22.357 5260.198
+  angleX 0.875
+  angleY 0.65
+  angleZ 1.8
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+    Enabled 0
+   }
+   RplComponent "{5DB6DEFB1CE55E57}" {
+    Enabled 0
+   }
+  }
+  coords 9617.641 22.577 5260.487
+  angleX -2.399
+  angleY 26.521
+  angleZ 2.8
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+    Enabled 0
+   }
+   RplComponent "{5DB6DEFB1CE55E57}" {
+    Enabled 0
+   }
+  }
+  coords 9615.836 22.604 5265.829
+  angleX -2
+  angleY 26.535
+  angleZ 2.001
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+    Enabled 0
+   }
+   RplComponent "{5DB6DEFB1CE55E57}" {
+    Enabled 0
+   }
+  }
+  coords 9615.979 22.594 5269.839
+  angleX 0.014
+  angleY -0.92
+  angleZ 0.895
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+    Enabled 0
+   }
+   RplComponent "{5DB6DEFB1CE55E57}" {
+    Enabled 0
+   }
+  }
+  coords 9625.411 22.403 5272.273
+  angleX 0.043
+  angleY -0.919
+  angleZ 2.683
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{56D4936DEB317C62}" {
+    Enabled 0
+   }
+   RplComponent "{5DB6DEFB1CE55E57}" {
+    Enabled 0
+   }
+  }
+  coords 9625.852 22.493 5268.212
+  angleX -1.569
+  angleY -28.769
+  angleZ 0.861
+ }
+}
+GenericEntity : "{4E202866EA77CF71}Prefabs/Props/Military/Compositions/Dst/PersonnelService_Table_01/PersonnelService_Table_01_dst_01_FIA.et" {
+ coords 9579.291 12.916 5411.292
+ angleY 139.865
+}
+$grp StaticModelEntity : "{5608B9078BF2AC5A}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragonsteeth_01_old_V1.et" {
+ {
+  components {
+   DynamicPhysicsObstacleComponent "{5ECD159E4E29E606}" {
+    Enabled 0
+   }
+   SCR_DestructionMultiPhaseComponent "{5D6EC48CC48F60C7}" {
+    Enabled 0
+   }
+   NwkPhysicsMovementComponent "{5EC537C623CA40A0}" {
+    Enabled 0
+   }
+   RplComponent "{5D6EC48CC7857804}" {
+    Enabled 0
+   }
+  }
+  coords 9563.394 0.001 5214.844
+  angleX 1.79
+ }
+ {
+  components {
+   DynamicPhysicsObstacleComponent "{5ECD159E4E29E606}" {
+    Enabled 0
+   }
+   SCR_DestructionMultiPhaseComponent "{5D6EC48CC48F60C7}" {
+    Enabled 0
+   }
+   NwkPhysicsMovementComponent "{5EC537C623CA40A0}" {
+    Enabled 0
+   }
+   RplComponent "{5D6EC48CC7857804}" {
+    Enabled 0
+   }
+  }
+  coords 9563.262 0 5218.088
+  angleY 0.028
+  angleZ -0.895
+ }
+ {
+  components {
+   DynamicPhysicsObstacleComponent "{5ECD159E4E29E606}" {
+    Enabled 0
+   }
+   SCR_DestructionMultiPhaseComponent "{5D6EC48CC48F60C7}" {
+    Enabled 0
+   }
+   NwkPhysicsMovementComponent "{5EC537C623CA40A0}" {
+    Enabled 0
+   }
+   RplComponent "{5D6EC48CC7857804}" {
+    Enabled 0
+   }
+  }
+  coords 9563.41 0 5222.021
+  angleY 0.028
+  angleZ -0.895
+ }
+ {
+  components {
+   DynamicPhysicsObstacleComponent "{5ECD159E4E29E606}" {
+    Enabled 0
+   }
+   SCR_DestructionMultiPhaseComponent "{5D6EC48CC48F60C7}" {
+    Enabled 0
+   }
+   NwkPhysicsMovementComponent "{5EC537C623CA40A0}" {
+    Enabled 0
+   }
+   RplComponent "{5D6EC48CC7857804}" {
+    Enabled 0
+   }
+  }
+  coords 9563.677 0 5225.748
+  angleX -1.79
+ }
+}
+GenericEntity : "{574B2F4BD1257127}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V5_storage_FIA_covered.et" {
+ coords 9610.944 16.927 5381.528
+ angleY 163.733
+}
+$grp GenericEntity : "{57B4984773FCAFB1}Prefabs/Props/Military/Compositions/FIA/BuildingService_FIA.et" {
+ {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5EBCED04D0321687}" {
+    Enabled 0
+   }
+   SCR_FactionAffiliationComponent "{5CB66A0F780C9329}" {
+    Enabled 0
+   }
+   SCR_ResourceComponent "{5D7CC617AC1077DD}" {
+    Enabled 0
+   }
+   ActionsManagerComponent "{5CB66A0F7D87DD32}" {
+    Enabled 0
+   }
+   RplComponent "{5CB66A0F68E9E506}" {
+    Enabled 0
+   }
+  }
+  coords 9624.324 17.041 5383.305
+  angleY -149.74
+ }
+ {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5EBCED04D0321687}" {
+    Enabled 0
+   }
+   SCR_FactionAffiliationComponent "{5CB66A0F780C9329}" {
+    Enabled 0
+   }
+   SCR_ResourceComponent "{5D7CC617AC1077DD}" {
+    Enabled 0
+   }
+   ActionsManagerComponent "{5CB66A0F7D87DD32}" {
+    Enabled 0
+   }
+   RplComponent "{5CB66A0F68E9E506}" {
+    Enabled 0
+   }
+  }
+  coords 9584.873 12.921 5410.543
+  angleX 0.538
+  angleY -126.076
+  angleZ -0.68
+ }
+}
+GenericEntity : "{6213877761557878}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V6_storage_FIA_covered.et" {
+ coords 9609.155 17.027 5378.593
+}
+GenericEntity : "{6F9E338FCED334F8}Prefabs/Props/Military/Compositions/FIA/Antenna_02_FIA.et" {
+ components {
+  SCR_FactionAffiliationComponent "{5CB6D5B3749D59C3}" {
+   Enabled 0
+  }
+  SCR_HorizontalAlignComponent "{55B890D2B67E0C35}" {
+   Enabled 0
+  }
+  RplComponent "{5CB6D5B3749D59BC}" {
+   Enabled 0
+  }
+  Hierarchy "{5E4E864BD82141CF}" {
+   Enabled 0
+  }
+ }
+ coords 9587.986 12.85 5412.742
+}
+GenericEntity : "{7165ECD98DF55E7C}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_item.et" {
+ coords 9609.107 16.718 5367.888
+ angleX 5.991
+ angleY -55.041
+ angleZ -2.336
+}
+GenericEntity : "{7A5A9F26FE702332}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/FIA/EquipmentBoxStack_FIA_01_V4.et" {
+ coords 9622.03 17.05 5382.078
+ angleY -32.759
+}
+$grp GenericEntity : "{7D2C0FB3B8ACF2B0}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage_FIA_covered.et" {
+ {
+  coords 9592.977 10.94 5221.97
+  angleX -2.583
+  angleY -69.096
+  angleZ -5.753
+ }
+ {
+  coords 9582.332 12.916 5413.365
+  angleY -34.045
+ }
+}
+$grp GenericEntity : "{869914063728EFF8}Prefabs/Props/Forest/WoodPile/WoodLog_01_D.et" {
+ {
+  coords 9580.882 10.793 5209.622
+  angleY -0.57
+ }
+ {
+  coords 9587.618 10.875 5209.41
+  angleY -178.505
+ }
+}
+GenericEntity : "{9BDEDCBF40C27B1F}Prefabs/Structures/Military/Camps/Canvas_Covers/FIA/CanvasCover_Small_A_FIA.et" {
+ coords 9579.857 14.406 5374.975
+ angleY -14.998
+}
+$grp GenericEntity : "{B13C3ED783D3D194}Prefabs/Structures/Military/CamoNets/FIA/CamoNet_Medium_Top_FIA_01_V2.et" {
+ {
+  coords 9606.933 10.875 5207.847
+  angleY -14.47
+ }
+ {
+  coords 9576.514 10.875 5224.874
+ }
+}
+GenericEntity : "{BA80DD7144145924}Prefabs/Structures/Military/CamoNets/FIA/CamoNet_Large_FIA_01_V1.et" {
+ coords 9621.015 22.448 5267.702
+}
+GenericEntity : "{BD02400CAB005CE8}Prefabs/Props/Furniture/Chair_01/Chair_01_blue.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 0
+  }
+ }
+ coords 9579.945 12.905 5410.765
+}
+$grp GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+ {
+  coords 9620.574 22.441 5266.346
+ }
+ {
+  coords 9584.156 10.875 5210.017
+ }
+}
+$grp GenericEntity : "{DA3AEFBCF6C37F82}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V1_storage_FIA_covered.et" {
+ {
+  coords 9591.616 10.897 5222.567
+  angleX -1.896
+  angleY -62.804
+  angleZ -5.322
+ }
+ {
+  coords 9608.314 10.966 5206.692
+  angleX -6.991
+  angleY -96.119
+  angleZ 1.641
+ }
+}
+$grp GenericEntity : "{DA3D4CF729F32F6B}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V5_storage.et" {
+ {
+  coords 9609.998 16.692 5368.909
+  angleX -0.054
+  angleY 39.202
+  angleZ 5.713
+ }
+ {
+  coords 9579.616 14.405 5376.022
+  angleX 0.673
+  angleY 104.503
+  angleZ -2.598
+ }
+}
+GenericEntity : "{DD49716491710760}Prefabs/Props/Military/Compositions/FIA/Antenna_01_FIA.et" {
+ components {
+  SCR_AntennaServicePointComponent "{5CB8818C79A7B643}" {
+   Enabled 0
+  }
+  SCR_FactionAffiliationComponent "{5CB6D5B3749D59C3}" {
+   Enabled 0
+  }
+  SCR_HorizontalAlignComponent "{55B890D2B67E0C35}" {
+   Enabled 0
+  }
+  ScriptedRadioComponent "{5CB8818C71F12C73}" {
+   Enabled 0
+  }
+  RplComponent "{5CB6D5B3749D59BC}" {
+   Enabled 0
+  }
+  Hierarchy "{5E4E864BD3B82ADA}" {
+   Enabled 0
+  }
+ }
+ coords 9621.489 16.179 5370.028
+}
+GenericEntity : "{E68D72D11ACBB6DC}Prefabs/Structures/Military/CamoNets/FIA/CamoNet_Medium_Top_FIA_01.et" {
+ coords 9576.314 11.639 5390.168
+ angleX 0.685
+ angleY -117.451
+ angleZ -3.758
+}
+$grp GenericEntity : "{EF62478046B376DD}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V2_storage_FIA_covered.et" {
+ {
+  coords 9620.926 17.033 5381.145
+  angleX -0.531
+  angleY -30.916
+  angleZ -0.054
+ }
+ {
+  components {
+   SCR_ResourceComponent "{5D247A59598D71AE}" {
+    Enabled 0
+   }
+   SCR_SoundDataComponent "{5D247A59598D719B}" {
+    Enabled 0
+   }
+   ActionsManagerComponent "{5E16BA4602E3F31C}" {
+    Enabled 0
+   }
+   RplComponent "{5624A88DC2D9928D}" {
+    Enabled 0
+   }
+   Hierarchy "{5DE32879AA471A9B}" {
+    Enabled 0
+   }
+  }
+  coords 9622.996 17.051 5377.332
+  angleY 147.359
+ }
+ {
+  coords 9607.147 10.875 5204.629
+ }
+ {
+  coords 9573.786 10.875 5222.873
+  angleY -46.817
+ }
+}
+GenericEntity : "{F870683132294E4E}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/FIA/EquipmentBoxStack_FIA_01_V5_covered.et" {
+ coords 9583.363 12.92 5412.223
+ angleX 1.215
+ angleY -135.565
+ angleZ -0.193
+}
+GenericEntity : "{FCBEDECB2A39B6BC}Prefabs/Props/Military/Generators/GeneratorPortable_USSR_01.et" {
+ coords 9581.781 12.896 5407.577
+ angleY -66.664
+}
+$grp GenericEntity : "{FCF76A8DB5D5FCE9}Prefabs/Props/Military/Compositions/Dst/PersonnelService_Table_01/PersonnelService_Table_01_dst_02_FIA.et" {
+ {
+  coords 9623.632 17.054 5377.715
+  angleY -31.576
+ }
+ {
+  coords 9580.612 12.912 5412.4
+  angleY 140.843
+ }
+}
