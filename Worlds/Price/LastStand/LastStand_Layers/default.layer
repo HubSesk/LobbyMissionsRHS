@@ -88,7 +88,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 5252.93 21.58 4087.607
   m_sTitle "Правила сторон"
-  m_sTextData "Бумерангу запрещенно покидать линию обороны."\
+  m_sTextData "БТРу запрещенно покидать линию обороны."\
   ""
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
@@ -96,8 +96,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 1438.557 52.125 5865.855
   m_sTitle "Правила сторон"
-  m_sTextData "Короче мне лень писать, защитите домик под маркером и кайфуйте"\
-  "У вас есть крутая линия обороны, на карте отмечена, за нее бумерангу не надо выезжать"\
+  m_sTextData "Защитите дом под маркером."\
+  "У вас есть крутая линия обороны, на карте отмечена, за нее бумерангу нельзя выезжать."\
   "Горы там используйте как позицию, вот мой совет."\
   ""
   m_aVisibleForFactions {
@@ -107,12 +107,21 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 1441.1 53.258 5853.124
   m_sTitle "Правила сторон"
-  m_sTextData "Короче мне лень писать, захватите домик под маркером и кайфуйте."\
-  "У них там есть че то стреляющее короче да вот."\
-  ""
+  m_sTextData "Захватите дом отмеченный маркером на карте."\
+  "У противника есть бтр."
   m_aVisibleForFactions {
    "RHS_US_USMC"
   }
+ }
+}
+$grp Vehicle : "{6B24D5AFD884D64C}Prefabs/Vehicles/Wheeled/M998/M998_MERDC.et" {
+ M998_MERDC12 {
+  coords 3482.172 115.386 4965.978
+  angleY 28.223
+ }
+ M998_MERDC13 {
+  coords 3486.135 114.448 4950.732
+  angleY 28.223
  }
 }
 $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
