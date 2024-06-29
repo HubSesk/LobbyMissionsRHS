@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{519A637CE20CC4E2}Prefabs/Weapons/MachineGuns/M249/Bacon_MG_M249_Rails_SesEdit.et"
+ Name "{84F1AD4A1A444AA9}Prefabs/Weapons/MachineGuns/M249/Ses_MG_M249_Rails.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -9,9 +9,9 @@ MetaFileClass {
   }
   EntityTemplateResourceClass PS4 : PC {
   }
-  EntityTemplateResourceClass HEADLESS : PC {
-  }
   EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
   }
  }
 }
