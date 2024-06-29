@@ -1,0 +1,114 @@
+GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+ coords 5263.041 64.22 5325.814
+}
+GenericEntity : "{68ED84218EA1BDC3}Prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_USSR_01.et" {
+ coords 5308.683 66.276 5297.823
+ angleX -0.869
+ angleY 0.149
+ angleZ -9.754
+}
+GenericEntity : "{73604060A04CBB85}Prefabs/Compositions/Slotted/SlotFlatSmall/FuelStorage_S_USSR_01.et" {
+ coords 5275.938 63.292 5345.651
+ angleX 1.674
+ angleY 120.224
+ angleZ -1.096
+}
+$grp GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ {
+  coords 5357.715 74.669 5316.718
+  angleX 8.411
+  angleY 105.837
+  angleZ -6.796
+ }
+ {
+  coords 5348.758 75.786 5280.256
+  angleX 12.457
+  angleY 105.696
+  angleZ -1.974
+ }
+ {
+  coords 5254.22 70.611 5216.884
+  angleX 5.609
+  angleY 167.932
+  angleZ 0.625
+ }
+}
+$grp GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
+ {
+  coords 5235.077 67.554 5243.857
+  angleX 3.671
+  angleY -160.704
+  angleZ 0.338
+ }
+ {
+  coords 5353.287 63.741 5447.216
+  angleX 3.997
+  angleY 26.36
+  angleZ -0.014
+ }
+}
+$grp GenericEntity : "{7DA20C66CE0299D6}Prefabs/Structures/Signs/Military/Sign_CommandPost_USSR_01.et" {
+ {
+  coords 5296.209 64.877 5297.53
+  angleY 119.587
+ }
+ {
+  coords 5279.42 64.941 5300.263
+  angleY -65.204
+ }
+}
+StaticModelEntity : "{7DF5C55FEE521DB2}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_RadioStation_USSR_01.et" {
+ coords 5283.429 72.485 5301.785
+ angleY 153.469
+}
+$grp GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ {
+  coords 5330.236 68.297 5318.573
+  angleX 15.152
+  angleY 114.909
+  angleZ -6.631
+ }
+ {
+  coords 5345.021 75.951 5269.083
+  angleX 11.473
+  angleY 114.879
+  angleZ 0.449
+ }
+}
+$grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ {
+  coords 5339.956 71.009 5302.209
+  angleX 8.444
+  angleY 61.408
+  angleZ -8.555
+ }
+ {
+  coords 5195.493 61.686 5356.531
+  angleX -4.232
+  angleY -94.718
+  angleZ 3.034
+ }
+}
+StaticModelEntity : "{9A17ABFEC947F887}Prefabs/Compositions/Misc/SubCompositions/Furniture/Cabinet_Radio_US_02.et" {
+ coords 5284.663 72.485 5294.456
+ angleY 0
+}
+GenericEntity : "{B9F504773F71C2AE}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_RF.et" {
+ coords 5286.66 78.619 5298.864
+}
+$grp StaticModelEntity : "{FD320CD9BFCE2257}Prefabs/Compositions/Misc/SubCompositions/TableMilitary_Cluttered_USSR_02.et" {
+ {
+  coords 5292.64 72.485 5301.173
+  angleY -89.401
+ }
+ {
+  coords 5292.798 72.485 5299.881
+  angleY 0
+ }
+}
+GenericEntity : "{FD952CFF9CAD3F2B}Prefabs/Compositions/Slotted/SlotFlatSmall/LivingArea_S_USSR_01.et" {
+ coords 5290.62 62.407 5372.94
+ angleX 0.586
+ angleY 130.934
+ angleZ -0.676
+}
