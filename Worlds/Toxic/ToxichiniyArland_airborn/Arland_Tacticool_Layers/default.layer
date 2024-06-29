@@ -1,0 +1,255 @@
+StaticModelEntity : "{07F043DD6AACCD0B}Prefabs/Structures/Infrastructure/Barriers/BarGate_01/BarGate_01.et" {
+ coords 1493.338 0.187 2941.838
+ angleY 75
+}
+$grp StaticModelEntity : "{18822FB3F0D2ED00}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Long.et" {
+ {
+  coords 1461.293 2.386 2962.102
+  angleY 73.555
+ }
+ {
+  coords 1464.598 2.386 2963.078
+  angleY 73.555
+ }
+ {
+  coords 1467.82 2.386 2964.029
+  angleY 73.555
+ }
+ {
+  coords 1471.092 2.385 2964.877
+  angleY 77.176
+ }
+ {
+  coords 1474.488 2.385 2965.65
+  angleY 75.979
+ }
+ {
+  coords 1477.807 2.385 2966.479
+  angleY 75.979
+ }
+ {
+  coords 1481.323 2.385 2967.357
+  angleY 75.979
+ }
+ {
+  coords 1484.381 2.305 2968.121
+  angleY 75.979
+ }
+ {
+  coords 1486.651 2.297 2966.764
+  angleY 165.341
+ }
+ {
+  coords 1487.618 2.385 2963.065
+  angleY 165.341
+ }
+ {
+  coords 1489.416 2.385 2956.191
+  angleY 165.341
+ }
+ {
+  coords 1488.449 2.385 2959.889
+  angleY 165.341
+ }
+ {
+  coords 1490.196 2.385 2953.21
+  angleY 165.341
+ }
+}
+Vehicle M1025_MERDC1 : "{27E2E58E734A80EC}Prefabs/Vehicles/Wheeled/M998/M1025_MERDC.et" {
+ coords 3266.232 1.965 2902.073
+ angleY 144.945
+}
+$grp Vehicle : "{2BE1F8B9299B67C1}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker.et" {
+ M923A1_tanker1 {
+  coords 1292.766 38 2907.967
+  angleY -16.452
+ }
+ M923A1_tanker2 {
+  coords 1289.862 38 2919.793
+  angleY -6.535
+ }
+ M923A1_tanker3 {
+  coords 1264.946 38 2913.121
+  angleY 136.138
+ }
+}
+Vehicle M923A1_engineer1 : "{2D74C39A650A3030}Prefabs/Vehicles/Wheeled/M923A1/M923A1_engineer.et" {
+ coords 1345.618 36.619 2674.877
+ angleY 68.047
+}
+Vehicle M923A1_command1 : "{36BDCC88B17B3BFA}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command.et" {
+ coords 1343.338 38 2940.449
+}
+Vehicle M997_maxi_ambulance_MERDC1 : "{3B1EB924602C7A07}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_MERDC.et" {
+ coords 3247.31 2.217 2882.714
+ angleY 139.612
+}
+$grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
+ M1025_armed_M2HB1 {
+  coords 3332.708 2.009 2864.28
+  angleY -121.469
+ }
+ M1025_armed_M2HB2 {
+  coords 3293.738 1.997 2856.809
+  angleY 33.927
+ }
+ M1025_armed_M2HB3 {
+  coords 3309.151 1.998 2891.345
+  angleY -116.85
+ }
+ M1025_armed_M2HB4 {
+  coords 3263.882 2 2900.127
+  angleY 147.286
+ }
+ M1025_armed_M2HB5 {
+  coords 3254.478 2.069 2887.585
+  angleY 147.286
+ }
+}
+Vehicle M923A1_transport_covered_closed1 : "{48A6D4372444B85A}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered_closed.et" {
+ coords 1267.083 37.563 2929.032
+ angleY -127.864
+}
+$grp Vehicle : "{4A465E25A866520E}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MTT-A_Black.et" {
+ Mi8MTT_A_Black1 {
+  coords 22.172 5.966 -393.637
+  angleY 90
+ }
+ Mi8MTT_A_Black2 {
+  coords 59.266 5.966 -393.637
+  angleY 90
+ }
+ Mi8MTT_A_Black3 {
+  coords 94.716 5.966 -393.637
+  angleY 90
+ }
+ Mi8MTT_A_Black4 {
+  coords -17.226 5.966 -393.637
+  angleY 90
+ }
+ Mi8MTT_A_Black5 {
+  coords -60.993 5.966 -393.637
+  angleY 90
+ }
+ Mi8MTT_A_Black6 {
+  coords -103.565 5.966 -393.637
+  angleY 90
+ }
+}
+Vehicle M1 : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
+ coords 3268.399 2 2904.3
+ angleY 145.567
+}
+StaticModelEntity : "{5E020ED129DF23D2}Prefabs/Structures/BuildingParts/Doors/DoorSet_NetFence_01_Gate_01_red.et" {
+ coords 1489.886 0.27 2949.021
+ angleY -15.064
+}
+GenericEntity : "{5E99DD1E8377D27F}Prefabs/Props/Garbage/Bins/TrashBin_02.et" {
+ coords 1485.345 38 2960.977
+}
+GenericEntity : "{71F41635D2497C25}Prefabs/Vegetation/Tree/Debris/BranchTrash_con_01.et" {
+ coords 1484.941 37.977 2967.204
+}
+$grp Vehicle : "{751AFEEA19DDFB04}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_MERDC.et" {
+ M998_covered_long_MERDC1 {
+  coords 3310.361 2.043 2887.935
+  angleY -113.428
+ }
+ M998_covered_long_MERDC2 {
+  coords 3325.936 2 2864.478
+  angleY -74.455
+ }
+}
+$grp GenericEntity : "{831FE4BECA78CCAA}Prefabs/Vehicles/Airplanes/IL76/Plane_IL76UN.et" {
+ {
+  coords 1296.031 39.001 2123.302
+  angleY 120.453
+ }
+ {
+  coords 1284.289 37.792 2852.171
+  angleY 75.099
+ }
+ {
+  coords 1334.259 38.061 2880.689
+  angleY 165.044
+ }
+ {
+  coords 1446.064 38.061 2910.344
+  angleY 165.044
+ }
+ {
+  coords 1394.052 38.061 2896.45
+  angleY 165.044
+ }
+ {
+  coords 1214.367 37.792 2833.565
+  angleY 75.099
+ }
+}
+$grp Vehicle : "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M998_covered_long.et" {
+ M998_covered_long1 {
+  coords 3251.913 2.137 2885.257
+  angleY 141.128
+ }
+ M998_covered_long2 {
+  coords 3307.038 2.021 2894.247
+  angleY -130.981
+ }
+ M998_covered_long3 {
+  coords 3296.704 2.079 2854.156
+  angleY 28.364
+ }
+ M998_covered_long4 {
+  coords 3291.208 1.991 2860.212
+  angleY 36.844
+ }
+}
+SCR_DestructibleBuildingEntity : "{9CEC8BB63429FF28}Prefabs/Structures/Airport/ControlTower_01.et" {
+ coords 1478.949 1.088 2957.12
+ angleY 164.809
+}
+Vehicle M998_covered1 : "{B55C6990A6A9411B}Prefabs/Vehicles/Wheeled/M998/M998_covered.et" {
+ coords 3330.394 1.991 2867.008
+ angleY -125.549
+}
+$grp GenericEntity : "{C1B7AB00FF7C1424}Prefabs/Props/Industrial/ConcretePanel_01_A.et" {
+ {
+  coords 1490.056 38 2951.01
+  angleY 75
+ }
+ {
+  coords 1489.053 38 2954.753
+  angleY 75
+ }
+ {
+  coords 1488.045 38 2958.515
+  angleY 75
+ }
+ {
+  coords 1487.041 38 2962.261
+  angleY 75
+ }
+ {
+  coords 1486.049 38 2965.965
+  angleY 75
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{CF86E4F10D9173E9}Prefabs/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Narrow_Long_Base.et" {
+ {
+  coords 0 5.891 -390.695
+  scale 5
+ }
+ {
+  coords -128.975 5.891 -390.695
+  scale 5
+ }
+}
+GenericEntity : "{E7117284012B39A4}Prefabs/Props/Garbage/Bins/TrashBin_02_patched.et" {
+ coords 1484.38 38 2960.91
+ angleY 76.989
+}
+StaticModelEntity : "{EF39F5715EF2323E}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Short.et" {
+ coords 1490.911 2.387 2950.732
+ angleY -15.252
+}

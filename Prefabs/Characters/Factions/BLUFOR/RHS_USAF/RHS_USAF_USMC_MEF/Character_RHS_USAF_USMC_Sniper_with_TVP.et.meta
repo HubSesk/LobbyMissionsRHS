@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{A2908A20D13DA24E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_RF_Cumo.et"
+ Name "{D1694F39654E0AE1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Sniper_with_TVP.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -9,7 +9,11 @@ MetaFileClass {
   }
   EntityTemplateResourceClass PS4 : PC {
   }
+  EntityTemplateResourceClass PS5 : PC {
+  }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

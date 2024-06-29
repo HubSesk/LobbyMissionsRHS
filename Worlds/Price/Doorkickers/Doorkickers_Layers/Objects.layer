@@ -1,0 +1,229 @@
+GenericEntity : "{0958E6B949501D00}Prefabs/Props/Military/Generators/GeneratorPortable_US_01.et" {
+ coords 5139.153 22.136 4046.297
+}
+$grp GenericEntity : "{0AF1C4C9C7EF05F2}Prefabs/Compositions/Slotted/SlotFlatSmall/FuelStorage_S_US_01.et" {
+ {
+  coords 5132.301 14.067 3962.853
+  angleY -16.147
+ }
+ {
+  coords 4930.044 2.187 3895.303
+  angleY 103.866
+ }
+}
+$grp GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_US_01.et" {
+ {
+  coords 5085.983 16.718 4056.321
+  angleX 5.418
+  angleY -13.249
+  angleZ -0.358
+ }
+ {
+  coords 5151.635 16.595 4092.714
+  angleX 8.05
+  angleY 7.984
+  angleZ 0.23
+ }
+}
+GenericEntity : "{1821FE6144B0C251}Prefabs/Props/Military/Antennas/Antenna_FIA_02/Antenna_FIA_02.et" {
+ coords 5141.124 27.355 4047.204
+}
+StaticModelEntity : "{3C36D379516A6314}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_FurnitureStorage_US_01.et" {
+ coords 5137.235 22.136 4052.838
+ angleY -100.537
+}
+$grp GenericEntity : "{3E4C223A92230572}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_base.et" {
+ {
+  coords 5206.094 16.548 4014.274
+  angleY 57.289
+ }
+ {
+  coords 5219.876 17.724 4026.346
+  angleX 0.719
+  angleY 133.44
+  angleZ 3.143
+ }
+ {
+  coords 5145.216 14.736 4041.875
+  angleY -15.38
+ }
+ {
+  coords 5142.085 14.736 4040.998
+  angleY -15.38
+ }
+ {
+  coords 5140.917 18.836 4046.277
+  angleY -103.912
+ }
+ {
+  coords 5186.152 28.443 3968.476
+  angleY -5.11
+ }
+ {
+  coords 5186.24 29.696 3968.45
+  angleY -5.11
+ }
+ {
+  coords 5186.195 30.348 3968.973
+  angleX -88.165
+  angleY -5.11
+ }
+}
+GenericEntity : "{55D508179EF5E64A}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_US_01.et" {
+ coords 5213.132 16.714 4009.2
+ angleX 3.224
+ angleY 56.285
+ angleZ -0.001
+}
+StaticModelEntity : "{6796EA08CB53CAEB}Prefabs/MP/Campaign/RequestTable_US.et" {
+ coords 5144.832 22.136 4042.11
+ angleY -14.466
+}
+$grp StaticModelEntity : "{6FFD54071AD89DAC}Prefabs/Props/Military/Furniture/TableMilitary_US_02_cabinet.et" {
+ {
+  coords 5139.067 22.136 4050.626
+  angleY -102.385
+ }
+ {
+  coords 5147.727 22.136 4045.227
+  angleY -56.235
+ }
+ {
+  coords 5137.78 23.549 4050.856
+  angleY 0
+ }
+ {
+  coords 5137.042 24.327 4052.783
+  angleX 89.118
+  angleY 180
+  angleZ -180
+ }
+}
+$grp Turret : "{73530808E4B455BA}Prefabs/Weapons/Tripods/Tripod_M3_M2HB.et" {
+ {
+  coords 5181.276 32.269 3972.146
+  angleY -3.678
+ }
+ {
+  coords 5187.343 30.879 3969.848
+  angleY 64.206
+ }
+}
+$grp GenericEntity : "{77F90F896D5145C8}Prefabs/Compositions/Slotted/SlotFlatSmall/LivingArea_S_US_01.et" {
+ {
+  coords 5144.708 14.661 3995.739
+  angleX -3.925
+  angleY -105.634
+  angleZ -0.757
+ }
+ {
+  coords 4973.054 2.187 3850.493
+  angleY -13.306
+ }
+}
+GenericEntity : "{8B4B8BF44162B24E}Prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_US_01.et" {
+ coords 5115.073 14.932 3993.543
+}
+StaticModelEntity : "{9E437E72C0F6A6DC}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_US_06.et" {
+ coords 5143.412 22.136 4041.751
+ angleY -15.178
+}
+$grp GenericEntity : "{BFF74A287E8300FB}Prefabs/Structures/Signs/Military/Sign_CommandPost_US_01.et" {
+ {
+  coords 5146.948 14.482 4041.141
+  angleY 164.845
+ }
+ {
+  coords 5147.341 14.362 4056.431
+  angleY -13.698
+ }
+}
+$grp StaticModelEntity : "{C02107463294142B}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_RadioStation_US_01.et" {
+ {
+  coords 5140.125 22.136 4047.452
+  angleY 35.295
+ }
+ {
+  coords 5148.515 22.136 4044.907
+  angleY 124.079
+ }
+}
+GenericEntity : "{CDD0712FD6215F03}Prefabs/Compositions/Slotted/SlotFlatMedium/FieldHospital_M_US_01.et" {
+ coords 5148.647 14.292 4016.59
+ angleX -0.074
+ angleY 165.871
+ angleZ 0.213
+}
+$grp GenericEntity : "{D320BFF57E696FE6}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidPlastic_S_US_01.et" {
+ {
+  coords 5134.438 14.646 4066.416
+  angleY 79.81
+ }
+ {
+  coords 5134.917 14.511 4063.798
+  angleY 79.81
+ }
+ {
+  coords 5135.374 14.338 4061.202
+  angleY 79.81
+ }
+ {
+  coords 5135.853 14.203 4058.584
+  angleY 79.81
+ }
+ {
+  coords 5136.018 14.312 4056.49
+  angleY 91.738
+ }
+}
+GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+ coords 5204.154 16.417 4013.115
+}
+$grp StaticModelEntity : "{DBEAB147ADDFE8CF}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Cardboard_US_01.et" {
+ {
+  coords 5147.099 22.136 4049.289
+  angleY 77.717
+ }
+ {
+  coords 5146.317 22.136 4049.13
+  angleY -101.707
+ }
+}
+$grp GenericEntity : "{E74D2F51CD4F03D0}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_US_01.et" {
+ {
+  coords 5050.805 15.237 3973.976
+  angleY -74.17
+ }
+ {
+  coords 5275.781 6.552 3951.792
+  angleX 1.837
+  angleY 86.776
+  angleZ 0.793
+  {
+   GenericEntity {
+    ID "5CC6B4A35174E2DC"
+    coords 6.065 -0.449 5.426
+   }
+   StaticModelEntity {
+    ID "5CC6B4A35174E19C"
+    coords 5.147 -0.229 6.151
+   }
+  }
+ }
+}
+GenericEntity : "{E86E2C320BF1F524}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_base.et" {
+ coords 5211.54 16.877 4016.77
+ angleX 3.247
+ angleY 55.909
+}
+GenericEntity : "{EFFA90623A05EB25}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V2_US.et" {
+ coords 5144.472 28.158 4048.151
+}
+StaticModelEntity : "{FD320CD9BFCE2257}Prefabs/Compositions/Misc/SubCompositions/TableMilitary_Cluttered_USSR_02.et" {
+ coords 5138.547 22.136 4052.18
+ angleY 0
+}
+StaticModelEntity : "{FE60E5AB52B7114D}Prefabs/Compositions/Misc/SubCompositions/TableMilitary_Cluttered_US_03.et" {
+ coords 5138.084 22.136 4050.716
+ angleY -57.47
+}
