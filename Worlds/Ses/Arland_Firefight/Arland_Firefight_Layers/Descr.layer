@@ -1,0 +1,35 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 3143.139 2.464 1163.141
+  m_sTitle "Задачи USMC"
+  m_sTextData "Высадка нашего передового отряда была успешной и они заняли поселок Арлевиль. Русские готовятся контратаковать что бы вытеснить нас с острова."\
+  ""\
+  "Задачи:"\
+  "• Удержать отель в Арлевиле."\
+  "• Удержать церковь."
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+  m_iOrder 1
+ }
+ {
+  coords 999.189 38.187 2940.094
+  m_sTitle "Задачи AFRF"
+  m_sTextData "На остров высадился передовой отряд американцев, требуется срочно вытеснить их с територии острова."\
+  ""\
+  "Задачи:"\
+  "• Захватить отель в Арлевиле."\
+  "• Захватить церковь рядом с Арлевилем."
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+  m_iOrder 1
+ }
+ {
+  coords 999.173 38.152 2935.761
+  m_sTitle "Описание миссии"
+  m_sTextData "Бой за Арлевиль"
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+}
