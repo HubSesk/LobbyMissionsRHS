@@ -1,0 +1,130 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 10123.123 245.062 5470.311
+  m_sImageSet "{C9D19DBFDE7AD72D}UI/Imagesets/Conflict/conflict-icons.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "US_Base"
+  m_fWorldSize 45
+  m_sDescription "#Ses_CDF"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 10123.123 245.062 5470.311
+  m_sImageSet "{C9D19DBFDE7AD72D}UI/Imagesets/Conflict/conflict-icons.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "US_Base"
+  m_fWorldSize 45
+  m_sDescription "#Ses_CDF"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_aHideOnGameModeStates {
+   5
+  }
+ }
+ {
+  coords 7215.963 252.967 6955.461
+  m_sImageSet "{C9D19DBFDE7AD72D}UI/Imagesets/Conflict/conflict-icons.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "USSR_Base"
+  m_fWorldSize 45
+  m_sDescription "#Ses_ChDKZ"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 7215.963 252.967 6955.461
+  m_sImageSet "{C9D19DBFDE7AD72D}UI/Imagesets/Conflict/conflict-icons.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "USSR_Base"
+  m_fWorldSize 45
+  m_sDescription "#Ses_ChDKZ"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+  m_aHideOnGameModeStates {
+   5
+  }
+ }
+ {
+  coords 8419.5 360.196 6654.494
+  m_sImageSet "{C9D19DBFDE7AD72D}UI/Imagesets/Conflict/conflict-icons.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "USSR_Base"
+  m_fWorldSize 45
+  m_sDescription "#Ses_ChDKZ"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ {
+  coords 8419.5 360.196 6654.494
+  m_sImageSet "{C9D19DBFDE7AD72D}UI/Imagesets/Conflict/conflict-icons.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "USSR_Base"
+  m_fWorldSize 45
+  m_sDescription "#Ses_ChDKZ"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+  m_aHideOnGameModeStates {
+   5
+  }
+ }
+ boombox_Marker {
+  coords 8409.904 360.407 6627.747
+  m_sImageSet "{2EFEA2AF1F38E7F0}UI/Textures/Icons/icons_wrapperUI-64.imageset"
+  m_sImageSetGlow "{ABC6B36856013403}UI/Textures/Icons/icons_wrapperUI-64-glow.imageset"
+  m_MarkerColor 0.855 0.777 0.028 1
+  m_sQuadName "supplies"
+  m_fWorldSize 40
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ boombox_Marker2 {
+  coords 8259.663 354.193 6999.832
+  m_sImageSet "{2EFEA2AF1F38E7F0}UI/Textures/Icons/icons_wrapperUI-64.imageset"
+  m_sImageSetGlow "{ABC6B36856013403}UI/Textures/Icons/icons_wrapperUI-64-glow.imageset"
+  m_MarkerColor 0.855 0.777 0.028 1
+  m_sQuadName "supplies"
+  m_fWorldSize 40
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ boombox_Marker3 {
+  coords 8343.853 292.094 5972.562
+  m_sImageSet "{2EFEA2AF1F38E7F0}UI/Textures/Icons/icons_wrapperUI-64.imageset"
+  m_sImageSetGlow "{ABC6B36856013403}UI/Textures/Icons/icons_wrapperUI-64-glow.imageset"
+  m_MarkerColor 0.855 0.777 0.028 1
+  m_sQuadName "supplies"
+  m_fWorldSize 40
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ boombox_Marker4 {
+  coords 8460.552 360.076 6656.574
+  m_sImageSet "{2EFEA2AF1F38E7F0}UI/Textures/Icons/icons_wrapperUI-64.imageset"
+  m_sImageSetGlow "{ABC6B36856013403}UI/Textures/Icons/icons_wrapperUI-64-glow.imageset"
+  m_MarkerColor 0.855 0.777 0.028 1
+  m_sQuadName "supplies"
+  m_fWorldSize 40
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+}
