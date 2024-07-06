@@ -1,0 +1,34 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 8460.307 357.962 6544.958
+  m_sTitle "#PS-Description_HeaderAboutMission"
+  m_sTextData "ЧСО готовит операцию по захвату поселка Гуглово и уничтожению передовых складов ЧДКЗ."\
+  "Не забывайте осматриватся в начале игры и проверять инвентарь техники."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 8478.356 358.577 6560.314
+  m_sTitle "Зачачи ЧСО"
+  m_sTextData "Враг скапливает силы и припасы для наступления, нужно нанести упреждающий удар."\
+  "У группы #AR-Callsign_US_Company_C и в Урале группы #AR-Callsign_US_Company_B имеется взрывчатка."\
+  ""\
+  "Задачи:"\
+  "• Уничтожить передовые склады ЧДКЗ"
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_iOrder 1
+ }
+ {
+  coords 8495.162 359.041 6578.165
+  m_sTitle "Зачачи ЧДКЗ"
+  m_sTextData "Наши информаторы сообщают о скорой атаке ЧСО на поселок Гуглово. Мы подготавливали базу снабжения в этом секторе, не позвольте врагу ее уничтожить!"\
+  "Задачи:"\
+  "• Сохранить склады отмеченные на карте."
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+  m_iOrder 1
+ }
+}

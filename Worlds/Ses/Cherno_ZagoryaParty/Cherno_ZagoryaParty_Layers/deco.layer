@@ -1,0 +1,231 @@
+GenericEntity : "{15BEDC6B899035DB}Prefabs/Yarmarka/YarmarkaBox.et" {
+ coords 10292.15 239.638 5036.98
+ angleY 174.562
+}
+$grp GenericEntity : "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" {
+ {
+  coords 10125.896 245.976 5487.049
+ }
+ {
+  coords 10125.839 245.961 5487.234
+ }
+ {
+  coords 10125.828 245.961 5487.152
+ }
+ {
+  coords 10125.849 245.962 5486.949
+ }
+ {
+  coords 10125.771 245.961 5486.831
+ }
+ {
+  coords 10125.603 245.961 5486.988
+  angleY -70.307
+ }
+}
+GenericEntity : "{3EF310C373E39AAB}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_Wall_BarbedWire_USSR_01.et" {
+ coords 8418.05 359.547 6549.687
+ angleX -2.144
+ angleY 120.812
+ angleZ 1.846
+}
+$grp GenericEntity : "{525781C399409474}PrefabsEditable/Auto/Props/Infrastructure/Roadblocks/E_RoadBlock_01.et" {
+ {
+  coords 8523.765 358.059 6667.142
+  angleX -0.671
+  angleY -48.566
+  angleZ -0.592
+ }
+ {
+  coords 8533.556 358.153 6663.125
+  angleY -57.4
+ }
+}
+$grp GenericEntity : "{5AAF1B896C0B3C59}PrefabsEditable/Auto/Props/Civilian/E_BeerBottle_01_slava.et" {
+ {
+  coords 10292.69 239.638 5037.008
+ }
+ {
+  coords 10292.8 239.638 5036.944
+ }
+ {
+  coords 10292.693 239.638 5036.892
+ }
+}
+GenericEntity : "{62EA4C95DE960369}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_Barricade_USSR_01.et" {
+ coords 8519.605 358.005 6667.31
+ angleX 1.252
+ angleY 143.352
+ angleZ 0.184
+}
+$grp GenericEntity : "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et" {
+ {
+  coords 8412.447 359.914 6645.984
+  angleY 18.97
+ }
+ {
+  coords 8412.339 359.918 6646.351
+  angleY -59.773
+ }
+ {
+  coords 8412.771 359.906 6645.96
+  angleY -50.819
+ }
+ {
+  coords 8412.629 359.92 6646.242
+  angleY -37.35
+ }
+}
+$grp GenericEntity : "{8D7EA87D292F429B}PrefabsEditable/Auto/Props/Construction/ConcretePipe/E_ConcretePipe_01_Short.et" {
+ {
+  coords 8532.962 358.11 6663.464
+  angleX 2.517
+  angleY -50.849
+  angleZ -0.258
+ }
+ {
+  coords 8524.494 358.07 6666.295
+  angleX 0.654
+  angleY 133.078
+  angleZ 0.611
+ }
+}
+$grp GenericEntity : "{9AA7840FE3C3F664}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_Sign_USSR_01.et" {
+ {
+  coords 7307.136 299.737 7659.703
+  angleX -7.178
+  angleY -58.847
+  angleZ -0.176
+ }
+ {
+  coords 10093.741 247.772 5559.713
+  angleY -177.474
+ }
+}
+GenericEntity : "{9BC88E502B836DBF}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_USSR_01.et" {
+ coords 8411.186 359.031 6545.229
+ angleX 0.616
+ angleY 135.31
+ angleZ 3.165
+}
+GenericEntity : "{AACF7C732B82F6B2}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagWallBurlap_S_USSR_01.et" {
+ coords 8535.087 358.132 6665.181
+ angleY -44.52
+}
+GenericEntity : "{B2EE28CC9D2311A6}PrefabsEditable/Auto/Props/Furniture/E_BarTable_01.et" {
+ coords 10292.371 238.62 5036.822
+ angleY 19.691
+}
+$grp GenericEntity : "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et" {
+ {
+  coords 10126.138 245.978 5486.765
+  angleX -89.8
+  angleY 89.202
+  angleZ -119.272
+ }
+ {
+  coords 10126.255 245.976 5486.875
+  angleX -89.8
+  angleY 89.202
+  angleZ -151.163
+ }
+}
+GenericEntity : "{D09EC23A68BE27E9}PrefabsEditable/Auto/Props/Furniture/E_Table_01.et" {
+ coords 10126.056 245.063 5486.729
+ angleY 42.016
+}
+GenericEntity : "{D37FCFA137EE0EA7}Prefabs/Props/Military/Arsenal/AmmoBoxes/NormalBox_AmmoBox_USSR.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   MultiSlots {
+    MultiSlotConfiguration "{60E95557E8996D04}" {
+     SlotTemplate InventoryStorageSlot AKammunition : Bandages {
+      Prefab "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et"
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{61CB2C34CD0F9E09}" {
+     SlotTemplate InventoryStorageSlot PKMammunition {
+      Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{61CB2C34D71B1654}" {
+     SlotTemplate InventoryStorageSlot UGLammo {
+      Prefab "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{61CB2C2BC101B33B}" {
+     SlotTemplate InventoryStorageSlot UGLammo {
+      Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{61CB2C2B997F9555}" {
+     SlotTemplate InventoryStorageSlot HandGrenades {
+      Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+     NumSlots 8
+    }
+   }
+  }
+ }
+ coords 8411.992 359.929 6647.442
+ angleX 0.229
+ angleY 75.15
+ angleZ 0.865
+}
+GenericEntity : "{DF4E2A4B6381E4CA}Prefabs/Props/Military/Arsenal/AmmoBoxes/NormalBox_MedicalBox_USSR.et" {
+ coords 8409.001 360.557 6652.596
+ angleY -91.013
+}
+GenericEntity : "{E1343D495AB1956E}PrefabsEditable/Auto/Structures/Military/CamoNets/Soviet/E_CamoNet_Small_Top_Soviet.et" {
+ coords 8342.78 292.093 5971.536
+ angleY -30.185
+}
+$grp StaticModelEntity : "{E6AE368A342034CB}PrefabsEditable/Auto/Props/Military/Fortification/E_CzechHedgehog_01_rusty.et" {
+ {
+  coords 8520.365 0 6664.592
+  angleX -2.666
+  angleY -0.578
+  angleZ 1.815
+ }
+ {
+  coords 8516.262 -0 6664.489
+  angleX -6.85
+  angleY 82.895
+  angleZ -4.513
+ }
+}
+$grp GenericEntity : "{EA3695BD1C032FE2}PrefabsEditable/Auto/Structures/Military/Flags/FlagPole_02_V1_ChDKZ_Editable.et" {
+ {
+  coords 8534.545 358.07 6664.784
+  angleX 2.372
+  angleY -65.37
+  angleZ -0.881
+ }
+ {
+  coords 8410.717 359.974 6646.751
+  angleX 2.372
+  angleY -65.37
+  angleZ -0.881
+ }
+}
+$grp GenericEntity : "{F39B4625596DF5A4}PrefabsEditable/Auto/Structures/Military/Flags/FlagPole_02_V1_Chernarus_Editable.et" {
+ {
+  coords 10104.635 245.355 5514.473
+ }
+ {
+  coords 10163.888 243.998 5512.253
+  angleX 1.07
+  angleY -102.717
+  angleZ 0.676
+ }
+}
+GenericEntity : "{F671303E925C437A}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/Fortifications/E_Sandbag_MG_USSR_01_NSV_SPP.et" {
+ coords 8507.442 359.915 6618.501
+ angleX -0.748
+ angleY 123.33
+ angleZ -0.492
+}
