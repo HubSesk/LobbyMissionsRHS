@@ -1,0 +1,218 @@
+GenericEntity : "{02D918704A34206D}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagLongPlastic_S_US_01.et" {
+ coords 594.351 421.281 11149.864
+ angleY 79.949
+}
+$grp StaticModelEntity : "{23C109BC7122FA1D}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/Sandbag_01_bunker_plastic_camonet_CompositionDestruction.et" {
+ {
+  coords 471.514 422.946 11239.269
+  angleY 89.65
+ }
+ {
+  coords 467.482 423.163 11233.469
+  angleY -179.184
+ }
+ {
+  coords 519.278 422.98 11040.746
+  angleY 132.659
+ }
+ {
+  coords 517.483 422.666 11050.617
+  angleY 17.709
+ }
+ {
+  coords 509.288 423.12 11043.926
+  angleY -101.165
+ }
+ {
+  coords 595.479 422.525 11144.968
+  angleY 118.674
+ }
+ {
+  coords 563.882 422.765 11123.687
+  angleY -150.713
+ }
+ {
+  coords 560.516 422.752 11134.146
+  angleY -92.208
+ }
+ {
+  coords 593.211 422.535 11154.564
+  angleY 24.138
+ }
+}
+$grp GenericEntity : "{2A5E5BD2EF404977}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagRoundHighPlastic_S_US_01.et" {
+ {
+  coords 511.565 421.883 11049.651
+  angleY -33.423
+ }
+ {
+  coords 560.69 421.672 11128.744
+  angleY -100.04
+ }
+ {
+  coords 568.307 421.46 11124.075
+  angleY 166.082
+ }
+ {
+  coords 572.27 421.438 11124.04
+  angleY 160.995
+ }
+ {
+  coords 591.378 421.281 11143.187
+  angleY 145.732
+ }
+ {
+  coords 584.427 421.312 11146.539
+  angleY -95.709
+ }
+ {
+  coords 589.01 421.281 11153.49
+  {
+   GenericEntity {
+    ID "5D72D01C2ED46838"
+    coords -0.066 0 0.364
+    angleY -22.33
+   }
+  }
+ }
+ {
+  coords 464.753 421.909 11236.283
+  {
+   GenericEntity {
+    ID "5D72D01C2ED46838"
+    coords -0.363 0 -0.112
+    angleY -129.548
+   }
+  }
+ }
+}
+$grp Turret : "{73530808E4B455BA}Prefabs/Weapons/Tripods/Tripod_M3_M2HB.et" {
+ {
+  coords 472.481 423.897 11239.156
+  angleY 89.453
+ }
+ {
+  coords 467.35 424.114 11232.504
+  angleY -179.38
+ }
+ {
+  coords 519.909 423.931 11040.005
+  angleY 132.462
+ }
+ {
+  coords 517.89 423.617 11051.503
+  angleY 17.513
+ }
+ {
+  coords 508.317 424.071 11043.854
+  angleY -101.362
+ }
+ {
+  coords 596.271 423.476 11144.401
+  angleY 118.478
+ }
+ {
+  coords 563.307 423.716 11122.901
+  angleY -150.91
+ }
+ {
+  coords 559.545 423.702 11134.229
+  angleY -92.405
+ }
+ {
+  coords 593.715 423.486 11155.397
+  angleY 23.942
+ }
+}
+GenericEntity : "{745097E446C05528}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Corner_Right_US_02.et" {
+ coords 469.944 422.055 11236.229
+ angleY 104.675
+}
+GenericEntity : "{74E665E138AA8E21}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_CDF.et" {
+ coords 509.297 433.954 11103.231
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ RHS_RF_MSV_G_000_M {
+  coords 308.543 295.088 9381.578
+ }
+ RHS_RF_MSV_G_000_M {
+  coords 298.775 295.283 9334.872
+ }
+ RHS_RF_MSV_G_000_M {
+  coords 336.449 294.762 9444.874
+ }
+ RHS_RF_MSV_G_000_M {
+  coords 1144.749 378.567 12306.596
+ }
+ RHS_RF_MSV_G_000_M {
+  coords 1174.881 378.102 12278.068
+ }
+}
+$grp GenericEntity : "{E2255DBD0B5F477A}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallPlastic_S_US_01.et" {
+ {
+  coords 512.763 421.863 11041.277
+  angleY 39.062
+ }
+ {
+  coords 515.039 421.8 11040.288
+  angleY 5.685
+ }
+ {
+  coords 519.835 421.898 11045.034
+  angleY -92.014
+  {
+   GenericEntity {
+    ID "5D72D01CF8ADF3C5"
+    coords -0.118 0 -0.181
+   }
+  }
+ }
+ {
+  coords 520.294 421.942 11047.262
+  angleY -92.014
+  {
+   GenericEntity {
+    ID "5D72D01CF8ADF3C5"
+    coords 0.072 0 0.778
+    angleY -18.147
+   }
+  }
+ }
+}
+$grp GenericEntity : "{F3EC400DB092C2A4}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_plastic.et" {
+ {
+  coords 472.684 422.741 11239.14
+ }
+ {
+  coords 467.329 422.958 11232.302
+  angleY 91.167
+ }
+ {
+  coords 520.046 422.775 11039.854
+  angleY 43.009
+ }
+ {
+  coords 517.969 422.461 11051.689
+  angleY -71.94
+ }
+ {
+  coords 508.115 422.915 11043.828
+  angleY 169.185
+ }
+ {
+  coords 596.44 422.32 11144.286
+  angleY 29.025
+ }
+ {
+  coords 563.192 422.56 11122.733
+  angleY 119.637
+ }
+ {
+  coords 559.342 422.547 11134.238
+  angleY 178.142
+ }
+ {
+  coords 593.814 422.33 11155.577
+  angleY -65.511
+ }
+}

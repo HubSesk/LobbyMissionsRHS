@@ -1,3 +1,20 @@
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 495.705 421.815 11114.848
+  m_fWarnRadius 140
+  m_fZoneRadius 165
+  m_fZoneTeleportedRadius 175
+ }
+ {
+  coords 1153.067 378.479 12302.449
+ }
+ {
+  coords 325.017 295.029 9383.737
+  m_fWarnRadius 80
+  m_fZoneRadius 120
+  m_fZoneTeleportedRadius 140
+ }
+}
 PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
  components {
   PS_PolyZone "{60E90266F25533F6}" {

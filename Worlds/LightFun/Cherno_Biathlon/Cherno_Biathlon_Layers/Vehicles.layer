@@ -18,6 +18,12 @@ $grp Vehicle : "{2CCD539A7AB35B2F}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   angleZ -1.79
  }
 }
+Vehicle Ural4320_repair_camo1 : "{BED355ED51A1E859}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair_camo1.et" {
+ coords 1178.179 379.044 12316.862
+ angleX -0.782
+ angleY -150.875
+ angleZ -0.436
+}
 $grp Vehicle : "{DD0CB0331A3D8CA7}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok_camo1.et" {
  APC_K17_Berezok_camo1 {
   components {
@@ -92,9 +98,9 @@ $grp Vehicle : "{DD0CB0331A3D8CA7}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok_c
   angleZ -1.659
  }
 }
-Vehicle GAZ_TIGR_Unarmed_Green1 : "{EF97074C3EED623F}Prefabs/Vehicles/Wheeled/TIGR/GAZ_TIGR_Unarmed_Green.et" {
- coords 1169.263 379.183 12321.746
- angleX -0.84
- angleY -159.823
- angleZ -0.309
+Vehicle UAZ469_Camo1 : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
+ coords 1168.362 379.191 12322.251
+ angleX -0.782
+ angleY -150.926
+ angleZ -0.435
 }
