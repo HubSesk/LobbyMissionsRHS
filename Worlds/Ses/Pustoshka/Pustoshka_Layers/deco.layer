@@ -62,6 +62,10 @@ $grp GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLar
   angleZ 2.002
  }
 }
+GenericEntity : "{569F5D1EF426DC08}PrefabsEditable/Auto/Structures/Military/Flags/FlagPole_02_V2_Chernarus_Editable.et" {
+ coords 3065.733 309.95 7980.083
+ angleY -134.056
+}
 StaticModelEntity : "{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.et" {
  coords 3724.465 400.796 5979.368
  angleY -30
@@ -69,10 +73,6 @@ StaticModelEntity : "{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/
 }
 StaticModelEntity : "{732A335C72D8ADE2}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_burlap_foundation.et" {
  coords 3028.975 301.268 8076.829
-}
-GenericEntity : "{74E665E138AA8E21}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_CDF.et" {
- coords 3065.696 310.169 7980.005
- angleY -120
 }
 $grp GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
  {
@@ -158,6 +158,10 @@ $grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSma
   }
  }
 }
+GenericEntity : "{9AA7840FE3C3F664}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_Sign_USSR_01.et" {
+ coords 2570.288 259.966 9812.301
+ angleY 56.662
+}
 $grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
  {
   coords 3110.843 304.046 7968.241
@@ -214,6 +218,10 @@ $grp GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_
   angleY -145.38
   angleZ 5.471
  }
+}
+GenericEntity : "{B9F504773F71C2AE}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_RF.et" {
+ coords 2570.75 260.424 9811.665
+ angleY -73.597
 }
 $grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
  {
@@ -401,4 +409,8 @@ $grp GenericEntity : "{F0EC223F2A1094C0}Prefabs/Props/Military/Sandbags/Sandbag_
   angleY 45.339
   angleZ 1.231
  }
+}
+GenericEntity : "{F671303E925C437A}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/Fortifications/E_Sandbag_MG_USSR_01_NSV_SPP.et" {
+ coords 3035.921 311.785 7874.304
+ angleY 24.702
 }
