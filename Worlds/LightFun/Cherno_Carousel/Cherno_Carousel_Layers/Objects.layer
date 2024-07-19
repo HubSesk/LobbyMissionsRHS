@@ -1,9 +1,5 @@
 $grp StaticModelEntity : "{0DB05393395683E8}Prefabs/Compositions/Misc/SubCompositions/Furniture/Bed_Notebook_USSR_01.et" {
  {
-  coords 5238.791 337.321 9821.83
-  angleY 88.931
- }
- {
   coords 5242.893 337.383 9843.624
   angleY -1.679
  }
@@ -12,7 +8,7 @@ $grp StaticModelEntity : "{0DB05393395683E8}Prefabs/Compositions/Misc/SubComposi
   angleY -1.679
  }
  {
-  coords 5243.173 337.332 9833.108
+  coords 5259.805 337.438 9855.355
   angleY -1.679
  }
  {
@@ -24,40 +20,20 @@ $grp StaticModelEntity : "{0DB05393395683E8}Prefabs/Compositions/Misc/SubComposi
   angleY 177.203
  }
  {
-  coords 5227.896 337.053 9821.431
-  angleY 88.931
+  coords 5216.423 337.409 9882.296
+  angleY -91.241
  }
  {
-  coords 5216.257 337.232 9818.53
-  angleY 88.931
+  coords 5216.466 337.414 9879.333
+  angleY -91.241
  }
  {
-  coords 5216.222 337.237 9821.492
-  angleY 88.931
+  coords 5220.537 337.416 9882.232
+  angleY -91.241
  }
  {
-  coords 5212.144 337.239 9818.607
-  angleY 88.931
- }
- {
-  coords 5212 337.234 9821.459
-  angleY 88.931
- }
- {
-  coords 5208.186 337.241 9818.03
-  angleY 88.931
- }
- {
-  coords 5204.02 337.248 9818.224
-  angleY 88.931
- }
- {
-  coords 5203.905 337.241 9821.114
-  angleY 88.931
- }
- {
-  coords 5208.061 337.236 9821.15
-  angleY 88.931
+  coords 5220.688 337.411 9879.379
+  angleY -91.241
  }
 }
 $grp GenericEntity : "{32654927F2657E8A}Prefabs/Props/Forest/WoodPile/WoodLog_01_A.et" {
@@ -80,10 +56,6 @@ $grp GenericEntity : "{32654927F2657E8A}Prefabs/Props/Forest/WoodPile/WoodLog_01
 }
 $grp GenericEntity : "{4E202866EA77CF71}Prefabs/Props/Military/Compositions/Dst/PersonnelService_Table_01/PersonnelService_Table_01_dst_01_FIA.et" {
  {
-  coords 5234.381 337.33 9822.096
-  angleY 90.652
- }
- {
   coords 5242.675 337.392 9839.215
   angleY 0.042
  }
@@ -92,7 +64,7 @@ $grp GenericEntity : "{4E202866EA77CF71}Prefabs/Props/Military/Compositions/Dst/
   angleY 0.042
  }
  {
-  coords 5242.955 337.341 9828.698
+  coords 5259.586 337.447 9850.947
   angleY 0.042
  }
  {
@@ -104,21 +76,17 @@ $grp GenericEntity : "{4E202866EA77CF71}Prefabs/Props/Military/Compositions/Dst/
   angleY 178.924
  }
  {
-  coords 5223.485 337.062 9821.694
-  angleY 90.652
- }
- {
-  coords 5204.147 337.383 9839.229
-  angleY -175.291
+  coords 5202.603 337.383 9835.981
+  angleY 95.303
  }
 }
 GenericEntity : "{57FB5E487EC91D63}Prefabs/Compositions/Misc/SubCompositions/Barricade_Logs_02.et" {
- coords 5216.686 337.125 9843.621
- angleY 175.25
+ coords 5206.114 337.125 9864.048
+ angleY 80.6
 }
 GenericEntity : "{6AAA7B07B5C35BA8}Prefabs/Props/Military/Compositions/Dst/PersonnelService_Table_01/PersonnelService_Table_01_dst_02.et" {
- coords 5208.446 337.369 9839.373
- angleY 178.71
+ coords 5202.502 337.369 9840.283
+ angleY 89.304
 }
 $grp GenericEntity : "{74E665E138AA8E21}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_CDF.et" {
  {
@@ -143,7 +111,13 @@ $grp StaticModelEntity : "{8F91E1D01FB2C3EF}Prefabs/Compositions/Misc/CustomEnti
 }
 $grp StaticModelEntity : "{9F7211592BE80DC2}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/TentUSSR_01_CompositionDestruction.et" {
  {
-  coords 5236.739 337.151 9820.26
+  coords 5205.158 337.151 9849.32
+  {
+   SCR_DestructibleBuildingEntity {
+    ID "5A5344E1DC2830DD"
+    coords 0 0.1 0.001
+   }
+  }
  }
  {
   coords 5244.484 337.213 9841.591
@@ -154,7 +128,7 @@ $grp StaticModelEntity : "{9F7211592BE80DC2}Prefabs/Compositions/Misc/CustomEnti
   angleY -90.61
  }
  {
-  coords 5244.764 337.162 9831.076
+  coords 5261.396 337.268 9853.324
   angleY -90.61
  }
  {
@@ -165,15 +139,8 @@ $grp StaticModelEntity : "{9F7211592BE80DC2}Prefabs/Compositions/Misc/CustomEnti
   coords 5229.315 337.187 9841.078
   angleY 88.272
  }
- {
-  coords 5225.843 336.883 9819.858
- }
 }
 $grp StaticModelEntity : "{B6701381419D2656}Prefabs/Compositions/Misc/SubCompositions/Furniture/Bed_Blankets_USSR_02.et" {
- {
-  coords 5234.569 337.318 9818.914
-  angleY -88.836
- }
  {
   coords 5245.854 337.38 9839.437
   angleY -179.446
@@ -183,7 +150,7 @@ $grp StaticModelEntity : "{B6701381419D2656}Prefabs/Compositions/Misc/SubComposi
   angleY -179.446
  }
  {
-  coords 5246.134 337.329 9828.922
+  coords 5262.765 337.435 9851.166
   angleY -179.446
  }
  {
@@ -195,33 +162,22 @@ $grp StaticModelEntity : "{B6701381419D2656}Prefabs/Compositions/Misc/SubComposi
   angleY -0.564
  }
  {
-  coords 5223.673 337.05 9818.514
-  angleY -88.836
- }
- {
-  coords 5203.909 337.355 9835.68
-  angleY -89.119
+  coords 5206.15 337.355 9835.708
+  angleY -178.525
  }
 }
 GenericEntity : "{B9F504773F71C2AE}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_RF.et" {
- coords 5210.326 337.125 9834.215
+ coords 5207.682 337.125 9842.107
+ angleY -89.406
 }
-$grp StaticModelEntity : "{C7C8DAB8EFEF6AFB}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/TentUSSRMedical_01_CompositionDestruction.et" {
- {
-  coords 5206.033 337.063 9819.541
- }
- {
-  coords 5214.225 337.063 9819.896
- }
+StaticModelEntity : "{C7C8DAB8EFEF6AFB}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/TentUSSRMedical_01_CompositionDestruction.et" {
+ coords 5218.458 337.24 9880.938
+ angleY 179.829
 }
 GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
  coords 5217.856 337.125 9833.158
 }
 $grp StaticModelEntity : "{DA242761FD59A978}Prefabs/Compositions/Misc/SubCompositions/Furniture/Bed_Blankets_USSR_01.et" {
- {
-  coords 5238.961 337.306 9818.656
-  angleY 88.684
- }
  {
   coords 5246.064 337.368 9843.831
   angleY -1.926
@@ -231,7 +187,7 @@ $grp StaticModelEntity : "{DA242761FD59A978}Prefabs/Compositions/Misc/SubComposi
   angleY -1.926
  }
  {
-  coords 5246.344 337.317 9833.315
+  coords 5262.973 337.423 9855.563
   angleY -1.926
  }
  {
@@ -243,15 +199,11 @@ $grp StaticModelEntity : "{DA242761FD59A978}Prefabs/Compositions/Misc/SubComposi
   angleY 176.957
  }
  {
-  coords 5228.065 337.038 9818.256
-  angleY 88.684
- }
- {
-  coords 5207.937 337.376 9835.602
-  angleY -88.004
+  coords 5206.269 337.376 9839.734
+  angleY -177.41
  }
 }
 StaticModelEntity : "{FAA8DFFC24FE1EC1}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/TentUSSR_01_camonet_CompositionDestruction.et" {
- coords 5205.943 337.189 9837.135
- angleY -179.283
+ coords 5204.715 337.189 9837.757
+ angleY 91.311
 }

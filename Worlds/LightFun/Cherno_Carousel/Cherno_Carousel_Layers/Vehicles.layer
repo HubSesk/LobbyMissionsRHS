@@ -7,6 +7,12 @@ Vehicle Ural4320_Ses_CDF_tanker1 : "{10BAF58D6690A1E4}Prefabs/Vehicles/Wheeled/U
 Vehicle Ural4320_tanker_camo1 : "{13139B95B13DDA35}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker_camo1.et" {
  coords 5267.698 337 9771.206
 }
+Vehicle Mi8MT_armed_Ses_CDF1 : "{1F8AE9B33AB52BF5}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_Ses_CDF.et" {
+ coords 10393.464 283.208 5925.937
+ angleX 3.349
+ angleY -71.812
+ angleZ -6.769
+}
 $grp Vehicle : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_camo1.et" {
  Ural4320_transport_covered_camo1 {
   coords 5257.209 337 9770.877
@@ -29,43 +35,25 @@ Vehicle Ural4320_command_camo1 : "{2C95509CA3E61DE1}Prefabs/Vehicles/Wheeled/Ura
  angleY -0.014
  angleZ -0.895
 }
-$grp Vehicle : "{37DA845E90392CAE}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Ses_CDF.et" {
- UAZ469_uncovered_Ses_CDF1 {
-  coords 6289.954 301.312 7754.718
-  angleY 127.51
+$grp Vehicle : "{35D71FBBC41EF23B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_Ses_CDF.et" {
+ M1025_armed_M2HB_Ses_CDF1 {
+  coords 6382.625 305.115 7778.872
+  angleX 0.502
+  angleY -145.886
+  angleZ -0.741
  }
- UAZ469_uncovered_Ses_CDF2 {
-  coords 6283.584 301.33 7759.486
-  angleX 0.169
-  angleY 127.346
-  angleZ 1.255
+ M1025_armed_M2HB_Ses_CDF3 {
+  coords 6367.57 305.178 7777.374
+  angleX -0.5
+  angleY 123.971
+  angleZ 0.742
  }
 }
+Vehicle UAZ469_uncovered_Ses_CDF1 : "{37DA845E90392CAE}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Ses_CDF.et" {
+ coords 6288.986 301.312 7754.385
+ angleY 136.352
+}
 $grp Vehicle : "{52441D784D145D52}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF.et" {
- BTR70_Ses_CDF1 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
-      NumSlots 4
-     }
-     MultiSlotConfiguration "{5A60D38E3D91D053}" {
-      NumSlots 6
-     }
-     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
-      NumSlots 4
-     }
-     MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
-      NumSlots 1
-     }
-    }
-   }
-  }
-  coords 6383.197 305.106 7778.904
-  angleX 0.533
-  angleY -143.498
-  angleZ -0.72
- }
  BTR70_Ses_CDF2 {
   components {
    SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
@@ -132,6 +120,12 @@ $grp Vehicle : "{95C19D971E734B61}Prefabs/Vehicles/Wheeled/Ural4320/Ses_CDF/Ural
   angleY 118.569
  }
 }
+Vehicle UAZ469_Ses_CDF1 : "{A36B7742CB4CC488}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Ses_CDF.et" {
+ coords 6284.159 301.329 7759.035
+ angleX -0.723
+ angleY 143.9
+ angleZ 0.527
+}
 Vehicle Ural4320_Ses_CDF_command1 : "{B8C6D4393223FDC2}Prefabs/Vehicles/Wheeled/Ural4320/Ses_CDF/Ural4320_Ses_CDF_command.et" {
  coords 6326.069 305.156 7797.051
  angleY 139.686
@@ -173,9 +167,4 @@ Vehicle APC_K17_Berezok_camo1 : "{DD0CB0331A3D8CA7}Prefabs/Vehicles/Wheeled/K17/
  angleX -0.955
  angleY -93.946
  angleZ -0.831
-}
-Vehicle Mi8MT_CDF1 : "{F81699EAF73DD999}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_CDF.et" {
- coords 10407.31 284.309 5945.129
- angleX 4.29
- angleY 96.878
 }
