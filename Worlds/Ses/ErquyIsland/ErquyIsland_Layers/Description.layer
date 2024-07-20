@@ -2,7 +2,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  General {
   coords 10897.04 23.541 11759.427
   m_sTitle "Общая информация"
-  m_sTextData "Ночной рейд морской пехоты США на остров подконтрольный ВСРФ с целью уничтожения артилерии."
+  m_sTextData "Рейд морской пехоты США на остров подконтрольный ВСРФ с целью уничтожения артилерии."
   m_aVisibleForFactions {
    "RHS_RF_MSV" "RHS_US_USMC"
   }
@@ -38,48 +38,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "• Удержать штаб."
   m_aVisibleForFactions {
    "RHS_RF_MSV"
-  }
- }
-}
-$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
- {
-  coords 10536.874 2.307 11838.248
-  m_fWarnRadius 54
-  m_fZoneRadius 74
-  m_fZoneTeleportedRadius 84
-  {
-   GenericEntity {
-    ID "59D673B36B893D84"
-    components {
-     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
-      m_fRadius 54
-     }
-    }
-   }
-  }
- }
- {
-  coords 11656.396 10.317 11326.093
- }
-}
-$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
- {
-  coords 11491.61 10.217 10858.577
- }
- {
-  coords 10938.094 28.551 11739.938
-  m_fWarnRadius 174
-  m_fZoneRadius 214
-  m_fZoneTeleportedRadius 224
-  {
-   GenericEntity {
-    ID "59D673B36B893D84"
-    components {
-     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
-      m_fRadius 174
-     }
-    }
-   }
   }
  }
 }
