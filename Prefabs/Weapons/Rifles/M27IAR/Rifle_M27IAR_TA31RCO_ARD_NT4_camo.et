@@ -1,0 +1,48 @@
+GenericEntity : "{1A912E7913F32ECA}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_camo1_TA31RCO.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{DF7202A00392B0B7}Sounds/Weapons/Rifles/M27IAR/Suppressed/RHS_Weapons_Rifles_M27IAR_Shot_Suppressed.acp" "{9FE8ECD9A435366A}Sounds/Weapons/Rifles/M27IAR/RHS_Weapons_Rifles_M27IAR_Handling.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{07E8D425196745F4}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_Plastic.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp"
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5D873BE1CB1DD9C4}" {
+     AttachmentSlot InventoryStorageSlot attachment_grip {
+     }
+    }
+    AttachmentSlotComponent "{5D873BE26346E4D7}" {
+     AttachmentSlot InventoryStorageSlot attachment_railcover {
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{61E6A37BC3B526F4}" {
+       AttachmentSlot InventoryStorageSlot suppressor {
+        PivotID "barrel_muzzle"
+        MergePhysics 1
+        Prefab "{B591C94754DB4893}Prefabs/Weapons/Attachments/Muzzle/KAC_NT4_QDSS/KAC_NT4_QDSS_Covered_Multicam.et"
+       }
+       AttachmentType Attachment556Muzzle "{61E6A37BC3B526EA}" {
+       }
+       ShowInInspection 1
+      }
+      CaseEjectingEffectComponent "{5CC8E73BB698D2AC}" {
+       EffectPosition EntitySlotInfo "{52C89337A55D0B87}" {
+        Offset 0 0 0.0739
+       }
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       ParticleEffect "{28F45154DC9A3CE6}Particles/Weapon/Smoke_AKS74U_Suppresor.ptc"
+       EffectPosition EntitySlotInfo "{C9B3271BB85B5D32}" {
+        Offset 0 0 0.1483
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 954.572 7.891 728.188
+}
