@@ -1,0 +1,79 @@
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 967.631 116.598 2965.704
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ coords 964.607 116.509 2964.073
+ m_bRemoveRedundantUnits 1
+ m_bRemoveSquadMarkers 1
+ m_iFreezeTime 180000
+ m_bDisableChat 1
+ m_bReserveSlots 1
+}
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 3001.019 115.095 826.888
+  m_sTitle "Правила"
+  m_sDescriptionLayout "{B9CAB85D4A1600D3}UI/MissionDescription/DescriptionEditableScroll.layout"
+  m_sTextData "ВХОД НА СЕРВЕР 16+"\
+  ""\
+  "1.Не транслировать музыку и прочие сторонние звуки в голосовой чат."\
+  "2.Не переодеваться в форму противника/снимать униформу иди обувь если это не является обговоренным элементом миссии."\
+  "3.Не использовать внеигровую комуникацию/стримы для получения / передачи информации во время игры."\
+  "4.Запрещено использование сторонних програм для изменения графики игры (будь то reshade, или утилиты от Нвидии/Амд для влияния на графику игры.)"\
+  "5.Запрещено таргетированно кикать игроков из личной неприязни. Не трогайте кнопку кика если не готовы объяснять причину."\
+  "6.Запрещено неадекватное поведение по всех смыслах этого слова. Не стоит обзывать людей даже в компуктерных играх."
+ }
+ {
+  coords 2997.517 115.242 820.979
+  m_sTitle "База"
+  m_sDescriptionLayout "{B9CAB85D4A1600D3}UI/MissionDescription/DescriptionEditableScroll.layout"
+  m_sTextData "Операция комбинированных сил ВСРФ по выбиванию морпехов США с территории лесопилки."\
+  ""\
+  "Морпехи МОГУТ покидать лесопилку."\
+  "У морпехов МНОГО ТРУБ и сапперов. Ярмарку не забудьте залутать."\
+  "У ВС РФ МНОГО техники. Думайте."\
+  ""\
+  "Территория у лесопилки довольно непроходимая."\
+  ""\
+  "Задача ВС РФ : Выбить морпехов с центрального амбара лесопилки. Оно обставленно песками с мешком."\
+  ""\
+  "Задача Морпехов : Защитить центральный Амбар."
+ }
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 981.792 116.684 2963.102
+  m_sTitle "Лесопилка захвачена."
+  m_sFactionKey "RHS_RF_MSV"
+ }
+ {
+  coords 3002.997 115.063 825.992
+  m_sTitle "Лесопилка удержана"
+  m_sFactionKey "RHS_US_USMC"
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 2968.046 115.151 814.381
+ }
+ {
+  coords 951.489 116.406 2983.443
+ }
+}
+PS_ManualMarker RHS_RF_MSV_G_001_M : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 953.988 116.437 2951.003
+ m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+ m_sImageSetGlow ""
+ m_MarkerColor 1 1 1 1
+ m_sQuadName "undefined"
+ m_fWorldSize 50
+ m_sDescription "Aktiv-12"
+ m_bUseWorldScale 0
+ m_aVisibleForFactions {
+  "RHS_RF_MSV" "RHS_US_USMC" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+ }
+ m_bVisibleForEmptyFaction 1
+ m_aHideOnGameModeStates {
+ }
+ m_iZOrder 10
+}

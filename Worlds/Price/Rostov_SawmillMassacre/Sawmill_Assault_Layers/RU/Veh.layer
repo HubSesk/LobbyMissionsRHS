@@ -1,0 +1,40 @@
+RHS_Tank Tank_T14_camo1 : "{9057DDA3E3FAA03B}Prefabs/Vehicles/Tracked/T14/Tank_T14_camo.et" {
+ coords 996.505 116.844 2987.65
+ angleY 89.975
+}
+$grp Vehicle : "{DC6A0BC75B198106}Prefabs/Vehicles/Wheeled/K17/APC_K17_unarmed_camo1.et" {
+ APC_K17_unarmed_camo1 {
+  coords 924.151 116.125 2984.474
+  angleY 88.644
+ }
+ APC_K17_unarmed_camo2 {
+  coords 906.164 115.952 2983.395
+  angleY 91.604
+ }
+}
+Vehicle APC_K17_Berezok_camo1 : "{DD0CB0331A3D8CA7}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok_camo1.et" {
+ coords 969.512 116.563 2986.493
+ angleY 90.07
+}
+$grp Vehicle : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
+ UAZ469_Camo1 {
+  coords 940.802 116.281 2973.976
+  angleY 71.458
+ }
+ UAZ469_Camo2 {
+  coords 932.256 116.221 3003.504
+  angleY 107.122
+ }
+ UAZ469_Camo3 {
+  coords 899.742 115.875 3002.623
+  angleY 84.033
+ }
+ UAZ469_Camo4 {
+  coords 898.514 115.852 2962.946
+  angleY 82.116
+ }
+}
+Vehicle APC_K17_Epoch1 : "{F86AB1BD36B33407}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch.et" {
+ coords 947.011 116.344 2985.339
+ angleY 89.15
+}
