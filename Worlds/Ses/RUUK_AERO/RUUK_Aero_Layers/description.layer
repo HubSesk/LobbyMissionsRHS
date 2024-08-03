@@ -1,0 +1,45 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 843.041 115.529 2947.115
+  m_sTitle "Общее описание"
+  m_sTextData "Бой за аэропорт"
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 843.041 115.529 2947.115
+  m_sTitle "Задачи ЧСО"
+  m_sTextData "Удержать обозначенные здания в аэропорту."\
+  "К нам на поддержку вылетело подкрепление из бойцов КМП США!"
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+ {
+  coords 843.041 115.529 2947.115
+  m_sTitle "Задачи КМП США"
+  m_sTextData "Помочь нашим союзникам ЧСО удержать аэропорт."\
+  "В вертолетах закончилось топливо! Требуется их заправить перед тем как добраться до аэропорта."
+  m_aVisibleForFactions {
+   "RHS_US_USMC"
+  }
+ }
+ {
+  coords 843.041 115.529 2947.115
+  m_sTitle "Задачи ВСРФ"
+  m_sTextData "• Занять аэропорт."\
+  "• Скоординировать союзников из местного ополчения ЧДКЗ."
+  m_aVisibleForFactions {
+   "RHS_RF_MSV"
+  }
+ }
+ {
+  coords 843.041 115.529 2947.115
+  m_sTitle "Задачи ЧДКЗ"
+  m_sTextData "• Выбить ЧСО из сектора."\
+  "• Получить приказы от полевого командира ВСРФ"
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+ }
+}

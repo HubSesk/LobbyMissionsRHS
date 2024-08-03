@@ -1,0 +1,12 @@
+GenericEntity : "{6C4128843B9B0726}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_fuel_tank_camo1.et" {
+ ID "509C81749AA060EF"
+ components {
+  SCR_FuelManagerComponent "{5624AEE53C44BEBA}" {
+   FuelNodes {
+    SCR_FuelNode "{5624AEE534FA6946}" {
+     m_fInitialFuelTankState 4500
+    }
+   }
+  }
+ }
+}
