@@ -75,4 +75,17 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    5 1
   }
  }
+ {
+  coords 1276.116 96.947 861.323
+  m_sImageSet "{C9D19DBFDE7AD72D}UI/Imagesets/Conflict/conflict-icons.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 45
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+}
+GenericEntity : "{EA3695BD1C032FE2}PrefabsEditable/Auto/Structures/Military/Flags/FlagPole_02_V1_ChDKZ_Editable.et" {
+ coords 1289.619 97.114 877.796
 }
