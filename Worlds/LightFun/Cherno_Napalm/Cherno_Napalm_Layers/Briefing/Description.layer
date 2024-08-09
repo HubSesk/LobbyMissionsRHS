@@ -78,3 +78,16 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
  }
 }
+PS_ManualMarker Task9 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 3475.15 319.096 11593.598
+ angleY 115
+ m_sImageSet "{AB6AE6A2B11B7F23}UI/BoomBox.edds"
+ m_sImageSetGlow ""
+ m_sQuadName ""
+ m_fWorldSize 1000
+ m_bVisibleForEmptyFaction 1
+ m_aHideOnGameModeStates {
+ }
+ m_iZOrder 0
+ m_bShowForAnyFaction 1
+}
