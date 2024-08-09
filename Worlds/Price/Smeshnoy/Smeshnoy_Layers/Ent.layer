@@ -8,3 +8,15 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  m_bDisableChat 1
  m_bReserveSlots 1
 }
+RHS_Tank Tank_T1 : "{48BB423641D40E77}Prefabs/Vehicles/Tracked/T14/Tank_T14.et" {
+ coords 5284.292 63.231 5340.478
+ angleX -2
+ angleY 28.32
+ angleZ -0.061
+}
+Vehicle Ural4320_repair1 : "{A5647958579A4149}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair.et" {
+ coords 5292.879 61.639 5392.955
+ angleX 0.735
+ angleY 124.765
+ angleZ 0.51
+}

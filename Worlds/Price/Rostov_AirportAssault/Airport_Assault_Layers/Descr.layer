@@ -1,0 +1,87 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 1256.837 86.491 969.914
+  m_sTitle "Правила"
+  m_sDescriptionLayout "{B9CAB85D4A1600D3}UI/MissionDescription/DescriptionEditableScroll.layout"
+  m_sTextData "ВХОД НА СЕРВЕР 16+"\
+  ""\
+  "1.Не транслировать музыку и прочие сторонние звуки в голосовой чат."\
+  "2.Не переодеваться в форму противника/снимать униформу иди обувь если это не является обговоренным элементом миссии."\
+  "3.Не использовать внеигровую комуникацию/стримы для получения / передачи информации во время игры."\
+  "4.Запрещено использование сторонних програм для изменения графики игры (будь то reshade, или утилиты от Нвидии/Амд для влияния на графику игры.)"\
+  "5.Запрещено таргетированно кикать игроков из личной неприязни. Не трогайте кнопку кика если не готовы объяснять причину."\
+  "6.Запрещено неадекватное поведение по всех смыслах этого слова. Не стоит обзывать людей даже в компуктерных играх."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 1267.538 85.96 981.163
+  m_sTitle "База"
+  m_sDescriptionLayout "{B9CAB85D4A1600D3}UI/MissionDescription/DescriptionEditableScroll.layout"
+  m_sTextData "Операция Морпехов США в Ростовской области по захвату Российского военного аэродрома."\
+  ""\
+  "Пехоте РФ ЗАПРЕЩЕНО покидать аэродром."\
+  "БТРам РФ ЗАПРЕЩЕНО находится южнее аэродрома. На территории естественно можно. Лучше не проверяйте, ГБУ-12 быстрая, а Ф18 еще быстрее."\
+  ""\
+  "Задача Американцев : захватить диспетчерскую и ИЛсемьдясятшесть"\
+  "Задача РФ : Защитить диспетчерскую и ИЛсемьдясятшесть"\
+  ""\
+  "Два мужика отдельно это рембат(убрать если вспомню как им имена менять, не вспомню, ну, думайте)"
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 918.403 116.063 2980.716
+  m_sTitle "Защитить Диспетчерскую"
+  m_sTextData "Диспетчерская защищена :)"
+  m_iScore 50
+  m_sFactionKey "RHS_RF_MSV"
+ }
+ {
+  coords 917.333 116.052 2980.972
+  m_sTitle "Защитить Илсемьдесятшесть"
+  m_sTextData "Илсемьдесятшесть защищён :)"
+  m_iScore 50
+  m_sFactionKey "RHS_RF_MSV"
+ }
+ {
+  coords 1275.283 86.44 968.191
+  m_sTitle "Захватить Илсемьдесятшесть"
+  m_sTextData "Илсемьдесятшесть захвачен :)"
+  m_iScore 50
+  m_sFactionKey "RHS_US_USMC"
+ }
+ {
+  coords 1264.108 86.397 971.538
+  m_sTitle "Захватить Диспетчерскую"
+  m_sTextData "Диспетчерская захвачена :)"
+  m_iScore 50
+  m_sFactionKey "RHS_US_USMC"
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 951.719 136.295 2912.888
+  angleY 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 35
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 671.429 120.672 2971.241
+  angleY 0
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 35
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+}

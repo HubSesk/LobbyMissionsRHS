@@ -1,0 +1,76 @@
+$grp SCR_AIGroup : "{382D76092628D3F7}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_RifleSquad.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{620306CC5DA79EA1}" {
+   }
+  }
+  coords 1032.363 20.376 1571.249
+  angleY 84.034
+  m_aUnitPrefabSlots + {
+   "{47112033E5E9DA33}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_Medic.et" "{910C01EBD5E4146E}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_Sharpshooter.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{620324FCDABD37D0}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1057.591 21.152 1628.872
+  angleY -19.788
+  m_aUnitPrefabSlots {
+   "{CE6C5D315CB150CE}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_SL3.et" "{8DF4F10E6EE4680D}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_AR.et" "{80218F2F99530127}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_GL.et" "{8E2D2095385C1A40}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_Rifleman3.et" "{FC8129BEC88601E4}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_Rifleman.et" "{255030CF69609FB8}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_Saboteur.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{620306CC97B281CF}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1128.768 19.796 1630.39
+  angleY 157.298
+  m_aUnitPrefabSlots {
+   "{2BF011C85054C7A5}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_SL2.et" "{DFE32F1400AB7CEE}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_MG.et" "{0A75CA724A327E8D}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_AMG.et" "{80218F2F99530127}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_GL.et" "{6BB16C6C34B98D2B}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_Rifleman2.et" "{B31905AD4D309377}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_Rifleman4.et"
+  }
+ }
+}
+$grp Vehicle : "{499E2EBD08B7FE17}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM_Ses_ChDKZ.et" {
+ UAZ469_PKM_Ses_ChDKZ1 {
+  coords 1056.525 21.016 1623.988
+  angleX 1.986
+  angleY -109.6
+  angleZ 0.243
+ }
+ UAZ469_PKM_Ses_ChDKZ2 {
+  coords 1063.438 20.788 1626.684
+  angleX 1.981
+  angleY -108.422
+  angleZ 0.283
+ }
+}
+Vehicle Ural4320_Ses_ChDKZ_transport_covered1 : "{66A75AF67285BE70}Prefabs/Vehicles/Wheeled/Ural4320/Ses_ChDKZ/Ural4320_Ses_ChDKZ_transport_covered.et" {
+ coords 1122.271 20.25 1626.485
+ angleY -20.469
+}
+Vehicle UAZ469_uncovered_Ses_ChDKZ1 : "{6CC21EBAB10F2A89}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Ses_ChDKZ.et" {
+ coords 1032.716 21.701 1605.821
+ angleX 3.222
+ angleY 31.523
+ angleZ -0.122
+}
+Vehicle Ural4320_Ses_ChDKZ_transport1 : "{8918EDE86C8CB551}Prefabs/Vehicles/Wheeled/Ural4320/Ses_ChDKZ/Ural4320_Ses_ChDKZ_transport.et" {
+ coords 1028.328 21.211 1595.365
+ angleX 3.424
+ angleY 16.801
+ angleZ 1.033
+}

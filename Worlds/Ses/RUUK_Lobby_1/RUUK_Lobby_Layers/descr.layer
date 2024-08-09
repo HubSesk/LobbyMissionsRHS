@@ -31,25 +31,37 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  {
   coords 850.836 115.525 2950.803
   m_sTitle "Укрепление 1"
-  m_iScore 50
+  m_iScore 30
   m_sFactionKey "Ses_CDF"
  }
  {
   coords 845.15 115.389 2952.12
   m_sTitle "Укрепление 2"
-  m_iScore 50
+  m_iScore 30
   m_sFactionKey "Ses_CDF"
  }
  {
   coords 829.187 114.905 2945.335
   m_sTitle "Укрепление 2"
-  m_iScore 50
+  m_iScore 30
   m_sFactionKey "Ses_ChDKZ"
  }
  {
   coords 834.872 115.041 2944.018
   m_sTitle "Укрепление 1"
-  m_iScore 50
+  m_iScore 30
   m_sFactionKey "Ses_ChDKZ"
+ }
+ {
+  coords 1271.023 94.905 861.538
+  m_sTitle "Деревня"
+  m_iScore 40
+  m_sFactionKey "Ses_ChDKZ"
+ }
+ {
+  coords 1271.023 94.905 861.538
+  m_sTitle "Деревня"
+  m_iScore 40
+  m_sFactionKey "Ses_CDF"
  }
 }
