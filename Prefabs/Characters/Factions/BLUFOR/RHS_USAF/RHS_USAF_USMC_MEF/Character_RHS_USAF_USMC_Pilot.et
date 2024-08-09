@@ -6,15 +6,14 @@ SCR_ChimeraCharacter : "{42A502E3BB727CEC}Prefabs/Characters/Factions/BLUFOR/RHS
     SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
      InitialStorageSlots {
       SCR_EquipmentStorageSlot BinocularSlot {
-       Enabled 0
-       Prefab ""
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
       }
      }
     }
    }
   }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_name "Экипаж"
+   m_name "Пилот"
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
@@ -27,11 +26,10 @@ SCR_ChimeraCharacter : "{42A502E3BB727CEC}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{E18D1D478A6B1E48}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_base.et"
+   WeaponTemplate ""
    WeaponSlotIndex 0
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
-   WeaponTemplate ""
    WeaponSlotIndex 2
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
@@ -40,10 +38,11 @@ SCR_ChimeraCharacter : "{42A502E3BB727CEC}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{5BC3C6691735F947}Prefabs/Characters/Uniforms/Suit_Pilot_US_01/Suit_Pilot_US_light.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{3E010420ECE9FC0D}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_Coy_6x9.et"
+     Prefab "{D4ED3F5C1F4A7D29}Prefabs/Characters/Vests/Vest_SRU21P/Vest_SRU21P_LF.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{8EA3CB650C1DF461}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_6x9_Coy.et"
+     Enabled 0
+     Prefab ""
     }
     LoadoutSlotInfo HandWear {
      Prefab "{16AA55A143B08A49}Prefabs/Characters/Handwear/Gloves_Pilot_US_01/Gloves_Pilot_US_01_LF.et"
@@ -55,7 +54,7 @@ SCR_ChimeraCharacter : "{42A502E3BB727CEC}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{6063106E91310A3D}" {
      TargetStorage "Prefabs/Characters/Uniforms/Suit_Pilot_US_01/Suit_Pilot_US_light.et"
      PrefabsToSpawn {
-      "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{5D948A57AF3432ED}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD_Single.et"
+      "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{340C133625BB688E}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD_Multi.et"
      }
     }
     ItemsInitConfigurationItem "{6063106E91310A26}" {
@@ -75,18 +74,14 @@ SCR_ChimeraCharacter : "{42A502E3BB727CEC}Prefabs/Characters/Factions/BLUFOR/RHS
      TargetStorage "Prefabs/Characters/Uniforms/Suit_Pilot_US_01/Suit_Pilot_US_light.et"
     }
     ItemsInitConfigurationItem "{616AD1CCB2FD9FDF}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_elastic_Coy.et"
+     TargetStorage "Prefabs/Characters/Vests/Vest_SRU21P/Vest_SRU21P_LF.et"
+    }
+    ItemsInitConfigurationItem "{60CC200A084E2F67}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Suit_Pilot_US_01/Suit_Pilot_US_light.et"
      PrefabsToSpawn {
-      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
      }
     }
-    ItemsInitConfigurationItem "{62133CD171DA969B}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex.et"
-     PrefabsToSpawn {
-      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
-     }
-    }
-    ItemsInitConfigurationItem "{62133CD171DA9663}" {
+    ItemsInitConfigurationItem "{610B53D3080A80D2}" {
      TargetStorage "Prefabs/Characters/Uniforms/Suit_Pilot_US_01/Suit_Pilot_US_light.et"
      PrefabsToSpawn {
      }

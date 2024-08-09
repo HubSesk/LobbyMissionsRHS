@@ -1,0 +1,25 @@
+GenericEntity : "{78BBA3155AB87F87}Prefabs/Characters/Vests/Vest_SRU21P/Vest_SRU21P_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Materials {
+    MaterialAssignClass "{6212E0CD25AABC39}" {
+     SourceMaterial "Vest_SRU21P"
+     AssignedMaterial "{823A950F7A65B897}Assets/Characters/Vests/Vest_SRU21P/Data/Vest_SRU21P_LF.emat"
+    }
+    MaterialAssignClass "{6212E0CD25AABC0B}" {
+     SourceMaterial "Vest_SRU21P_A"
+     AssignedMaterial "{A3280F60B68E3607}Assets/Characters/Vests/Vest_SRU21P/Data/Vest_SRU21P_A_LF.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   WornMaterialsOverride {
+    "{823A950F7A65B897}Assets/Characters/Vests/Vest_SRU21P/Data/Vest_SRU21P_LF.emat" "{A3280F60B68E3607}Assets/Characters/Vests/Vest_SRU21P/Data/Vest_SRU21P_A_LF.emat"
+   }
+   ItemMaterialsOverride {
+    "{823A950F7A65B897}Assets/Characters/Vests/Vest_SRU21P/Data/Vest_SRU21P_LF.emat" "{A3280F60B68E3607}Assets/Characters/Vests/Vest_SRU21P/Data/Vest_SRU21P_A_LF.emat"
+   }
+  }
+ }
+}

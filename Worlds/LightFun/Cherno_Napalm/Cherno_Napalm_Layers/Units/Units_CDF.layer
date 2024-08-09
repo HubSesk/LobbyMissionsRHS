@@ -1,0 +1,85 @@
+$grp SCR_AIGroup : "{F497C91720379FE7}Prefabs/Groups/BLUFOR/Group_CDF_RifleSquad.et" {
+ Zone_CDF2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6212E0CBCC8FB73E}" {
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 2399.16 262.155 10101.579
+  angleY -113.408
+  m_aUnitPrefabSlots {
+   "{0E6B86DD8C059B77}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SL_LF.et" "{03A6062FDF62A7F8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SR.et" "{29897044D8592C9A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_MG.et" "{2A4051EDC38853A7}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AMG.et" "{764BD07F41A15150}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_GL.et" "{9DE22FB5586591CC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Rifleman.et" "{6DA7E54B8E4F3FC3}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_LAT.et" "{16165F4184929A69}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Medic.et"
+  }
+  m_bDeleteWhenEmpty 0
+  m_sCustomNameSet "Командование"
+ }
+ Zone_CDF3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6212E0CBCC8FB73E}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 2386.546 264.978 10150.987
+  angleY -72.693
+  m_aUnitPrefabSlots {
+   "{0E6B86DD8C059B77}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SL_LF.et" "{03A6062FDF62A7F8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SR.et" "{7B9EAE5EB616387A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AR.et" "{A336C79FCF9F2626}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AT.et" "{A0FFE636D44E5918}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AAT.et" "{764BD07F41A15150}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_GL.et" "{9DE22FB5586591CC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Rifleman.et" "{03A6062FDF62A7F9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Sniper.et"
+  }
+  m_bDeleteWhenEmpty 0
+ }
+ Zone_CDF4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6212E0CBCC8FB73E}" {
+   }
+  }
+  coords 2364.608 259.314 10083.897
+  angleY 165.932
+  m_aUnitPrefabSlots {
+   "{8F08E6D89975ABF9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_PL.et" "{03A6062FDF62A7F9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Sniper.et"
+  }
+  m_bDeleteWhenEmpty 0
+ }
+ Zone_CDF5 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6212E0CBCC8FB73E}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 2014.866 228.656 9780.274
+  angleY -91.254
+  m_aUnitPrefabSlots {
+   "{0E6B86DD8C059B77}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SL_LF.et" "{03A6062FDF62A7F8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SR.et" "{7B9EAE5EB616387A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AR.et" "{764BD07F41A15150}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_GL.et" "{9DE22FB5586591CC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Rifleman.et" "{03A6062FDF62A7F9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Sniper.et" "{930302D9F14EEFC0}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Crew.et" "{930302D9F14EEFC0}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Crew.et"
+  }
+  m_bDeleteWhenEmpty 0
+  m_sCustomNameSet "БТР"
+ }
+ Zone_CDF6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6212E0CBCC8FB73E}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 2033.512 228.563 9817.878
+  angleY -91.254
+  m_aUnitPrefabSlots {
+   "{0E6B86DD8C059B77}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_SL_LF.et" "{7C646869CFA3B721}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_RTO.et" "{29897044D8592C99}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_TL.et" "{764BD07F41A15150}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_GL.et" "{9DE22FB5586591CC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Rifleman.et" "{29897044D8592C99}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_TL.et" "{7B9EAE5EB616387A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AR.et" "{9DE22FB5586591CC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Rifleman.et"
+  }
+  m_bDeleteWhenEmpty 0
+  m_sCustomNameSet "Хаммер с M2"
+ }
+}

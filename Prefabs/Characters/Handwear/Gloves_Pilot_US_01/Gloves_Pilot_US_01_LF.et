@@ -1,0 +1,36 @@
+GameEntity : "{D19C474FA0F42CC3}Prefabs/Characters/Handwear/Gloves_Pilot_US_01/Gloves_Pilot_US_01_base.et" {
+ ID "5DF2774398EBD275"
+ components {
+  MeshObject "{5DF2774268A6E46B}" {
+   Materials {
+    MaterialAssignClass "{6212E0D29B6B65D6}" {
+     SourceMaterial "Pilot_Gloves"
+     AssignedMaterial "{32CED35E12A84865}Assets/Characters/Handwear/Gloves_Pilot_US_01/Data/Gloves_Pilot_US_01_LF.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DF2774268A6E4AA}" {
+   WornMaterialsOverride {
+    "{32CED35E12A84865}Assets/Characters/Handwear/Gloves_Pilot_US_01/Data/Gloves_Pilot_US_01_LF.emat"
+   }
+   ItemMaterialsOverride {
+    "{32CED35E12A84865}Assets/Characters/Handwear/Gloves_Pilot_US_01/Data/Gloves_Pilot_US_01_LF.emat"
+   }
+   DeflatedModel "{F9B84BBBBF4F6DAC}Assets/Characters/Handwear/Gloves_Pilot_US_01/Gloves_Pilot_US_01_Deflated.xob"
+   AreaTypeWhenModelChange {
+    LoadoutJacketArea "{6212E0D2A6AE11F1}" {
+    }
+   }
+  }
+  ActionsManagerComponent "{5DF2774268A6E5EF}" {
+   ActionContexts {
+    UserActionContext "{5DF2774268A6E542}" {
+     Position PointInfo "{5DF2774268A6E541}" {
+      Offset 0 0.0297 0.0429
+     }
+    }
+   }
+  }
+ }
+ coords 113.813 1 120.809
+}
