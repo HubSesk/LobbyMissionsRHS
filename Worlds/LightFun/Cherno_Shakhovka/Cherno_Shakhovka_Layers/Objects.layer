@@ -1,7 +1,167 @@
+$grp GenericEntity : "{01E0B52B5BA2EF72}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_USSR_04.et" {
+ {
+  coords 9570.354 209.389 6553.777
+  angleX 4.542
+  angleY -91.641
+  angleZ 2.547
+ }
+ {
+  coords 9572.313 209.574 6549.332
+  angleX 12.091
+  angleY -171.984
+  angleZ -3.609
+ }
+ {
+  coords 9653.727 207.357 6593.726
+  angleY -30.365
+ }
+ {
+  coords 9668.258 208.499 6581.457
+  angleY 48.188
+ }
+ {
+  coords 9653.012 208.702 6574.015
+  angleY -158.272
+ }
+ {
+  coords 9655.726 208.353 6578.681
+  angleY -173.968
+ }
+ {
+  coords 9631.036 207.544 6585.873
+  angleY 167.912
+ }
+ {
+  coords 9595.813 202.24 6611.323
+ }
+ {
+  coords 9680.231 209.067 6559.665
+  angleY 29.713
+ }
+ {
+  coords 9692.586 209.435 6543.2
+  angleY -52.935
+ }
+ {
+  coords 9688.318 209.502 6542.542
+  angleY 35.583
+ }
+ {
+  coords 9686.997 209.323 6546.777
+  angleY 117.568
+ }
+}
+$grp GenericEntity : "{3CD490132ECE6645}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_USSR_03.et" {
+ {
+  coords 9580.048 209.539 6547.715
+  angleX 7.881
+  angleY -119.97
+  angleZ 11.684
+ }
+ {
+  coords 9644.384 208.157 6587.52
+ }
+ {
+  coords 9628.057 207.788 6575.776
+  angleY -34.71
+ }
+ {
+  coords 9588.021 201.978 6628.731
+ }
+ {
+  coords 9605.495 202.692 6619.745
+  angleY 133.58
+ }
+ {
+  coords 9593.591 202.134 6617.788
+  angleY 52.089
+ }
+ {
+  coords 9635.008 211.638 6524.784
+  angleY -178.146
+ }
+ {
+  coords 9639.768 210.471 6538.068
+  angleX 0.963
+  angleY -76.679
+  angleZ 7.543
+ }
+ {
+  coords 9635.411 210.275 6541.478
+  angleX 3.963
+  angleY 144.562
+  angleZ -8.241
+ }
+}
+$grp StaticModelEntity : "{605A7848CB4D361A}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Bunker_Camouflaged_USSR_01.et" {
+ {
+  coords 9561.24 209.657 6567.408
+  angleY -99.822
+ }
+ {
+  coords 9647.946 208.155 6590.828
+  angleY -33.868
+ }
+ {
+  coords 9598.228 202.329 6628.838
+ }
+ {
+  coords 9603.896 202.43 6623.844
+  angleY 77.443
+ }
+ {
+  coords 9686.411 208.983 6565.622
+  angleY 92.551
+ }
+}
 GenericEntity : "{61980E6F3CA71107}Prefabs/Items/Cats/Dingus.et" {
  coords 9685.158 200.074 6762.761
  angleY 84.573
 }
+StaticModelEntity : "{9A6B7E1F874E5C0F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Bunker_Cluttered_USSR_01.et" {
+ coords 9627.726 207.51 6582.612
+ angleY -106.679
+}
+$grp GenericEntity : "{B51CE80A9EEF7E00}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_USSR_01.et" {
+ {
+  coords 9655.813 207.418 6593.032
+  angleY 120.066
+ }
+ {
+  coords 9636.341 208.23 6576.766
+  angleY 160.504
+ }
+ {
+  coords 9682.088 208.915 6567.688
+  angleY 23.834
+ }
+ {
+  coords 9690.334 209.139 6553.096
+  angleY 28.742
+ }
+ {
+  coords 9661.887 209.814 6540.064
+  angleY -75.855
+ }
+ {
+  coords 9644.798 208.521 6554.323
+  angleY -170.55
+ }
+ {
+  coords 9645.889 208.44 6559.633
+  angleY 92.589
+ }
+}
+$grp StaticModelEntity : "{E34FFA7EC13C10DA}Prefabs/Structures/Military/Camps/TentUSSR_01/TentUSSR_01_foundation.et" {
+ {
+  coords 9660.84 209.359 6557.265
+  angleY -84.337
+ }
+ {
+  coords 9629.333 209.919 6550.221
+  angleY 110.674
+ }
+}
 GenericEntity : "{EA3695BD1C032FE2}PrefabsEditable/Auto/Structures/Military/Flags/FlagPole_02_V1_ChDKZ_Editable.et" {
- coords 9583.95 219.592 6553.51
+ coords 9660.382 217.307 6575.169
 }
