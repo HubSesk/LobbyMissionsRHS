@@ -8,16 +8,58 @@ $grp GenericEntity : "{15BEDC6B899035DB}Prefabs/Yarmarka/YarmarkaBox.et" {
   angleY -176.99
  }
 }
-Vehicle M1025_armed_M2HB2 : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
- components {
-  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
-   "faction affiliation" "RHS_US_USMC"
+$grp Vehicle : "{23FB589C8BF6EC6E}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_USAF.et" {
+ M998_covered1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6214DCFBDE716C56}" {
+      SlotTemplate InventoryStorageSlot "{6214DCFB18105557}" {
+       Prefab "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6214DCFBDA7364C5}" {
+      SlotTemplate InventoryStorageSlot "{6214DCFB18105557}" {
+       Prefab "{9749CCE07F466A68}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M995.et"
+      }
+      NumSlots 10
+     }
+    }
+   }
   }
+  coords 4958.389 28.256 11928.715
+  angleY -180
+  angleZ 0.895
  }
+ M998_covered2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6214DCFB15678D29}" {
+      SlotTemplate InventoryStorageSlot "{6214DCFB18105557}" {
+       Prefab "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{6214DCFBC5E1D7D2}" {
+      SlotTemplate InventoryStorageSlot "{6214DCFB18105557}" {
+       Prefab "{9749CCE07F466A68}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M995.et"
+      }
+      NumSlots 10
+     }
+    }
+   }
+  }
+  coords 5828.351 4.562 9778.591
+  angleY -90
+ }
+}
+Vehicle M1025_armed_M2HB2 : "{3277F8B1FA06A2BC}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et" {
  coords 4958.843 28.281 11940.906
  angleY -176.099
 }
-SCR_AIGroup : "{58022D923E268D86}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_SentryTeam.et" {
+SCR_AIGroup : "{58022D923E268D86}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_SentryTeam.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Line"
@@ -32,84 +74,15 @@ SCR_AIGroup : "{58022D923E268D86}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_USAF_US
  }
  m_bSnapToTerrain 0
 }
-$grp Vehicle : "{B55C6990A6A9411B}Prefabs/Vehicles/Wheeled/M998/M998_covered.et" {
- M998_covered1 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
-    MultiSlots {
-     MultiSlotConfiguration "{6134F040655D1356}" {
-      SlotTemplate InventoryStorageSlot UGLammo {
-       Prefab "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{6134F040412C8A8B}" {
-      SlotTemplate InventoryStorageSlot UGLammo {
-       Prefab "{AE484B2A9DBDF18E}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M995.et"
-      }
-      NumSlots 6
-     }
-    }
-   }
-   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
-    "faction affiliation" "RHS_US_USMC"
-   }
-  }
-  coords 4958.389 28.256 11928.715
-  angleY -180
-  angleZ 0.895
- }
- M998_covered2 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
-    MultiSlots {
-     MultiSlotConfiguration "{6134F045469024D7}" {
-      SlotTemplate InventoryStorageSlot Magazine {
-       Prefab "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
-      }
-      NumSlots 20
-     }
-     MultiSlotConfiguration "{6134F045C1F3B35F}" {
-      SlotTemplate InventoryStorageSlot Magazine {
-       Prefab "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{6134F045A2EBB5F1}" {
-      SlotTemplate InventoryStorageSlot Magazine {
-       Prefab "{C8A367A860815D46}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_EPM_SP_T_30rnd_M995.et"
-      }
-      NumSlots 5
-     }
-    }
-   }
-   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
-    "faction affiliation" "RHS_US_USMC"
-   }
-  }
-  coords 5828.351 4.562 9778.591
-  angleY -90
- }
-}
-$grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
+$grp Vehicle : "{B8C827A45C1347A4}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF_D.et" {
  M1025_armed_M2HB_MERDC1 {
-  components {
-   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
-    "faction affiliation" "RHS_US_USMC"
-   }
-  }
-  coords 4944.003 28.248 11927.86
+  coords 4944.003 28.248 11927.859
   angleX -0.895
   angleY 178.064
   angleZ 0.03
  }
  M1025_armed_M2HB_MERDC2 {
-  components {
-   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
-    "faction affiliation" "RHS_US_USMC"
-   }
-  }
-  coords 4943.774 28.356 11938.612
+  coords 4943.774 28.356 11938.611
   angleX -0.925
   angleY 178.064
   angleZ -0.864
@@ -140,7 +113,7 @@ Vehicle M923A1_transport1 : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M
  coords 5852.947 4.562 9793.263
  angleY -101.279
 }
-$grp SCR_AIGroup : "{F831DFB4A9B46152}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_RifleSquad.et" {
+$grp SCR_AIGroup : "{F831DFB4A9B46152}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_RifleSquad.et" {
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
