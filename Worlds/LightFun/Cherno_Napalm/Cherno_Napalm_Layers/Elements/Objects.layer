@@ -4,11 +4,11 @@ $grp GenericEntity : "{0B0C600941B2A6A8}Prefabs/Props/Military/Sandbags/Sandbag_
   angleY -9.114
  }
  {
-  coords 2419.434 266.21 10137.522
+  coords 2419.434 266.276 10137.521
   angleY -38.149
  }
  {
-  coords 2370.354 265.766 10177.753
+  coords 2370.354 265.752 10177.753
   angleY -79.174
  }
  {
@@ -16,11 +16,11 @@ $grp GenericEntity : "{0B0C600941B2A6A8}Prefabs/Props/Military/Sandbags/Sandbag_
   angleY -119.996
  }
  {
-  coords 2335.574 263.117 10148.454
+  coords 2335.574 263.298 10148.454
   angleY -166.833
  }
  {
-  coords 2328.057 256.598 10064.874
+  coords 2328.057 256.74 10064.874
   angleY 60.357
  }
  {
@@ -32,15 +32,15 @@ $grp GenericEntity : "{0B0C600941B2A6A8}Prefabs/Props/Military/Sandbags/Sandbag_
   angleY 163.619
  }
  {
-  coords 2313.289 256.817 10085.715
+  coords 2313.289 256.978 10085.715
   angleY -121.189
  }
  {
-  coords 2427.458 264.952 10075.467
+  coords 2427.458 265.065 10075.467
   angleY -29.206
  }
  {
-  coords 2433.111 265.709 10063.117
+  coords 2433.111 265.781 10063.116
   angleY 6.522
  }
  {
@@ -48,7 +48,7 @@ $grp GenericEntity : "{0B0C600941B2A6A8}Prefabs/Props/Military/Sandbags/Sandbag_
   angleY 55.208
  }
  {
-  coords 2411.582 263.731 10050.671
+  coords 2411.582 263.804 10050.671
   angleY 103.862
  }
  {
@@ -380,63 +380,9 @@ $grp GenericEntity : "{37D9E315CA4CEFE2}Prefabs/Structures/Military/Flags/FlagPo
   coords 2017.979 235.893 9836.802
  }
 }
-$grp Turret : "{3EA26CFD7A202636}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV_SPP.et" {
- {
-  coords 2426.166 267.367 10125.819
-  angleY 76.089
- }
- {
-  coords 2419.152 267.404 10137.434
-  angleY 47.054
- }
- {
-  coords 2370.201 266.96 10177.497
-  angleY 6.029
- }
- {
-  coords 2349.078 265.787 10169.126
-  angleY -34.793
- }
- {
-  coords 2335.822 264.311 10148.291
-  angleY -81.629
- }
- {
-  coords 2328.009 257.792 10065.163
-  angleY 145.56
- }
- {
-  coords 2315.75 256.679 10063.706
-  angleY -157.837
- }
- {
-  coords 2308.041 256.561 10072.049
-  angleY -111.177
- }
- {
-  coords 2313.345 258.011 10085.425
-  angleY -35.986
- }
- {
-  coords 2427.165 266.146 10075.421
-  angleY 55.998
- }
- {
-  coords 2432.847 266.903 10063.252
-  angleY 91.725
- }
- {
-  coords 2425.057 266.509 10052.089
-  angleY 140.411
- }
- {
-  coords 2411.747 264.925 10050.919
-  angleY -170.935
- }
- {
-  coords 2402.475 263.491 10061.804
-  angleY -115.434
- }
+Turret : "{3EA26CFD7A202636}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV_SPP.et" {
+ coords 2402.475 263.491 10061.804
+ angleY -115.434
 }
 SCR_DestructibleBuildingEntity : "{4BE4C27399CF3B00}Prefabs/Structures/Military/Bunkers/ShelterMilitary_E_01/ShelterMilitary_E_01.et" {
  coords 2383.647 0.313 10104.834

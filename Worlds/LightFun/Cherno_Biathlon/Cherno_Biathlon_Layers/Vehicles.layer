@@ -18,85 +18,50 @@ $grp Vehicle : "{2CCD539A7AB35B2F}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   angleZ -1.79
  }
 }
+Vehicle BTR70_AFRF1 : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+ coords 1134.124 379.15 12298.287
+ angleY -119.43
+}
 Vehicle Ural4320_repair_camo1 : "{BED355ED51A1E859}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair_camo1.et" {
  coords 1178.179 379.044 12316.862
  angleX -0.782
  angleY -150.875
  angleZ -0.436
 }
-$grp Vehicle : "{DD0CB0331A3D8CA7}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok_camo1.et" {
- APC_K17_Berezok_camo1 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5CE26149257047CD}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5CE261495B1779F4}" {
-      NumSlots 4
+Vehicle APC_K17_Berezok_camo1 : "{DD0CB0331A3D8CA7}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok_camo1.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5CE26149257047CD}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5CE261495B1779F4}" {
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{5DE729984447E1C3}" {
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{5D557449EB938170}" {
+     NumSlots 12
+    }
+    MultiSlotConfiguration "{5D557449DBF8D3B0}" {
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{5D557449317CA1EC}" {
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{5D5574490FC7E93E}" {
+     SlotTemplate InventoryStorageSlot Bag {
+      Enabled 0
      }
-     MultiSlotConfiguration "{5DE729984447E1C3}" {
-      NumSlots 2
-     }
-     MultiSlotConfiguration "{5D557449EB938170}" {
-      NumSlots 12
-     }
-     MultiSlotConfiguration "{5D557449DBF8D3B0}" {
-      NumSlots 4
-     }
-     MultiSlotConfiguration "{5D557449317CA1EC}" {
-      NumSlots 2
-     }
-     MultiSlotConfiguration "{5D5574490FC7E93E}" {
-      SlotTemplate InventoryStorageSlot Bag {
-       Enabled 0
-      }
-     }
-     MultiSlotConfiguration "{5DE7299E8FA5ED73}" {
-      SlotTemplate InventoryStorageSlot nvg {
-       Enabled 0
-      }
+    }
+    MultiSlotConfiguration "{5DE7299E8FA5ED73}" {
+     SlotTemplate InventoryStorageSlot nvg {
+      Enabled 0
      }
     }
    }
   }
-  coords 302.954 295.062 9371.501
-  angleY 120.549
  }
- APC_K17_Berezok_camo2 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5CE26149257047CD}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5CE261495B1779F4}" {
-      NumSlots 4
-     }
-     MultiSlotConfiguration "{5DE729984447E1C3}" {
-      NumSlots 2
-     }
-     MultiSlotConfiguration "{5D557449EB938170}" {
-      NumSlots 12
-     }
-     MultiSlotConfiguration "{5D557449DBF8D3B0}" {
-      NumSlots 4
-     }
-     MultiSlotConfiguration "{5D557449317CA1EC}" {
-      NumSlots 2
-     }
-     MultiSlotConfiguration "{5D5574490FC7E93E}" {
-      SlotTemplate InventoryStorageSlot Bag {
-       Enabled 0
-      }
-     }
-     MultiSlotConfiguration "{5DE7299E8FA5ED73}" {
-      SlotTemplate InventoryStorageSlot nvg {
-       Enabled 0
-      }
-     }
-    }
-   }
-  }
-  coords 1134.124 379.157 12298.287
-  angleX 1.119
-  angleY -119.43
-  angleZ -1.659
- }
+ coords 302.954 295.062 9371.501
+ angleY 120.549
 }
 Vehicle UAZ469_Camo1 : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
  coords 1168.362 379.191 12322.251

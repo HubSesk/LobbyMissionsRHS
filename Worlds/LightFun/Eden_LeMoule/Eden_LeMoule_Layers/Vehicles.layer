@@ -1,0 +1,72 @@
+$grp Vehicle : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_camo1.et" {
+ Ural4320_transport_covered_camo3 {
+  coords 4877.684 52.531 5658.77
+  angleY 170.859
+ }
+ Ural4320_transport_covered_camo4 {
+  coords 4866.668 52.584 5694.902
+  angleX -0.176
+  angleY 168.663
+  angleZ -0.878
+ }
+ Ural4320_transport_covered_camo1 {
+  coords 4908.875 52.777 5656.327
+  angleX -1.199
+  angleY -137.958
+  angleZ 1.329
+ }
+ Ural4320_transport_covered_camo2 {
+  coords 4897.051 52.73 5711.658
+  angleX -0.561
+  angleY 161.313
+  angleZ 1.135
+ }
+}
+Vehicle M923A1_transport_MERDC1 : "{3F2AA823B6C65E1E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_MERDC.et" {
+ coords 1052.345 2.813 6188.962
+ angleY 118.881
+}
+Vehicle BTR70_AFRF1 : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+ coords 4876.229 52.805 5623.967
+ angleX 0.699
+ angleY -132.987
+ angleZ -1.875
+}
+Vehicle M998_covered_long_MERDC1 : "{751AFEEA19DDFB04}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_MERDC.et" {
+ coords 2659.887 92.372 5358.215
+ angleX 0.425
+ angleY 118.362
+ angleZ -0.788
+}
+Vehicle Mi8MT_armed1 : "{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5E1E99434B3A7648}" {
+   MultiSlots {
+    MultiSlotConfiguration "{60F2E4A493022BE8}" {
+     NumSlots 6
+    }
+   }
+  }
+ }
+ coords 7537.535 2.284 6683.813
+ angleX 4.574
+ angleY -132.706
+}
+$grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
+ M1025_armed_M2HB_MERDC1 {
+  coords 1079.57 2.788 6185.192
+  angleX -0.573
+  angleY 140.162
+  angleZ -0.687
+ }
+ M1025_armed_M2HB_MERDC2 {
+  coords 1086.06 2.75 6175.516
+  angleY 149.507
+ }
+}
+Vehicle UAZ469_Camo1 : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
+ coords 4844.603 53.34 5712.502
+ angleX 2.802
+ angleY -100.499
+ angleZ 0.39
+}

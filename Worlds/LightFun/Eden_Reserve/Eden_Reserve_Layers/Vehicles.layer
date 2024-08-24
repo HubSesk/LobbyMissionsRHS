@@ -10,12 +10,6 @@ Vehicle M923A1_command_MERDC1 : "{38186F12F27A61C6}Prefabs/Vehicles/Wheeled/M923
  angleY -131.013
  angleZ -0.499
 }
-Vehicle M997_maxi_ambulance_MERDC1 : "{3B1EB924602C7A07}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_MERDC.et" {
- coords 7558.85 82.558 5537.955
- angleX 1.675
- angleY -129.302
- angleZ -0.063
-}
 $grp Vehicle : "{3F2AA823B6C65E1E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_MERDC.et" {
  M923A1_transport_MERDC1 {
   coords 7576.691 82.532 5493.494
@@ -28,14 +22,14 @@ $grp Vehicle : "{3F2AA823B6C65E1E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transpo
   angleY 65.353
  }
 }
-Vehicle UH1H1 : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
- coords 3923.341 15.313 8445.219
-}
 Vehicle Ural4320_camo1 : "{76C687EA8C6E953F}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_camo1.et" {
  coords 8773.895 197.114 3916.706
  angleX 0.831
  angleY 92.026
  angleZ 1.82
+}
+Vehicle UH1H_USMC1 : "{7AA5524B17A6D7F4}Prefabs/Vehicles/Helicopters/UH1H/UH1H_USMC.et" {
+ coords 3923.341 15.313 8445.219
 }
 $grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
  M1025_armed_M2HB_MERDC1 {
