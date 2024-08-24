@@ -1,3 +1,9 @@
+Vehicle M1025_Ses_CDF2 : "{0D07BF4156645F90}Prefabs/Vehicles/Wheeled/M998/M1025_Ses_CDF.et" {
+ coords 2042.792 228.335 9788.104
+ angleX 0.815
+ angleY -92.53
+ angleZ -1.827
+}
 $grp PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
  {
   components {
@@ -37,10 +43,10 @@ $grp PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.e
    PS_PolyZoneTrigger {
     ID "60FD050E1E83544C"
     m_polyZoneEffect PS_PolyZoneEffectRestricted "{60FD050E0DC2A2AB}" {
-     m_fKillTime 35
+     m_fKillTime 50
     }
     m_bReversed 0
-    m_sGroupKey "Zone"
+    m_sFactionKey "Ses_CDF"
    }
   }
  }
@@ -79,6 +85,50 @@ $grp PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.e
    }
   }
  }
+ {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+    m_cPolygonColor 0 0 0 0
+    m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+    m_cPolygonBorderColor 0 0 0 0
+    m_bReversed 0
+    m_aVisibleForFactions {
+    }
+   }
+  }
+  coords 2540.208 275.004 10210.825
+  Points {
+   ShapePoint "{60E90266E922A02A}" {
+    Position -2537.158 124.739 147.121
+   }
+   ShapePoint "{6212E0EA13303DB4}" {
+    Position 2337.514 63.573 147.722
+   }
+   ShapePoint "{6212E0E888980405}" {
+    Position 2337.46 -404.504 -10175.395
+   }
+   ShapePoint "{6212E0E8FE5FD30F}" {
+    Position 12766.229 -428.617 -10204.551
+   }
+   ShapePoint "{6212E0E8E4B03023}" {
+    Position 12818.539 -64.047 5148.205
+   }
+   ShapePoint "{6212E0E8387B0EDC}" {
+    Position -2538.129 170.179 5147.094
+   }
+  }
+  {
+   PS_PolyZoneTrigger {
+    ID "60FD050E1E83544C"
+    m_polyZoneEffect PS_PolyZoneEffectRestricted "{60FD050E0DC2A2AB}" {
+     m_fKillTime 50
+    }
+    m_bReversed 0
+    m_sFactionKey "RHS_RF_MSV"
+   }
+  }
+ }
 }
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  {
@@ -101,30 +151,5 @@ $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/Restri
  }
  {
   coords 12399.826 140.061 12387.782
- }
-}
-PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
- components {
-  PS_PolyZone "{60E90266F25533F6}" {
-   m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
-   m_cPolygonColor 0.016 0.553 0.906 0.471
-   m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
-   m_cPolygonBorderColor 0.016 0.552 0.905 1
-   m_aVisibleForFactions {
-    "RHS_RF_MSV" "RHS_US_USMC" "Ses_CDF" ""
-   }
-  }
- }
- coords 1843.479 238.609 10545.686
- Points {
-  ShapePoint "{62133CC1D2276D90}" {
-   Position -1098.06 144.782 0.209
-  }
-  ShapePoint "{62133CC1DEBFA967}" {
-   Position -1098.364 169.318 678.095
-  }
-  ShapePoint "{62133CC1C6277492}" {
-   Position -36.399 26.779 678.042
-  }
  }
 }

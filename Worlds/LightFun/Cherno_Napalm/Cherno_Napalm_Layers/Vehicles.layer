@@ -27,12 +27,6 @@ $grp Vehicle : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   angleZ 0.685
  }
 }
-Vehicle M1025_armed_M2HB_Ses_CDF2 : "{35D71FBBC41EF23B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_Ses_CDF.et" {
- coords 2042.792 228.335 9788.105
- angleX 0.815
- angleY -92.53
- angleZ -1.827
-}
 Vehicle UH1H_armedUSMC1 : "{38C8F7030A1740B9}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armedUSMC.et" {
  components {
   SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
@@ -85,6 +79,26 @@ Vehicle Mi8MT_armed_black1 : "{80C975F8482DEE97}Prefabs/Vehicles/Helicopters/Mi8
  angleX 3.552
  angleY -0.139
  angleZ -4.474
+}
+$grp GenericEntity : "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et" {
+ {
+  coords 2366.698 262.007 10108.198
+ }
+ {
+  coords 2366.228 261.966 10107.929
+ }
+ {
+  coords 2367.004 261.957 10108.104
+ }
+ {
+  coords 2366.437 261.999 10108.086
+ }
+ {
+  coords 2366.042 261.917 10107.565
+ }
+ {
+  coords 2366.29 261.966 10107.286
+ }
 }
 $grp Vehicle : "{BED355ED51A1E859}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair_camo1.et" {
  Ural4320_repair_camo1 {
