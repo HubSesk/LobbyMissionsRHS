@@ -2,6 +2,16 @@ Vehicle M997_maxi_ambulance1 : "{00C9BBE426F7D459}Prefabs/Vehicles/Wheeled/M998/
  coords 1647.607 451.906 14244.204
  angleY 30.624
 }
+$grp GenericEntity : "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" {
+ {
+  coords 4599.812 339.687 10441.647
+  angleY 79.057
+ }
+ {
+  coords 4599.722 339.687 10441.513
+  angleY 105.437
+ }
+}
 $grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
  M1025_armed_M2HB3 {
   coords 1653.125 451.906 14254.459
@@ -16,6 +26,10 @@ Vehicle M1 : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
  coords 1624.441 451.906 14202.208
  angleY 26.017
 }
+GenericEntity : "{61980E6F3CA71107}Prefabs/Items/Cats/Dingus.et" {
+ coords 4599.93 339.683 10441.688
+ angleY 87.501
+}
 $grp Vehicle : "{751AFEEA19DDFB04}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_MERDC.et" {
  M998_covered_long_MERDC2 {
   coords 1614.603 451.906 14182.236
@@ -29,6 +43,12 @@ $grp Vehicle : "{751AFEEA19DDFB04}Prefabs/Vehicles/Wheeled/M998/M998_covered_lon
 Vehicle M998_covered1 : "{B55C6990A6A9411B}Prefabs/Vehicles/Wheeled/M998/M998_covered.et" {
  coords 1659.465 451.906 14264.9
  angleY 30.445
+}
+GenericEntity : "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et" {
+ coords 4599.721 339.716 10441.516
+ angleX -90
+ angleY -180
+ angleZ -180
 }
 $grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
  M1025_armed_M2HB_MERDC1 {
@@ -47,4 +67,11 @@ $grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   coords 1637.385 451.906 14224.356
   angleY 27.771
  }
+}
+GenericEntity : "{EA69842DEA2391A6}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II_SU230.et" {
+ coords 4599.683 339.913 10441.867
+ angleX 45.347
+}
+GenericEntity : "{EEC781AC391B7400}Prefabs/Props/Commercial/ShoppingCart_01.et" {
+ coords 4599.858 339.125 10441.772
 }

@@ -1,36 +1,4 @@
-$grp SCR_AIGroup : "{4E66C5FE1796D009}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/SPECOPS.et" {
- RHS_RF_MSV_G_001_2 {
-  components {
-   PS_GroupCallsignAssigner "{60AD3B2107FB3E12}" {
-    m_iCompanyCallsign 0
-    m_iPlatoonCallsign 0
-    m_iSquadCallsign 1
-   }
-  }
-  coords 6515.486 8.488 2443.565
-  angleY -26.928
-  m_aUnitPrefabSlots {
-   "{9F1A54596CE4BB81}Prefabs/Characters/Factions/OPFOR/RF/HeliPilot.et" "{9F1A54596CE4BB81}Prefabs/Characters/Factions/OPFOR/RF/HeliPilot.et"
-  }
-  m_sCustomNameSet "Пилоты \"Ведов\""
- }
- RHS_RF_MSV_G_002_6 {
-  components {
-   PS_GroupCallsignAssigner "{60AD3B2106DE5D52}" {
-    m_iCompanyCallsign 0
-    m_iPlatoonCallsign 0
-    m_iSquadCallsign 2
-   }
-  }
-  coords 6513.18 6 2444.825
-  angleY 130.063
-  m_aUnitPrefabSlots {
-   "{BDF5A606600CE65E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/SOF/sof1.et" "{D1A192E6DCC86970}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/SOF/sof2.et" "{343DDE1FD02DFE1B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/SOF/sof3.et" "{0909FB27A541772C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/SOF/sof4.et" "{EC95B7DEA9A4E047}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/SOF/sof5.et" "{D1A192E6DCC86970}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/SOF/sof2.et"
-  }
-  m_sCustomNameSet "Веды"
- }
-}
-$grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad_p.et" {
+$grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad_P.et" {
  RHS_RF_MSV_G_010_8 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -46,7 +14,7 @@ $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad
   angleY 32.957
   m_faction "RHS_RF_MSV"
   m_aUnitPrefabSlots {
-   "{F139865249CE32FC}Prefabs/Characters/Factions/OPFOR/RF/SL_Summer.et" "{1819E03D11738ACF}Prefabs/Characters/Factions/OPFOR/RF/MG_Summer.et" "{D629B0BCF946A022}Prefabs/Characters/Factions/OPFOR/RF/MG_AS_Summer.et" "{1724F857F5600CFF}Prefabs/Characters/Factions/OPFOR/RF/AT_Summer.et" "{710D03B6DAC45009}Prefabs/Characters/Factions/OPFOR/RF/AT_AS_Summer.et" "{B9B17FE143FA1D0B}Prefabs/Characters/Factions/OPFOR/RF/GL_Summer.et" "{4BEBE539008FDED6}Prefabs/Characters/Factions/OPFOR/RF/RPK_Rifleman_Summer.et" "{B7DFC17CC83D6604}Prefabs/Characters/Factions/OPFOR/RF/Medic_Summer.et"
+   "{06127C628A0588EB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_SL_Random.et" "{EF321A0DD2B830D8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_MG_Random.et" "{97C8BFF5228739F7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_AMG_Random.et" "{21062E10C939E5E6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Medic_Random.et" "{47E5851C66B52637}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_SR_GL_Random.et" "{74907740653C5830}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Sharpshooter_Random.et" "{5C75226D45102461}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Rifleman_Random.et" "{B7DFC17CC83D6604}Prefabs/Characters/Factions/OPFOR/RF/Medic_Summer.et"
   }
  }
  RHS_RF_MSV_G_011_8 {
@@ -64,7 +32,7 @@ $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad
   angleY -148.35
   m_faction "RHS_RF_MSV"
   m_aUnitPrefabSlots {
-   "{F139865249CE32FC}Prefabs/Characters/Factions/OPFOR/RF/SL_Summer.et" "{1819E03D11738ACF}Prefabs/Characters/Factions/OPFOR/RF/MG_Summer.et" "{D629B0BCF946A022}Prefabs/Characters/Factions/OPFOR/RF/MG_AS_Summer.et" "{1724F857F5600CFF}Prefabs/Characters/Factions/OPFOR/RF/AT_Summer.et" "{710D03B6DAC45009}Prefabs/Characters/Factions/OPFOR/RF/AT_AS_Summer.et" "{B9B17FE143FA1D0B}Prefabs/Characters/Factions/OPFOR/RF/GL_Summer.et" "{4BEBE539008FDED6}Prefabs/Characters/Factions/OPFOR/RF/RPK_Rifleman_Summer.et" "{B7DFC17CC83D6604}Prefabs/Characters/Factions/OPFOR/RF/Medic_Summer.et"
+   "{06127C628A0588EB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_SL_Random.et" "{EF321A0DD2B830D8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_MG_Random.et" "{97C8BFF5228739F7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_AMG_Random.et" "{21062E10C939E5E6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Medic_Random.et" "{47E5851C66B52637}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_SR_GL_Random.et" "{74907740653C5830}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Sharpshooter_Random.et" "{5C75226D45102461}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Rifleman_Random.et" "{B7DFC17CC83D6604}Prefabs/Characters/Factions/OPFOR/RF/Medic_Summer.et"
   }
  }
  RHS_RF_MSV_G_012_8 {
@@ -82,7 +50,7 @@ $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad
   angleY -144.753
   m_faction "RHS_RF_MSV"
   m_aUnitPrefabSlots {
-   "{F139865249CE32FC}Prefabs/Characters/Factions/OPFOR/RF/SL_Summer.et" "{1819E03D11738ACF}Prefabs/Characters/Factions/OPFOR/RF/MG_Summer.et" "{D629B0BCF946A022}Prefabs/Characters/Factions/OPFOR/RF/MG_AS_Summer.et" "{1724F857F5600CFF}Prefabs/Characters/Factions/OPFOR/RF/AT_Summer.et" "{710D03B6DAC45009}Prefabs/Characters/Factions/OPFOR/RF/AT_AS_Summer.et" "{B9B17FE143FA1D0B}Prefabs/Characters/Factions/OPFOR/RF/GL_Summer.et" "{4BEBE539008FDED6}Prefabs/Characters/Factions/OPFOR/RF/RPK_Rifleman_Summer.et" "{B7DFC17CC83D6604}Prefabs/Characters/Factions/OPFOR/RF/Medic_Summer.et"
+   "{06127C628A0588EB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_SL_Random.et" "{EF321A0DD2B830D8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_MG_Random.et" "{97C8BFF5228739F7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_AMG_Random.et" "{21062E10C939E5E6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Medic_Random.et" "{47E5851C66B52637}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_SR_GL_Random.et" "{74907740653C5830}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Sharpshooter_Random.et" "{5C75226D45102461}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Rifleman_Random.et" "{B7DFC17CC83D6604}Prefabs/Characters/Factions/OPFOR/RF/Medic_Summer.et"
   }
  }
  RHS_RF_MSV_G_020_8 {
@@ -100,7 +68,7 @@ $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad
   angleY 35.572
   m_faction "RHS_RF_MSV"
   m_aUnitPrefabSlots {
-   "{F139865249CE32FC}Prefabs/Characters/Factions/OPFOR/RF/SL_Summer.et" "{1819E03D11738ACF}Prefabs/Characters/Factions/OPFOR/RF/MG_Summer.et" "{D629B0BCF946A022}Prefabs/Characters/Factions/OPFOR/RF/MG_AS_Summer.et" "{1724F857F5600CFF}Prefabs/Characters/Factions/OPFOR/RF/AT_Summer.et" "{710D03B6DAC45009}Prefabs/Characters/Factions/OPFOR/RF/AT_AS_Summer.et" "{B9B17FE143FA1D0B}Prefabs/Characters/Factions/OPFOR/RF/GL_Summer.et" "{4BEBE539008FDED6}Prefabs/Characters/Factions/OPFOR/RF/RPK_Rifleman_Summer.et" "{B7DFC17CC83D6604}Prefabs/Characters/Factions/OPFOR/RF/Medic_Summer.et"
+   "{06127C628A0588EB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_SL_Random.et" "{EF321A0DD2B830D8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_MG_Random.et" "{97C8BFF5228739F7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_AMG_Random.et" "{21062E10C939E5E6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Medic_Random.et" "{47E5851C66B52637}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_SR_GL_Random.et" "{74907740653C5830}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Sharpshooter_Random.et" "{5C75226D45102461}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Rifleman_Random.et" "{B7DFC17CC83D6604}Prefabs/Characters/Factions/OPFOR/RF/Medic_Summer.et"
   }
  }
  RHS_RF_MSV_G_021_3 {
@@ -118,7 +86,7 @@ $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad
   angleY 34.032
   m_faction "RHS_RF_MSV"
   m_aUnitPrefabSlots {
-   "{A856E30D26019802}Prefabs/Characters/Factions/OPFOR/RF/RF_CREW.et" "{A856E30D26019802}Prefabs/Characters/Factions/OPFOR/RF/RF_CREW.et" "{A856E30D26019802}Prefabs/Characters/Factions/OPFOR/RF/RF_CREW.et"
+   "{F1E1A7A59FE370C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Crew.et" "{F1E1A7A59FE370C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Crew.et"
   }
  }
  RHS_RF_MSV_G_022_3 {
@@ -136,7 +104,19 @@ $grp SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad
   angleY -144.913
   m_faction "RHS_RF_MSV"
   m_aUnitPrefabSlots {
-   "{A856E30D26019802}Prefabs/Characters/Factions/OPFOR/RF/RF_CREW.et" "{A856E30D26019802}Prefabs/Characters/Factions/OPFOR/RF/RF_CREW.et" "{A856E30D26019802}Prefabs/Characters/Factions/OPFOR/RF/RF_CREW.et"
+   "{F1E1A7A59FE370C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Crew.et" "{F1E1A7A59FE370C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Crew.et"
   }
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{62393D4C4CC066DF}" {
+   }
+  }
+  coords 6512.255 6 2446.035
+  m_faction "RHS_RF_MSV"
+  m_aUnitPrefabSlots {
+   "{578A9679C9CBA788}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_SL.et" "{135F5E0601BBC4EA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_Rifleman.et" "{49074A7C5718B0C3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_Rifleman2.et" "{EAF991929ECB2FC1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_Sniper.et" "{D205B74636ED8431}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_MG.et" "{A6C8A0545DBD8260}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_Medic.et" "{FFF764BBA021A8C0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_AAT.et" "{58BA009D212B8E8E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_AT.et" "{135F5E0601BBC4EA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_Rifleman.et" "{BBFE0BDC501C440F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_HeliPilot.et" "{BBFE0BDC501C440F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_HeliPilot.et"
+  }
+  m_sCustomNameSet "Веды"
  }
 }
