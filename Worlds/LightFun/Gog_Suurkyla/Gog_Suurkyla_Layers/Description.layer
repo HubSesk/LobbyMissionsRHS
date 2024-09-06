@@ -11,7 +11,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "5. Запрещено занятие ролей командиров отрядов/стороны до 18 лет."
   m_aVisibleForFactions {
-   "RHS_RF_MSV" "RHS_US_USMC"
+   "RHS_AFRF" "RHS_USAF"
   }
   m_bEmptyFactionVisibility 1
  }
@@ -19,7 +19,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Легенда"
   m_sTextData "USMC заняло поселение. Бойцам ВС РФ предстоит захватить два ключевых здания, чтобы взять под свой контроль территорию."
   m_aVisibleForFactions {
-   "RHS_RF_MSV" "RHS_US_USMC"
+   "RHS_AFRF" "RHS_USAF"
   }
   m_bEmptyFactionVisibility 1
  }
@@ -27,7 +27,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Задача USMC"
   m_sTextData "- Не дать противнику завладеть ключевыми зданиями за 35 минут"
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
  }
  {
@@ -36,14 +36,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "- У противника есть вертолёт"
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
  }
  {
   m_sTitle "Задача ВС РФ"
   m_sTextData "- Захватить два ключевых здания за 35 минут"
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
  {
@@ -52,7 +52,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "- У противника есть 3 M1025 с M2"
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
 }

@@ -4,7 +4,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Общая информация"
   m_sTextData "Рейд морской пехоты США на остров подконтрольный ВСРФ с целью уничтожения артилерии."
   m_aVisibleForFactions {
-   "RHS_RF_MSV" "RHS_US_USMC"
+   "RHS_AFRF" "RHS_USAF"
   }
   m_bEmptyFactionVisibility 1
  }
@@ -24,7 +24,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Точка эвакуации - Южная пристань!"
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
  }
  Rf {
@@ -37,7 +37,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "• Не дать противнику уничтожить артилерийские орудия."\
   "• Удержать штаб."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
 }

@@ -28,7 +28,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "ЧСО, воспринявшая передачу как нарушение условий договора и так и не получивший ответа на вчерашнюю ноту протеста, готовит ночную атаку на военную базу ВСРФ."\
   "Сможет ли гарнизон оказать сопротивление после вчерашнего?"
   m_aVisibleForFactions {
-   "Ses_CDF" "RHS_RF_MSV" "RHS_US_USMC"
+   "Ses_CDF" "RHS_AFRF" "RHS_USAF"
   }
   m_bEmptyFactionVisibility 1
  }
@@ -56,7 +56,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Надеюсь все помнят куда сложили свое снаряжение?"\
   ""
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
  CDFObjectivesCool {
@@ -90,7 +90,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Правда сегодня все не так прекрасно..."\
   "Какие психи решили напасть на нас после вчерашнего?"
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
  YASHERInfo {
@@ -104,7 +104,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Запись была удалена как не представляющая интереса, а все специалисты были перенаправлены в отдел фишинга."
   m_aVisibleForFactions {
-   "Ses_CDF" "RHS_RF_MSV" "RHS_US_USMC"
+   "Ses_CDF" "RHS_AFRF" "RHS_USAF"
   }
   m_bEmptyFactionVisibility 1
  }

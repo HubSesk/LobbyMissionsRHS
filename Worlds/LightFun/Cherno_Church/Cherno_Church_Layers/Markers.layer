@@ -109,7 +109,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "#AR-Vehicle_UH1H_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
   m_aHideOnGameModeStates {
    3 1
@@ -163,7 +163,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_fWorldSize 450
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
   m_aHideOnGameModeStates {
    3
@@ -210,7 +210,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_fWorldSize 65
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "RHS_US_USMC" "Ses_CDF"
+   "RHS_USAF" "Ses_CDF"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -228,7 +228,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_fWorldSize 65
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "RHS_US_USMC" "Ses_CDF"
+   "RHS_USAF" "Ses_CDF"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -397,7 +397,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_iZOrder 0
  }
- RHS_US_USMC_G_231_M {
+ RHS_USAF_G_231_M {
   coords 2023.821 228.447 9911.482
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
@@ -407,14 +407,14 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "(Экипаж) Хаос Грин 2"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
   m_aHideOnGameModeStates {
    3
   }
   m_iZOrder 0
  }
- RHS_US_USMC_G_230_M {
+ RHS_USAF_G_230_M {
   coords 2049.593 229.084 9893.018
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
@@ -424,7 +424,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "(Десант) Хаос Грин 1"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
   m_aHideOnGameModeStates {
    3

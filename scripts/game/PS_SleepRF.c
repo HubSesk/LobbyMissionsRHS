@@ -24,7 +24,7 @@ class PS_SleepRFComponent : ScriptComponent
 			return;
 		
 		Faction faction = factionAffiliationComponent.GetDefaultAffiliatedFaction();
-		if (faction.GetFactionKey() != "RHS_RF_MSV")
+		if (faction.GetFactionKey() != "RHS_AFRF")
 			return;
 		
 		PS_SleepResistComponent sleepResistComponent = PS_SleepResistComponent.Cast(character.FindComponent(PS_SleepResistComponent));

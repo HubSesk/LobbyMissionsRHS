@@ -11,7 +11,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "5. Запрещено занятие ролей командиров отрядов/стороны до 18 лет."
   m_aVisibleForFactions {
-   "RHS_RF_MSV" "RHS_US_USMC"
+   "RHS_AFRF" "RHS_USAF"
   }
   m_bEmptyFactionVisibility 1
  }
@@ -19,7 +19,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Легенда"
   m_sTextData "Американские командование расположило свои основные силы на небольшой военной базе с очень классным гаражом. ВС РФ узнали об этом и теперь им необходимо взять под свой контроль территорию базы, чтобы командиру роты было куда поставить свою ласточку. Но не всё так просто - на подногу обороняющимся бойцам США выслано подкрепление."
   m_aVisibleForFactions {
-   "RHS_RF_MSV" "RHS_US_USMC"
+   "RHS_AFRF" "RHS_USAF"
   }
   m_bEmptyFactionVisibility 1
  }
@@ -33,21 +33,21 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "- Основные силы противника находятся на военной базе"
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
  {
   m_sTitle "Задача ВС РФ"
   m_sTextData "- Захватить военную базу в течении 50 минут"
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
  {
   m_sTitle "Задача USMC"
   m_sTextData "- Не дать противнику завладеть военной базой в течении 50 минут"
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
  }
  {
@@ -56,7 +56,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "- Противник обладает техникой БМП К-17 \"Бумеранг\""
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
  }
 }

@@ -10,8 +10,8 @@ $grp GenericEntity : "{0FE25F81E87E8131}Prefabs/Props/Airport/RunwayLightPortabl
   coords 4884.761 28.594 11845.235
  }
 }
-$grp SCR_AIGroup : "{256AEA338E84EC28}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Group_RHS_RF_MSV_VKPO_S_RifleSquad.et" {
- RHS_RF_MSV_G_001_6 {
+$grp SCR_AIGroup : "{256AEA338E84EC28}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Group_RHS_AFRF_VKPO_S_RifleSquad.et" {
+ RHS_AFRF_G_001_6 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -25,7 +25,7 @@ $grp SCR_AIGroup : "{256AEA338E84EC28}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Sum
   coords 8792.22 195.872 3875.593
   angleY -14.139
  }
- RHS_RF_MSV_G_002_6 {
+ RHS_AFRF_G_002_6 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -39,7 +39,7 @@ $grp SCR_AIGroup : "{256AEA338E84EC28}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Sum
   coords 8813.449 195.952 3876.92
   angleY 2.295
  }
- RHS_RF_MSV_G_010_6 {
+ RHS_AFRF_G_010_6 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -53,7 +53,7 @@ $grp SCR_AIGroup : "{256AEA338E84EC28}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Sum
   coords 8773.117 195.969 3877.534
   angleY 25.616
  }
- RHS_RF_MSV_G_011_6 {
+ RHS_AFRF_G_011_6 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -67,7 +67,7 @@ $grp SCR_AIGroup : "{256AEA338E84EC28}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Sum
   coords 8792.158 198.258 3925.295
   angleY 143.291
  }
- RHS_RF_MSV_G_012_8 {
+ RHS_AFRF_G_012_8 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -81,10 +81,10 @@ $grp SCR_AIGroup : "{256AEA338E84EC28}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Sum
   coords 8780.447 197.24 3913.672
   angleY -86.146
   m_aUnitPrefabSlots + {
-   "{F1E1A7A59FE370C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Crew.et" "{F1E1A7A59FE370C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Crew.et"
+   "{F1E1A7A59FE370C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_AFRF_VKPO_S_Crew.et" "{F1E1A7A59FE370C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_AFRF_VKPO_S_Crew.et"
   }
  }
- RHS_RF_MSV_G_020_6 {
+ RHS_AFRF_G_020_6 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -98,7 +98,7 @@ $grp SCR_AIGroup : "{256AEA338E84EC28}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Sum
   coords 8780.574 198.488 3942.689
   angleY 93.251
  }
- RHS_RF_MSV_G_021_7 {
+ RHS_AFRF_G_021_7 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"

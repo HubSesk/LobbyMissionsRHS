@@ -21,7 +21,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "Помочь нашим союзникам ЧСО удержать аэропорт."\
   "В вертолетах закончилось топливо! Требуется их заправить перед тем как добраться до аэропорта."
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
  }
  {
@@ -30,7 +30,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "• Занять аэропорт."\
   "• Скоординировать союзников из местного ополчения ЧДКЗ."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
  {

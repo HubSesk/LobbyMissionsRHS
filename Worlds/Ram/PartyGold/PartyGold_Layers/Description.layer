@@ -20,7 +20,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Такого ужаса Гогланд еще не видел..."
   m_aVisibleForFactions {
-   "RHS_RF_MSV" "RHS_US_USMC"
+   "RHS_AFRF" "RHS_USAF"
   }
   m_bEmptyFactionVisibility 1
  }
@@ -33,7 +33,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "• Ликвидировать Генерала Шматько."\
   ""
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
  }
  RFObjectives {
@@ -46,7 +46,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Два отряда бойцов РФ были вызваны для исправления инцидента с баней бочкой <b>У них нет оружия</b>, надеюсь парни на вертушках захватят для них пару пушек."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
  RFObjectivesCool {
@@ -74,7 +74,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Сегодня мне хоть новых сроканов прислали, надеюсь эти не такие тупые как предыдущие, пусть теперь вытаскивают как хотят."\
   "Там правда что то про высадку американцев говорят, я с них ху***ю, какой только бред не придумают лишь бы не работать."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
  USObjectivesCool {
@@ -98,7 +98,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   ""
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
  }
  RFVediTactic {
@@ -121,7 +121,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "<color name='Red'>Слава <b>род</b>у и на<b>род</b>у нашему.</color>"
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
  Important {
@@ -133,7 +133,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Изначально большая часть русских не вооружена, только отряд \"Веды\" и личная охрана генерала имеет вооружение."\
   "Остальное предполагается доставлять с военной базы на вертолетах, не забудьте взять оружие для бойцов на генеральской даче."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
 }

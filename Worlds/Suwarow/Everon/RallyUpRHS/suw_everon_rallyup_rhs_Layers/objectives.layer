@@ -4,39 +4,39 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
   m_sTitle "Захватить Центавр"
   m_sTextData "Российские войска разбросаны около Центавра но мы не знаем где именно. Необходимо воспользоваться возможностью и захватить Центавр. По данным разведки противник обладает бронированной техникой."
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
   m_iScore 75
-  m_sFactionKey "RHS_US_USMC"
+  m_sFactionKey "RHS_USAF"
  }
  {
   coords 8150.152 0 7657.532
   m_sTitle "Сохранить более 50% от развернутых сил"
   m_sTextData "Для того, чтобы миссия считалась идеально выполненной сохраните более 50% от развернутых сил."
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
   m_iScore 25
-  m_sFactionKey "RHS_US_USMC"
+  m_sFactionKey "RHS_USAF"
  }
  {
   coords 8150.176 0 7663.033
   m_sTitle "Удержать Центавр"
   m_sTextData "Наши силы разбросаны около Центавра. Мы не были готовы к неожиданному появлению американских сил здесь. Теперь нам нужно собрать наши войска и отразить атаку. Сохраните Центавр за нами. Враг обладает техникой с пулеметами и вертолетами."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
   m_iScore 75
-  m_sFactionKey "RHS_RF_MSV"
+  m_sFactionKey "RHS_AFRF"
  }
  {
   coords 8149.628 0 7661.553
   m_sTitle "Сохранить более 50% от развернутых сил"
   m_sTextData "Для того, чтобы миссия считалась идеально выполненной сохраните более 50% от развернутых сил."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
   m_iScore 25
-  m_sFactionKey "RHS_RF_MSV"
+  m_sFactionKey "RHS_AFRF"
  }
 }

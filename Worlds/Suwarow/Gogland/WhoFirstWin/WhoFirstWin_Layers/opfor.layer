@@ -1,12 +1,12 @@
 SCR_AIGroup : "{126BE8C46FA39581}Prefabs/Groups/INDFOR/Group_FIA_FireTeam_P.et" {
  coords 7351.634 9.066 5316.702
- m_faction "RHS_RF_MSV"
+ m_faction "RHS_AFRF"
  m_aUnitPrefabSlots {
   "{D6D900561F38CBD3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AC_Civ_Unarmed.et"
  }
  m_sCustomNameSet "VIP"
 }
-$grp SCR_AIGroup : "{F6CEAA1D2B0A7ED0}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_RifleSquad.et" {
+$grp SCR_AIGroup : "{F6CEAA1D2B0A7ED0}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_AFRF_VKPO_DS_RifleSquad.et" {
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -88,7 +88,7 @@ $grp SCR_AIGroup : "{F6CEAA1D2B0A7ED0}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Dem
   coords 5546.785 123.375 6746.318
   angleY 26.416
   m_aUnitPrefabSlots {
-   "{AD141720D93328EC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Pilot_Temp.et" "{AD141720D93328EC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Pilot_Temp.et"
+   "{AD141720D93328EC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_AFRF_VKPO_S_Pilot_Temp.et" "{AD141720D93328EC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_AFRF_VKPO_S_Pilot_Temp.et"
   }
  }
 }

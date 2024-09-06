@@ -14,7 +14,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   ""
   m_aVisibleForFactions {
-   "RHS_RF_MSV" "FIA" "RHS_US_USMC"
+   "RHS_AFRF" "FIA" "RHS_USAF"
   }
   m_bEmptyFactionVisibility 1
  }
@@ -24,7 +24,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "Любой ценой не допустить уничтожение Арматы."\
   "Все виновные в произошедшем будут расстреляны позже."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
  RFAccidentResponce {
@@ -35,7 +35,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Вот она правда: Вы допустили потерю дорогостоющей техники. "\
   "Её стоимость будет вычтена из вашего жалованья, и вы будете служить, пока вам не исполнится пятьсот десять лет, потому что вам понадобится именно столько лет, чтобы оплатить Армату, которую вы потеряли!"
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
  USObjectives {
@@ -46,7 +46,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Задача уже считается выполненной, а все кто ее составлял награждены и повышены в звании."\
   "Надеюсь вы понимаете что это значит для нас."
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
  }
  USReconData {
@@ -56,7 +56,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "По одной винтовке систкмы Моссина на каждого третьего солдата, один бронеавтомобиль \"Руссо-Балт тип С\" и на этом все."\
   "Достаточно просто поорать в их сторону и они разбегутся как тараканы."
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
  }
  RFReconData {
@@ -66,7 +66,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "На стороне противника 10 танков M1 \"Abrams\", ЧВК \"Dingus\" и сейсмическая активность."\
   "У нас буквально нет шансов на победу, мы все умрем."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
 }

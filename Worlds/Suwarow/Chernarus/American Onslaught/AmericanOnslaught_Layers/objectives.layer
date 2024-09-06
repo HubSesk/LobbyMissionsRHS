@@ -4,39 +4,39 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
   m_sTitle "Удержать Выбор"
   m_sTextData "Используйте имеющиеся мины, укрепления и стационарный пулемет, чтобы удержать административное здание Выбора за ВС РФ. По данным разведки ВС США обладают неопределенным количеством обычных хаммеров и хаммеров с М2, а также грузовиков."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
   m_iScore 75
-  m_sFactionKey "RHS_RF_MSV"
+  m_sFactionKey "RHS_AFRF"
  }
  {
   coords 3084.302 303.852 7983.477
   m_sTitle "Сохраните более 50% от развернутых сил"
   m_sTextData "Не растрачивайте за зря имеющиеся ресурсы, если дело пойдет хорошо, то завтра мы пойдем в наступление."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
   m_iScore 25
-  m_sFactionKey "RHS_RF_MSV"
+  m_sFactionKey "RHS_AFRF"
  }
  {
   coords 3084.944 303.888 7981.133
   m_sTitle "Захватить и удержать  Выбор"
   m_sTextData "Они будут использовать мины, стационарный пулемет и укрепления, чтобы сдержать наш натиск, а на помощь им стремится подкрепление вместе с БТР. Захватите административное здание и удержите город за ВС США."
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
   m_iScore 75
-  m_sFactionKey "RHS_US_USMC"
+  m_sFactionKey "RHS_USAF"
  }
  {
   coords 3079.207 303.912 7984.399
   m_sTitle "Сохраните более 50% от развернутых сил"
   m_sTextData "Не растрачивайте за зря имеющиеся ресурсы, если дело пойдет хорошо, то мы разовьем наступление."
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
   m_iScore 25
-  m_sFactionKey "RHS_US_USMC"
+  m_sFactionKey "RHS_USAF"
  }
 }

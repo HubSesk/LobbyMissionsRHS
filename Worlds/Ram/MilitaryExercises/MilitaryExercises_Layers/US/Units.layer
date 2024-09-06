@@ -23,7 +23,7 @@ Vehicle Ural4320_transport5 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural43
  angleZ -0.273
 }
 $grp SCR_AIGroup : "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et" {
- RHS_US_USMC_G_010_9 {
+ RHS_USAF_G_010_9 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -35,12 +35,12 @@ $grp SCR_AIGroup : "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.
   }
   coords 1306.807 38.671 6018.108
   angleY -45.518
-  m_faction "RHS_US_USMC"
+  m_faction "RHS_USAF"
   m_aUnitPrefabSlots {
-   "{382AB962AD7C415A}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_SL_LA_P.et" "{47CABB6C34172998}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_TL_LA_P.et" "{1204639956CF4808}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_Marksman_LA_P.et" "{FB7A16E53FD401CB}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_GL_LA_P.et" "{0A6876EFBC557B95}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_AT_LA_P.et" "{47CABB6C34172998}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_TL_LA_P.et" "{1654FE7FC7BB6421}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_AR_LA_P.et" "{FB7A16E53FD401CB}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_GL_LA_P.et" "{0A6876EFBC557B95}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_AT_LA_P.et"
+   "{382AB962AD7C415A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_SL_LA_P.et" "{47CABB6C34172998}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_TL_LA_P.et" "{1204639956CF4808}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_Marksman_LA_P.et" "{FB7A16E53FD401CB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_GL_LA_P.et" "{0A6876EFBC557B95}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_AT_LA_P.et" "{47CABB6C34172998}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_TL_LA_P.et" "{1654FE7FC7BB6421}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_AR_LA_P.et" "{FB7A16E53FD401CB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_GL_LA_P.et" "{0A6876EFBC557B95}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_AT_LA_P.et"
   }
  }
- RHS_US_USMC_G_001_4 {
+ RHS_USAF_G_001_4 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -55,12 +55,12 @@ $grp SCR_AIGroup : "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.
   angleX -0.001
   angleY -30.518
   angleZ 0.001
-  m_faction "RHS_US_USMC"
+  m_faction "RHS_USAF"
   m_aUnitPrefabSlots {
-   "{47CABB6C34172998}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_TL_LA_P.et" "{1204639956CF4808}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_Marksman_LA_P.et" "{FB7A16E53FD401CB}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_GL_LA_P.et" "{0A6876EFBC557B95}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_AT_LA_P.et"
+   "{47CABB6C34172998}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_TL_LA_P.et" "{1204639956CF4808}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_Marksman_LA_P.et" "{FB7A16E53FD401CB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_GL_LA_P.et" "{0A6876EFBC557B95}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_AT_LA_P.et"
   }
  }
- RHS_US_USMC_G_011_9 {
+ RHS_USAF_G_011_9 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -73,12 +73,12 @@ $grp SCR_AIGroup : "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.
   }
   coords 1294.213 37.786 6031.298
   angleY 138.482
-  m_faction "RHS_US_USMC"
+  m_faction "RHS_USAF"
   m_aUnitPrefabSlots {
-   "{382AB962AD7C415A}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_SL_LA_P.et" "{47CABB6C34172998}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_TL_LA_P.et" "{1204639956CF4808}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_Marksman_LA_P.et" "{FB7A16E53FD401CB}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_GL_LA_P.et" "{0A6876EFBC557B95}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_AT_LA_P.et" "{47CABB6C34172998}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_TL_LA_P.et" "{1654FE7FC7BB6421}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_AR_LA_P.et" "{FB7A16E53FD401CB}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_GL_LA_P.et" "{0A6876EFBC557B95}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_AT_LA_P.et"
+   "{382AB962AD7C415A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_SL_LA_P.et" "{47CABB6C34172998}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_TL_LA_P.et" "{1204639956CF4808}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_Marksman_LA_P.et" "{FB7A16E53FD401CB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_GL_LA_P.et" "{0A6876EFBC557B95}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_AT_LA_P.et" "{47CABB6C34172998}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_TL_LA_P.et" "{1654FE7FC7BB6421}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_AR_LA_P.et" "{FB7A16E53FD401CB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_GL_LA_P.et" "{0A6876EFBC557B95}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_AT_LA_P.et"
   }
  }
- RHS_US_USMC_G_021_4 {
+ RHS_USAF_G_021_4 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -91,12 +91,12 @@ $grp SCR_AIGroup : "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.
   }
   coords 1308.252 26.809 5772.027
   angleY 152.482
-  m_faction "RHS_US_USMC"
+  m_faction "RHS_USAF"
   m_aUnitPrefabSlots {
-   "{47CABB6C34172998}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_TL_LA_P.et" "{1204639956CF4808}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_Marksman_LA_P.et" "{21DF004F15B7E3DB}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_Spotter_LA_P.et" "{5DA0FE1F9B3F849A}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_SSO_LA_P.et"
+   "{47CABB6C34172998}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_TL_LA_P.et" "{1204639956CF4808}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_Marksman_LA_P.et" "{21DF004F15B7E3DB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_Spotter_LA_P.et" "{5DA0FE1F9B3F849A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_SSO_LA_P.et"
   }
  }
- RHS_US_USMC_G_020_4 {
+ RHS_USAF_G_020_4 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -108,12 +108,12 @@ $grp SCR_AIGroup : "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.
   }
   coords 1453.465 47.307 6193.558
   angleY 62.482
-  m_faction "RHS_US_USMC"
+  m_faction "RHS_USAF"
   m_aUnitPrefabSlots {
-   "{47CABB6C34172998}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_TL_LA_P.et" "{1204639956CF4808}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_Marksman_LA_P.et" "{21DF004F15B7E3DB}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_Spotter_LA_P.et" "{5DA0FE1F9B3F849A}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_SSO_LA_P.et"
+   "{47CABB6C34172998}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_TL_LA_P.et" "{1204639956CF4808}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_Marksman_LA_P.et" "{21DF004F15B7E3DB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_Spotter_LA_P.et" "{5DA0FE1F9B3F849A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_SSO_LA_P.et"
   }
  }
- RHS_US_USMC_G_000_3 {
+ RHS_USAF_G_000_3 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -124,9 +124,9 @@ $grp SCR_AIGroup : "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.
   }
   coords 1269.62 37.818 6017.731
   angleY 141.482
-  m_faction "RHS_US_USMC"
+  m_faction "RHS_USAF"
   m_aUnitPrefabSlots {
-   "{47CABB6C34172998}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC_LowAmmo/Character_US_USMC_TL_LA_P.et" "{E049DF978939650F}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_RTO_P.et" "{EED044482866F45B}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/Character_US_USMC_Corpsman_P.et"
+   "{47CABB6C34172998}Prefabs/Characters/Factions/BLUFOR/RHS_USAF_LowAmmo/Character_US_USMC_TL_LA_P.et" "{E049DF978939650F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Character_US_USMC_RTO_P.et" "{EED044482866F45B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Character_US_USMC_Corpsman_P.et"
   }
  }
 }

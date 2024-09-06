@@ -16,7 +16,7 @@ Vehicle : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
     Name "#RHS-Vehicle_Ural4320_comms_camo_Name"
-    m_sFaction "RHS_RF_MSV"
+    m_sFaction "RHS_AFRF"
     m_aAutoLabels {
      1653989487 122 54
     }
@@ -26,7 +26,7 @@ Vehicle : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.
    m_fVehicleDestroyDamage 11360.7
   }
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
-   "faction affiliation" "RHS_RF_MSV"
+   "faction affiliation" "RHS_AFRF"
   }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {

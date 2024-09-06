@@ -13,14 +13,14 @@ SCR_ChimeraCharacter : "{C8FABF6F093DA775}Prefabs/Characters/Factions/OPFOR/USSR
    }
   }
   FactionAffiliationComponent "{520EC9618276DF23}" {
-   "faction affiliation" "RHS_RF_MSV"
+   "faction affiliation" "RHS_AFRF"
   }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_bIsPlayable 1
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    m_sFaction "RHS_RF_MSV"
+    m_sFaction "RHS_AFRF"
    }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {

@@ -47,11 +47,11 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
   "За 30 минут захватить и удержать корабль."\
   "Если врагов в триггере больше, чем игроков Вашей команды, то Вы проиграли."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
   m_iOrder 1
   m_iScore 75
-  m_sFactionKey "RHS_RF_MSV"
+  m_sFactionKey "RHS_AFRF"
  }
  {
   coords 7254.541 0 6046.456
@@ -62,22 +62,22 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
   ""\
   "Эвакуируйте VIP в течении 30 минут. Если VIP погибает, то эта задача считается проваленой в независимости из-за кого он погиб."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
   m_iOrder 1
   m_iScore 75
-  m_sFactionKey "RHS_RF_MSV"
+  m_sFactionKey "RHS_AFRF"
  }
  {
   coords 7254.968 0 6038.074
   m_sTitle "Уничтожить вражеские силы"
   m_sTextData "Уничтожьте все вражеские силы в триггере."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
   m_iOrder 1
   m_iScore 75
-  m_sFactionKey "RHS_RF_MSV"
+  m_sFactionKey "RHS_AFRF"
  }
  {
   coords 7257.189 0 6029.342
@@ -87,11 +87,11 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
   "За 30 минут захватить и удержать корабль."\
   "Если врагов в триггере больше, чем игроков Вашей команды, то Вы проиграли."
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
   m_iOrder 1
   m_iScore 75
-  m_sFactionKey "RHS_US_USMC"
+  m_sFactionKey "RHS_USAF"
  }
  {
   coords 7257.205 0 6027.085
@@ -102,21 +102,21 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
   ""\
   "Ликвидируйте VIP в течении 30 минут. Если VIP погибает, то эта задача считается выполненной в независимости из-за кого он погиб."
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
   m_iOrder 1
   m_iScore 75
-  m_sFactionKey "RHS_US_USMC"
+  m_sFactionKey "RHS_USAF"
  }
  {
   coords 7257.632 0 6018.703
   m_sTitle "Уничтожить вражеские силы"
   m_sTextData "Уничтожьте все вражеские силы в триггере."
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
   m_iOrder 1
   m_iScore 75
-  m_sFactionKey "RHS_US_USMC"
+  m_sFactionKey "RHS_USAF"
  }
 }

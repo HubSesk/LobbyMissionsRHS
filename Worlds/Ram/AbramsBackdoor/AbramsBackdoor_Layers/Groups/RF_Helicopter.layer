@@ -3,7 +3,7 @@ Vehicle Mi8MTT_A_Black1 : "{4A465E25A866520E}Prefabs/Vehicles/Helicopters/Mi8MT/
  angleX 3.881
  angleY -34.663
 }
-$grp SCR_AIGroup : "{4FCA17657529D4C2}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_MSV_EMR_Team_AT_P.et" {
+$grp SCR_AIGroup : "{4FCA17657529D4C2}Prefabs/Groups/OPFOR/RHS_AFRF/EMR/Group_MSV_EMR_Team_AT_P.et" {
  RF_G_401_4 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -36,7 +36,7 @@ $grp SCR_AIGroup : "{4FCA17657529D4C2}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_
   m_sCustomNameSet "Арфы"
  }
 }
-SCR_AIGroup RF_G_400_4 : "{BE95DFE601E567C6}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_MSV_EMR_FireGroup_P.et" {
+SCR_AIGroup RF_G_400_4 : "{BE95DFE601E567C6}Prefabs/Groups/OPFOR/RHS_AFRF/EMR/Group_MSV_EMR_FireGroup_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Line"
@@ -62,7 +62,7 @@ PS_ManualMarker RF_Helicopter_Mi8MTT_Marker3 : "{CD85ADE9E0F54679}PrefabsEditabl
  m_fWorldSize 5
  m_sDescription "Mi8MTT"
  m_aVisibleForFactions {
-  "FIA" "RHS_US_USMC" "RHS_RF_MSV"
+  "FIA" "RHS_USAF" "RHS_AFRF"
  }
  m_bVisibleForEmptyFaction 1
 }

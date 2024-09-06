@@ -4,7 +4,7 @@ $grp PolylineShapeEntity {
    PS_PolyZone "{61B8D15A813D581E}" {
     m_bLineMode 1
     m_aVisibleForFactions {
-     "RHS_RF_MSV"
+     "RHS_AFRF"
     }
    }
   }
@@ -38,7 +38,7 @@ $grp PolylineShapeEntity {
    PS_PolyZone "{61B8D1586478EF7F}" {
     m_bReversed 1
     m_aVisibleForFactions {
-     "RHS_RF_MSV" "RHS_US_USMC" ""
+     "RHS_AFRF" "RHS_USAF" ""
     }
    }
   }
@@ -101,7 +101,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Горы там используйте как позицию, вот мой совет."\
   ""
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
  {
@@ -110,7 +110,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "Захватите дом отмеченный маркером на карте."\
   "У противника есть бтр."
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
  }
 }
@@ -118,12 +118,12 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  {
   coords 5160.934 14.537 4031.693
   m_sTitle "Администрация захвачена."
-  m_sFactionKey "RHS_US_USMC"
+  m_sFactionKey "RHS_USAF"
  }
  {
   coords 5166.02 14.395 4022.739
   m_sTitle "Станция связи защищена."
-  m_sFactionKey "RHS_RF_MSV"
+  m_sFactionKey "RHS_AFRF"
  }
 }
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {

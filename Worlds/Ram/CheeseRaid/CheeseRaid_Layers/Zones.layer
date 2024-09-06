@@ -4,7 +4,7 @@ PolylineShapeEntity : "{52693A94BD70373C}Prefabs/PolyZone/PolyZone_Freeze.et" {
    m_cPolygonColor 0.555 0.002 0 1
    m_cPolygonBorderColor 0.168 0.006 0.007 0
    m_aVisibleForFactions {
-    "RHS_RF_MSV"
+    "RHS_AFRF"
    }
   }
  }
@@ -178,7 +178,7 @@ $grp PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.e
   components {
    PS_PolyZone "{60E90266F25533F6}" {
     m_aVisibleForFactions {
-     "" "FIA" "RHS_US_USMC" "RHS_RF_MSV" "PS_CheeseRaiders" "PS_FactoryWorkers"
+     "" "FIA" "RHS_USAF" "RHS_AFRF" "PS_CheeseRaiders" "PS_FactoryWorkers"
     }
    }
   }

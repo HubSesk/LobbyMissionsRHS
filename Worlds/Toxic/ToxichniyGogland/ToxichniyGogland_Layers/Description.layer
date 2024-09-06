@@ -5,7 +5,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "Армия РФ планирует захватить вынесенный штормом на берег сухогруз с секретным (сухим) грузом США."\
   ""
   m_aVisibleForFactions {
-   "RHS_RF_MSV" "FIA" "RHS_US_USMC"
+   "RHS_AFRF" "FIA" "RHS_USAF"
   }
   m_bEmptyFactionVisibility 1
  }
@@ -14,7 +14,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Задачи РФ"
   m_sTextData "Захватить и удерживать населенный пункт \"Kiiskinkyla\" в течении часа."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
  USObjectives {
@@ -22,7 +22,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Задачи США"
   m_sTextData "Удерживать населенный пункт \"Kiiskinkyla\" в течении часа."
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
  }
  SuhoyWarning {
@@ -30,7 +30,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Сухогруз опасен"
   m_sTextData "Возможна внезапная остановка седца при подъеме на сухогруз, будтье осторожны, берегите близких."
   m_aVisibleForFactions {
-   "RHS_RF_MSV" "FIA" "RHS_US_USMC"
+   "RHS_AFRF" "FIA" "RHS_USAF"
   }
   m_bEmptyFactionVisibility 1
  }

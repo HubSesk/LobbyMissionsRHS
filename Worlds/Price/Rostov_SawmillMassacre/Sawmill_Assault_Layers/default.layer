@@ -48,12 +48,12 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  {
   coords 981.792 116.684 2963.102
   m_sTitle "Лесопилка захвачена."
-  m_sFactionKey "RHS_RF_MSV"
+  m_sFactionKey "RHS_AFRF"
  }
  {
   coords 3002.997 115.063 825.992
   m_sTitle "Лесопилка удержана"
-  m_sFactionKey "RHS_US_USMC"
+  m_sFactionKey "RHS_USAF"
  }
 }
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
@@ -64,7 +64,7 @@ $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/Restri
   coords 951.489 116.406 2983.443
  }
 }
-PS_ManualMarker RHS_RF_MSV_G_001_M : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+PS_ManualMarker RHS_AFRF_G_001_M : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  coords 953.988 116.437 2951.003
  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
  m_sImageSetGlow ""
@@ -74,7 +74,7 @@ PS_ManualMarker RHS_RF_MSV_G_001_M : "{CD85ADE9E0F54679}PrefabsEditable/Markers/
  m_sDescription "Aktiv-12"
  m_bUseWorldScale 0
  m_aVisibleForFactions {
-  "RHS_RF_MSV" "RHS_US_USMC" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
  }
  m_bVisibleForEmptyFaction 1
  m_aHideOnGameModeStates {

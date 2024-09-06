@@ -2,7 +2,7 @@ GenericEntity : "{61980E6F3CA71107}Prefabs/Items/Cats/Dingus.et" {
  coords 2017.132 36.064 3768.762
 }
 $grp SCR_AIGroup : "{CA1F419A5A068863}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Groups/BlackCockGroup.et" {
- RHS_US_USMC_G_001_6 {
+ RHS_USAF_G_001_6 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -16,7 +16,7 @@ $grp SCR_AIGroup : "{CA1F419A5A068863}Prefabs/Characters/Factions/BLUFOR/RHS_USA
   coords 1899.258 17.892 3807.411
   angleY 0
  }
- RHS_US_USMC_G_002_6 {
+ RHS_USAF_G_002_6 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -30,7 +30,7 @@ $grp SCR_AIGroup : "{CA1F419A5A068863}Prefabs/Characters/Factions/BLUFOR/RHS_USA
   coords 1890.657 18.44 3821.936
   angleY 135.743
  }
- RHS_US_USMC_G_010_6 {
+ RHS_USAF_G_010_6 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"

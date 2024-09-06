@@ -1,5 +1,5 @@
 $grp SCR_AIGroup : "{7861D3272C23FB3F}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_USAF_USMC_MEF_D/Group_USAF_USMC_MEF_Team_GL.et" {
- RHS_US_USMC_G_011_4 {
+ RHS_USAF_G_011_4 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -13,7 +13,7 @@ $grp SCR_AIGroup : "{7861D3272C23FB3F}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_US
   coords 2690.532 8 3087.398
   angleY -145.737
  }
- RHS_US_USMC_G_020_4 {
+ RHS_USAF_G_020_4 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -29,7 +29,7 @@ $grp SCR_AIGroup : "{7861D3272C23FB3F}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_US
  }
 }
 $grp SCR_AIGroup : "{878712C430CDA837}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_USAF_USMC_MEF_D/Group_USAF_USMC_MEF_RifleSquad.et" {
- RHS_US_USMC_G_001_9 {
+ RHS_USAF_G_001_9 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -43,7 +43,7 @@ $grp SCR_AIGroup : "{878712C430CDA837}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_US
   coords 2686.16 8 3071.987
   angleY -56.454
  }
- RHS_US_USMC_G_012_9 {
+ RHS_USAF_G_012_9 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -58,7 +58,7 @@ $grp SCR_AIGroup : "{878712C430CDA837}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_US
   angleY 32.993
  }
 }
-SCR_AIGroup RHS_US_USMC_G_010_2 : "{AEE7C9BD0331B47A}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_USAF_USMC_MEF_D/Group_USAF_USMC_MEF_MachineGunTeam.et" {
+SCR_AIGroup RHS_USAF_G_010_2 : "{AEE7C9BD0331B47A}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_USAF_USMC_MEF_D/Group_USAF_USMC_MEF_MachineGunTeam.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Line"
@@ -73,7 +73,7 @@ SCR_AIGroup RHS_US_USMC_G_010_2 : "{AEE7C9BD0331B47A}Prefabs/Groups/BLUFOR/RHS_U
  angleY 123.42
 }
 $grp SCR_AIGroup : "{C4404C3832ED6EA2}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_USAF_USMC_MEF_D/Group_USAF_USMC_MEF_SniperTeam.et" {
- RHS_US_USMC_G_021_2 {
+ RHS_USAF_G_021_2 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -87,7 +87,7 @@ $grp SCR_AIGroup : "{C4404C3832ED6EA2}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_US
   coords 3013.246 115.796 3144.911
   angleY -143.432
  }
- RHS_US_USMC_G_022_2 {
+ RHS_USAF_G_022_2 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -102,7 +102,7 @@ $grp SCR_AIGroup : "{C4404C3832ED6EA2}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_US
   angleY -143.432
  }
 }
-SCR_AIGroup RHS_US_USMC_G_002_2 : "{D405F2799352AB58}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_USAF_USMC_MEF_D/Group_USAF_USMC_MEF_MedicalSection.et" {
+SCR_AIGroup RHS_USAF_G_002_2 : "{D405F2799352AB58}Prefabs/Groups/BLUFOR/RHS_USAF_USMC/RHS_USAF_USMC_MEF_D/Group_USAF_USMC_MEF_MedicalSection.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Line"

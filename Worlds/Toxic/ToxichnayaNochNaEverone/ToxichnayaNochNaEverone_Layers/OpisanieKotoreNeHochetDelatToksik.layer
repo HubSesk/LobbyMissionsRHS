@@ -4,7 +4,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "лор Красным:"
   m_sTextData "Товарищи! Ваша задача любой ценой (желательно приемлимой) захватить порт в Сэнт-Пьерре! Противник демотивирован, дезориентирован и возможно даже голоден. На улице ночь, Джоны наверняка легли спать пораньше что-бы с утра начать наступление. Кстати, разведка докладывала, что Джоны зачем-то раскидывали картонки по дорогам, на всякий случай, будьте внимательнее!"
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
  {
@@ -12,7 +12,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "лор Синим:"
   m_sTextData "Brothers! Мы планируем начать полномасштабное наступление на Эверон с утра! Но пока основные силы ещё не подтянулись, мы должны держать оборону в порту. Иваны наверняка не станут наступать ночью, но на случай ЧП мы должны быть готовы отразить атаку. Вечером мы подготовили минные заставы вокруг всего порта, а так же заминировали дороги, а мины накрыли картонками, чтобы не заметили. "
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
  }
  {
@@ -20,7 +20,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "ИНФО ОБЩАЯ"
   m_sTextData "На каждом спавне есть по 2 ящика с ПНВ, их хватит на всех. Устанавливается оно путем перекладывания его в инвентарь шлема. Если пнв по какой то причине не встает на шлем, проверьте, что на нем уже не стоит какая-либо заглушка."
   m_aVisibleForFactions {
-   "RHS_RF_MSV" "RHS_US_USMC"
+   "RHS_AFRF" "RHS_USAF"
   }
   m_bEmptyFactionVisibility 1
  }
@@ -37,7 +37,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "у Бумеранга, а так же командира \"Ведов\" есть тепловизоры"
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
  {
@@ -47,7 +47,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Порт практически по кругу заминирован, не советуем пытаться покинуть порт на технике."\
   "Дополнительная \"Куча\" мин лежит недалеко от спавна (помечено на карте)"
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
  }
  {
@@ -55,7 +55,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "ИНФО ВЕДАМ"
   m_sTextData "Бля рэм придумай сам пж, я не умею такую плотную базу наваливать"
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
 }

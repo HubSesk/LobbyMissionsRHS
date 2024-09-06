@@ -1,4 +1,4 @@
-SCR_AIGroup RHS_US_USMC_G_020_3 : "{2A4F66BD652F1C8E}Prefabs/Groups/BLUFOR/RHS_US_USMC/Group_US_USMC_RifleSquad_P.et" {
+SCR_AIGroup RHS_USAF_G_020_3 : "{2A4F66BD652F1C8E}Prefabs/Groups/BLUFOR/RHS_USAF/Group_US_USMC_RifleSquad_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Column"
@@ -11,6 +11,6 @@ SCR_AIGroup RHS_US_USMC_G_020_3 : "{2A4F66BD652F1C8E}Prefabs/Groups/BLUFOR/RHS_U
  coords 3684.285 211.707 3193.477
  angleY -111.803
  m_aUnitPrefabSlots {
-  "{C4AE533F573B7C75}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_Sniper.et" "{7AE79CE5B92888B1}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_Recon.et" "{7AE79CE5B92888B1}Prefabs/Characters/Factions/BLUFOR/RHS_US_USMC/specop/Character_US_USMC_Specop_Recon.et"
+  "{C4AE533F573B7C75}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/specop/Character_US_USMC_Specop_Sniper.et" "{7AE79CE5B92888B1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/specop/Character_US_USMC_Specop_Recon.et" "{7AE79CE5B92888B1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/specop/Character_US_USMC_Specop_Recon.et"
  }
 }

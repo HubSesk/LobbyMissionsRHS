@@ -5,10 +5,10 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
   m_sTitle "Захватить документы и вывезти их"
   m_sTextData "Захватите документы в городе Регина и доставьте их на точку РФ."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
   m_iScore 75
-  m_sFactionKey "RHS_RF_MSV"
+  m_sFactionKey "RHS_AFRF"
  }
  {
   coords 6535.595 0 2412.001
@@ -16,10 +16,10 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
   m_sTitle "Уничтожить силы ВС США и НАПА"
   m_sTextData "Уничтожить силы ВС США и НАПА. По информации разведки: ВС США обладает 2 бронированными автомобилями и 3 грузовиками. НАПА обладает 2 вооруженными автомобилями."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
   m_iScore 75
-  m_sFactionKey "RHS_RF_MSV"
+  m_sFactionKey "RHS_AFRF"
  }
  {
   coords 6537.917 -0 2403.168
@@ -27,10 +27,10 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
   m_sTitle "Сохранить более 50% развернутых сил"
   m_sTextData "Сохраните более 50% развернутых сил, чтобы миссия считалось идеально выполненной."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
   m_iScore 25
-  m_sFactionKey "RHS_RF_MSV"
+  m_sFactionKey "RHS_AFRF"
  }
  {
   coords 6535.723 0 2412.633
@@ -38,10 +38,10 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
   m_sTitle "Захватить документы и вывезти их"
   m_sTextData "Захватите документы в городе Регина и доставьте их на точку США."
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
   m_iScore 75
-  m_sFactionKey "RHS_US_USMC"
+  m_sFactionKey "RHS_USAF"
  }
  {
   coords 6535.929 0 2413.545
@@ -49,10 +49,10 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
   m_sTitle "Уничтожить силы ВС РФ и НАПА"
   m_sTextData "Уничтожить силы ВС РФ и НАПА. По информации разведки: ВС РФ обладает 2 бронированными автомобилями и 3 грузовиками. НАПА обладает 2 вооруженными автомобилями."
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
   m_iScore 75
-  m_sFactionKey "RHS_US_USMC"
+  m_sFactionKey "RHS_USAF"
  }
  {
   coords 6537.101 0 2413.598
@@ -60,10 +60,10 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
   m_sTitle "Сохранить более 50% развернутых сил"
   m_sTextData "Сохраните более 50% развернутых сил, чтобы миссия считалось идеально выполненной."
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
   m_iScore 25
-  m_sFactionKey "RHS_US_USMC"
+  m_sFactionKey "RHS_USAF"
  }
  {
   coords 6540.106 0 2428.274

@@ -14,7 +14,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Произошедшее, в совокупности с напряженной обстановкой, привело к пониманию необходимости проведения антитеррористической операции со стороны РФ в регионе, под предлогом борьбы с наркоторговлей."\
   "Хоть это и приведет к обострению отношений с США из-за обрывов важнейших каналов снабжения, потеря экспериментальной техники выпущенной ограниченной серией слишком сильно ударит по престижу страны."
   m_aVisibleForFactions {
-   "Ses_CDF" "RHS_RF_MSV" "RHS_US_USMC" "Ses_TKA"
+   "Ses_CDF" "RHS_AFRF" "RHS_USAF" "Ses_TKA"
   }
   m_bEmptyFactionVisibility 1
  }
@@ -43,7 +43,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   ""
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
  RFObjectivesCool {
@@ -62,7 +62,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "К сожалению сделка была заблокирована на оффшорных счетах Швейцарии из-за введенных санкций."\
   "Правительство Такистана так и не ответило на запросы возврата материальных средств, было принято решение провести антитеррористическую операцию для возврата хотя бы части затраченного."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
  TKAObjectivesCool {
@@ -123,7 +123,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "И <b>ра</b>ди бога не заблудитесь как в тот <b>ра</b>з с картошкой."\
   "Я устал объяснять что связь с духами предков плоха на землях бусурманских."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
  RFRecon {
@@ -139,7 +139,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Вероятно победит та сторона которая лучше распоряжется доступной ей техникой."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
 }

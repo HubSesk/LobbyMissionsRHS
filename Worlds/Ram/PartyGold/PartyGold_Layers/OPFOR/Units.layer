@@ -1,4 +1,4 @@
-SCR_AIGroup RHS_RF_MSV_G_400_6 : "{4E66C5FE1796D009}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/SPECOPS.et" {
+SCR_AIGroup RHS_AFRF_G_400_6 : "{4E66C5FE1796D009}Prefabs/Groups/OPFOR/RHS_AFRF/EMR/SPECOPS.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "LineTight"
@@ -10,11 +10,11 @@ SCR_AIGroup RHS_RF_MSV_G_400_6 : "{4E66C5FE1796D009}Prefabs/Groups/OPFOR/RHS_RF_
  coords 6788.411 126.794 2885.337
  angleY -114.544
  m_aUnitPrefabSlots + {
-  "{1F45A8542E2BDFA1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew_P.et"
+  "{1F45A8542E2BDFA1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_AFRF_VKPO_DS_Crew_P.et"
  }
 }
-$grp SCR_AIGroup : "{5A97E7731DB3A3DE}Prefabs/Groups/OPFOR/RHS_AFRF/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_RifleSquad_P.et" {
- RHS_RF_MSV_G_012_7 {
+$grp SCR_AIGroup : "{5A97E7731DB3A3DE}Prefabs/Groups/OPFOR/RHS_AFRF/VKPO_Demiseason/Group_RHS_AFRF_VKPO_DS_RifleSquad_P.et" {
+ RHS_AFRF_G_012_7 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "TightLine"
@@ -28,10 +28,10 @@ $grp SCR_AIGroup : "{5A97E7731DB3A3DE}Prefabs/Groups/OPFOR/RHS_AFRF/VKPO_Demisea
   coords 6822.116 115.133 2966.302
   angleY 94.479
   m_aUnitPrefabSlots {
-   "{FA24FE3DFCE7DB0F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_SL_DS_F2_P.et" "{EA51AA2E42AD591E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_MG_DS_F2_P.et" "{C13A7039B735EA21}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_AMG_DS_F2_P.et" "{CB0D4839B9D207CA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_AT_DS_F2_P.et" "{D1486D724E757114}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_AAT_DS_F2_P.et" "{E4C86C3D18239BB7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_Rifleman_DS_F2_P.et" "{E4C86C3D18239BB7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_Rifleman_DS_F2_P.et"
+   "{FA24FE3DFCE7DB0F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_AFRF_VKPO_SL_DS_F2_P.et" "{EA51AA2E42AD591E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_AFRF_VKPO_MG_DS_F2_P.et" "{C13A7039B735EA21}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_AFRF_VKPO_AMG_DS_F2_P.et" "{CB0D4839B9D207CA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_AFRF_VKPO_AT_DS_F2_P.et" "{D1486D724E757114}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_AFRF_VKPO_AAT_DS_F2_P.et" "{E4C86C3D18239BB7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_AFRF_VKPO_Rifleman_DS_F2_P.et" "{E4C86C3D18239BB7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_AFRF_VKPO_Rifleman_DS_F2_P.et"
   }
  }
- RHS_RF_MSV_G_000_0 {
+ RHS_AFRF_G_000_0 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "TightLine"
@@ -169,7 +169,7 @@ $grp SCR_AIGroup : "{5A97E7731DB3A3DE}Prefabs/Groups/OPFOR/RHS_AFRF/VKPO_Demisea
    }
   }
  }
- RHS_RF_MSV_G_011_7 {
+ RHS_AFRF_G_011_7 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "TightLine"
@@ -183,7 +183,7 @@ $grp SCR_AIGroup : "{5A97E7731DB3A3DE}Prefabs/Groups/OPFOR/RHS_AFRF/VKPO_Demisea
   coords 6826.561 115.133 2962.345
   angleY -40.521
   m_aUnitPrefabSlots {
-   "{FA24FE3DFCE7DB0F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_SL_DS_F2_P.et" "{EA51AA2E42AD591E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_MG_DS_F2_P.et" "{C13A7039B735EA21}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_AMG_DS_F2_P.et" "{CB0D4839B9D207CA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_AT_DS_F2_P.et" "{D1486D724E757114}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_AAT_DS_F2_P.et" "{E4C86C3D18239BB7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_Rifleman_DS_F2_P.et" "{E4C86C3D18239BB7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_RF_MSV_VKPO_Rifleman_DS_F2_P.et"
+   "{FA24FE3DFCE7DB0F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_AFRF_VKPO_SL_DS_F2_P.et" "{EA51AA2E42AD591E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_AFRF_VKPO_MG_DS_F2_P.et" "{C13A7039B735EA21}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_AFRF_VKPO_AMG_DS_F2_P.et" "{CB0D4839B9D207CA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_AFRF_VKPO_AT_DS_F2_P.et" "{D1486D724E757114}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_AFRF_VKPO_AAT_DS_F2_P.et" "{E4C86C3D18239BB7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_AFRF_VKPO_Rifleman_DS_F2_P.et" "{E4C86C3D18239BB7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/FormN2/Character_RHS_AFRF_VKPO_Rifleman_DS_F2_P.et"
   }
  }
 }

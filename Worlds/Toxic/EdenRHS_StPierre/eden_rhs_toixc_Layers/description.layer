@@ -5,7 +5,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "Задача ВС РФ и USMC - Занять Сент-Пьерр."\
   "Местное ополчение может как всячески мешать вам, так и помогать."
   m_aVisibleForFactions {
-   "RHS_RF_MSV" "FIA" "RHS_US_USMC"
+   "RHS_AFRF" "FIA" "RHS_USAF"
   }
   m_bEmptyFactionVisibility 1
  }
@@ -22,7 +22,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "#PS-Description_HeaderUSSR"
   m_sTextData "У вас в распоряжении имеется лишь 1 вертолёт для доставки пехоты. Берегите его и постарайтесь не убиться на нём."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
  {
@@ -30,7 +30,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "#PS-Description_HeaderUS"
   m_sTextData "Занять Сент-Пьерр. Пешком."
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
  }
 }

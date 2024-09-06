@@ -1,4 +1,4 @@
-$grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_RF_MSV/EMR/Group_MSV_EMR_RifleSquad_P.et" {
+$grp SCR_AIGroup : "{4612288297E3FCAC}Prefabs/Groups/OPFOR/RHS_AFRF/EMR/Group_MSV_EMR_RifleSquad_P.et" {
  RF_G_002_8 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -113,7 +113,7 @@ RHS_Tank Tank_T1 : "{48BB423641D40E77}Prefabs/Vehicles/Tracked/T14/Tank_T14.et" 
  angleY -53.578
  angleZ 7.579
 }
-SCR_AIGroup RF_G_003_4 : "{5A4B8E45BA692CDA}Prefabs/Groups/OPFOR/RHS_RF_MSV/Flora/Group_MSV_Flora_LightFireTeam_P.et" {
+SCR_AIGroup RF_G_003_4 : "{5A4B8E45BA692CDA}Prefabs/Groups/OPFOR/RHS_AFRF/Flora/Group_MSV_Flora_LightFireTeam_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "Line"
@@ -145,7 +145,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_fWorldSize 5
   m_sDescription "Ural4320"
   m_aVisibleForFactions {
-   "FIA" "RHS_US_USMC" "RHS_RF_MSV"
+   "FIA" "RHS_USAF" "RHS_AFRF"
   }
   m_bVisibleForEmptyFaction 1
  }
@@ -159,7 +159,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_fWorldSize 5
   m_sDescription "Ural4320"
   m_aVisibleForFactions {
-   "FIA" "RHS_US_USMC" "RHS_RF_MSV"
+   "FIA" "RHS_USAF" "RHS_AFRF"
   }
   m_bVisibleForEmptyFaction 1
  }

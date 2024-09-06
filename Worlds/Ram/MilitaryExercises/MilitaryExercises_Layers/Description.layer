@@ -21,7 +21,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Силы США достаточно многочисленны но имеют крайне ограниченное кол-во патронов, никто не был готов отбивать атаку Русских после обеда, колонна снабжения уже движется на подмогу но пока придется рассчитывать на крайне скудные запасы."\
   "Готовящиеся к учениям силы РФ напротив забиты вооружениям по полной, целая колонна заполненная до краев взрывчаткой серьезное подспорье в предстоящем штурме."
   m_aVisibleForFactions {
-   "RHS_RF_MSV" "RHS_US_USMC"
+   "RHS_AFRF" "RHS_USAF"
   }
   m_bEmptyFactionVisibility 1
  }
@@ -37,7 +37,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "У противника <b>ОЧЕНЬ МНОГО ВЗРЫВЧАТКИ</b>, советую учитывать это при планировании обороны."
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
  }
  RFObjectives {
@@ -54,7 +54,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   ""
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
  RFObjectivesCool {
@@ -73,7 +73,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Позиции противника укреплены, но гарнизон похоже страдает от недостатка вооружения, не честно конечно, но это лучше чем провальные учения."\
   "Колонна со снабжением движется со стороны Граветта и уже на половине пути, но ничего мы можем действовать быстро когда захотим."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
  USObjectivesCool {
@@ -96,7 +96,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   ""
   m_aVisibleForFactions {
-   "RHS_US_USMC"
+   "RHS_USAF"
   }
  }
  RFMessage {
@@ -114,7 +114,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Да, еще тут Американцы, они стреляют в нас, мы в них."\
   "Это нормально?"
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
  RFVediTactic {
@@ -138,7 +138,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "<color name='Red'>Слава <b>род</b>у и на<b>род</b>у нашему.</color>"
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
 }

@@ -59,7 +59,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Группа прекрасно вооружена, натренирована и готова к бою с террористами, у этих нелюдей нет ни единого шанса против наших парней."\
   "Главное случайно не подстрелить заложника..."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
  ALL_d {
@@ -77,7 +77,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Не проверив груз и отправившись по адресу курьер к тому же перепутал адрес доставки."\
   "Расплата за ошибку была быстрой и жестокой..."
   m_aVisibleForFactions {
-   "RHS_RF_MSV" "PS_CheeseRaiders" "PS_FactoryWorkers"
+   "RHS_AFRF" "PS_CheeseRaiders" "PS_FactoryWorkers"
   }
   m_bEmptyFactionVisibility 1
   m_iOrder -1
@@ -92,7 +92,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "• Спасти заложника \"Вегана Сыроеда\"."\
   "• Выбить из \"Вегана Сыроеда\" информацию о сырах товарища Налапина."
   m_aVisibleForFactions {
-   "RHS_RF_MSV"
+   "RHS_AFRF"
   }
  }
  FactoryWorkers_o {
@@ -150,7 +150,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "Запрещено переодеваться в чужую фракцию, включая разгрузки и броники."\
   "Да, даже Вегану Сыроеду."
   m_aVisibleForFactions {
-   "RHS_RF_MSV" "PS_CheeseRaiders" "PS_FactoryWorkers"
+   "RHS_AFRF" "PS_CheeseRaiders" "PS_FactoryWorkers"
   }
   m_bEmptyFactionVisibility 1
   m_iOrder -1
@@ -168,7 +168,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Часто применяется в народной медицине при параличе пальцев рук."\
   "И других анимационных заболеваниях."
   m_aVisibleForFactions {
-   "RHS_RF_MSV" "PS_CheeseRaiders" "PS_FactoryWorkers"
+   "RHS_AFRF" "PS_CheeseRaiders" "PS_FactoryWorkers"
   }
   m_bEmptyFactionVisibility 1
   m_iOrder -1
