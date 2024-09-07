@@ -45,6 +45,11 @@ GenericEntity : "{7343AD5762833EC4}Prefabs/Items/Equipment/Maps/BanyaBochkaBluep
  angleY -21.991
 }
 Vehicle Ural4320_BanyaBochka1 : "{7B6BD15EC601BD8B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_BanyaBochka.et" {
+ components {
+  PS_SpectatorLabel "{624EBC473705A94E}" {
+   m_sSpectatorLabelLayout "{EB54CDF302DF8E41}UI/Spectator/SpectatorLabelIcon_Documents.layout"
+  }
+ }
  coords 6190.524 12.59 7635.475
  angleY -21.781
 }
