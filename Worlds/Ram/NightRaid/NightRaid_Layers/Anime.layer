@@ -1,6 +1,7 @@
 CinematicEntity ChtoTi {
  coords 0 0 0
  Scene CinematicScene "{6264F52F8D3FC062}" {
+  EndFrame 5816
   Tracks {
    CameraCinematicTrack "{6264F52F9BF5660D}" {
     TrackName "Camera"
@@ -9,51 +10,126 @@ CinematicEntity ChtoTi {
      X FloatCinematicTrack "{6264F52F9BF56679}" {
       TrackName "X"
       Keyframes {
-       FloatCinematicKeyframe "{6264F52F9DFAEA04}" {
+       FloatCinematicKeyframe "{6264F525C5987D02}" {
         FrameNumber 0
-        Value 1399.427
+        Value 1448.945
+        InterpMode 0
        }
-       FloatCinematicKeyframe "{6264F52FA624651F}" {
-        FrameNumber 50
-        Value 1352.901
+       FloatCinematicKeyframe "{6264F525CC15B6BD}" {
+        FrameNumber 805
+        Value 1425.778
        }
-       FloatCinematicKeyframe "{6264F52FB020761A}" {
-        FrameNumber 350
-        Value 1348.826
+       FloatCinematicKeyframe "{6264F525CF799885}" {
+        FrameNumber 1595
+        Value 1331.447
+       }
+       FloatCinematicKeyframe "{6264F525D11A8750}" {
+        FrameNumber 2395
+        Value 1299.095
+       }
+       FloatCinematicKeyframe "{6264F525D4698B38}" {
+        FrameNumber 3210
+        Value 1392.585
+       }
+       FloatCinematicKeyframe "{6264F525DAF53431}" {
+        FrameNumber 4015
+        Value 1465.069
+       }
+       FloatCinematicKeyframe "{6264F525DD1C6D03}" {
+        FrameNumber 4805
+        Value 1396.768
+       }
+       FloatCinematicKeyframe "{6264F525E08D6511}" {
+        FrameNumber 5590
+        Value 1321.526
+       }
+       FloatCinematicKeyframe "{6264F525E38B82B5}" {
+        FrameNumber 5816
+        Value 1292.042
        }
       }
      }
      Y FloatCinematicTrack "{6264F52F9BF56640}" {
       TrackName "Y"
       Keyframes {
-       FloatCinematicKeyframe "{6264F52F9DFA95B1}" {
+       FloatCinematicKeyframe "{6264F525C59878CD}" {
         FrameNumber 0
-        Value 52.495
+        Value 60.414
+        InterpMode 0
        }
-       FloatCinematicKeyframe "{6264F52FA62460B2}" {
-        FrameNumber 50
-        Value 42.641
+       FloatCinematicKeyframe "{6264F525CC15B751}" {
+        FrameNumber 805
+        Value 64.109
        }
-       FloatCinematicKeyframe "{6264F52FB02071AF}" {
-        FrameNumber 350
-        Value 39.829
+       FloatCinematicKeyframe "{6264F525CF799AB3}" {
+        FrameNumber 1595
+        Value 65.703
+       }
+       FloatCinematicKeyframe "{6264F525D11A8162}" {
+        FrameNumber 2395
+        Value 65.703
+       }
+       FloatCinematicKeyframe "{6264F525D469B568}" {
+        FrameNumber 3210
+        Value 82.054
+       }
+       FloatCinematicKeyframe "{6264F525DAF536CA}" {
+        FrameNumber 4015
+        Value 82.052
+       }
+       FloatCinematicKeyframe "{6264F525DD1C6FCC}" {
+        FrameNumber 4805
+        Value 82.052
+       }
+       FloatCinematicKeyframe "{6264F525E08D673E}" {
+        FrameNumber 5590
+        Value 82.052
+       }
+       FloatCinematicKeyframe "{6264F525E38B8340}" {
+        FrameNumber 5816
+        Value 82.052
        }
       }
      }
      Z FloatCinematicTrack "{6264F52F9BF56649}" {
       TrackName "Z"
       Keyframes {
-       FloatCinematicKeyframe "{6264F52F9DFA96FD}" {
+       FloatCinematicKeyframe "{6264F525C5987900}" {
         FrameNumber 0
-        Value 2390.412
+        Value 2344.575
+        InterpMode 0
        }
-       FloatCinematicKeyframe "{6264F52FA62461C3}" {
-        FrameNumber 50
-        Value 2388.806
+       FloatCinematicKeyframe "{6264F525CC15B1B8}" {
+        FrameNumber 805
+        Value 2300.492
        }
-       FloatCinematicKeyframe "{6264F52FB02072FE}" {
-        FrameNumber 350
-        Value 2407.124
+       FloatCinematicKeyframe "{6264F525CF799BB6}" {
+        FrameNumber 1595
+        Value 2319.736
+       }
+       FloatCinematicKeyframe "{6264F525D11A8262}" {
+        FrameNumber 2395
+        Value 2396.492
+       }
+       FloatCinematicKeyframe "{6264F525D469B64B}" {
+        FrameNumber 3210
+        Value 2476.097
+       }
+       FloatCinematicKeyframe "{6264F525DAF537CF}" {
+        FrameNumber 4015
+        Value 2361.849
+       }
+       FloatCinematicKeyframe "{6264F525DD1C68CD}" {
+        FrameNumber 4805
+        Value 2295.277
+       }
+       FloatCinematicKeyframe "{6264F525E08D600A}" {
+        FrameNumber 5590
+        Value 2327.838
+       }
+       FloatCinematicKeyframe "{6264F525E38B8C53}" {
+        FrameNumber 5816
+        Value 2373.359
        }
       }
      }
@@ -63,50 +139,125 @@ CinematicEntity ChtoTi {
      X FloatCinematicTrack "{6264F52F9BF56654}" {
       TrackName "X"
       Keyframes {
-       FloatCinematicKeyframe "{6264F52F9DFA973C}" {
+       FloatCinematicKeyframe "{6264F525C5987A09}" {
         FrameNumber 0
-        Value -20.408
+        Value -22.008
+        InterpMode 0
        }
-       FloatCinematicKeyframe "{6264F52FA6246208}" {
-        FrameNumber 50
-        Value -10.808
+       FloatCinematicKeyframe "{6264F525CC15B2AE}" {
+        FrameNumber 805
+        Value -22.808
        }
-       FloatCinematicKeyframe "{6264F52FB0207339}" {
-        FrameNumber 350
-        Value -18.808
+       FloatCinematicKeyframe "{6264F525CF7984AE}" {
+        FrameNumber 1595
+        Value -21.608
+       }
+       FloatCinematicKeyframe "{6264F525D11A8316}" {
+        FrameNumber 2395
+        Value -24.008
+       }
+       FloatCinematicKeyframe "{6264F525D469B75B}" {
+        FrameNumber 3210
+        Value -35.608
+       }
+       FloatCinematicKeyframe "{6264F525DAF530CA}" {
+        FrameNumber 4015
+        Value -27.607
+       }
+       FloatCinematicKeyframe "{6264F525DD1C69C8}" {
+        FrameNumber 4805
+        Value -33.207
+       }
+       FloatCinematicKeyframe "{6264F525E08D6115}" {
+        FrameNumber 5590
+        Value -36.807
+       }
+       FloatCinematicKeyframe "{6264F525E38B8D5A}" {
+        FrameNumber 5816
+        Value -33.607
        }
       }
      }
      Y FloatCinematicTrack "{6264F52F9BF56659}" {
       TrackName "Y"
       Keyframes {
-       FloatCinematicKeyframe "{6264F52F9DFA907B}" {
+       FloatCinematicKeyframe "{6264F525C5987B18}" {
         FrameNumber 0
-        Value -124.09
+        Value -76.89
+        InterpMode 0
        }
-       FloatCinematicKeyframe "{6264F52FA6246346}" {
-        FrameNumber 50
-        Value -116.09
+       FloatCinematicKeyframe "{6264F525CC15B258}" {
+        FrameNumber 805
+        Value -20.49
        }
-       FloatCinematicKeyframe "{6264F52FB0207C7C}" {
-        FrameNumber 350
-        Value -2.89
+       FloatCinematicKeyframe "{6264F525CF79845D}" {
+        FrameNumber 1595
+        Value 45.11
+       }
+       FloatCinematicKeyframe "{6264F525D11A8C10}" {
+        FrameNumber 2395
+        Value 99.11
+       }
+       FloatCinematicKeyframe "{6264F525D469B1AB}" {
+        FrameNumber 3210
+        Value 171.91
+       }
+       FloatCinematicKeyframe "{6264F525DAF531CF}" {
+        FrameNumber 4015
+        Value 284.303
+       }
+       FloatCinematicKeyframe "{6264F525DD1C6AC9}" {
+        FrameNumber 4805
+        Value 351.903
+       }
+       FloatCinematicKeyframe "{6264F525E08D6264}" {
+        FrameNumber 5590
+        Value 405.902
+       }
+       FloatCinematicKeyframe "{6264F525E38B8FAD}" {
+        FrameNumber 5816
+        Value 439.898
        }
       }
      }
      Z FloatCinematicTrack "{6264F52F9BF5665C}" {
       TrackName "Z"
       Keyframes {
-       FloatCinematicKeyframe "{6264F52F9DFA92AC}" {
+       FloatCinematicKeyframe "{6264F525C5986460}" {
         FrameNumber 0
         Value 0
+        InterpMode 0
        }
-       FloatCinematicKeyframe "{6264F52FA6246D87}" {
-        FrameNumber 50
+       FloatCinematicKeyframe "{6264F525CC15B37A}" {
+        FrameNumber 805
         Value 0
        }
-       FloatCinematicKeyframe "{6264F52FB0207E9D}" {
-        FrameNumber 350
+       FloatCinematicKeyframe "{6264F525CF79854E}" {
+        FrameNumber 1595
+        Value 0
+       }
+       FloatCinematicKeyframe "{6264F525D11A8D04}" {
+        FrameNumber 2395
+        Value 0
+       }
+       FloatCinematicKeyframe "{6264F525D469B2AA}" {
+        FrameNumber 3210
+        Value 0
+       }
+       FloatCinematicKeyframe "{6264F525DAF532CA}" {
+        FrameNumber 4015
+        Value 0
+       }
+       FloatCinematicKeyframe "{6264F525DD1C6BC4}" {
+        FrameNumber 4805
+        Value 0
+       }
+       FloatCinematicKeyframe "{6264F525E08D6377}" {
+        FrameNumber 5590
+        Value 0
+       }
+       FloatCinematicKeyframe "{6264F525E38B8883}" {
+        FrameNumber 5816
         Value 0
        }
       }
@@ -118,14 +269,6 @@ CinematicEntity ChtoTi {
       FloatCinematicKeyframe "{6264F52F4A378FF4}" {
        FrameNumber 0
        Value 65
-      }
-      FloatCinematicKeyframe "{6264F52F40250DC6}" {
-       FrameNumber 300
-       Value 65
-      }
-      FloatCinematicKeyframe "{6264F52F46852D83}" {
-       FrameNumber 350
-       Value 32
       }
      }
     }
@@ -166,7 +309,7 @@ CinematicEntity ChtoTi {
         Value 0
        }
        FloatCinematicKeyframe "{6264F52F6F84AA8A}" {
-        FrameNumber 350
+        FrameNumber 5816
         Value 23.9
         InterpMode 0
        }
@@ -180,7 +323,7 @@ CinematicEntity ChtoTi {
         Value 0
        }
        IntegerCinematicKeyframe "{6264F52F01BA2A17}" {
-        FrameNumber 350
+        FrameNumber 5816
         Value 2
         InterpMode 2
        }
@@ -215,7 +358,7 @@ CinematicEntity ChtoTi {
         Value 1989
        }
        IntegerCinematicKeyframe "{6264F52F63D59AAA}" {
-        FrameNumber 350
+        FrameNumber 5816
         Value 1999
        }
       }
@@ -225,21 +368,6 @@ CinematicEntity ChtoTi {
      }
      IntegerCinematicTrack "{6264F52F5A8DF98C}" {
       TrackName "m_iDay"
-     }
-    }
-   }
-   CustomCinematicTrack "{6264F52F14300E7F}" {
-    TrackName "FXTrack"
-    ClassName "FxCinematicTrack"
-    ChildTracks {
-     FloatCinematicTrack "{6264F52F14300B6B}" {
-      TrackName "m_fTime"
-     }
-     EventCinematicTrack "{6264F52F143035C7}" {
-      TrackName "Play"
-     }
-     EventCinematicTrack "{6264F52F143036C1}" {
-      TrackName "SetTime"
      }
     }
    }
