@@ -1,0 +1,43 @@
+$grp GenericEntity : "{1FB851AFCE62919B}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_empty.et" {
+ {
+  components {
+   WeaponComponent "{CFBAA4B706BA66E8}" {
+    components {
+     AttachmentSlotComponent "{B502E4DC8A9E835E}" {
+      AttachmentSlot InventoryStorageSlot optics {
+      }
+     }
+    }
+   }
+  }
+  coords 1358.295 38.702 2427.516
+  angleY 37.063
+  angleZ 95.346
+ }
+ {
+  components {
+   WeaponComponent "{CFBAA4B706BA66E8}" {
+    components {
+     AttachmentSlotComponent "{B502E4DC8A9E835E}" {
+      AttachmentSlot InventoryStorageSlot optics {
+      }
+     }
+    }
+   }
+  }
+  coords 1357.865 38.702 2427.217
+  angleY -142.937
+  angleZ 92.821
+ }
+ {
+  coords 1357.066 38.412 2426.872
+  angleX 90
+  angleY 180
+  angleZ -180
+ }
+ {
+  coords 1357.177 38.412 2426.689
+  angleX 90
+  angleZ -54.677
+ }
+}

@@ -1,0 +1,20 @@
+Turret : "{66596659FB0F645B}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret.et" {
+ ID "51ACD0965653D003"
+ components {
+  TurretControllerComponent "{51ACD09C61C183E4}" {
+   LimitsHoriz -10 180
+   LimitsVert -1 0.2
+  }
+  TurretComponent "{1D3DA71B9107070D}" {
+   InitAiming 15 3
+   TurretSpeed 17.295 57.295
+   TurretAcceleration 17.295 57.295
+  }
+  WeaponSlotComponent "{0AACE747111B1282}" {
+   WeaponTemplate "{15736F5B34E1AB9B}Prefabs/Weapons/MachineGuns/PKM/MG_PKMT_empty.et"
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{008FB0A5E6AA8E38}Prefabs/Weapons/HeavyWeapons/HMG_KPVT_Empty.et"
+  }
+ }
+}

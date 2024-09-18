@@ -9,14 +9,14 @@ class PS_SleepRFComponent : ScriptComponent
 	//------------------------------------------------------------------------------------------------
 	override void EOnFrame(IEntity owner, float timeSlice)
 	{
-		if (m_GameModeCoop.m_bFreezeTimeEnd)
+		if (m_GameModeCoop.m_bFreezeTimeEnd || PS_FreezeTimeCounter.s_iCurrentFreezeTime < 20000)
 		{
 			ClearEventMask(owner, EntityEvent.FRAME);
 			return;
 		}
 		
 		IEntity character = SCR_PlayerController.GetLocalControlledEntity();
-		if (!character)
+		if (!character || character != GetOwner())
 			return;
 		
 		FactionAffiliationComponent factionAffiliationComponent = FactionAffiliationComponent.Cast(character.FindComponent(FactionAffiliationComponent));

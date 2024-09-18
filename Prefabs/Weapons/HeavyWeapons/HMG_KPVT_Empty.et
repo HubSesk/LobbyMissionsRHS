@@ -1,0 +1,17 @@
+GenericEntity : "{85FA621B61AA5BD9}Prefabs/Weapons/HeavyWeapons/HMG_KPVT.et" {
+ ID "51C2A741CB6EE505"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     FireModes {
+      BaseFireMode "{506B20D1476BA99E}" {
+       ManualAction 1
+      }
+     }
+     MagazineTemplate ""
+    }
+   }
+  }
+ }
+}

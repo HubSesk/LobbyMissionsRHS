@@ -11,3 +11,15 @@ modded class PS_GameModeCoop
 		Replication.BumpMe();
 	}
 }
+
+// Best way possible
+modded class PS_FreezeTimeCounter
+{
+	static int s_iCurrentFreezeTime = int.MAX;
+	
+	override void SetTime(int time)
+	{
+		super.SetTime(time);
+		s_iCurrentFreezeTime = time;
+	}
+}

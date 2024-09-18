@@ -1,0 +1,18 @@
+MatPBRBasic {
+ Emissive 1 0.885 0.562 1
+ EmissiveLV 2.501
+ Sort translucent
+ CastShadow 0
+ SpecularMul 0.6
+ AlphaMul 2
+ BlendMode AlphaBlend
+ RoughnessScale 1.569
+ MetalnessScale 1.131
+ DielectricReflectance 0.118
+ EmissiveMap "{811A7D8457F74DCD}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_EM.edds"
+ BCRMap "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ OpacityMap "{46CF67CB400DECC9}Assets/_SharedData/Glass/ST_Glass_Streaks_01_A.edds"
+ NormalPower 0.247
+ NMOMap "{5E9B5A9AF633BD94}Assets/_SharedData/Metal/ST_Steel_Battered_NMO.edds"
+ ManualCascadesShadows 1
+}

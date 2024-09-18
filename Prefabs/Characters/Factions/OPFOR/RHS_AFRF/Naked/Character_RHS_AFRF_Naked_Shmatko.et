@@ -1,0 +1,21 @@
+SCR_ChimeraCharacter : "{40E63D3E7EF355D9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_SpectatorLabelCharacter "{5F357473BDE91270}" {
+   m_sSpectatorLabelLayout "{74BFB5E32526AE2B}UI/Spectator/SpectatorLabelIconCharacter_Target.layout"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Шматько"
+    m_Image "{502F9588153396A5}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Officer.edds"
+    m_aAuthoredLabels + {
+     42
+    }
+    m_aAutoLabels {
+     122
+    }
+   }
+  }
+ }
+ coords 1374.512 40.781 2344.408
+}

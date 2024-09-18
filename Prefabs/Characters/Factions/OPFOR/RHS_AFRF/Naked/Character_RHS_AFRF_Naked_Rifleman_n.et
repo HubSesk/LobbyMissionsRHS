@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Enabled 0
+    }
+    LoadoutSlotInfo Pants {
+     Enabled 0
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,300 @@
+$grp SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_Base.et" {
+ RHS_AFRF_G_002_8 {
+  components {
+   PS_GroupCallsignAssigner "{6264946083FB1BEC}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1393.401 36.445 2412.69
+  angleY 145.473
+  m_aUnitPrefabSlots {
+   "{163859F3753A9942}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_SL.et" "{CF6F87C43052B748}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_MG.et" "{A318C12D3E37250D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_AT.et" "{8EF954C77C4D7218}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_AAT.et" "{115F622238C11809}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_MG.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et" "{5A1F1BD88FC6C6E9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Rifleman.et"
+  }
+  m_bSnapToTerrain 0
+  m_aSpawnPosition {
+   PointInfo "{625D242E46812EF8}" {
+   }
+   PointInfo "{625D242DAC343D95}" {
+    Offset -4.8529 6.6314 35.0811
+    Angles 0 -84.2589 0
+   }
+   PointInfo "{625D242DB519F9CA}" {
+    Offset 1.6305 0 0.1451
+   }
+   PointInfo "{625D242DBC1AB5E1}" {
+    Offset 1.2436 0 -1.4343
+   }
+   PointInfo "{625D242D43EA98FA}" {
+    Offset -0.9356 0 0.0018
+   }
+   PointInfo "{625D242D512F4261}" {
+    Offset -2.187 0 -2.4112
+   }
+   PointInfo "{625D242D5AC8237C}" {
+    Offset -2.2736 0 -1.3527
+   }
+   PointInfo "{625D242D61CC3E80}" {
+    Offset -14.1228 -1.1154 44.3815
+    Angles 0 -49.6685 0
+   }
+  }
+ }
+ RHS_AFRF_G_010_8 {
+  components {
+   PS_GroupCallsignAssigner "{6264946084317310}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
+   }
+  }
+  coords 1404.266 36.445 2411.82
+  angleY -34.528
+  m_aUnitPrefabSlots {
+   "{163859F3753A9942}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_SL.et" "{115F622238C11809}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_MG.et" "{A318C12D3E37250D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_AT.et" "{8EF954C77C4D7218}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_AAT.et" "{7E590EDD929739E4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Medic.et" "{5A1F1BD88FC6C6E9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Rifleman.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et"
+  }
+  m_bSnapToTerrain 0
+  m_aSpawnPosition {
+   PointInfo "{625D242E46812EF8}" {
+   }
+   PointInfo "{625D242DAC343D95}" {
+    Offset 1.2428 0 -2.3198
+   }
+   PointInfo "{625D242DB519F9CA}" {
+    Offset 1.9609 0 0.0591
+    Angles 0 -81.09389 0
+   }
+   PointInfo "{625D242DBC1AB5E1}" {
+    Offset 1.2436 0 -1.4343
+   }
+   PointInfo "{625D242D43EA98FA}" {
+    Offset -43.291 -0.1693 -73.0737
+   }
+   PointInfo "{625D242D512F4261}" {
+    Offset -42.4938 -0.1335 -72.1514
+    Angles 0 -57.5779 0
+   }
+   PointInfo "{625D242D5AC8237C}" {
+    Offset -2.2736 0 -1.3527
+   }
+   PointInfo "{625D242D61CC3E80}" {
+    Offset -3.3598 0 0.2187
+    Angles 0 58.5423 0
+   }
+  }
+ }
+ RHS_AFRF_G_011_8 {
+  components {
+   PS_GroupCallsignAssigner "{6264946086BC1D19}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1398.238 36.445 2407.499
+  angleY -34.528
+  m_aUnitPrefabSlots {
+   "{163859F3753A9942}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_SL.et" "{115F622238C11809}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_MG.et" "{58384B9DB6291BDD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_AT_n.et" "{8EF954C77C4D7218}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_AAT.et" "{115F622238C11809}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_MG.et" "{C31879800D1FD416}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman_n.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et"
+  }
+  m_bSnapToTerrain 0
+  m_aSpawnPosition {
+   PointInfo "{625D242E46812EF8}" {
+   }
+   PointInfo "{625D242DAC343D95}" {
+    Offset 1.2428 0 -2.3198
+   }
+   PointInfo "{625D242DB519F9CA}" {
+    Offset -6.5802 0 -2.529
+    Angles 0 -149.11151 0
+   }
+   PointInfo "{625D242DBC1AB5E1}" {
+    Offset 1.2436 0 -1.4343
+   }
+   PointInfo "{625D242D43EA98FA}" {
+    Offset -0.9356 0 0.0018
+   }
+   PointInfo "{625D242D512F4261}" {
+    Offset -6.9099 0 -3.0925
+    Angles 0 -101.68851 0
+   }
+   PointInfo "{625D242D5AC8237C}" {
+    Offset -2.2736 0 -1.3527
+   }
+   PointInfo "{625D242D61CC3E80}" {
+    Offset -2.9569 0 0.4942
+    Angles 0 87.0438 0
+   }
+  }
+ }
+ RHS_AFRF_G_012_8 {
+  components {
+   PS_GroupCallsignAssigner "{6264946087AEBDD6}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1405.267 36.445 2420.992
+  angleY 145.473
+  m_aUnitPrefabSlots {
+   "{163859F3753A9942}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_SL.et" "{115F622238C11809}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_MG.et" "{A318C12D3E37250D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_AT.et" "{8EF954C77C4D7218}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_AAT.et" "{115F622238C11809}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_MG.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et"
+  }
+  m_bSnapToTerrain 0
+  m_aSpawnPosition {
+   PointInfo "{625D242E46812EF8}" {
+   }
+   PointInfo "{625D242DAC343D95}" {
+    Offset 1.2428 0 -2.3198
+   }
+   PointInfo "{625D242DB519F9CA}" {
+    Offset 1.5571 0 0.2791
+    Angles 0 -72.5843 0
+   }
+   PointInfo "{625D242DBC1AB5E1}" {
+    Offset 1.2436 0 -1.4343
+   }
+   PointInfo "{625D242D43EA98FA}" {
+    Offset -0.9356 0 0.0018
+   }
+   PointInfo "{625D242D512F4261}" {
+    Offset -2.187 0 -2.4112
+   }
+   PointInfo "{625D242D5AC8237C}" {
+    Offset -2.2736 0 -1.3527
+   }
+   PointInfo "{625D242D61CC3E80}" {
+    Offset -2.9311 0 0.093
+    Angles 0 58.5423 0
+   }
+  }
+ }
+ RHS_AFRF_G_020_7 {
+  components {
+   PS_GroupCallsignAssigner "{6264946088BDE323}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 0
+   }
+  }
+  coords 1399.457 36.445 2416.883
+  angleY 145.473
+  m_aUnitPrefabSlots {
+   "{163859F3753A9942}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_SL.et" "{115F622238C11809}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_MG.et" "{45D0301F2794BDF7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_AT.et" "{8EF954C77C4D7218}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_AAT.et" "{115F622238C11809}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_MG.et" "{5A1F1BD88FC6C6E9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Rifleman.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et"
+  }
+  m_bSnapToTerrain 0
+  m_aSpawnPosition {
+   PointInfo "{625D242E46812EF8}" {
+   }
+   PointInfo "{625D242DAC343D95}" {
+    Offset 1.2428 0 -2.3198
+   }
+   PointInfo "{625D242DB519F9CA}" {
+    Offset 89.8206 0.4874 46.0559
+    Angles 0 25.6904 0
+   }
+   PointInfo "{625D242DBC1AB5E1}" {
+    Offset 1.2436 0 -1.4343
+   }
+   PointInfo "{625D242D43EA98FA}" {
+    Offset -0.9356 0 0.0018
+   }
+   PointInfo "{625D242D512F4261}" {
+    Offset 89.4955 0.8622 -45.3694
+    Angles 0 115.35161 0
+   }
+   PointInfo "{625D242D5AC8237C}" {
+    Offset -2.2736 0 -1.3527
+   }
+   PointInfo "{625D242D61CC3E80}" {
+    Offset -2.8136 0 0.3732
+    Angles 0 77.37761 0
+   }
+  }
+ }
+ RHS_AFRF_G_021_8 {
+  components {
+   PS_GroupCallsignAssigner "{6264946089831E19}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1410.163 36.445 2416.091
+  angleY -34.528
+  m_aUnitPrefabSlots {
+   "{163859F3753A9942}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_SL.et" "{115F622238C11809}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_MG.et" "{A318C12D3E37250D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_AT.et" "{8EF954C77C4D7218}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_AAT.et" "{115F622238C11809}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_MG.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et"
+  }
+  m_bSnapToTerrain 0
+  m_aSpawnPosition {
+   PointInfo "{625D242E46812EF8}" {
+   }
+   PointInfo "{625D242DAC343D95}" {
+    Offset 1.2428 0 -2.3198
+   }
+   PointInfo "{625D242DB519F9CA}" {
+    Offset 1.418 0 -0.0963
+    Angles 0 -81.09389 0
+   }
+   PointInfo "{625D242DBC1AB5E1}" {
+    Offset 1.2436 0 -1.4343
+   }
+   PointInfo "{625D242D43EA98FA}" {
+    Offset -0.9356 0 0.0018
+   }
+   PointInfo "{625D242D512F4261}" {
+    Offset -2.187 0 -2.4112
+   }
+   PointInfo "{625D242D5AC8237C}" {
+    Offset -2.2736 0 -1.3527
+   }
+   PointInfo "{625D242D61CC3E80}" {
+    Offset -3.0999 0 -0.1103
+    Angles 0 58.5423 0
+   }
+  }
+ }
+ RHS_AFRF_G_001_3 {
+  components {
+   PS_GroupCallsignAssigner "{62649460FDCBA3C5}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1373.151 40.781 2344.147
+  angleY 91.575
+  m_aUnitPrefabSlots {
+   "{1BFEF4C3EF42BFBE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Shmatko.et" "{5A1F1BD88FC6C6E9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Rifleman.et" "{5FC43523A4F93FC7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Petrovich.et"
+  }
+  m_bSnapToTerrain 0
+  m_aSpawnPosition {
+   PointInfo "{625D242E46812EF8}" {
+   }
+   PointInfo "{625D242DAC343D95}" {
+    Offset -12.6142 -3.2177 -0.461
+    Angles 0 80.8757 0
+   }
+   PointInfo "{625D242DB519F9CA}" {
+    Offset -83.5409 -2.871 -13.7733
+    Angles 0 52.8823 0
+   }
+   PointInfo "{625D242DBC1AB5E1}" {
+    Offset 1.2436 0 -1.4343
+   }
+   PointInfo "{625D242D43EA98FA}" {
+    Offset -0.9356 0 0.0018
+   }
+   PointInfo "{625D242D512F4261}" {
+    Offset -2.187 0 -2.4112
+   }
+   PointInfo "{625D242D5AC8237C}" {
+    Offset -2.2736 0 -1.3527
+   }
+   PointInfo "{625D242D61CC3E80}" {
+    Offset -3.0999 0 -0.1103
+    Angles 0 58.5423 0
+   }
+  }
+ }
+}

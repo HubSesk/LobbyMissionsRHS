@@ -1,0 +1,18 @@
+$grp Vehicle : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
+ UH1H1 {
+  coords 4044.596 0.687 55.786
+  angleY -88.743
+ }
+ UH1H2 {
+  coords 4044.209 0.687 37.039
+  angleY -88.743
+ }
+ UH1H3 {
+  coords 4042.633 0.687 14.887
+  angleY -88.743
+ }
+}
+Vehicle UH1H_armed1 : "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et" {
+ coords 4044.133 0.687 82.411
+ angleY -90
+}

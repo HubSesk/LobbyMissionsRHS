@@ -1,0 +1,106 @@
+$grp PS_Spawn {
+ KSAK {
+  coords 1366.825 41.204 2343.071
+  angleX -0.605
+  angleY 119.696
+  angleZ -88.328
+  m_sPrefabName "{9B8800768D78B0F6}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_npz_rail_1p87_1p90.et"
+ }
+ PM {
+  coords 1375.042 41.705 2343.18
+  angleX -3.181
+  angleY 176.489
+  angleZ 89.746
+  m_sPrefabName "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+ }
+}
+GenericEntity : "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" {
+ coords 1374.69 41.686 2343.244
+ angleY 35.891
+}
+GenericEntity : "{302634D9E72AF518}Prefabs/Yarmarka/EMRSetStool.et" {
+ coords 1372.58 40.781 2345.951
+ angleY 153.5
+ Flags 2098179
+ {
+  GameEntity {
+   ID "60A33EF56C638A75"
+   Flags 2097155
+  }
+  GameEntity {
+   ID "60A33EF56C638A72"
+   Flags 2097155
+  }
+  GenericEntity {
+   ID "60A33EF56C638A77"
+   Flags 2097155
+  }
+ }
+}
+GenericEntity : "{362BF07E20C86802}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_1Canal.et" {
+ coords 1374.686 41.703 2345.75
+ angleX 90
+ angleY 176
+ angleZ -85.824
+}
+GameEntity : "{71994C074722FD7E}Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Shirt_EMR.et" {
+ coords 1372.254 41.252 2343.962
+}
+GameEntity : "{727037C2C61797A8}Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Pants_EMR.et" {
+ coords 1372.253 41.269 2344.715
+}
+GenericEntity : "{7C828AB80ED1D9B0}Prefabs/Characters/Footwear/Boots_Faradey_906/Footware_Faradey_906.et" {
+ coords 1372.778 40.781 2345.179
+ angleY 84.523
+}
+GenericEntity : "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" {
+ coords 1374.361 41.686 2343.316
+ angleY 52
+}
+$grp GenericEntity : "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" {
+ {
+  coords 1375.13 41.686 2343.171
+  angleY -71.062
+  angleZ -90
+ }
+ {
+  coords 1375.061 41.686 2343.246
+  angleY -41.201
+  angleZ -90
+ }
+}
+GenericEntity : "{AF6BB5F95F9E48A5}Prefabs/Yarmarka/EMRSet.et" {
+ coords 1367.939 41.19 2342.935
+ angleY -49.085
+ {
+  GameEntity {
+   ID "625C97CAF6D94366"
+   coords 0.075 0.136 0.129
+   angleY 47.036
+  }
+ }
+}
+GenericEntity : "{AF7DD74AA66ED384}Prefabs/Pivo.et" {
+ coords 1375.554 41.686 2349.473
+ angleY -67
+}
+$grp GenericEntity : "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et" {
+ {
+  coords 1367.271 41.206 2343.14
+  angleX 0.677
+  angleY 5.703
+  angleZ 89.378
+ }
+ {
+  coords 1367.394 41.199 2343.05
+  angleX -3.052
+  angleY 67.164
+  angleZ 91.849
+ }
+ {
+  coords 1367.482 41.201 2343.01
+  angleX -3.568
+  angleY 98.228
+  angleZ 91.987
+ }
+}

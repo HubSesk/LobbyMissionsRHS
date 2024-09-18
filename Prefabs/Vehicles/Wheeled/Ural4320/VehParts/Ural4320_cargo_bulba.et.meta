@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1C298F1A16C3F440}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_cargo_bulba.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

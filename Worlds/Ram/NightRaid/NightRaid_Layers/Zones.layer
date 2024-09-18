@@ -1,0 +1,240 @@
+$grp PolylineShapeEntity : "{52693A94BD70373C}Prefabs/PolyZone/PolyZone_Freeze.et" {
+ {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_aVisibleForFactions {
+     "US" "USSR"
+    }
+   }
+  }
+  coords 4032.629 0.688 89.472
+  Points {
+   ShapePoint "{6264BE9091C8B320}" {
+    Position 55.575 0 -0.306
+   }
+   ShapePoint "{6264BE9094A01D01}" {
+    Position 55.875 0 -84.927
+   }
+   ShapePoint "{6264BE9096620A94}" {
+    Position 0.889 0 -85.569
+   }
+  }
+  {
+   PS_PolyZoneTrigger {
+    ID "60FD050C87E232D8"
+    m_polyZoneEffect PS_PolyZoneEffectFreezeZone "{60FD050F32C8D297}" {
+     m_fKillTime 30
+    }
+    m_sFactionKey "RHS_USAF"
+   }
+  }
+ }
+ {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_aVisibleForFactions {
+     "US" "USSR"
+    }
+   }
+  }
+  coords 1435.945 36.626 2323.982
+  Points {
+   ShapePoint "{60E90266E922A02A}" {
+    Position -0.184 0.184 -0.058
+   }
+   ShapePoint "{6264BE92BAAC8007}" {
+    Position -86.149 0.64 0.698
+   }
+   ShapePoint "{6264BE92BDBF3067}" {
+    Position -141.8 0.854 80.562
+   }
+   ShapePoint "{6264BE92BF45D79A}" {
+    Position -54.227 0.197 138.68
+   }
+   ShapePoint "{6264BE9242382DB6}" {
+    Position 1.197 0.494 138.196
+   }
+  }
+  {
+   PS_PolyZoneTrigger {
+    ID "60FD050C87E232D8"
+    m_polyZoneEffect PS_PolyZoneEffectFreezeZone "{60FD050F32C8D297}" {
+     m_fKillTime 30
+    }
+    m_sFactionKey "RHS_AFRF"
+   }
+  }
+ }
+}
+$grp PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
+ ZoneMilitaryBase {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+    m_cPolygonColor 0.855 0.031 0.028 0.251
+    m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+    m_cPolygonBorderColor 0.855 0.031 0.028 0.251
+    m_aVisibleForFactions {
+     "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA" ""
+    }
+   }
+  }
+  coords 1349.85 37.205 2324.646
+  Points {
+   ShapePoint "{6264BE9872623277}" {
+    Position 85.919 -0.395 -0.732
+   }
+   ShapePoint "{6264BE987506BC3C}" {
+    Position 87.288 -0.085 137.564
+   }
+   ShapePoint "{6264BE9878A1E247}" {
+    Position 31.861 -0.382 138.05
+   }
+   ShapePoint "{6264BE987AF80BDD}" {
+    Position -55.708 0.274 79.892
+   }
+  }
+ }
+ ZoneUSAttack {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+    m_cPolygonColor 0.016 0.552 0.905 0.251
+    m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+    m_cPolygonBorderColor 0.016 0.552 0.905 0.251
+    m_aVisibleForFactions {
+     "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA" ""
+    }
+   }
+  }
+  coords 3302.079 37.205 740.922
+  Points {
+   ShapePoint "{6264BE9872623277}" {
+    Position 112.896 -109.592 15.31
+   }
+   ShapePoint "{6264BE99B576EE21}" {
+    Position 30.166 -124.933 -222.238
+   }
+   ShapePoint "{6264BE99B89D3FB4}" {
+    Position 126.651 -146.475 -329.074
+   }
+   ShapePoint "{6264BE99B98DE03B}" {
+    Position 206.786 -127.136 -98.319
+   }
+   ShapePoint "{6264BE99BEC0E80C}" {
+    Position 439.025 -144.702 -12.396
+   }
+   ShapePoint "{6264BE99BE491412}" {
+    Position 344.549 -155.917 96.265
+   }
+  }
+ }
+ ZoneUSAttack2 {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+    m_cPolygonColor 0.016 0.552 0.905 0.251
+    m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+    m_cPolygonBorderColor 0.016 0.552 0.905 0.251
+    m_aVisibleForFactions {
+     "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA" ""
+    }
+   }
+  }
+  coords 3476.59 37.205 548.661
+  Points {
+   ShapePoint "{6264BE9872623277}" {
+    Position 91.754 -144.806 31.637
+   }
+   ShapePoint "{6264BE99B576EE21}" {
+    Position 6.545 -158.641 -206.196
+   }
+   ShapePoint "{6264BE99B89D3FB4}" {
+    Position 121.226 -172.684 -343.955
+   }
+   ShapePoint "{6264BE99B98DE03B}" {
+    Position 198.791 -169.231 -83.06
+   }
+   ShapePoint "{6264BE99BEC0E80C}" {
+    Position 428.168 -185.231 6.407
+   }
+   ShapePoint "{6264BE99BE491412}" {
+    Position 323.058 -162.561 116.139
+   }
+  }
+ }
+ ZoneUSAttack3 {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+    m_cPolygonColor 0.016 0.552 0.905 0.251
+    m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+    m_cPolygonBorderColor 0.016 0.552 0.905 0.251
+    m_aVisibleForFactions {
+     "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA" ""
+    }
+   }
+  }
+  coords 3601.927 37.205 425.596
+  Points {
+   ShapePoint "{6264BE9872623277}" {
+    Position 121.966 -178.769 -11.906
+   }
+   ShapePoint "{6264BE99B576EE21}" {
+    Position 35.185 -182.351 -267.184
+   }
+   ShapePoint "{6264BE99B89D3FB4}" {
+    Position 138.863 -179.902 -377.555
+   }
+   ShapePoint "{6264BE99B98DE03B}" {
+    Position 244.691 -192.402 -139.592
+   }
+   ShapePoint "{6264BE99BEC0E80C}" {
+    Position 465.591 -195.178 -42.901
+   }
+   ShapePoint "{6264BE99BE491412}" {
+    Position 347.037 -187.279 80.222
+   }
+  }
+ }
+ PlatformZone {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+    m_cPolygonColor 0.016 0.552 0.905 0.251
+    m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+    m_cPolygonBorderColor 0.016 0.552 0.905 0.251
+   }
+  }
+  coords 4031.447 1 90.453
+  Points {
+   ShapePoint "{6264BE9A69C81829}" {
+    Position 0.031 0 -0.23
+   }
+   ShapePoint "{6264BE9A6C0DF3E8}" {
+    Position 58.118 0 0.423
+   }
+   ShapePoint "{6264BE9A6E202BA9}" {
+    Position 58.513 0 -88.621
+   }
+   ShapePoint "{6264BE9A70926041}" {
+    Position 0.218 0 -88.571
+   }
+  }
+  {
+   GenericEntity {
+    components {
+     MeshObject "{6264BE9AABD744BE}" {
+     }
+     PS_PolyZoneMeshComponent "{6264BE9AA80843D8}" {
+      m_fHeight 2
+      m_fUndergroundHeight 8
+      m_Material "{034185AE1A11B656}Assets/Editor/VirtualArea/VirtualArea_01_Warning.emat"
+     }
+     Hierarchy "{6264BE9AAC4A41AB}" {
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,56 @@
+$grp GenericEntity : "{85C71F17C37D274C}Prefabs/Structures/BuildingParts/Entry/Entry_Block_Platform_01_3x6.et" {
+ {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{6264BE9A01C81923}" {
+      SourceMaterial "Entry_block_platform_3x6_01"
+      AssignedMaterial "{9668A21511C6F791}Assets/_SharedData/Decals/Invisible_Material.emat"
+     }
+     MaterialAssignClass "{6264BE9A01C81934}" {
+      SourceMaterial "Entry_block_platform_3x6_01_MLOD"
+      AssignedMaterial "{9668A21511C6F791}Assets/_SharedData/Decals/Invisible_Material.emat"
+     }
+    }
+   }
+  }
+  coords 4060.478 0.687 16.249
+  scale 10
+ }
+ {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{6264BE9A01C80A86}" {
+      SourceMaterial "Entry_block_platform_3x6_01"
+      AssignedMaterial "{9668A21511C6F791}Assets/_SharedData/Decals/Invisible_Material.emat"
+     }
+     MaterialAssignClass "{6264BE9A01C80A91}" {
+      SourceMaterial "Entry_block_platform_3x6_01_MLOD"
+      AssignedMaterial "{9668A21511C6F791}Assets/_SharedData/Decals/Invisible_Material.emat"
+     }
+    }
+   }
+  }
+  coords 4060.478 0.687 46.38
+  scale 10
+ }
+ {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{6264BE9A01C83E82}" {
+      SourceMaterial "Entry_block_platform_3x6_01"
+      AssignedMaterial "{9668A21511C6F791}Assets/_SharedData/Decals/Invisible_Material.emat"
+     }
+     MaterialAssignClass "{6264BE9A01C83E8E}" {
+      SourceMaterial "Entry_block_platform_3x6_01_MLOD"
+      AssignedMaterial "{9668A21511C6F791}Assets/_SharedData/Decals/Invisible_Material.emat"
+     }
+    }
+   }
+  }
+  coords 4060.478 0.687 76.464
+  scale 10
+ }
+}

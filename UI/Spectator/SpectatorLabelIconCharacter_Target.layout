@@ -1,0 +1,34 @@
+FrameWidgetClass : "{68625BAD23CEE68F}UI/Spectator/SpectatorLabelIconCharacter.layout" {
+ {
+  ButtonWidgetClass "{61CB0492818382EF}" {
+   Prefab "{61CB0492818382EF}"
+   {
+    OverlayWidgetClass "{60DB071976551894}" {
+     Prefab "{60DB071976551894}"
+     {
+      ImageWidgetClass "{60DCA24F25DC2EF8}" {
+       Prefab "{60DCA24F25DC2EF8}"
+       Image "Hostile_Land_Bcg"
+       Size 64 64
+      }
+      OverlayWidgetClass "{60DCA2489B9D5917}" {
+       Prefab "{60DCA2489B9D5917}"
+       {
+        ImageWidgetClass "{60DB07187E8C4DF4}" {
+         Prefab "{60DB07187E8C4DF4}"
+         Image "Hostile_Land_Bcg"
+         Size 64 64
+        }
+        ImageWidgetClass "{60DB07187FD3FDF7}" {
+         Prefab "{60DB07187FD3FDF7}"
+         Image "Hostile_Land"
+         Size 64 64
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

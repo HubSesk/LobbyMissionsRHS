@@ -1,0 +1,23 @@
+GenericEntity : "{A0E4130C2D86B4B9}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Wheels/BTR70_wheel_left_01.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{6264947C2CE77178}" {
+     SourceMaterial "BTR70_wheels_BA5783DD237A91FD"
+     AssignedMaterial "{9668A21511C6F791}Assets/_SharedData/Decals/Invisible_Material.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{6264947C3238CCA1}" {
+   Slots {
+    EntitySlotInfo Wheel {
+     Offset 0 -0.6161 0
+     Angles 0 90 0
+     Prefab "{AAB9FE048FBDB800}Prefabs/Props/Agriculture/Cartwheel_01_wheeled.et"
+    }
+   }
+  }
+ }
+ coords 1342.008 37.814 2403.748
+}

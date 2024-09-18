@@ -1,0 +1,50 @@
+GenericEntity : "{61980E6F3CA71107}Prefabs/Items/Cats/Dingus.et" {
+ coords 1376.846 41.824 2346.132
+ angleX 5.895
+ angleY -91.04
+ angleZ -0.357
+}
+$grp Tree : "{798965560B99FE61}Prefabs/Vegetation/Plant/p_fucus_fesiculosus_02.et" {
+ {
+  components {
+   MeshObject "{5246A79DB462C150}" {
+    Materials {
+     MaterialAssignClass "{625CB968BF22DA15}" {
+      SourceMaterial "fucusBase"
+      AssignedMaterial "{F7257A05DD89012F}Assets/Vegetation/Plant/Fucus_Vesiculosus/Data/Oblako.emat"
+     }
+     MaterialAssignClass "{625CB968BF22DA27}" {
+      SourceMaterial "fucusPlanes"
+      AssignedMaterial "{9668A21511C6F791}Assets/_SharedData/Decals/Invisible_Material.emat"
+     }
+    }
+   }
+  }
+  coords 1385.001 112.545 2370.982
+  angleY -51.151
+  scale 0.118
+ }
+ {
+  components {
+   MeshObject "{5246A79DB462C150}" {
+    Materials {
+     MaterialAssignClass "{625CB968BF22DA15}" {
+      SourceMaterial "fucusBase"
+      AssignedMaterial "{F7257A05DD89012F}Assets/Vegetation/Plant/Fucus_Vesiculosus/Data/Oblako.emat"
+     }
+     MaterialAssignClass "{625CB968BF22DA27}" {
+      SourceMaterial "fucusPlanes"
+      AssignedMaterial "{9668A21511C6F791}Assets/_SharedData/Decals/Invisible_Material.emat"
+     }
+    }
+   }
+  }
+  coords 1385.001 112.539 2370.982
+  angleY 128.849
+  angleZ -180
+  scale 0.118
+ }
+}
+GenericEntity : "{7BF46B8343579CFB}Prefabs/Items/Cats/Sugnid.et" {
+ coords 1385.004 112.546 2370.965
+}

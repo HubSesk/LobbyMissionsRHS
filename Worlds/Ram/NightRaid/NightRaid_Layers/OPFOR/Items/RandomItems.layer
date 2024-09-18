@@ -1,0 +1,61 @@
+GenericEntity : "{2F8F0BFDF42FC830}Prefabs/Items/Food/CheeseRound_2.et" {
+ coords 1390.844 37.348 2409.854
+ angleY 11.755
+}
+GenericEntity : "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et" {
+ coords 1383.643 37.872 2408.606
+ angleX -23.606
+ angleY 54.967
+}
+GenericEntity : "{536EA7D8D7E9AB29}Prefabs/Items/Food/CheeseRound_Base.et" {
+ coords 1411.102 37.203 2329.943
+}
+GenericEntity : "{543B089BFEA21693}Prefabs/Items/Food/CheeseSmol_1.et" {
+ coords 1390.813 37.348 2409.698
+ angleY -166.245
+}
+GameEntity : "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et" {
+ coords 1390.681 37.354 2410.228
+ angleX -19.871
+ angleY -153.213
+ angleZ 3.846
+}
+GenericEntity : "{6A39B5843B3F36DA}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant.et" {
+ coords 1389.059 37.195 2400.701
+ angleX -0.349
+ angleY -27.301
+ angleZ -178.844
+}
+$grp GenericEntity : "{7AC107CA7AFC9B59}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet.et" {
+ {
+  coords 1384.538 37.995 2407.731
+  angleX -80.488
+  angleY 97.636
+ }
+ {
+  coords 1392.257 38.346 2401.816
+  angleX -90
+  angleY 45
+  angleZ -180
+ }
+}
+GenericEntity : "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" {
+ coords 1390.858 37.504 2409.922
+ angleY 86.864
+}
+$grp GenericEntity : "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" {
+ {
+  coords 1391.127 37.348 2409.358
+  angleY 170.702
+  angleZ -90
+ }
+ {
+  coords 1391.011 37.348 2409.365
+  angleY -52.606
+  angleZ -90
+ }
+}
+GenericEntity : "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" {
+ coords 1390.646 37.348 2410.179
+ angleY 30.804
+}

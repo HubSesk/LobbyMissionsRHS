@@ -1,0 +1,27 @@
+GenericEntity : "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et" {
+ coords 1360.569 37.929 2428.552
+ angleY 56.075
+}
+GenericEntity : "{386F3C7B426699BD}Prefabs/Items/Food/CheeseSmol_2.et" {
+ coords 1359.713 38.575 2425.379
+}
+GenericEntity : "{543B089BFEA21693}Prefabs/Items/Food/CheeseSmol_1.et" {
+ coords 1361.741 38.828 2426.836
+ angleY 180
+}
+$grp GenericEntity : "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" {
+ {
+  coords 1364.129 38.822 2431.108
+  angleY -42.929
+  angleZ -90
+ }
+ {
+  coords 1364.22 38.822 2431.115
+  angleY -80.237
+  angleZ -90
+ }
+}
+GameEntity : "{E05D8C4D2B36C8F3}Prefabs/Characters/Uniforms/Jacket_6b51_VKPO.et" {
+ coords 1360.493 39.081 2425.589
+ angleY -58.045
+}

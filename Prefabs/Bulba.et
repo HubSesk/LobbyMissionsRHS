@@ -30,9 +30,11 @@ GenericEntity {
   PS_BulbaComponent "{6047326A7F7D7CAE}" {
   }
   RigidBody "{604732700271E266}" {
-   Mass 15
-   LinearSleepingThreashold 0.5
-   AngularSleepingThreashold 0.5
+   Mass 3
+   LinearDamping 0.5
+   AngularDamping 0.5
+   LinearSleepingThreashold 10
+   AngularSleepingThreashold 10
    ResponseIndex "TinyDestructible"
    ModelGeometry 1
    Static 0
@@ -100,6 +102,9 @@ GenericEntity {
      }
      HolsteredItemAttributes "{604732700271EC90}" {
       HiddenHolstered 1
+     }
+     SCR_ItemOfInterestAttribute "{625CB942C0ED5B5A}" {
+      m_InterestType AMMO
      }
     }
     CommonItemType "NONE"
@@ -181,6 +186,8 @@ GenericEntity {
      }
     }
    }
+  }
+  NwkPhysicsMovementComponent "{625CB94442065F1B}" {
   }
   RplComponent "{604732700271EE9A}" {
    "Rpl State Override" Runtime
