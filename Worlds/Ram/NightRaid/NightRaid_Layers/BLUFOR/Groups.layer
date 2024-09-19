@@ -1,42 +1,74 @@
-$grp SCR_AIGroup : "{F831DFB4A9B46152}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_RifleSquad.et" {
- {
+$grp SCR_AIGroup : "{DA70F249A8B7A366}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Group_USAF_USMC_MARSOC_RifleSquad.et" {
+ RHS_USAF_G_010_9 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation ""
    }
+   PS_GroupCallsignAssigner "{6264F527AB6129D7}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
+   }
   }
-  coords 4057.113 0.686 10.956
-  angleY -90
+  coords 4040.989 0.687 44.483
+  m_aUnitPrefabSlots +{
+  }
   m_bSnapToTerrain 0
  }
- {
+ RHS_USAF_G_011_9 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation ""
    }
+   PS_GroupCallsignAssigner "{6264F527AC7AAE39}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
   }
-  coords 4056.59 0.686 32.204
-  angleY -90
+  coords 4072.312 0.687 44.629
   m_bSnapToTerrain 0
  }
- {
+ RHS_USAF_G_012_9 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation ""
    }
+   PS_GroupCallsignAssigner "{6264F527AE01BA93}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
   }
-  coords 4055.965 0.686 51.573
-  angleY -90
+  coords 4039.011 0.687 8.294
   m_bSnapToTerrain 0
  }
- {
+ RHS_USAF_G_020_9 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation ""
    }
+   PS_GroupCallsignAssigner "{6264F527B0D57BC8}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 0
+   }
   }
-  coords 4055.447 0.686 78.218
-  angleY -90
+  coords 4074.046 0.687 7.273
   m_bSnapToTerrain 0
  }
+}
+SCR_AIGroup RHS_USAF_G_001_4 : "{F2B7D404B66FD853}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Group_USAF_USMC_MARSOC_FireTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+  PS_GroupCallsignAssigner "{6264F5279CCC5ABA}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 4065.243 0.687 75.122
+ m_bSnapToTerrain 0
 }
