@@ -10,7 +10,7 @@ $grp SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Dem
   coords 1393.401 36.445 2412.69
   angleY 145.473
   m_aUnitPrefabSlots {
-   "{163859F3753A9942}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_SL.et" "{CF6F87C43052B748}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_MG.et" "{A318C12D3E37250D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_AT.et" "{8EF954C77C4D7218}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_AAT.et" "{115F622238C11809}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_MG.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et" "{5A1F1BD88FC6C6E9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Rifleman.et"
+   "{163859F3753A9942}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_SL.et" "{112ECCF48A63365E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_MG_Duty.et" "{A318C12D3E37250D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_AT.et" "{8EF954C77C4D7218}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_AAT.et" "{115F622238C11809}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_MG.et" "{551A8549391E5468}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman_San.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et" "{ABE844A35CA22FD3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Rifleman_Duty.et"
   }
   m_bSnapToTerrain 0
   m_aSpawnPosition {
@@ -30,7 +30,8 @@ $grp SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Dem
     Offset -0.9356 0 0.0018
    }
    PointInfo "{625D242D512F4261}" {
-    Offset -2.187 0 -2.4112
+    Offset -9.2022 1.4113 -21.8132
+    Angles 0 90.0705 0
    }
    PointInfo "{625D242D5AC8237C}" {
     Offset -2.2736 0 -1.3527
@@ -52,7 +53,7 @@ $grp SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Dem
   coords 1404.266 36.445 2411.82
   angleY -34.528
   m_aUnitPrefabSlots {
-   "{163859F3753A9942}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_SL.et" "{115F622238C11809}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_MG.et" "{A318C12D3E37250D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_AT.et" "{8EF954C77C4D7218}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_AAT.et" "{7E590EDD929739E4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Medic.et" "{5A1F1BD88FC6C6E9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Rifleman.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et"
+   "{163859F3753A9942}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_SL.et" "{115F622238C11809}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_MG.et" "{A318C12D3E37250D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_AT.et" "{8EF954C77C4D7218}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_AAT.et" "{606E6183FCAF65DC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Medic_Duty.et" "{ABE844A35CA22FD3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Rifleman_Duty.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et"
   }
   m_bSnapToTerrain 0
   m_aSpawnPosition {
@@ -69,7 +70,8 @@ $grp SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Dem
     Offset 1.2436 0 -1.4343
    }
    PointInfo "{625D242D43EA98FA}" {
-    Offset -43.291 -0.1693 -73.0737
+    Offset -6.5119 1.4235 24.9473
+    Angles 0 61.844 0
    }
    PointInfo "{625D242D512F4261}" {
     Offset -42.4938 -0.1335 -72.1514
@@ -138,7 +140,7 @@ $grp SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Dem
   coords 1405.267 36.445 2420.992
   angleY 145.473
   m_aUnitPrefabSlots {
-   "{163859F3753A9942}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_SL.et" "{115F622238C11809}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_MG.et" "{A318C12D3E37250D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_AT.et" "{8EF954C77C4D7218}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_AAT.et" "{115F622238C11809}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_MG.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et"
+   "{163859F3753A9942}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_SL.et" "{115F622238C11809}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_MG.et" "{3C3226F08F93F918}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_AT_san.et" "{8EF954C77C4D7218}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_AAT.et" "{115F622238C11809}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_MG.et" "{551A8549391E5468}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman_San.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et"
   }
   m_bSnapToTerrain 0
   m_aSpawnPosition {
@@ -148,8 +150,8 @@ $grp SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Dem
     Offset 1.2428 0 -2.3198
    }
    PointInfo "{625D242DB519F9CA}" {
-    Offset 1.5571 0 0.2791
-    Angles 0 -72.5843 0
+    Offset 5.1984 1.4058 -19.501
+    Angles 0 77.6707 0
    }
    PointInfo "{625D242DBC1AB5E1}" {
     Offset 1.2436 0 -1.4343
@@ -158,7 +160,8 @@ $grp SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Dem
     Offset -0.9356 0 0.0018
    }
    PointInfo "{625D242D512F4261}" {
-    Offset -2.187 0 -2.4112
+    Offset 8.9944 1.4102 -19.5279
+    Angles 0 -91.9467 0
    }
    PointInfo "{625D242D5AC8237C}" {
     Offset -2.2736 0 -1.3527
@@ -180,7 +183,7 @@ $grp SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Dem
   coords 1399.457 36.445 2416.883
   angleY 145.473
   m_aUnitPrefabSlots {
-   "{163859F3753A9942}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_SL.et" "{115F622238C11809}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_MG.et" "{45D0301F2794BDF7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_AT.et" "{8EF954C77C4D7218}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_AAT.et" "{115F622238C11809}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_MG.et" "{5A1F1BD88FC6C6E9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Rifleman.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et"
+   "{163859F3753A9942}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_SL.et" "{115F622238C11809}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_MG.et" "{015CD1BF7323AD6B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_AT_Duty.et" "{8EF954C77C4D7218}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_AAT.et" "{115F622238C11809}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_MG.et" "{ABE844A35CA22FD3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Rifleman_Duty.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et" "{D9B7F661B397C3B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Naked/Character_RHS_AFRF_Naked_Rifleman.et"
   }
   m_bSnapToTerrain 0
   m_aSpawnPosition {

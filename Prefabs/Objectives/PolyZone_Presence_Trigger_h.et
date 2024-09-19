@@ -1,0 +1,17 @@
+PolylineShapeEntity : "{368E14ECDB722424}Prefabs/PolyZone/PolyZone_Presence_Trigger.et" {
+ ID "60E902668148288E"
+ coords -39.736 0 4227.727
+ {
+  PS_PolyZoneObjectivePresence {
+   ID "6114FBAF543CBBC1"
+   components {
+    RplComponent "{62667BFA82FD10BF}" {
+    }
+    Hierarchy "{62667BFA8368715A}" {
+    }
+   }
+   m_bAliveOnly 1
+   m_bReverseObjective 1
+  }
+ }
+}

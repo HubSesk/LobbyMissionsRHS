@@ -1,0 +1,22 @@
+GenericEntity {
+ ID "62667671A0A40A43"
+ components {
+  SignalsManagerComponent "{6266767187108655}" {
+  }
+  SoundComponent "{62667671871087AA}" {
+   Filenames {
+    "{D1AC34C3238C11F7}MissionAudio/NightRaid/Alarm.acp"
+   }
+   OnFrameUpdate 1
+   DistanceManagement 0
+  }
+  RplComponent "{62667671871087D7}" {
+   Streamable Disabled
+  }
+  PS_AlarmPlaySound "{62667672714F95F4}" {
+   m_sEventName "SOUND_SIREN_GENERIC"
+   m_fPlayTime 146.2
+  }
+ }
+ coords 1379.855 47.31 2388.285
+}
