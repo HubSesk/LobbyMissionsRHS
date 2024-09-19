@@ -1,6 +1,125 @@
+CinematicEntity cinetest {
+ coords 0 0 0
+ Scene CinematicScene "{626731424ACE1FE5}" {
+  EndFrame 800
+  Tracks {
+   CameraCinematicTrack "{6267314255CCE528}" {
+    TrackName "Camera"
+    Position Vector3CinematicTrack "{6267314255CCE511}" {
+     TrackName "Position"
+     X FloatCinematicTrack "{6267314255CCE56E}" {
+      TrackName "X"
+      Keyframes {
+       FloatCinematicKeyframe "{626731420D4839A2}" {
+        FrameNumber 0
+        Value 129.415
+        InterpMode 0
+       }
+      }
+     }
+     Y FloatCinematicTrack "{6267314255CCE571}" {
+      TrackName "Y"
+      Keyframes {
+       FloatCinematicKeyframe "{626731420D483DBD}" {
+        FrameNumber 0
+        Value 5.613
+        InterpMode 0
+       }
+      }
+     }
+     Z FloatCinematicTrack "{6267314255CCE549}" {
+      TrackName "Z"
+      Keyframes {
+       FloatCinematicKeyframe "{626731420D483FE4}" {
+        FrameNumber 0
+        Value 149.878
+        InterpMode 0
+       }
+      }
+     }
+    }
+    Angles Vector3CinematicTrack "{6267314255CCE543}" {
+     TrackName "Angles"
+     X FloatCinematicTrack "{6267314255CCE545}" {
+      TrackName "X"
+      Keyframes {
+       FloatCinematicKeyframe "{626731420D483E4D}" {
+        FrameNumber 0
+        Value 0.9
+        InterpMode 0
+       }
+      }
+     }
+     Y FloatCinematicTrack "{6267314255CCE559}" {
+      TrackName "Y"
+      Keyframes {
+       FloatCinematicKeyframe "{626731420D482080}" {
+        FrameNumber 0
+        Value 181.5
+        InterpMode 0
+       }
+      }
+     }
+     Z FloatCinematicTrack "{6267314255CCE55D}" {
+      TrackName "Z"
+      Keyframes {
+       FloatCinematicKeyframe "{626731420D4823E8}" {
+        FrameNumber 0
+        Value 0
+        InterpMode 0
+       }
+      }
+     }
+    }
+    FOV FloatCinematicTrack "{6267314255CCE551}" {
+     TrackName "FOV"
+    }
+    DOF DOFCinematicTrack "{6267314255CCE4A9}" {
+     TrackName "DOF"
+     Enabled BooleanCinematicTrack "{6267314255CCE4A6}" {
+      TrackName "Enabled"
+     }
+     FocusDistance FloatCinematicTrack "{6267314255CCE4B8}" {
+      TrackName "FocusDistance"
+     }
+     LengthNear FloatCinematicTrack "{6267314255CCE4B0}" {
+      TrackName "LengthNear"
+     }
+     LengthFar FloatCinematicTrack "{6267314255CCE48B}" {
+      TrackName "LengthFar"
+     }
+    }
+    HDR HDRCinematicTrack "{6267314255CCE483}" {
+     TrackName "HDR"
+     ManualExposition BooleanCinematicTrack "{6267314255CCE485}" {
+      TrackName "ManualExposition"
+     }
+     ExpositionLV FloatCinematicTrack "{6267314255CCE499}" {
+      TrackName "ExpositionLV"
+     }
+    }
+   }
+   AnimationCinematicTrack "{6267314264F2A1FE}" {
+    TrackName "cine1"
+    Play BooleanCinematicTrack "{6267314264F2A122}" {
+     TrackName "Play"
+     Keyframes {
+      BooleanCinematicKeyframe "{62673142661E0B40}" {
+       FrameNumber 0
+       Value 1
+      }
+     }
+    }
+   }
+  }
+ }
+}
 SCR_AIGroup {
  coords 76.921 0.896 102.119
  m_aUnitPrefabSlots {
   "{E005B0767A1A6A7A}Prefabs/Characters/Factions/INDFOR/PS_CEF/Character_PS_CEF_baseLoadout.et"
  }
+}
+GenericEntity cine1 : "{8E38B59C559003D0}Prefabs/Vehicles/Missles/kh55/kh55_cinematic.et" {
+ coords 129.858 13.525 138.232
 }

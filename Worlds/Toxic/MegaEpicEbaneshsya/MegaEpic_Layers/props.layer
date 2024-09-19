@@ -1,0 +1,647 @@
+$grp PS_Spawn {
+ {
+  coords 4645.283 339.616 9594.073
+  angleX 75
+  angleY 90
+  angleZ -119.371
+  m_sPrefabName "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7.et"
+ }
+ {
+  coords 4645.309 339.612 9594.65
+  angleX 75
+  angleY 90
+  angleZ -119.371
+  m_sPrefabName "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7.et"
+ }
+ {
+  coords 4645.274 339.621 9594.355
+  angleX 75
+  angleY 90
+  angleZ -119.371
+  m_sPrefabName "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7.et"
+ }
+ {
+  coords 4645.354 339.6 9594.842
+  angleX 75
+  angleY 90
+  angleZ -119.371
+  m_sPrefabName "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7.et"
+ }
+ {
+  coords 4645.308 339.612 9595.085
+  angleX 75
+  angleY 90
+  angleZ 134.182
+  m_sPrefabName "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7.et"
+ }
+}
+$grp GenericEntity : "{0831D4051CEB3EC1}Prefabs/Props/Airport/JetBlastDeflector_01/JetBlastDeflector_E_01.et" {
+ {
+  coords 4739.566 339.124 10197.137
+  angleY -114.104
+ }
+ {
+  coords 4746.779 339.124 10184.79
+  angleY -114.104
+ }
+ {
+  coords 4755.089 339.125 10171.148
+  angleY -114.104
+ }
+}
+Vehicle Ural4320_Ses_CDF_transport_covered1 : "{0EFFC9A8E672EF33}Prefabs/Vehicles/Wheeled/Ural4320/Ses_CDF/Ural4320_Ses_CDF_transport_covered.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     MaxFuel 0
+    }
+    SCR_FuelNode "{5628CA84B129D4CE}" {
+     MaxFuel 0
+    }
+   }
+  }
+ }
+ coords 4582.583 339.125 9665.82
+ angleY -83.228
+}
+$grp GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_US_01.et" {
+ {
+  coords 4784.852 339.375 10505.282
+  angleY 21.046
+ }
+ {
+  coords 4688.05 339.125 10129.338
+  angleY 68.411
+ }
+ {
+  coords 4692.37 339.125 10120.209
+  angleY 68.411
+ }
+ {
+  coords 4695.371 339.125 10112.949
+  angleY 68.411
+ }
+}
+GenericEntity : "{18B92018CF634D22}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_US_03.et" {
+ coords 4597.998 339.125 10375.709
+ angleY -125.331
+}
+GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+ coords 4726.523 339.127 10402.698
+ angleY -33.861
+}
+Vehicle M923A1_command_MERDC1 : "{38186F12F27A61C6}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command_MERDC.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+ }
+ coords 4701.118 339.125 10220.884
+ angleY -154.542
+}
+$grp GenericEntity : "{63CBCCD35D82066C}Prefabs/Props/Military/CargoContainers/CargoContainer_01_20ft_US_supplies.et" {
+ {
+  coords 4682.867 339.122 10191.542
+ }
+ {
+  coords 4757.581 339.122 10384.518
+  angleY -85.214
+ }
+}
+$grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
+ M923A1_transport_covered1 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 4738.853 339.124 10123.478
+  angleY 77.667
+ }
+ M923A1_transport_covered2 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 4730.261 339.125 10119.457
+  angleY 49.837
+ }
+ M923A1_transport_covered3 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 4721.954 339.125 10115.32
+  angleY 77.667
+ }
+ M923A1_transport_covered4 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 4837.36 339.063 10337.599
+  angleY 157.28
+ }
+}
+$grp GenericEntity : "{831FE4BECA78CCAA}Prefabs/Vehicles/Airplanes/IL76/Plane_IL76UN.et" {
+ {
+  coords 4691.648 339.123 10297.911
+  angleY -30.035
+ }
+ {
+  coords 4698.818 339.121 10339.681
+  angleY -119.203
+ }
+ {
+  coords 4672.186 339.125 10388.57
+  angleY -119.203
+ }
+ {
+  coords 4527.334 339.127 10511.268
+  angleY -119.203
+ }
+ {
+  coords 4497.491 339.127 10561.411
+  angleY -119.203
+ }
+ {
+  coords 4423.939 339.125 10720.765
+  angleY -119.203
+ }
+ {
+  coords 4386.763 339.126 10788.224
+  angleY -119.203
+ }
+}
+SCR_DestructibleBuildingEntity : "{9CEC8BB63429FF28}Prefabs/Structures/Airport/ControlTower_01.et" {
+ coords 4716.113 0.92 10245.719
+ angleY 60.157
+}
+GenericEntity : "{A528F04F41F2A2D0}Prefabs/Structures/Military/Radar/ApproachRadar_RPL5_01/ApproachRadar_RPL5_01_on.et" {
+ coords 4521.644 342.322 10307.064
+}
+$grp GenericEntity : "{AA1E1DD1D69055EC}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_green.et" {
+ {
+  coords 4727.587 339.127 10222.732
+  angleY -30.968
+ }
+ {
+  coords 4725.401 339.125 10226.37
+  angleY -30.968
+ }
+ {
+  coords 4721.004 339.125 10233.698
+  angleY -30.968
+ }
+ {
+  coords 4723.188 339.125 10230.058
+  angleY -30.968
+ }
+ {
+  coords 4719.875 339.125 10233.021
+  angleY -30.968
+ }
+ {
+  coords 4722.06 339.125 10229.38
+  angleY -30.968
+ }
+ {
+  coords 4724.272 339.125 10225.691
+  angleY -30.968
+ }
+ {
+  coords 4726.458 339.127 10222.055
+  angleY -30.968
+ }
+ {
+  coords 4645.974 339.125 9588.758
+  angleY 0.925
+ }
+ {
+  coords 4647.495 339.123 9601.525
+  angleY 0.925
+ }
+ {
+  coords 4647.356 339.123 9592.981
+  angleY 0.925
+ }
+ {
+  coords 4647.291 339.125 9588.737
+  angleY 0.925
+ }
+ {
+  coords 4647.426 339.123 9597.28
+  angleY 0.925
+ }
+ {
+  coords 4646.178 339.123 9601.547
+  angleY 0.925
+ }
+ {
+  coords 4646.111 339.123 9597.301
+  angleY 0.925
+ }
+ {
+  coords 4646.04 339.123 9593.001
+  angleY 0.925
+ }
+}
+$grp GenericEntity : "{BC16FA49B7483E63}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_decals_01.et" {
+ {
+  coords 4726.524 339.125 10224.603
+  angleY -30.968
+ }
+ {
+  coords 4724.338 339.125 10228.24
+  angleY -30.968
+ }
+ {
+  coords 4719.94 339.125 10235.57
+  angleY -30.968
+ }
+ {
+  coords 4722.127 339.125 10231.929
+  angleY -30.968
+ }
+ {
+  coords 4718.812 339.125 10234.893
+  angleY -30.968
+ }
+ {
+  coords 4720.998 339.125 10231.251
+  angleY -30.968
+ }
+ {
+  coords 4723.209 339.125 10227.563
+  angleY -30.968
+ }
+ {
+  coords 4725.395 339.125 10223.925
+  angleY -30.968
+ }
+ {
+  coords 4647.514 339.123 9599.43
+  angleY 0.925
+ }
+ {
+  coords 4647.442 339.123 9595.131
+  angleY 0.925
+ }
+ {
+  coords 4647.376 339.123 9590.887
+  angleY 0.925
+ }
+ {
+  coords 4646.197 339.123 9599.451
+  angleY 0.925
+ }
+ {
+  coords 4646.126 339.123 9595.15
+  angleY 0.925
+ }
+ {
+  coords 4646.059 339.123 9590.908
+  angleY 0.925
+ }
+}
+GenericEntity : "{C0D09A53EEA441D6}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_US_02.et" {
+ coords 4715.862 349.336 10251.848
+ angleY -31.892
+ {
+  GenericEntity {
+   ID "5CCCBEC480BAEE00"
+   {
+    StaticModelEntity {
+     ID "570CFD7584B8ECE0"
+     coords -0.228 -23.812 0.243
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CCCBEC480BAEFAB"
+   {
+    StaticModelEntity {
+     ID "5CB0D991ED6A9819"
+     coords -0.73 -23.812 -0.751
+    }
+    StaticModelEntity {
+     ID "5CB0D991ED6A981A"
+     coords 0.791 -41.872 0.713
+    }
+   }
+  }
+  StaticModelEntity {
+   ID "5CCCBEC480BAEF51"
+   coords 3.26 -11.861 0.447
+  }
+  StaticModelEntity {
+   ID "5CCCBEC480BAEF2A"
+   coords 5.43 -11.861 -0.968
+  }
+ }
+}
+StaticModelEntity : "{C1576E5555582214}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_short.et" {
+ components {
+  Hierarchy "{5CB0D991ED6A984F}" {
+   Enabled 1
+  }
+ }
+ coords 4650.355 -31.663 9620.783
+ angleY 5.547
+}
+$grp GenericEntity : "{D042CEA90B8CB14D}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_decals_02.et" {
+ {
+  coords 4727.034 339.125 10223.643
+  angleY -30.968
+ }
+ {
+  coords 4724.849 339.125 10227.28
+  angleY -30.968
+ }
+ {
+  coords 4720.451 339.125 10234.609
+  angleY -30.968
+ }
+ {
+  coords 4722.636 339.125 10230.969
+  angleY -30.968
+ }
+ {
+  coords 4719.322 339.125 10233.933
+  angleY -30.968
+ }
+ {
+  coords 4721.507 339.125 10230.291
+  angleY -30.968
+ }
+ {
+  coords 4723.72 339.125 10226.603
+  angleY -30.968
+ }
+ {
+  coords 4725.905 339.125 10222.965
+  angleY -30.968
+ }
+ {
+  coords 4647.369 339.123 9594.045
+  angleY 0.925
+ }
+ {
+  coords 4647.302 339.123 9589.802
+  angleY 0.925
+ }
+ {
+  coords 4647.438 339.123 9598.347
+  angleY 0.925
+ }
+ {
+  coords 4646.123 339.123 9598.366
+  angleY 0.925
+ }
+ {
+  coords 4646.052 339.123 9594.064
+  angleY 0.925
+ }
+ {
+  coords 4645.985 339.123 9589.822
+  angleY 0.925
+ }
+}
+GenericEntity : "{DFF391458A7AC773}Prefabs/Props/Military/WaterTanks/MobileWaterTank_US_01.et" {
+ coords 4632.218 339.125 10367.626
+}
+$grp GenericEntity : "{ECC4315520263256}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_dark.et" {
+ {
+  coords 4725.947 339.125 10225.468
+  angleY -30.968
+ }
+ {
+  coords 4723.762 339.125 10229.11
+  angleY -30.968
+ }
+ {
+  coords 4719.364 339.125 10236.44
+  angleY -30.968
+ }
+ {
+  coords 4721.55 339.125 10232.798
+  angleY -30.968
+ }
+ {
+  coords 4718.235 339.125 10235.763
+  angleY -30.968
+ }
+ {
+  coords 4720.421 339.125 10232.119
+  angleY -30.968
+ }
+ {
+  coords 4722.633 339.125 10228.434
+  angleY -30.968
+ }
+ {
+  coords 4724.817 339.125 10224.79
+  angleY -30.968
+ }
+ {
+  coords 4647.343 339.123 9591.926
+  angleY 0.925
+ }
+ {
+  coords 4647.483 339.123 9600.473
+  angleY 0.925
+ }
+ {
+  coords 4647.413 339.123 9596.173
+  angleY 0.925
+ }
+ {
+  coords 4646.166 339.123 9600.493
+  angleY 0.925
+ }
+ {
+  coords 4646.097 339.123 9596.194
+  angleY 0.925
+ }
+ {
+  coords 4646.026 339.123 9591.947
+  angleY 0.925
+ }
+}
+GenericEntity : "{F15B99F6B06E7200}Prefabs/Structures/Military/Radar/ApproachRadar_RPL5_01/ApproachRadar_RPL5_01_generator.et" {
+ coords 4515.783 342.171 10305.666
+ angleY 175.33
+}
+GenericEntity : "{FB0F12529D2FD0DA}Prefabs/Props/Military/FieldKitchenTrailerUS_01.et" {
+ coords 4711.584 339.125 10230.822
+}
+$grp Projectile : "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et" {
+ {
+  coords 4644.817 339.154 9596.017
+  angleX -0.352
+  angleY -85.895
+  angleZ -28.958
+ }
+ {
+  coords 4644.764 339.152 9596.049
+  angleX -0.623
+  angleY -86.479
+  angleZ 155.455
+ }
+ {
+  coords 4644.55 339.154 9593.219
+  angleX 0.112
+  angleY -87.866
+  angleZ 172.894
+ }
+ {
+  coords 4644.709 339.156 9593.043
+  angleX -0.325
+  angleY -100.743
+  angleZ 13.598
+ }
+ {
+  coords 4644.531 339.155 9595.261
+  angleX 0.012
+  angleY -104.896
+  angleZ -173.212
+ }
+ {
+  coords 4644.668 339.152 9593.816
+  angleX -0.623
+  angleY -78.281
+  angleZ 112.757
+ }
+ {
+  coords 4644.783 339.154 9595.955
+  angleX -0.227
+  angleY -85.378
+  angleZ 91.221
+ }
+ {
+  coords 4644.804 339.152 9595.708
+  angleX -0.125
+  angleY -79.947
+  angleZ 140.324
+ }
+ {
+  coords 4644.665 339.153 9595.132
+  angleX -0.02
+  angleY -90.935
+  angleZ -59.205
+ }
+ {
+  coords 4644.624 339.153 9593.149
+  angleX 0.416
+  angleY -92.62
+  angleZ 120.578
+ }
+ {
+  coords 4644.672 339.13 9593.988
+  angleX 0.168
+  angleY -91.148
+  angleZ 58.738
+ }
+ {
+  coords 4644.809 339.152 9593.601
+  angleX 0.06
+  angleY -94.954
+  angleZ -97.307
+ }
+ {
+  coords 4644.686 339.15 9594.179
+  angleX -0.6
+  angleY -90.43
+  angleZ -156.096
+ }
+ {
+  coords 4644.529 339.153 9593.531
+  angleX 0.34
+  angleY -87.506
+  angleZ -119.319
+ }
+ {
+  coords 4644.74 339.155 9595.788
+  angleX -0.159
+  angleY -83.977
+  angleZ 107.228
+ }
+ {
+  coords 4644.564 339.152 9593.364
+  angleX -0.409
+  angleY -87.043
+  angleZ -84.138
+ }
+ {
+  coords 4644.711 339.156 9595.481
+  angleX 0.166
+  angleY -87.518
+  angleZ -111.833
+ }
+ {
+  coords 4644.613 339.153 9593.212
+  angleX 0.173
+  angleY -91.642
+  angleZ -118.051
+ }
+ {
+  coords 4644.597 241.58 9592.126
+  angleX -12.853
+  angleY -88.983
+  angleZ -45.857
+ }
+ {
+  coords 4644.674 339.154 9595.015
+  angleX 0.573
+  angleY -86.975
+  angleZ -119.942
+ }
+ {
+  coords 4642.366 238.951 9593.993
+  angleX -0.733
+  angleY -82.539
+  angleZ -21.817
+ }
+ {
+  coords 4644.531 339.153 9593.693
+  angleX -0.328
+  angleY -86.29
+  angleZ -155.238
+ }
+ {
+  coords 4644.554 339.132 9594.451
+  angleX 0.161
+  angleY -86.493
+  angleZ -104.589
+ }
+ {
+  coords 4644.735 339.155 9595.787
+  angleX -0.064
+  angleY -84.644
+  angleZ 86.981
+ }
+}

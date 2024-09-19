@@ -1,0 +1,32 @@
+GenericEntity {
+ ID "62673143A1ED3191"
+ components {
+  SignalsManagerComponent "{62673143A1ED3F96}" {
+  }
+  SoundComponent "{62673143A1ED3FD7}" {
+   Enabled 0
+   Filenames {
+    "{158550B4674CF123}Sounds/Vehicles/Missles/kh55_engine.acp"
+   }
+   IncludeInactive 1
+   SoundPoints {
+    SoundPointInfo kh55 {
+     PivotID "v_kh55"
+     Offset -0.4576 0 -2.0566
+    }
+   }
+  }
+  MeshObject "{62673143A1ED3F13}" {
+   Object "{B035D9EAF80109AC}Assets/Vehicles/Missles/kh55/kh55.xob"
+   PixelSizeScale 10
+  }
+  RplComponent "{62673143A1ED3F66}" {
+  }
+  Hierarchy "{62673143A1ED3F73}" {
+  }
+  AnimationPlayerComponent "{62673143BA35277C}" {
+   Animation "{4014DEEDDDBB9727}Assets/Vehicles/Missles/kh55/Anim/anim2_kh55.anm"
+  }
+ }
+ coords 1095.713 51 1451.899
+}
