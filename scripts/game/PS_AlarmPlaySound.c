@@ -26,10 +26,14 @@ class PS_AlarmPlaySound: ScriptComponent
 		
 		if (m_fPlayTime <= 0)
 		{
-			m_SoundComponent.TerminateAll();
+			if (m_SoundComponent)
+				m_SoundComponent.TerminateAll();
 			ClearEventMask(owner, EntityEvent.FRAME);
 			return;
 		}
+		
+		if (!m_SoundComponent)
+			return;
 		
 		if (PS_FreezeTimeCounter.s_iCurrentFreezeTime > 50000 || m_SoundComponent.IsPlaying())
 			return;	
