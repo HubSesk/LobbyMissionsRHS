@@ -9,6 +9,7 @@ class PS_AlarmPlaySound: ScriptComponent
 	
 	[RplProp(), Attribute()]
 	protected float m_fPlayTime;
+	protected bool m_bPlaying;
 	
 	SoundComponent m_SoundComponent;
 	
@@ -18,7 +19,7 @@ class PS_AlarmPlaySound: ScriptComponent
 	};
 
 	override void EOnFrame(IEntity owner, float timeSlice) {
-		if (m_fPlayTime >= 0 && Replication.IsServer() && m_SoundComponent.IsPlaying())
+		if (m_fPlayTime >= 0 && Replication.IsServer() && m_bPlaying)
 		{
 			m_fPlayTime -= timeSlice;
 			Replication.BumpMe();
@@ -40,5 +41,7 @@ class PS_AlarmPlaySound: ScriptComponent
 		
 		if (m_SoundComponent)
 		    m_SoundComponent.SoundEvent(m_sEventName);
+		
+		m_bPlaying = true;
 	};
 };
