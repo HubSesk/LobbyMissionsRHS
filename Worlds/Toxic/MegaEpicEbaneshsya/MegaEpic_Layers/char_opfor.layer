@@ -1,0 +1,153 @@
+SCR_AIGroup "(КОРМЧИЙ) RHS_AFRF_G_001_5" : "{0223367D44716E7B}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Group_RHS_RF_MSV_VKPO_S_PlatoonHQ.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "nothing"
+  }
+  PS_GroupCallsignAssigner "{62693968B884BB57}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 6975.474 296.266 7658.349
+ angleY -8.322
+ m_sCustomNameSet "КОРМЧИЙ"
+}
+$grp SCR_AIGroup : "{256AEA338E84EC28}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Group_RHS_RF_MSV_VKPO_S_RifleSquad.et" {
+ "(Автопилот-1) RHS_AFRF_G_002_6" {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "nothing"
+   }
+   PS_GroupCallsignAssigner "{62693968B7FFE878}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 6935.365 296.084 7653.201
+  angleY 5.35
+  m_aUnitPrefabSlots {
+   "{94F6D9AE88B4860E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Olive/RandomSoldiers/Character_RHS_RF_SOBROlive_SL_Random.et" "{7DD6BFC1D0093E3D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Olive/RandomSoldiers/Character_RHS_RF_SOBROlive_MG_Random.et" "{4A0E1EAE363D8DC4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Olive/RandomSoldiers/Character_RHS_RF_SOBROlive_Rifleman_Random.et" "{AF4459FA38C033A3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Olive/RandomSoldiers/Character_RHS_RF_SOBROlive_Medic_Random.et" "{DC7E201D8280A9F9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Olive/RandomSoldiers/Character_RHS_RF_SOBROlive_GL_Random.et" "{4A0E1EAE363D8DC4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Olive/RandomSoldiers/Character_RHS_RF_SOBROlive_Rifleman_Random.et"
+  }
+  m_sCustomNameSet "Автопилот-1"
+ }
+ "(Веды-1) RHS_AFRF_G_010_6" {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "nothing"
+   }
+   PS_GroupCallsignAssigner "{62693968B1D8A56D}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
+   }
+  }
+  coords 6944.268 296.156 7653.333
+  angleY -34.662
+  m_aUnitPrefabSlots {
+   "{5DD745DF6268BAA2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/RandomSoldiers/Character_RHS_RF_SOF_SL_Random.et" "{F725725518AFA1A0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/RandomSoldiers/Character_RHS_RF_SOF_Scout_Random.et" "{2F5DA4C5C7453D26}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/RandomSoldiers/Character_RHS_RF_SOF_Chad_Random.et" "{7366FD26C0894684}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/RandomSoldiers/Character_RHS_RF_SOF_Medic_Random.et" "{B4F723B03AD50291}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/RandomSoldiers/Character_RHS_RF_SOF_MG_Random.et" "{A7BB66209A846269}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/RandomSoldiers/Character_RHS_RF_SOF_Rifleman_Random.et"
+  }
+  m_sCustomNameSet "Веды-1"
+ }
+ RHS_AFRF_G_012_8 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "nothing"
+   }
+   PS_GroupCallsignAssigner "{626939694568122C}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 7010.488 296.968 7679.99
+  angleY -24.579
+  m_aUnitPrefabSlots + {
+   "{74907740653C5830}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Sharpshooter_Random.et" "{21062E10C939E5E6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Medic_Random.et"
+  }
+ }
+ RHS_AFRF_G_021_8 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "nothing"
+   }
+   PS_GroupCallsignAssigner "{6269396943F954ED}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 6993.36 296.718 7666.998
+  angleY -13.477
+  m_aUnitPrefabSlots + {
+   "{74907740653C5830}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Sharpshooter_Random.et" "{21062E10C939E5E6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Medic_Random.et"
+  }
+ }
+ RHS_AFRF_G_022_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "nothing"
+   }
+   PS_GroupCallsignAssigner "{62693969423DE673}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 6972.407 296.817 7667.891
+  angleY 171.24
+ }
+ RHS_AFRF_G_100_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "nothing"
+   }
+   PS_GroupCallsignAssigner "{626939695C9C085D}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 0
+   }
+  }
+  coords 6960.401 296.275 7656.662
+  angleY -8.326
+ }
+}
+$grp SCR_AIGroup : "{3C3A6867982DC57A}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Group_RHS_RF_MSV_VKPO_S_Team_AT.et" {
+ "(Гвоздь-1) RHS_AFRF_G_011_2" {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "nothing"
+   }
+   PS_GroupCallsignAssigner "{626939694B9BFD21}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 7014.747 296.914 7685.185
+  angleY -110.634
+  m_aUnitPrefabSlots {
+   "{F1E1A7A59FE370C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Crew.et" "{F1E1A7A59FE370C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Crew.et"
+  }
+  m_sCustomNameSet "Гвоздь-1"
+ }
+ "(Гроб-1) RHS_AFRF_G_020_2" {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "nothing"
+   }
+   PS_GroupCallsignAssigner "{6269396941DA19A3}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 0
+   }
+  }
+  coords 6994.05 296.843 7671.897
+  angleY -176.297
+  m_aUnitPrefabSlots {
+   "{F1E1A7A59FE370C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Crew.et" "{F1E1A7A59FE370C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Crew.et"
+  }
+  m_sCustomNameSet "Гроб-1"
+ }
+}

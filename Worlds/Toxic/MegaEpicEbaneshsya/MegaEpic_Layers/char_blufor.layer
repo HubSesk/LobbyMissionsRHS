@@ -1,0 +1,113 @@
+SCR_AIGroup "(BULLSEYE-0) RHS_USAF_G_001_4" : "{0E3DC6A52A5F959E}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_PlatoonHQ.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "nothing"
+  }
+  PS_GroupCallsignAssigner "{626939658336BEA5}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 4626.098 339.131 9591.31
+ angleY -172.675
+ m_sCustomNameSet "BULLSEYE-0"
+}
+SCR_AIGroup RHS_USAF_G_012_4 : "{31D079C6019C7BEF}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_Team_LAT.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "nothing"
+  }
+  PS_GroupCallsignAssigner "{62693965A7C58B81}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 2
+  }
+ }
+ coords 4723.585 339.125 10202.547
+ angleY -120
+}
+SCR_AIGroup "(Diamond-2) RHS_USAF_G_011_2" : "{99B7ACB5AA9765F3}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Group_USAF_USMC_MARSOC_SniperTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Nothing"
+  }
+  PS_GroupCallsignAssigner "{62693965A8340350}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 1
+  }
+ }
+ coords 4634.334 339.125 9585.057
+ m_sCustomNameSet "Diamond-2"
+}
+SCR_AIGroup "(Eagle-1) RHS_USAF_G_020_2" : "{BBF68148AB94A7C7}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_SniperTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "nothing"
+  }
+  PS_GroupCallsignAssigner "{62693965A0F6BE02}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 2
+   m_iSquadCallsign 0
+  }
+ }
+ coords 4715.31 339.125 10216.548
+ angleY -117.066
+ m_sCustomNameSet "Eagle-1"
+}
+SCR_AIGroup "(Cerberus-1) RHS_USAF_G_002_2" : "{CE3326F78B0125CC}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_ReconTeam.et" {
+ components {
+  PS_GroupCallsignAssigner "{6269396599186118}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 2
+  }
+ }
+ coords 4720.052 339.125 10192.744
+ m_sCustomNameSet "Cerberus-1"
+}
+SCR_AIGroup "(Diamond-1) RHS_USAF_G_010_9" : "{DA70F249A8B7A366}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Group_USAF_USMC_MARSOC_RifleSquad.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "nothing"
+  }
+  PS_GroupCallsignAssigner "{6269396591E81E54}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 0
+  }
+ }
+ coords 4624.243 339.125 9584.875
+ m_sCustomNameSet "Diamond-1"
+}
+$grp SCR_AIGroup : "{F831DFB4A9B46152}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_RifleSquad.et" {
+ RHS_USAF_G_021_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "nothing"
+   }
+   PS_GroupCallsignAssigner "{62693965A20EB67C}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4617.204 339.124 9596.71
+  angleY 90
+ }
+ RHS_USAF_G_022_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "nothing"
+   }
+   PS_GroupCallsignAssigner "{62693965BC41F9DC}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 4729.028 339.125 10193.275
+  angleY -120
+ }
+}

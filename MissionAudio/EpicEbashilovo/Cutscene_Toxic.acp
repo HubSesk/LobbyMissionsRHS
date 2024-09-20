@@ -1,0 +1,68 @@
+AudioClass {
+ sounds {
+  SoundClass {
+   id 5129
+   name "SOUND_VOICE"
+   version 5
+   tl 274.821 -8.518
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 4100
+       port 65
+      }
+     }
+    }
+   }
+   outState 7179
+   outStatePort 19463
+   type "One shot"
+  }
+ }
+ mixers {
+  MixerClass {
+   id 7179
+   name "OutputState 18"
+   version 4
+   tl 503.527 -4.716
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   ins {
+    ConnectionsClass connections {
+     id 19463
+     links {
+      ConnectionClass connection {
+       id 5129
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 152583
+    }
+   }
+   pi {
+    33024 0
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialogue" "Music" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialogue_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "UI" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large"
+   }
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 4100
+   name "VoiceBank"
+   version 7
+   tl 79.827 -1.588
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{E6EA9A926AAEEC0B}MissionAudio/EpicEbashilovo/audiocutsene.wav"
+    }
+   }
+  }
+ }
+ version 1
+}

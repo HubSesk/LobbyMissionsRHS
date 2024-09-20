@@ -1,0 +1,1070 @@
+CinematicEntity TheEnd {
+ coords 0 0 0
+ Scene CinematicScene "{626939708972395B}" {
+  EndFrame 4000
+  Tracks {
+   CameraCinematicTrack "{626939709DD6BE9B}" {
+    TrackName "Cam_TheEnd"
+    Position Vector3CinematicTrack "{626939709DD6BE31}" {
+     TrackName "Position"
+     X FloatCinematicTrack "{626939709DD6BE03}" {
+      TrackName "X"
+      Keyframes {
+       FloatCinematicKeyframe "{6269397131ACB3B4}" {
+        FrameNumber 0
+        Value 5146.277
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62693971330C897B}" {
+        FrameNumber 254
+        Value 4802.612
+       }
+       FloatCinematicKeyframe "{62693971C377F446}" {
+        FrameNumber 362
+        Value 4695.602
+       }
+       FloatCinematicKeyframe "{62693971FFA227A5}" {
+        FrameNumber 485
+        Value 4622.384
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62693971F773158A}" {
+        FrameNumber 618
+        Value 4605.294
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62693971A86D562B}" {
+        FrameNumber 725
+        Value 4611.903
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6269397192D67CEC}" {
+        FrameNumber 948
+        Value 4692.764
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62693971A337B87A}" {
+        FrameNumber 1069
+        Value 4711.879
+       }
+       FloatCinematicKeyframe "{62693971BEEED860}" {
+        FrameNumber 1168
+        Value 4720.429
+       }
+       FloatCinematicKeyframe "{626939764ED78178}" {
+        FrameNumber 1260
+        Value 4721.306
+       }
+       FloatCinematicKeyframe "{6269397658720CD4}" {
+        FrameNumber 1302
+        Value 4720.066
+       }
+       FloatCinematicKeyframe "{626939760FB3EE72}" {
+        FrameNumber 1326
+        Value 4719.573
+       }
+       FloatCinematicKeyframe "{626939760B111430}" {
+        FrameNumber 1355
+        Value 4719.881
+       }
+       FloatCinematicKeyframe "{626939767FD9DA9F}" {
+        FrameNumber 1446
+        Value 4720.292
+        InterpMode 0
+       }
+      }
+     }
+     Y FloatCinematicTrack "{626939709DD6BE6F}" {
+      TrackName "Y"
+      Keyframes {
+       FloatCinematicKeyframe "{6269397131ACB7CA}" {
+        FrameNumber 0
+        Value 377.35
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62693971330C8DA1}" {
+        FrameNumber 254
+        Value 363.1
+       }
+       FloatCinematicKeyframe "{62693971C377F8CC}" {
+        FrameNumber 362
+        Value 374.508
+       }
+       FloatCinematicKeyframe "{62693971FFA228AB}" {
+        FrameNumber 485
+        Value 388.105
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62693971F773164E}" {
+        FrameNumber 618
+        Value 396.304
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62693971A86D5B91}" {
+        FrameNumber 725
+        Value 394.129
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6269397192D6619D}" {
+        FrameNumber 948
+        Value 370.177
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62693971A337BCD7}" {
+        FrameNumber 1069
+        Value 360.013
+       }
+       FloatCinematicKeyframe "{62693971BEEEDD9F}" {
+        FrameNumber 1168
+        Value 358.416
+       }
+       FloatCinematicKeyframe "{626939764ED785E4}" {
+        FrameNumber 1260
+        Value 357.329
+       }
+       FloatCinematicKeyframe "{62693976587270EB}" {
+        FrameNumber 1302
+        Value 355.634
+       }
+       FloatCinematicKeyframe "{626939760FB3D2DA}" {
+        FrameNumber 1326
+        Value 355.849
+       }
+       FloatCinematicKeyframe "{626939760B11191E}" {
+        FrameNumber 1355
+        Value 354.825
+       }
+       FloatCinematicKeyframe "{626939767FD9DF48}" {
+        FrameNumber 1446
+        Value 352.565
+        InterpMode 0
+       }
+      }
+     }
+     Z FloatCinematicTrack "{626939709DD6BE62}" {
+      TrackName "Z"
+      Keyframes {
+       FloatCinematicKeyframe "{6269397131ACB9EA}" {
+        FrameNumber 0
+        Value 9539.458
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62693971330C8C35}" {
+        FrameNumber 254
+        Value 9574.431
+       }
+       FloatCinematicKeyframe "{62693971C377FD99}" {
+        FrameNumber 362
+        Value 9583.3
+       }
+       FloatCinematicKeyframe "{62693971FFA22B2D}" {
+        FrameNumber 485
+        Value 9591.011
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62693971F7731B0B}" {
+        FrameNumber 618
+        Value 9615.442
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62693971A86D5A0C}" {
+        FrameNumber 725
+        Value 9662.556
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6269397192D6601F}" {
+        FrameNumber 948
+        Value 10114.604
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62693971A337BE1D}" {
+        FrameNumber 1069
+        Value 10199.893
+       }
+       FloatCinematicKeyframe "{62693971BEEEDCD0}" {
+        FrameNumber 1168
+        Value 10236.432
+       }
+       FloatCinematicKeyframe "{626939764ED787C4}" {
+        FrameNumber 1260
+        Value 10243.281
+       }
+       FloatCinematicKeyframe "{6269397658727297}" {
+        FrameNumber 1302
+        Value 10243.972
+       }
+       FloatCinematicKeyframe "{626939760FB3D4D6}" {
+        FrameNumber 1326
+        Value 10243.896
+       }
+       FloatCinematicKeyframe "{626939760B111BFD}" {
+        FrameNumber 1355
+        Value 10243.684
+       }
+       FloatCinematicKeyframe "{626939767FD9C16E}" {
+        FrameNumber 1446
+        Value 10243.171
+        InterpMode 0
+       }
+      }
+     }
+    }
+    Angles Vector3CinematicTrack "{626939709DD6BE64}" {
+     TrackName "Angles"
+     TrackModifiers {
+      NoiseCinematicTrackModifier "{626939715E19E99A}" {
+       Strength 3
+      }
+     }
+     X FloatCinematicTrack "{626939709DD6BE7E}" {
+      TrackName "X"
+      Keyframes {
+       FloatCinematicKeyframe "{6269397131ACB81C}" {
+        FrameNumber 0
+        Value -1.026
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62693971330C8F41}" {
+        FrameNumber 254
+        Value -3.814
+       }
+       FloatCinematicKeyframe "{62693971C377FCD4}" {
+        FrameNumber 362
+        Value -24.113
+       }
+       FloatCinematicKeyframe "{62693971FFA22A1E}" {
+        FrameNumber 485
+        Value -26.232
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62693971F7731CC1}" {
+        FrameNumber 618
+        Value -29.326
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62693971A86D5D7E}" {
+        FrameNumber 725
+        Value -2.594
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6269397192D6634A}" {
+        FrameNumber 948
+        Value -9.463
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62693971A337A0C0}" {
+        FrameNumber 1069
+        Value -1.377
+       }
+       FloatCinematicKeyframe "{62693971BEEEDF29}" {
+        FrameNumber 1168
+        Value -21.873
+       }
+       FloatCinematicKeyframe "{626939764ED789B9}" {
+        FrameNumber 1260
+        Value -52.984
+       }
+       FloatCinematicKeyframe "{6269397658727534}" {
+        FrameNumber 1302
+        Value -65.888
+       }
+       FloatCinematicKeyframe "{626939760FB3D693}" {
+        FrameNumber 1326
+        Value -64.951
+       }
+       FloatCinematicKeyframe "{626939760B111A26}" {
+        FrameNumber 1355
+        Value -69.933
+       }
+       FloatCinematicKeyframe "{626939767FD9C3CA}" {
+        FrameNumber 1446
+        Value -82.194
+        InterpMode 0
+       }
+      }
+     }
+     Y FloatCinematicTrack "{626939709DD6BE7C}" {
+      TrackName "Y"
+      Keyframes {
+       FloatCinematicKeyframe "{6269397131ACBB50}" {
+        FrameNumber 0
+        Value -85.331
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62693971330CF190}" {
+        FrameNumber 254
+        Value -85.933
+       }
+       FloatCinematicKeyframe "{62693971C377FF00}" {
+        FrameNumber 362
+        Value -83.622
+       }
+       FloatCinematicKeyframe "{62693971FFA22CAE}" {
+        FrameNumber 485
+        Value -132.536
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62693971F77301F3}" {
+        FrameNumber 618
+        Value -9.939
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62693971A86D5FB9}" {
+        FrameNumber 725
+        Value 10.532
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6269397192D6658D}" {
+        FrameNumber 948
+        Value 11.178
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62693971A337A2AE}" {
+        FrameNumber 1069
+        Value 10.39
+       }
+       FloatCinematicKeyframe "{62693971BEEEDE24}" {
+        FrameNumber 1168
+        Value 1.042
+       }
+       FloatCinematicKeyframe "{626939764B1A238B}" {
+        FrameNumber 1260
+        Value -80.837
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6269397658727443}" {
+        FrameNumber 1302
+        Value -137.412
+       }
+       FloatCinematicKeyframe "{626939760FB3D975}" {
+        FrameNumber 1326
+        Value -226.891
+       }
+       FloatCinematicKeyframe "{626939760B111D6C}" {
+        FrameNumber 1355
+        Value -221.626
+       }
+       FloatCinematicKeyframe "{626939767FD9C5BE}" {
+        FrameNumber 1446
+        Value -209.242
+        InterpMode 0
+       }
+      }
+     }
+     Z FloatCinematicTrack "{626939709DD6BE71}" {
+      TrackName "Z"
+      Keyframes {
+       FloatCinematicKeyframe "{6269397131ACBDA5}" {
+        FrameNumber 0
+        Value 0
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62693971330CF0D1}" {
+        FrameNumber 254
+        Value 0
+       }
+       FloatCinematicKeyframe "{62693971C377FE0C}" {
+        FrameNumber 362
+        Value 0
+       }
+       FloatCinematicKeyframe "{62693971FFA22FEF}" {
+        FrameNumber 485
+        Value 0
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62693971F77302B4}" {
+        FrameNumber 618
+        Value -0
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62693971A86D5EE7}" {
+        FrameNumber 725
+        Value 0
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6269397192D664F2}" {
+        FrameNumber 948
+        Value 0
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62693971A337A52F}" {
+        FrameNumber 1069
+        Value 0
+       }
+       FloatCinematicKeyframe "{62693971BEEEC120}" {
+        FrameNumber 1168
+        Value 0
+       }
+       FloatCinematicKeyframe "{626939764838F205}" {
+        FrameNumber 1260
+        Value -49.6
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{626939765AECB944}" {
+        FrameNumber 1302
+        Value -29.59
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{626939760FB3DBDA}" {
+        FrameNumber 1326
+        Value -3.268
+       }
+       FloatCinematicKeyframe "{626939760B111C5D}" {
+        FrameNumber 1355
+        Value 0
+       }
+       FloatCinematicKeyframe "{626939767FD9C439}" {
+        FrameNumber 1446
+        Value 0
+        InterpMode 0
+       }
+      }
+     }
+    }
+    FOV FloatCinematicTrack "{626939709DD6BE74}" {
+     TrackName "FOV"
+     Keyframes {
+      FloatCinematicKeyframe "{626939709BE26A38}" {
+       FrameNumber 0
+       Value 45
+       InterpMode 1
+      }
+     }
+    }
+    DOF DOFCinematicTrack "{626939709DD6BE4C}" {
+     TrackName "DOF"
+     Enabled BooleanCinematicTrack "{626939709DD6BE44}" {
+      TrackName "Enabled"
+     }
+     FocusDistance FloatCinematicTrack "{626939709DD6BE53}" {
+      TrackName "FocusDistance"
+     }
+     LengthNear FloatCinematicTrack "{626939709DD6A1AB}" {
+      TrackName "LengthNear"
+     }
+     LengthFar FloatCinematicTrack "{626939709DD6A1AE}" {
+      TrackName "LengthFar"
+     }
+    }
+    HDR HDRCinematicTrack "{626939709DD6A1A3}" {
+     TrackName "HDR"
+     ManualExposition BooleanCinematicTrack "{626939709DD6A1A5}" {
+      TrackName "ManualExposition"
+     }
+     ExpositionLV FloatCinematicTrack "{626939709DD6A1B8}" {
+      TrackName "ExpositionLV"
+     }
+    }
+   }
+  }
+ }
+}
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 4639.737 339.125 9595.107
+  m_sTitle "Описание событий."
+  m_sTextData "После недавних событий на острове Арланд, метрополия выдвинула ультиматум США, полный вывод войск с Эверона и Арланда, возвращение украденных разработок, продажа Аляски по цене её покупки. В целом, условия вполне выполнимые, учитывая что на Арланде и Эвероне кроме ранее не изученных учеными черных дыр высасывающих выделенные на развитие деньги, да полутора калек охраняющих картошку ничего ценного нету. Продажа Аляски хоть и звучит устрашающе, но боюсь цена её покупки в нынешних деньгах является неподымной глыбой даже для жителей планеты Нибиру. Однако с последним, могут возникнуть проблемы. РФ требует Документы, однако в результате рейда оказалось что никакого бактериологического оружия не существовало. Кроме рецепта Сырного Пирога генерала Шматько. РФ упорно отказывается принять этот факт, и требует настоящих документов. Ситуация накаляется до предела. Что будет сегодня ночью, решают лишь 2 красных телефона на столах всемогущих."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 4639.138 339.125 9592.721
+  m_sTitle "Задачи красных"
+  m_sTextData "Время 4 утра. С добрым утром. Всё лучшее - детям, американским. "\
+  "Именно этими словами ваше командование решило ознаменовать начало конца, или как минимум предвестника."\
+  ""\
+  "Вы лишь одна из немногих колонн, следующих к столице бывшей части ещё больше метрополии, Чернорусии. Командование решило дать понять американцам, что если требования после инцидента на Арланде не будут выполнены, вместо Чернорусской земли, войска будут вести свой марш по территории страны свободы. "\
+  ""\
+  "Отбрасывая  прочие прелюдия, ваша задача захватить небольшой аэродром около деревни Выбор. Местная армия покинула его ещё вчера, ибо нужды в аэродромах без крупной авиации у них нет. "\
+  ""\
+  "Однако их товарищи по демократии об этом оповещены не были. И на утро обнаружили себя в опустевшей базе.  Их не особо много, я думаю вы справитесь. "\
+  "Иначе расстрел. Потом воскрешение. И снова расстрел."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ {
+  coords 4638.374 339.125 9595.996
+  m_sTitle "Задачи синих"
+  m_sDescriptionLayout "{B965F43FBD01E4B5}UI/MissionDescription/MissionDescriptionListScroll.layout"
+  m_sTextData "Время 4:31 после полуночи. Утро может и вовсе не наступить, а рассветное солнце обещает взайти раньше обычного."\
+  ""\
+  "Вы получили оповещние от командования о том, что ненасытные коммунисты, решили вернуть былое величие. Их первой жертвой обещает стать лишь недавно появившееся государство Черноруссия. Комуняки пытаются оправдать свое вторжение ответом на недавнюю спецоперацию на Арланде, в ходе которой была обезврежена ячейка террористов занимающихся разработкой биологического оружия. "\
+  ""\
+  "По сути, вы сами по себе. К вам приближаются силы противника, на земле, воздухе, море, и даже из холодного космоса на вас смотрит красный спутник. Не машите ему рукой. Перебьются."\
+  ""\
+  "Ближайшая поддержка сможет подлететь не раньше 2:21 после полудня. Постарайтесь не отдать аэродром."\
+  ""\
+  "Красным наверняка известно что база полупустая, понадеемся что на вас пожалеют ракет. "\
+  ""\
+  "Нам не известно о планирующейся воздушно-десантной операции по захвату. Постарайтесь не привлекать внимание пролетающих мимо вертолетов стрельбой по ним. У вас и так хватает проблем."\
+  ""\
+  "На бога уповаем."
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
+ {
+  coords 4637.669 339.125 9595.229
+  m_sTitle "Задачи синих кратко"
+  m_sTextData "Удержите казармы и диспечерку. "\
+  ""\
+  "Сожгите к чертям все бумеранги."\
+  ""\
+  "Убейте всех."
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
+ {
+  coords 4635.617 339.125 9594.732
+  m_sTitle "Задачи красных кратко"
+  m_sTextData "Захватите казармы и диспечерку."\
+  ""\
+  "Не дайте противнику уничтожить или захватить \"Бумеранги\"."\
+  ""\
+  "Не убейтесь об них."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 4641.26 339.125 9588.455
+  m_sTitle "Захватить казармы"
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 4640.959 339.124 9589.958
+  m_sTitle "Захватить диспечерку"
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 4640.691 339.125 9591.901
+  m_sTitle "Не потерять \"Бумеранги\""
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 4639.626 339.125 9591.757
+  m_sTitle "Захватить или уничтожить \"Бумеранги\""
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 4639.281 339.125 9590.728
+  m_sTitle "Удержать казармы"
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 4639.402 339.125 9589.375
+  m_sTitle "Удержать диспечерку"
+  m_sFactionKey "RHS_USAF"
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 7011.007 296.937 7687.111
+  angleY 71.929
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "APC"
+  m_fWorldSize 4.551
+  m_sDescription "#RHS-Vehicle_K17_Berezok_Name #RHS-Camo"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_AFRF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6994.817 296.851 7674.444
+  angleY 1.957
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "APC"
+  m_fWorldSize 4.551
+  m_sDescription "#RHS-Vehicle_K17_Epoch_Name #RHS-CamoExpo"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_AFRF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6943.8 296.641 7661.208
+  angleY 146.278
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.974
+  m_sDescription "#TF-EditableEntity_GAZ_TIGR_Camo_Unarmed"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_AFRF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6983.647 296.461 7660.864
+  angleY -16.942
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.974
+  m_sDescription "#TF-EditableEntity_GAZ_TIGR_Camo_Unarmed"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_AFRF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6937.897 296.519 7658.66
+  angleY 176.502
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.974
+  m_sDescription "#TF-EditableEntity_GAZ_TIGR_Green_Unarmed"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_AFRF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6962.34 296.573 7664.575
+  angleY 179.863
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "Truck"
+  m_fWorldSize 3.722
+  m_sDescription "#AR-Vehicle_Ural4320_Transport_Covered_Name #RHS-Camo"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_AFRF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 4592.925 339.125 9578.355
+  angleY 270
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "APC"
+  m_fWorldSize 3.691
+  m_sDescription "#AR-Vehicle_BTR70_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 4622.589 339.125 9579.525
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.399
+  m_sDescription "#AR-Vehicle_M1025_M2_Name #RHS-Item_pas13g_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 4634.568 339.125 9579.524
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.399
+  m_sDescription "#AR-Vehicle_M1025_M2_Name #RHS-Item_pas13g_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 4641.108 339.131 9612.719
+  angleX 0.559
+  angleY 156.374
+  angleZ 1.462
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.399
+  m_sDescription "#AR-Vehicle_M998_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ RHS_AFRF_G_002_M {
+  coords 6935.365 296.084 7653.201
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Автопилот-1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ RHS_AFRF_G_010_M {
+  coords 6944.268 296.156 7653.333
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Веды-1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ RHS_AFRF_G_011_M {
+  coords 7014.747 296.914 7685.185
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Гвоздь-1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ RHS_AFRF_G_020_M {
+  coords 6994.05 296.843 7671.897
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Гроб-1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ RHS_AFRF_G_001_M {
+  coords 6975.474 296.266 7658.349
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "КОРМЧИЙ"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ RHS_AFRF_G_012_M {
+  coords 7010.488 296.968 7679.99
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Aktiv-23"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ RHS_AFRF_G_021_M {
+  coords 6993.36 296.718 7666.998
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Aktiv-32"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ RHS_AFRF_G_022_M {
+  coords 6972.407 296.817 7667.891
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Aktiv-33"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ RHS_AFRF_G_100_M {
+  coords 6960.401 296.275 7656.662
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Buran-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ RHS_USAF_G_002_M {
+  coords 4720.052 339.125 10192.744
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Cerberus-1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ RHS_USAF_G_010_M {
+  coords 4624.243 339.125 9584.875
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Diamond-1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ RHS_USAF_G_011_M {
+  coords 4634.334 339.125 9585.057
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Diamond-2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ RHS_USAF_G_020_M {
+  coords 4715.31 339.125 10216.548
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Eagle-1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ RHS_USAF_G_012_M {
+  coords 4723.585 339.125 10202.547
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Atlas White 3"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ RHS_USAF_G_021_M {
+  coords 4617.204 339.124 9596.71
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Atlas Blue 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ RHS_USAF_G_022_M {
+  coords 4729.028 339.125 10193.275
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Atlas Blue 3"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ RHS_USAF_G_001_M {
+  coords 4626.098 339.131 9591.31
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "BULLSEYE-0"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ {
+  coords 4705.04 339.126 10236.511
+  angleY 71.929
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.524 0 1
+  m_sQuadName "Leader"
+  m_fWorldSize 120
+  m_sDescription "ATC"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_AFRF" "RHS_USAF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 4629.99 339.125 9590.052
+  angleY 71.929
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.524 0 1
+  m_sQuadName "Leader"
+  m_fWorldSize 120
+  m_sDescription "Barracks"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_AFRF" "RHS_USAF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+}
