@@ -65,6 +65,10 @@ StaticModelEntity : "{172DD50ACF177B9E}Prefabs/Props/Military/Furniture/ChairMil
  coords 1361.734 37.929 2427.33
  angleY -34.774
 }
+StaticModelEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et" {
+ coords 1362.345 37.929 2426.96
+ angleY -35.184
+}
 GenericEntity : "{1BE2B6FF4806EB3E}Prefabs/Props/Civilian/Guitar_01/Guitar_01.et" {
  coords 1366.061 39.455 2426.594
  angleY 38.651
@@ -292,10 +296,6 @@ DecalEntity : "{71979372AFE909E5}Prefabs/Decals/Blood/BloodStain_Large_01.et" {
  angleZ 180
  scale 1.5
 }
-StaticModelEntity : "{764414C0E2EF983E}Prefabs/Props/Military/Furniture/TableMilitary_USSR_02.et" {
- coords 1362.473 37.929 2427.045
- angleY -34.997
-}
 $grp GenericEntity : "{8FE6D62204173656}Prefabs/Props/Civilian/BeerBottle_01_group.et" {
  {
   coords 1363.004 38.346 2430.443
@@ -392,7 +392,7 @@ StaticModelEntity : "{C99D1B2E817E12D9}Prefabs/Props/Military/Furniture/TableMil
  angleY 144.814
 }
 GenericEntity : "{C9C7D79C9380F85B}Prefabs/Props/Military/Camps/DispenserBeverage_E_01/DispenserBeverage_E_01_green.et" {
- coords 1362.774 38.831 2427.283
+ coords 1362.592 38.831 2427.373
  angleY -35.052
 }
 $grp DecalEntity : "{CA8AB522F7C90A28}Prefabs/Decals/Miscellaneous/CigarButts_01.et" {
@@ -411,6 +411,16 @@ $grp DecalEntity : "{CA8AB522F7C90A28}Prefabs/Decals/Miscellaneous/CigarButts_01
   angleZ -34.255
   TerrainOnly 0
   ClutterOccluder 1
+ }
+}
+$grp GenericEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Narrow.et" {
+ {
+  coords 1363.583 37.754 2424.009
+  angleY 145.161
+ }
+ {
+  coords 1364.548 37.754 2424.681
+  angleY 145.161
  }
 }
 $grp GenericEntity : "{CC5453CCC311603B}Prefabs/Props/Military/Sandbags/Sandbag_01_end_burlap.et" {
