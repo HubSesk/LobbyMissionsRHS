@@ -36,11 +36,14 @@ class PS_AlarmPlaySound: ScriptComponent
 		if (!m_SoundComponent)
 			return;
 		
-		if (PS_FreezeTimeCounter.s_iCurrentFreezeTime > 50000 || m_SoundComponent.IsPlaying())
+		if (PS_FreezeTimeCounter.s_iCurrentFreezeTime > 50000 || m_SoundComponent.IsPlaying() || m_bPlaying)
 			return;	
 		
 		if (m_SoundComponent)
-		    m_SoundComponent.SoundEvent(m_sEventName);
+		{
+			m_SoundComponent.SoundEvent(m_sEventName);
+			GetGame().GetCallqueue().CallLater(m_SoundComponent.TerminateAll, m_fPlayTime*1000, false)
+		}
 		
 		m_bPlaying = true;
 	};
