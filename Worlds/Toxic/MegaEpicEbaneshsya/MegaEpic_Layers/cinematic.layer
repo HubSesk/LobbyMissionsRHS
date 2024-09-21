@@ -234,11 +234,11 @@ CinematicEntity INBOUND {
         Value 1
        }
        BooleanCinematicKeyframe "{62673D91B2004C05}" {
-        FrameNumber 1198
+        FrameNumber 1064
         Value 1
        }
        BooleanCinematicKeyframe "{62673D904FEB370F}" {
-        FrameNumber 1200
+        FrameNumber 1076
         Value 0
        }
       }
@@ -273,11 +273,11 @@ CinematicEntity INBOUND {
         Value 0.656
        }
        FloatCinematicKeyframe "{62673D91B203B183}" {
-        FrameNumber 1198
+        FrameNumber 1064
         Value 0.656
        }
        FloatCinematicKeyframe "{62673D904FEB2A74}" {
-        FrameNumber 1200
+        FrameNumber 1076
         Value 0.656
        }
       }
@@ -312,11 +312,11 @@ CinematicEntity INBOUND {
         Value 524.776
        }
        FloatCinematicKeyframe "{62673D91B203B0FB}" {
-        FrameNumber 1198
+        FrameNumber 1064
         Value 524.776
        }
        FloatCinematicKeyframe "{62673D904FEB2CE9}" {
-        FrameNumber 1200
+        FrameNumber 1076
         Value 524.776
        }
       }
@@ -350,11 +350,11 @@ CinematicEntity INBOUND {
         Value 524.776
        }
        FloatCinematicKeyframe "{62673D91B203B3EE}" {
-        FrameNumber 1198
+        FrameNumber 1064
         Value 524.776
        }
        FloatCinematicKeyframe "{62673D904FEB11F3}" {
-        FrameNumber 1200
+        FrameNumber 1076
         Value 524.776
        }
       }
@@ -367,6 +367,10 @@ CinematicEntity INBOUND {
       Keyframes {
        BooleanCinematicKeyframe "{626731468E879FF3}" {
         FrameNumber 0
+        Value 1
+       }
+       BooleanCinematicKeyframe "{626A15B925C4967F}" {
+        FrameNumber 930
         Value 1
        }
       }
@@ -396,6 +400,15 @@ CinematicEntity INBOUND {
        FloatCinematicKeyframe "{62673146BFC446B4}" {
         FrameNumber 649
         Value 3.8
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{626A15B925C4FD09}" {
+        FrameNumber 930
+        Value 3.8
+       }
+       FloatCinematicKeyframe "{626A15B920E392FA}" {
+        FrameNumber 1028
+        Value 24.17
         InterpMode 0
        }
       }
