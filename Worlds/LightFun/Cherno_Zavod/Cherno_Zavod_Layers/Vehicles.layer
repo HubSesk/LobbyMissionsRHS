@@ -1,0 +1,78 @@
+$grp Vehicle : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_camo1.et" {
+ Ural4320_transport_covered_camo3 {
+  coords 5582.354 331.313 8311.341
+  angleX 2.53
+  angleY -46
+  angleZ -0.044
+ }
+ Ural4320_transport_covered_camo2 {
+  coords 5563.759 332.477 8327.034
+  angleX 2.528
+  angleY -47.742
+  angleZ -0.121
+ }
+ Ural4320_transport_covered_camo1 {
+  coords 5544.104 333.776 8344.007
+  angleX 3.216
+  angleY -52.224
+  angleZ 0.23
+ }
+}
+$grp Vehicle : "{2CCD539A7AB35B2F}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_camo1.et" {
+ Ural4320_transport_camo1 {
+  coords 5486.385 337.031 8381.454
+  angleY -41.08
+ }
+ Ural4320_transport_camo2 {
+  coords 5514.225 335.987 8362.92
+  angleX 3.223
+  angleY -57.93
+  angleZ -0.091
+ }
+}
+Vehicle APC_K17_Epoch_camo1 : "{3918E80DF5393F8C}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_camo1.et" {
+ coords 5451.521 332.771 8466.556
+ angleX -3.641
+ angleY -22.969
+ angleZ 0.572
+}
+Vehicle BTR70_Ses_CDF1 : "{52441D784D145D52}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF.et" {
+ coords 4112.257 324.594 8947.104
+ angleY 91.13
+}
+Vehicle Ural4320_repair_camo1 : "{BED355ED51A1E859}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair_camo1.et" {
+ coords 5462.895 334.525 8436.716
+ angleX -3.168
+ angleY -22.896
+ angleZ -0.604
+}
+$grp Vehicle : "{CC55611936C21F25}Prefabs/Vehicles/Wheeled/M998/M1025_USAF.et" {
+ M1025_USAF2 {
+  coords 2055.984 230 10003.481
+  angleY 161.101
+ }
+ M1025_USAF1 {
+  coords 2058.984 229.969 9993.057
+  angleY 165.437
+ }
+}
+Vehicle UAZ469_Camo1 : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
+ coords 5473.269 336.094 8409.105
+ angleX -2.816
+ angleY -12.919
+ angleZ -0.272
+}
+$grp Vehicle : "{FA6820A9A52CD05B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF.et" {
+ M1025_armed_M2HB_MDO_USAF1 {
+  coords 2071.541 230.748 9945.69
+  angleX 1.07
+  angleY 167.266
+  angleZ 0.676
+ }
+ M1025_armed_M2HB_MDO_USAF2 {
+  coords 2068.66 230.493 9957.239
+  angleX 1.728
+  angleY 164.928
+  angleZ -0.465
+ }
+}
