@@ -26,6 +26,9 @@ SCR_AIGroup RHS_USAF_G_012_4 : "{31D079C6019C7BEF}Prefabs/Groups/BLUFOR/RHS_USAF
  }
  coords 4723.585 339.125 10202.547
  angleY -120
+ m_aUnitPrefabSlots {
+  "{B89C6B2668A11BE9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_FORECON/RandomSoldiers/Character_RHS_USAF_FORECON_SL_Random.et" "{6B02A3B4B8B54B0E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_FORECON/RandomSoldiers/Character_RHS_USAF_FORECON_LAT_Random.et" "{51BC0D49301CA3DA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_FORECON/RandomSoldiers/Character_RHS_USAF_FORECON_MG_Random.et" "{1BD6FECF0B17994C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_FORECON/RandomSoldiers/Character_RHS_USAF_FORECON_AMG_Random.et"
+ }
 }
 SCR_AIGroup "(Diamond-2) RHS_USAF_G_011_2" : "{99B7ACB5AA9765F3}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Group_USAF_USMC_MARSOC_SniperTeam.et" {
  components {
@@ -39,6 +42,9 @@ SCR_AIGroup "(Diamond-2) RHS_USAF_G_011_2" : "{99B7ACB5AA9765F3}Prefabs/Groups/B
   }
  }
  coords 4634.334 339.125 9585.057
+ m_aUnitPrefabSlots {
+  "{8DE8E6B2CB15EFA5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_Sniper.et" "{619B0795FC568714}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_Spotter_Random.et"
+ }
  m_sCustomNameSet "Diamond-2"
 }
 SCR_AIGroup "(Eagle-1) RHS_USAF_G_020_2" : "{BBF68148AB94A7C7}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_SniperTeam.et" {
@@ -54,6 +60,9 @@ SCR_AIGroup "(Eagle-1) RHS_USAF_G_020_2" : "{BBF68148AB94A7C7}Prefabs/Groups/BLU
  }
  coords 4715.31 339.125 10216.548
  angleY -117.066
+ m_aUnitPrefabSlots {
+  "{1D1C88EC1B58537E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_FORECON/Character_RHS_USAF_FORECON_Sniper.et" "{26662CA00FF97B46}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_FORECON/RandomSoldiers/Character_RHS_USAF_FORECON_Scout_Random.et"
+ }
  m_sCustomNameSet "Eagle-1"
 }
 SCR_AIGroup "(Cerberus-1) RHS_USAF_G_002_2" : "{CE3326F78B0125CC}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_ReconTeam.et" {
@@ -79,6 +88,9 @@ SCR_AIGroup "(Diamond-1) RHS_USAF_G_010_9" : "{DA70F249A8B7A366}Prefabs/Groups/B
   }
  }
  coords 4624.243 339.125 9584.875
+ m_aUnitPrefabSlots {
+  "{7D8CAFCBD4AF6FC3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_SL_Random.et" "{542E9F1C6459E46F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_TL_Random.et" "{542E9F1C6459E46F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_TL_Random.et" "{94ACC9A48C12D7F0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_MG_Random.et" "{2C2E730835953CE2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_AMG_Random.et" "{35045678DE9B4034}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_GL_Random.et" "{35045678DE9B4034}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_GL_Random.et" "{5CFA2E738637EEA0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_LAT_Random.et" "{5CFA2E738637EEA0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_LAT_Random.et"
+ }
  m_sCustomNameSet "Diamond-1"
 }
 $grp SCR_AIGroup : "{F831DFB4A9B46152}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_RifleSquad.et" {
