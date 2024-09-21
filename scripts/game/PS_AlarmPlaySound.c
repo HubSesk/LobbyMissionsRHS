@@ -36,7 +36,7 @@ class PS_AlarmPlaySound: ScriptComponent
 		if (!m_SoundComponent)
 			return;
 		
-		if (PS_FreezeTimeCounter.s_iCurrentFreezeTime > 50000 || m_SoundComponent.IsPlaying() || m_bPlaying)
+		if (PS_FreezeTimeCounter.s_iCurrentFreezeTime > 20000 || m_SoundComponent.IsPlaying() || m_bPlaying)
 			return;	
 		
 		if (m_SoundComponent)

@@ -4,7 +4,7 @@ AudioClass {
    id 5129
    name "SOUND_VOICE"
    version 5
-   tl 274.821 -8.518
+   tl 275.347 -8.518
    ins {
     ConnectionsClass connections {
      id 64
@@ -16,8 +16,6 @@ AudioClass {
      }
     }
    }
-   outState 7179
-   outStatePort 19463
    type "One shot"
   }
  }
@@ -26,11 +24,11 @@ AudioClass {
    id 7179
    name "OutputState 18"
    version 4
-   tl 503.527 -4.716
+   tl 530.369 -33.663
    res "{B764D803219C775E}Sounds/FinalMix.afm"
    ins {
     ConnectionsClass connections {
-     id 19463
+     id 79879
      links {
       ConnectionClass connection {
        id 5129
@@ -43,7 +41,7 @@ AudioClass {
     }
    }
    pi {
-    33024 0
+    49408 0
    }
    path "{B764D803219C775E}Sounds/FinalMix.afm"
    inputs {

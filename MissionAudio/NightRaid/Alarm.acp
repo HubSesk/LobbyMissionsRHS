@@ -51,7 +51,7 @@ AudioClass {
    id 13321
    name "SOUND_SIREN_GENERIC"
    version 5
-   tl 687.623 -456.811
+   tl 688.623 -456.811
    ins {
     ConnectionsClass connections {
      id 64
@@ -63,6 +63,7 @@ AudioClass {
      }
     }
    }
+   volume_dB -12
   }
  }
  shaders {

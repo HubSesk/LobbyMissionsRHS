@@ -525,6 +525,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
    "RHS_AFRF"
   }
  }
+ {
+  coords 4638.374 339.125 9595.996
+  m_sTitle "<color name='Red'>Синие не могут выходить за пределы аэропорта</color>"
+  m_sTextData "<color name='Red'>Синие не могут выходить за пределы аэропорта</color>"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
 }
 $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  {

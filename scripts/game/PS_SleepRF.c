@@ -9,7 +9,7 @@ class PS_SleepRFComponent : ScriptComponent
 	//------------------------------------------------------------------------------------------------
 	override void EOnFrame(IEntity owner, float timeSlice)
 	{
-		if (m_GameModeCoop.m_bFreezeTimeEnd || PS_FreezeTimeCounter.s_iCurrentFreezeTime < 40000)
+		if (m_GameModeCoop.m_bFreezeTimeEnd || PS_FreezeTimeCounter.s_iCurrentFreezeTime < 10000)
 		{
 			ClearEventMask(owner, EntityEvent.FRAME);
 			return;

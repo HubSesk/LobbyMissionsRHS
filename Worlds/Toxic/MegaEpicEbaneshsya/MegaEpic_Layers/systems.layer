@@ -74,4 +74,12 @@ PolylineShapeEntity : "{52693A94BD70373C}Prefabs/PolyZone/PolyZone_Freeze.et" {
    Position 142.927 0.089 391.435
   }
  }
+ {
+  PS_PolyZoneTrigger {
+   ID "60FD050C87E232D8"
+   m_polyZoneEffect PS_PolyZoneEffectRestricted "{60FD050F32C8D297}" {
+   }
+   m_sFactionKey "RHS_USAF"
+  }
+ }
 }
