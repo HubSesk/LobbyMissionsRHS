@@ -234,11 +234,11 @@ CinematicEntity INBOUND {
         Value 1
        }
        BooleanCinematicKeyframe "{62673D91B2004C05}" {
-        FrameNumber 1198
+        FrameNumber 1064
         Value 1
        }
        BooleanCinematicKeyframe "{62673D904FEB370F}" {
-        FrameNumber 1200
+        FrameNumber 1076
         Value 0
        }
       }
@@ -273,11 +273,11 @@ CinematicEntity INBOUND {
         Value 0.656
        }
        FloatCinematicKeyframe "{62673D91B203B183}" {
-        FrameNumber 1198
+        FrameNumber 1064
         Value 0.656
        }
        FloatCinematicKeyframe "{62673D904FEB2A74}" {
-        FrameNumber 1200
+        FrameNumber 1076
         Value 0.656
        }
       }
@@ -312,11 +312,11 @@ CinematicEntity INBOUND {
         Value 524.776
        }
        FloatCinematicKeyframe "{62673D91B203B0FB}" {
-        FrameNumber 1198
+        FrameNumber 1064
         Value 524.776
        }
        FloatCinematicKeyframe "{62673D904FEB2CE9}" {
-        FrameNumber 1200
+        FrameNumber 1076
         Value 524.776
        }
       }
@@ -350,11 +350,11 @@ CinematicEntity INBOUND {
         Value 524.776
        }
        FloatCinematicKeyframe "{62673D91B203B3EE}" {
-        FrameNumber 1198
+        FrameNumber 1064
         Value 524.776
        }
        FloatCinematicKeyframe "{62673D904FEB11F3}" {
-        FrameNumber 1200
+        FrameNumber 1076
         Value 524.776
        }
       }
@@ -367,6 +367,10 @@ CinematicEntity INBOUND {
       Keyframes {
        BooleanCinematicKeyframe "{626731468E879FF3}" {
         FrameNumber 0
+        Value 1
+       }
+       BooleanCinematicKeyframe "{626A15B925C4967F}" {
+        FrameNumber 930
         Value 1
        }
       }
@@ -384,6 +388,15 @@ CinematicEntity INBOUND {
         Value 6.22
         InterpMode 0
        }
+       FloatCinematicKeyframe "{626A19B238B75610}" {
+        FrameNumber 271
+        Value 13.26
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{626A19B236D2E491}" {
+        FrameNumber 408
+        Value 14.559
+       }
        FloatCinematicKeyframe "{62673146ABE6FE9F}" {
         FrameNumber 466
         Value 6.22
@@ -398,21 +411,35 @@ CinematicEntity INBOUND {
         Value 3.8
         InterpMode 0
        }
+       FloatCinematicKeyframe "{626A15B925C4FD09}" {
+        FrameNumber 930
+        Value 3.8
+       }
+       FloatCinematicKeyframe "{626A15B920E392FA}" {
+        FrameNumber 1028
+        Value 24.17
+        InterpMode 0
+       }
       }
      }
     }
    }
    CustomCinematicTrack "{62672AC712EF2012}" {
     TrackName "WeatherTrack"
+    Flags 0
     ClassName "WeatherCinematicTrack"
     ChildTracks {
      FloatCinematicTrack "{62672AC712EF2D22}" {
       TrackName "m_fTimeOfDay"
       Keyframes {
-       FloatCinematicKeyframe "{62672AC7DA0D48AD}" {
+       FloatCinematicKeyframe "{626A19B292977B9A}" {
         FrameNumber 0
         Value 19.47
         InterpMode 0
+       }
+       FloatCinematicKeyframe "{626A19B2908B3010}" {
+        FrameNumber 21
+        Value 19.469
        }
        FloatCinematicKeyframe "{62672AC46B3E0846}" {
         FrameNumber 294
@@ -432,14 +459,19 @@ CinematicEntity INBOUND {
         Value 18.027
        }
       }
+      Flags 0
      }
      IntegerCinematicTrack "{62672AC712EF2EE5}" {
       TrackName "m_iWeatherType"
       Keyframes {
-       IntegerCinematicKeyframe "{62672AC7D0AB21A8}" {
+       IntegerCinematicKeyframe "{626A19B292977FB2}" {
         FrameNumber 0
         Value 1
         InterpMode 2
+       }
+       IntegerCinematicKeyframe "{626A19B2908B347E}" {
+        FrameNumber 21
+        Value 1
        }
        IntegerCinematicKeyframe "{62672AC45AA31D2D}" {
         FrameNumber 294
@@ -447,74 +479,156 @@ CinematicEntity INBOUND {
         InterpMode 2
        }
       }
+      Flags 0
      }
      FloatCinematicTrack "{62672AC712EF11E8}" {
       TrackName "m_fWindSpeed"
       Keyframes {
-       FloatCinematicKeyframe "{62672AC7FB4736A7}" {
+       FloatCinematicKeyframe "{626A19B2929760F7}" {
         FrameNumber 0
         Value 20
         InterpMode 0
        }
+       FloatCinematicKeyframe "{626A19B2908B3633}" {
+        FrameNumber 21
+        Value 20
+       }
       }
+      Flags 0
      }
      FloatCinematicTrack "{62672AC712EF115A}" {
       TrackName "m_fWindDirection"
       Keyframes {
-       FloatCinematicKeyframe "{62673146E49FC360}" {
+       FloatCinematicKeyframe "{626A19B29297621B}" {
         FrameNumber 0
         Value 90
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{626A19B2908B388E}" {
+        FrameNumber 21
+        Value 90.042
        }
        FloatCinematicKeyframe "{62673146F9316A7A}" {
         FrameNumber 891
         Value 140
        }
       }
+      Flags 0
      }
      FloatCinematicTrack "{62672AC712EF1026}" {
       TrackName "m_fWetness"
+      Keyframes {
+       FloatCinematicKeyframe "{626A19B292976467}" {
+        FrameNumber 0
+        Value 0
+       }
+       FloatCinematicKeyframe "{626A19B2908B3B0C}" {
+        FrameNumber 21
+        Value 0
+       }
+      }
+      Flags 0
      }
      FloatCinematicTrack "{62672AC712EF139A}" {
       TrackName "m_fPuddles"
       Keyframes {
-       FloatCinematicKeyframe "{62672AC7F8F95317}" {
+       FloatCinematicKeyframe "{626A19B292976666}" {
         FrameNumber 0
         Value 1
         InterpMode 0
        }
+       FloatCinematicKeyframe "{626A19B2908B3D89}" {
+        FrameNumber 21
+        Value 1
+       }
       }
+      Flags 0
      }
      FloatCinematicTrack "{62672AC712EF1360}" {
       TrackName "m_fFog"
       Keyframes {
-       FloatCinematicKeyframe "{62672AC7FE0A29AB}" {
+       FloatCinematicKeyframe "{626A19B29297687A}" {
         FrameNumber 0
         Value 1
         InterpMode 0
        }
+       FloatCinematicKeyframe "{626A19B2908B3C3A}" {
+        FrameNumber 21
+        Value 1
+       }
       }
+      Flags 0
      }
      FloatCinematicTrack "{62672AC712EF12C8}" {
       TrackName "m_fFogHeight"
       Keyframes {
-       FloatCinematicKeyframe "{62672AC7E8727589}" {
+       FloatCinematicKeyframe "{626A19B292976A11}" {
         FrameNumber 0
         Value 1
         InterpMode 0
        }
+       FloatCinematicKeyframe "{626A19B2908B3F5C}" {
+        FrameNumber 21
+        Value 1
+       }
       }
+      Flags 0
      }
      BooleanCinematicTrack "{62672AC712EF1255}" {
       TrackName "setDate"
+      Keyframes {
+       BooleanCinematicKeyframe "{626A19B292976C67}" {
+        FrameNumber 0
+        Value 0
+       }
+       BooleanCinematicKeyframe "{626A19B2908B21D0}" {
+        FrameNumber 21
+        Value 0
+       }
+      }
+      Flags 0
      }
      IntegerCinematicTrack "{62672AC712EF150A}" {
       TrackName "m_iYear"
+      Keyframes {
+       IntegerCinematicKeyframe "{626A19B292976EE5}" {
+        FrameNumber 0
+        Value 1989
+       }
+       IntegerCinematicKeyframe "{626A19B2908B2381}" {
+        FrameNumber 21
+        Value 1989
+       }
+      }
+      Flags 0
      }
      IntegerCinematicTrack "{62672AC712EF14FA}" {
       TrackName "m_iMonth"
+      Keyframes {
+       IntegerCinematicKeyframe "{626A19B2929750A8}" {
+        FrameNumber 0
+        Value 4
+       }
+       IntegerCinematicKeyframe "{626A19B2908B2237}" {
+        FrameNumber 21
+        Value 4
+       }
+      }
+      Flags 0
      }
      IntegerCinematicTrack "{62672AC712EF1453}" {
       TrackName "m_iDay"
+      Keyframes {
+       IntegerCinematicKeyframe "{626A19B29297530D}" {
+        FrameNumber 0
+        Value 1
+       }
+       IntegerCinematicKeyframe "{626A19B2908B24AD}" {
+        FrameNumber 21
+        Value 1
+       }
+      }
+      Flags 0
      }
     }
    }
