@@ -10,6 +10,18 @@ $grp PS_Spawn {
   m_sPrefabName "{ABAB219273966558}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_PAS13G_USAF.et"
  }
 }
+$grp GenericEntity : "{0228B8EFBA99AC1D}Prefabs/Weapons/Misc/SpectrumDevice/Device_SpectrumDevice_base.et" {
+ {
+  coords 4633.612 340.11 9594.433
+  angleX 10.188
+  angleY 90
+ }
+ {
+  coords 4714.104 340.11 10201.955
+  angleX 10.188
+  angleY 90
+ }
+}
 Vehicle M998_covered_USAF_D1 : "{3F5936DB9D87969C}Prefabs/Vehicles/Wheeled/M998/M998_covered_USAF_D.et" {
  coords 4641.108 339.131 9612.719
  angleX 0.559
@@ -19,4 +31,12 @@ Vehicle M998_covered_USAF_D1 : "{3F5936DB9D87969C}Prefabs/Vehicles/Wheeled/M998/
 Vehicle BTR70_Ses_CDF1 : "{52441D784D145D52}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF.et" {
  coords 4592.925 339.125 9578.355
  angleY -180
+}
+$grp GenericEntity : "{DB56577F30DE9129}Prefabs/Props/Furniture/Table_02.et" {
+ {
+  coords 4633.696 339.125 9594.334
+ }
+ {
+  coords 4714.188 339.125 10201.856
+ }
 }
