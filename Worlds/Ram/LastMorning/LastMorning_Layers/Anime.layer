@@ -1,0 +1,2712 @@
+PS_AnimeCinematicEntity Anime_1 {
+ coords 0 0 0
+ Scene CinematicScene "{626CE5220A35C470}" {
+  StartFrame 1609
+  EndFrame 8201
+  Tracks {
+   CameraCinematicTrack "{62750BFD5DE43F9F}" {
+    TrackName "Camera"
+    Flags 0
+    Position Vector3CinematicTrack "{62750BFD5DE43FC5}" {
+     TrackName "Position"
+     Flags 0
+     X FloatCinematicTrack "{62750BFD5DE43FCD}" {
+      TrackName "X"
+      Keyframes {
+       FloatCinematicKeyframe "{62754A3BE3836E1B}" {
+        FrameNumber 1609
+        Value 4085.641
+       }
+       FloatCinematicKeyframe "{62750BE3AA003B29}" {
+        FrameNumber 1725
+        Value 4085.95
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62750BE3A6CEEEF2}" {
+        FrameNumber 2071
+        Value 4072.835
+       }
+       FloatCinematicKeyframe "{62754A38F99B6183}" {
+        FrameNumber 2296
+        Value 4072.836
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A38EC1B2EAF}" {
+        FrameNumber 2461
+        Value 4072.836
+       }
+       FloatCinematicKeyframe "{62754A3BF1E60346}" {
+        FrameNumber 2577
+        Value 4072.836
+        InterpMode 0
+       }
+      }
+      Flags 0
+     }
+     Y FloatCinematicTrack "{62750BFD5DE43FD6}" {
+      TrackName "Y"
+      Keyframes {
+       FloatCinematicKeyframe "{62754A3BE3836A1D}" {
+        FrameNumber 1609
+        Value 114.248
+       }
+       FloatCinematicKeyframe "{62750BE3AA00263E}" {
+        FrameNumber 1725
+        Value 114.585
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62750BE3A6CEE84D}" {
+        FrameNumber 2071
+        Value 116.179
+       }
+       FloatCinematicKeyframe "{62754A38F99B6E29}" {
+        FrameNumber 2296
+        Value 116.179
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A38EC1B2AA3}" {
+        FrameNumber 2461
+        Value 116.179
+       }
+       FloatCinematicKeyframe "{62754A3BF1E609EA}" {
+        FrameNumber 2577
+        Value 116.179
+        InterpMode 0
+       }
+      }
+      Flags 0
+     }
+     Z FloatCinematicTrack "{62750BFD5DE43FDE}" {
+      TrackName "Z"
+      Keyframes {
+       FloatCinematicKeyframe "{62754A3BE38315BC}" {
+        FrameNumber 1609
+        Value 4655.259
+       }
+       FloatCinematicKeyframe "{62750BE3AA00203A}" {
+        FrameNumber 1725
+        Value 4670.797
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62750BE3A6CEEAD0}" {
+        FrameNumber 2071
+        Value 4704.473
+       }
+       FloatCinematicKeyframe "{62754A38F99B6AC1}" {
+        FrameNumber 2296
+        Value 4704.472
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A38EC1AD4FB}" {
+        FrameNumber 2461
+        Value 4704.472
+       }
+       FloatCinematicKeyframe "{62754A3BF1E635BE}" {
+        FrameNumber 2577
+        Value 4704.472
+        InterpMode 0
+       }
+      }
+      Flags 0
+     }
+    }
+    Angles Vector3CinematicTrack "{62750BFD5DE43F25}" {
+     TrackName "Angles"
+     Flags 0
+     TrackModifiers {
+      NoiseCinematicTrackModifier "{62754A52D8331655}" {
+       RestrictRange 1
+       StartFrame 2100
+       EndFrame 2300
+       BlendIn 200
+       BlendOut 200
+       Strength 0.5
+       Speed 6
+      }
+     }
+     X FloatCinematicTrack "{62750BFD5DE43F2B}" {
+      TrackName "X"
+      Keyframes {
+       FloatCinematicKeyframe "{62754A3BE38317C4}" {
+        FrameNumber 1609
+        Value -6.165
+       }
+       FloatCinematicKeyframe "{62750BE3AA0022D3}" {
+        FrameNumber 1725
+        Value -4.965
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62750BE3A6CEEB45}" {
+        FrameNumber 2071
+        Value -7.365
+       }
+       FloatCinematicKeyframe "{62754A38F99B16A7}" {
+        FrameNumber 2296
+        Value -9.359
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A38EC1AD63C}" {
+        FrameNumber 2461
+        Value -2.957
+       }
+       FloatCinematicKeyframe "{62754A3BF1E63045}" {
+        FrameNumber 2577
+        Value -2.178
+        InterpMode 0
+       }
+      }
+      Flags 0
+     }
+     Y FloatCinematicTrack "{62750BFD5DE43F30}" {
+      TrackName "Y"
+      Keyframes {
+       FloatCinematicKeyframe "{62754A3BE383116F}" {
+        FrameNumber 1609
+        Value -222.482
+       }
+       FloatCinematicKeyframe "{62750BE3AA002CC4}" {
+        FrameNumber 1725
+        Value -210.083
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62750BE3A6CE95FD}" {
+        FrameNumber 2071
+        Value -218.483
+       }
+       FloatCinematicKeyframe "{62754A38F99B116B}" {
+        FrameNumber 2296
+        Value -291.783
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A38EC1AD052}" {
+        FrameNumber 2461
+        Value -362.405
+       }
+       FloatCinematicKeyframe "{62754A3BF1E63DAE}" {
+        FrameNumber 2577
+        Value -375.843
+        InterpMode 0
+       }
+      }
+      Flags 0
+     }
+     Z FloatCinematicTrack "{62750BFD5DE43F33}" {
+      TrackName "Z"
+      Keyframes {
+       FloatCinematicKeyframe "{62754A3BE3831C92}" {
+        FrameNumber 1609
+        Value 0
+       }
+       FloatCinematicKeyframe "{62750BE3AA002EF9}" {
+        FrameNumber 1725
+        Value 0
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62750BE3A6CE9674}" {
+        FrameNumber 2071
+        Value 0
+       }
+       FloatCinematicKeyframe "{62754A38F99B1D2D}" {
+        FrameNumber 2296
+        Value 0
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A38EC1AD3EA}" {
+        FrameNumber 2461
+        Value 0
+       }
+       FloatCinematicKeyframe "{62754A3BF1E6384C}" {
+        FrameNumber 2577
+        Value 0
+        InterpMode 0
+       }
+      }
+      Flags 0
+     }
+    }
+    FOV FloatCinematicTrack "{62750BFD5DE43F38}" {
+     TrackName "FOV"
+     Flags 0
+    }
+    DOF DOFCinematicTrack "{62750BFD5DE43F01}" {
+     TrackName "DOF"
+     Flags 0
+     Enabled BooleanCinematicTrack "{62750BFD5DE43F0A}" {
+      TrackName "Enabled"
+      Flags 0
+     }
+     FocusDistance FloatCinematicTrack "{62750BFD5DE43F0F}" {
+      TrackName "FocusDistance"
+      Flags 0
+     }
+     LengthNear FloatCinematicTrack "{62750BFD5DE43F14}" {
+      TrackName "LengthNear"
+      Flags 0
+     }
+     LengthFar FloatCinematicTrack "{62750BFD5DE43F18}" {
+      TrackName "LengthFar"
+      Flags 0
+     }
+    }
+    HDR HDRCinematicTrack "{62750BFD5DE43F1F}" {
+     TrackName "HDR"
+     Flags 0
+     ManualExposition BooleanCinematicTrack "{62750BFD5DE43F63}" {
+      TrackName "ManualExposition"
+      Flags 0
+     }
+     ExpositionLV FloatCinematicTrack "{62750BFD5DE43F69}" {
+      TrackName "ExpositionLV"
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62750BFBA92C2C18}" {
+    TrackName "LMV1"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62750BFBA92C2935}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62750BFBB6B196CC}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\LMV1.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62750BFBA92C2A5A}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62754A38359FD402}" {
+        FrameNumber 3
+        Value 1500
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A383A1F8000}" {
+        FrameNumber 6000
+        Value 7500
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF11DE231FD}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BFBA92C2B7C}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62750BFBB9B412FE}" {
+        FrameNumber 3
+        Value "LMV1"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BFBA92BD402}" {
+      TrackName "m_sTrackEditAction"
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62750BFA259A779D}" {
+    TrackName "LMV2"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62750BFA259A77EC}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62750BFA2C4EE765}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\LMV2.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62750BFA259A77F2}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62754A3836BDB010}" {
+        FrameNumber 3
+        Value 1500
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A383B4C487D}" {
+        FrameNumber 6000
+        Value 7500
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF11EF30FE4}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BFA259A77F7}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62750BFA2D63F330}" {
+        FrameNumber 3
+        Value "LMV2"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BFA259A77FB}" {
+      TrackName "m_sTrackEditAction"
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62750BF8CAFE8E8F}" {
+    TrackName "LMV3"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62750BF8CAFE8E9C}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62750BF8CEC11981}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\LMV3.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62750BF8CAFE8EE3}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62754A3837E98B95}" {
+        FrameNumber 3
+        Value 1500
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A383C00EE1B}" {
+        FrameNumber 6000
+        Value 7500
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF11FFD940A}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BF8CAFE8EE7}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62750BF8CD92869D}" {
+        FrameNumber 3
+        Value "LMV3"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BF8CAFE8EEB}" {
+      TrackName "m_sTrackEditAction"
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62750BFE292CAF50}" {
+    TrackName "LMV4"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62750BFE292CAF5C}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62750BFE2EA16506}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\LMV4.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62750BFE292CA8A2}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62754A38388A11CD}" {
+        FrameNumber 3
+        Value 1500
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A383DD16692}" {
+        FrameNumber 6000
+        Value 7500
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF120D36079}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BFE292CA8AB}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62750BFE2CF14175}" {
+        FrameNumber 3
+        Value "LMV4"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BFE292CA8AF}" {
+      TrackName "m_sTrackEditAction"
+      Flags 0
+     }
+    }
+   }
+   CameraCinematicTrack "{62750BE21C1BD00B}" {
+    TrackName "Camera2"
+    Flags 0
+    Position Vector3CinematicTrack "{62750BE21C1BD065}" {
+     TrackName "Position"
+     Flags 0
+     X FloatCinematicTrack "{62750BE21C1BD071}" {
+      TrackName "X"
+      Keyframes {
+       FloatCinematicKeyframe "{62750BE239B4FD04}" {
+        FrameNumber 2589
+        Value 1410.312
+       }
+       FloatCinematicKeyframe "{62750BE1C2DCB707}" {
+        FrameNumber 3062
+        Value 1451.04
+       }
+       FloatCinematicKeyframe "{62750BE1CA128680}" {
+        FrameNumber 3325
+        Value 1458.034
+       }
+       FloatCinematicKeyframe "{62750BEAD83F0650}" {
+        FrameNumber 3490
+        Value 1454.595
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A4B75AC36B4}" {
+        FrameNumber 3630
+        Value 1459.772
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6277209A2629A5AD}" {
+        FrameNumber 3661
+        Value 1460.867
+       }
+       FloatCinematicKeyframe "{62754A43433007BE}" {
+        FrameNumber 3732
+        Value 1462.008
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62750BE1B425FC7D}" {
+        FrameNumber 3824
+        Value 1461.853
+       }
+       FloatCinematicKeyframe "{62750BE1B9425D41}" {
+        FrameNumber 3928
+        Value 1461.853
+       }
+       FloatCinematicKeyframe "{62750BE1BECE6E52}" {
+        FrameNumber 4025
+        Value 1461.853
+       }
+       FloatCinematicKeyframe "{62754A4352F1A519}" {
+        FrameNumber 4211
+        Value 1478.194
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62750BE13F5B4DFC}" {
+        FrameNumber 4600
+        Value 1519.766
+       }
+       FloatCinematicKeyframe "{62754A41130501A1}" {
+        FrameNumber 4900
+        Value 1529.821
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A410E947D53}" {
+        FrameNumber 5200
+        Value 1529.198
+       }
+       FloatCinematicKeyframe "{62754A4BE09AC66E}" {
+        FrameNumber 5487
+        Value 1524.888
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A40D227AB22}" {
+        FrameNumber 5902
+        Value 1522.444
+       }
+       FloatCinematicKeyframe "{62754A4E8C6B0EE3}" {
+        FrameNumber 6532
+        Value 1487.607
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A4E9F3230E5}" {
+        FrameNumber 6877
+        Value 1476.245
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A4EB0ED41F6}" {
+        FrameNumber 7402
+        Value 1450.346
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A3CE8915C82}" {
+        FrameNumber 7467
+        Value 1455.468
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A3BBA6E127C}" {
+        FrameNumber 7712
+        Value 1483.265
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A51FDA537CD}" {
+        FrameNumber 7896
+        Value 1486.802
+       }
+       FloatCinematicKeyframe "{62754A51416AB769}" {
+        FrameNumber 8022
+        Value 1486.801
+       }
+       FloatCinematicKeyframe "{62754AC9B6B405D8}" {
+        FrameNumber 8201
+        Value 1486.801
+       }
+      }
+      Flags 0
+     }
+     Y FloatCinematicTrack "{62750BE21C1BD079}" {
+      TrackName "Y"
+      Keyframes {
+       FloatCinematicKeyframe "{62750BE239B4F9B1}" {
+        FrameNumber 2589
+        Value 186.771
+       }
+       FloatCinematicKeyframe "{62750BE1C2DCB3B4}" {
+        FrameNumber 3062
+        Value 93.729
+       }
+       FloatCinematicKeyframe "{62750BE1CA128176}" {
+        FrameNumber 3325
+        Value 72.423
+       }
+       FloatCinematicKeyframe "{62750BEAD83F01CC}" {
+        FrameNumber 3490
+        Value 69.259
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A4B75AC30CE}" {
+        FrameNumber 3630
+        Value 69.116
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6277209A2629A70F}" {
+        FrameNumber 3661
+        Value 69.093
+       }
+       FloatCinematicKeyframe "{62754A4343300054}" {
+        FrameNumber 3732
+        Value 69.067
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62750BE1B425F882}" {
+        FrameNumber 3824
+        Value 69.067
+       }
+       FloatCinematicKeyframe "{62750BE1B94259DE}" {
+        FrameNumber 3928
+        Value 69.067
+       }
+       FloatCinematicKeyframe "{62750BE1BECE6A1D}" {
+        FrameNumber 4025
+        Value 69.067
+       }
+       FloatCinematicKeyframe "{62754A4352F1A756}" {
+        FrameNumber 4211
+        Value 68.598
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62750BE13F5B4879}" {
+        FrameNumber 4600
+        Value 62.496
+       }
+       FloatCinematicKeyframe "{62754A4113050245}" {
+        FrameNumber 4900
+        Value 56.369
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A410E947F12}" {
+        FrameNumber 5200
+        Value 56.212
+       }
+       FloatCinematicKeyframe "{62754A4BE09AC01B}" {
+        FrameNumber 5487
+        Value 57.817
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A40D2275527}" {
+        FrameNumber 5902
+        Value 73.21
+       }
+       FloatCinematicKeyframe "{62754A4E8C6B0889}" {
+        FrameNumber 6532
+        Value 70.106
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A4E9F32324C}" {
+        FrameNumber 6877
+        Value 63.686
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A4EB0ED43EE}" {
+        FrameNumber 7402
+        Value 74.926
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A3CE8915EB5}" {
+        FrameNumber 7467
+        Value 73.568
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A3BBA6E1C16}" {
+        FrameNumber 7712
+        Value 66.072
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A51FDA5318E}" {
+        FrameNumber 7896
+        Value 65.963
+       }
+       FloatCinematicKeyframe "{62754A51416AB133}" {
+        FrameNumber 8022
+        Value 65.963
+       }
+       FloatCinematicKeyframe "{62754AC9B6B401BB}" {
+        FrameNumber 8201
+        Value 65.963
+       }
+      }
+      Flags 0
+     }
+     Z FloatCinematicTrack "{62750BE21C1BD07C}" {
+      TrackName "Z"
+      Keyframes {
+       FloatCinematicKeyframe "{62750BE239B4FBA3}" {
+        FrameNumber 2589
+        Value 6298.344
+       }
+       FloatCinematicKeyframe "{62750BE1C2DCBDA6}" {
+        FrameNumber 3062
+        Value 6142.629
+       }
+       FloatCinematicKeyframe "{62750BE1CA12837C}" {
+        FrameNumber 3325
+        Value 6088.031
+       }
+       FloatCinematicKeyframe "{62750BEAD83F0251}" {
+        FrameNumber 3490
+        Value 6066.023
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A4B75AC316B}" {
+        FrameNumber 3630
+        Value 6060.799
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6277209A2629A1F0}" {
+        FrameNumber 3661
+        Value 6059.983
+       }
+       FloatCinematicKeyframe "{62754A4343300297}" {
+        FrameNumber 3732
+        Value 6058.489
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62750BE1B425FAB9}" {
+        FrameNumber 3824
+        Value 6058.284
+       }
+       FloatCinematicKeyframe "{62750BE1B9425B3D}" {
+        FrameNumber 3928
+        Value 6058.284
+       }
+       FloatCinematicKeyframe "{62750BE1BECE147F}" {
+        FrameNumber 4025
+        Value 6058.284
+       }
+       FloatCinematicKeyframe "{62754A4352F1A1EE}" {
+        FrameNumber 4211
+        Value 6054.416
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62750BE13F5B4A43}" {
+        FrameNumber 4600
+        Value 6027.494
+       }
+       FloatCinematicKeyframe "{62754A4113050CB2}" {
+        FrameNumber 4900
+        Value 6002.514
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A410E947816}" {
+        FrameNumber 5200
+        Value 5995.693
+       }
+       FloatCinematicKeyframe "{62754A4BE09AC2A5}" {
+        FrameNumber 5487
+        Value 5984.628
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A40D2275606}" {
+        FrameNumber 5902
+        Value 5974.719
+       }
+       FloatCinematicKeyframe "{62754A4E8C6B09D3}" {
+        FrameNumber 6532
+        Value 5885.754
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A4E9F323CD4}" {
+        FrameNumber 6877
+        Value 5833.49
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A4EB0ED4C05}" {
+        FrameNumber 7402
+        Value 5773.25
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A3CE8915FDE}" {
+        FrameNumber 7467
+        Value 5771.963
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A3BBA6E1EBC}" {
+        FrameNumber 7712
+        Value 5760.554
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A51FDA532F0}" {
+        FrameNumber 7896
+        Value 5761.002
+       }
+       FloatCinematicKeyframe "{62754A51416AB262}" {
+        FrameNumber 8022
+        Value 5761.001
+       }
+       FloatCinematicKeyframe "{62754AC9B6B403A8}" {
+        FrameNumber 8201
+        Value 5761.001
+       }
+      }
+      Flags 0
+     }
+    }
+    Angles Vector3CinematicTrack "{62750BE21C1BD041}" {
+     TrackName "Angles"
+     Flags 0
+     X FloatCinematicTrack "{62750BE21C1BD047}" {
+      TrackName "X"
+      Keyframes {
+       FloatCinematicKeyframe "{62750BE239B4E46C}" {
+        FrameNumber 2589
+        Value -34.188
+       }
+       FloatCinematicKeyframe "{62750BE1C2DCBE7D}" {
+        FrameNumber 3062
+        Value -26.988
+       }
+       FloatCinematicKeyframe "{62750BE1CA128D1B}" {
+        FrameNumber 3325
+        Value -13.388
+       }
+       FloatCinematicKeyframe "{62750BEAD83F0C24}" {
+        FrameNumber 3490
+        Value -6.445
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A4B75AC3394}" {
+        FrameNumber 3630
+        Value -2.963
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6277209A2629A259}" {
+        FrameNumber 3661
+        Value -2.711
+       }
+       FloatCinematicKeyframe "{62754A43433003DE}" {
+        FrameNumber 3732
+        Value -3.788
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62750BE1B425FB5B}" {
+        FrameNumber 3824
+        Value -4.188
+       }
+       FloatCinematicKeyframe "{62750BE1B942452C}" {
+        FrameNumber 3928
+        Value -7.788
+       }
+       FloatCinematicKeyframe "{62750BE1BECE1645}" {
+        FrameNumber 4025
+        Value -0.188
+       }
+       FloatCinematicKeyframe "{62754A4352F1A267}" {
+        FrameNumber 4211
+        Value -11.012
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62750BE13F5B744C}" {
+        FrameNumber 4600
+        Value -17.207
+       }
+       FloatCinematicKeyframe "{62754A4113050DEE}" {
+        FrameNumber 4900
+        Value -11.991
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A410E94790D}" {
+        FrameNumber 5200
+        Value -4.807
+       }
+       FloatCinematicKeyframe "{62754A4BE09AC3C4}" {
+        FrameNumber 5487
+        Value -3.209
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A40D2275719}" {
+        FrameNumber 5902
+        Value -18.807
+       }
+       FloatCinematicKeyframe "{62754A4E8C6B0A74}" {
+        FrameNumber 6532
+        Value -17.601
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A4E9F323D5D}" {
+        FrameNumber 6877
+        Value -20.004
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A4EB0ED4EA7}" {
+        FrameNumber 7402
+        Value -16.007
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A3CE89159A0}" {
+        FrameNumber 7467
+        Value -14.018
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A3BBA6E1F3D}" {
+        FrameNumber 7712
+        Value -9.624
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A51FDA533DF}" {
+        FrameNumber 7896
+        Value 1.576
+       }
+       FloatCinematicKeyframe "{62754A51416AB351}" {
+        FrameNumber 8022
+        Value 1.555
+       }
+       FloatCinematicKeyframe "{62754AC9B6B40C7E}" {
+        FrameNumber 8201
+        Value 1.555
+       }
+      }
+      Flags 0
+     }
+     Y FloatCinematicTrack "{62750BE21C1BD04B}" {
+      TrackName "Y"
+      Keyframes {
+       FloatCinematicKeyframe "{62750BE239B4E636}" {
+        FrameNumber 2589
+        Value 171.436
+       }
+       FloatCinematicKeyframe "{62750BE1C2DCB817}" {
+        FrameNumber 3062
+        Value 167.436
+       }
+       FloatCinematicKeyframe "{62750BE1CA128F02}" {
+        FrameNumber 3325
+        Value 177.436
+       }
+       FloatCinematicKeyframe "{62750BEAD83F0EFC}" {
+        FrameNumber 3490
+        Value 172.177
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A4B75AC3C6E}" {
+        FrameNumber 3630
+        Value 130.469
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6277209A2629AC14}" {
+        FrameNumber 3661
+        Value 128.807
+       }
+       FloatCinematicKeyframe "{62754A4343300C56}" {
+        FrameNumber 3732
+        Value 126.535
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62750BE1B425E543}" {
+        FrameNumber 3824
+        Value 105.436
+       }
+       FloatCinematicKeyframe "{62750BE1B942472F}" {
+        FrameNumber 3928
+        Value 130.236
+       }
+       FloatCinematicKeyframe "{62750BE1BECE105A}" {
+        FrameNumber 4025
+        Value 167.836
+       }
+       FloatCinematicKeyframe "{62754A4352F1ACCA}" {
+        FrameNumber 4211
+        Value 149.435
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62750BE13F5B77A3}" {
+        FrameNumber 4600
+        Value 163.354
+       }
+       FloatCinematicKeyframe "{62754A4113050E12}" {
+        FrameNumber 4900
+        Value 178.174
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A410E947A12}" {
+        FrameNumber 5200
+        Value 179.354
+       }
+       FloatCinematicKeyframe "{62754A4BE09ACC4F}" {
+        FrameNumber 5487
+        Value 206.153
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A40D2275040}" {
+        FrameNumber 5902
+        Value 195.354
+       }
+       FloatCinematicKeyframe "{62754A4E8C6B34D3}" {
+        FrameNumber 6532
+        Value 139.644
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A4E9F323F0D}" {
+        FrameNumber 6877
+        Value 185.279
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A4EB0ED4F04}" {
+        FrameNumber 7402
+        Value 65.354
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A3CE8915A60}" {
+        FrameNumber 7467
+        Value 106.661
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A3BBA6E19D7}" {
+        FrameNumber 7712
+        Value 99.061
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A51FDA53C60}" {
+        FrameNumber 7896
+        Value 107.461
+       }
+       FloatCinematicKeyframe "{62754A51416ABD96}" {
+        FrameNumber 8022
+        Value 107.454
+       }
+       FloatCinematicKeyframe "{62754AC9B6B40E1F}" {
+        FrameNumber 8201
+        Value 107.454
+       }
+      }
+      Flags 0
+     }
+     Z FloatCinematicTrack "{62750BE21C1BD051}" {
+      TrackName "Z"
+      Keyframes {
+       FloatCinematicKeyframe "{62750BE239B4E0C0}" {
+        FrameNumber 2589
+        Value 0
+       }
+       FloatCinematicKeyframe "{62750BE1C2DCBA29}" {
+        FrameNumber 3062
+        Value 0
+       }
+       FloatCinematicKeyframe "{62750BE1CA128928}" {
+        FrameNumber 3325
+        Value 0
+       }
+       FloatCinematicKeyframe "{62750BEAD83F08F5}" {
+        FrameNumber 3490
+        Value 0
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A4B75AC3ED4}" {
+        FrameNumber 3630
+        Value 0
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6277209A2629AE2D}" {
+        FrameNumber 3661
+        Value 0
+       }
+       FloatCinematicKeyframe "{62754A4343300E33}" {
+        FrameNumber 3732
+        Value 0
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62750BE1B425E772}" {
+        FrameNumber 3824
+        Value 0
+       }
+       FloatCinematicKeyframe "{62750BE1B942412B}" {
+        FrameNumber 3928
+        Value 0
+       }
+       FloatCinematicKeyframe "{62750BE1BECE13A6}" {
+        FrameNumber 4025
+        Value 0
+       }
+       FloatCinematicKeyframe "{62754A4352F1AEBE}" {
+        FrameNumber 4211
+        Value 0
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62750BE13F5B7184}" {
+        FrameNumber 4600
+        Value 0
+       }
+       FloatCinematicKeyframe "{62754A411305088D}" {
+        FrameNumber 4900
+        Value 0
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A410E947B68}" {
+        FrameNumber 5200
+        Value 0
+       }
+       FloatCinematicKeyframe "{62754A4BE09ACE36}" {
+        FrameNumber 5487
+        Value 0
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A40D22752AE}" {
+        FrameNumber 5902
+        Value 0
+       }
+       FloatCinematicKeyframe "{62754A4E8C6B368C}" {
+        FrameNumber 6532
+        Value 0
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A4E9F323925}" {
+        FrameNumber 6877
+        Value 0
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A4EB0ED49FF}" {
+        FrameNumber 7402
+        Value 0
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A3CE8914416}" {
+        FrameNumber 7467
+        Value 0
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A3BBA6E1BFE}" {
+        FrameNumber 7712
+        Value 0
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{62754A51FDA53EB6}" {
+        FrameNumber 7896
+        Value 0
+       }
+       FloatCinematicKeyframe "{62754A51416ABE30}" {
+        FrameNumber 8022
+        Value 0
+       }
+       FloatCinematicKeyframe "{62754AC9B6B40817}" {
+        FrameNumber 8201
+        Value 0
+       }
+      }
+      Flags 0
+     }
+    }
+    FOV FloatCinematicTrack "{62750BE21C1BD055}" {
+     TrackName "FOV"
+     Flags 0
+    }
+    DOF DOFCinematicTrack "{62750BE21C1BD05B}" {
+     TrackName "DOF"
+     Flags 0
+     Enabled BooleanCinematicTrack "{62750BE21C1BD1A4}" {
+      TrackName "Enabled"
+      Flags 0
+     }
+     FocusDistance FloatCinematicTrack "{62750BE21C1BD1A9}" {
+      TrackName "FocusDistance"
+      Flags 0
+     }
+     LengthNear FloatCinematicTrack "{62750BE21C1BD1AD}" {
+      TrackName "LengthNear"
+      Flags 0
+     }
+     LengthFar FloatCinematicTrack "{62750BE21C1BD1B1}" {
+      TrackName "LengthFar"
+      Flags 0
+     }
+    }
+    HDR HDRCinematicTrack "{62750BE21C1BD1B7}" {
+     TrackName "HDR"
+     Flags 0
+     ManualExposition BooleanCinematicTrack "{62750BE21C1BD1BC}" {
+      TrackName "ManualExposition"
+      Flags 0
+     }
+     ExpositionLV FloatCinematicTrack "{62750BE21C1BD180}" {
+      TrackName "ExpositionLV"
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62750BF204B5032A}" {
+    TrackName "M2HB_MARSOC"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62750BF204B50F4A}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62750BF214CA1BD2}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\M2HB_MARSOC.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62750BF204B509BE}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62750BF22C74E8E3}" {
+        FrameNumber 3
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62750BF223A11F1F}" {
+        FrameNumber 6000
+        Value 6000
+       }
+       FloatCinematicKeyframe "{6276FBF16DA3DD59}" {
+        FrameNumber 8150
+        Value 100000
+        InterpMode 0
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BF204B5095D}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62750BF21515EF92}" {
+        FrameNumber 3
+        Value "M2HB_MARSOC"
+       }
+       StringCinematicKeyframe "{6276E7689175497F}" {
+        FrameNumber 8067
+        Value "M2HB_MARSOC"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BF204B50A61}" {
+      TrackName "m_sTrackEditAction"
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62750BE77108C9A6}" {
+    TrackName "MHB_MARSOC2"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62750BE77108C9B1}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62750BE6D81F4382}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\M998_USAF1.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62750BE77108C9B7}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62750BE77108C9B8}" {
+        FrameNumber 3
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A43CF566F88}" {
+        FrameNumber 2400
+        Value 1800
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A43DF5FCD29}" {
+        FrameNumber 6000
+        Value 5200
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF16EC21546}" {
+        FrameNumber 8150
+        Value 100000
+        InterpMode 0
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BE77108C9BE}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62750BE6CB51D08F}" {
+        FrameNumber 3
+        Value "M998_USAF1"
+       }
+       StringCinematicKeyframe "{6276E768973B8DCC}" {
+        FrameNumber 8067
+        Value "M998_USAF1"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BE77108C982}" {
+      TrackName "m_sTrackEditAction"
+      Keyframes {
+       StringCinematicKeyframe "{62750BE93A622580}" {
+        FrameNumber 0
+        Value "Cut"
+       }
+       StringCinematicKeyframe "{62750BE93436D772}" {
+        FrameNumber 617
+        Value "Cut"
+       }
+      }
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62750BEBE4D14BA7}" {
+    TrackName "RHS_USAF_G_000_4_0"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62750BEBE4D14BB6}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62750BEBEBC92CC7}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_000_4_0.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62750BEBE4D14BBE}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62750BEBE4D14B80}" {
+        FrameNumber 3
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A43D1F5A748}" {
+        FrameNumber 2400
+        Value 1800
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A43E1F4FB21}" {
+        FrameNumber 6000
+        Value 5200
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF16F25AA40}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BEBE4D14B86}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62750BEBE9C23890}" {
+        FrameNumber 3
+        Value "RHS_USAF_G_000_4|0"
+       }
+       StringCinematicKeyframe "{6276E7689EDFDEB4}" {
+        FrameNumber 8067
+        Value "RHS_USAF_G_000_4|0"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BEBE4D14B89}" {
+      TrackName "m_sTrackEditAction"
+      Keyframes {
+       StringCinematicKeyframe "{62750BE93CE69A2A}" {
+        FrameNumber 0
+        Value "Cut"
+       }
+       StringCinematicKeyframe "{62750BE93E54D800}" {
+        FrameNumber 617
+        Value "Cut"
+       }
+      }
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62750BE45621EAC7}" {
+    TrackName "RHS_USAF_G_000_4_1"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62750BE45621EAD5}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62750BE465C1F5F9}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_000_4_1.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62750BE45621EADC}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62750BE45621EADE}" {
+        FrameNumber 3
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A43D3CC3FC0}" {
+        FrameNumber 2400
+        Value 1800
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A43E305597D}" {
+        FrameNumber 6000
+        Value 5200
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF171922AC9}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BE45621EA26}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62750BE4634B2213}" {
+        FrameNumber 3
+        Value "RHS_USAF_G_000_4|1"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BE45621EA2D}" {
+      TrackName "m_sTrackEditAction"
+      Keyframes {
+       StringCinematicKeyframe "{62750BE8C42CD789}" {
+        FrameNumber 0
+        Value "Cut"
+       }
+       StringCinematicKeyframe "{62750BE8C6B8EEEB}" {
+        FrameNumber 617
+        Value "Cut"
+       }
+      }
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62750BE7607F5387}" {
+    TrackName "RHS_USAF_G_000_4_2"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62750BE7607F5391}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62750BE6DCAEF163}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_000_4_2.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62750BE7607F5399}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62750BE7607F539B}" {
+        FrameNumber 3
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A43D5B92536}" {
+        FrameNumber 2400
+        Value 1800
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A43E5B9DEC4}" {
+        FrameNumber 6000
+        Value 5200
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF1734D4457}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BE7607F539E}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62750BE6DE50DEFA}" {
+        FrameNumber 3
+        Value "RHS_USAF_G_000_4|2"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BE7607F53E2}" {
+      TrackName "m_sTrackEditAction"
+      Keyframes {
+       StringCinematicKeyframe "{62750BE8CA7A472D}" {
+        FrameNumber 0
+        Value "Cut"
+       }
+       StringCinematicKeyframe "{62750BE8CCCC68E6}" {
+        FrameNumber 617
+        Value "Cut"
+       }
+      }
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62750BEB5D792564}" {
+    TrackName "RHS_USAF_G_000_4_3"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62750BEB5D792570}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62750BEB71A95807}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_000_4_3.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62750BEB5D792577}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62750BEB5D79257A}" {
+        FrameNumber 3
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A43D6312C8D}" {
+        FrameNumber 2400
+        Value 1800
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A43E6306F09}" {
+        FrameNumber 6000
+        Value 5200
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF1754D3ADF}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BEB5D79257F}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62750BEB6FA3758C}" {
+        FrameNumber 3
+        Value "RHS_USAF_G_000_4|3"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BEB5D792544}" {
+      TrackName "m_sTrackEditAction"
+      Keyframes {
+       StringCinematicKeyframe "{62750BE8D01D0EFD}" {
+        FrameNumber 0
+        Value "Cut"
+       }
+       StringCinematicKeyframe "{62750BE8D3A86E9F}" {
+        FrameNumber 617
+        Value "Cut"
+       }
+      }
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62750BEE197EC367}" {
+    TrackName "RHS_USAF_G_010_6_0"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62750BEE197EC373}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62750BEE1D013849}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_010_6_0.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62750BEE197EC37A}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62750BEE197EC37C}" {
+        FrameNumber 1501
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A414882A972}" {
+        FrameNumber 6000
+        Value 4500
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF1766BA7F0}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BEE197EC342}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62750BEE21DAA199}" {
+        FrameNumber 3
+        Value "RHS_USAF_G_010_6|0"
+       }
+       StringCinematicKeyframe "{6276E768AF3F9F9B}" {
+        FrameNumber 8067
+        Value "RHS_USAF_G_010_6|0"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BEE197EC345}" {
+      TrackName "m_sTrackEditAction"
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62750BED88204A51}" {
+    TrackName "RHS_USAF_G_010_6_1"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62750BED88204BA3}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62750BED8D12BB77}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_010_6_1.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62750BED88204BA9}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62750BED88204BAB}" {
+        FrameNumber 1501
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A41BE0A32B6}" {
+        FrameNumber 6000
+        Value 4500
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF17812E823}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BED88204BB0}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62750BED8C0C7D28}" {
+        FrameNumber 3
+        Value "RHS_USAF_G_010_6|1"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BED88204BB5}" {
+      TrackName "m_sTrackEditAction"
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62750BED030B2B32}" {
+    TrackName "RHS_USAF_G_010_6_2"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62750BED030B2B3C}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62750BED09FFF3EC}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_010_6_2.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62750BED030B2B02}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62750BED030B2B05}" {
+        FrameNumber 1501
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A41B9B819AD}" {
+        FrameNumber 6000
+        Value 4500
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF17CABF73E}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BED030B2B07}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62750BED0A1960AF}" {
+        FrameNumber 3
+        Value "RHS_USAF_G_010_6|2"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BED030B2B0A}" {
+      TrackName "m_sTrackEditAction"
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62750BECF4315688}" {
+    TrackName "RHS_USAF_G_010_6_3"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62750BECF4315697}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62750BECFEB410A0}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_010_6_3.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62750BECF431569C}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62750BECF431569E}" {
+        FrameNumber 1501
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A41B32F7217}" {
+        FrameNumber 6000
+        Value 4500
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF17C44C8C4}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BECF43156E1}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62750BECFCE1B382}" {
+        FrameNumber 3
+        Value "RHS_USAF_G_010_6|3"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BECF43156E5}" {
+      TrackName "m_sTrackEditAction"
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62750BEC548E509D}" {
+    TrackName "RHS_USAF_G_010_6_4"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62750BEC548E50ED}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62750BEC5B5CE58C}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_010_6_4.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62750BEC548E50F3}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62750BEC548E50F5}" {
+        FrameNumber 1501
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A41AC5A0347}" {
+        FrameNumber 6000
+        Value 4500
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF17FC4AEED}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BEC548E50F9}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62750BEC596EF022}" {
+        FrameNumber 3
+        Value "RHS_USAF_G_010_6|4"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BEC548E50FB}" {
+      TrackName "m_sTrackEditAction"
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62750BEC37C0FFBF}" {
+    TrackName "RHS_USAF_G_010_6_5"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62750BEC37C0FF89}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62750BEC3DC3A8CE}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_010_6_5.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62750BEC37C0FF8F}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62750BEC37C0FF91}" {
+        FrameNumber 1501
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A41ABC1CDA9}" {
+        FrameNumber 6000
+        Value 4500
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF100F6A62C}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BEC37C0FF94}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62750BD3C0C8A63A}" {
+        FrameNumber 3
+        Value "RHS_USAF_G_010_6|5"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62750BEC37C0FF96}" {
+      TrackName "m_sTrackEditAction"
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62754A470F9B7B99}" {
+    TrackName "RHS_USAF_G_011_6_0"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62754A470F9B7BE6}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62754A47230B9325}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_011_6_0.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62754A470F9B7BED}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62754A470F9B7BEF}" {
+        FrameNumber 3803
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A4BC1738D5C}" {
+        FrameNumber 8000
+        Value 4200
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF1027E3FDE}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754A470F9B7BF4}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62754A46C418B6F5}" {
+        FrameNumber 3
+        Value "RHS_USAF_G_011_6|0"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754A470F9B7BF7}" {
+      TrackName "m_sTrackEditAction"
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62754A46BE0EF9F9}" {
+    TrackName "RHS_USAF_G_011_6_1"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62754A46BE0EF9C7}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62754A46416C86EF}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_011_6_1.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62754A46BE0EF9D1}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62754A46BE0EF9D4}" {
+        FrameNumber 3803
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A4BC32019C2}" {
+        FrameNumber 8000
+        Value 4200
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF10407C290}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754A46BE0EF9D8}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62754A4642778D8A}" {
+        FrameNumber 3
+        Value "RHS_USAF_G_011_6|1"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754A46BE0EF9DB}" {
+      TrackName "m_sTrackEditAction"
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62754A4609429AB7}" {
+    TrackName "RHS_USAF_G_011_6_2"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62754A4609429A8A}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62754A460E3F9D86}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_011_6_2.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62754A4609429A92}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62754A4609429A94}" {
+        FrameNumber 3803
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A4BC4740AA7}" {
+        FrameNumber 8000
+        Value 4200
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF106CF6149}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754A4609429A97}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62754A460DCCD318}" {
+        FrameNumber 3
+        Value "RHS_USAF_G_011_6|2"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754A4609429A9A}" {
+      TrackName "m_sTrackEditAction"
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62754A49DB410726}" {
+    TrackName "RHS_USAF_G_011_6_3"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62754A49DB410731}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62754A49E6A3AFBD}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_011_6_3.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62754A49DB410738}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62754A49DB41073A}" {
+        FrameNumber 3803
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A4BC6C90591}" {
+        FrameNumber 8000
+        Value 4200
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF10838BC05}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754A49DB41073F}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62754A49E7E73144}" {
+        FrameNumber 3
+        Value "RHS_USAF_G_011_6|3"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754A49DB410703}" {
+      TrackName "m_sTrackEditAction"
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62754A4954E1C9CA}" {
+    TrackName "RHS_USAF_G_011_6_4"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62754A4954E1C9D6}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62754A495887AA25}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_011_6_4.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62754A4954E1C9DD}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62754A4954E1C9DF}" {
+        FrameNumber 3803
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A4BC9A1CE57}" {
+        FrameNumber 8000
+        Value 4200
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF10A86276F}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754A4954E1C923}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62754A4959CA4508}" {
+        FrameNumber 3
+        Value "RHS_USAF_G_011_6|4"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754A4954E1C926}" {
+      TrackName "m_sTrackEditAction"
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62754A4927A4D31B}" {
+    TrackName "RHS_USAF_G_011_6_5"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62754A4927A4D366}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62754A492B0BB857}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_011_6_5.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62754A4927A4D36C}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62754A4927A4D36F}" {
+        FrameNumber 3803
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A4BCAE0FE29}" {
+        FrameNumber 8000
+        Value 4200
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF10B7AE53A}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754A4927A4D375}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62754A492DB477E5}" {
+        FrameNumber 3
+        Value "RHS_USAF_G_011_6|5"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754A4927A4D379}" {
+      TrackName "m_sTrackEditAction"
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62754A4A7C798B61}" {
+    TrackName "RHS_USAF_G_012_6_0"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62754A4A7C798B6A}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62754A4A28949D05}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_012_6_0.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62754A4A7C798B71}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62754A4A7C798B73}" {
+        FrameNumber 4402
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A4FAEB810AE}" {
+        FrameNumber 8000
+        Value 3600
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF10DF3574B}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754A4A7C798B77}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62754A4D49DB4079}" {
+        FrameNumber 3
+        Value "RHS_USAF_G_012_6|0"
+       }
+       StringCinematicKeyframe "{6276E7685FA2AAD3}" {
+        FrameNumber 8067
+        Value "RHS_USAF_G_012_6|0"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754A4A7C798B7A}" {
+      TrackName "m_sTrackEditAction"
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62754A4DABBF82E2}" {
+    TrackName "RHS_USAF_G_012_6_1"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62754A4DABBF82EE}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62754A4D415F8007}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_012_6_1.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62754A4DABBF82F7}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62754A4DABBF82F9}" {
+        FrameNumber 4402
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A4FAF75551D}" {
+        FrameNumber 8000
+        Value 3600
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF10E06C4F4}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754A4DABBF82FD}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62754A4D43DC6348}" {
+        FrameNumber 3
+        Value "RHS_USAF_G_012_6|1"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754A4DABBF82C2}" {
+      TrackName "m_sTrackEditAction"
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62754A4D19CC5937}" {
+    TrackName "RHS_USAF_G_012_6_2"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62754A4D19CC5903}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62754A4D237F3544}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_012_6_2.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62754A4D19CC590B}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62754A4D19CC590D}" {
+        FrameNumber 4402
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A4FB1FC6342}" {
+        FrameNumber 8000
+        Value 3600
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF11095A221}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754A4D19CC5910}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62754A4D245DCF3F}" {
+        FrameNumber 3
+        Value "RHS_USAF_G_012_6|2"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754A4D19CC5914}" {
+      TrackName "m_sTrackEditAction"
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62754A4CF17FDB7F}" {
+    TrackName "RHS_USAF_G_012_6_3"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62754A4CF17FDB4D}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62754A4CF5907DC0}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_012_6_3.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62754A4CF17FDB53}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62754A4CF17FDB56}" {
+        FrameNumber 4402
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A4FB266098E}" {
+        FrameNumber 8000
+        Value 3600
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF112E964EC}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754A4CF17FDB59}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62754A4CF6D85DCE}" {
+        FrameNumber 3
+        Value "RHS_USAF_G_012_6|3"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754A4CF17FDB5D}" {
+      TrackName "m_sTrackEditAction"
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62754A4C7FE69B3F}" {
+    TrackName "RHS_USAF_G_012_6_4"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62754A4C7FE69B0A}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62754A4C069E8724}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_012_6_4.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62754A4C7FE69B10}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62754A4C7FE69B12}" {
+        FrameNumber 4402
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A4FB656FB27}" {
+        FrameNumber 8000
+        Value 3600
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF1133AA690}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754A4C7FE69B15}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62754A4C070DFB1C}" {
+        FrameNumber 3
+        Value "RHS_USAF_G_012_6|4"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754A4C7FE69B18}" {
+      TrackName "m_sTrackEditAction"
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62754A4FE490555F}" {
+    TrackName "RHS_USAF_G_012_6_5"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62754A4FE49056AA}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62754A4FEBA5B37B}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_012_6_5.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62754A4FE49056B0}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62754A4FE49056B2}" {
+        FrameNumber 4402
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754A4FB509C14E}" {
+        FrameNumber 8000
+        Value 3600
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF115A8CD16}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754A4FE49056B5}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62754A4FE90BA8CF}" {
+        FrameNumber 3
+        Value "RHS_USAF_G_012_6|5"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754A4FE49056BC}" {
+      TrackName "m_sTrackEditAction"
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62754AC0AC6215C0}" {
+    TrackName "RHS_USAF_G_013_3_0"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62754AC0AC6215D1}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62754AC069ADCECC}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_013_3_0.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62754AC0AC6215D8}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62754AC07FA0E44E}" {
+        FrameNumber 3
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754AC7BBD008C9}" {
+        FrameNumber 5699
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754AC75E80E84E}" {
+        FrameNumber 8000
+        Value 2300
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF117D46A73}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754AC0AC6215DE}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62754AC06F71D9D5}" {
+        FrameNumber 3
+        Value "RHS_USAF_G_013_3|0"
+       }
+       StringCinematicKeyframe "{6276E768701716E3}" {
+        FrameNumber 8067
+        Value "RHS_USAF_G_013_3|0"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754AC0AC621522}" {
+      TrackName "m_sTrackEditAction"
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62754AC50716AE1E}" {
+    TrackName "RHS_USAF_G_013_3_1"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62754AC50716AE68}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62754AC5116093CD}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_013_3_1.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62754AC50716AE70}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62754AC50716AE72}" {
+        FrameNumber 3
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754AC7738FB5E4}" {
+        FrameNumber 5699
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754AC7785F7814}" {
+        FrameNumber 8000
+        Value 2300
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF119DDDDDA}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754AC50716AE75}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62754AC512589E15}" {
+        FrameNumber 3
+        Value "RHS_USAF_G_013_3|1"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754AC50716AE78}" {
+      TrackName "m_sTrackEditAction"
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{62754AC484F50A0A}" {
+    TrackName "RHS_USAF_G_013_3_2"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{62754AC484F50A16}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{62754AC48B03A1EF}" {
+        FrameNumber 3
+        Value "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_013_3_2.vhcsurf"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{62754AC484F50A60}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{62754AC484F50A62}" {
+        FrameNumber 3
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754AC774D34934}" {
+        FrameNumber 5699
+        Value 3
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{62754AC77744371D}" {
+        FrameNumber 8000
+        Value 2300
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6276FBF11A1B0C4B}" {
+        FrameNumber 8150
+        Value 100000
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754AC484F50A66}" {
+      TrackName "m_sEntityNameNum"
+      Keyframes {
+       StringCinematicKeyframe "{62754AC48DFDF782}" {
+        FrameNumber 3
+        Value "RHS_USAF_G_013_3|2"
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{62754AC484F50A69}" {
+      TrackName "m_sTrackEditAction"
+      Flags 0
+     }
+    }
+   }
+  }
+ }
+ m_aAnimateTrackers {
+  PS_AnimeStudioPro2024 "{62750BF354CBE7DF}" {
+   m_sAnimeFilePath "$SesMissionsRHS:Anime\Ram\LastMorning\M998_USAF1.vhcsurf"
+   m_sAnimeEntityName "M998_USAF1"
+   m_sAnimeEntityTemplateName "M998_USAF1"
+   m_bUseGlobalMatrix 1
+   m_Bones PS_AnimeStudioBoneSet "{62750BF2D2ED0535}" : "{A9F677CCBD594E0C}scripts/game/M151ABonesSet.conf" {
+   }
+  }
+  PS_AnimeStudioPro2024 "{62750BF2D4928DCC}" {
+   m_sAnimeFilePath "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_013_3_2.vhcsurf"
+   m_Bones PS_AnimeStudioBoneSet "{62750BF2EDC86B01}" : "{52EDEB7EF7963868}scripts/game/CharacterBonesSet.conf" {
+   }
+  }
+ }
+}
+PS_AnimeSyncerEntity : "{20F7D30AD42EE895}Prefabs/AnimeSyncer.et" {
+ coords 1449.265 61.221 5765.863
+ m_aNames {
+  "LMV1" "LMV2" "LMV3" "LMV4" "M2HB_MARSOC" "M998_USAF1" "RHS_USAF_G_000_4|0" "RHS_USAF_G_000_4|1" "RHS_USAF_G_000_4|2" "RHS_USAF_G_000_4|3" "RHS_USAF_G_010_6|0" "RHS_USAF_G_010_6|1" "RHS_USAF_G_010_6|2" "RHS_USAF_G_010_6|3" "RHS_USAF_G_010_6|4" "RHS_USAF_G_010_6|5" "RHS_USAF_G_011_6|0" "RHS_USAF_G_011_6|1" "RHS_USAF_G_011_6|2" "RHS_USAF_G_011_6|3" "RHS_USAF_G_011_6|4" "RHS_USAF_G_011_6|5" "RHS_USAF_G_012_6|0" "RHS_USAF_G_012_6|1" "RHS_USAF_G_012_6|2" "RHS_USAF_G_012_6|3" "RHS_USAF_G_012_6|4" "RHS_USAF_G_012_6|5" "RHS_USAF_G_013_3|0" "RHS_USAF_G_013_3|1" "RHS_USAF_G_013_3|2"
+ }
+}
+GenericEntity Template : "{5B1381786551320C}Prefabs/Characters/Mannequin/CINEMATIC_RU_soldier_with_animation.et" {
+ coords 2337.026 52.563 7040.054
+}

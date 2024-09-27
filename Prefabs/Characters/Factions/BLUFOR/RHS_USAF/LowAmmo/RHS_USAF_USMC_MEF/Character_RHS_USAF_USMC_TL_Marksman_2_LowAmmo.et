@@ -1,0 +1,41 @@
+SCR_ChimeraCharacter : "{2AE2FD9F65749859}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_TL_Marksman_2.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{62394AAC528A276C}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{62394AAC528A269D}" {
+     PrefabsToSpawn {
+      "{B5693611B92F0BAA}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{62394AA8CF177F1B}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{62394AA971B73208}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{62394AAAE38BF1D0}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{62394AAC528A2680}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Raid.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{623A27A11B4F9D1C}" {
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
+ }
+ coords 138.692 1 91.166
+}

@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{695CA068E1DF65A2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_Rifleman2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61E8906C69FA96AB}" {
+     PrefabsToSpawn {
+      "{32FEAE3A26BBF05D}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M995.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61E8906C69FA9682}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{61E8906DA0015B19}" {
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
+ }
+ coords 101.664 1 88.34
+}

@@ -3,6 +3,9 @@ modded class SCR_AIGroup
 	[Attribute()]
 	ref array<ref PointInfo> m_aSpawnPosition;
 	
+	[Attribute()]
+	ref array<ref PS_MoveToVehicle> m_aSpawnVehicle;
+	
 	override bool SpawnGroupMember(bool snapToTerrain, int index, ResourceName res, bool editMode, bool isLast)
 	{
 		
@@ -150,6 +153,21 @@ modded class SCR_AIGroup
 		if (!member)
 			return true;
 		
+		if (m_aSpawnVehicle && m_aSpawnVehicle.Count() > index)
+		{
+			PS_MoveToVehicle moveToVehicle = m_aSpawnVehicle[index];
+			if (moveToVehicle && moveToVehicle.m_sVehicleName != "")
+			{
+				Vehicle vehicle = Vehicle.Cast(world.FindEntityByName(moveToVehicle.m_sVehicleName));
+				if (vehicle)
+				{
+					SCR_ChimeraCharacter character = SCR_ChimeraCharacter.Cast(member);
+					CompartmentAccessComponent compartmentAccessComponent = character.GetCompartmentAccessComponent();
+					GetGame().GetCallqueue().Call(PS_MoveToVehicle, vehicle, moveToVehicle, compartmentAccessComponent);
+				}
+			}
+		}
+		
 		AddAIEntityToGroup(member);
 		
 		FactionAffiliationComponent factionAffiliation = FactionAffiliationComponent.Cast(member.FindComponent(FactionAffiliationComponent));
@@ -161,4 +179,41 @@ modded class SCR_AIGroup
 			Event_OnInit.Invoke(this);
 		return true;
 	}
+	
+	void PS_MoveToVehicle(Vehicle vehicle, PS_MoveToVehicle moveToVehicle, CompartmentAccessComponent compartmentAccessComponent)
+	{
+		BaseCompartmentManagerComponent compartmentManagerComponent = BaseCompartmentManagerComponent.Cast(vehicle.FindComponent(BaseCompartmentManagerComponent));
+		array<BaseCompartmentSlot> outCompartments = {};
+		compartmentManagerComponent.GetCompartments(outCompartments);
+		compartmentAccessComponent.GetInVehicle(vehicle, outCompartments[moveToVehicle.m_iCompartmentIndex], true, -1, ECloseDoorAfterActions.INVALID, true);
+	}
 }
+
+[BaseContainerProps()]
+class PS_MoveToVehicle
+{
+	[Attribute()]
+	string m_sVehicleName;
+	[Attribute()]
+	int m_iCompartmentIndex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+Vehicle LMV4 : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+ coords 3872.399 115.915 4933.665
+ angleX 2.374
+ angleY -65.24
+ angleZ -0.875
+}
+$grp Vehicle : "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/GAZ_TIGR_v2_Unarmed_Green.et" {
+ LMV1 {
+  coords 3838.488 116.227 4950.695
+  angleX -0.826
+  angleY -67.337
+  angleZ -0.345
+ }
+ LMV2 {
+  coords 3847.583 116.369 4946.104
+  angleX -0.825
+  angleY -67.231
+  angleZ -0.346
+ }
+}
+Vehicle LMV3 : "{F86AB1BD36B33407}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch.et" {
+ coords 3859.236 116.356 4940.446
+ angleX 0.814
+ angleY -65.39
+ angleZ 0.373
+}

@@ -1,0 +1,32 @@
+$grp Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+ VV4 {
+  coords 3024.554 94.718 6281.302
+  angleY -70.84
+ }
+ VV5 {
+  coords 3033.658 94.807 6278.485
+  angleX -0.871
+  angleY -76.632
+  angleZ -0.207
+ }
+}
+Vehicle VV3 : "{3B899AC9449C35F0}Prefabs/Vehicles/Wheeled/K17/APC_K17_unarmed.et" {
+ coords 3012.989 94.656 6285.152
+ angleY -76.192
+}
+$grp Vehicle : "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/GAZ_TIGR_v2_Unarmed_Green.et" {
+ VV1 {
+  coords 2990.066 94.593 6292.053
+  angleY -75
+ }
+ VV6 {
+  coords 3043.929 94.72 6277.593
+  angleX 0.894
+  angleY -92.719
+  angleZ -0.043
+ }
+}
+Vehicle VV2 : "{F86AB1BD36B33407}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch.et" {
+ coords 2999.71 94.625 6288.921
+ angleY -70
+}

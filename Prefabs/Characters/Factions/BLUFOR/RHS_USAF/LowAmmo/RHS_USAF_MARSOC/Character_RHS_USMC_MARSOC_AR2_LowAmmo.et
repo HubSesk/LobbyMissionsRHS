@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{1320AD60B56F7285}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_AR2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61E8E7117A3AF4D1}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6232E24D3EDF42D8}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+ coords 118.31 1 88.545
+}
