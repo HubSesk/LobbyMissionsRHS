@@ -1,0 +1,31 @@
+SCR_ChimeraCharacter : "{6572AE8D144102B3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Scout.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61BCB658CCFBFB4C}" {
+     PrefabsToSpawn {
+      "{A540E8600876C2A2}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61BCB658CCFBFB75}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{61BCB64352C8773F}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{61BCB643387074EB}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{61BCB658CCFBFB7A}" {
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
+ }
+ coords 149.07 1 93.074
+}

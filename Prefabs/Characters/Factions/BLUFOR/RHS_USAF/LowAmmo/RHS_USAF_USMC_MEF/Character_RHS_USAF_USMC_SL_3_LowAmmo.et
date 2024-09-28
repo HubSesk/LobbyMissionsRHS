@@ -1,0 +1,29 @@
+SCR_ChimeraCharacter : "{317FFD751BCFDEA8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_SL_3.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{60CAC28C6411E647}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{60CAC28C6411E64E}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{60CB7C739537A97F}" {
+     PrefabsToSpawn {
+      "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61B52E48B0B8D77D}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex.et"
+     PrefabsToSpawn {
+      "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Tracer.et"
+     }
+    }
+   }
+  }
+ }
+ coords 143.633 1 87.74
+}

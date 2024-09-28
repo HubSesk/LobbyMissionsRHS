@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{AA6252B6043342EF}UI/Spectator/SpectatorLabelIcon_Bitcoin.layout"
+ Configurations {
+  LayoutResourceClass PC {
+  }
+  LayoutResourceClass XBOX_ONE : PC {
+  }
+  LayoutResourceClass XBOX_SERIES : PC {
+  }
+  LayoutResourceClass PS4 : PC {
+  }
+  LayoutResourceClass HEADLESS : PC {
+  }
+  LayoutResourceClass PS5 : PC {
+  }
+ }
+}

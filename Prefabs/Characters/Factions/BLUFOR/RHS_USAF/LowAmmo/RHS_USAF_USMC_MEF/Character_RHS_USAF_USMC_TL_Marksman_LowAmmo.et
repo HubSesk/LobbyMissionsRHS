@@ -1,0 +1,41 @@
+SCR_ChimeraCharacter : "{3C935933439BDEBD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_TL_Marksman.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{62394AAC528A276C}" {
+     PrefabsToSpawn {
+      "{B5693611B92F0BAA}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{62394AAC528A269D}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{62394AA8CF177F1B}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{62394AA971B73208}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{62394AAAE38BF1D0}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{62394AAC528A2680}" {
+     PrefabsToSpawn {
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{623A27A11B4F9D1C}" {
+     PrefabsToSpawn {
+      "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
+     }
+    }
+   }
+  }
+ }
+ coords 138.891 1 93.48
+}

@@ -1,0 +1,15 @@
+GenericEntity : "{3670FB020029C146}Prefabs/Meth.et" {
+ coords 1459.92 67.519 6058.155
+ angleY -30.118
+}
+GenericEntity : "{BD7CD25364C94644}Prefabs/RazvedInfo_Marked.et" {
+ components {
+  PS_SpectatorLabel "{6264F53F729C7E3F}" {
+   m_cMapMarkerConfig PS_ManualMarkerConfig "{6264F53F7A6C62A5}" {
+    m_sDescription "Ключ от криптокошелька"
+   }
+  }
+ }
+ coords 1460.169 68.4 6058.342
+ angleY -119
+}

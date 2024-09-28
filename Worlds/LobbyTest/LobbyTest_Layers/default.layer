@@ -1,125 +1,295 @@
-CinematicEntity cinetest {
+SCR_MapEntity MapEntity1 : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ coords 86.31 1 125.708
+}
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 74.675 1 154.056
+}
+CinematicEntity Anime_1_s {
  coords 0 0 0
- Scene CinematicScene "{626731424ACE1FE5}" {
-  EndFrame 800
+ Scene CinematicScene "{626CE52F2920FB2A}" {
+  StartFrame 0
+  EndFrame 3050
   Tracks {
-   CameraCinematicTrack "{6267314255CCE528}" {
-    TrackName "Camera"
-    Position Vector3CinematicTrack "{6267314255CCE511}" {
-     TrackName "Position"
-     X FloatCinematicTrack "{6267314255CCE56E}" {
-      TrackName "X"
-      Keyframes {
-       FloatCinematicKeyframe "{626731420D4839A2}" {
-        FrameNumber 0
-        Value 129.415
-        InterpMode 0
-       }
+   CustomCinematicTrack "{626EC662A91EDFDA}" {
+    TrackName "R2_t"
+    ClassName "GeneralCinematicTrack"
+    ChildTracks {
+     FloatCinematicTrack "{626EC662A91ED8A7}" {
+      TrackName "m_bScale"
+     }
+     Vector3CinematicTrack "{626EC662A91ED8F7}" {
+      TrackName "m_YawPitchRoll"
+      X FloatCinematicTrack "{626EC662A91ED9B5}" {
+      }
+      Y FloatCinematicTrack "{626EC662A91ED99F}" {
+      }
+      Z FloatCinematicTrack "{626EC662A91ED9C1}" {
       }
      }
-     Y FloatCinematicTrack "{6267314255CCE571}" {
-      TrackName "Y"
-      Keyframes {
-       FloatCinematicKeyframe "{626731420D483DBD}" {
-        FrameNumber 0
-        Value 5.613
-        InterpMode 0
-       }
+     Vector3CinematicTrack "{626EC662A91ED83F}" {
+      TrackName "m_Position"
+      X FloatCinematicTrack "{626EC662A91ED921}" {
       }
-     }
-     Z FloatCinematicTrack "{6267314255CCE549}" {
-      TrackName "Z"
-      Keyframes {
-       FloatCinematicKeyframe "{626731420D483FE4}" {
-        FrameNumber 0
-        Value 149.878
-        InterpMode 0
-       }
+      Y FloatCinematicTrack "{626EC662A91ED904}" {
       }
-     }
-    }
-    Angles Vector3CinematicTrack "{6267314255CCE543}" {
-     TrackName "Angles"
-     X FloatCinematicTrack "{6267314255CCE545}" {
-      TrackName "X"
-      Keyframes {
-       FloatCinematicKeyframe "{626731420D483E4D}" {
-        FrameNumber 0
-        Value 0.9
-        InterpMode 0
-       }
+      Z FloatCinematicTrack "{626EC662A91ED966}" {
       }
-     }
-     Y FloatCinematicTrack "{6267314255CCE559}" {
-      TrackName "Y"
-      Keyframes {
-       FloatCinematicKeyframe "{626731420D482080}" {
-        FrameNumber 0
-        Value 181.5
-        InterpMode 0
-       }
-      }
-     }
-     Z FloatCinematicTrack "{6267314255CCE55D}" {
-      TrackName "Z"
-      Keyframes {
-       FloatCinematicKeyframe "{626731420D4823E8}" {
-        FrameNumber 0
-        Value 0
-        InterpMode 0
-       }
-      }
-     }
-    }
-    FOV FloatCinematicTrack "{6267314255CCE551}" {
-     TrackName "FOV"
-    }
-    DOF DOFCinematicTrack "{6267314255CCE4A9}" {
-     TrackName "DOF"
-     Enabled BooleanCinematicTrack "{6267314255CCE4A6}" {
-      TrackName "Enabled"
-     }
-     FocusDistance FloatCinematicTrack "{6267314255CCE4B8}" {
-      TrackName "FocusDistance"
-     }
-     LengthNear FloatCinematicTrack "{6267314255CCE4B0}" {
-      TrackName "LengthNear"
-     }
-     LengthFar FloatCinematicTrack "{6267314255CCE48B}" {
-      TrackName "LengthFar"
-     }
-    }
-    HDR HDRCinematicTrack "{6267314255CCE483}" {
-     TrackName "HDR"
-     ManualExposition BooleanCinematicTrack "{6267314255CCE485}" {
-      TrackName "ManualExposition"
-     }
-     ExpositionLV FloatCinematicTrack "{6267314255CCE499}" {
-      TrackName "ExpositionLV"
      }
     }
    }
-   AnimationCinematicTrack "{6267314264F2A1FE}" {
-    TrackName "cine1"
-    Play BooleanCinematicTrack "{6267314264F2A122}" {
-     TrackName "Play"
-     Keyframes {
-      BooleanCinematicKeyframe "{62673142661E0B40}" {
-       FrameNumber 0
-       Value 1
+   CustomCinematicTrack "{626D1069178283A7}" {
+    TrackName "T1_v"
+    ClassName "VehicleCinematicTrack"
+    ChildTracks {
+     BooleanCinematicTrack "{626D106917828E04}" {
+      TrackName "m_bStartEngine"
+      Keyframes {
+       BooleanCinematicKeyframe "{626D1069197ED9D5}" {
+        FrameNumber 0
+        Value 1
+       }
       }
+     }
+     FloatCinematicTrack "{626D106917828FDF}" {
+      TrackName "m_fEfficiency"
+     }
+     FloatCinematicTrack "{626D106917828F5F}" {
+      TrackName "m_fSteering"
+     }
+     IntegerCinematicTrack "{626D1069178288CF}" {
+      TrackName "m_fGear"
+      Keyframes {
+       IntegerCinematicKeyframe "{626D10687F51001C}" {
+        FrameNumber 9
+        Value 0
+       }
+      }
+     }
+     FloatCinematicTrack "{626D106917828879}" {
+      TrackName "m_fClutch"
+     }
+     FloatCinematicTrack "{626D1069178289E3}" {
+      TrackName "m_fBreak"
+     }
+     BooleanCinematicTrack "{626D106917828909}" {
+      TrackName "m_bHandBrake"
+     }
+     BooleanCinematicTrack "{626D106917828AAB}" {
+      TrackName "m_bLightsOn"
+     }
+     FloatCinematicTrack "{626D106917828AC9}" {
+      TrackName "m_fThrottle"
+     }
+     BooleanCinematicTrack "{626D106917828A68}" {
+      TrackName "m_bTurretControl"
+     }
+     BooleanCinematicTrack "{626D106917828B8C}" {
+      TrackName "m_bTurretShot"
+     }
+     FloatCinematicTrack "{626D106917828B27}" {
+      TrackName "m_fTurretLeftRight"
+     }
+     FloatCinematicTrack "{626D106917828B45}" {
+      TrackName "m_fTurretDownUp"
+     }
+     EventCinematicTrack "{626D10691782B4DA}" {
+      TrackName "insertGunner"
+     }
+    }
+   }
+   CustomCinematicTrack "{626EC670D86562AD}" {
+    TrackName "AnimeOngoing"
+    Flags 0
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{626EC670D8656DDA}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{626EEE4DD1A54002}" {
+        FrameNumber 3
+        Value "$profile:isekai2.anime"
+       }
+      }
+      Flags 0
+     }
+     FloatCinematicTrack "{626EC670D8656EFF}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{626EC67052F0A26E}" {
+        FrameNumber 3
+        Value 0
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{626EEE5DEFCE1F0D}" {
+        FrameNumber 1734
+        Value 1734
+        InterpMode 0
+       }
+      }
+      Flags 0
+     }
+     StringCinematicTrack "{626EC663DDECC576}" {
+      TrackName "m_sEntityName"
+      Keyframes {
+       StringCinematicKeyframe "{626F20A83BF61430}" {
+        FrameNumber 3
+        Value "G1"
+       }
+      }
+      Flags 0
+     }
+     IntegerCinematicTrack "{626F19625C95E229}" {
+      TrackName "m_iCharacterNum"
+      Keyframes {
+       IntegerCinematicKeyframe "{626F20A83CEDDFB5}" {
+        FrameNumber 3
+        Value 0
+        InterpMode 2
+       }
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{626EEE4DA023C53B}" {
+    TrackName "Animeongoing2"
+    Flags 1
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{626EEE4DA023C2CB}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{626EEE4DA7B1DC20}" {
+        FrameNumber 3
+        Value "$profile:isekai.anime"
+       }
+      }
+      Flags 1
+     }
+     FloatCinematicTrack "{626EEE4DA023CCA5}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{626EEE4DBEA0E9A0}" {
+        FrameNumber 3
+        Value 0
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{626EEE5DF2BBA63C}" {
+        FrameNumber 1734
+        Value 1734
+        InterpMode 0
+       }
+      }
+      Flags 1
+     }
+     StringCinematicTrack "{626EEE4DA023CDAB}" {
+      TrackName "m_sEntityName"
+      Keyframes {
+       StringCinematicKeyframe "{626EEE4DA83ED227}" {
+        FrameNumber 3
+        Value "R2"
+       }
+      }
+      Flags 1
+     }
+     IntegerCinematicTrack "{626F19625C95ED31}" {
+      TrackName "m_iCharacterNum"
+     }
+    }
+   }
+   CustomCinematicTrack "{626EEE46DBEBD5D0}" {
+    TrackName "Animeongoing3"
+    Flags 1
+    ClassName "PS_AnimeCinematicTrack"
+    ChildTracks {
+     StringCinematicTrack "{626EEE46DBEBD104}" {
+      TrackName "m_sAnimePath"
+      Keyframes {
+       StringCinematicKeyframe "{626EEE46E6573AA5}" {
+        FrameNumber 3
+        Value "$profile:isekai3.anime"
+       }
+      }
+      Flags 1
+     }
+     FloatCinematicTrack "{626EEE46DBEBD252}" {
+      TrackName "m_fProgress"
+      Keyframes {
+       FloatCinematicKeyframe "{626EEE46ECFFB2A6}" {
+        FrameNumber 3
+        Value 0
+        InterpMode 1
+       }
+       FloatCinematicKeyframe "{626EEE5DF3F19D1F}" {
+        FrameNumber 1734
+        Value 1734
+        InterpMode 0
+       }
+      }
+      Flags 1
+     }
+     StringCinematicTrack "{626EEE46DBEBD341}" {
+      TrackName "m_sEntityName"
+      Keyframes {
+       StringCinematicKeyframe "{626EEE46EA136C34}" {
+        FrameNumber 3
+        Value "M151A2"
+       }
+      }
+      Flags 1
+     }
+     IntegerCinematicTrack "{626F19625C95E827}" {
+      TrackName "m_iCharacterNum"
      }
     }
    }
   }
  }
 }
-SCR_AIGroup {
- coords 76.921 0.896 102.119
- m_aUnitPrefabSlots {
-  "{E005B0767A1A6A7A}Prefabs/Characters/Factions/INDFOR/PS_CEF/Character_PS_CEF_baseLoadout.et"
+GenericEntity Anime_1 {
+ components {
+  PS_AnimeStudioPro2024 "{626CFE16A4879B3C}" {
+   m_sAnimeFilePath "$profile:isekai2.anime"
+   m_Bones PS_AnimeStudioBoneSet "{626EEE47B7E3E7FA}" : "{52EDEB7EF7963868}scripts/game/CharacterBonesSet.conf" {
+   }
+  }
  }
 }
-GenericEntity cine1 : "{8E38B59C559003D0}Prefabs/Vehicles/Missles/kh55/kh55_cinematic.et" {
- coords 129.858 13.525 138.232
+$grp GenericEntity : "{5B1381786551320C}Prefabs/Characters/Mannequin/CINEMATIC_RU_soldier_with_animation.et" {
+ R2 {
+  components {
+   AnimationPlayerComponent "{5670AB5CB11668D8}" {
+    Enabled 0
+   }
+  }
+  coords 83.823 1 149.114
+ }
+ Template {
+  components {
+   AnimationPlayerComponent "{5670AB5CB11668D8}" {
+    Enabled 0
+   }
+  }
+  coords 81.672 1 125.967
+ }
+}
+SCR_AIGroup G1 : "{F2B7D404B66FD853}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Group_USAF_USMC_MARSOC_FireTeam.et" {
+ coords 72.871 1 151.293
+ angleY -164.264
+ m_aUnitPrefabSlots {
+  "{542E9F1C6459E46F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_TL_Random.et"
+ }
+}
+$grp Vehicle : "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et" {
+ M151A1 {
+  coords 75.697 1 142.245
+  angleY 111.183
+ }
+ M151A2 {
+  coords 78.775 1 123.231
+  angleY 107.118
+ }
+ Template2 {
+  coords 75.468 1 119.604
+  angleY 107.118
+ }
 }

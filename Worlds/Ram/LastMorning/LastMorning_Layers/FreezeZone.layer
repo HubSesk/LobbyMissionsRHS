@@ -1,0 +1,27 @@
+$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ {
+  coords 2616.893 91.109 5365.71
+ }
+ {
+  coords 3853.636 116.406 4939.67
+ }
+ {
+  coords 3016.28 96.398 6282.268
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ coords 1385.447 44.878 6024.729
+ m_fWarnRadius 374
+ m_fZoneRadius 414
+ m_fZoneTeleportedRadius 424
+ {
+  GenericEntity {
+   ID "59D673B36B893D84"
+   components {
+    SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+     m_fRadius 374
+    }
+   }
+  }
+ }
+}

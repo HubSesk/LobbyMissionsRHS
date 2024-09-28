@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{844936B168DFAB8E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_Rifleman_Random.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{62316A426E5B2947}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{62316A426D4BDC7B}" {
+      m_sVariantPrefab "{61A5FC9B90C50265}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_Rifleman_LowAmmo.et"
+     }
+     SCR_EditableEntityVariant "{62316A426CA1EF6D}" {
+      m_sVariantPrefab "{A55C0E18344787B7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_Rifleman2_LowAmmo.et"
+     }
+     SCR_EditableEntityVariant "{62316A426C982700}" {
+      m_sVariantPrefab "{31BA658D2CB21A04}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_Rifleman3_LowAmmo.et"
+     }
+    }
+   }
+  }
+ }
+}

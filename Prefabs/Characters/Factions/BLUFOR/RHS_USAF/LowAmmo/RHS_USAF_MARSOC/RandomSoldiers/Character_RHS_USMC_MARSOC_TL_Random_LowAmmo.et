@@ -1,0 +1,39 @@
+SCR_ChimeraCharacter : "{542E9F1C6459E46F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_TL_Random.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{62316A42534512E7}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{62316A42523BEE3C}" {
+      m_sVariantPrefab "{D265BE6EC0425E06}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_TL_LowAmmo.et"
+     }
+     SCR_EditableEntityVariant "{62316A425211BC8E}" {
+      m_sVariantPrefab "{FEB2B5B4853545FE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_TL2_LowAmmo.et"
+     }
+     SCR_EditableEntityVariant "{62316A42520AF7E6}" {
+      m_sVariantPrefab "{6A54DE219DC0D84D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_TL3_LowAmmo.et"
+     }
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61E8B840F830DAEF}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_util.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61E8906D4CD10238}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{61E8906D4CD10209}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+ coords 92.09 1 93.79
+}

@@ -1,0 +1,22 @@
+OverlayWidgetClass : "{0F5D0801C92873E1}UI/Disposition/DispositionBox.layout" {
+ {
+  SizeLayoutWidgetClass "{6277728156E8086C}" {
+   Prefab "{6277728156E8086C}"
+   {
+    FrameWidgetClass "{6277728737D5AD43}" {
+     Prefab "{6277728737D5AD43}"
+     {
+      TextWidgetClass "{6277728130BDD307}" {
+       Prefab "{6277728130BDD307}"
+       Text "Оборона города Ламентин"
+      }
+      TextWidgetClass "{62777280E33599DD}" {
+       Prefab "{62777280E33599DD}"
+       Text "Поднятый по тревоге гарнизон Ламентина готовится встречать противника огнем."
+      }
+     }
+    }
+   }
+  }
+ }
+}

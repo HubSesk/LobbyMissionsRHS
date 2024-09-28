@@ -1,0 +1,155 @@
+OverlayWidgetClass {
+ Name "DispositionBox"
+ Slot FrameWidgetSlot "{62777284B86B5A51}" {
+  Anchor 0 1 0 1
+  PositionX 87
+  OffsetLeft 87
+  PositionY -302
+  OffsetTop -302
+  SizeX 660
+  OffsetRight -747
+  SizeY 224
+  OffsetBottom 78
+ }
+ components {
+  PS_DispositionBoxWidgetComponent "{6277728EC3CE0697}" {
+  }
+ }
+ {
+  BlurWidgetClass "{627772826A6D2305}" {
+   Name "Blur0"
+   Slot OverlayWidgetSlot "{627772826A6D2361}" {
+    HorizontalAlign 3
+    VerticalAlign 3
+   }
+  }
+  OverlayWidgetClass "{627772824D01483D}" {
+   Name "Overlay0"
+   Slot OverlayWidgetSlot "{627772824D014862}" {
+    HorizontalAlign 3
+    VerticalAlign 3
+   }
+   Opacity 0.7
+   {
+    ImageWidgetClass "{62777287E085D718}" {
+     Name "Image1"
+     Slot OverlayWidgetSlot "{62777284594FE5F5}" {
+      HorizontalAlign 3
+      VerticalAlign 3
+     }
+     Color 0.001 0.001 0.001 1
+     Size 512 512
+     "Transition width" 1
+     Progress 0.8
+     "Mask Mode" "Include Below"
+     Range 0.54
+    }
+    ImageWidgetClass "{62777284594FE599}" {
+     Name "Image0"
+     Slot OverlayWidgetSlot "{62777284594FE5F5}" {
+      HorizontalAlign 3
+      VerticalAlign 3
+     }
+     Color 0.114 0 0 1
+     Size 512 512
+     Mask "{CB166C32C066B6D2}UI/Textures/Common/gradientTexture_Dither_left_512.edds"
+     "Transition width" 1
+     Progress 0.8
+     "Mask Mode" "Include Below"
+     Range 0.54
+    }
+   }
+  }
+  ImageWidgetClass "{62777287893D6EE1}" {
+   Name "Image2"
+   Slot OverlayWidgetSlot "{62777284594FE5F5}" {
+    HorizontalAlign 0
+    Padding 24 0 0 0
+   }
+   Texture "{9415F1FFF6591F8D}UI/Textures/Editor/EditableEntities/Factions/USAF_icon.edds"
+   Size 164 164
+   "Transition width" 1
+   Progress 0.8
+   "Mask Mode" "Include Below"
+   Range 0.54
+  }
+  SizeLayoutWidgetClass "{6277728156E8086C}" {
+   Name "SizeLayout0"
+   Slot OverlayWidgetSlot "{6277728156E80853}" {
+    HorizontalAlign 2
+    Padding 0 0 54 0
+   }
+   AllowWidthOverride 1
+   WidthOverride 400
+   AllowHeightOverride 1
+   HeightOverride 196
+   {
+    FrameWidgetClass "{6277728737D5AD43}" {
+     Name "Body"
+     Slot AlignableSlot "{6277728156FB92C8}" {
+      HorizontalAlign 3
+      VerticalAlign 3
+     }
+     {
+      TextWidgetClass "{6277728130BDD307}" {
+       Name "Text0"
+       Slot FrameWidgetSlot "{6277728130BDD31F}" {
+        PositionX 3
+        OffsetLeft 3
+        PositionY 13
+        OffsetTop 13
+        SizeX 395
+        OffsetRight -398
+        SizeY 43
+        OffsetBottom -56
+       }
+       Color 0.761 0.386 0.078 1
+       Text "Оборона города Лемуль"
+       "Font Size" 32
+       "Min Font Size" 32
+       "Vertical Alignment" Center
+       FontProperties FontProperties "{62777280183728C8}" {
+        Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+       }
+      }
+      ImageWidgetClass "{627772816B6C1380}" {
+       Name "Image0"
+       Slot FrameWidgetSlot "{627772816B6C1394}" {
+        PositionX 3
+        OffsetLeft 3
+        PositionY 58
+        OffsetTop 58
+        SizeX 395
+        OffsetRight -398
+        SizeY 2
+        OffsetBottom -60
+       }
+       Color 0.761 0.386 0.078 1
+      }
+      TextWidgetClass "{62777280E33599DD}" {
+       Name "Text1"
+       Slot FrameWidgetSlot "{6277728130BDD31F}" {
+        PositionX 3
+        OffsetLeft 3
+        PositionY 63
+        OffsetTop 63
+        SizeX 395
+        OffsetRight -398
+        SizeY 131
+        OffsetBottom -194
+       }
+       Text "Поднятый по тревоге гарнизон Лемуля готовится встречать противника огнем."
+       "Font Size" 28
+       "Min Font Size" 28
+       "Vertical Alignment" Center
+       Wrap 1
+       FontProperties FontProperties "{6277728011718222}" {
+        Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

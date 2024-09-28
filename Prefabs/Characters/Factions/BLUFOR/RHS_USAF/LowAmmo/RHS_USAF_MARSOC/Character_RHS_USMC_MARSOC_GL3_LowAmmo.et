@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{BA678B4AB5CECC1C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_GL3.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61E89A77933DAA3C}" {
+     PrefabsToSpawn {
+      "{134F072E6BB7D765}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_EPM_SP_T_30rnd_M855A1_Last5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61E8B44593EFB20F}" {
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+   }
+  }
+ }
+ coords 114.533 1 85.44
+}

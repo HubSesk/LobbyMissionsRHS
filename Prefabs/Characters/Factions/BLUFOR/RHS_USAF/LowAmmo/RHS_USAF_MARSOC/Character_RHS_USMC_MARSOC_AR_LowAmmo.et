@@ -1,0 +1,19 @@
+SCR_ChimeraCharacter : "{39DE841FBF372194}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_AR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61E8E7117A3AF4D1}" {
+     PrefabsToSpawn {
+      "{378685356C8F72E6}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_24rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6232E24D3EDF42D8}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+ coords 118.133 1 90.54
+}

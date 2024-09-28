@@ -1,0 +1,28 @@
+SCR_ChimeraCharacter : "{245AF47A1A360937}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_Scout3.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61E8B840F830DAEF}" {
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61E8A0D565EAF6BB}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{61E8A0D565EAF69E}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{61E8A0DA80BF5207}" {
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+   }
+  }
+ }
+ coords 97.927 1 84.624
+}

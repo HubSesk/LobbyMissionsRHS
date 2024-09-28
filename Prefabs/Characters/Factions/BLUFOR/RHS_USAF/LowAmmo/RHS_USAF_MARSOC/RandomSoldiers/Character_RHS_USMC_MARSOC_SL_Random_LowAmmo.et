@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{7D8CAFCBD4AF6FC3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/RandomSoldiers/Character_RHS_USMC_MARSOC_SL_Random.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{62316A424110B107}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{62316A4240F3B660}" {
+      m_sVariantPrefab "{6CB9B540A26516F5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_SL_LowAmmo.et"
+     }
+     SCR_EditableEntityVariant "{62316A4240E9D1E2}" {
+      m_sVariantPrefab "{D172A505C55D5D27}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_SL_2_LowAmmo.et"
+     }
+     SCR_EditableEntityVariant "{62316A4240C41CE1}" {
+      m_sVariantPrefab "{4594CE90DDA8C094}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_SL_3_LowAmmo.et"
+     }
+    }
+   }
+  }
+ }
+}

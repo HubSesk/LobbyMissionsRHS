@@ -1,0 +1,40 @@
+SCR_ChimeraCharacter : "{358ED1265B29F1AE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_AMG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61E8B840F830DAEF}" {
+     PrefabsToSpawn {
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61E8E7117A3AF4D1}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{61E8FEB0F6150D24}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{61E8FEB0F6150D05}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{61E8FEB0F6150D0F}" {
+     PrefabsToSpawn {
+      "{32FEAE3A26BBF05D}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M995.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61E8FEB0F6150D09}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{61E8FEB1EE13EDEF}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+ coords 121.312 1 91.127
+}

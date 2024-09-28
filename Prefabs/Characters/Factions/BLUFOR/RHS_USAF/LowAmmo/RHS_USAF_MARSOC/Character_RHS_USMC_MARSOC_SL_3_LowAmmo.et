@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{6287FC675DDE578E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_SL_3.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61E8B840F830DAEF}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_util.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61E8906FFC56822C}" {
+     PrefabsToSpawn {
+      "{32FEAE3A26BBF05D}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M995.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61E8906F8E5294B4}" {
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
+ }
+ coords 95.293 1 85.59
+}

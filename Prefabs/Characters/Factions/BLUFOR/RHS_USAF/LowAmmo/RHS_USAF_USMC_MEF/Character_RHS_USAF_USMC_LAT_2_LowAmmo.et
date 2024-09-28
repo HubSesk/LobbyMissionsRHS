@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{0AE40DDCD21DDE75}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_LAT_2.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{60CA16459B64742F}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{60CA16459B647450}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{60CA16459B647456}" {
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+   }
+  }
+ }
+ coords 163.801 1 89.743
+}
