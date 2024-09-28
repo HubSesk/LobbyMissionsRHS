@@ -365,60 +365,45 @@ CinematicEntity INBOUND {
      ManualExposition BooleanCinematicTrack "{62672AC77B6DCF59}" {
       TrackName "ManualExposition"
       Keyframes {
-       BooleanCinematicKeyframe "{626731468E879FF3}" {
+       BooleanCinematicKeyframe "{6278D029CF799EF7}" {
         FrameNumber 0
         Value 1
        }
-       BooleanCinematicKeyframe "{626A15B925C4967F}" {
-        FrameNumber 930
-        Value 1
+       BooleanCinematicKeyframe "{6278D029F88DF76E}" {
+        FrameNumber 1102
+        Value 0
        }
       }
      }
      ExpositionLV FloatCinematicTrack "{62672AC77B6DCF5D}" {
       TrackName "ExpositionLV"
       Keyframes {
-       FloatCinematicKeyframe "{6267314693C02685}" {
+       FloatCinematicKeyframe "{6278D0285CCB6AB2}" {
         FrameNumber 0
-        Value 16.34
+        Value 8
         InterpMode 0
        }
-       FloatCinematicKeyframe "{626731469CDAFA3B}" {
-        FrameNumber 155
-        Value 6.22
+       FloatCinematicKeyframe "{6278D0285978CEFF}" {
+        FrameNumber 92
+        Value 0
         InterpMode 0
        }
-       FloatCinematicKeyframe "{626A19B238B75610}" {
-        FrameNumber 271
-        Value 13.26
+       FloatCinematicKeyframe "{6278D02874E08C0C}" {
+        FrameNumber 218
+        Value 25
         InterpMode 0
        }
-       FloatCinematicKeyframe "{626A19B236D2E491}" {
-        FrameNumber 408
-        Value 14.559
+       FloatCinematicKeyframe "{6278D029DDD2EE15}" {
+        FrameNumber 448
+        Value 3
        }
-       FloatCinematicKeyframe "{62673146ABE6FE9F}" {
-        FrameNumber 466
-        Value 6.22
+       FloatCinematicKeyframe "{6278D029FCFC8C60}" {
+        FrameNumber 952
+        Value 3
        }
-       FloatCinematicKeyframe "{62673146A6482619}" {
-        FrameNumber 586
-        Value 1.8
-        InterpMode 0
-       }
-       FloatCinematicKeyframe "{62673146BFC446B4}" {
-        FrameNumber 649
-        Value 3.8
-        InterpMode 0
-       }
-       FloatCinematicKeyframe "{626A15B925C4FD09}" {
-        FrameNumber 930
-        Value 3.8
-       }
-       FloatCinematicKeyframe "{626A15B920E392FA}" {
-        FrameNumber 1028
-        Value 24.17
-        InterpMode 0
+       FloatCinematicKeyframe "{6278D029F8306A14}" {
+        FrameNumber 1102
+        Value 3
        }
       }
      }
@@ -432,31 +417,10 @@ CinematicEntity INBOUND {
      FloatCinematicTrack "{62672AC712EF2D22}" {
       TrackName "m_fTimeOfDay"
       Keyframes {
-       FloatCinematicKeyframe "{626A19B292977B9A}" {
+       FloatCinematicKeyframe "{6278D028CD9CEE80}" {
         FrameNumber 0
-        Value 19.47
+        Value 16.35
         InterpMode 0
-       }
-       FloatCinematicKeyframe "{626A19B2908B3010}" {
-        FrameNumber 21
-        Value 19.469
-       }
-       FloatCinematicKeyframe "{62672AC46B3E0846}" {
-        FrameNumber 294
-        Value 20.328
-       }
-       FloatCinematicKeyframe "{62672AC7A812A21E}" {
-        FrameNumber 420
-        Value 23.9
-        InterpMode 0
-       }
-       FloatCinematicKeyframe "{62672AC47F6FE6E7}" {
-        FrameNumber 473
-        Value 20.431
-       }
-       FloatCinematicKeyframe "{6267314642564DA7}" {
-        FrameNumber 822
-        Value 18.027
        }
       }
       Flags 0
