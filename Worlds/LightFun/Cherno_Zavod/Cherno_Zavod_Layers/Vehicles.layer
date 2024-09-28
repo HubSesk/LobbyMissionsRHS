@@ -36,6 +36,18 @@ Vehicle APC_K17_Epoch_camo1 : "{3918E80DF5393F8C}Prefabs/Vehicles/Wheeled/K17/AP
  angleY -22.969
  angleZ 0.572
 }
+$grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
+ M1025_armed_M2HB1 {
+  coords 2071.541 230.748 9945.689
+  angleX 1.07
+  angleY 167.266
+  angleZ 0.676
+ }
+ M1025_armed_M2HB2 {
+  coords 2055.984 230 10003.481
+  angleY 161.101
+ }
+}
 Vehicle BTR70_Ses_CDF1 : "{52441D784D145D52}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF.et" {
  coords 4112.257 324.594 8947.104
  angleY 91.13
@@ -46,16 +58,6 @@ Vehicle Ural4320_repair_camo1 : "{BED355ED51A1E859}Prefabs/Vehicles/Wheeled/Ural
  angleY -22.896
  angleZ -0.604
 }
-$grp Vehicle : "{CC55611936C21F25}Prefabs/Vehicles/Wheeled/M998/M1025_USAF.et" {
- M1025_USAF2 {
-  coords 2055.984 230 10003.481
-  angleY 161.101
- }
- M1025_USAF1 {
-  coords 2058.984 229.969 9993.057
-  angleY 165.437
- }
-}
 Vehicle UAZ469_Camo1 : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
  coords 5473.269 336.094 8409.105
  angleX -2.816
@@ -63,16 +65,14 @@ Vehicle UAZ469_Camo1 : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469
  angleZ -0.272
 }
 $grp Vehicle : "{FA6820A9A52CD05B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF.et" {
- M1025_armed_M2HB_MDO_USAF1 {
-  coords 2071.541 230.748 9945.69
-  angleX 1.07
-  angleY 167.266
-  angleZ 0.676
- }
  M1025_armed_M2HB_MDO_USAF2 {
   coords 2068.66 230.493 9957.239
   angleX 1.728
   angleY 164.928
   angleZ -0.465
+ }
+ M1025_armed_M2HB_MDO_USAF3 {
+  coords 2058.984 229.969 9993.057
+  angleY 165.437
  }
 }

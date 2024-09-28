@@ -1,3 +1,114 @@
+$grp GenericEntity : "{0A7A25EF56265A70}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_plastic.et" {
+ {
+  coords 4153.971 331.276 8955.049
+  angleY -90.297
+ }
+ {
+  coords 4153.999 331.276 8949.619
+  angleY -90.297
+ }
+ {
+  coords 4152.132 331.276 8948.72
+ }
+ {
+  coords 4147.605 331.276 8948.72
+ }
+ {
+  coords 4143.093 331.276 8948.72
+ }
+ {
+  coords 4142.26 331.276 8950.584
+  angleY 90
+ }
+ {
+  coords 4142.26 331.276 8955.149
+  angleY 90
+ }
+ {
+  coords 4094.711 331.232 8923.617
+  angleY 89.651
+ }
+ {
+  coords 4094.677 331.232 8929.05
+  angleY 89.651
+ }
+ {
+  coords 4096.543 331.232 8929.951
+  angleY 179.948
+ }
+ {
+  coords 4101.071 331.232 8929.955
+  angleY 179.948
+ }
+ {
+  coords 4105.582 331.232 8929.959
+  angleY 179.948
+ }
+ {
+  coords 4106.417 331.232 8928.095
+  angleY -90.052
+ }
+ {
+  coords 4106.421 331.232 8923.53
+  angleY -90.052
+ }
+ {
+  coords 4058.957 331.261 8887.404
+  angleY -0.437
+ }
+ {
+  coords 4053.526 331.261 8887.359
+  angleY -0.437
+ }
+ {
+  coords 4052.621 331.261 8889.227
+  angleY 89.86
+ }
+ {
+  coords 4052.611 331.261 8893.755
+  angleY 89.86
+ }
+ {
+  coords 4052.6 331.261 8898.267
+  angleY 89.86
+ }
+ {
+  coords 4054.462 331.261 8899.103
+  angleY 179.86
+ }
+ {
+  coords 4059.026 331.261 8899.112
+  angleY 179.86
+ }
+ {
+  coords 4032.962 329.511 8924.394
+  angleY 92.689
+ }
+ {
+  coords 4028.656 329.511 8928.025
+  angleY 2.751
+ }
+ {
+  coords 4026.003 329.511 8928.152
+  angleY 2.751
+ }
+ {
+  coords 4024.455 329.511 8924.796
+  angleY 92.689
+ }
+ {
+  coords 4024.335 329.511 8922.243
+  angleY 92.689
+ }
+ {
+  coords 4024.123 329.511 8917.716
+  angleY 92.689
+ }
+ {
+  coords 4024.974 329.511 8915.822
+  angleY 2.388
+ }
+}
 $grp GenericEntity : "{37D9E315CA4CEFE2}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_Chernarus.et" {
  {
   coords 4131.21 336.41 8921.322
@@ -7,5 +118,68 @@ $grp GenericEntity : "{37D9E315CA4CEFE2}Prefabs/Structures/Military/Flags/FlagPo
  }
  {
   coords 4087.423 336.454 8900.267
+ }
+}
+$grp GenericEntity : "{9F20D904D5CB98B8}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_plastic.et" {
+ {
+  coords 4153.985 331.276 8952.341
+  angleY -90.297
+ }
+ {
+  coords 4094.694 331.232 8926.325
+  angleY 89.651
+ }
+ {
+  coords 4056.249 331.261 8887.384
+  angleY -0.437
+ }
+ {
+  coords 4085.33 324.5 8900.855
+ }
+}
+$grp GenericEntity : "{F3EC400DB092C2A4}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_plastic.et" {
+ {
+  coords 4149.938 331.266 8948.708
+ }
+ {
+  coords 4145.39 331.266 8948.708
+ }
+ {
+  coords 4098.737 331.222 8929.964
+  angleY 179.948
+ }
+ {
+  coords 4103.286 331.222 8929.968
+  angleY 179.948
+ }
+ {
+  coords 4052.605 331.251 8891.421
+  angleY 89.86
+ }
+ {
+  coords 4052.594 331.251 8895.973
+  angleY 89.86
+ }
+ {
+  coords 4085.811 324.531 8921.3
+ }
+ {
+  coords 4085.811 325.722 8921.3
+ }
+ {
+  coords 4032.994 329.511 8926.493
+  angleY 92.689
+ }
+ {
+  coords 4030.871 329.511 8927.92
+  angleY 2.751
+ }
+ {
+  coords 4024.495 329.511 8926.893
+  angleY 92.689
+ }
+ {
+  coords 4032.655 329.511 8927.834
+  angleY 2.751
  }
 }
