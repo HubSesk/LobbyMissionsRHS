@@ -17,10 +17,11 @@ $grp SCR_AIGroup : "{F6CEAA1D2B0A7ED0}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Dem
   m_aSpawnVehicle {
    PS_MoveToVehicle "{6276D5F45BDE0D58}" {
     m_sVehicleName "VV1"
+    m_iCompartmentIndex 1
    }
    PS_MoveToVehicle "{6276D5F46BED21AA}" {
     m_sVehicleName "VV1"
-    m_iCompartmentIndex 1
+    m_iCompartmentIndex 0
    }
   }
  }
@@ -43,10 +44,11 @@ $grp SCR_AIGroup : "{F6CEAA1D2B0A7ED0}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Dem
   m_aSpawnVehicle {
    PS_MoveToVehicle "{6276D5F42D56A967}" {
     m_sVehicleName "VV2"
+    m_iCompartmentIndex 1
    }
    PS_MoveToVehicle "{6276D5F4339EE37C}" {
     m_sVehicleName "VV2"
-    m_iCompartmentIndex 1
+    m_iCompartmentIndex 0
    }
    PS_MoveToVehicle "{6276D5F436A163EA}" {
     m_sVehicleName "VV2"
@@ -85,10 +87,11 @@ $grp SCR_AIGroup : "{F6CEAA1D2B0A7ED0}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Dem
   m_aSpawnVehicle {
    PS_MoveToVehicle "{6276D5F5DA4531AF}" {
     m_sVehicleName "VV3"
+    m_iCompartmentIndex 1
    }
    PS_MoveToVehicle "{6276D5F5DD2974E1}" {
     m_sVehicleName "VV3"
-    m_iCompartmentIndex 1
+    m_iCompartmentIndex 0
    }
    PS_MoveToVehicle "{6276D5F5DF7E3E75}" {
     m_sVehicleName "VV3"
@@ -127,10 +130,11 @@ $grp SCR_AIGroup : "{F6CEAA1D2B0A7ED0}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Dem
   m_aSpawnVehicle {
    PS_MoveToVehicle "{6276D5F58467DC95}" {
     m_sVehicleName "VV4"
+    m_iCompartmentIndex 1
    }
    PS_MoveToVehicle "{6276D5F593A40FB9}" {
     m_sVehicleName "VV4"
-    m_iCompartmentIndex 1
+    m_iCompartmentIndex 0
    }
    PS_MoveToVehicle "{6276D5F596F5DFC8}" {
     m_sVehicleName "VV4"
@@ -169,10 +173,11 @@ $grp SCR_AIGroup : "{F6CEAA1D2B0A7ED0}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Dem
   m_aSpawnVehicle {
    PS_MoveToVehicle "{6276D5F5A52A4D2E}" {
     m_sVehicleName "VV5"
+    m_iCompartmentIndex 1
    }
    PS_MoveToVehicle "{6276D5F5A9E69BD7}" {
     m_sVehicleName "VV5"
-    m_iCompartmentIndex 1
+    m_iCompartmentIndex 0
    }
    PS_MoveToVehicle "{6276D5F5AB633075}" {
     m_sVehicleName "VV5"
@@ -211,10 +216,11 @@ $grp SCR_AIGroup : "{F6CEAA1D2B0A7ED0}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Dem
   m_aSpawnVehicle {
    PS_MoveToVehicle "{6276D5F5A52A4D2E}" {
     m_sVehicleName "VV6"
+    m_iCompartmentIndex 1
    }
    PS_MoveToVehicle "{6276D5F5A9E69BD7}" {
     m_sVehicleName "VV6"
-    m_iCompartmentIndex 1
+    m_iCompartmentIndex 0
    }
    PS_MoveToVehicle "{6276D5F5AB633075}" {
     m_sVehicleName "VV6"

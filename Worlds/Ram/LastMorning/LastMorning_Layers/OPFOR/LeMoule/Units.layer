@@ -17,10 +17,11 @@ $grp SCR_AIGroup : "{F6CEAA1D2B0A7ED0}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Dem
   m_aSpawnVehicle {
    PS_MoveToVehicle "{6276D5F516DD2365}" {
     m_sVehicleName "LMV3"
+    m_iCompartmentIndex 1
    }
    PS_MoveToVehicle "{6276D5F51BC6CD7A}" {
     m_sVehicleName "LMV3"
-    m_iCompartmentIndex 1
+    m_iCompartmentIndex 0
    }
    PS_MoveToVehicle "{6276D5F5210EEEAB}" {
     m_sVehicleName "LMV3"
@@ -59,10 +60,11 @@ $grp SCR_AIGroup : "{F6CEAA1D2B0A7ED0}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Dem
   m_aSpawnVehicle {
    PS_MoveToVehicle "{6276D5F53C1ED3A2}" {
     m_sVehicleName "LMV1"
+    m_iCompartmentIndex 1
    }
    PS_MoveToVehicle "{6276D5F53FCF422B}" {
     m_sVehicleName "LMV1"
-    m_iCompartmentIndex 1
+    m_iCompartmentIndex 0
    }
   }
  }
@@ -84,10 +86,11 @@ $grp SCR_AIGroup : "{F6CEAA1D2B0A7ED0}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Dem
   m_aSpawnVehicle {
    PS_MoveToVehicle "{6276D5F52ACF821C}" {
     m_sVehicleName "LMV2"
+    m_iCompartmentIndex 1
    }
    PS_MoveToVehicle "{6276D5F52C03629E}" {
     m_sVehicleName "LMV2"
-    m_iCompartmentIndex 1
+    m_iCompartmentIndex 0
    }
    PS_MoveToVehicle "{6276D5F5302AE268}" {
     m_sVehicleName "LMV2"
@@ -121,15 +124,17 @@ $grp SCR_AIGroup : "{F6CEAA1D2B0A7ED0}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Dem
   coords 3867.347 116.073 4930.739
   angleY 29
   m_aUnitPrefabSlots {
-   "{94F6D9AE88B4860E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Olive/RandomSoldiers/Character_RHS_RF_SOBROlive_SL_Random.et" "{7DD6BFC1D0093E3D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Olive/RandomSoldiers/Character_RHS_RF_SOBROlive_MG_Random.et" "{4A0E1EAE363D8DC4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Olive/RandomSoldiers/Character_RHS_RF_SOBROlive_Rifleman_Random.et" "{4A0E1EAE363D8DC4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Olive/RandomSoldiers/Character_RHS_RF_SOBROlive_Rifleman_Random.et" "{4A0E1EAE363D8DC4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Olive/RandomSoldiers/Character_RHS_RF_SOBROlive_Rifleman_Random.et" "{4A0E1EAE363D8DC4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Olive/RandomSoldiers/Character_RHS_RF_SOBROlive_Rifleman_Random.et"
+   "{94F6D9AE88B4860E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Olive/RandomSoldiers/Character_RHS_RF_SOBROlive_SL_Random.et" "{7DD6BFC1D0093E3D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Olive/RandomSoldiers/Character_RHS_RF_SOBROlive_MG_Random.et" "{7DD6BFC1D0093E3D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Olive/RandomSoldiers/Character_RHS_RF_SOBROlive_MG_Random.et" "{AF4459FA38C033A3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Olive/RandomSoldiers/Character_RHS_RF_SOBROlive_Medic_Random.et" "{4A0E1EAE363D8DC4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Olive/RandomSoldiers/Character_RHS_RF_SOBROlive_Rifleman_Random.et" "{4A0E1EAE363D8DC4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Olive/RandomSoldiers/Character_RHS_RF_SOBROlive_Rifleman_Random.et"
   }
+  m_sCustomNameSet "Веды"
   m_aSpawnVehicle {
    PS_MoveToVehicle "{6276D5F5020C986D}" {
     m_sVehicleName "LMV4"
+    m_iCompartmentIndex 1
    }
    PS_MoveToVehicle "{6276D5F507DC8FE5}" {
     m_sVehicleName "LMV4"
-    m_iCompartmentIndex 1
+    m_iCompartmentIndex 0
    }
    PS_MoveToVehicle "{6276D5F50A52D9FE}" {
     m_sVehicleName "LMV4"

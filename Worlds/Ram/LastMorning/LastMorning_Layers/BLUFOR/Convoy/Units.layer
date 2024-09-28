@@ -12,34 +12,39 @@ SCR_AIGroup RHS_USAF_G_100_8 : "{19843E954790DF28}Prefabs/Groups/BLUFOR/RHS_USAF
  m_aUnitPrefabSlots {
   "{759DC7C1C5FC83F3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_SL_Random.et" "{40E763EC857ABAEB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Medic_Random.et" "{57D7778DA629BF0F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Rifleman_Random.et" "{57D7778DA629BF0F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Rifleman_Random.et" "{57D7778DA629BF0F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Rifleman_Random.et" "{57D7778DA629BF0F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Rifleman_Random.et" "{57D7778DA629BF0F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Rifleman_Random.et" "{57D7778DA629BF0F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Rifleman_Random.et"
  }
+ m_sCustomNameSet "Конвой снабжения"
  m_aSpawnVehicle {
   PS_MoveToVehicle "{6276D5FA74E7ABEB}" {
    m_sVehicleName "CV1"
+   m_iCompartmentIndex 1
   }
   PS_MoveToVehicle "{6276D5FA799F7214}" {
    m_sVehicleName "CV1"
-   m_iCompartmentIndex 1
+   m_iCompartmentIndex 0
   }
   PS_MoveToVehicle "{6276D5FA7BC8DCA9}" {
    m_sVehicleName "CV2"
+   m_iCompartmentIndex 1
   }
   PS_MoveToVehicle "{6276D5FA7D637AC2}" {
    m_sVehicleName "CV2"
-   m_iCompartmentIndex 1
+   m_iCompartmentIndex 0
   }
   PS_MoveToVehicle "{6276D5FA01FD000E}" {
    m_sVehicleName "CV3"
+   m_iCompartmentIndex 1
   }
   PS_MoveToVehicle "{6276D5FA03367D35}" {
    m_sVehicleName "CV3"
-   m_iCompartmentIndex 1
+   m_iCompartmentIndex 0
   }
   PS_MoveToVehicle "{6276D5FA07F9BE09}" {
    m_sVehicleName "CV4"
+   m_iCompartmentIndex 1
   }
   PS_MoveToVehicle "{6276D5FA0A476239}" {
    m_sVehicleName "CV4"
-   m_iCompartmentIndex 1
+   m_iCompartmentIndex 0
   }
  }
 }

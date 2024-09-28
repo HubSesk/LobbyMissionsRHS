@@ -559,11 +559,6 @@ PS_AnimeCinematicEntity Anime_1 {
         Value 1450.346
         InterpMode 0
        }
-       FloatCinematicKeyframe "{62754A3CE8915C82}" {
-        FrameNumber 7467
-        Value 1455.468
-        InterpMode 0
-       }
        FloatCinematicKeyframe "{62754A3BBA6E127C}" {
         FrameNumber 7712
         Value 1483.265
@@ -672,11 +667,6 @@ PS_AnimeCinematicEntity Anime_1 {
         Value 74.926
         InterpMode 0
        }
-       FloatCinematicKeyframe "{62754A3CE8915EB5}" {
-        FrameNumber 7467
-        Value 73.568
-        InterpMode 0
-       }
        FloatCinematicKeyframe "{62754A3BBA6E1C16}" {
         FrameNumber 7712
         Value 66.072
@@ -783,11 +773,6 @@ PS_AnimeCinematicEntity Anime_1 {
        FloatCinematicKeyframe "{62754A4EB0ED4C05}" {
         FrameNumber 7402
         Value 5773.25
-        InterpMode 0
-       }
-       FloatCinematicKeyframe "{62754A3CE8915FDE}" {
-        FrameNumber 7467
-        Value 5771.963
         InterpMode 0
        }
        FloatCinematicKeyframe "{62754A3BBA6E1EBC}" {
@@ -902,11 +887,6 @@ PS_AnimeCinematicEntity Anime_1 {
         Value -16.007
         InterpMode 0
        }
-       FloatCinematicKeyframe "{62754A3CE89159A0}" {
-        FrameNumber 7467
-        Value -14.018
-        InterpMode 0
-       }
        FloatCinematicKeyframe "{62754A3BBA6E1F3D}" {
         FrameNumber 7712
         Value -9.624
@@ -1015,11 +995,6 @@ PS_AnimeCinematicEntity Anime_1 {
         Value 65.354
         InterpMode 0
        }
-       FloatCinematicKeyframe "{62754A3CE8915A60}" {
-        FrameNumber 7467
-        Value 106.661
-        InterpMode 0
-       }
        FloatCinematicKeyframe "{62754A3BBA6E19D7}" {
         FrameNumber 7712
         Value 99.061
@@ -1125,11 +1100,6 @@ PS_AnimeCinematicEntity Anime_1 {
        }
        FloatCinematicKeyframe "{62754A4EB0ED49FF}" {
         FrameNumber 7402
-        Value 0
-        InterpMode 0
-       }
-       FloatCinematicKeyframe "{62754A3CE8914416}" {
-        FrameNumber 7467
         Value 0
         InterpMode 0
        }
@@ -2683,20 +2653,105 @@ PS_AnimeCinematicEntity Anime_1 {
      }
     }
    }
-  }
- }
- m_aAnimateTrackers {
-  PS_AnimeStudioPro2024 "{62750BF354CBE7DF}" {
-   m_sAnimeFilePath "$SesMissionsRHS:Anime\Ram\LastMorning\M998_USAF1.vhcsurf"
-   m_sAnimeEntityName "M998_USAF1"
-   m_sAnimeEntityTemplateName "M998_USAF1"
-   m_bUseGlobalMatrix 1
-   m_Bones PS_AnimeStudioBoneSet "{62750BF2D2ED0535}" : "{A9F677CCBD594E0C}scripts/game/M151ABonesSet.conf" {
+   CustomCinematicTrack "{627750C6ED9BD2E2}" {
+    TrackName "AlarmSound_s"
+    ClassName "PS_AnimeSoundTrack"
+    ChildTracks {
+     BooleanCinematicTrack "{627750C6ED9BDE99}" {
+      TrackName "m_bEnable"
+      Keyframes {
+       BooleanCinematicKeyframe "{627750C681AFD105}" {
+        FrameNumber 2499
+        Value 1
+       }
+       BooleanCinematicKeyframe "{627750C688555B5E}" {
+        FrameNumber 8150
+        Value 0
+       }
+      }
+     }
+     StringCinematicTrack "{627750C6ED9BDF90}" {
+      TrackName "m_sString"
+      Keyframes {
+       StringCinematicKeyframe "{627750C6FE6C8A2D}" {
+        FrameNumber 2499
+        Value "SOUND_SIREN_GENERIC"
+       }
+      }
+     }
+    }
    }
-  }
-  PS_AnimeStudioPro2024 "{62750BF2D4928DCC}" {
-   m_sAnimeFilePath "$SesMissionsRHS:Anime\Ram\LastMorning\RHS_USAF_G_013_3_2.vhcsurf"
-   m_Bones PS_AnimeStudioBoneSet "{62750BF2EDC86B01}" : "{52EDEB7EF7963868}scripts/game/CharacterBonesSet.conf" {
+   CustomCinematicTrack "{62777285D9C0E4E5}" {
+    TrackName "Cutscenemanagerevents"
+    ClassName "PS_CutsceneManagerEventsTrack"
+    ChildTracks {
+     StringCinematicTrack "{62777285D9C0E013}" {
+      TrackName "m_sEventName"
+      Keyframes {
+       StringCinematicKeyframe "{62780768EAD7BAEB}" {
+        FrameNumber 1625
+        Value "CreateLayout|{3A2DD47D80400A7D}UI/Disposition/LastMorning/DispositionBox_RF.layout"
+       }
+       StringCinematicKeyframe "{627772857A735E7A}" {
+        FrameNumber 2554
+        Value "FadeOut"
+       }
+       StringCinematicKeyframe "{6278076935F03150}" {
+        FrameNumber 2596
+        Value "CreateLayout|{9E6CF9FD5278E43D}UI/Disposition/LastMorning/DispositionBox_US.layout"
+       }
+       StringCinematicKeyframe "{62777285034AD509}" {
+        FrameNumber 2623
+        Value "FadeIn"
+       }
+       StringCinematicKeyframe "{6278076833F38ADF}" {
+        FrameNumber 3661
+        Value "CreateLayout|{DF7AE578E03B4FDC}UI/Disposition/LastMorning/DispositionBox_RF2.layout"
+       }
+       StringCinematicKeyframe "{627807683B20600E}" {
+        FrameNumber 5050
+        Value "CreateLayout|{EDE417D08A669C10}UI/Disposition/LastMorning/DispositionBox_US2.layout"
+       }
+       StringCinematicKeyframe "{62781175C4A9DCA0}" {
+        FrameNumber 7801
+        Value "CreateLayout|{69F74DE185ACE5C1}UI/Disposition/LastMorning/DispositionBox_N.layout"
+       }
+       StringCinematicKeyframe "{62777285E2E5C0F8}" {
+        FrameNumber 8150
+        Value "FadeOut"
+       }
+      }
+     }
+     EventCinematicTrack "{62777285D9C0E2A4}" {
+      TrackName "RaiseEvent"
+      Keyframes {
+       CinematicKeyframe "{62780769D4B7257E}" {
+        FrameNumber 1625
+       }
+       CinematicKeyframe "{627772857B20A6E7}" {
+        FrameNumber 2554
+       }
+       CinematicKeyframe "{6277728DB41B3156}" {
+        FrameNumber 2596
+       }
+       CinematicKeyframe "{62777285041A6E89}" {
+        FrameNumber 2623
+       }
+       CinematicKeyframe "{62780768EDBADD15}" {
+        FrameNumber 3661
+       }
+       CinematicKeyframe "{6278076939C0D30F}" {
+        FrameNumber 5050
+       }
+       CinematicKeyframe "{627811743D920298}" {
+        FrameNumber 7801
+       }
+       CinematicKeyframe "{62777285E212BA05}" {
+        FrameNumber 8150
+       }
+      }
+     }
+    }
    }
   }
  }

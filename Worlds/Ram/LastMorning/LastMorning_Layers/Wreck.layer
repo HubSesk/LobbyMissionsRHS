@@ -1,0 +1,961 @@
+$grp GenericEntity {
+ {
+  components {
+   MeshObject "{627755D3FC7C8665}" {
+    Object "{299DF7E85D7671DB}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Wreck/GAZ233114_Green_Destructed.xob"
+   }
+   RigidBody "{627755D3B20B9A69}" {
+    ModelGeometry 1
+   }
+  }
+  coords 1567.688 62.903 5805.414
+  angleX -2.684
+ }
+ {
+  components {
+   MeshObject "{627755D3CC0E1813}" {
+    Object "{97B05698391F3480}Assets/Vehicles/Wheeled/K17bumerang/K17_Wreck_berezhok.xob"
+   }
+   RigidBody "{627755D3D4C6BFB2}" {
+    ModelGeometry 1
+   }
+  }
+  coords 1570.079 64.841 5782.683
+  angleX -4.372
+  angleY -50.953
+  angleZ 6.77
+ }
+ {
+  components {
+   MeshObject "{627755D23F1B7E73}" {
+    Object "{80C2BFD0CB340536}Assets/Vehicles/Wheeled/K17bumerang/K17_Wreck.xob"
+   }
+   RigidBody "{627755D3C6B4347E}" {
+    ModelGeometry 1
+   }
+  }
+  coords 1642.16 59.273 5961.026
+  angleX -2.757
+  angleY -84.542
+  angleZ 0.635
+ }
+ {
+  components {
+   MeshObject "{627755D252B6D6B9}" {
+    Object "{2901B5BFAFBD529C}Assets/Vehicles/Wheeled/K17bumerang/K17_Wreck_epoch.xob"
+   }
+   RigidBody "{627755D25AB09F5B}" {
+    ModelGeometry 1
+   }
+  }
+  coords 1609.209 57.73 5934.323
+  angleX -1.997
+  angleY -87.319
+  angleZ 4.376
+ }
+ {
+  components {
+   MeshObject "{627755D252B6D6B9}" {
+    Object "{2901B5BFAFBD529C}Assets/Vehicles/Wheeled/K17bumerang/K17_Wreck_epoch.xob"
+   }
+   RigidBody "{627755D25AB09F5B}" {
+    ModelGeometry 1
+   }
+  }
+  coords 1671.789 59.16 5963.487
+  angleX -3.576
+  angleY -0.056
+  angleZ 0.897
+ }
+ {
+  components {
+   MeshObject "{627755D34973B18D}" {
+    Object "{1886E8215A046E0A}Assets/Vehicles/Tracked/T14/rhs_t14_destroyed.xob"
+   }
+   RigidBody "{627755D352AD225E}" {
+    ModelGeometry 1
+   }
+  }
+  coords 1573.27 61.455 5842.944
+  angleX -3.228
+  angleY -64.461
+  angleZ -1.541
+ }
+ {
+  components {
+   MeshObject "{627755D356278FE0}" {
+    Object "{756FC9EF81C188AA}Assets/Vehicles/Tracked/T14/T14TurretForExplosion.xob"
+   }
+   RigidBody "{627755D37706F33D}" {
+    ModelGeometry 1
+   }
+  }
+  coords 1577.843 63.153 5872.945
+  angleX -63.306
+  angleY -53.142
+  angleZ 89.059
+ }
+ {
+  components {
+   MeshObject "{627755D32D1B605B}" {
+    Object "{0B4E7FFBE8E39BBA}Assets/Vehicles/Wheeled/Ural4320/Ural_4320_wreck.xob"
+   }
+   RigidBody "{627755D336048F1D}" {
+    ModelGeometry 1
+   }
+  }
+  coords 1645.208 58.267 5943.653
+  angleX -7.04
+  angleY -65.677
+  angleZ -1.21
+ }
+ {
+  components {
+   MeshObject "{627755D0C0F06026}" {
+    Object "{0B4E7FFBE8E39BBA}Assets/Vehicles/Wheeled/Ural4320/Ural_4320_wreck.xob"
+   }
+   RigidBody "{627755D0CC86A796}" {
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  coords 1691.965 58.202 5957.854
+  angleX -3.502
+  angleY -44.488
+  angleZ 5.928
+ }
+}
+$grp DecalEntity : "{AF4AA779A4546D51}Prefabs/Decals/Dirt/Decal_Dirt_Patch_02.et" {
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1614.643 -0.287 5932.86
+  angleX -90
+  angleY -109.282
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1612.57 -0.059 5935.306
+  angleX -90
+  angleY 28.249
+  angleZ -26.092
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1608.607 -0.028 5933.322
+  angleX -90
+  angleY 28.249
+  angleZ -26.092
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1617.405 -0.27 5935.202
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1647.726 0.074 5943.83
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1644.792 0.006 5943.216
+  angleX -90
+  angleY -40.628
+  angleZ -26.092
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1641.638 -0.047 5945.14
+  angleX -90
+  angleY 10.96
+  angleZ -26.092
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1651.852 -0.006 5945.026
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1671.218 0.07 5960.687
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1669.873 0 5964.576
+  angleX -90
+  angleY 52.723
+  angleZ -26.092
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1673.672 0 5963.057
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1690.424 -0 5957.957
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1693.893 0.195 5956.548
+  angleX -90
+  angleY 40.339
+  angleZ -26.092
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1696.656 0 5952.002
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1694.015 -0 5953.942
+  angleX -90
+  angleY -17.128
+  angleZ -26.092
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1671.916 -0.06 5966.606
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1577.932 -0 5841.37
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1578.255 0.021 5875.394
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1574.588 -0.058 5844.055
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1574.364 0.006 5840.342
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1571.339 -0.106 5842.917
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1567.363 -0.048 5804.317
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1567.61 0.016 5806.493
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1568.724 -0.303 5783.513
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1572.661 -0.032 5783.277
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1572.391 -0.039 5779.604
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1567.974 -0.064 5781.253
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1622.164 0.043 5935.648
+  angleX -90
+  angleY 10.28
+  angleZ -26.092
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1626.118 -0.106 5936.986
+  angleX -90
+  angleY 29.008
+  angleZ -26.092
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1631.19 -0 5937.561
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1628.642 0.143 5938.254
+  angleX -90
+  angleY -20.089
+  angleZ -26.092
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1636.732 -0.127 5939.721
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1634.364 -0 5938.336
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1639.85 -0 5941.132
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1644.832 0.028 5940.216
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1566.929 -0 5799.64
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1568.875 -0 5795.321
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1571.079 0 5788.552
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1566.214 0 5792.956
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1567.276 0 5791.696
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1565.656 -0 5797.051
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1580.806 0 5841.252
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1588.387 0 5836.72
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1603.964 0 5833.949
+  angleX -90
+  angleY -60.056
+  angleZ -26.092
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1606.936 0 5828.771
+  angleX -90
+  angleY 64.817
+  angleZ -26.092
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1586.696 0 5835.885
+  angleX -90
+  angleY -81.326
+  angleZ -26.092
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1580.566 0 5838.764
+  angleX -90
+  angleY -25.063
+  angleZ -26.092
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1584.301 0 5838.744
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1581.911 0.122 5840.206
+  angleX -90
+  angleY 36.322
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1585.334 -0 5839.274
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1591.878 -0 5835.867
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1599.463 0 5833.864
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1602.036 -0 5830.383
+  angleX -90
+  angleY -78.198
+  angleZ -26.092
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1592.925 0 5832.261
+  angleX -90
+  angleY 82.02
+  angleZ -26.092
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1592.925 -0 5832.26
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1607.866 -0 5830.496
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1607.889 -0 5826.899
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1605.495 -0 5827.165
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1605.059 -0 5827.257
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1597.685 0 5829.946
+  angleX -90
+  angleY 36.863
+  angleZ -26.092
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1609.649 -0 5830.705
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1610.271 0 5826.302
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1596.271 -0.023 5835.25
+  angleX -90
+  angleY 173.522
+  angleZ 153.908
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 1589.127 -0 5832.356
+  angleX -90
+  angleY 97.568
+  angleZ -26.092
+  scale 5
+  FarPlane 1.5
+  Mat "{6ABCF12B939A786B}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_06_Dark.emat"
+ }
+}

@@ -1,0 +1,28 @@
+OverlayWidgetClass : "{0F5D0801C92873E1}UI/Disposition/DispositionBox.layout" {
+ {
+  ImageWidgetClass "{62777287893D6EE1}" {
+   Prefab "{62777287893D6EE1}"
+   Texture "{BCB8597BC900DE58}UI/Textures/Editor/EditableEntities/Factions/AFRF_icon.edds"
+   Size 164 164
+  }
+  SizeLayoutWidgetClass "{6277728156E8086C}" {
+   Prefab "{6277728156E8086C}"
+   {
+    FrameWidgetClass "{6277728737D5AD43}" {
+     Prefab "{6277728737D5AD43}"
+     {
+      TextWidgetClass "{6277728130BDD307}" {
+       Prefab "{6277728130BDD307}"
+       Text "Активное наступление"
+      }
+      TextWidgetClass "{62777280E33599DD}" {
+       Prefab "{62777280E33599DD}"
+       Text "Основные силы РФ движутся к цели со стороны Вильнева."\
+       "В их составе как минимум 2 БМП \"Бумеранг\"."
+      }
+     }
+    }
+   }
+  }
+ }
+}

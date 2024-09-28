@@ -1,0 +1,68 @@
+AudioClass {
+ sounds {
+  SoundClass {
+   id 5129
+   name "SOUND_VOICE"
+   version 5
+   tl 258.821 -13.518
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 8196
+       port 65
+      }
+     }
+    }
+   }
+   outState 7179
+   outStatePort 79879
+   type "One shot"
+  }
+ }
+ mixers {
+  MixerClass {
+   id 7179
+   name "OutputState 18"
+   version 4
+   tl 503.527 -5.716
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   ins {
+    ConnectionsClass connections {
+     id 79879
+     links {
+      ConnectionClass connection {
+       id 5129
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 152583
+    }
+   }
+   pi {
+    49152 0
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialogue" "Music" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialogue_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "UI" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large"
+   }
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 8196
+   name "VoiceBank"
+   version 7
+   tl -44 -24
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{4C966E0F449C0999}MissionAudio/LastMorning/PrecariousState.wav"
+    }
+   }
+  }
+ }
+ version 1
+}

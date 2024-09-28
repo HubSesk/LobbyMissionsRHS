@@ -1,0 +1,31 @@
+OverlayWidgetClass : "{0F5D0801C92873E1}UI/Disposition/DispositionBox.layout" {
+ {
+  ImageWidgetClass "{62777287893D6EE1}" {
+   Prefab "{62777287893D6EE1}"
+   Texture "{2F62AEDF7863E900}UI/Textures/Logos/ARMA_source_Reforger_icon_white_small.edds"
+   Size 152 100
+  }
+  SizeLayoutWidgetClass "{6277728156E8086C}" {
+   Prefab "{6277728156E8086C}"
+   {
+    FrameWidgetClass "{6277728737D5AD43}" {
+     Prefab "{6277728737D5AD43}"
+     {
+      TextWidgetClass "{6277728130BDD307}" {
+       Prefab "{6277728130BDD307}"
+       Text "Последнее утро Эверона"
+      }
+      TextWidgetClass "{62777280E33599DD}" {
+       Prefab "{62777280E33599DD}"
+       Text "Остров многое пережил из-за данного конфликта, однако осталось совсем немного."\
+       "Конечно если это утро не станет последним..."\
+       ""
+       "Font Size" 27
+       "Min Font Size" 27
+      }
+     }
+    }
+   }
+  }
+ }
+}

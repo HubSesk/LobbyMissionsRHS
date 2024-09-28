@@ -1,0 +1,22 @@
+MatPBRDecal {
+ Color 0.716 0.676 0.648 1
+ WetnessScale 0.8
+ PorosityScale 0.8
+ AlphaTest 0.531
+ AlphaMul 2.747
+ BlendMode AlphaBlend
+ MetalnessScale 0
+ BCRMap "{C6A0995C60084476}Terrains/Common/Surfaces/Data/Dirt_01_BCR.edds"
+ OpacityMap "{32C780249CD6A520}Assets/Decals/Dirt/Patch/Data/Decal_DirtPatch_05_A.edds"
+ NormalPower 0.8
+ NMOMap "{E197D218634E0261}Terrains/Common/Surfaces/Data/Dirt_01_NHO.edds"
+ GlobalMapsUVTransform MatUVTransform "{55BA850D286CBCAB}" {
+  TilingU 0.333
+  TilingV 0.333
+  OffsetU 0.66
+  OffsetV 0.04
+ }
+ ParallaxMidlePlane 0.5
+ ParallaxShadowScale 0.4
+ WaterAccumulation 1
+}

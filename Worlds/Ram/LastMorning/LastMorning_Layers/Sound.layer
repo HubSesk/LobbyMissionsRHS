@@ -1,0 +1,14 @@
+GenericEntity AlarmSound {
+ components {
+  SignalsManagerComponent "{62774903A4F13C5A}" {
+  }
+  SoundComponent "{62774903A4F13DB1}" {
+   Filenames {
+    "{FB2041BA03DFE0FE}MissionAudio/LastMorning/Alarm_Incoming.acp"
+   }
+   OnFrameUpdate 1
+   DistanceManagement 0
+  }
+ }
+ coords 1297.248 37.939 6023.888
+}
