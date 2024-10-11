@@ -26,6 +26,8 @@ modded class SCR_AIGroup
 		EntitySpawnParams spawnParams = new EntitySpawnParams;
 		spawnParams.TransformMode = ETransformMode.WORLD;
 		GetWorldTransform(spawnParams.Transform);
+		float quat[4];
+		Math3D.MatrixToQuat(spawnParams.Transform, quat);
 		vector pos = spawnParams.Transform[3];
 		
 		if (m_aSpawnPosition.Count() <= index)
@@ -77,6 +79,9 @@ modded class SCR_AIGroup
 										break;
 									string offsetString = offsetsStrings[index];
 									vector offset = offsetString.ToVector();
+									
+									offset = SCR_Math3D.QuatMultiply(quat, offset);
+									pos = CoordToParent(Vector(0, 0, 0));
 									pos += offset;
 								}
 							}
