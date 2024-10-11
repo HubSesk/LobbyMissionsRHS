@@ -1,0 +1,49 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ AttackBox_5 {
+  coords 10100.366 3.208 1568.408
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 25
+  m_aVisibleForFactions {
+   "RHS_USAF" ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ AttackBox_6 {
+  coords 10074.325 2.381 1538.847
+  angleY 90
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 25
+  m_aVisibleForFactions {
+   "RHS_USAF" ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ AttackBox_7 {
+  coords 9952.167 2.182 1570.091
+  angleY 90
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 25
+  m_aVisibleForFactions {
+   "RHS_USAF" ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+ AttackBox_8 {
+  coords 9945.847 4.175 1617.472
+  angleY 90
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 25
+  m_aVisibleForFactions {
+   "RHS_USAF" ""
+  }
+  m_bVisibleForEmptyFaction 1
+ }
+}

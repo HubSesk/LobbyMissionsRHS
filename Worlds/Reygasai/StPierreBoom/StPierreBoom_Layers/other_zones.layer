@@ -1,0 +1,51 @@
+GenericEntity : "{0228B8EFBA99AC1D}Prefabs/Weapons/Misc/SpectrumDevice/Device_SpectrumDevice_base.et" {
+ coords 9979.601 312.717 2266.756
+ angleX -76.795
+ angleY -127.279
+ angleZ 128.022
+}
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 7571.161 166.156 4239.318
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 8804.784 97.306 2801.278
+  angleX 4.466
+  angleY 0.07
+  angleZ 0.898
+  m_fWarnRadius 120
+  m_fZoneRadius 130
+  m_fZoneTeleportedRadius 140
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fRadius 120
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 9957.434 5.757 1600.781
+  angleY 15.812
+  m_fWarnRadius 240
+  m_fZoneRadius 250
+  m_fZoneTeleportedRadius 260
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fRadius 240
+     }
+    }
+   }
+  }
+ }
+}
+SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ coords 9982.285 310.25 2267.791
+ angleZ 18.166
+}

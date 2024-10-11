@@ -1,0 +1,196 @@
+Vehicle UAZ469_Camo_uncovered1 : "{03D9932135924AEF}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo_uncovered.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5AD4F813E67ECBD3}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+ }
+ coords 10086.501 3.461 1544.895
+ angleY 13.298
+}
+GenericEntity : "{1D2887BB9A7D4670}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_CommandPost_USSR_01.et" {
+ coords 10173.075 2.666 1541.6
+ angleX -0.703
+ angleY -78.732
+ angleZ -1.053
+}
+GenericEntity : "{25C8B889A777399D}Prefabs/Props/Infrastructure/ConeTraffic/ConeTraffic_01_red.et" {
+ coords 10019.491 2.429 1575.499
+}
+GenericEntity : "{2A5CFC83306263A4}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_02_20ft_ENP.et" {
+ coords 10129.202 2.781 1558.101
+ angleY 14.227
+}
+Vehicle Ural4320_command_camo1 : "{2C95509CA3E61DE1}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command_camo1.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{5628CA84B129D4CE}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+ }
+ coords 10028.553 2.687 1589.569
+ angleY -73.178
+}
+$grp Vehicle : "{2CCD539A7AB35B2F}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_camo1.et" {
+ Ural4320_transport_camo1 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5628CA84B129D4CE}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 10030.046 2.687 1593.95
+  angleY -73.938
+ }
+ Ural4320_transport_camo2 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5628CA84B129D4CE}" {
+      MaxFuel 0
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 10030.985 2.687 1598.788
+  angleY -73.938
+ }
+}
+GenericEntity : "{3533DB963FA9C81F}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_Base.et" {
+ coords 10140.012 2.747 1555.359
+ angleY 14.453
+}
+GenericEntity : "{35E211705F8FED68}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_40ft_blue.et" {
+ coords 10147.504 2.781 1565.043
+ angleY -76.162
+}
+$grp GenericEntity : "{64C9C1D1C2C1B38D}Prefabs/Props/Infrastructure/Roadblocks/RoadBlock_01.et" {
+ {
+  coords 10021.206 2.414 1583.503
+  angleX -0.235
+  angleY -74.756
+  angleZ 0.864
+ }
+ {
+  coords 10020.374 2.412 1580.314
+  angleX -0.864
+  angleY -74.753
+  angleZ -0.235
+ }
+ {
+  coords 10019.389 2.397 1577.157
+  angleX -0.864
+  angleY -74.753
+  angleZ -0.235
+ }
+ {
+  coords 10018.396 2.412 1574.041
+  angleX -0.869
+  angleY -76.055
+  angleZ -0.216
+ }
+}
+GenericEntity : "{870147309B86AAC6}Prefabs/Compositions/Misc/SubCompositions/Garbage/Tire_Stack_USSR_02.et" {
+ coords 10089.849 2.531 1546.331
+ angleY 0
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 7569.943 166.844 4185.119
+  m_sTitle "Сохранить первый ящик"
+  m_iScore 25
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 7607.813 170.141 4229.453
+  m_sTitle "Сохранить второй ящик"
+  m_iScore 25
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 7557.39 165.466 4153.929
+  m_sTitle "Сохранить третий ящик"
+  m_iScore 25
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 7561.343 165.466 4156.262
+  m_sTitle "Сохранить четвертый ящик"
+  m_iScore 25
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 7580.897 167.733 4163.04
+  m_sTitle "Уничожить первый ящик"
+  m_iScore 25
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 7572.171 166.845 4161.022
+  m_sTitle "Уничожить второй ящик"
+  m_iScore 25
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 7568.861 168.253 4157.762
+  m_sTitle "Уничожить третий ящик"
+  m_iScore 25
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  coords 7570.154 166.832 4161.024
+  m_sTitle "Уничожить четвертый ящик"
+  m_iScore 25
+  m_sFactionKey "RHS_USAF"
+ }
+}
+$grp GenericEntity : "{AEF9A26C2F0334B3}Prefabs/Props/Infrastructure/ConeTraffic/ConeTraffic_01_base.et" {
+ {
+  coords 10018.488 2.406 1579.465
+ }
+ {
+  coords 10021.564 2.431 1581.767
+  angleZ -0.895
+ }
+}
+StaticModelEntity : "{B00E14C07DEE788A}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_USSR_01.et" {
+ coords 10146.832 0.105 1513.865
+ angleY 12.625
+}
+GenericEntity : "{C1868B74D5A0C96E}Prefabs/Props/Military/CargoContainers/CargoContainer_01_20ft_USSR_ammo.et" {
+ coords 10145.079 2.729 1554.052
+ angleY 15.261
+}
+GenericEntity : "{EF2962FC3EFD9C17}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_40ft_grey.et" {
+ coords 10146.048 2.782 1559.9
+ angleY -75.581
+}

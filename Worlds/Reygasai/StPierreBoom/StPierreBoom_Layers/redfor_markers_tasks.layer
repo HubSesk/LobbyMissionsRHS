@@ -1,0 +1,45 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ DefendBox_1 {
+  coords 10102.27 3.63 1566.261
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 25
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ DefendBox_2 {
+  coords 10076.229 2.802 1536.699
+  angleY 90
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 25
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ DefendBox_3 {
+  coords 9954.07 2.604 1567.943
+  angleY 90
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 25
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ DefendBox_4 {
+  coords 9947.75 4.597 1615.325
+  angleY 90
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 25
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+}

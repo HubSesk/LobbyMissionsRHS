@@ -1,0 +1,61 @@
+LightEntity {
+ coords 9984.295 318.137 2262.892
+ angleX -44.525
+ angleY -52.167
+ angleZ 38.353
+ Color 0.68 0.651 0.321 0
+ LV 15.37
+ Type Spot
+ Radius 15
+ SpotAngle 30
+ VolLightScale 0
+ LensFlareType Disabled
+ LensFlareScale 0
+}
+$grp ParticleEffectEntity {
+ {
+  coords 9979.381 311.81 2266.473
+  EffectPath "{D9140AF2107099DF}Particles/Enviroment/Butterflies.ptc"
+ }
+ {
+  coords 9978.722 311.483 2268.31
+  EffectPath "{D9140AF2107099DF}Particles/Enviroment/Butterflies.ptc"
+ }
+ {
+  coords 9978.294 311.588 2266.77
+  EffectPath "{D9140AF2107099DF}Particles/Enviroment/Butterflies.ptc"
+ }
+ {
+  coords 9980.509 310.865 2267.761
+  EffectPath "{D9140AF2107099DF}Particles/Enviroment/Butterflies.ptc"
+ }
+ {
+  coords 9978.429 311.511 2266.148
+  EffectPath "{D9140AF2107099DF}Particles/Enviroment/Butterflies.ptc"
+ }
+ {
+  coords 9979.479 311.468 2269.978
+  EffectPath "{D9140AF2107099DF}Particles/Enviroment/Butterflies.ptc"
+ }
+ {
+  coords 9979.249 310.676 2270.381
+  EffectPath "{D9140AF2107099DF}Particles/Enviroment/Butterflies.ptc"
+ }
+ {
+  coords 9979.687 311.391 2266.307
+  EffectPath "{D9140AF2107099DF}Particles/Enviroment/Butterflies.ptc"
+ }
+ {
+  coords 9979.447 311.933 2266.72
+  EffectPath "{D9140AF2107099DF}Particles/Enviroment/Butterflies.ptc"
+ }
+ {
+  coords 9979.533 311.847 2266.677
+  EffectPath "{D9140AF2107099DF}Particles/Enviroment/Butterflies.ptc"
+ }
+}
+GenericEntity : "{76AF1688C649DC10}Prefabs/Rocks/Granite/Granite_ForestStone_03.et" {
+ coords 9979.977 -1.368 2267.051
+ angleX 89.877
+ angleY 0
+}
