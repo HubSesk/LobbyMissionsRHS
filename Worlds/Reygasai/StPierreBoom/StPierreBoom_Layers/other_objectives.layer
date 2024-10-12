@@ -84,6 +84,12 @@ $grp Vehicle : "{2CCD539A7AB35B2F}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   coords 10030.985 2.687 1598.788
   angleY -73.938
  }
+ Ural4320_transport_camo3 {
+  coords 10052.527 3.704 1563.341
+  angleX -0.609
+  angleY -47.115
+  angleZ 90.916
+ }
 }
 GenericEntity : "{3533DB963FA9C81F}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_Base.et" {
  coords 10140.012 2.747 1555.359
@@ -189,6 +195,113 @@ StaticModelEntity : "{B00E14C07DEE788A}Prefabs/Compositions/Misc/SubCompositions
 GenericEntity : "{C1868B74D5A0C96E}Prefabs/Props/Military/CargoContainers/CargoContainer_01_20ft_USSR_ammo.et" {
  coords 10145.079 2.729 1554.052
  angleY 15.261
+}
+$grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et" {
+ {
+  coords 10057.694 2.531 1564.219
+ }
+ {
+  coords 10058.111 2.531 1564.428
+ }
+ {
+  coords 10057.557 2.531 1563.777
+ }
+ {
+  coords 10057.126 2.531 1564.407
+ }
+ {
+  coords 10056.981 2.531 1563.937
+ }
+ {
+  coords 10057.767 2.624 1564.218
+ }
+ {
+  coords 10057.871 2.531 1563.925
+ }
+ {
+  coords 10057.524 2.531 1564.621
+ }
+ {
+  coords 10056.358 2.531 1564.176
+ }
+ {
+  coords 10056.812 2.531 1564.552
+ }
+ {
+  coords 10057.27 2.531 1564.929
+ }
+ {
+  coords 10056.361 2.531 1564.754
+ }
+ {
+  coords 10055.893 2.531 1565.038
+ }
+ {
+  coords 10056.687 2.531 1565.211
+ }
+ {
+  coords 10056.068 2.532 1565.435
+ }
+ {
+  coords 10055.427 2.531 1565.571
+ }
+ {
+  coords 10056.121 2.531 1565.903
+ }
+ {
+  coords 10056.13 2.623 1565.477
+ }
+ {
+  coords 10056.273 2.531 1565.084
+ }
+ {
+  coords 10057.093 2.531 1565.265
+ }
+ {
+  coords 10056.477 2.531 1565.521
+ }
+ {
+  coords 10057.365 2.531 1564.026
+ }
+ {
+  coords 10057.444 2.531 1563.102
+ }
+ {
+  coords 10057.854 2.531 1563.281
+ }
+ {
+  coords 10055.676 2.531 1565.822
+ }
+ {
+  coords 10056.91 2.531 1565.568
+ }
+ {
+  coords 10056.796 2.617 1565.263
+ }
+ {
+  coords 10057.05 2.623 1564.455
+ }
+ {
+  coords 10057.106 2.622 1565.365
+ }
+ {
+  coords 10055.757 2.531 1566.275
+ }
+ {
+  coords 10056.908 2.653 1565.588
+ }
+ {
+  coords 10058.059 2.64 1564.453
+ }
+ {
+  coords 10057.503 2.622 1564.518
+ }
+ {
+  coords 10057.808 2.531 1564.697
+ }
+ {
+  coords 10057.674 2.531 1565.195
+ }
 }
 GenericEntity : "{EF2962FC3EFD9C17}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_40ft_grey.et" {
  coords 10146.048 2.782 1559.9
