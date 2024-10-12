@@ -99,7 +99,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "Защитите дом под маркером."\
   "У вас есть крутая линия обороны, на карте отмечена, за нее бумерангу нельзя выезжать."\
   "Горы там используйте как позицию, вот мой совет."\
-  ""
+  "И еще палки у вас есть и мины, найдите урал."
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
@@ -108,7 +108,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 1441.1 53.258 5853.124
   m_sTitle "Правила сторон"
   m_sTextData "Захватите дом отмеченный маркером на карте."\
-  "У противника есть бтр."
+  "У противника есть бтр."\
+  "На базе есть смешные девайсы умоподавления."
   m_aVisibleForFactions {
    "RHS_USAF"
   }
@@ -122,7 +123,7 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  }
  {
   coords 5166.02 14.395 4022.739
-  m_sTitle "Станция связи защищена."
+  m_sTitle "Администрация защищена."
   m_sFactionKey "RHS_AFRF"
  }
 }
