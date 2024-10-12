@@ -8,6 +8,16 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  m_bDisableChat 1
  m_bReserveSlots 1
 }
+$grp Vehicle : "{6A229351EDD97116}Prefabs/Vehicles/Wheeled/K17/APC_K17_unarmed_expo.et" {
+ APC_K17_unarmed_expo1 {
+  coords 6562.072 86.406 5265.201
+  angleY -167.392
+ }
+ APC_K17_unarmed_expo2 {
+  coords 6556.595 86.406 5271.615
+  angleY -167.392
+ }
+}
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  {
   coords 4960 2.17 3885.095

@@ -1,3 +1,8 @@
+Vehicle Ural4320_transport_camo1 : "{2CCD539A7AB35B2F}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_camo1.et" {
+ coords 1300.969 39.142 6006.948
+ angleY 48.334
+ angleZ -80.454
+}
 $grp GenericEntity : "{35E211705F8FED68}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_40ft_blue.et" {
  {
   coords 2076.159 105.921 5435.238
@@ -16,11 +21,126 @@ GenericEntity : "{77F90F896D5145C8}Prefabs/Compositions/Slotted/SlotFlatSmall/Li
  coords 3517.332 112.019 4964.308
  angleY -46.868
 }
+$grp StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/CzechHedgehog_01_painted.et" {
+ {
+  coords 1718.982 0.683 5934.647
+ }
+ {
+  coords 1728.31 0 5933.133
+  angleX -16.227
+  angleY -4.434
+  angleZ 15.508
+ }
+ {
+  coords 1723.124 -0.001 5933.457
+  angleX -13.994
+  angleY -3.866
+  angleZ 13.727
+ }
+ {
+  coords 1713.745 0.021 5926.017
+ }
+ {
+  coords 1711.33 -0.002 5921.989
+ }
+}
 GenericEntity : "{CDD0712FD6215F03}Prefabs/Compositions/Slotted/SlotFlatMedium/FieldHospital_M_US_01.et" {
  coords 3538.441 111.021 4990.218
  angleX 6.413
  angleY -65.184
  angleZ 0.999
+}
+$grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et" {
+ {
+  coords 1297.584 37.839 6009.063
+ }
+ {
+  coords 1297.534 37.822 6008.735
+ }
+ {
+  coords 1298.134 37.87 6009.208
+ }
+ {
+  coords 1297.963 37.848 6008.883
+ }
+ {
+  coords 1297.874 37.827 6008.474
+ }
+ {
+  coords 1298.093 37.949 6009.089
+ }
+ {
+  coords 1297.62 37.898 6008.836
+ }
+ {
+  coords 1297.915 37.915 6008.583
+ }
+ {
+  coords 1297.972 37.95 6008.815
+ }
+ {
+  coords 1297.82 37.867 6009.472
+ }
+ {
+  coords 1297.479 37.808 6008.26
+ }
+ {
+  coords 1297.528 37.849 6009.351
+ }
+ {
+  coords 1297.602 37.929 6009.167
+ }
+ {
+  coords 1297.75 37.96 6009.471
+ }
+ {
+  coords 1297.145 37.811 6008.8
+ }
+ {
+  coords 1296.257 37.732 6007.801
+ }
+ {
+  coords 1296.292 37.791 6007.577
+ }
+ {
+  coords 1296.492 37.76 6008.21
+ }
+ {
+  coords 1296.645 37.843 6007.556
+ }
+ {
+  coords 1296.587 37.808 6007.321
+ }
+ {
+  coords 1296.152 37.701 6006.998
+ }
+ {
+  coords 1296.201 37.742 6008.088
+ }
+ {
+  coords 1296.275 37.822 6007.904
+ }
+ {
+  coords 1296.423 37.853 6008.208
+ }
+ {
+  coords 1295.817 37.704 6007.538
+ }
+ {
+  coords 1296.207 37.715 6007.473
+ }
+ {
+  coords 1296.807 37.763 6007.946
+ }
+ {
+  coords 1296.635 37.741 6007.621
+ }
+ {
+  coords 1296.765 37.842 6007.827
+ }
+ {
+  coords 1296.547 37.719 6007.211
+ }
 }
 GenericEntity : "{E74D2F51CD4F03D0}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_US_01.et" {
  coords 3442.766 118.994 5067.924
