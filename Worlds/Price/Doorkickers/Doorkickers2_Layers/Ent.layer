@@ -8,6 +8,32 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  m_bDisableChat 1
  m_bReserveSlots 1
 }
+$grp GenericEntity : "{0228B8EFBA99AC1D}Prefabs/Weapons/Misc/SpectrumDevice/Device_SpectrumDevice_base.et" {
+ {
+  coords 6537.846 87.209 5223.933
+  angleX 69.251
+  angleY -106.429
+  angleZ -107.501
+ }
+ {
+  coords 6529.261 87.464 5220.214
+  angleX 4.524
+  angleY -98.981
+  angleZ -94.102
+ }
+ {
+  coords 5130.436 15.244 4009.212
+  angleX 66.024
+  angleY -107.907
+  angleZ -100.106
+ }
+ {
+  coords 5130.593 15.21 4008.725
+  angleX 66.024
+  angleY -107.907
+  angleZ -100.106
+ }
+}
 $grp Vehicle : "{6A229351EDD97116}Prefabs/Vehicles/Wheeled/K17/APC_K17_unarmed_expo.et" {
  APC_K17_unarmed_expo1 {
   coords 6562.072 86.406 5265.201
