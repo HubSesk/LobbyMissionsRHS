@@ -1,0 +1,22 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  m_sTitle "Вынести 3 бидона"
+  m_iScore 75
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  m_sTitle "Уничтожить большую часть противника"
+  m_iScore 25
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  m_sTitle "Не дать вынести 3 бидона"
+  m_iScore 75
+  m_sFactionKey "RHS_ION"
+ }
+ {
+  m_sTitle "Сохранить большую часть сил"
+  m_iScore 25
+  m_sFactionKey "RHS_ION"
+ }
+}

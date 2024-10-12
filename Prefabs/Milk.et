@@ -1,0 +1,203 @@
+GenericEntity {
+ ID "60E0B005A5B9396B"
+ components {
+  SignalsManagerComponent "{60E0B005A5B9394E}" {
+  }
+  SoundComponent "{60E0B005A5B93953}" {
+   Filenames {
+    "{CEB036D3FA90F3C3}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_ATMine_Generic.acp" "{A7B672B164032EE4}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_ATMine_Generic.acp" "{49BA74662F0ACA8C}Sounds/Weapons/Explosives/Mine_TM62M/Weapons_Explosives_TM62M_Handling.acp" "{764506B0AF57183F}Sounds/Weapons/Explosives/_SharedData/Weapons_Explosives_ATMine_Generic_Placement.acp"
+   }
+  }
+  BaseTriggerComponent "{60E0B005A5B9395D}" {
+   Enabled 0
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{60E0B005A5B93958}" {
+     EffectPrefab "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+   }
+  }
+  MeshObject "{60E0B005A5B9395A}" {
+   Object "{6568738F7944D4B2}Assets/Props/Agricultural/MilkCan_01/Dst/MilkCan_01_dst.xob"
+   Materials {
+    MaterialAssignClass "{60E0B005A5B93927}" {
+     SourceMaterial "Sandbags_01_End"
+     AssignedMaterial "{2392C281DF136B3B}Assets/Props/Military/Sandbags/Data/Sandbags_01_end_Burlap.emat"
+    }
+   }
+   PixelSizeScale 3
+  }
+  PS_BulbaComponent "{60E0B560A429D835}" {
+  }
+  RigidBody "{60E0B005A5B93923}" {
+   Mass 15
+   LinearSleepingThreashold 0.5
+   AngularSleepingThreashold 0.5
+   ResponseIndex "TinyDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_MineDamageManager "{60E0B005A5B9392D}" {
+   Enabled 0
+   "Additional hit zones" {
+    SCR_MineHitZone Main {
+     ColliderNames {
+      "UCL_TM_62M"
+     }
+     HZDefault 1
+     IgnoreExplosions 1
+     MaxHealth 50000
+     DamageReduction 50
+     "Explosive multiplier" 0.001
+    }
+   }
+   EnableDamage 0
+  }
+  SCR_MineInventoryItemComponent "{60E0B005A5B9392B}" {
+   Attributes SCR_ItemAttributeCollection "{60E0B005A5B93935}" {
+    ItemDisplayName WeaponUIInfo "{60E0B005A5B93937}" {
+     Name "Бидон молока"
+     Description "Точно ли там молоко? Цвет не белый, запах какой-то странный..."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{60E0B005A5B93931}" {
+     Weight 21.2
+     SizeSetupStrategy Manual
+     ItemDimensions 20 20 20
+     ItemVolume 4000
+     DimensionScaler 1
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{60E0B005A5B93933}" {
+     IkSettings {
+      ItemIKSettings "{60E0B005A5B9393D}" {
+       InAds 0
+       OutAds 0
+       MovementSpeedRange 0 1
+       IkSettingsStand 6
+       IkSettingsCrouch 6
+       IkSettingsProne 6
+      }
+      ItemIKSettings "{60E0B005A5B9393C}" {
+      }
+     }
+     AnimationInstance "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
+     AnimationIKPose "{5EF679CCFE1123FD}Assets/Weapons/Explosives/Mine_M15AT/anims/p_mine_ik.anm"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{60E0B005A5B93939}" {
+      CameraPreset Front
+      CameraOrbitAngles -40 0 20
+      CameraDistanceToItem 0.8
+      CameraOffset 0 0 0
+      FOV 60
+      AspectRatio 1
+      AnimationInstance "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
+      LodModel 0
+     }
+     CharacterModifierAttributes "{60E0B005A5B9393B}" {
+      StanceLimits 0.05 1
+      SpeedLimit 1.2
+      ADSSpeedLimit 1
+      SpeedLimitItemPrimaryAction 1
+      SpeedLimitHighready 1
+      TurnLimit 90
+      AllowGadgetUse 0
+      AllowJumping 0
+     }
+     HolsteredItemAttributes "{60E0B005A5B93905}" {
+      HiddenHolstered 1
+     }
+    }
+    CommonItemType "NONE"
+    m_Size SLOT_3x3
+    m_bStackable 0
+   }
+  }
+  SCR_PlaceableItemComponent "{60E0B005A5B93907}" {
+   Enabled 0
+   m_fMaxPlacementDistance 2
+   m_ePlacementType XYZ
+  }
+  SCR_PressureTriggerComponent "{60E0B005A5B93906}" {
+   Enabled 0
+   m_sFuzeMeshName "Mine_Fuse_TM_62M"
+   m_fMinWeight 150
+  }
+  SCR_MineWeaponComponent "{60E0B005A5B93901}" {
+   AllowedRaise "Only lowered"
+   UIInfo GrenadeUIInfo "{60E0B005A5B93900}" {
+    Name "Бидон молока"
+    Description "Точно ли там молоко? Цвет не белый, запах какой-то странный..."
+    m_bShowWeaponName 0
+    m_MagIndicator SCR_MagazineIndicatorConfiguration "{60E0B005A5B9390C}" {
+     m_sImagesetIcons "{9DA6A249AD4D71C4}UI/Textures/Icons/icons_wrapperUI-48.imageset"
+     m_sImagesetGlows "{5D85FA1AA039B2F8}UI/Textures/Icons/icons_wrapperUI-48-glow.imageset"
+     m_sOutline "building"
+     m_bProgressBar 0
+    }
+    m_sAmmoType "Potato"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags 0
+   }
+   WeaponSlotType "primary"
+   BeActiveWhenDropped 1
+   BeActiveWhenInitWithoutParent 1
+  }
+  ActionsManagerComponent "{60E0B005A5B9390E}" {
+   ActionContexts {
+    UserActionContext "{60E0B005A5B93908}" {
+     ContextName "default"
+     Position PointInfo "{60E0B005A5B9390B}" {
+      Offset 0 0.35 0
+     }
+    }
+   }
+   additionalActions {
+    SCR_BulbaAction "{629745A5F2350FBF}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{629745A5E65616D3}" {
+      Name "#AR-Inventory_Pickup"
+     }
+     VisibilityRange -1
+     "Sort Priority" 1
+    }
+   }
+  }
+  SCR_MineAnimationComponent "{60E0B005A5B94E1B}" {
+   AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+   AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
+   AlwaysActive 1
+   AnimInjection AnimationAttachmentInfo "{60E0B005A5B94E19}" {
+    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
+    AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
+    BindingName "Heavy"
+   }
+   BindWithInjection 1
+   AutoVariablesBind 1
+   MeshVisibilityConfigurations {
+    MeshesVisibilitySwitchConfig "{60E0B005A5B94E17}" {
+     Event "ShowFuze"
+     Meshes {
+      "Mine_Fuse_TM_62M" "TM_62M_pin"
+     }
+     HideMesh 0
+    }
+    MeshesVisibilitySwitchConfig "{60E0B005A5B94E16}" {
+     Event "HidePin"
+     Meshes {
+      "TM_62M_pin"
+     }
+    }
+   }
+  }
+  RplComponent "{60E0B005A5B94E14}" {
+   "Rpl State Override" Runtime
+  }
+  Hierarchy "{60E0B005A5B94E13}" {
+  }
+ }
+ coords 129.242 1 106.205
+}

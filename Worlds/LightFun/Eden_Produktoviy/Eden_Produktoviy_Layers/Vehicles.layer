@@ -1,0 +1,117 @@
+Vehicle Ural4320_transport_covered_camo1 : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_camo1.et" {
+ coords 5743.457 73.913 4936.141
+ angleX 2.677
+ angleY 3.942
+ angleZ 0.184
+}
+$grp Vehicle : "{2CCD539A7AB35B2F}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_camo1.et" {
+ Ural4320_transport_camo2 {
+  coords 5738.132 72.243 4901.757
+  angleX 1.763
+  angleY 9.864
+  angleZ 0.307
+ }
+ Ural4320_transport_camo1 {
+  coords 5705.936 71.031 4852.695
+  angleY 43.371
+ }
+}
+$grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+ BTR70_AFRF2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{5A60D38E3C46CBE8}" {
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{5A60D38E3D91D053}" {
+      SlotTemplate InventoryStorageSlot AKammunition {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{5A60D38E3DE4B1EA}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+      SlotTemplate InventoryStorageSlot RPKammunition {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{60EB3061E5B6F273}" {
+      SlotTemplate InventoryStorageSlot Backpack {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{60EB3061E5B6F277}" {
+      NumSlots 2
+     }
+    }
+   }
+  }
+  coords 5723.991 71.309 4873.16
+  angleX 1.257
+  angleY 38.337
+  angleZ -0.147
+ }
+ BTR70_AFRF1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{5A60D38E3C46CBE8}" {
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{5A60D38E3D91D053}" {
+      SlotTemplate InventoryStorageSlot AKammunition {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{5A60D38E3DE4B1EA}" {
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+      SlotTemplate InventoryStorageSlot RPKammunition {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{60EB3061E5B6F273}" {
+      SlotTemplate InventoryStorageSlot Backpack {
+       Enabled 0
+      }
+     }
+     MultiSlotConfiguration "{60EB3061E5B6F277}" {
+      NumSlots 2
+     }
+    }
+   }
+  }
+  coords 5690.513 71.125 4835.774
+  angleY 39.405
+ }
+}
+Vehicle Mi8MT_armed1 : "{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et" {
+ coords 9888.262 2.356 1500.027
+ angleX 3.532
+ angleY -166.475
+}
+Vehicle UAZ469_Camo1 : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
+ coords 5751.93 72.587 4922.347
+ angleX 4.435
+ angleY -43.764
+ angleZ -0.536
+}
+Vehicle Ural4320_transport_CIV_randomized1 : "{EEAC3A94929A2B55}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_randomized.et" {
+ coords 7012.729 117.625 6032.908
+ angleY 3.042
+}

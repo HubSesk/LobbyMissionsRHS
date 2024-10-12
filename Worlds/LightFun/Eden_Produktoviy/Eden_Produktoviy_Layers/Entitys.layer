@@ -8,22 +8,14 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
    m_sInitialStartingWeatherId "Cloudy"
   }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 11
-   m_iStartingMinutes 40
+   m_iStartingHours 9
+   m_iStartingMinutes 10
   }
  }
  m_fAutoReloadTime 300
- m_bTeamSwitch 1
- m_bMarkersOnlyOnBriefing 1
  m_bRemoveRedundantUnits 1
  m_bRemoveSquadMarkers 1
  m_iFreezeTime 300000
  m_bDisableChat 1
  m_bReserveSlots 1
-}
-GenericEntity : "{61980E6F3CA71107}Prefabs/Items/Cats/Dingus.et" {
- coords 2589.453 88.313 5325.156
- angleX 6.947
- angleY -134.183
- angleZ -4.457
 }
