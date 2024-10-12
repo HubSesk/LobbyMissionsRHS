@@ -24,6 +24,22 @@ $grp Vehicle : "{2CCD539A7AB35B2F}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   angleY -137.123
  }
 }
+Vehicle APC_K17_Epoch_camoExpo1 : "{3CFCB80B822033CF}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_camoExpo.et" {
+ coords 6551.314 86.406 5263.578
+ angleY -170.051
+}
+$grp Vehicle : "{6A229351EDD97116}Prefabs/Vehicles/Wheeled/K17/APC_K17_unarmed_expo.et" {
+ APC_K17_unarmed_expo1 {
+  coords 6562.072 86.406 5265.201
+  angleY -167.392
+ }
+ APC_K17_unarmed_expo2 {
+  coords 6529.891 87.017 5256.167
+  angleX -0.375
+  angleY -167.35
+  angleZ -6.479
+ }
+}
 Vehicle Ural4320_repair_camo1 : "{BED355ED51A1E859}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair_camo1.et" {
  coords 6571.784 86.406 5272.945
  angleY -131.513
