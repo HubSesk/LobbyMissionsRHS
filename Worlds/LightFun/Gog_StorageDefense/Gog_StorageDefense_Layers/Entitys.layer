@@ -2,50 +2,25 @@ SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
 }
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
 }
-TagManager : "{2FA9E172CAB1857A}Prefabs/MP/Managers/TagManager.et" {
-}
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  components {
-  SCR_InitWeatherComponent "{60B929B90FFEB1CF}" {
-   m_sInitialStartingWeatherId "Overcast"
+  SCR_InitWeatherComponent "{61B68227C35BFE9A}" {
+   m_sInitialStartingWeatherId "Cloudy"
   }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 13
+   m_iStartingHours 15
+   m_iStartingMinutes 30
   }
  }
  m_fAutoReloadTime 300
- m_bAdminMode 1
  m_bMarkersOnlyOnBriefing 1
- m_bKillRedundantUnits 1
+ m_bRemoveRedundantUnits 1
  m_bRemoveSquadMarkers 1
  m_iFreezeTime 300000
  m_bDisableChat 1
  m_bReserveSlots 1
- {
-  SCR_FactionManager "60BAE6CBB86C850A" {
-   ID "5ED9088735FF2D8B"
-   Factions {
-    SCR_Faction "{5978B9CE6585BBE8}" {
-    }
-    SCR_Faction "{5CC8DE37E1FF0F7A}" {
-    }
-   }
-  }
- }
 }
-HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
-}
-$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
- {
-  coords 7496.902 35.61 3197.435
-  m_fWarnRadius 100
-  m_fZoneRadius 130
-  m_fZoneTeleportedRadius 145
- }
- {
-  coords 7125.609 15.36 5116.248
-  m_fWarnRadius 145
-  m_fZoneRadius 170
-  m_fZoneTeleportedRadius 185
- }
+GenericEntity : "{61980E6F3CA71107}Prefabs/Items/Cats/Dingus.et" {
+ coords 7474.087 32.062 3241.581
+ angleY -122.397
 }

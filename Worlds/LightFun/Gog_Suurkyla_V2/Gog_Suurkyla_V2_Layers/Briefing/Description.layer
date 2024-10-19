@@ -1,0 +1,42 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  m_sTitle "Легенда"
+  m_sTextData "КМП США заняло поселение. Бойцам ВС РФ предстоит захватить офисное здание и местный магазин, который часто посещают бойцы США."
+  m_aVisibleForFactions {
+   "RHS_AFRF" "RHS_USAF"
+  }
+  m_bEmptyFactionVisibility 1
+ }
+ {
+  m_sTitle "Задача USMC"
+  m_sTextData "- Не дать противнику завладеть ключевыми зданиями"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
+ {
+  m_sTitle "Сведения USMC"
+  m_sTextData "- У противника есть К-17 \"Бумеранг\""\
+  ""\
+  "- У противника есть вертолёт"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
+ {
+  m_sTitle "Задача ВС РФ"
+  m_sTextData "- Захватить два ключевых здания"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ {
+  m_sTitle "Сведения ВС РФ"
+  m_sTextData "- Все силы противника располагаются в поселении"\
+  ""\
+  "- У противника есть 3 M1025 с M2 (M2, M2 + Optic, M2 + Thermal)"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+}

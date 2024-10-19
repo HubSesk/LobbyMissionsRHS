@@ -21,15 +21,9 @@ $grp Vehicle : "{2CCD539A7AB35B2F}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   angleZ 0.249
  }
 }
-$grp Vehicle : "{3277F8B1FA06A2BC}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et" {
- M1025_armed_M2HB_USAF2 {
-  coords 5251.378 5.775 9215.665
-  angleY 179.955
- }
- M1025_armed_M2HB_USAF3 {
-  coords 5244.482 5.775 9216.604
-  angleY 179.955
- }
+Vehicle M1025_armed_M2HB_USAF3 : "{3277F8B1FA06A2BC}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et" {
+ coords 5244.482 5.775 9216.604
+ angleY 179.955
 }
 Vehicle M1025_armed_M2HB_PAS13G_USAF1 : "{ABAB219273966558}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_PAS13G_USAF.et" {
  coords 5653.948 4.908 9314.129
@@ -84,4 +78,8 @@ Vehicle APC_K17_Berezok_camo1 : "{DD0CB0331A3D8CA7}Prefabs/Vehicles/Wheeled/K17/
 Vehicle Mi8MT1 : "{DF5CCB7C0FF049F4}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_transport.et" {
  coords 6864.592 91.283 2073.126
  angleX 3.888
+}
+Vehicle M1025_armed_M2HB_MDO_USAF1 : "{FA6820A9A52CD05B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF.et" {
+ coords 5251.377 5.775 9215.664
+ angleY 179.955
 }
