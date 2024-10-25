@@ -59,7 +59,7 @@ $grp SCR_AIGroup : "{338E63B617C13325}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CD
   coords 4640.541 273.281 6794.906
   angleY 49.372
   m_aUnitPrefabSlots {
-   "{BDFC54A749BAFE54}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Scout_RTO.et" "{1C5D238E55ACDFDC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Scout.et" "{1C5D238E55ACDFDC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Scout.et" "{0779E285709FDE15}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Spotter.et"
+   "{BDFC54A749BAFE54}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Scout_RTO.et" "{1C5D238E55ACDFDC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Scout.et" "{1C5D238E55ACDFDC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Scout.et" "{1C5D238E55ACDFDC}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Scout.et" "{0779E285709FDE15}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Spotter.et"
   }
   m_sCustomNameSet "Разведка"
  }
@@ -106,24 +106,8 @@ $grp SCR_AIGroup : "{338E63B617C13325}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CD
   coords 4684.796 273.041 6792.128
   angleY 141.977
   m_aUnitPrefabSlots {
-   "{756D4054410A1927}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_PL.et" "{7C646869CFA3B721}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_RTO.et"
+   "{756D4054410A1927}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_PL.et" "{7C646869CFA3B721}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_RTO.et" "{471455C340DD5221}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Sniper_2.et"
   }
   m_sCustomNameSet "Командование"
- }
- {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Line"
-   }
-   PS_GroupCallsignAssigner "{62B2D79D7823F8FF}" {
-    m_iCompanyCallsign 2
-   }
-  }
-  coords 1697.656 172.677 5086.655
-  angleY -4.925
-  m_aUnitPrefabSlots {
-   "{990951B11778B1D8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_HeliPilot.et" "{35B7DF3E46C2B68F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_HeliSecondPilot.et"
-  }
-  m_sCustomNameSet "Ми-24"
  }
 }
