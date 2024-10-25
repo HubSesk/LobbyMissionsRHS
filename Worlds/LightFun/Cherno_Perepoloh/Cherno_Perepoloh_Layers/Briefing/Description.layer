@@ -1,0 +1,70 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  m_sTitle "Легенда"
+  m_sTextData "Российские войска окружены! Чернорусские Силы Обороны взяли в окружение взвод ВС РФ и наступает со всех сторон. Отступив к Старому Собору, командование красной стороны принимает решение - держать оборону в городе. Теперь ЧСО нужно захватить ключевое здание и уничтожить силы противника."\
+  ""\
+  "USMC и ЧСО - союзники."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  m_sTitle "Сведения ВС РФ"
+  m_sTextData "Противник имеет в наличии:"\
+  ""\
+  "- 5 Уралов"\
+  "- 1 УАЗ"\
+  "- 2 БТР"\
+  "- 1 Ми-24"\
+  "- 1 Humvee"\
+  "- 2 Humvee M2"\
+  "- 1 Humvee M2 Optic"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ {
+  m_sTitle "Задачи ВС РФ"
+  m_sTextData "- Защитить ключевое здание"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ {
+  m_sTitle "Сведения ЧСО"
+  m_sTextData "Противник имеет в наличии:"\
+  ""\
+  "- Ремонтный Урал"\
+  "- 1 БТР"\
+  "- 1 Бумеранг"
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+ {
+  m_sTitle "Задачи ЧСО"
+  m_sTextData "- Захватить ключевое здание"
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+ {
+  m_sTitle "Сведения USMC"
+  m_sTextData "Противник имеет в наличии:"\
+  ""\
+  "- Ремонтный Урал"\
+  "- 1 БТР"\
+  "- 1 Бумеранг"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
+ {
+  m_sTitle "Задачи USMC"
+  m_sTextData "- Помочь ЧСО в захвате ключевого здания (75 оч.)"\
+  ""\
+  "- Сжечь бумеранг до тла (25 оч.)"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
+}
