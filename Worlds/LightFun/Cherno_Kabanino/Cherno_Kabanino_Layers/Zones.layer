@@ -1,0 +1,71 @@
+$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ {
+  coords 5778.065 325.186 8697.151
+  m_fWarnRadius 40
+  m_fZoneRadius 70
+  m_fZoneTeleportedRadius 90
+ }
+ {
+  coords 6997.833 358.263 9124.487
+  m_fWarnRadius 40
+  m_fZoneRadius 80
+  m_fZoneTeleportedRadius 125
+ }
+ {
+  coords 617.819 149.53 5463.117
+  m_fWarnRadius 100
+  m_fZoneRadius 300
+  m_fZoneTeleportedRadius 350
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 3575.285 296.878 7954.044
+  m_fWarnRadius 125
+  m_fZoneRadius 165
+  m_fZoneTeleportedRadius 200
+ }
+ {
+  coords 5332.19 334.249 8650.719
+ }
+}
+PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+   m_cPolygonColor 1 0 0 0.275
+   m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+   m_cPolygonBorderColor 1 0 0 1
+   m_aVisibleForFactions {
+    "" "RHS_USAF" "Ses_ChDKZ"
+   }
+  }
+ }
+ coords 5347.845 332.575 8586.204
+ Points {
+  ShapePoint "{62B4AEDC3661C893}" {
+   Position -9.628 0.419 5.671
+  }
+  ShapePoint "{62B4AEDC343B5CDA}" {
+   Position -35.813 1.473 32.198
+  }
+  ShapePoint "{62B4AEDC3EBF141F}" {
+   Position -50.289 2.396 39.805
+  }
+  ShapePoint "{62B4AEDC3D703D0F}" {
+   Position -69.883 3.566 46.893
+  }
+  ShapePoint "{62B4AEDC3C9CA9FD}" {
+   Position -84.762 5.447 47.049
+  }
+  ShapePoint "{62B4AEDC2153DB84}" {
+   Position -32.147 3.004 133.17
+  }
+  ShapePoint "{62B4AEDC270A3790}" {
+   Position 51.858 -0.689 64.532
+  }
+  ShapePoint "{62B4AEDC253DB59E}" {
+   Position 27.93 1.214 35.305
+  }
+ }
+}

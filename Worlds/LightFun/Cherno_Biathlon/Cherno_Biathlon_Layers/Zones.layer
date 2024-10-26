@@ -1,3 +1,24 @@
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_aVisibleForFactions {
+    "" "RHS_AFRF" "Ses_CDF"
+   }
+  }
+ }
+ coords 126.948 318.768 8704.82
+ Points {
+  ShapePoint "{62B45E538D21ED21}" {
+   Position 48.575 107.428 4045.577
+  }
+  ShapePoint "{62B45E53F155F659}" {
+   Position 1858.209 -48.172 3990.858
+  }
+  ShapePoint "{62B45E53F44D4677}" {
+   Position 1852.3 -5.071 28.702
+  }
+ }
+}
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  {
   coords 495.705 421.815 11114.848
@@ -13,49 +34,5 @@ $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/Restri
   m_fWarnRadius 80
   m_fZoneRadius 120
   m_fZoneTeleportedRadius 140
- }
-}
-PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
- components {
-  PS_PolyZone "{60E90266F25533F6}" {
-   m_bReversed 1
-   m_aVisibleForFactions {
-    "" "RHS_AFRF" "Ses_CDF"
-   }
-  }
- }
- coords 120.528 292.321 8642.408
- Points {
-  ShapePoint "{60E90266E922A02A}" {
-   Position 6.322 26.457 62.468
-  }
-  ShapePoint "{60FB40CD988CEFFC}" {
-   Position 54.928 133.811 4107.834
-  }
-  ShapePoint "{60FB40CD9EFFA9C6}" {
-   Position 1864.88 -21.766 4053.207
-  }
-  ShapePoint "{60FB40CD9C4B6260}" {
-   Position 1858.902 21.384 91.063
-  }
- }
- {
-  PS_PolyZoneTrigger {
-   components {
-    Hierarchy "{60FB40CDF51655FF}" {
-    }
-   }
-   TriggerShapeType Sphere
-   SphereRadius 100000000
-   TriggerActivationType "All changes"
-   PeriodicQueries 1
-   ClassesFilter {
-    "SCR_ChimeraCharacter"
-   }
-   m_polyZoneEffect PS_PolyZoneEffectRestricted "{60FB40CDD9A89307}" {
-    m_fKillTime 25
-   }
-   m_bReversed 1
-  }
  }
 }
