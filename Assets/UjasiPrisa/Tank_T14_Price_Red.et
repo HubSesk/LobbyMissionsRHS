@@ -25,6 +25,9 @@ RHS_Tank : "{B744E85A9CE90F7D}Prefabs/Vehicles/Tracked/T14/Tank_T14_base.et" {
     }
    }
   }
+  RHS_GPSMarkerContainerComponent "{6231533C40969127}" {
+   Enabled 0
+  }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo Turret {

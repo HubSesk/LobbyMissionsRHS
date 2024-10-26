@@ -25,6 +25,9 @@ RHS_Tank : "{B744E85A9CE90F7D}Prefabs/Vehicles/Tracked/T14/Tank_T14_base.et" {
     }
    }
   }
+  RHS_GPSMarkerContainerComponent "{6231533C40969127}" {
+   Enabled 0
+  }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo Turret {
@@ -114,5 +117,8 @@ RHS_Tank : "{B744E85A9CE90F7D}Prefabs/Vehicles/Tracked/T14/Tank_T14_base.et" {
    }
   }
  }
- coords 139.446 1 93.974
+ coords 2079.641 258.254 10722.44
+ angleX -0.307
+ angleY 139.633
+ angleZ 3.78
 }
