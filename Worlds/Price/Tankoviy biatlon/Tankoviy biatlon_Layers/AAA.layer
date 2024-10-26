@@ -1,0 +1,64 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 6039.298 342.06 9457.794
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 6071.699 335.776 9415.276
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ coords 6005.362 332.474 9411.994
+ m_bMarkersOnlyOnBriefing 1
+ m_bRemoveRedundantUnits 1
+ m_bRemoveSquadMarkers 1
+ m_iFreezeTime 240000
+ m_bDisableChat 1
+ m_bReserveSlots 1
+}
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 2098.052 258.681 10710.469
+  m_sTitle "Описание"
+  m_sTextData "Стандартная ВР тренировка Магаданского Особого Танкового полка."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 2087.632 256.914 10680.826
+  m_sTitle "Многа буков, осильте"
+  m_sDescriptionLayout "{B965F43FBD01E4B5}UI/MissionDescription/MissionDescriptionListScroll.layout"
+  m_sTextData "Доброе утро товарищи срочники."\
+  ""\
+  "Добро пожаловать в стандартные ВР учение нашего любимого полка. Для вас это будут ваши первые учения, но я все равно надеюсь что вы хорошо запомнили теорию и сможете завести танк или хотя бы включить стабилизатор."\
+  ""\
+  "В любом случае, перейдем к установкам:"\
+  "Тренироваться будем в вакууме. Ни самолетов, ни вертолетов. Только танки."\
+  "Кататься будете на прототипах ТА-14, как знаете в серию они не пошли, да и те части что воевали на них год назад не лучшим образом отзывались о них. Ну выбирать нам все равно не приходится, в симулятор загружены только они."\
+  ""\
+  "Стабилизатор, тепловизор, сопровождения и т.д. подключены, однако КАЗ мы вырубили в настройках, птуров вы все равно не увидите."\
+  ""\
+  "Бой будет происходить на Аэродроме в центре карты. Задача обеих сторон заключается в захвате ангаров с артилерией. Та сторона что сможет удержать ее через 40 минут после начала тренировки - победит."\
+  ""\
+  "На карте есть точки ремонта. Обратите внимание."\
+  "Так же не забывайте что вы друг друга видите на карте. Это отменит стоялово"\
+  ""\
+  "У Красных преймущество по позициям, поэтому синих немного больше. В общем тактика вам в помощь. Удачи"\
+  ""\
+  "/////////////////СВОДКА"\
+  "ЦЕЛЬ:ЗАХВАТ АНГАРОВ"\
+  "ДОПЦЕЛЬ: УНИЧТОЖИТЬ БОЛЕЕ 60% ПРОТИВНИКА"\
+  "ДОПЦЕЛЬ2: СОХРАНИТЬ БОЛЬШЕ 40% СОСТАВА"\
+  ""
+  m_aVisibleForFactions {
+   "RHS_USAF" "RHS_AFRF"
+  }
+ }
+}
+PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 5237.697 337.218 9849.537
+ angleX -2.683
+ angleY 0.042
+ angleZ -0.896
+ m_sImageSet "{C9D19DBFDE7AD72D}UI/Imagesets/Conflict/conflict-icons.imageset"
+ m_sImageSetGlow ""
+ m_sQuadName "7-7"
+ m_bShowForAnyFaction 1
+}

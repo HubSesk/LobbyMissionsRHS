@@ -1,23 +1,3 @@
-$grp Vehicle : "{10D30517B00BDC39}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_NAPADeathLight.et" {
- BTR70_Ses_NAPADeathLight1 {
-  coords 7414.107 391.013 9379.245
-  angleX 7.016
-  angleY -0.881
-  angleZ -7.179
- }
- BTR70_Ses_NAPADeathLight2 {
-  coords 7419.525 391.735 9379.854
-  angleX 7.016
-  angleY -0.881
-  angleZ -7.179
- }
- BTR70_Ses_NAPADeathLight3 {
-  coords 7417.409 392.904 9389.938
-  angleX 9.237
-  angleY 17.896
-  angleZ -2.6
- }
-}
 $grp Vehicle : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et" {
  Ural4320_ammo1 {
   components {
@@ -171,6 +151,26 @@ Vehicle Ural4320_engineer1 : "{6E9142CD2471741C}Prefabs/Vehicles/Wheeled/Ural432
  angleY 110.608
  angleZ 2.717
 }
+$grp Vehicle : "{8242A6D0A930626D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_NAPA_deathlight.et" {
+ BTR70_Ses_NAPA_deathlight3 {
+  coords 7424.713 391.697 9371.879
+  angleX 2.652
+  angleY -0.29
+  angleZ -6.249
+ }
+ BTR70_Ses_NAPA_deathlight1 {
+  coords 7410.868 391.871 9388.179
+  angleX 9.564
+  angleY -1.358
+  angleZ -8.118
+ }
+ BTR70_Ses_NAPA_deathlight2 {
+  coords 7420.863 393.014 9388.193
+  angleX 7.935
+  angleY -0.749
+  angleZ -5.408
+ }
+}
 Vehicle Ural4320_repair1 : "{A5647958579A4149}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair.et" {
  components {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
@@ -196,4 +196,10 @@ Vehicle Ural4320_repair1 : "{A5647958579A4149}Prefabs/Vehicles/Wheeled/Ural4320/
  angleX -7.603
  angleY -68.483
  angleZ -0.127
+}
+Vehicle Ural4320_command_camo1_Deco1 : "{CBA5C63D77B9C3BD}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command_camo1_Deco.et" {
+ coords 6520.573 334.502 9288.44
+ angleX -0.895
+ angleY 0.014
+ angleZ -0.895
 }

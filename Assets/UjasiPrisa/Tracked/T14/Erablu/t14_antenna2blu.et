@@ -1,0 +1,14 @@
+GenericEntity : "{89CEE83EBF4AE6E4}Prefabs/Vehicles/Tracked/T14/VehParts/Era/t14_small_pieces_base.et" {
+ ID "5498A197BD32DBFD"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{74F5580F1F239E4C}Assets/Vehicles/Tracked/T14/era/t14_antenna2.xob"
+   Materials {
+    MaterialAssignClass "{62AE9A0DF8074493}" {
+     SourceMaterial "turret"
+     AssignedMaterial "{1ABC1A84095097F6}Assets/Vehicles/Tracked/T14/data/turretblu.emat"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,622 @@
+Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  TurretControllerComponent "{51ACD09C61C183E4}" {
+   CanAimOnlyInADS 1
+   LimitsHoriz -180 180
+   LimitsVert -5 30
+   TurretReloadPosition 500 500
+   ReturnToPositionBeforeReload 0
+  }
+  SoundComponent "{62B0459442C0CA9C}" {
+   Filenames {
+    "{F5B2282048488055}Sounds/Vehicles/Tracked/T14/Vehicles_T14_Turret_LP.acp" "{D1CC0AAFF296DFE6}Sounds/Vehicles/Tracked/T14/Vehicles_T14_Turret.acp"
+   }
+  }
+  BaseLightManagerComponent "{62B0459442C0CA91}" {
+   LightSlots {
+    BaseLightSlot "{62B0459442C0CA8D}" {
+     LightType Brake
+     LightPositionInfo EntitySlotInfo CatEyes {
+      PivotID "v_turret_01"
+      Offset 0.8796 1.1078 -2.4983
+     }
+     LightPrefab "{5D61892E74F431E1}Prefabs/Vehicles/Tracked/T14/Lights/t14Light_Reverse_turret.et"
+    }
+   }
+  }
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Object "{C39F981D8E2B9CCF}Assets/Vehicles/Tracked/T14/rhs_t14_turret.xob"
+   Materials {
+    MaterialAssignClass "{62B0459530F43CAC}" {
+     SourceMaterial "turret"
+     AssignedMaterial "{FEA0913E5822D8BF}Assets/UjasiPrisa/Tracked/T14/datared/turretred_2.emat"
+    }
+   }
+   PixelSizeScale 10
+  }
+  RHS_TurretDestructionComponent "{62B0459442C0CAFC}" {
+  }
+  RHS_TurretStabilizationComponent "{62B0459442C0CAFA}" {
+  }
+  RHS_VehicleTurretScreensControllerComponent "{62B0459442C0CAFB}" {
+   m_aCameras {
+    RHS_CustomCameraPointInfoTurret "{62B0459442C0CAF9}" {
+     PivotID "v_gun_01"
+     Offset -0.721 0.2649 -0.0701
+     m_fCameraFoV 20
+     m_fRotationAngle 0
+     m_sCameraName "Turret"
+    }
+   }
+   m_aMainCameras {
+    RHS_CustomCameraPointInfo "{62B0459442C0CAF4}" {
+     PivotID "v_turret_01"
+     Offset 1.4512 0.7872 0.0659
+     Angles 0 45 0
+     m_fCameraFoV 45
+     m_fRotationAngle 45
+     m_sCameraName "Front_Right"
+    }
+    RHS_CustomCameraPointInfo "{62B0459442C0CAF2}" {
+     PivotID "v_turret_01"
+     Offset -1.4512 0.7872 0.0659
+     Angles 0 -45 0
+     m_fCameraFoV 45
+     m_fRotationAngle 45
+     m_sCameraName "Front_Left"
+    }
+    RHS_CustomCameraPointInfo "{62B0459442C0CAF3}" {
+     PivotID "v_turret_01"
+     Offset -1.4512 0.7872 -0.845
+     Angles 0 -135 0
+     m_fCameraFoV 45
+     m_fRotationAngle 45
+     m_sCameraName "Rear_Left"
+    }
+    RHS_CustomCameraPointInfo "{62B0459442C0CAF0}" {
+     PivotID "v_turret_01"
+     Offset 1.4512 0.7872 -0.845
+     Angles 0 135 0
+     m_fCameraFoV 45
+     m_fRotationAngle 45
+     m_sCameraName "Rear_Right"
+    }
+   }
+  }
+  RHS_WeaponRecoilComponent "{62B0459442C0CAEE}" {
+   m_fImpulse 45000
+   m_vRecoilPosition PointInfo "{62B0459442C0CAE4}" {
+    PivotID "v_gun_01"
+   }
+  }
+  RigidBody "{51ACD09C423F175F}" {
+   Mass 3000
+   Static 0
+   Kinematic 1
+  }
+  ProcAnimComponent "{51ACD09DB14C45C0}" {
+   Parameters {
+    ProcAnimParams "{62B0459442C0CAE0}" {
+     ResourceName "{F41BA441BB78161D}anims/proc/turret.pap"
+     BoneNames {
+      "v_turret_01" "v_gun_01"
+     }
+     SimulationDistance 2000
+     AlwaysSimulateOwner 1
+    }
+    ProcAnimParams "{62B0459442C0CADC}" {
+     ResourceName "{D6B21E3F7D359957}Assets/Vehicles/Tracked/T14/Anim/proc/T14_ShellExtraction.pap"
+     BoneNames {
+      "shell_extraction_window"
+     }
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{62B0459442C0CAD8}" {
+     AnimDoorIndex 0
+     ContextName "door_l01"
+     EntryPositionInfo PointInfo "{62B0459442C0CAD9}" {
+      Offset 0.7296 1.8512 1.6744
+      Angles 0 180 0
+     }
+     ExitPositionInfo PointInfo "{62B0459442C0CAD6}" {
+      Offset 0.7296 1.8512 1.6744
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+     FakeDoor 1
+    }
+   }
+   CompartmentSlots {
+    RHS_TurretCompartmentSlot TurretCompartment {
+     CompartmentAction SCR_GetInUserAction "{5086CC2CFDD3A05A}" {
+      ParentContextList {
+       "CommanderHatch"
+      }
+      CanAggregate 1
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D566648F37562}" {
+      ParentContextList {
+       "Gunner_Idle"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D56867A46DBE769}" {
+       ParentContextList {
+        "Gunner_Idle" "CommanderHatch"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      PivotID "Gunner_Idle"
+      Offset 0 -0.0365 0.155
+      Angles 15 0 0
+     }
+     SkipCharacterDoorAnimationsFromSeat 1
+     SeatType 1
+     DoorInfoList {
+      0
+     }
+     BaseCoverage 0.3
+     SidestepRayZOffset 0
+     m_bIsWaterTight 1
+     m_DefaultOccupantData SCR_DefaultOccupantData "{62B0459442C0CAC6}" {
+      m_sDefaultOccupantPrefab "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+     }
+     m_bCameraIgnoreTurretRotation 1
+    }
+   }
+  }
+  SCR_BaseHUDComponent "{51ACD09C5E194510}" {
+   InfoDisplays {
+    SCR_WeaponInfoVehicle "{5194B831C2F89FB5}" {
+    }
+    SCR_WeaponSelectionMenu "{62B0459442C0CAC0}" {
+     m_LayoutPath "{2180D62E7C6F0DFC}UI/layouts/HUD/WeaponSelection/WeaponSelectionMenu.layout"
+    }
+   }
+  }
+  SCR_DamageManagerComponent "{51ACD09C524A7924}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone Turret {
+     DamageReduction 0
+     DamageThreshold 0
+     m_vParticleOffset 0 0 0
+    }
+    SCR_VehicleHitZone ammorack {
+     ColliderNames {
+      "UCX_AMMORACK_TURRET1" "UCX_AMMORACK_TURRET2"
+     }
+     ParentHZs {
+      ParentHitZone "{62B0459442C0C938}" {
+       Parent "Turret"
+       DamageMultiplier 1000
+       Overkill 1
+      }
+     }
+     IgnoreExplosions 1
+     MaxHealth 410
+     DamageReduction 3
+     DamageThreshold 0
+     "Collision multiplier" 0
+     "Melee multiplier" 0
+     "Fragmentation multiplier" 0
+     "Explosive multiplier" 0
+     "DamageState threshold" {
+      0.7 0.4 0.2
+     }
+     m_vParticleOffset 0 1 0
+     m_eHitZoneGroup AMMO_STORAGE
+    }
+    SCR_HitZone Optic2 {
+     ColliderNames {
+      "UBX_GunnerOptics"
+     }
+     IgnoreExplosions 1
+     BaseDamageMultiplier 0.9
+     MaxHealth 300
+     DamageReduction 15
+     DamageThreshold 0
+     "Melee multiplier" 0
+     "Kinetic multiplier" 3
+     "Explosive multiplier" 0.2
+     "Incendiary multiplier" 1
+     "DamageState threshold" {
+     }
+    }
+    SCR_HitZone Traverse {
+     ColliderNames {
+      "UTM_turret"
+     }
+     MaxHealth 2000
+     DamageReduction 400
+     DamageThreshold 8
+     "Melee multiplier" 0.01
+     "Kinetic multiplier" 3
+     "Fragmentation multiplier" 0
+     "Incendiary multiplier" 0.33
+     "DamageState threshold" {
+      0.7 0.4 0.2
+     }
+    }
+   }
+  }
+  SCR_VehicleCameraDataComponent "{51AE850D79DDB1F5}" {
+   m_fHeight 1.5
+  }
+  UniversalInventoryStorageComponent "{62B0459442C0C931}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{62B0459442C0C92F}" {
+    ItemDisplayName UIInfo "{62B0459442C0C925}" {
+     Name "#AR-Inventory_Turret"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{62B0459442C0C923}" {
+      CameraPreset Right
+      CameraDistanceToItem 1
+      PreviewModel "{24BCE9A581367807}Assets/Vehicles/Wheeled/BTR70/BTR70_turret.xob"
+     }
+     SCR_InventoryVehicleVisibilityAttribute "{62B0459442C0C91E}" {
+      m_bShowInVehicleOnly 1
+      m_bShowForVehicleFactionOnly 1
+     }
+    }
+    m_Size SLOT_3x3
+    m_bDraggable 0
+   }
+  }
+  TurretComponent "{62B0459442C0C91A}" {
+   components {
+    RHS_2DSightsComponentV2 "{62B0459442C0C918}" {
+     SightsPosition PointInfo "{62B0459442C0C916}" {
+      PivotID "v_gun_01"
+      Offset -0.7209 0.2649 0.032
+      Angles 0 0 0
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{62B0459442C0C915}" {
+      m_fBaseZoom 1
+      m_fZoomMax 12
+      m_fStepZoomSize 3
+      m_fInterpolationSpeed 25
+     }
+     SightsPointFront PointInfo "{62B0459442C0C912}" {
+      PivotID "v_gun_01"
+      Offset -0.7156 0.2649 -0.2
+     }
+     SightsPointRear PointInfo "{62B0459442C0C910}" {
+      PivotID "v_gun_01"
+      Offset -0.7156 0.2649 -0.3
+     }
+     ADSTime 0
+     CameraRecoilAmount 0
+     m_bIsConfiguratedForRHSNVG 1
+     m_sReticleTexture "{56F9E68F9BAE6370}UI/layouts/Sights/empty_32.edds"
+     m_sReticleGlowTexture "{56F9E68F9BAE6370}UI/layouts/Sights/empty_32.edds"
+     m_bHasIllumination 1
+     m_cReticleTextureIllumination 0.759 0.93 1 1
+     m_fMagnification 3
+     m_fReticleAngularSize 3.6
+     m_fReticlePortion 0.53711
+     m_fReticleBaseZoom 3
+     m_fObjectiveFov 15
+     m_fObjectiveScale 10
+     m_fVignetteScale 10
+     m_bShouldHideParentObject 0
+     m_iAnimationDeactivationDelay 0
+     m_fRotationScale 0
+     m_fRotationDampingSpeed 0
+     m_fMovementScale 0
+     m_fMovementDampingSpeed 0
+     m_fRollScale 0
+     m_fMisalignmentScale 0
+     m_fVignetteMoveSpeed 0
+     m_fMotionBlurScale 0
+     m_fMotionBlurMax 0
+     m_fReticleOffsetX 0.08
+     m_sRHSLayoutOverlayResource "{F23FD58DB6E9B6DE}UI/layouts/Sights/Optic_Widgets_T14.layout"
+    }
+    RHS_VehicleNightVisionComponent "{62B0459442C0C90A}" {
+     m_eUseMask CUSTOM
+     m_sNVGGooglesHDRMatrial "{4FCD073BE66BFE09}Assets/Vehicles/SharedMaterials/Vehicle_Thermal_HDR.emat"
+     m_sNVGGooglesFilmGrainMaterial "{184629CB26E4C8ED}Assets/Vehicles/SharedMaterials/Vehicle_Thermal_FilmGrain.emat"
+     m_bUseMask 0
+     m_aBlemSet {
+      ""
+     }
+     m_bManualGainControl 1
+     m_aGainLevels {
+      0.001 0.002 0.003 0.005 0.01 0.03 0.065 0.1 0.3 0.6 1 2 3 4 5 6 7 8 9 10 15 20
+     }
+     m_bUseThermal 1
+    }
+   }
+   SignalsSourceAccess SignalsSourceAccessClass "{62B0459442C0C906}" {
+    signalsSuffix "Turret"
+   }
+   ProvideAimingType MainTurret
+   AimingMaxSpeed 1 0.8
+   AimingSpeedControls 0.1 0.1
+   CameraAdsAttachment PointInfo "{62B0459442C0C907}" {
+    PivotID "v_gun_01"
+    Offset -0.721 0.2649 -0.0701
+   }
+   TurretSpeed 80 80
+   TurretAcceleration 100 100
+   TurretDeceleration 200 200
+   TurretCrankRatio 10 10
+   BaseSpeed 100
+   BaseAcceleration 50
+   BaseDeceleration 200
+  }
+  SlotManagerComponent "{62B0459442C0C902}" {
+   Slots {
+    RegisteringComponentSlotInfo Commander_Turret {
+     PivotID "v_turret_02"
+     ChildPivotID "v_turret_02"
+     Enabled 1
+     Prefab "{F88C4FA58463DC82}Assets/UjasiPrisa/Tracked/T14/turretred/T14_Commander_Turretred_2.et"
+     InheritParentSkeleton 0
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterCompartments 1
+    }
+    RegisteringComponentSlotInfo antenna1 {
+     PivotID ""
+     Offset 0 0 0
+     Enabled 1
+     Prefab "{A3149FAA9A85DE42}Assets/UjasiPrisa/Tracked/T14/erared/t14_antenna1blu_2.et"
+     InheritParentSkeleton 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo antenna2 {
+     PivotID ""
+     Offset 0 0 0
+     Enabled 1
+     Prefab "{AD0ADBE2A772D198}Assets/UjasiPrisa/Tracked/T14/erared/t14_antenna2blu_2.et"
+     InheritParentSkeleton 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo meteo {
+     PivotID ""
+     Offset 0 0 0
+     Enabled 1
+     Prefab "{F974AA4E9F7AF95B}Assets/UjasiPrisa/Tracked/T14/erared/t14_meteored.et"
+     InheritParentSkeleton 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo basket {
+     PivotID ""
+     Offset 0 0 0
+     Enabled 1
+     Prefab "{E6BC061F2378B7F3}Assets/UjasiPrisa/Tracked/T14/erared/t14_basketblu_2.et"
+     InheritParentSkeleton 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo optic_gunner {
+     PivotID "v_gun_01"
+     Offset -0.721 0.2649 -0.0017
+     Enabled 0
+     InheritParentSkeleton 1
+     RegisterDamage 1
+    }
+    EntitySlotInfo number1_left {
+     PivotID "v_turret_01"
+     Offset -0.9984 0.7009 -1.7848
+     Angles -1.5805 -4.5087 9.4084
+     Prefab "{A50BC13DB1FCF1FB}Prefabs/Vehicles/Shared/decal_vehicle_group1_small.et"
+    }
+    EntitySlotInfo number2_left {
+     PivotID "v_turret_01"
+     Offset -0.9865 0.7051 -1.9357
+     Angles -1.5805 -4.5087 9.4084
+     Prefab "{845BF318A6537093}Prefabs/Vehicles/Shared/decal_vehicle_group2_small.et"
+    }
+    EntitySlotInfo number3_left {
+     PivotID "v_turret_01"
+     Offset -0.9743 0.7093 -2.0901
+     Angles -1.5805 -4.5087 9.4084
+     Prefab "{7A5BB35D53011CDF}Prefabs/Vehicles/Shared/decal_vehicle_group3_small.et"
+    }
+    EntitySlotInfo number1_right {
+     PivotID "v_turret_01"
+     Offset 0.9743 0.7093 -2.0901
+     Angles 1.5805 -175.4913 9.4084
+     Prefab "{A50BC13DB1FCF1FB}Prefabs/Vehicles/Shared/decal_vehicle_group1_small.et"
+    }
+    EntitySlotInfo number2_right {
+     PivotID "v_turret_01"
+     Offset 0.9865 0.7051 -1.9357
+     Angles 1.5805 -175.4913 9.4084
+     Prefab "{845BF318A6537093}Prefabs/Vehicles/Shared/decal_vehicle_group2_small.et"
+    }
+    EntitySlotInfo number3_right {
+     PivotID "v_turret_01"
+     Offset 0.9984 0.7009 -1.7848
+     Angles 1.5805 -175.4913 9.4084
+     Prefab "{7A5BB35D53011CDF}Prefabs/Vehicles/Shared/decal_vehicle_group3_small.et"
+    }
+    RegisteringComponentSlotInfo TC_Front_Left {
+     Prefab "{3E99B9A7A1E06D75}Assets/UjasiPrisa/Tracked/T14/erared/era_turretred/t14_era_turret_F_Lred_2.et"
+     DisablePhysicsInteraction 1
+     InheritParentSkeleton 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo TC_Front_Right {
+     Prefab "{5257137635B60C11}Assets/UjasiPrisa/Tracked/T14/erared/era_turretred/t14_era_turret_F_Rred_2.et"
+     DisablePhysicsInteraction 1
+     InheritParentSkeleton 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo TC_Middle_Left {
+     Prefab "{1A0D2A57A286F603}Assets/UjasiPrisa/Tracked/T14/erared/era_turretred/t14_era_turret_M_Lred_2.et"
+     DisablePhysicsInteraction 1
+     InheritParentSkeleton 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo TC_Middle_Right {
+     Prefab "{76C3808636D09767}Assets/UjasiPrisa/Tracked/T14/erared/era_turretred/t14_era_turret_M_Rred_2.et"
+     DisablePhysicsInteraction 1
+     InheritParentSkeleton 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo TC_Rear_Left_Bottom {
+     Prefab "{7CF2DDCCF1888FF7}Assets/UjasiPrisa/Tracked/T14/erared/era_turretred/t14_era_turret_R_L_Bred_2.et"
+     DisablePhysicsInteraction 1
+     InheritParentSkeleton 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo TC_Rear_Right_Bottom {
+     Prefab "{3F9269223F493B23}Assets/UjasiPrisa/Tracked/T14/erared/era_turretred/t14_era_turret_R_L_Tred_2.et"
+     DisablePhysicsInteraction 1
+     InheritParentSkeleton 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo TC_Rear_Left_Top {
+     Prefab "{85D8FBDC64C0F222}Assets/UjasiPrisa/Tracked/T14/erared/era_turretred/t14_era_turret_R_Lred_2.et"
+     DisablePhysicsInteraction 1
+     InheritParentSkeleton 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo TC_Rear_Right_Top {
+     Prefab "{780BFA91CC0CF096}Assets/UjasiPrisa/Tracked/T14/erared/era_turretred/t14_era_turret_R_R_Tred_2.et"
+     DisablePhysicsInteraction 1
+     InheritParentSkeleton 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo TC_Rear_Left {
+     Prefab "{85D8FBDC64C0F222}Assets/UjasiPrisa/Tracked/T14/erared/era_turretred/t14_era_turret_R_Lred_2.et"
+     DisablePhysicsInteraction 1
+     InheritParentSkeleton 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo TC_Rear_Right {
+     Prefab "{E916510DF0969346}Assets/UjasiPrisa/Tracked/T14/erared/era_turretred/t14_era_turret_R_Rred_2.et"
+     DisablePhysicsInteraction 1
+     InheritParentSkeleton 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo TC_Rear {
+     Prefab "{B4890A277EC6F7D4}Assets/UjasiPrisa/Tracked/T14/erared/era_turretred/t14_era_turret_Rred_2.et"
+     DisablePhysicsInteraction 1
+     InheritParentSkeleton 1
+     RegisterDamage 1
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   shouldHandleObstruction 0
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset 0 0 0
+    MergePhysics 1
+   }
+   WeaponTemplate "{2E6C2B351D341222}Assets/UjasiPrisa/Tracked/T14/weapons/Weapon_2A82red.et"
+  }
+  WeaponSlotComponent "{62B0459442C0C963}" {
+   SignalsSourceAccess SignalsSourceAccessClass "{62B0459442C0C960}" {
+    signalsSuffix "Turret"
+   }
+   useAimingType MainTurret
+   shouldHandleObstruction 0
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    PivotID "v_gun_01"
+    Offset 0.454 0.1628 -0.8244
+   }
+   WeaponTemplate "{4FD1A5A6670E015A}Prefabs/Weapons/MachineGuns/PKM/MG_PKMT.et"
+   WeaponSlotIndex 1
+  }
+  WeaponSlotComponent "{62B0459442C0C969}" {
+   Enabled 1
+   SignalsSourceAccess SignalsSourceAccessClass "{62B0459442C0C967}" {
+    signalsSuffix "Turret"
+   }
+   useAimingType MainTurret
+   shouldHandleObstruction 0
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    PivotID "v_turret_01"
+    Offset 0 -1.8383 -0.1596
+   }
+   WeaponTemplate "{F6C84D2D2E94C6F5}Assets/UjasiPrisa/Tracked/T14/weapons/Weapon_SmokeLauncherT14red.et"
+   WeaponSlotIndex 2
+  }
+  SCR_TurretInventoryStorageManagerComponent "{62B0459442C0C95D}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{51ACFBB064390C6E}" {
+     ContextName "Gunner_Idle"
+     Position PointInfo "{51ACFBB061993925}" {
+      PivotID "Gunner_Idle"
+      Offset 0 0 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{62B0459442C0C959}" {
+     ContextName "CommanderHatch"
+     Position PointInfo "{62B0459442C0C957}" {
+      PivotID "v_commanderhatch"
+      Offset -0.3964 0 0.1232
+     }
+    }
+    UserActionContext "{62B0459442C0C954}" {
+     ContextName "repairPoint"
+     Position PointInfo "{62B0459442C0C952}" {
+      Offset 0 2.7581 0
+     }
+    }
+   }
+   additionalActions {
+    SCR_RepairAtSupportStationAction "{62B0459442C0C944}" {
+     ParentContextList {
+      "repairPoint"
+     }
+     UIInfo UIInfo "{62B0459442C0C942}" {
+      Name "#AR-SupportStation_Repair_ActionName"
+     }
+     Duration -5
+     PerformPerFrame 1
+     "Sort Priority" -90
+     m_sInvalidRangeActionReason "#AR-SupportStation_Repair_ActionInvalid_Needs_SupportStation_Emergency"
+     m_iGadgetAnimationCommand 1
+     m_aHitZoneGroups {
+      50
+     }
+     m_bAlwaysRepairAllHitZones 1
+    }
+   }
+   AllowCrossHierarchy 1
+  }
+  BaseItemAnimationComponent "{5242E42C7B4B2CEE}" {
+   Enabled 0
+   AnimGraph "{E5D9CB02597071F5}Assets/Vehicles/Wheeled/BTR70/workspaces/BTR70.agr"
+   AnimInstance "{F2DBB12250B5F75A}Assets/Vehicles/Wheeled/BTR70/workspaces/BTR_vehicle.asi"
+   AnimInjection AnimationAttachmentInfo "{5242E42C74AC2BF7}" {
+    AnimGraph "{E5D9CB02597071F5}Assets/Vehicles/Wheeled/BTR70/workspaces/BTR70.agr"
+    AnimInstance "{5F52A6DF918B0033}Assets/Vehicles/Wheeled/BTR70/workspaces/BTR_player.asi"
+   }
+  }
+  VehicleAnimationComponent "{62B0459442C0C9BD}" {
+   AnimGraph "{E5D9CB02597071F5}Assets/Vehicles/Wheeled/BTR70/workspaces/BTR70.agr"
+   AnimInstance "{DAA855714EBFE43E}Prefabs/Vehicles/Core/Vehicles_Base_Empty.asi"
+   AnimInjection AnimationAttachmentInfo "{62B0459442C0C9BA}" {
+    AnimGraph "{E5D9CB02597071F5}Assets/Vehicles/Wheeled/BTR70/workspaces/BTR70.agr"
+    AnimInstance "{5F52A6DF918B0033}Assets/Vehicles/Wheeled/BTR70/workspaces/BTR_player.asi"
+    BindingName "Vehicle"
+   }
+   AnimCommandsToBind {
+    ""
+   }
+   AutoVariablesBind 1
+   AnimVariablesToBind {
+    ""
+   }
+   ResetOnDeactivation 1
+   DeactivationDelay 0
+  }
+ }
+ coords 959.036 51 2255.286
+}

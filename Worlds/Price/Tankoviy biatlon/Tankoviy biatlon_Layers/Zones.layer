@@ -1,0 +1,67 @@
+$grp RHS_Tank : "{9824112BBCB732C9}Prefabs/Vehicles/Tracked/2S1/Tank_2S1_Green_Deco.et" {
+ Tank_2S1_Green_Deco1 {
+  coords 4780.158 339.209 10413.96
+ }
+ Tank_2S1_Green_Deco2 {
+  coords 4767.368 339.209 10433.421
+ }
+ Tank_2S1_Green_Deco3 {
+  coords 4793.839 339.209 10391.612
+ }
+ Tank_2S1_Green_Deco4 {
+  coords 4806.837 339.209 10370.011
+ }
+ Tank_2S1_Green_Deco5 {
+  coords 4801.424 339.209 10381.055
+ }
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 4646.117 339.124 9937.97
+  m_sTitle "Ангары захвачены."
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 4652.473 339.125 9933.279
+  m_sTitle "40% ЛС сохранено."
+  m_iScore 25
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 4645.61 339.125 9932.886
+  m_sTitle "60% Противника уничтожено"
+  m_iScore 25
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 4613.817 339.126 9950.942
+  m_sTitle "Ангары захвачены."
+  m_iScore 50
+  m_sFactionKey "RHS_USMC"
+ }
+ {
+  coords 4613.311 339.126 9945.858
+  m_sTitle "60% Противника уничтожено"
+  m_iScore 25
+  m_sFactionKey "RHS_USMC"
+ }
+ {
+  coords 4620.174 339.126 9946.252
+  m_sTitle "40% ЛС сохранено."
+  m_iScore 25
+  m_sFactionKey "RHS_USMC"
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 6607.833 366.721 8970.923
+  angleX -5.35
+  angleY 0.182
+  angleZ -1.799
+ }
+ {
+  coords 2085.562 256.581 10659.485
+  angleZ -1.79
+ }
+}

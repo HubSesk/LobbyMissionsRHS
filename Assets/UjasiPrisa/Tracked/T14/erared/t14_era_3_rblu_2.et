@@ -1,0 +1,14 @@
+GenericEntity : "{72F37BF6D78454DC}Prefabs/Vehicles/Tracked/T14/VehParts/Era/t14_era_base.et" {
+ ID "5498A197BD32DBFD"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{C81F76FF176765A4}Assets/Vehicles/Tracked/T14/era/t14_era3_r.xob"
+   Materials {
+    MaterialAssignClass "{62B0459659FD5C8F}" {
+     SourceMaterial "armor"
+     AssignedMaterial "{05AC53A91CE4587A}Assets/UjasiPrisa/Tracked/T14/datared/armorred_2.emat"
+    }
+   }
+  }
+ }
+}

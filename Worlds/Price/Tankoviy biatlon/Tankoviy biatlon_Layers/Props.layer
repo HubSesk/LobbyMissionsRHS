@@ -1,0 +1,85 @@
+GenericEntity : "{76D4FE49EA6C57F3}Prefabs/Compositions/Slotted/SlotFlatLarge/LivingArea_L_US_01.et" {
+ coords 2050.75 255.92 10628.593
+ angleX 1.878
+ angleY 96.407
+ angleZ -0.689
+}
+$grp GenericEntity : "{831FE4BECA78CCAA}Prefabs/Vehicles/Airplanes/IL76/Plane_IL76UN.et" {
+ {
+  coords 4415.958 339.291 10312.236
+  angleY 150.721
+ }
+ {
+  coords 4513.084 339.129 10145.047
+  angleY 150.721
+ }
+ {
+  coords 4482.464 339.125 10551.512
+  angleY -118.908
+ }
+ {
+  coords 4508.854 339.125 10498.585
+  angleY -118.908
+ }
+ {
+  coords 4361.321 339.127 10775.832
+  angleY -118.908
+ }
+ {
+  coords 4397.282 339.125 10706.39
+  angleY -118.908
+ }
+ {
+  coords 4226.488 339.127 10641.838
+  angleY -84.927
+ }
+}
+PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 4770.991 339.127 10393.666
+ angleY 0
+ m_sImageSet "{C9D19DBFDE7AD72D}UI/Imagesets/Conflict/conflict-icons.imageset"
+ m_sImageSetGlow ""
+ m_sQuadName "GenericSeizeTask"
+ m_fWorldSize 35
+ m_sDescription "Захватить"
+ m_bUseWorldScale 0
+ m_bShowForAnyFaction 1
+}
+$grp GenericEntity : "{F68F3B7247F6E810}Prefabs/Compositions/Slotted/SlotFlatLarge/LivingArea_L_USSR_01.et" {
+ {
+  coords 6585.571 370.525 8926.998
+  angleX -7.123
+  angleY 0.112
+  angleZ -0.902
+ }
+ {
+  coords 4433.08 341.825 10471.25
+  angleX 0.398
+  angleY 59.844
+  angleZ -6.416
+ }
+ {
+  coords 4464.495 342.19 10423.064
+  angleX -0.934
+  angleY -121.444
+  angleZ -1.527
+ }
+ {
+  coords 4571.633 340.719 10143.374
+  angleX 3.562
+  angleY -0.223
+  angleZ -3.583
+ }
+ {
+  coords 4647.323 341.213 10168.972
+  angleX 0.895
+  angleY 0.014
+  angleZ 0.895
+ }
+ {
+  coords 4418.268 340.129 10394.231
+  angleX 4.45
+  angleY -0.279
+  angleZ -3.587
+ }
+}

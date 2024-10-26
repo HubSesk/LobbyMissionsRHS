@@ -8,7 +8,7 @@ SCR_ChimeraCharacter : "{B74E289F7EDF5D62}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{B41250C7E1720F93}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_1_NT4.et"
+   WeaponTemplate "{951E3D5E86826A47}Prefabs/Weapons/Rifles/M4A1/Variants/ION/Rifle_M4A1_ION_Silenced.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et"
@@ -53,11 +53,11 @@ SCR_ChimeraCharacter : "{B74E289F7EDF5D62}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{60CC20188E2D85AB}" {
      TargetStorage "Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
      PrefabsToSpawn {
-      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et" "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{065A21D95CEAC496}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_B_30rnd_m995.et" "{065A21D95CEAC496}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_B_30rnd_m995.et" "{4268B2077766E8C7}Prefabs/Weapons/Attachments/Optics/aimpoint_t1/Optic_t1_high.et" "{F5536A71DA5B86EE}Prefabs/Items/Food/MRE_Ses.et" "{2B10341C641EC041}Prefabs/Items/Equipment/Thermals/PATROL_IR/Thermal_PatrolIr.et"
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et" "{065A21D95CEAC496}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_B_30rnd_m995.et" "{065A21D95CEAC496}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_B_30rnd_m995.et" "{065A21D95CEAC496}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_B_30rnd_m995.et" "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{065A21D95CEAC496}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_B_30rnd_m995.et" "{065A21D95CEAC496}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_B_30rnd_m995.et" "{4268B2077766E8C7}Prefabs/Weapons/Attachments/Optics/aimpoint_t1/Optic_t1_high.et" "{7DB681643152613C}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS.et" "{F5536A71DA5B86EE}Prefabs/Items/Food/MRE_Ses.et" "{2B10341C641EC041}Prefabs/Items/Equipment/Thermals/PATROL_IR/Thermal_PatrolIr.et"
      }
     }
    }
   }
  }
- coords 7393.314 386.001 8912.16
+ coords 8159.267 414.196 10119.076
 }

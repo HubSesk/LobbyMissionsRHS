@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{81AABF85182C9FA3}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman_AK74.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E9F9F10102BB23F5}Prefabs/Characters/HeadGear/Helmet_CVC_01/Helmet_CVC_Shroud_3.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{C0C09CFB920B7E38}Prefabs/Characters/Uniforms/NAPA/Jacket_NAPA_BDU.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{60FB76D813CB65B0}" {
+     TargetStorage "Prefabs/Characters/Uniforms/NAPA/Jacket_NAPA_BDU.et"
+    }
+   }
+  }
+ }
+ coords 7356.494 386.106 9376.412
+}

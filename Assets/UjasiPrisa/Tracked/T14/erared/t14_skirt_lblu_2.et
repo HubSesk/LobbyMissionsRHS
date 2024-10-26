@@ -1,0 +1,23 @@
+GenericEntity : "{BC13DFF05CB9E305}Prefabs/Vehicles/Tracked/T14/VehParts/Era/t14_skirt_base.et" {
+ ID "5498A197BD32DBFD"
+ components {
+  HitZoneContainerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone dhz_skirt {
+     ColliderNames {
+      "UTM_skirt_06L"
+     }
+    }
+   }
+  }
+  MeshObject "{4B42E716914465B9}" {
+   Object "{CA2C54FF2544482E}Assets/Vehicles/Tracked/T14/era/t14_skirtRear_l.xob"
+   Materials {
+    MaterialAssignClass "{62B0459642E35FF2}" {
+     SourceMaterial "armor"
+     AssignedMaterial "{05AC53A91CE4587A}Assets/UjasiPrisa/Tracked/T14/datared/armorred_2.emat"
+    }
+   }
+  }
+ }
+}

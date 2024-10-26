@@ -1,0 +1,14 @@
+GenericEntity : "{72F37BF6D78454DC}Prefabs/Vehicles/Tracked/T14/VehParts/Era/t14_era_base.et" {
+ ID "5498A197BD32DBFD"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{24613DA121951C8B}Assets/Vehicles/Tracked/T14/era/t14_era_front5.xob"
+   Materials {
+    MaterialAssignClass "{62AE9A0AC7890C2A}" {
+     SourceMaterial "hull2"
+     AssignedMaterial "{47997EA1BFCCE277}Assets/Vehicles/Tracked/T14/data/hull2blu.emat"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,213 @@
+GenericEntity : "{F54F6C453A8CB478}Prefabs/Weapons/Core/MachineGun_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{CD324CF4A1903EAB}Sounds/Vehicles/Tucha/Weapons_SmokeLaunchers_Tucha3D6m_Shot.acp" "{8955A571EC4758FB}Sounds/Weapons/HeavyWeapons/KPVT/Weapons_HeavyWeapons_KPV_Handling.acp"
+   }
+   IncludeInactive 1
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{D80D98B1C7C4CDF1}Assets/Vehicles/Tracked/T14/smoke_launcher.xob"
+   Materials {
+    MaterialAssignClass "{62B04595C89E7FC8}" {
+     SourceMaterial "turret"
+     AssignedMaterial "{6E4BED5D4C347D08}Assets/UjasiPrisa/Tracked/T14/datared/hull2red_2.emat"
+    }
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07E1D123E9}" {
+     Name "Tucha"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{62B04595D5B552F0}" {
+     Weight 52.5
+     SizeSetupStrategy Volume
+     ItemVolume 12000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5534BB9B9A3E369E}" {
+      CameraPreset Left
+      CameraDistanceToItem 1.9
+     }
+    }
+    m_bDraggable 0
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{62B04595D5B552E8}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      PivotID "slot_optics"
+      ChildPivotID "snap_weapon"
+      Enabled 0
+     }
+    }
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      PivotID "eye"
+     }
+     m_bIsConfiguratedForRHSNVG 1
+    }
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     components {
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       Enabled 0
+       ParticleEffect "{40C8AD1204EC2629}Particles/Weapon/Smoke_PKM.ptc"
+       EffectPosition EntitySlotInfo "{513A938439231378}" {
+        PivotID "Smoker_bone"
+        Offset 0 0 0.1799
+        Angles -90 0 0
+       }
+       HasSound 0
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       ParticleEffect "{6C91B7E8EF31E8AE}Particles/Weapon/Smoke_KPVT.ptc"
+       EffectPosition EntitySlotInfo "{C9B3271BB85B5D32}" {
+        PivotID "Smoker_bone"
+        Offset 0 0 0.1877
+        Angles -90 0 0
+       }
+      }
+     }
+     MuzzleEndPositions {
+      PointInfo "{B80A64F4B6CFB9BF}" {
+       PivotID "launcher_l"
+       Offset 0 0 0.1851
+       Angles 27 0 0
+      }
+      PointInfo "{62B04595D5B552D9}" {
+       PivotID "launcher_l"
+       Offset 0 0 0.1851
+       Angles 27 -15 0
+      }
+      PointInfo "{62B04595D5B552D6}" {
+       PivotID "launcher_l"
+       Offset 0 0 0.1851
+       Angles 27 -30 0
+      }
+      PointInfo "{62B04595D5B552D7}" {
+       PivotID "launcher_r"
+       Offset 0 0 0.1851
+       Angles 27 0 0
+      }
+      PointInfo "{62B04595D5B552D5}" {
+       PivotID "launcher_r"
+       Offset 0 0 0.1851
+       Angles 27 15 0
+      }
+      PointInfo "{62B04595D5B552D2}" {
+       PivotID "launcher_r"
+       Offset 0 0 0.1851
+       Angles 27 30 0
+      }
+      PointInfo "{62B04595D5B552D3}" {
+       PivotID "launcher_l"
+       Offset 0 0 0.1851
+       Angles 27 -45 0
+      }
+      PointInfo "{62B04595D5BAF41A}" {
+       PivotID "launcher_r"
+       Offset 0 0 0.1851
+       Angles 27 45 0
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{50F64C476EC435CA}" {
+       PivotID "launcher_l"
+       Offset 0 0 0.1851
+       Angles 27 0 0
+      }
+      PointInfo "{62B04595D5BAF407}" {
+       PivotID "launcher_l"
+       Offset 0 0 0.1851
+       Angles 27 -15 0
+      }
+      PointInfo "{62B04595D5BAF405}" {
+       PivotID "launcher_l"
+       Offset 0 0 0.1851
+       Angles 27 -30 0
+      }
+      PointInfo "{62B04595D5BAF404}" {
+       PivotID "launcher_r"
+       Offset 0 0 0.1851
+       Angles 27 0 0
+      }
+      PointInfo "{62B04595D5BAF40E}" {
+       PivotID "launcher_r"
+       Offset 0 0 0.1851
+       Angles 27 15 0
+      }
+      PointInfo "{62B04595D5BAF40D}" {
+       PivotID "launcher_r"
+       Offset 0 0 0.1851
+       Angles 27 30 0
+      }
+      PointInfo "{62B04595D5BAF40C}" {
+       PivotID "launcher_l"
+       Offset 0 0 0.1851
+       Angles 27 -45 0
+      }
+      PointInfo "{62B04595D5BAF40B}" {
+       Offset 0 0 0.1851
+       Angles 27 45 0
+      }
+     }
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" {
+       MaxBurst -1
+       RoundsPerMinute 1000
+       UIName "FullAuto"
+      }
+     }
+     MagazineWell MagazineWellAGS "{62B04595D5BAF7F4}" {
+     }
+     BulletInitSpeedCoef 3
+     DispersionDiameter 1
+     DispersionRange 300
+     WeaponAimModifiers {
+      RecoilWeaponAimModifier "{62B04595D5BAF7FF}" {
+       LinearData RecoilData "{62B04595D5BAF7FD}" {
+        "Curve X" {
+         0 0.5 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.032 0.55 0.045 0.75 0.065 0.7 0.071 0.65 0.095 0.5 0.25 0.45 0.45 0.52 0.7 0.495 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.032 0.65 0.045 0.95 0.065 0.95 0.071 0.85 0.095 0.7 0.25 0.35 0.45 0.55 0.7 0.485 1 0.5
+        }
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" -0.001 -0.006 -0.022
+        "Curve Maxs" 0 -0.005 -0.018
+       }
+      }
+     }
+     UIInfo MuzzleUIInfo "{2FBBA72C906C627E}" {
+      m_bShowCaliber 1
+      m_sCaliber "30mm"
+     }
+     ReloadDuration 15
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      PivotID "Smoker_bone"
+      Offset 0 -0.2043 0
+      ChildPivotID ""
+     }
+     MagazineTemplate "{F69970EA10A6E005}Prefabs/Weapons/Magazines/Tucha/Box_Tucha_Armata_Smoke.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     Enabled 0
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "Tucha"
+    Description ""
+    m_bShowWeaponName 1
+   }
+   WeaponSlotType "hmg"
+  }
+ }
+ coords 2259.5 51.2 2160
+}

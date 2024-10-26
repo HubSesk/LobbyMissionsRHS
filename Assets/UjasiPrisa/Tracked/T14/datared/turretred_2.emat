@@ -1,0 +1,11 @@
+MatPBRBasic {
+ Color 0.112 0.112 0.112 1
+ DiffuseIBL 1 0 0 1
+ SpecularIBL 1 0 0 1
+ Diffuse 1 0 0 1
+ Cull none
+ Specular 0.938 1 0.839 1
+ RoughnessScale 1.94
+ BCRMap "{96DDDA97D615225A}Assets/Vehicles/Tracked/T14/data/t14_pbr_turret_BCR.edds"
+ NMOMap "{AE0561050F6270C4}Assets/Vehicles/Tracked/T14/data/t14_pbr_turret_NMO.edds"
+}

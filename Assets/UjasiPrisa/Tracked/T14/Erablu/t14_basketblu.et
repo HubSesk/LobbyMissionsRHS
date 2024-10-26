@@ -1,0 +1,18 @@
+GenericEntity : "{89CEE83EBF4AE6E4}Prefabs/Vehicles/Tracked/T14/VehParts/Era/t14_small_pieces_base.et" {
+ ID "5498A197BD32DBFD"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{C07BF655D333A42C}Assets/Vehicles/Tracked/T14/era/t14_turret_storage.xob"
+   Materials {
+    MaterialAssignClass "{62AE9A0D11857C6A}" {
+     SourceMaterial "basket"
+     AssignedMaterial "{6105279503423283}Assets/Vehicles/Tracked/T14/data/basketblu.emat"
+    }
+    MaterialAssignClass "{62AE9A0D11857C64}" {
+     SourceMaterial "turret"
+     AssignedMaterial "{1ABC1A84095097F6}Assets/Vehicles/Tracked/T14/data/turretblu.emat"
+    }
+   }
+  }
+ }
+}

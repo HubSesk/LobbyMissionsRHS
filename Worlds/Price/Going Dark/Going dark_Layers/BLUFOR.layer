@@ -1,21 +1,39 @@
+SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ coords 5681.278 316.618 9254.574
+}
 GenericEntity : "{61980E6F3CA71107}Prefabs/Items/Cats/Dingus.et" {
  coords 7425.971 428.511 9114.051
  angleY 40.512
 }
-SCR_AIGroup RHS_USAF_G_001_6 : "{8F8F45592E3EC3F8}Prefabs/Groups/BLUFOR/RHS_USAF/Group_US_USMC_ScoutTeam.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "Line"
-  }
-  PS_GroupCallsignAssigner "{6126A252F5AA3182}" {
-   m_iCompanyCallsign 0
-   m_iPlatoonCallsign 0
-   m_iSquadCallsign 1
+$grp SCR_AIGroup : "{CA1F419A5A068863}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Groups/BlackCockGroup.et" {
+ {
+  coords 8162.647 412.696 10126.382
+  m_aUnitPrefabSlots {
+   "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{5B493EE8A1C360B3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCockGL.et" "{5B493EE8A1C360B3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCockGL.et" "{00455C7178DAC178}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCockMedic.et"
   }
  }
- coords 6974.097 321.583 8278.841
- angleY -49.644
- m_aUnitPrefabSlots {
-  "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{5B493EE8A1C360B3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCockGL.et" "{00455C7178DAC178}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCockMedic.et" "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{00455C7178DAC178}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCockMedic.et" "{5B493EE8A1C360B3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCockGL.et"
+ {
+  coords 8151.8 418.498 10119.888
+  m_aUnitPrefabSlots {
+   "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{5B493EE8A1C360B3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCockGL.et" "{5B493EE8A1C360B3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCockGL.et" "{00455C7178DAC178}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCockMedic.et"
+  }
+ }
+ {
+  coords 5673.878 316.862 9250.547
+  angleX -1.822
+  angleY 1.03
+  angleZ 1.757
+  m_aUnitPrefabSlots {
+   "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{5B493EE8A1C360B3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCockGL.et" "{5B493EE8A1C360B3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCockGL.et" "{00455C7178DAC178}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCockMedic.et"
+  }
+ }
+ {
+  coords 5679.545 316.476 9260.007
+  angleX -0.895
+  angleY -0.014
+  angleZ 0.895
+  m_aUnitPrefabSlots {
+   "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{5B493EE8A1C360B3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCockGL.et" "{5B493EE8A1C360B3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCockGL.et" "{00455C7178DAC178}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCockMedic.et"
+  }
  }
 }

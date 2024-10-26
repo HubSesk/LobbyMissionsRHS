@@ -1,0 +1,118 @@
+RHS_Tank : "{B744E85A9CE90F7D}Prefabs/Vehicles/Tracked/T14/Tank_T14_base.et" {
+ ID "5CDE8068D49AAEBB"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{62B0459762366E12}" {
+     SourceMaterial "armor"
+     AssignedMaterial "{F62BB91E94AD065D}Assets/UjasiPrisa/Tracked/T14/datablu/armorblu.emat"
+    }
+    MaterialAssignClass "{62B04597623669F5}" {
+     SourceMaterial "grill"
+     AssignedMaterial "{FD767D7AECFD6695}Assets/UjasiPrisa/Tracked/T14/datablu/grillblu.emat"
+    }
+    MaterialAssignClass "{62B04597623669FE}" {
+     SourceMaterial "hull1"
+     AssignedMaterial "{49873AE9823BEDAD}Assets/UjasiPrisa/Tracked/T14/datablu/hull1blu.emat"
+    }
+    MaterialAssignClass "{62B04597623669E7}" {
+     SourceMaterial "hull2"
+     AssignedMaterial "{47997EA1BFCCE277}Assets/UjasiPrisa/Tracked/T14/datablu/hull2blu.emat"
+    }
+    MaterialAssignClass "{62B04597623669ED}" {
+     SourceMaterial "wheels"
+     AssignedMaterial "{41421ADD31362481}Assets/UjasiPrisa/Tracked/T14/datablu/wheelsblu.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{F8ED556B5F74794C}Assets/UjasiPrisa/Tracked/T14/Turretblu/T14_Turret_blu.et"
+    }
+    RegisteringComponentSlotInfo era_1_left {
+     Prefab "{141C411A44D2561D}Assets/UjasiPrisa/Tracked/T14/Erablu/t14_era_1_lblu.et"
+    }
+    RegisteringComponentSlotInfo era_2_left {
+     Prefab "{1A020552792559C7}Assets/UjasiPrisa/Tracked/T14/Erablu/t14_era_2_lblu.et"
+    }
+    RegisteringComponentSlotInfo era_3_left {
+     Prefab "{1FF7C6959277A371}Assets/UjasiPrisa/Tracked/T14/Erablu/t14_era_3_lblu.et"
+    }
+    RegisteringComponentSlotInfo era_4_left {
+     Prefab "{063E8DC202CB4673}Assets/UjasiPrisa/Tracked/T14/Erablu/t14_era_4_lblu.et"
+    }
+    RegisteringComponentSlotInfo era_5_left {
+     Prefab "{03CB4E05E999BCC5}Assets/UjasiPrisa/Tracked/T14/Erablu/t14_era_5_lblu.et"
+    }
+    RegisteringComponentSlotInfo skirt_left {
+     Prefab "{6D34105C6170DFB8}Assets/UjasiPrisa/Tracked/T14/Erablu/t14_skirt_lblu.et"
+    }
+    RegisteringComponentSlotInfo cage_1_left {
+     Prefab "{8F8C4DBD05204EEC}Assets/UjasiPrisa/Tracked/T14/Erablu/t14_grill_1_lblu.et"
+    }
+    RegisteringComponentSlotInfo cage_2_left {
+     Prefab "{819209F538D74136}Assets/UjasiPrisa/Tracked/T14/Erablu/t14_grill_2_lblu.et"
+    }
+    RegisteringComponentSlotInfo cage_2_right {
+     Prefab "{C1F22B03E4713A00}Assets/UjasiPrisa/Tracked/T14/Erablu/t14_grill_2_rblu.et"
+    }
+    RegisteringComponentSlotInfo cage_1_right {
+     Prefab "{CFEC6F4BD98635DA}Assets/UjasiPrisa/Tracked/T14/Erablu/t14_grill_1_rblu.et"
+    }
+    RegisteringComponentSlotInfo skirt_right {
+     Prefab "{2D5432AABDD6A48E}Assets/UjasiPrisa/Tracked/T14/Erablu/t14_skirt_rblu.et"
+    }
+    RegisteringComponentSlotInfo era_5_right {
+     Prefab "{43AB6CF3353FC7F3}Assets/UjasiPrisa/Tracked/T14/Erablu/t14_era_5_rblu.et"
+    }
+    RegisteringComponentSlotInfo era_4_right {
+     Prefab "{465EAF34DE6D3D45}Assets/UjasiPrisa/Tracked/T14/Erablu/t14_era_4_rblu.et"
+    }
+    RegisteringComponentSlotInfo era_3_right {
+     Prefab "{5F97E4634ED1D847}Assets/UjasiPrisa/Tracked/T14/Erablu/t14_era_3_rblu.et"
+    }
+    RegisteringComponentSlotInfo era_2_right {
+     Prefab "{5A6227A4A58322F1}Assets/UjasiPrisa/Tracked/T14/Erablu/t14_era_2_rblu.et"
+    }
+    RegisteringComponentSlotInfo era_1_right {
+     Prefab "{547C63EC98742D2B}Assets/UjasiPrisa/Tracked/T14/Erablu/t14_era_1_rblu.et"
+    }
+    RegisteringComponentSlotInfo era_front {
+     Prefab "{0ECBAF4DDA931875}Assets/UjasiPrisa/Tracked/T14/Erablu/t14_era_frontblu.et"
+    }
+    RegisteringComponentSlotInfo era_front1 {
+     Prefab "{D266334C68CA1275}Assets/UjasiPrisa/Tracked/T14/Erablu/t14_era_front1blu.et"
+    }
+    RegisteringComponentSlotInfo era_front2 {
+     Prefab "{D8C36301DEDAE1F2}Assets/UjasiPrisa/Tracked/T14/Erablu/t14_era_front2blu.et"
+    }
+    RegisteringComponentSlotInfo era_front3 {
+     Prefab "{1F0FF39C2B8CA2FE}Assets/UjasiPrisa/Tracked/T14/Erablu/t14_era_front3blu.et"
+    }
+    RegisteringComponentSlotInfo era_front4 {
+     Prefab "{CD89C39AB2FB06FC}Assets/UjasiPrisa/Tracked/T14/Erablu/t14_era_front4blu.et"
+    }
+    RegisteringComponentSlotInfo era_front5 {
+     Prefab "{0A45530747AD45F0}Assets/UjasiPrisa/Tracked/T14/Erablu/t14_era_front5blu.et"
+    }
+    RegisteringComponentSlotInfo era_front6 {
+     Prefab "{00E0034AF1BDB677}Assets/UjasiPrisa/Tracked/T14/Erablu/t14_era_front6blu.et"
+    }
+    RegisteringComponentSlotInfo era_front7 {
+     Prefab "{C72C93D704EBF57B}Assets/UjasiPrisa/Tracked/T14/Erablu/t14_era_front7blu.et"
+    }
+    EntitySlotInfo decalbody1 {
+     Offset 2.0846 1.2747 -0.3835
+     Angles 0 180 0
+     Prefab "{968E2324AE3A32BC}Assets/UjasiPrisa/Tracked/T14/decal_vehicle_Fed_test.et"
+    }
+    EntitySlotInfo decalbody2 {
+     Offset -2.0846 1.2747 -0.3835
+     Prefab "{968E2324AE3A32BC}Assets/UjasiPrisa/Tracked/T14/decal_vehicle_Fed_test.et"
+    }
+   }
+  }
+ }
+ coords 139.446 1 93.974
+}

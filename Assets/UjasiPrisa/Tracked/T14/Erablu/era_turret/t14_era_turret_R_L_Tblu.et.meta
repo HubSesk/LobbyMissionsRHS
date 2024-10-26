@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{F574B5B46DCB2D43}Prefabs/Vehicles/Tracked/T14/VehParts/Era/era_turret/t14_era_turret_R_L_Tblu.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

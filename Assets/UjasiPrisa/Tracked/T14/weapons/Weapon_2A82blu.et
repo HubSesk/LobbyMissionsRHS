@@ -1,0 +1,239 @@
+GenericEntity : "{E1F14DB52DBFBC57}Prefabs/Weapons/Core/Weapon_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{32C462E1A629B0BA}Sounds/Weapons/HeavyWeapons/Canonns/Weapons_Cannons_2a82_Shot.acp" "{8955A571EC4758FB}Sounds/Weapons/HeavyWeapons/KPVT/Weapons_HeavyWeapons_KPV_Handling.acp"
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{0852227D2B36B22D}Assets/Vehicles/Tracked/T14/rhs_t14_Cannon.xob"
+   Materials {
+    MaterialAssignClass "{62AE9A0D91E4D0CB}" {
+     SourceMaterial "turret"
+     AssignedMaterial "{1ABC1A84095097F6}Assets/Vehicles/Tracked/T14/data/turretblu.emat"
+    }
+   }
+  }
+  RigidBody "{62AE9A0D4C88807E}" {
+   Mass 800
+   ModelGeometry 1
+  }
+  ProcAnimComponent "{62AE9A0D4C88806A}" {
+   Parameters {
+    ProcAnimParams "{62AE9A0D4C88806E}" {
+     ResourceName "{E114E2A3FDDC6D7D}Assets/Vehicles/Tracked/T14/Anim/proc/T14_Cannon.pap"
+     BoneNames {
+      "Cannon"
+     }
+    }
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    CustomAttributes {
+     SCR_RecoilCameraShakeParams "{58DEF2AB0413E346}" {
+      m_fBlendInTime 0.049
+      m_fBlendOutTime 0.245
+      m_fMaxVelocity 7.313
+      m_fRecoilTarget 0.063
+      m_fMaximumPercentage 2.294
+      m_vTranslationMin 0.2 0.2 0
+      m_vTranslationMax 0.5 0.5 0
+      m_fFOVModifier 0.9
+     }
+    }
+    m_bDraggable 0
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    SightsComponent "{BB23A637957CFFF8}" {
+     CameraRecoilAmount 2
+     m_bIsConfiguratedForRHSNVG 1
+    }
+    MuzzleComponent "{62AE9A0D4C888019}" {
+     components {
+      CaseEjectingEffectComponent "{62AE9A0D4C88801F}" {
+       ParticleEffect "{8C25828E4FB7929A}Particles/Weapons/Smoke_2a82_Down_Emmiter_2.ptc"
+       EffectPosition EntitySlotInfo Turret {
+        PivotID "cannonbarrel_muzzle"
+        Offset 0 -0.1421 -0.077
+        Angles 63.9809 0 0
+       }
+      }
+      CaseEjectingEffectComponent "{62AE9A0D4C888011}" {
+       ParticleEffect "{7E5A95AC1625DEEF}Particles/Weapons/Smoke_2a82_Down_Emmiter.ptc"
+       EffectPosition EntitySlotInfo Smoke {
+        PivotID "cannonbarrel_muzzle"
+        Offset 0 -0.1387 -0.0219
+        Angles 6.3632 0 0
+        InheritParentSkeleton 1
+       }
+      }
+      CaseEjectingEffectComponent "{62AE9A0D4C88800B}" {
+       ParticleEffect "{81CA9EC50C0D8AED}Particles/Enviroment/APFSDS_Poddon.ptc"
+       EffectPosition EntitySlotInfo poddon {
+        PivotID "cannonbarrel_muzzle"
+        Offset 0 0 0.0069
+       }
+      }
+      CaseEjectingEffectComponent "{62AE9A0D4C888008}" {
+       ParticleEffect "{FB2FEA06BB157DEA}Particles/Weapons/Smoke_2a82_Down_Emmiter_3.ptc"
+       EffectPosition EntitySlotInfo "{5F355B6DC0F0889E}" {
+        PivotID "cannonbarrel_muzzle"
+        Offset 0 0 0.0369
+        Angles 75.6374 0 0
+        InheritParentSkeleton 1
+       }
+       WaterSurface 8100
+      }
+      CaseEjectingEffectComponent "{62AE9A0D4C88800E}" {
+       ParticleEffect "{F5CC232DCE40AFBE}Particles/Weapons/Smoke_2a82_Side_Emmiter.ptc"
+       EffectPosition EntitySlotInfo "{5F355B6FB6D8F94D}" {
+        PivotID "cannonbarrel_muzzle"
+        Offset 0 0 0.694
+        Angles 0 90 0
+       }
+       WaterSurface 8100
+      }
+      CaseEjectingEffectComponent "{62AE9A0D4C88800C}" {
+       ParticleEffect "{D05787031B9648C0}Particles/Weapons/Smoke_2a82.ptc"
+       EffectPosition EntitySlotInfo "{5F35719FEFE27062}" {
+        PivotID "cannonbarrel_muzzle"
+        Offset 0 0 -0.0243
+       }
+       ResetOnFire 0
+      }
+      CaseEjectingEffectComponent "{62AE9A0D4C888002}" {
+       ParticleEffect "{E875584D7506B365}Particles/Weapons/Smoke_2a82_Bpdy_Emmiter_1.ptc"
+       EffectPosition EntitySlotInfo "{5F3616090F756B29}" {
+        PivotID "cannonbarrel_muzzle"
+        Offset 0 0.684 -6.2659
+       }
+       ResetOnFire 0
+       WaterSurface 8100
+      }
+      RHS_MuzzleEffectComponent "{62AE9A0D4C888000}" {
+       ParticleEffect "{600C2D374BB22E43}Particles/Weapons/Muzzle_2a82.ptc"
+       EffectPosition EntitySlotInfo EffectPostion {
+        PivotID "cannonbarrel_muzzle"
+        Offset 0 0 0.0806
+       }
+       m_fAnimationLength 1
+      }
+     }
+     MuzzleEndPositions {
+      PointInfo "{62AE9A0D4C888004}" {
+       PivotID "cannonbarrel_muzzle"
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{62AE9A0D4C88803C}" {
+       PivotID "cannonbarrel_chamber"
+      }
+     }
+     ChamberedAmmo 1
+     FireModes {
+      BaseFireMode "{62AE9A0D4C888032}" {
+       MaxBurst 0
+       MaxSalvo 0
+       RoundsPerMinute 0
+       UIName "Safe"
+      }
+      BaseFireMode "{62AE9A0D4C888030}" {
+       MaxBurst -1
+       RoundsPerMinute 9
+       UIName "Single"
+      }
+     }
+     MagazineWell MagazineWell2A82 "{62AE9A0D4C888035}" {
+     }
+     BulletInitSpeedCoef 1
+     DispersionRange 500
+     WeaponAimModifiers {
+      SwayWeaponAimModifier "{62AE9A0D4C88802B}" {
+       Name "SWAY"
+       "Linear Damping" 0.85 0.5 0.825
+       "Linear Magnitude" 1
+       "Angular Damping" 0.95 0.3 0.4
+       "Angular Magnitude" 1
+       "Stamina Magnitude Curve" {
+        0 1 0.491 0.961 0.722 0.867 0.828 0.727 0.947 0.518 1 0.087
+       }
+      }
+      OnHitAimModifier "{62AE9A0D4C888028}" {
+       IsEnabled 0
+      }
+      RecoilWeaponAimModifier "{62AE9A0D4C88802E}" {
+       LinearData RecoilData "{62AE9A0D4C888023}" {
+        "Curve X" {
+         0 0.5 0.029 0.641 0.151 0.43 0.382 0.508 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.032 0.55 0.045 0.75 0.065 0.7 0.071 0.65 0.095 0.5 0.25 0.45 0.45 0.52 0.7 0.495 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.032 0.65 0.045 0.95 0.065 0.95 0.071 0.85 0.095 0.7 0.25 0.35 0.45 0.55 0.7 0.485 1 0.5
+        }
+        "Curve Time Scale" 0.666
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" -0.001 -0.006 -0.07
+        "Curve Maxs" 0 -0.005 -0.018
+        "Base Recoil Scale" 5
+       }
+       AngularData RecoilData "{62AE9A0D4C888022}" {
+        "Curve X" {
+         0 0.5 0.026 0.961 0.437 0.463 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.092 1 0.243 0.521 1 0.5
+        }
+        "Curve Time Scale" 0.694
+        "Base Recoil Scale" 5
+       }
+       TurnOffsetData RecoilData "{62AE9A0D4C888027}" {
+        "Curve X" {
+         0 0.5 0.092 1 0.243 0.521 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.092 1 0.243 0.521 1 0.5
+        }
+       }
+      }
+     }
+     UIInfo MuzzleUIInfo "{62AE9A0D4C888024}" {
+      Name "2A82"
+      Description "T-14 Main cannon"
+      m_bShowCaliber 1
+      m_sCaliber "#RHS-AmmunitionID_125mm"
+      m_MagIndicator SCR_MagazineIndicatorConfiguration "{62AE9A0D4C8880D6}" {
+      }
+     }
+     ReloadDuration 15
+     MagazinePosition InventoryStorageSlot Mag {
+      Offset 0 -0.3632 -2.4991
+     }
+     MagazineTemplate "{EB33480A62A31B04}Prefabs/Weapons/Magazines/2A82/Box_125mm_2A82_APFSDST_20rnd.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     Enabled 0
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "2A82"
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   Enabled 1
+   ActionContexts {
+    UserActionContext "{5A1E58F7B04F9BE5}" {
+     Position PointInfo "{62AE9A0D4C8880CC}" {
+     }
+    }
+   }
+   AllowCrossHierarchy 1
+  }
+ }
+ coords 963.419 51 2266.707
+}

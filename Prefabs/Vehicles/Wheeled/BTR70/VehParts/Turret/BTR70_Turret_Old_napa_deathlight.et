@@ -1,0 +1,23 @@
+Turret : "{66596659FB0F645B}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{62B4681B1394184F}" {
+     SourceMaterial "BTR_70_base_exterior_Body"
+     AssignedMaterial "{5A60B81A6F11FC8C}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body_Old.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{62B4681B60D49725}" {
+   Slots {
+    EntitySlotInfo deathlight {
+     Offset 0.3283 2.1732 1.0565
+     Angles 21.3478 0 0
+     Prefab "{E5DBA2CEA9074911}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/btrdeathlight.et"
+    }
+   }
+  }
+ }
+ coords 0 -0.366 0
+}

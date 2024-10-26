@@ -1,0 +1,15 @@
+GenericEntity : "{EBEDCDDD15E3413D}Prefabs/Vehicles/Tracked/T14/VehParts/Era/t14_grill_base.et" {
+ ID "5498A197BD32DBFD"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{4CB84FD4FBB96B4F}Assets/Vehicles/Tracked/T14/era/t14_cage2_l.xob"
+   Materials {
+    MaterialAssignClass "{62AE9A0B244E95AE}" {
+     SourceMaterial "grill"
+     AssignedMaterial "{FD767D7AECFD6695}Assets/Vehicles/Tracked/T14/data/grillblu.emat"
+    }
+   }
+  }
+ }
+ coords 976.945 51 2249.136
+}
