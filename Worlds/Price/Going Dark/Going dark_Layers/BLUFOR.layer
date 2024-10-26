@@ -48,23 +48,6 @@ $grp SCR_AIGroup : "{CA1F419A5A068863}Prefabs/Characters/Factions/BLUFOR/RHS_USA
   angleZ 1.757
   m_faction "RHS_USAF"
   m_aUnitPrefabSlots {
-   "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{5B493EE8A1C360B3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCockGL.et" "{5B493EE8A1C360B3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCockGL.et" "{00455C7178DAC178}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCockMedic.et"
-  }
- }
- RHS_USAF_G_011_6 {
-  components {
-   PS_GroupCallsignAssigner "{62B4A8634B69496D}" {
-    m_iCompanyCallsign 0
-    m_iPlatoonCallsign 1
-    m_iSquadCallsign 1
-   }
-  }
-  coords 5679.545 316.476 9260.007
-  angleX -0.895
-  angleY -0.014
-  angleZ 0.895
-  m_faction "RHS_USAF"
-  m_aUnitPrefabSlots {
    "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{658F19701170045B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCock.et" "{5B493EE8A1C360B3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCockGL.et" "{5B493EE8A1C360B3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCockGL.et" "{00455C7178DAC178}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/BlackCockMedic.et"
   }
  }

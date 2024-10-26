@@ -1,18 +1,23 @@
 $grp RHS_Tank : "{9824112BBCB732C9}Prefabs/Vehicles/Tracked/2S1/Tank_2S1_Green_Deco.et" {
  Tank_2S1_Green_Deco1 {
   coords 4780.158 339.209 10413.96
+  angleY -98.421
  }
  Tank_2S1_Green_Deco2 {
   coords 4767.368 339.209 10433.421
+  angleY -108.531
  }
  Tank_2S1_Green_Deco3 {
-  coords 4793.839 339.209 10391.612
+  coords 4793.838 339.209 10391.61
+  angleY -89.989
  }
  Tank_2S1_Green_Deco4 {
-  coords 4806.837 339.209 10370.011
+  coords 4806.836 339.209 10370.011
+  angleY -91.523
  }
  Tank_2S1_Green_Deco5 {
   coords 4801.424 339.209 10381.055
+  angleY -90.498
  }
 }
 $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
