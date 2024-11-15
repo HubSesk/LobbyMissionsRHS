@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{DB2E2BE6AAA62BA2}missions/Ses_ArlFire.conf"
+ Name "{F81008332E0AE9DD}missions/Ses/CabbageRebellion.conf"
  Configurations {
   CONFResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   CONFResourceClass PS5 : PC {
   }
   CONFResourceClass HEADLESS : PC {
+  }
+  CONFResourceClass Xbox : PC {
   }
  }
 }

@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{805DA95CCE88391B}missions/ErqueIslandNight.conf"
+ Name "{4C365C953C3D2F76}missions/Ses/90_T_GoglandSesMission.conf"
  Configurations {
   CONFResourceClass PC {
   }
@@ -9,7 +9,11 @@ MetaFileClass {
   }
   CONFResourceClass PS4 : PC {
   }
+  CONFResourceClass PS5 : PC {
+  }
   CONFResourceClass HEADLESS : PC {
+  }
+  CONFResourceClass Xbox : PC {
   }
  }
 }

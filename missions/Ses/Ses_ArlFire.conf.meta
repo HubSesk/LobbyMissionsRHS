@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{C6D2CCF878751BB5}missions/PowerPlantAssault.conf"
+ Name "{6A76DCC7ADC2F199}missions/Ses/Ses_ArlFire.conf"
  Configurations {
   CONFResourceClass PC {
   }
@@ -9,7 +9,11 @@ MetaFileClass {
   }
   CONFResourceClass PS4 : PC {
   }
+  CONFResourceClass PS5 : PC {
+  }
   CONFResourceClass HEADLESS : PC {
+  }
+  CONFResourceClass Xbox : PC {
   }
  }
 }

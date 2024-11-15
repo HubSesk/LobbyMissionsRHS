@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{C856C657986882A3}missions/90_T_GoglandSesMission.conf"
+ Name "{5C41583B04E5F103}missions/Ses/Rogovo.conf"
  Configurations {
   CONFResourceClass PC {
   }
@@ -9,7 +9,11 @@ MetaFileClass {
   }
   CONFResourceClass PS4 : PC {
   }
+  CONFResourceClass PS5 : PC {
+  }
   CONFResourceClass HEADLESS : PC {
+  }
+  CONFResourceClass Xbox : PC {
   }
  }
 }

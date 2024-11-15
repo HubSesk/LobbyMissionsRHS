@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{305653B9E119C30B}missions/Pustoshka.conf"
+ Name "{72A7C84FA52BF4DE}missions/Ses/SES_RUUK_AERO.conf"
  Configurations {
   CONFResourceClass PC {
   }
@@ -9,7 +9,11 @@ MetaFileClass {
   }
   CONFResourceClass PS4 : PC {
   }
+  CONFResourceClass PS5 : PC {
+  }
   CONFResourceClass HEADLESS : PC {
+  }
+  CONFResourceClass Xbox : PC {
   }
  }
 }

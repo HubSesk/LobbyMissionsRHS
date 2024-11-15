@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{75DC0D448E9D0583}missions/Rogovo.conf"
+ Name "{6A086BBF06E2EC41}missions/Ses/Sobor.conf"
  Configurations {
   CONFResourceClass PC {
   }
@@ -9,7 +9,11 @@ MetaFileClass {
   }
   CONFResourceClass PS4 : PC {
   }
+  CONFResourceClass PS5 : PC {
+  }
   CONFResourceClass HEADLESS : PC {
+  }
+  CONFResourceClass Xbox : PC {
   }
  }
 }

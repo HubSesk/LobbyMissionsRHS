@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{CB59861FAD9D8FFC}missions/Sobor.conf"
+ Name "{75ABDFD583995C3F}missions/Ses/SES_RUUK_Trench.conf"
  Configurations {
   CONFResourceClass PC {
   }
@@ -9,7 +9,11 @@ MetaFileClass {
   }
   CONFResourceClass PS4 : PC {
   }
+  CONFResourceClass PS5 : PC {
+  }
   CONFResourceClass HEADLESS : PC {
+  }
+  CONFResourceClass Xbox : PC {
   }
  }
 }
