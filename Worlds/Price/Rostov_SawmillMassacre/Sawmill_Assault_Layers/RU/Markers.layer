@@ -1,3 +1,129 @@
+$grp GenericEntity : "{15BEDC6B899035DB}Prefabs/Yarmarka/YarmarkaBox.et" {
+ {
+  coords 2954.406 115.241 844.56
+  angleY -136.296
+ }
+ {
+  coords 2954.406 115.241 844.56
+  angleY -136.296
+ }
+ {
+  coords 2954.406 115.241 844.56
+  angleY -136.296
+ }
+ {
+  coords 2954.406 115.241 844.56
+  angleY -136.296
+ }
+ {
+  coords 2954.406 115.241 844.56
+  angleY -136.296
+ }
+ {
+  coords 2954.115 115.241 844.254
+  angleY -136.296
+ }
+ {
+  coords 2954.115 115.241 844.254
+  angleY -136.296
+ }
+ {
+  coords 2954.115 115.241 844.254
+  angleY -136.296
+ }
+ {
+  coords 2954.115 115.241 844.254
+  angleY -136.296
+ }
+ {
+  coords 2954.115 115.241 844.254
+  angleY -136.296
+ }
+ {
+  coords 2955.01 115.234 845.191
+  angleY -136.296
+ }
+ {
+  coords 2955.01 115.234 845.191
+  angleY -136.296
+ }
+ {
+  coords 2955.01 115.234 845.191
+  angleY -136.296
+ }
+ {
+  coords 2955.01 115.234 845.191
+  angleY -136.296
+ }
+ {
+  coords 2955.01 115.234 845.191
+  angleY -136.296
+ }
+ {
+  coords 2954.708 115.243 844.866
+  angleY -136.296
+ }
+ {
+  coords 2954.708 115.243 844.866
+  angleY -136.296
+ }
+ {
+  coords 2954.708 115.243 844.866
+  angleY -136.296
+ }
+ {
+  coords 2954.708 115.243 844.866
+  angleY -136.296
+ }
+ {
+  coords 2954.708 115.243 844.866
+  angleY -136.296
+ }
+}
+$grp Vehicle : "{5C54423CC80D1C96}Prefabs/Vehicles/Wheeled/M998/M1025_armed_Mk19_f.et" {
+ M1025_armed_Mk19_f1 {
+  coords 2963.95 114.288 863.564
+  angleY 9.777
+ }
+ M1025_armed_Mk19_f2 {
+  coords 2974.34 114.223 870.678
+  angleY -77.408
+ }
+}
+$grp GenericEntity : "{680159A13194C1A5}Prefabs/Weapons/Magazines/Box_40x46.et" {
+ {
+  coords 2965.947 114.246 864.514
+  angleY -124.572
+ }
+ {
+  coords 2965.991 114.204 864.87
+  angleY -52.054
+ }
+ {
+  coords 2965.882 114.367 864.793
+  angleY -63.804
+ }
+ {
+  coords 2965.882 114.409 864.535
+  angleY -26.683
+ }
+ {
+  coords 2972.94 114.428 869.144
+  angleY 59.778
+ }
+ {
+  coords 2972.923 114.265 869.078
+  angleY -38.111
+ }
+ {
+  coords 2973.281 114.223 869.055
+  angleY 34.406
+ }
+ {
+  coords 2973.198 114.386 869.16
+  angleY 22.656
+ }
+}
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  RHS_AFRF_G_001_M {
   coords 953.988 116.437 2951.003
@@ -288,5 +414,53 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    1
   }
   m_iZOrder 0
+ }
+ {
+  coords 2963.95 114.288 863.564
+  angleY 99.777
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.399
+  m_sDescription "M1025 with Mk19 GL"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 2974.34 114.223 870.678
+  angleY 12.592
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.399
+  m_sDescription "M1025 with Mk19 GL"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+}
+$grp GenericEntity : "{F5BFC5E30035C5D1}Prefabs/Props/Furniture/TableRecreation_01/TableRecreation_01_red.et" {
+ {
+  coords 2954.95 114.344 845.152
+  angleY -44.02
+ }
+ {
+  coords 2954.087 114.342 844.354
+  angleY -44.02
  }
 }

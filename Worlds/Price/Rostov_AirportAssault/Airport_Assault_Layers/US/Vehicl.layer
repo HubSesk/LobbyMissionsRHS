@@ -8,32 +8,49 @@ $grp Vehicle : "{38C8F7030A1740B9}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armedUS
 }
 $grp Vehicle : "{B8C827A45C1347A4}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF_D.et" {
  M1025_armed_M2HB_USAF_D1 {
-  coords 1275.863 89.586 914.189
+  components {
+   SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
+    m_fFuelConsumption 10
+   }
+  }
+  coords 1275.864 89.586 914.189
   angleY -39.366
  }
  M1025_armed_M2HB_USAF_D3 {
+  components {
+   SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
+    m_fFuelConsumption 10
+   }
+  }
   coords 1240.054 87.468 953.922
   angleY -39.366
  }
  M1025_armed_M2HB_USAF_D2 {
+  components {
+   SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
+    m_fFuelConsumption 10
+   }
+  }
   coords 1245.223 87.923 947.682
   angleY -39.366
  }
 }
 $grp Vehicle : "{BC58478FE724BCEF}Prefabs/Vehicles/Wheeled/M998/M1025_USAF_D.et" {
- M1025_USAF_D2 {
-  coords 1264.23 88.933 926.287
-  angleY -40.568
- }
- M1025_USAF_D1 {
-  coords 1270.107 89.336 920.183
-  angleY -40.568
- }
  M1025_USAF_D3 {
+  components {
+   SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
+    m_fFuelConsumption 10
+   }
+  }
   coords 1257.86 88.544 933.368
   angleY -40.568
  }
  M1025_USAF_D4 {
+  components {
+   SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
+    m_fFuelConsumption 10
+   }
+  }
   coords 1251.15 88.248 940.74
   angleY -40.568
  }
