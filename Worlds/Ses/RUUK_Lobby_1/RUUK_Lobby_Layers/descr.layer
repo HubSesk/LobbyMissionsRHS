@@ -4,14 +4,17 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Описание миссии"
   m_sTextData "ЧСО готовят наступление на укрепления ЧДКЗ."\
   ""\
-  "!!! ЧДКЗ НЕ МОГУТ ВЫХОДИТЬ ЗА КРАСНУЮ ЛИНИЮ !!!"
+  "!!! ЧДКЗ НЕ МОГУТ ВЫХОДИТЬ ЗА КРАСНУЮ ЛИНИЮ !!!"\
+  ""\
+  "• Время боя 40 минут •"\
+  "Преверяйте инвентарь техники."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }
  {
   coords 837.607 115.353 2948.601
   m_sTitle "Задачи ЧСО"
-  m_sTextData "Взять под контроль укрепления отмеченные на карте желтыми маркерами."
+  m_sTextData "• Взять под контроль отмеченные на карте полевые штабы ЧДКЗ."
   m_aVisibleForFactions {
    "Ses_CDF"
   }
@@ -20,7 +23,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   coords 828.978 115.106 2950.409
   m_sTitle "Задачи ЧДКЗ"
-  m_sTextData "Удержать укрепления отмеченные на карте желтыми маркерами."
+  m_sTextData "• Удержать наши полевые штабы отмеченные на карте. "\
+  "• Не выходить за красную линию."
   m_aVisibleForFactions {
    "Ses_ChDKZ"
   }
@@ -30,26 +34,20 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
 $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  {
   coords 850.836 115.525 2950.803
-  m_sTitle "Укрепление 1"
-  m_iScore 30
+  m_sTitle "Ферма"
+  m_iScore 60
   m_sFactionKey "Ses_CDF"
  }
  {
   coords 845.15 115.389 2952.12
-  m_sTitle "Укрепление 2"
-  m_iScore 30
+  m_sTitle "Деревня"
+  m_iScore 40
   m_sFactionKey "Ses_CDF"
- }
- {
-  coords 829.187 114.905 2945.335
-  m_sTitle "Укрепление 2"
-  m_iScore 30
-  m_sFactionKey "Ses_ChDKZ"
  }
  {
   coords 834.872 115.041 2944.018
-  m_sTitle "Укрепление 1"
-  m_iScore 30
+  m_sTitle "Ферма"
+  m_iScore 60
   m_sFactionKey "Ses_ChDKZ"
  }
  {
@@ -57,11 +55,5 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
   m_sTitle "Деревня"
   m_iScore 40
   m_sFactionKey "Ses_ChDKZ"
- }
- {
-  coords 1271.023 94.905 861.538
-  m_sTitle "Деревня"
-  m_iScore 40
-  m_sFactionKey "Ses_CDF"
  }
 }
