@@ -1,0 +1,24 @@
+GenericEntity {
+ ID "62E166C34D42B99C"
+ components {
+  MeshObject "{62E166C3B7858DA8}" {
+   Object "{B92199D8EC464D6C}Assets/chesee/FestivalCheese.xob"
+  }
+  RigidBody "{62E166C14870C223}" {
+   Active Active
+   ResponseIndex "MediumDestructible"
+   Geometries {
+    PhysicsCylinderGeometry a {
+     Offset 0 0.324 0
+     Radius 0.7
+     Height 0.7
+    }
+   }
+  }
+  NwkPhysicsMovementComponent "{62E166C10BBF4D66}" {
+  }
+  RplComponent "{62E166C10C6CD9C5}" {
+  }
+ }
+ coords 9717.6 11.295 1525.657
+}

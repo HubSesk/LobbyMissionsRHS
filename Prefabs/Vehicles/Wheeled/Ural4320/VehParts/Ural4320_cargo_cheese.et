@@ -1,0 +1,116 @@
+GenericEntity : "{58B3FB7F102A8B1B}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_cargo.et" {
+ ID "4B42E71698F5739C"
+ components {
+  SCR_BaseCompartmentManagerComponent "{2CD4A765A7D52986}" {
+   CompartmentSlots {
+    CargoCompartmentSlot Passenger_l02 {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+      }
+     }
+    }
+    CargoCompartmentSlot Passenger_r02 {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+      }
+     }
+    }
+    CargoCompartmentSlot Passenger_l03 {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+      }
+     }
+    }
+    CargoCompartmentSlot Passenger_r03 {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+      }
+     }
+    }
+    CargoCompartmentSlot Passenger_l04 {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+      }
+     }
+    }
+    CargoCompartmentSlot Passenger_r04 {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+      }
+     }
+    }
+    CargoCompartmentSlot Passenger_l05 {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+      }
+     }
+    }
+    CargoCompartmentSlot Passenger_r05 {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+      }
+     }
+    }
+    CargoCompartmentSlot Passenger_l06 {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+      }
+     }
+    }
+    CargoCompartmentSlot Passenger_r06 {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+      }
+     }
+    }
+    CargoCompartmentSlot Passenger_l07 {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+      }
+     }
+    }
+    CargoCompartmentSlot Passenger_r07 {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+      }
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{5D83561ABAB4ED0D}" {
+   Slots {
+    RegisteringComponentSlotInfo SupplyStorage_06 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_05 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_04 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_03 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_02 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_01 {
+     Enabled 0
+    }
+    EntitySlotInfo Cheese {
+     Offset 0.0186 1.4897 -1.0905
+     Prefab "{0A4FCB721B257D2E}Prefabs/Items/Food/BigCheese_Static.et"
+    }
+    EntitySlotInfo b {
+     Offset 0.0186 1.4897 -2.5101
+     Prefab "{0A4FCB721B257D2E}Prefabs/Items/Food/BigCheese_Static.et"
+    }
+    EntitySlotInfo c {
+     Offset 0.0186 2.1747 -1.7419
+     Prefab "{0A4FCB721B257D2E}Prefabs/Items/Food/BigCheese_Static.et"
+    }
+   }
+  }
+ }
+ coords 9725.678 10.619 1536.026
+}
