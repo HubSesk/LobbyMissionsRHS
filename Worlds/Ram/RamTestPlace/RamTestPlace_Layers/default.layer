@@ -1043,13 +1043,22 @@ PS_AnimeCinematicEntity Anime {
 SCR_BaseTriggerEntity {
  coords 120.788 1 125.206
 }
+SCR_AIGroup : "{19843E954790DF28}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_FireTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+ }
+ coords 120.981 1 112.458
+ angleY -100.553
+ m_aUnitPrefabSlots + {
+  "{DFF4E8E8C95E071E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_LAT_Random.et"
+ }
+}
 PS_AnimeSyncerEntity : "{20F7D30AD42EE895}Prefabs/AnimeSyncer.et" {
  coords 125.084 1 127.342
  m_aNames {
   "G1" "M151A1"
- }
- m_aNums + {
-  -1
  }
 }
 $grp GenericEntity : "{5B1381786551320C}Prefabs/Characters/Mannequin/CINEMATIC_RU_soldier_with_animation.et" {
