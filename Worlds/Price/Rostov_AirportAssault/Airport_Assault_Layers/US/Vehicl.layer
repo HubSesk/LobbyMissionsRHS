@@ -1,57 +1,103 @@
 $grp Vehicle : "{38C8F7030A1740B9}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armedUSMC.et" {
  UH1H_armedUSMC1 {
-  coords 1324.859 89.612 932.157
+  coords 1324.844 89.555 931.652
+  angleY 0.004
  }
  UH1H_armedUSMC2 {
-  coords 1340.677 88.707 952.74
+  coords 1340.413 88.659 952.715
+  angleY -0.687
+  angleZ -0
  }
 }
-$grp Vehicle : "{B8C827A45C1347A4}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF_D.et" {
- M1025_armed_M2HB_USAF_D1 {
+$grp Vehicle : "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et" {
+ M1 {
   components {
    SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
     m_fFuelConsumption 10
    }
   }
-  coords 1275.864 89.586 914.189
-  angleY -39.366
+  coords 1251.761 88.272 941.173
+  angleX -1.921
+  angleY -42.864
+  angleZ 0.562
  }
- M1025_armed_M2HB_USAF_D3 {
+ M2 {
   components {
    SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
     m_fFuelConsumption 10
    }
   }
-  coords 1240.054 87.468 953.922
-  angleY -39.366
+  coords 1264.349 88.991 927.254
+  angleX -1.873
+  angleY -42.822
+  angleZ -0.704
  }
- M1025_armed_M2HB_USAF_D2 {
+ M3 {
   components {
    SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
     m_fFuelConsumption 10
    }
   }
-  coords 1245.223 87.923 947.682
-  angleY -39.366
+  coords 1270.457 89.298 920.706
+  angleX -1.921
+  angleY -42.864
+  angleZ 0.562
+ }
+ M4 {
+  components {
+   SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
+    m_fFuelConsumption 10
+   }
+  }
+  coords 1257.504 88.626 934.461
+  angleX -2.529
+  angleY -42.841
+  angleZ -0.095
  }
 }
-$grp Vehicle : "{BC58478FE724BCEF}Prefabs/Vehicles/Wheeled/M998/M1025_USAF_D.et" {
- M1025_USAF_D3 {
+$grp Vehicle : "{FA6820A9A52CD05B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF.et" {
+ M1025_armed_M2HB_MDO_USAF1 {
   components {
    SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
     m_fFuelConsumption 10
    }
   }
-  coords 1257.86 88.544 933.368
-  angleY -40.568
+  coords 1245.933 87.938 947.91
+  angleX -2.529
+  angleY -42.907
+  angleZ -0.092
  }
- M1025_USAF_D4 {
+ M1025_armed_M2HB_MDO_USAF2 {
   components {
    SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
     m_fFuelConsumption 10
    }
   }
-  coords 1251.15 88.248 940.74
-  angleY -40.568
+  coords 1241.216 87.605 952.82
+  angleX -2.529
+  angleY -42.907
+  angleZ -0.092
+ }
+ M1025_armed_M2HB_MDO_USAF3 {
+  components {
+   SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
+    m_fFuelConsumption 10
+   }
+  }
+  coords 1280.919 89.813 909.445
+  angleX -1.92
+  angleY -42.93
+  angleZ 0.564
+ }
+ M1025_armed_M2HB_MDO_USAF4 {
+  components {
+   SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
+    m_fFuelConsumption 10
+   }
+  }
+  coords 1276.426 89.597 914.114
+  angleX -1.92
+  angleY -42.93
+  angleZ 0.564
  }
 }

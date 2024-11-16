@@ -79,6 +79,22 @@ $grp GenericEntity : "{15BEDC6B899035DB}Prefabs/Yarmarka/YarmarkaBox.et" {
   angleY 55.058
   angleZ 0.011
  }
+ {
+  coords 1316.708 89.584 935.444
+  angleY 55.058
+ }
+ {
+  coords 1317.083 89.57 935.665
+  angleY 55.058
+ }
+ {
+  coords 1334.488 88.7 957.474
+  angleY 55.058
+ }
+ {
+  coords 1334.863 88.686 957.695
+  angleY 55.058
+ }
 }
 $grp StaticModelEntity : "{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et" {
  {
@@ -204,30 +220,6 @@ $grp GenericEntity : "{95D4766BBE46F23D}Prefabs/Items/Equipment/Backpacks/Backpa
   angleX 1.062
   angleY -68.538
   angleZ 1.472
- }
-}
-$grp Vehicle : "{B8C827A45C1347A4}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF_D.et" {
- M1025_armed_M2HB_USAF_D4 {
-  components {
-   SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
-    m_fFuelConsumption 10
-   }
-  }
-  coords 1270.253 89.302 920.457
-  angleX -1.951
-  angleY -39.381
-  angleZ 0.444
- }
- M1025_armed_M2HB_USAF_D5 {
-  components {
-   SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
-    m_fFuelConsumption 10
-   }
-  }
-  coords 1263.819 88.978 927.047
-  angleX -1.827
-  angleY -39.34
-  angleZ -0.817
  }
 }
 PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
