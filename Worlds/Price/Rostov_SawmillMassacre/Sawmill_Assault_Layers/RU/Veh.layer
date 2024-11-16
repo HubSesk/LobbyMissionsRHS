@@ -58,11 +58,13 @@ $grp Vehicle : "{DC6A0BC75B198106}Prefabs/Vehicles/Wheeled/K17/APC_K17_unarmed_c
   angleY 91.604
  }
 }
-Vehicle APC_K17_Berezok_camo1 : "{DD0CB0331A3D8CA7}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok_camo1.et" {
- coords 969.512 116.563 2986.493
- angleY 90.07
-}
-Vehicle APC_K17_Epoch1 : "{F86AB1BD36B33407}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch.et" {
- coords 947.011 116.344 2985.339
- angleY 89.15
+$grp Vehicle : "{F86AB1BD36B33407}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch.et" {
+ APC_K17_Epoch1 {
+  coords 947.011 116.344 2985.339
+  angleY 89.15
+ }
+ APC_K17_Epoch2 {
+  coords 969.606 116.563 2986.201
+  angleY 89.15
+ }
 }
