@@ -12,6 +12,13 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
    m_iStartingHours 21
   }
  }
+ m_fAutoReloadTime 300
+ m_bMarkersOnlyOnBriefing 1
+ m_bRemoveRedundantUnits 1
+ m_bRemoveSquadMarkers 1
+ m_iFreezeTime 300000
+ m_bDisableChat 1
+ m_bReserveSlots 1
 }
 GenericEntity : "{61980E6F3CA71107}Prefabs/Items/Cats/Dingus.et" {
  coords 4352.057 77.83 9936.505

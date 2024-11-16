@@ -1,5 +1,8 @@
 SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
- coords 1016.547 26.187 1793.556
+ coords 1019.161 26.187 1802.258
+ m_fWarnRadius 50
+ m_fZoneRadius 75
+ m_fZoneTeleportedRadius 80
 }
 PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
  components {
@@ -31,20 +34,15 @@ PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
 }
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  {
-  coords 1061.067 20.909 1621.661
+  coords 1064.14 20.909 1624.83
+  m_fWarnRadius 65
+  m_fZoneRadius 95
+  m_fZoneTeleportedRadius 100
  }
  {
-  coords 2971.435 115.542 814.867
-  m_fWarnRadius 115
-  m_fZoneRadius 170
-  m_fZoneTeleportedRadius 180
- }
-}
-$grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
- {
-  coords 935.306 25.687 1746.641
- }
- {
-  coords 1143.008 25.375 1846.106
+  coords 2980.812 115.542 824.623
+  m_fWarnRadius 125
+  m_fZoneRadius 165
+  m_fZoneTeleportedRadius 200
  }
 }

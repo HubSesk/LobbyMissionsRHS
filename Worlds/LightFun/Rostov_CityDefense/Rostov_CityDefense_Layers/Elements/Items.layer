@@ -1,27 +1,27 @@
 $grp GenericEntity : "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et" {
  {
-  coords 1005.242 26.462 1808.115
+  coords 1001.339 26.304 1770.125
  }
  {
-  coords 1005.579 26.462 1808.119
+  coords 1001.675 26.304 1770.129
  }
  {
-  coords 1005.422 26.462 1807.814
+  coords 1001.519 26.304 1769.824
  }
  {
-  coords 1005.423 26.59 1808.033
+  coords 1001.519 26.432 1770.043
  }
  {
-  coords 1005.771 26.462 1807.855
+  coords 1001.868 26.304 1769.866
  }
  {
-  coords 1005.638 26.462 1807.556
+  coords 1001.735 26.304 1769.568
  }
  {
-  coords 1005.976 26.462 1807.585
+  coords 1002.073 26.304 1769.596
  }
  {
-  coords 1005.724 26.586 1807.692
+  coords 1001.82 26.428 1769.703
  }
  {
   coords 1058.659 21.345 1652.947
@@ -68,21 +68,6 @@ $grp GenericEntity : "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mi
  {
   coords 1062.209 21.279 1611.531
  }
- {
-  coords 1140.051 25.375 1846.175
- }
- {
-  coords 1140.124 25.375 1846.511
- }
- {
-  coords 1140.483 25.375 1846.467
- }
- {
-  coords 1140.414 25.375 1846.149
- }
- {
-  coords 1140.269 25.498 1846.305
- }
 }
 GenericEntity : "{61980E6F3CA71107}Prefabs/Items/Cats/Dingus.et" {
  coords 1103.336 20.119 1761.158
@@ -90,15 +75,22 @@ GenericEntity : "{61980E6F3CA71107}Prefabs/Items/Cats/Dingus.et" {
 }
 $grp GenericEntity : "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et" {
  {
-  coords 1007.47 26.304 1809.024
+  coords 1000.018 26.776 1771.624
+  angleX 1.75
+  angleY -0.097
+  angleZ -3.182
  }
  {
-  coords 1007.709 26.305 1808.751
-  angleY 26.67
+  coords 1000.228 26.779 1771.075
+  angleX 1.804
+  angleY 142.935
+  angleZ 6.598
  }
  {
-  coords 1007.847 26.303 1808.157
-  angleY 98.373
+  coords 1000.383 26.778 1770.682
+  angleX 2.856
+  angleY 135.297
+  angleZ 6.745
  }
  {
   coords 1058.181 21.343 1652.601
@@ -122,14 +114,15 @@ $grp GenericEntity : "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M
   angleY -21.266
  }
  {
-  coords 1139.439 25.375 1846.127
+  coords 1003.334 26.78 1769.464
+  angleX 2.057
+  angleY 27.231
+  angleZ 2.993
  }
  {
-  coords 1139.393 25.375 1846.745
-  angleY -111.004
- }
- {
-  coords 1139.051 25.375 1846.149
-  angleY -16.119
+  coords 1004.217 26.783 1769.869
+  angleX 4.639
+  angleY -89.962
+  angleZ -11.93
  }
 }
