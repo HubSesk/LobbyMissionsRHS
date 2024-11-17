@@ -1,0 +1,256 @@
+FrameWidgetClass : "{1B5817B718D661B9}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMF_Screen.layout" {
+ {
+  FrameWidgetClass "{604F067A41A69CB2}" {
+   Prefab "{604F067A41A69CB2}"
+   {
+    RTTextureWidgetClass "{604EFD6468A29D4F}" {
+     Prefab "{604EFD6468A29D4F}"
+     {
+      OverlayWidgetClass "{62E1724D757EEBF8}" {
+       Name "DamageMenu"
+       Slot FrameWidgetSlot "{604F61884679C0B4}" {
+        PositionX 139
+        OffsetLeft 139
+        PositionY 0
+        OffsetTop 0
+        SizeX 744
+        OffsetRight -883
+        SizeY 881
+        OffsetBottom -881
+       }
+       "Z Order" 1
+       "Is Visible" 0
+       components {
+        RHS_TouchScreenMenuPMFDamageHandler "{60694CE89E88957D}" {
+        }
+       }
+       {
+        ImageWidgetClass "{62E1724D757EEBE4}" {
+         Name "Background"
+         Slot OverlayWidgetSlot "{60694CEA807365BE}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+         }
+         Texture "{71B810E8A3FAF1CA}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/backGround.edds"
+         Size 751 883
+        }
+        FrameWidgetClass "{62E1724D757EEBE5}" {
+         Name "DamageView"
+         Slot OverlayWidgetSlot "{60694CEA4086C8CB}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+         }
+        }
+        FrameWidgetClass "{62E1724D6A809514}" {
+         Name "Fuel"
+         Slot OverlayWidgetSlot "{60ED73D8238948E7}" {
+          HorizontalAlign 0
+          VerticalAlign 0
+         }
+         {
+          FrameWidgetClass "{62E1724D6A809517}" {
+           Name "FuelFrame"
+           Slot FrameWidgetSlot "{60ED73D8310A04B8}" {
+            PositionX 2
+            OffsetLeft 2
+            PositionY 11
+            OffsetTop 11
+            SizeX 251
+            OffsetRight -253
+            SizeY 427
+            OffsetBottom -438
+           }
+           {
+            ImageWidgetClass "{62E1724D6A809516}" {
+             Name "Background"
+             Slot FrameWidgetSlot "{60ED73D9C060CC09}" {
+              Anchor 0 0 1 1
+              PositionX 0
+              OffsetLeft 0
+              PositionY 0
+              OffsetTop 0
+              SizeX 1
+              OffsetRight 0
+              SizeY -2
+              OffsetBottom 0
+             }
+             Texture "{866E94D6D40EEA46}UI/layouts/Vehicles/RU_SHARED/images/pmf5/FuelLevel.edds"
+             Size 256 427
+            }
+            ImageWidgetClass "{62E1724D6A80D638}" {
+             Name "FuelLevel5"
+             Slot FrameWidgetSlot "{60ED73D93C4361E8}" {
+              PositionX 23
+              OffsetLeft 23
+              PositionY 24
+              OffsetTop 24
+              SizeX 60
+              OffsetRight -83
+              SizeY 21
+              OffsetBottom -45
+             }
+             Color 0.251 0.502 0 1
+             Size 15 20
+            }
+            ImageWidgetClass "{62E1724D6A80D637}" {
+             Name "FuelLevel4"
+             Slot FrameWidgetSlot "{60ED73D93C4361E8}" {
+              PositionX 23
+              OffsetLeft 23
+              PositionY 56
+              OffsetTop 56
+              SizeX 60
+              OffsetRight -83
+              SizeY 21
+              OffsetBottom -77
+             }
+             Color 0.251 0.502 0 1
+             Size 15 20
+            }
+            ImageWidgetClass "{62E1724D6A80D636}" {
+             Name "FuelLevel3"
+             Slot FrameWidgetSlot "{60ED73D93C4361E8}" {
+              PositionX 23
+              OffsetLeft 23
+              PositionY 88
+              OffsetTop 88
+              SizeX 60
+              OffsetRight -83
+              SizeY 21
+              OffsetBottom -109
+             }
+             Color 0.251 0.502 0 1
+             Size 15 20
+            }
+            ImageWidgetClass "{62E1724D6A817F54}" {
+             Name "FuelLevel2"
+             Slot FrameWidgetSlot "{60ED73D93C4361E8}" {
+              PositionX 23
+              OffsetLeft 23
+              PositionY 120
+              OffsetTop 120
+              SizeX 60
+              OffsetRight -83
+              SizeY 21
+              OffsetBottom -141
+             }
+             Color 0.799 0.56 0.029 1
+             Size 15 20
+            }
+            ImageWidgetClass "{62E1724D6A817F57}" {
+             Name "FuelLevel1"
+             Slot FrameWidgetSlot "{60ED73D93C4361E8}" {
+              PositionX 23
+              OffsetLeft 23
+              PositionY 152
+              OffsetTop 152
+              SizeX 60
+              OffsetRight -83
+              SizeY 21
+              OffsetBottom -173
+             }
+             Color 0.799 0.56 0.029 1
+             Size 15 20
+            }
+            ImageWidgetClass "{62E1724D6A817F56}" {
+             Name "FuelLevel0"
+             Slot FrameWidgetSlot "{60ED73D93C4361E8}" {
+              PositionX 23
+              OffsetLeft 23
+              PositionY 184
+              OffsetTop 184
+              SizeX 60
+              OffsetRight -83
+              SizeY 21
+              OffsetBottom -205
+             }
+             Color 0.502 0 0 1
+             Size 15 20
+            }
+            TextWidgetClass "{62E1724D6A8154EC}" {
+             Name "FuelCounter"
+             Slot FrameWidgetSlot "{60ED73D9F95D6ADE}" {
+              PositionX 115
+              OffsetLeft 115
+              PositionY 129
+              OffsetTop 129
+              SizeX 109
+              OffsetRight -224
+              SizeY 32
+              OffsetBottom -161
+             }
+             Text "10000 Л."
+             "Horizontal Alignment" Center
+             "Vertical Alignment" Center
+            }
+            TextWidgetClass "{62E1724D6A8154EB}" {
+             Name "ThermalCounter"
+             Slot FrameWidgetSlot "{60ED73D9F95D6ADE}" {
+              PositionX 21
+              OffsetLeft 21
+              PositionY 249
+              OffsetTop 249
+              SizeX 214
+              OffsetRight -235
+              SizeY 105
+              OffsetBottom -354
+             }
+             Text "МАСЛО t° (КПП) : -10"\
+             "МАСЛО t° (ДВИГ) : 12.7"\
+             "ОХЛ.ЖИД. t° : 0.002"
+             "Line Spacing" 40
+            }
+            TextWidgetClass "{62E1724D6A8154EA}" {
+             Name "FuelDate"
+             Slot FrameWidgetSlot "{60ED73D9F95D6ADE}" {
+              PositionX 22
+              OffsetLeft 22
+              PositionY 382
+              OffsetTop 382
+              SizeX 191
+              OffsetRight -213
+              SizeY 26
+              OffsetBottom -408
+             }
+             Text "ДАТА:"
+             "Line Spacing" 40
+            }
+            ImageWidgetClass "{62E1724D6A81FAC5}" {
+             Name "Leak"
+             Slot FrameWidgetSlot "{60ED73D96D07D759}" {
+              PositionX 110
+              OffsetLeft 110
+              PositionY 171
+              OffsetTop 171
+              SizeX 118
+              OffsetRight -228
+              SizeY 40
+              OffsetBottom -211
+             }
+             Texture "{0ED3A01A8D889016}UI/layouts/Vehicles/RU_SHARED/images/pmf5/Leak.edds"
+             Size 118 40
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      ImageWidgetClass "{605163FFCD27E845}" {
+       Prefab "{605163FFCD27E845}"
+       "Z Order" 99
+      }
+      OverlayWidgetClass "{60633128A8928E9A}" {
+       Prefab "{60633128A8928E9A}"
+       "Z Order" 1000
+      }
+      ImageWidgetClass "{604F44AFA79E0C39}" {
+       Prefab "{604F44AFA79E0C39}"
+       "Z Order" 100
+      }
+     }
+    }
+   }
+  }
+ }
+}

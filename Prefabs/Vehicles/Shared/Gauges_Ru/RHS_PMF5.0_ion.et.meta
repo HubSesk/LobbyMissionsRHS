@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{671972DDD72EF366}Prefabs/Vehicles/Shared/Gauges_Ru/RHS_PMF5.0_ion.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

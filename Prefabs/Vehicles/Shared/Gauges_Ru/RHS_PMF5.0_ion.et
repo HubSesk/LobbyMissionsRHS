@@ -1,0 +1,9 @@
+VehiclePartPanel : "{427E72A620CAC670}Prefabs/Vehicles/Shared/Gauges_Ru/RHS_PMF5.0.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  RHS_VehiclePMFScreenComponent "{604D73251AE47334}" {
+   m_sScreenLayout "{BF9E20487BFBD224}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMF_Screen_ion_btr.layout"
+   m_bPowered 1
+  }
+ }
+}
