@@ -1,0 +1,35 @@
+$grp SCR_AIGroup : "{19843E954790DF28}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_FireTeam.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{62ED541B8198AA07}" {
+    m_iCompanyCallsign 3
+   }
+  }
+  coords 2020.338 228.382 9768.434
+  angleY -1.962
+  m_aUnitPrefabSlots {
+   "{EA019A02D9835773}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Pilot.et" "{741192283AAC31CC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Co-Pilot.et" "{EA019A02D9835774}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Helicrew.et" "{EA019A02D9835774}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Helicrew.et"
+  }
+  m_sCustomNameSet "Экипаж"
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{62ED541B8198AA07}" {
+    m_iCompanyCallsign 3
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 2036.043 228.25 9778.605
+  angleY -89.543
+  m_aUnitPrefabSlots {
+   "{759DC7C1C5FC83F3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_SL_Random.et" "{010D40B28DAA33D8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_AR_Random.et" "{F455E2BE73339F32}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_AAR_Random.et" "{FBD08843D6ECEE72}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_GL_Random.et" "{57D7778DA629BF0F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_Rifleman_Random.et" "{DFF4E8E8C95E071E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/RandomSoldiers/Character_RHS_USAF_USMC_LAT_Random.et"
+  }
+  m_sCustomNameSet "Десант"
+ }
+}

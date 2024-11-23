@@ -1,0 +1,66 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  m_sTitle "Легенда"
+  m_sTextData "ЧСО заняли два ключевых здания в Лопатино. ВС РФ собирается взять город штурмом, однако не всё так просто. КМП США выдвигается на помощь ЧСО."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  m_sTitle "Сведения ЧСО"
+  m_sTextData "По данным разведки удалось узнать:"\
+  ""\
+  "- У противника есть К-17 \"Бумеранг\""\
+  "- У противника есть Т-14"\
+  "- У нас есть отделение поддержки, которые должны привезти трубы для обороны"\
+  "- КМП США нам союзники"
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+ {
+  m_sTitle "Задачи ЧСО"
+  m_sTextData "- Защитить два ключевых здания"
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+ {
+  m_sTitle "Сведения КМП США"
+  m_sTextData "По данным разведки удалось узнать:"\
+  ""\
+  "- У противника есть К-17 \"Бумеранг\""\
+  "- У противника есть Т-14"\
+  "- ЧСО нам союзники"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
+ {
+  m_sTitle "Задачи КМП США"
+  m_sTextData "- Уничтожить/захватить К-17"\
+  ""\
+  "- Уничтожить/захватить Т-14"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
+ {
+  m_sTitle "Сведения ВС РФ"
+  m_sTextData "По данным разведки удалось узнать:"\
+  ""\
+  "- У ЧСО есть 1 БТР"\
+  "- У ЧСО есть 2 Humvee M2"\
+  "- У КМП США есть 3 Humvee M2 Optic"\
+  "- У КМП США есть 1 Humvee Mk19"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ {
+  m_sTitle "Задачи ВС РФ"
+  m_sTextData "- Захватить два ключевых здания"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+}

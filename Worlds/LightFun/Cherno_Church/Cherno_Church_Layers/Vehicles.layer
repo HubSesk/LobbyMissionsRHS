@@ -1,187 +1,62 @@
 $grp Vehicle : "{160E1EDDBFFF8CFD}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_ChDKZ.et" {
- BTR70_Ses_ChDKZ1 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
-      NumSlots 4
-     }
-     MultiSlotConfiguration "{5A60D38E3DAEB055}" {
-      NumSlots 6
-     }
-     MultiSlotConfiguration "{5A60D38E3D89BD31}" {
-      NumSlots 8
-     }
-     MultiSlotConfiguration "{5A60D38E3D91D053}" {
-      NumSlots 6
-     }
-     MultiSlotConfiguration "{5A60D38E3DE4B1EA}" {
-      NumSlots 8
-     }
-     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
-      NumSlots 2
-     }
-     MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
-      NumSlots 1
-     }
-     MultiSlotConfiguration "{60E55E1381A7CBA3}" {
-      SlotTemplate InventoryStorageSlot Backpack {
-       Enabled 0
-      }
-     }
-     MultiSlotConfiguration "{60E55E1381A7CBA6}" {
-      NumSlots 4
-     }
-    }
-   }
-  }
-  coords 8638.294 342.864 7674.329
-  angleX 2.829
-  angleY 161.888
-  angleZ 0.016
+ BTR70_Ses_ChDKZ4 {
+  coords 8617.57 341.979 7720.65
+  angleX -0.814
+  angleY 155.365
+  angleZ 0.373
  }
- BTR70_Ses_ChDKZ2 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
-      NumSlots 4
-     }
-     MultiSlotConfiguration "{5A60D38E3DAEB055}" {
-      NumSlots 6
-     }
-     MultiSlotConfiguration "{5A60D38E3D89BD31}" {
-      NumSlots 8
-     }
-     MultiSlotConfiguration "{5A60D38E3D91D053}" {
-      NumSlots 6
-     }
-     MultiSlotConfiguration "{5A60D38E3DE4B1EA}" {
-      NumSlots 8
-     }
-     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
-      NumSlots 2
-     }
-     MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
-      NumSlots 1
-     }
-     MultiSlotConfiguration "{60E55E1381A7CBA3}" {
-      SlotTemplate InventoryStorageSlot Backpack {
-       Enabled 0
-      }
-     }
-     MultiSlotConfiguration "{60E55E1381A7CBA6}" {
-      NumSlots 4
-     }
-    }
-   }
-  }
-  coords 6520.11 364.499 6439.985
-  angleX 0.884
-  angleY 9.21
-  angleZ 0.143
+ BTR70_Ses_ChDKZ1 {
+  coords 8630.189 342.106 7693.18
+  angleX 0.829
+  angleY 157.859
+  angleZ -0.337
  }
  BTR70_Ses_ChDKZ3 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
-      NumSlots 4
-     }
-     MultiSlotConfiguration "{5A60D38E3DAEB055}" {
-      NumSlots 6
-     }
-     MultiSlotConfiguration "{5A60D38E3D89BD31}" {
-      NumSlots 8
-     }
-     MultiSlotConfiguration "{5A60D38E3D91D053}" {
-      NumSlots 6
-     }
-     MultiSlotConfiguration "{5A60D38E3DE4B1EA}" {
-      NumSlots 8
-     }
-     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
-      NumSlots 2
-     }
-     MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
-      NumSlots 1
-     }
-     MultiSlotConfiguration "{60E55E1381A7CBA3}" {
-      SlotTemplate InventoryStorageSlot Backpack {
-       Enabled 0
-      }
-     }
-     MultiSlotConfiguration "{60E55E1381A7CBA6}" {
-      NumSlots 4
-     }
-    }
-   }
-  }
-  coords 6523.058 361.531 6399.728
-  angleX 6.393
-  angleY -5.99
-  angleZ 1.12
+  coords 6520.141 362.684 6411.312
+  angleX 5.425
+  angleY -11.618
+  angleZ -0.204
  }
+ BTR70_Ses_ChDKZ2 {
+  coords 6519.915 364.501 6440.055
+  angleX 0.887
+  angleY 7.746
+  angleZ 0.121
+ }
+}
+Vehicle Ural4320_Ses_ChDKZ_command1 : "{2B8531515FF1FC34}Prefabs/Vehicles/Wheeled/Ural4320/Ses_ChDKZ/Ural4320_Ses_ChDKZ_command.et" {
+ coords 6531.862 357.122 6361.063
+ angleX 6.477
+ angleY -12.338
+ angleZ 0.407
 }
 Vehicle UH1H_armedUSMC1 : "{38C8F7030A1740B9}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armedUSMC.et" {
- coords 2033.199 228.254 9894.443
- angleX -2.681
- angleY -0.084
- angleZ 1.792
+ coords 2015.696 228.656 9774.759
+ angleY 179.329
 }
-Vehicle BTR70_Ses_CDF1 : "{52441D784D145D52}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF.et" {
- components {
-  SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
-   MultiSlots {
-    MultiSlotConfiguration "{5A60D38E3CF4827A}" {
-     NumSlots 4
-    }
-    MultiSlotConfiguration "{5A60D38E3DAEB055}" {
-     NumSlots 4
-    }
-    MultiSlotConfiguration "{5A60D38E3D91D053}" {
-     NumSlots 6
-    }
-    MultiSlotConfiguration "{5A60D38E3DE4B1EA}" {
-     NumSlots 6
-    }
-    MultiSlotConfiguration "{5A60D38E3DCB490D}" {
-     NumSlots 2
-    }
-    MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
-     SlotTemplate InventoryStorageSlot PKMammunition {
-      Enabled 0
-     }
-    }
-    MultiSlotConfiguration "{60E55E1361A6658C}" {
-     SlotTemplate InventoryStorageSlot Backpack {
-      Enabled 0
-     }
-    }
-    MultiSlotConfiguration "{60E55E1361A665B6}" {
-     NumSlots 4
-    }
-   }
-  }
- }
+Vehicle BTR70_Ses_CDF2 : "{52441D784D145D52}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF.et" {
  coords 7056.384 296.677 7743.712
  angleX 4.311
  angleY -111.664
  angleZ 1.171
 }
 Vehicle UAZ469_uncovered_Ses_ChDKZ1 : "{6CC21EBAB10F2A89}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Ses_ChDKZ.et" {
- coords 8606.595 342.312 7744.306
- angleY 154.261
+ coords 8607.202 342.287 7742.299
+ angleX -0.82
+ angleY 156.267
+ angleZ 0.36
 }
 $grp Vehicle : "{8918EDE86C8CB551}Prefabs/Vehicles/Wheeled/Ural4320/Ses_ChDKZ/Ural4320_Ses_ChDKZ_transport.et" {
  Ural4320_Ses_ChDKZ_transport1 {
-  coords 6532.128 357.183 6361.714
-  angleX 6.469
-  angleY -11.352
-  angleZ 0.519
+  coords 6525.617 359.953 6385.514
+  angleX 6.287
+  angleY -12.473
+  angleZ -0.477
  }
  Ural4320_Ses_ChDKZ_transport2 {
-  coords 8622.502 341.906 7710.009
-  angleY 155.154
+  coords 8642.273 343.405 7665.087
+  angleX 3.666
+  angleY 159.97
+  angleZ -0.385
  }
 }

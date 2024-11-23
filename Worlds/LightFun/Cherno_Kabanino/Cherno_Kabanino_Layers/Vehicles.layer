@@ -23,12 +23,6 @@ $grp Vehicle : "{160E1EDDBFFF8CFD}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_ChDKZ
   angleY -165.462
   angleZ 0.109
  }
- BTR70_Ses_ChDKZ5 {
-  coords 5778.748 319.294 8694.498
-  angleX -2.219
-  angleY -159.684
-  angleZ 4.735
- }
 }
 Vehicle Ural4320_Ses_ChDKZ_command1 : "{2B8531515FF1FC34}Prefabs/Vehicles/Wheeled/Ural4320/Ses_ChDKZ/Ural4320_Ses_ChDKZ_command.et" {
  coords 6987.312 358.136 9122.637
@@ -48,6 +42,18 @@ $grp Vehicle : "{3277F8B1FA06A2BC}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   angleX 0.247
   angleY 16.012
   angleZ -0.86
+ }
+ M1025_armed_M2HB_USAF3 {
+  coords 3602.548 297.117 8021.485
+  angleX 0.864
+  angleY 15.091
+  angleZ 0.233
+ }
+ M1025_armed_M2HB_USAF4 {
+  coords 3594.174 297.037 7993.484
+  angleX 0.466
+  angleY 15.09
+  angleZ -1.728
  }
 }
 Vehicle M923A1_command1 : "{36BDCC88B17B3BFA}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command.et" {
@@ -70,6 +76,21 @@ Vehicle Ural4320_Ses_ChDKZ_repair1 : "{4D26B4451552089C}Prefabs/Vehicles/Wheeled
  angleY 23.989
  angleZ -3.901
 }
+Vehicle M1025_armed_Mk19_f1 : "{5C54423CC80D1C96}Prefabs/Vehicles/Wheeled/M998/M1025_armed_Mk19_f.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5B1070686F48F485}" {
+     NumSlots 8
+    }
+   }
+  }
+ }
+ coords 3607.881 297.232 8001.091
+ angleX 0.27
+ angleY 57.324
+ angleZ -1.237
+}
 Vehicle M923A1_transport_covered1 : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
  coords 3557.241 297.656 7878.049
  angleX -0.854
@@ -81,32 +102,6 @@ Vehicle Ural4320_Ses_ChDKZ_tanker1 : "{8FA5357DC2F8597A}Prefabs/Vehicles/Wheeled
  angleX -2.62
  angleY 22.532
  angleZ -3.02
-}
-$grp Vehicle : "{CC55611936C21F25}Prefabs/Vehicles/Wheeled/M998/M1025_USAF.et" {
- M1025_USAF1 {
-  coords 3583.683 296.885 7958.996
-  angleX -0.561
-  angleY 18.711
-  angleZ -1.135
- }
- M1025_USAF3 {
-  coords 3594.174 297.037 7993.484
-  angleX 0.466
-  angleY 15.09
-  angleZ -1.728
- }
- M1025_USAF2 {
-  coords 3575.43 296.851 7931.527
-  angleX -0.863
-  angleY 15.321
-  angleZ -0.236
- }
- M1025_USAF4 {
-  coords 3602.548 297.117 8021.485
-  angleX 0.864
-  angleY 15.091
-  angleZ 0.233
- }
 }
 Vehicle M923A1_transport1 : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et" {
  coords 3566.698 297.152 7906.25
@@ -124,5 +119,17 @@ $grp Vehicle : "{FA6820A9A52CD05B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   angleX 0.262
   angleY 17.052
   angleZ -0.856
+ }
+ M1025_armed_M2HB_MDO_USAF3 {
+  coords 3583.683 296.885 7958.996
+  angleX -0.561
+  angleY 18.711
+  angleZ -1.135
+ }
+ M1025_armed_M2HB_MDO_USAF4 {
+  coords 3575.43 296.851 7931.527
+  angleX -0.863
+  angleY 15.321
+  angleZ -0.236
  }
 }

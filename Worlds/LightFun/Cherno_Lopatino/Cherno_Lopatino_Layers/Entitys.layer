@@ -8,7 +8,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
    m_sInitialStartingWeatherId "Cloudy"
   }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 12
+   m_iStartingHours 14
    m_iStartingMinutes 15
   }
  }
@@ -19,8 +19,4 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  m_iFreezeTime 300000
  m_bDisableChat 1
  m_bReserveSlots 1
-}
-GenericEntity : "{61980E6F3CA71107}Prefabs/Items/Cats/Dingus.et" {
- coords 5191.273 358.448 8579.192
- angleY -61.385
 }

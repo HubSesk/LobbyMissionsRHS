@@ -1,7 +1,5 @@
 SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
 }
-DestructionManager : "{E5B570B5F32A7BAE}Prefabs/Systems/Destruction/DestructionManager.et" {
-}
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
@@ -22,34 +20,9 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  m_bReserveSlots 1
 }
 SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
- coords 2036.12 229.126 9896.979
- m_fZoneRadius 90
- m_fZoneTeleportedRadius 110
-}
-$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
- {
-  m_sTitle "Часовня защищена"
-  m_sFactionKey "Ses_CDF"
- }
- {
-  m_sTitle "Часовня захвачена"
-  m_sFactionKey "Ses_ChDKZ"
- }
- {
-  m_sTitle "Вынесен 1 документ"
-  m_iScore 35
-  m_sFactionKey "RHS_USAF"
- }
- {
-  m_sTitle "Вынесено 2 документа"
-  m_iScore 35
-  m_sFactionKey "RHS_USAF"
- }
- {
-  m_sTitle "Вынесено 3 документа"
-  m_iScore 35
-  m_sFactionKey "RHS_USAF"
- }
+ coords 2016.194 229.126 9777.415
+ m_fZoneRadius 150
+ m_fZoneTeleportedRadius 175
 }
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  {

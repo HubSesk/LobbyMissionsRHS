@@ -44,23 +44,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
   m_bShowForAnyFaction 1
  }
- Ses_ChDKZ_G_210_M {
-  coords 5791.34 319.285 8719.887
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "armored"
-  m_fWorldSize 45
-  m_sDescription "(Передовая (БТР)) Компас-21"
-  m_bUseWorldScale 0
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 0
-  m_bShowForAnyFaction 1
- }
  Ses_ChDKZ_G_200_M {
-  coords 5784.522 319.285 8726.181
+  coords 5784.522 319.694 8726.181
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -156,7 +141,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 1 1 1 1
   m_sQuadName "anti-armor-motorized"
   m_fWorldSize 35
-  m_sDescription "(Humvee) Атлас Уайт 1"
+  m_sDescription "(Humvee M2) Атлас Уайт 1"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -171,7 +156,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 1 1 1 1
   m_sQuadName "anti-armor-motorized"
   m_fWorldSize 35
-  m_sDescription "(Humvee) Атлас Уайт 2"
+  m_sDescription "(Humvee M2) Атлас Уайт 2"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -186,7 +171,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 1 1 1 1
   m_sQuadName "anti-armor-motorized"
   m_fWorldSize 35
-  m_sDescription "(Humvee Optic) Атлас Блю 1"
+  m_sDescription "(Humvee M2 Optic) Атлас Блю 1"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -201,7 +186,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 1 1 1 1
   m_sQuadName "anti-armor-motorized"
   m_fWorldSize 35
-  m_sDescription "(Humvee Optic) Атлас Блю 2"
+  m_sDescription "(Humvee M2 Optic) Атлас Блю 2"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -346,25 +331,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  {
-  coords 5778.748 319.294 8694.498
-  angleX -2.219
-  angleY -69.684
-  angleZ 4.735
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.855 0.031 0.028 1
-  m_sQuadName "APC"
-  m_fWorldSize 4
-  m_sDescription "#AR-Vehicle_BTR70_Name"
-  m_bUseWorldScale 1
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   1
-  }
-  m_iZOrder 0
-  m_bShowForAnyFaction 1
- }
- {
   coords 3581.019 296.828 7950.477
   angleX 0.262
   angleY 107.052
@@ -430,82 +396,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sQuadName "Car"
   m_fWorldSize 4
   m_sDescription "#AR-Vehicle_M1025_M2_Name"
-  m_bUseWorldScale 1
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   1
-  }
-  m_iZOrder 0
-  m_bShowForAnyFaction 1
- }
- {
-  coords 3583.683 296.885 7958.996
-  angleX -0.561
-  angleY 108.711
-  angleZ -1.135
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.016 0.552 0.905 1
-  m_sQuadName "Car"
-  m_fWorldSize 4
-  m_sDescription "#AR-Vehicle_M1025_Name"
-  m_bUseWorldScale 1
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   1
-  }
-  m_iZOrder 0
-  m_bShowForAnyFaction 1
- }
- {
-  coords 3575.43 296.851 7931.527
-  angleX -0.863
-  angleY 105.321
-  angleZ -0.236
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.016 0.552 0.905 1
-  m_sQuadName "Car"
-  m_fWorldSize 4
-  m_sDescription "#AR-Vehicle_M1025_Name"
-  m_bUseWorldScale 1
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   1
-  }
-  m_iZOrder 0
-  m_bShowForAnyFaction 1
- }
- {
-  coords 3594.174 297.037 7993.484
-  angleX 0.466
-  angleY 105.09
-  angleZ -1.728
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.016 0.552 0.905 1
-  m_sQuadName "Car"
-  m_fWorldSize 4
-  m_sDescription "#AR-Vehicle_M1025_Name"
-  m_bUseWorldScale 1
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   1
-  }
-  m_iZOrder 0
-  m_bShowForAnyFaction 1
- }
- {
-  coords 3602.548 297.117 8021.485
-  angleX 0.864
-  angleY 105.091
-  angleZ 0.233
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.016 0.552 0.905 1
-  m_sQuadName "Car"
-  m_fWorldSize 4
-  m_sDescription "#AR-Vehicle_M1025_Name"
   m_bUseWorldScale 1
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -658,6 +548,114 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    1
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 3602.352 296.878 8021.315
+  angleX 0.247
+  angleY 106.012
+  angleZ -0.86
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 4
+  m_sDescription "#AR-Vehicle_M1025_M2_Name"
+  m_bUseWorldScale 1
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 3594.018 296.453 7993.437
+  angleX 0.74
+  angleY 106.005
+  angleZ -2.58
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 4
+  m_sDescription "#AR-Vehicle_M1025_M2_Name"
+  m_bUseWorldScale 1
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 3583.579 296.698 7958.822
+  angleX 0.262
+  angleY 107.052
+  angleZ -0.856
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 4
+  m_sDescription "#AR-Vehicle_M1025_M2_Name #RHS-Item_SU260P_Name"
+  m_bUseWorldScale 1
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 3575.184 296.906 7931.373
+  angleY 106.308
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 4
+  m_sDescription "#AR-Vehicle_M1025_M2_Name #RHS-Item_SU260P_Name"
+  m_bUseWorldScale 1
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 3607.881 297.232 8001.091
+  angleX 0.27
+  angleY 147.324
+  angleZ -1.237
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 4
+  m_sDescription "M1025 with Mk19 GL"
+  m_bUseWorldScale 1
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ RHS_USAF_G_220_M {
+  coords 3609.539 297.356 7997.133
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "mortar"
+  m_fWorldSize 35
+  m_sDescription "(Humvee Mk19) Хаос Блю 1"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
   }
   m_iZOrder 0
   m_bShowForAnyFaction 1
