@@ -1,0 +1,54 @@
+$grp StaticModelEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et" {
+ {
+  coords 2218.401 265.344 11106.39
+  angleY 48.719
+ }
+ {
+  coords 2219.316 265.344 11105.355
+  angleY 48.719
+ }
+ {
+  coords 2220.235 265.344 11104.314
+  angleY 48.719
+ }
+ {
+  coords 2221.129 265.344 11103.276
+  angleY 48.719
+ }
+}
+$grp Vehicle : "{9C1CFC294070828D}Prefabs/Vehicles/Wheeled/S105/S105_darkblue_NAPA.et" {
+ S105_darkblue_NAPA1 {
+  coords 2214.903 265.254 11115.589
+  angleY -145.687
+ }
+ S105_darkblue_NAPA2 {
+  coords 2205.94 265.164 11117.52
+  angleY 178.775
+ }
+ S105_darkblue_NAPA3 {
+  coords 2191.933 264.45 11063.194
+  angleY 110.813
+ }
+}
+$grp Vehicle : "{EB326E661D5C857D}Prefabs/Vehicles/Wheeled/S105/S105_darkbrown_NAPA.et" {
+ S105_darkbrown_NAPA1 {
+  coords 2217.865 265.342 11111.263
+  angleY -116.082
+ }
+ S105_darkbrown_NAPA3 {
+  coords 2195.111 265.27 11108.704
+  angleY -12.506
+ }
+ S105_darkbrown_NAPA4 {
+  coords 2224.682 268.429 11122.721
+  angleY -145.789
+ }
+}
+$grp Vehicle : "{F6B23D17D5067C11}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB.et" {
+ M151A2_M2HB1 {
+  coords 2215.529 265.669 11084.769
+ }
+ M151A2_M2HB2 {
+  coords 2212.736 265.577 11084.628
+ }
+}

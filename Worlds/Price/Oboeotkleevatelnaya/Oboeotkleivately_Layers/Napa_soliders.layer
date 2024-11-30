@@ -1,0 +1,112 @@
+$grp SCR_AIGroup : "{877F196BC06EF9B7}Prefabs/Groups/INDFOR/Ses_NAPA/Group_NAPA_RifleSquad.et" {
+ "(Команда \"А\") Ses_NAPA_G_002_6" {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{62FC66F2595F1311}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2217.964 265.312 11102.709
+  angleY 54.748
+  m_aUnitPrefabSlots {
+   "{D6151C32A8CF721B}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_SL_Poor.et" "{C04C3228140A6689}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_Rifleman3_Poor.et" "{19C264F6418C65E5}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_Medic_Poor.et" "{25DDDE6E20BE0A4F}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_LAT_Poor.et" "{1545B3B53A67328A}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_GL_Poor.et" "{1545B3B53A67328A}Prefabs/Characters/Factions/INDFOR/NAPA/Poor/Character_NAPA_GL_Poor.et"
+  }
+  m_sCustomNameSet "Команда \"А\""
+ }
+ Ses_NAPA_G_010_7 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{62FC66F256292D43}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
+   }
+  }
+  coords 2208.642 265.399 11100.48
+  angleY -94.945
+  m_aUnitPrefabSlots {
+   "{957AB0262D5C95C2}Prefabs/Characters/Factions/INDFOR/NAPA/Random/Character_NAPA_SL_Random.et" "{7C5AD64975E12DF1}Prefabs/Characters/Factions/INDFOR/NAPA/Random/Character_NAPA_MG_Random.et" "{A8D244516C77BA60}Prefabs/Characters/Factions/INDFOR/NAPA/Random/Character_NAPA_AMG_Random.et" "{7367CE2391F2ABC1}Prefabs/Characters/Factions/INDFOR/NAPA/Random/Character_NAPA_AT_Random.et" "{A8754213564D18F8}Prefabs/Characters/Factions/INDFOR/NAPA/Random/Character_NAPA_Rifleman_AK74_Random.et" "{5CA100C5368665B7}Prefabs/Characters/Factions/INDFOR/NAPA/Random/Character_NAPA_Rifleman_VZ_Random.et"
+  }
+ }
+ Ses_NAPA_G_011_7 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{62FC66F254ED37AC}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2213.625 265.661 11070.666
+  angleY -92.935
+ }
+ Ses_NAPA_G_012_7 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{62FC66F255B9301E}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2197.403 265.394 11098.762
+  angleY 77.604
+ }
+ Ses_NAPA_G_020_7 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{62FC66F25289717A}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 0
+   }
+  }
+  coords 2214.257 265.746 11080.058
+  angleY -16.73
+ }
+}
+SCR_AIGroup Ses_NAPA_G_021_2 : "{D09C400AFF0C0D71}Prefabs/Groups/INDFOR/Ses_NAPA/Group_NAPA_MachineGunTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+  PS_GroupCallsignAssigner "{62FC66F25307EB42}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 2
+   m_iSquadCallsign 1
+  }
+ }
+ coords 2199.395 265.482 11091.109
+ angleX -0.064
+ angleY 85.916
+ angleZ -0.893
+}
+SCR_AIGroup Ses_NAPA_G_001_3 : "{E085F8818A48E44C}Prefabs/Groups/INDFOR/Ses_NAPA/Group_NAPA_PlatoonHQ.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+  PS_GroupCallsignAssigner "{62FC66F258ABC17F}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 2230.74 265.484 11090.145
+ angleY -84
+ m_aUnitPrefabSlots {
+  "{6AA0ED72ADA80584}Prefabs/Characters/Factions/INDFOR/NAPA/Random/Character_NAPA_PL_Random.et" "{683444E44FA230D1}Prefabs/Characters/Factions/INDFOR/NAPA/Random/Character_NAPA_Rifleman_AKSU_Random.et" "{38762D49DF784A94}Prefabs/Characters/Factions/INDFOR/NAPA/Random/Character_NAPA_Medic_Random.et"
+ }
+}

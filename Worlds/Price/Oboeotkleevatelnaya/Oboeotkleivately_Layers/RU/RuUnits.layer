@@ -1,0 +1,101 @@
+SCR_AIGroup RHS_AFRF_G_001_1 : "{BA8CA45F6B252004}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_PlatoonHQ.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{62FC66F26396F151}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 4739.913 338.154 10404.74
+ angleY 60.528
+ m_aUnitPrefabSlots {
+  "{33B19F3D12CDDA74}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_PL_Random.et"
+ }
+}
+$grp SCR_AIGroup : "{F6CEAA1D2B0A7ED0}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_RifleSquad.et" {
+ RHS_AFRF_G_002_10 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{62FC66F261F1D256}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 2
+   }
+  }
+  coords 4748.537 339.125 10389.865
+  m_aUnitPrefabSlots + {
+   "{A5548567111B86FD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AR_Random.et" "{234A37EC8608DFAC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_Rifleman_Random.et" "{0848BAB1B94FCBBA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew.et" "{0848BAB1B94FCBBA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew.et"
+  }
+ }
+ RHS_AFRF_G_010_10 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{62FC66F25EDE71D0}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 0
+   }
+  }
+  coords 4748.586 339.125 10386.965
+  m_aUnitPrefabSlots + {
+   "{A5548567111B86FD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AR_Random.et" "{234A37EC8608DFAC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_Rifleman_Random.et" "{0848BAB1B94FCBBA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew.et" "{0848BAB1B94FCBBA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew.et"
+  }
+ }
+ RHS_AFRF_G_011_10 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{62FC66F25FCF885F}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4748.493 339.125 10383.758
+  m_aUnitPrefabSlots + {
+   "{A5548567111B86FD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AR_Random.et" "{234A37EC8608DFAC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_Rifleman_Random.et" "{0848BAB1B94FCBBA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew.et" "{0848BAB1B94FCBBA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew.et"
+  }
+ }
+ RHS_AFRF_G_012_10 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{62FC66F25CCF9452}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 4730.372 339.125 10415.022
+  angleY 87.961
+  m_aUnitPrefabSlots + {
+   "{A5548567111B86FD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AR_Random.et" "{234A37EC8608DFAC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_Rifleman_Random.et" "{0848BAB1B94FCBBA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew.et" "{0848BAB1B94FCBBA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew.et"
+  }
+ }
+ RHS_AFRF_G_020_10 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{62FC66F25D7F9F31}" {
+    m_iCompanyCallsign 0
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 0
+   }
+  }
+  coords 4726.432 339.125 10415.204
+  angleY 87.961
+  m_aUnitPrefabSlots + {
+   "{A5548567111B86FD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AR_Random.et" "{234A37EC8608DFAC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_Rifleman_Random.et" "{0848BAB1B94FCBBA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew.et" "{0848BAB1B94FCBBA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Crew.et"
+  }
+ }
+}
