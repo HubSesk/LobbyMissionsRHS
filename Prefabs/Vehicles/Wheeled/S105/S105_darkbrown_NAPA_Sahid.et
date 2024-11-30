@@ -20,12 +20,14 @@ Vehicle : "{DA79E34823120087}Prefabs/Vehicles/Wheeled/S105/S105_base.et" {
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     EntitySlotInfo Mine {
-     Offset 0 0.3932 2.2002
-     Angles -90.2531 180 -180
+     PivotID "v_body"
+     Offset -0.0009 -1.9546 0.1214
+     Angles 0 180 -180
      Prefab "{EFEBA9EB410F08E1}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62MHehe_Vzvedennaya.et"
     }
    }
   }
  }
- coords 2213.175 265.312 11109.181
+ coords 2219.321 265.333 11112.757
+ angleY -133.56
 }
