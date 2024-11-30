@@ -39,10 +39,22 @@ $grp Vehicle : "{35D71FBBC41EF23B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   angleY -48.902
   angleZ -0.588
  }
+ M1025_armed_M2HB_Ses_CDF3 {
+  coords 1974.669 228.344 9872.685
+  angleY 139.792
+ }
 }
-Vehicle APC_K17_Epoch_camo1 : "{3918E80DF5393F8C}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_camo1.et" {
- coords 4879.225 339.062 10312.196
- angleY -118.41
+$grp Vehicle : "{3918E80DF5393F8C}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_camo1.et" {
+ APC_K17_Epoch_camo1 {
+  coords 4879.225 339.062 10312.196
+  angleY -118.41
+ }
+ APC_K17_Epoch_camo2 {
+  coords 4871.097 339.05 10343.731
+  angleX 1.223
+  angleY -120.019
+  angleZ 0.327
+ }
 }
 Vehicle BTR70_Ses_CDF1 : "{52441D784D145D52}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF.et" {
  coords 1990.417 228.49 9865.107
@@ -55,12 +67,6 @@ Vehicle M1025_armed_Mk19_f1 : "{5C54423CC80D1C96}Prefabs/Vehicles/Wheeled/M998/M
  angleX 2.671
  angleY -21.545
  angleZ -2.974
-}
-RHS_Tank Tank_T14_camo1 : "{9057DDA3E3FAA03B}Prefabs/Vehicles/Tracked/T14/Tank_T14_camo.et" {
- coords 4870.465 339.058 10343.821
- angleX 1.24
- angleY -123.438
- angleZ 0.254
 }
 Vehicle Ural4320_repair_camo1 : "{BED355ED51A1E859}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair_camo1.et" {
  coords 4857.98 339.094 10279.786

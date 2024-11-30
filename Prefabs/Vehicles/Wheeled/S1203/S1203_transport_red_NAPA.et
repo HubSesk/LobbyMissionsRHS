@@ -1,0 +1,21 @@
+Vehicle : "{D7663936ABF75FB0}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_Image "{2D2FB86BAE7FF2F4}UI/Textures/EditorPreviews/Vehicles/Wheeled/S1203/S1203_red.edds"
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_NAPA"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Rear_seat {
+     MergePhysics 1
+     Prefab "{8DD24C2736DCB16D}Prefabs/Vehicles/Wheeled/S1203/VehParts/S1203_rear_seats.et"
+    }
+   }
+  }
+ }
+}

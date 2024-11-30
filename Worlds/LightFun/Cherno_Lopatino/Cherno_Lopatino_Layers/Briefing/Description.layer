@@ -9,8 +9,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Сведения ЧСО"
   m_sTextData "По данным разведки удалось узнать:"\
   ""\
-  "- У противника есть К-17 \"Бумеранг\""\
-  "- У противника есть Т-14"\
+  "- У противника есть 2 К-17 \"Бумеранг\""\
   "- У нас есть отделение поддержки, которые должны привезти трубы для обороны"\
   "- КМП США нам союзники"
   m_aVisibleForFactions {
@@ -28,8 +27,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Сведения КМП США"
   m_sTextData "По данным разведки удалось узнать:"\
   ""\
-  "- У противника есть К-17 \"Бумеранг\""\
-  "- У противника есть Т-14"\
+  "- У противника есть 2 К-17 \"Бумеранг\""\
   "- ЧСО нам союзники"
   m_aVisibleForFactions {
    "RHS_USAF"
@@ -37,9 +35,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  }
  {
   m_sTitle "Задачи КМП США"
-  m_sTextData "- Уничтожить/захватить К-17"\
-  ""\
-  "- Уничтожить/захватить Т-14"
+  m_sTextData "- Уничтожить/захватить 2 К-17"
   m_aVisibleForFactions {
    "RHS_USAF"
   }

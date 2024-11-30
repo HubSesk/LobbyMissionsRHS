@@ -1,0 +1,26 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_InitWeatherComponent "{61B68227C35BFE9A}" {
+   m_sInitialStartingWeatherId "Overcast"
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 15
+   m_iStartingMinutes 15
+  }
+ }
+ m_fAutoReloadTime 300
+ m_bMarkersOnlyOnBriefing 1
+ m_bRemoveRedundantUnits 1
+ m_bRemoveSquadMarkers 1
+ m_iFreezeTime 300000
+ m_bDisableChat 1
+ m_bReserveSlots 1
+}
+GenericEntity : "{61980E6F3CA71107}Prefabs/Items/Cats/Dingus.et" {
+ coords 4722.873 271.613 6783.505
+ angleY 2.741
+}
