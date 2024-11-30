@@ -1,18 +1,4 @@
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- BluStart {
-  coords 8154.673 412.464 10136.875
-  angleX -7.64
-  angleY 91.682
-  angleZ -12.451
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
-  m_MarkerColor 0 0.125 0.502 1
-  m_sQuadName "Undefined-blufor"
-  m_fWorldSize 35
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_USAF"
-  }
- }
  NapaCamp {
   coords 7432.893 388.358 9015.225
   m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
