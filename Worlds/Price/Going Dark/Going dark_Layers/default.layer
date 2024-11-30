@@ -1,0 +1,12 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 7305.599 393.587 9745.246
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ coords 7166.465 384.273 9656.529
+ m_bMarkersOnlyOnBriefing 1
+ m_bRemoveRedundantUnits 1
+ m_bRemoveSquadMarkers 1
+ m_iFreezeTime 200000
+ m_bDisableChat 1
+ m_bReserveSlots 1
+}

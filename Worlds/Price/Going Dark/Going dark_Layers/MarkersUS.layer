@@ -1,0 +1,50 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ RHS_USAF_G_001_M {
+  coords 5678.768 316.728 9252.315
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Atlas Red 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ RHS_USAF_G_002_M {
+  coords 8164.382 410.502 10124.799
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Atlas Red 3"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ RHS_USAF_G_010_M {
+  coords 8158.525 409.918 10139.69
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Atlas White 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+}
