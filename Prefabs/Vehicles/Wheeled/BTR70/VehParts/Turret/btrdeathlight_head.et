@@ -1,7 +1,11 @@
 GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/LampTower_01.et" {
  ID "5111E74D4E7A8DB6"
  components {
-  ParametricMaterialInstanceComponent "{5F1AD8DAD19F707F}" {
+  ParametricMaterialInstanceComponent "{62FCC66388C38D32}" {
+  }
+  RigidBody "{5111E74C06F5C1E1}" {
+   ModelGeometry 0
+   Static 0
   }
   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
    Enabled 1
@@ -10,11 +14,10 @@ GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/LampTowe
    Enabled 1
   }
  }
- coords 7409.666 394.684 9389.405
- Flags 3
+ coords 7413.391 390.519 9369.512
  {
   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
-   ID "6128C35E6993506F"
+   ID "62FCC66388C38D3D"
    components {
     StreetLampComponent "{55A0954A909C9109}" {
      Enabled 0

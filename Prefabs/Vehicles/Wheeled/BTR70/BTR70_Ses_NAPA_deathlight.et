@@ -117,7 +117,7 @@ Vehicle : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo Turret {
-     Prefab "{783CECD743678855}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret_Old_napa_deathlight.et"
+     Prefab "{783CECD743678855}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret_Old_Napa_deathlight.et"
     }
     RegisteringComponentSlotInfo AmmoStorage {
      PivotID "v_root"
@@ -138,4 +138,5 @@ Vehicle : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
    StartNode "VehicleMasterControl"
   }
  }
+ coords 7407.117 391.636 9389.888
 }

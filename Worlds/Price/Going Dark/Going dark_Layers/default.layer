@@ -2,6 +2,19 @@ SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
  coords 7305.599 393.587 9745.246
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 23
+   m_iStartingMinutes 50
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{62FCD86741E5D196}" {
+     m_sWeatherPresetName "Overcast"
+     m_iStartingHour 23
+     m_iStartingMinutes 59
+    }
+   }
+  }
+ }
  coords 7166.465 384.273 9656.529
  m_bMarkersOnlyOnBriefing 1
  m_bRemoveRedundantUnits 1

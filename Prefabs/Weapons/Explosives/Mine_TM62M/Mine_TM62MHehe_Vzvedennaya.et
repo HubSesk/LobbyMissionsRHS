@@ -6,12 +6,13 @@ GenericEntity : "{CCC00D009D4949B0}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM
    m_bCanAttachAngled 1
   }
   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+   m_bLive 1
    m_sFuzeMeshName "Mine_Fuse_TM_62M"
   }
-  SCR_MineAnimationComponent "{62FC66F68DACBA52}" {
+  SCR_MineAnimationComponent "{62FCD8649D418B1B}" {
    AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
    AnimInstance "{95992E047B24E710}Assets/Weapons/Explosives/workspace/TM62M_weapon.asi"
-   AnimInjection AnimationAttachmentInfo "{62FC66F68DACBA48}" {
+   AnimInjection AnimationAttachmentInfo "{62FCD8649D418B10}" {
     AnimGraph "{61DD6C3BDA7D48F5}Assets/Weapons/Explosives/workspace/mine_TM62M.agr"
     AnimInstance "{6EC7BF35E32583FC}Assets/Weapons/Explosives/workspace/TM62M_player.asi"
     BindingName "Heavy"
@@ -19,14 +20,14 @@ GenericEntity : "{CCC00D009D4949B0}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM
    BindWithInjection 1
    AutoVariablesBind 1
    MeshVisibilityConfigurations {
-    MeshesVisibilitySwitchConfig "{62FC66F68DACBA41}" {
+    MeshesVisibilitySwitchConfig "{62FCD8649D418B08}" {
      Event "ShowFuze"
      Meshes {
       "Mine_Fuse_TM_62M" "TM_62M_pin"
      }
      HideMesh 0
     }
-    MeshesVisibilitySwitchConfig "{62FC66F68DACBABF}" {
+    MeshesVisibilitySwitchConfig "{62FCD8649D418B06}" {
      Event "HidePin"
      Meshes {
       "TM_62M_pin"
@@ -35,5 +36,5 @@ GenericEntity : "{CCC00D009D4949B0}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM
    }
   }
  }
- coords 2219.457 266.323 11105.142
+ coords 2211.73 265.278 11111.963
 }
