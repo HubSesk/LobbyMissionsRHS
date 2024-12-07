@@ -4,7 +4,7 @@ AudioClass {
    id 5129
    name "SOUND_VOICE"
    version 5
-   tl 275.347 -8.518
+   tl 275.347 -10.74
    ins {
     ConnectionsClass connections {
      id 64
@@ -41,7 +41,7 @@ AudioClass {
     }
    }
    pi {
-    49408 0
+    49152 0
    }
    path "{B764D803219C775E}Sounds/FinalMix.afm"
    inputs {
@@ -54,7 +54,7 @@ AudioClass {
    id 4100
    name "VoiceBank"
    version 7
-   tl 79.827 -1.588
+   tl 79.827 0.634
    Samples {
     AudioBankSampleClass Sample {
      Filename "{E6EA9A926AAEEC0B}MissionAudio/EpicEbashilovo/audiocutsene.wav"

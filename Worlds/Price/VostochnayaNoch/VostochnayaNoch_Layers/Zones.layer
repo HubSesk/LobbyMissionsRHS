@@ -1,5 +1,5 @@
 SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
- coords 184.382 202.699 2178.812
+ coords 277.711 291.405 2668.494
 }
 PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
  components {
@@ -34,6 +34,17 @@ $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/Restri
  {
   coords 1078.419 169.104 1194.118
  }
+}
+GameEntity : "{EC645B2E2123131F}Prefabs/Props/Civilian/LampKerosene_01/LampKerosene_01_blue.et" {
+ components {
+  SCR_BaseInteractiveLightComponent "{58C4C3C542898CFB}" {
+   Enabled 1
+  }
+ }
+ coords 394.497 289.945 2668.813
+ angleX 9.178
+ angleY 20.704
+ angleZ -3.865
 }
 SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
  coords 2129.324 166.812 1280.776
