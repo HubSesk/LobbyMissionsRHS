@@ -1,122 +1,8 @@
-GenericEntity : "{0228B8EFBA99AC1D}Prefabs/Weapons/Misc/SpectrumDevice/Device_SpectrumDevice_base.et" {
- coords 282.064 290.669 2658.124
- angleX 66.393
- angleY -138.147
- angleZ -90.9
-}
-$grp StaticModelEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et" {
- {
-  coords 280.486 290.093 2656.573
-  angleY -47.428
- }
- {
-  coords 281.407 290.091 2657.594
-  angleY -47.731
- }
-}
-GenericEntity : "{261A5DAA1C3ED165}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_NT4_Peq_Acog.et" {
- coords 280.959 291.011 2657.321
- angleZ 84.889
-}
-$grp GameEntity : "{2B10341C641EC041}Prefabs/Items/Equipment/Thermals/PATROL_IR/Thermal_PatrolIr.et" {
- {
-  coords 281.568 290.99 2658.065
- }
- {
-  coords 281.756 290.99 2657.977
-  angleY 51.561
- }
- {
-  coords 281.357 290.99 2657.906
-  angleY -16.179
- }
- {
-  coords 281.572 290.99 2657.725
-  angleY 30.685
- }
- {
-  coords 281.834 290.99 2657.712
-  angleY 99.261
- }
-}
-$grp GenericEntity : "{43BE2606813CD25A}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_TA31RCO_ARD_NT4_FLIR.et" {
- {
-  coords 279.907 290.73 2655.826
-  angleX 49.506
-  angleY 35.029
-  angleZ 84.441
- }
- {
-  coords 279.676 290.753 2656.079
-  angleX 49.506
-  angleY 35.029
-  angleZ 84.441
- }
-}
-$grp GenericEntity : "{46910ACCC67C2DF6}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_1_NT4_BLK.et" {
- {
-  coords 280.666 291.012 2656.738
-  angleZ -90.656
- }
- {
-  coords 280.321 291.008 2656.489
-  angleX -0.258
-  angleY -23.192
-  angleZ -90.603
- }
- {
-  coords 280.95 291.009 2656.551
-  angleX 0.447
-  angleY 42.988
-  angleZ -90.48
- }
-}
-GenericEntity : "{6883E434BD3306B8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_NT4_Peq_Aimpoint.et" {
- coords 280.781 290.684 2655.971
- angleX 56.793
- angleY -42.578
- angleZ 86.142
-}
 Vehicle M1025_armed_M2HB_PAS13G_USAF_D1 : "{7BC9C79CD8FD8CE7}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_PAS13G_USAF_D.et" {
  coords 295.606 289.524 2665.814
  angleX 2.261
  angleY -169.204
  angleZ -2.3
-}
-$grp GameEntity : "{9ECBF331E7F6EED3}Prefabs/Weapons/Attachments/Optics/mbus/mbus_tan_folding_sight_rear.et" {
- {
-  coords 281.148 290.99 2657.512
- }
- {
-  coords 281.207 290.99 2657.522
- }
- {
-  coords 281.258 290.99 2657.524
- }
- {
-  coords 281.324 290.99 2657.522
- }
- {
-  coords 281.395 290.99 2657.523
- }
- {
-  coords 281.391 290.99 2657.435
- }
- {
-  coords 281.441 290.99 2657.438
- }
- {
-  coords 281.489 290.99 2657.442
- }
- {
-  coords 281.324 290.99 2657.432
- }
-}
-GenericEntity : "{BAFB49BFD5975547}Prefabs/Props/Military/Arsenal/AmmoBoxes/NVGBOX_US.et" {
- coords 281.005 290.414 2657.92
- angleX -1.139
- angleY 132
- angleZ 0.52
 }
 Vehicle M1025_USAF_D1 : "{BC58478FE724BCEF}Prefabs/Vehicles/Wheeled/M998/M1025_USAF_D.et" {
  coords 265.601 290.865 2663.728
@@ -139,35 +25,6 @@ PS_ManualMarker RHS_ION_G_001_M : "{CD85ADE9E0F54679}PrefabsEditable/Markers/Edi
  m_aHideOnGameModeStates {
  }
  m_iZOrder 0
-}
-$grp GameEntity : "{CEF0704C814E32C5}Prefabs/Weapons/Attachments/Optics/mbus/mbus_tan_folding_sight_front.et" {
- {
-  coords 281.161 290.99 2657.556
- }
- {
-  coords 281.219 290.99 2657.566
- }
- {
-  coords 281.27 290.99 2657.57
- }
- {
-  coords 281.336 290.99 2657.569
- }
- {
-  coords 281.407 290.99 2657.57
- }
- {
-  coords 281.403 290.99 2657.482
- }
- {
-  coords 281.453 290.99 2657.485
- }
- {
-  coords 281.501 290.99 2657.489
- }
- {
-  coords 281.336 290.99 2657.479
- }
 }
 SCR_AIGroup RHS_ION_G_001_8 : "{E083B07479776B6A}Prefabs/Groups/INDFOR/ION/Group_ION.et" {
  components {
