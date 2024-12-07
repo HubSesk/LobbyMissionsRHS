@@ -1,113 +1,4 @@
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- Ses_TKA_G_020_M {
-  coords 9366.259 52.75 1468.19
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.784 0.17 0 1
-  m_sQuadName "infantry"
-  m_fWorldSize 45
-  m_sDescription "Alif-31"
-  m_bUseWorldScale 0
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 0
-  m_bShowForAnyFaction 1
- }
- Ses_TKA_G_010_M {
-  coords 9511.681 39.437 1400.004
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.784 0.17 0 1
-  m_sQuadName "infantry"
-  m_fWorldSize 45
-  m_sDescription "Alif-21"
-  m_bUseWorldScale 0
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 0
-  m_bShowForAnyFaction 1
- }
- Ses_TKA_G_000_M {
-  coords 9470.51 39.563 1431.09
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.784 0.17 0 1
-  m_sQuadName "signal"
-  m_fWorldSize 45
-  m_sDescription "(Командование) Alif-11"
-  m_bUseWorldScale 0
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 0
-  m_bShowForAnyFaction 1
- }
- Ses_TKA_G_001_M {
-  coords 9491.388 39.589 1405.367
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.784 0.17 0 1
-  m_sQuadName "infantry"
-  m_fWorldSize 45
-  m_sDescription "Alif-12"
-  m_bUseWorldScale 0
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 0
-  m_bShowForAnyFaction 1
- }
- Ses_TKA_G_110_M {
-  coords 9471.149 42.005 1384.438
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.784 0.17 0 1
-  m_sQuadName "armored"
-  m_fWorldSize 45
-  m_sDescription "(БТР) Batikh-21"
-  m_bUseWorldScale 0
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 0
-  m_bShowForAnyFaction 1
- }
- Ses_TKA_G_200_M {
-  coords 3504.316 214.177 531.162
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.784 0.17 0 1
-  m_sQuadName "helicopter-attack"
-  m_fWorldSize 45
-  m_sDescription "(Ми-8) Hamzah-11"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "Ses_TKA"
-  }
-  m_aHideOnGameModeStates {
-   3
-  }
-  m_iZOrder 0
- }
- Ses_TKA_G_210_M {
-  coords 3511.716 214.228 518.351
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.784 0.17 0 1
-  m_sQuadName "infantry-air"
-  m_fWorldSize 45
-  m_sDescription "(Десант) Hamzah-21"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "Ses_TKA"
-  }
-  m_aHideOnGameModeStates {
-   3
-  }
-  m_iZOrder 0
- }
  RHS_USAF_G_000_M {
   coords 8841.214 188.741 3704.074
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
@@ -497,5 +388,114 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_iZOrder 0
   m_bShowForAnyFaction 1
+ }
+ Ses_TKA_G_020_M {
+  coords 9366.259 52.75 1468.19
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "infantry"
+  m_fWorldSize 45
+  m_sDescription "Alif Abyad 1"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ Ses_TKA_G_010_M {
+  coords 9511.681 39.437 1400.004
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "infantry"
+  m_fWorldSize 45
+  m_sDescription "Alif Azraq 1"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ Ses_TKA_G_000_M {
+  coords 9470.51 39.563 1431.09
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "infantry"
+  m_fWorldSize 45
+  m_sDescription "(Командование) Alif Ahmr 1"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ Ses_TKA_G_001_M {
+  coords 9491.388 39.589 1405.367
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "infantry"
+  m_fWorldSize 45
+  m_sDescription "Alif Ahmr 2"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ Ses_TKA_G_110_M {
+  coords 9471.149 42.005 1384.438
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "infantry"
+  m_fWorldSize 45
+  m_sDescription "(БТР) Batikh Azraq 1"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ Ses_TKA_G_200_M {
+  coords 3504.316 214.177 531.162
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "infantry"
+  m_fWorldSize 45
+  m_sDescription "(Ми-8) Hamzah Ahmr 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
+ }
+ Ses_TKA_G_210_M {
+  coords 3511.716 214.228 518.351
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "infantry"
+  m_fWorldSize 45
+  m_sDescription "(Десант) Hamzah Azraq 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   3
+  }
+  m_iZOrder 0
  }
 }
