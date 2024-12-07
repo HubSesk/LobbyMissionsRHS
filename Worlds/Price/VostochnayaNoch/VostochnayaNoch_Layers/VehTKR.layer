@@ -1,0 +1,57 @@
+$grp Vehicle : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
+ UAZ469_PKM1 {
+  coords 1086.48 169.163 1182.719
+  angleY 116.734
+ }
+ UAZ469_PKM2 {
+  coords 1091.624 169.072 1180.318
+  angleY 116.734
+ }
+}
+GameEntity : "{1ABABE3551512B0A}Prefabs/Weapons/Attachments/Underbarrel/UGL_GP25.et" {
+ coords 1768.973 161.998 1321.939
+ angleX -0.762
+ angleY 42.356
+ angleZ 89.918
+}
+$grp Turret : "{3EA26CFD7A202636}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV_SPP.et" {
+ {
+  coords 1689.217 169.841 1402.393
+  angleY -62.075
+ }
+ {
+  coords 1786.63 167.628 1391.528
+  angleX 0.341
+  angleY 134.126
+  angleZ -0.4
+ }
+}
+Vehicle Ural4320_BanyaBochka1 : "{7B6BD15EC601BD8B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_BanyaBochka.et" {
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo Label_L {
+     Prefab ""
+    }
+    EntitySlotInfo Label_R {
+    }
+   }
+  }
+ }
+ coords 1078.902 169.25 1167.724
+ angleY 17.837
+}
+$grp Vehicle : "{D7C51A961BF675B2}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_brown.et" {
+ UAZ469_covered_CIV_brown1 {
+  coords 1096.854 168.924 1177.795
+  angleY 107.844
+ }
+ UAZ469_covered_CIV_brown2 {
+  coords 1768.55 161.111 1336.539
+  angleY 39.672
+ }
+ UAZ469_covered_CIV_brown3 {
+  coords 1771.454 161.125 1342.015
+  angleY 12.979
+ }
+}

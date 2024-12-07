@@ -1,0 +1,43 @@
+$grp GenericEntity : "{A95C4BA303CCB6F3}Prefabs/Items/Stuff/SecretDocuments.et" {
+ {
+  coords 1074.056 171.296 1240.571
+  {
+   PS_ManualMarker {
+    ID "5F2949136C2E0301"
+    m_aVisibleForFactions {
+     "RHS_ION"
+    }
+    m_aHideOnGameModeStates {
+     3
+    }
+   }
+  }
+ }
+ {
+  coords 1805.894 160.982 1355.546
+  {
+   PS_ManualMarker {
+    ID "5F2949136C2E0301"
+    m_aVisibleForFactions {
+     "RHS_ION"
+    }
+    m_aHideOnGameModeStates {
+     3
+    }
+   }
+  }
+ }
+}
+PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 811.176 157.51 3669.334
+ angleY 107.299
+ m_sImageSet "{8FC1CBD68DC626F6}UI/docs.edds"
+ m_sImageSetGlow ""
+ m_fWorldSize 750
+ m_aVisibleForFactions {
+  "RHS_ION"
+ }
+ m_aHideOnGameModeStates {
+  3
+ }
+}

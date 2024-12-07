@@ -1,0 +1,147 @@
+GenericEntity : "{0228B8EFBA99AC1D}Prefabs/Weapons/Misc/SpectrumDevice/Device_SpectrumDevice_base.et" {
+ coords 187.261 204.946 2166.794
+ angleX 66.393
+ angleY -138.147
+ angleZ -90.9
+}
+$grp StaticModelEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et" {
+ {
+  coords 185.616 204.599 2165.169
+  angleY -47.428
+ }
+ {
+  coords 186.537 204.597 2166.191
+  angleY -47.731
+ }
+}
+GenericEntity : "{261A5DAA1C3ED165}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_NT4_Peq_Acog.et" {
+ coords 186.089 205.517 2165.917
+ angleZ 84.889
+}
+$grp GameEntity : "{2B10341C641EC041}Prefabs/Items/Equipment/Thermals/PATROL_IR/Thermal_PatrolIr.et" {
+ {
+  coords 186.698 205.496 2166.663
+ }
+ {
+  coords 186.886 205.496 2166.574
+  angleY 51.561
+ }
+ {
+  coords 186.487 205.496 2166.502
+  angleY -16.179
+ }
+ {
+  coords 186.702 205.496 2166.323
+  angleY 30.685
+ }
+ {
+  coords 186.964 205.496 2166.308
+  angleY 99.261
+ }
+}
+$grp GenericEntity : "{43BE2606813CD25A}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_TA31RCO_ARD_NT4_FLIR.et" {
+ {
+  coords 185.144 205.455 2164.575
+  angleX 49.506
+  angleY 35.029
+  angleZ 84.441
+ }
+ {
+  coords 184.882 205.415 2164.784
+  angleX 49.506
+  angleY 35.029
+  angleZ 84.441
+ }
+}
+$grp GenericEntity : "{6883E434BD3306B8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_NT4_Peq_Aimpoint.et" {
+ {
+  coords 185.642 205.517 2165.265
+  angleZ 87.27
+ }
+ {
+  coords 185.365 205.52 2164.983
+  angleX -1.729
+  angleY -39.285
+  angleZ 87.887
+ }
+ {
+  coords 185.81 205.418 2164.677
+  angleX 56.793
+  angleY -42.578
+  angleZ 86.142
+ }
+ {
+  coords 186.076 205.319 2164.895
+  angleX 56.793
+  angleY -42.578
+  angleZ 86.142
+ }
+}
+Vehicle M1025_armed_M2HB_PAS13G_USAF_D1 : "{7BC9C79CD8FD8CE7}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_PAS13G_USAF_D.et" {
+ coords 185.667 203.544 2173.015
+ angleX -10.597
+ angleY -0.502
+ angleZ 2.73
+}
+$grp GameEntity : "{9ECBF331E7F6EED3}Prefabs/Weapons/Attachments/Optics/mbus/mbus_tan_folding_sight_rear.et" {
+ {
+  coords 186.278 205.496 2166.11
+ }
+ {
+  coords 186.337 205.496 2166.12
+ }
+ {
+  coords 186.388 205.496 2166.122
+ }
+ {
+  coords 186.454 205.496 2166.12
+ }
+ {
+  coords 186.525 205.496 2166.121
+ }
+ {
+  coords 186.521 205.496 2166.033
+ }
+}
+GenericEntity : "{BAFB49BFD5975547}Prefabs/Props/Military/Arsenal/AmmoBoxes/NVGBOX_US.et" {
+ coords 186.131 204.746 2166.499
+ angleX 5.848
+ angleY 132.064
+ angleZ -9.051
+}
+Vehicle M1025_USAF_D1 : "{BC58478FE724BCEF}Prefabs/Vehicles/Wheeled/M998/M1025_USAF_D.et" {
+ coords 190.041 203.638 2171.923
+ angleX -9.752
+}
+$grp GameEntity : "{CEF0704C814E32C5}Prefabs/Weapons/Attachments/Optics/mbus/mbus_tan_folding_sight_front.et" {
+ {
+  coords 186.291 205.496 2166.154
+ }
+ {
+  coords 186.349 205.496 2166.164
+ }
+ {
+  coords 186.4 205.496 2166.166
+ }
+ {
+  coords 186.466 205.496 2166.165
+ }
+ {
+  coords 186.537 205.496 2166.166
+ }
+ {
+  coords 186.533 205.496 2166.079
+ }
+}
+SCR_AIGroup : "{E083B07479776B6A}Prefabs/Groups/INDFOR/ION/Group_ION.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+ }
+ coords 179.337 204.748 2170.484
+ angleY 110.758
+ m_aUnitPrefabSlots {
+  "{EDECFE7965364081}Prefabs/Characters/Factions/INDFOR/RHS_ION/Character_RHS_ION_SL.et" "{CA4AE6DF518EA781}Prefabs/Characters/Factions/INDFOR/RHS_ION/Character_RHS_ION_Scout2.et" "{AC4213B6EA90F029}Prefabs/Characters/Factions/INDFOR/RHS_ION/Character_RHS_ION_Rifleman.et" "{14B31EA458C5E4EB}Prefabs/Characters/Factions/INDFOR/RHS_ION/Character_RHS_ION_Rifleman2.et" "{FEF9EEE562103D3E}Prefabs/Characters/Factions/INDFOR/RHS_ION/Character_RHS_ION_Marksman.et" "{AB12C80AE86DC7DD}Prefabs/Characters/Factions/INDFOR/RHS_ION/Character_RHS_ION_Scout.et" "{CA4AE6DF518EA781}Prefabs/Characters/Factions/INDFOR/RHS_ION/Character_RHS_ION_Scout2.et" "{51ACA7578D7D01F5}Prefabs/Characters/Factions/INDFOR/RHS_ION/Character_RHS_ION_Medic.et"
+ }
+}

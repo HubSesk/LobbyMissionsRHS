@@ -1,0 +1,44 @@
+$grp Vehicle : "{3A87697F1B1415DB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM_Ses_TKA.et" {
+ UAZ469_PKM_Ses_TKA4 {
+  coords 1910.815 151.449 2888.052
+  angleX -6.48
+  angleY 167.194
+  angleZ -0.355
+ }
+ UAZ469_PKM_Ses_TKA1 {
+  coords 1908.998 152.422 2896.569
+  angleY 159.805
+ }
+ UAZ469_PKM_Ses_TKA2 {
+  coords 1906.505 153.232 2903.973
+  angleX -5.632
+  angleY 165.315
+  angleZ -0.368
+ }
+ UAZ469_PKM_Ses_TKA3 {
+  coords 1904.684 153.915 2910.281
+  angleX -6.455
+  angleY 169.969
+  angleZ -0.667
+ }
+}
+$grp Vehicle : "{6C98ACF4A2DA1970}Prefabs/Vehicles/Wheeled/Ural4320/Ses_TKA/Ural4320_Ses_TKA_transport.et" {
+ Ural4320_Ses_TKA_transport1 {
+  coords 1898.004 154.958 2928.139
+  angleX 5.2
+  angleY 146.35
+  angleZ -0.244
+ }
+ Ural4320_Ses_TKA_transport2 {
+  coords 1892.599 153.886 2937.648
+  angleX 5.196
+  angleY 152.478
+  angleZ 0.312
+ }
+}
+Vehicle BTR70_Ses_TKA1 : "{6F963B40DE04868A}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_TKA.et" {
+ coords 1903.367 154.66 2917.277
+ angleX -6.432
+ angleY 156.401
+ angleZ 0.863
+}
