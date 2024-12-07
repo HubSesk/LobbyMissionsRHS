@@ -34,6 +34,12 @@ PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
   }
  }
  IsClosed 0
+ {
+  PS_PolyZoneTrigger {
+   ID "60FD050E1E83544C"
+   Flags 2097155
+  }
+ }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  Red {
