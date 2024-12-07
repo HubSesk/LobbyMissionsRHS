@@ -1,0 +1,88 @@
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 8381.741 111.532 7037.499
+  m_fZoneRadius 250
+  m_fZoneTeleportedRadius 300
+ }
+ {
+  coords 8782.832 199.51 3708.107
+  m_fWarnRadius 80
+  m_fZoneRadius 145
+  m_fZoneTeleportedRadius 160
+ }
+ {
+  coords 9450.278 55.234 1450.598
+  m_fWarnRadius 105
+  m_fZoneRadius 135
+  m_fZoneTeleportedRadius 155
+ }
+ {
+  coords 3509.946 214.194 523.588
+  m_fZoneRadius 250
+  m_fZoneTeleportedRadius 300
+ }
+}
+$grp PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
+ {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_mPolygonTexture ""
+    m_cPolygonColor 1 0 0 0.471
+    m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+    m_cPolygonBorderColor 1 1 1 0
+    m_aVisibleForFactions {
+     "" "Ses_TKA" "RHS_USAF"
+    }
+   }
+  }
+  coords 9504.532 44.859 1381.379
+  Points {
+   ShapePoint "{60E90266E922A02A}" {
+    Position -2.783 -1.465 -44.279
+   }
+   ShapePoint "{630D2D35A164223B}" {
+    Position -201.867 10.014 64.085
+   }
+   ShapePoint "{630D2D35A05BB976}" {
+    Position -153.011 -1.719 161.253
+   }
+   ShapePoint "{630D2D35A7ED8C94}" {
+    Position 50.261 -5.321 51.455
+   }
+  }
+ }
+ {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+    m_cPolygonColor 0.016 0.553 0.906 0.353
+    m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+    m_cPolygonBorderColor 0.016 0.552 0.905 1
+    m_aVisibleForFactions {
+     "" "Ses_TKA" "RHS_USAF"
+    }
+   }
+  }
+  coords 10160.719 146.035 1768.305
+  Points {
+   ShapePoint "{60E90266E922A02A}" {
+    Position 181.935 -146.035 148.813
+   }
+   ShapePoint "{630D2D39D59E58E7}" {
+    Position -1224.672 -62.129 148.796
+   }
+   ShapePoint "{630D2D39C1CE9468}" {
+    Position -1224.642 -146.035 -1798.17
+   }
+   ShapePoint "{630D2D393548BFCD}" {
+    Position -1341.068 -146.035 -1798.179
+   }
+   ShapePoint "{630D2D393C526F9E}" {
+    Position -1340.936 -41.737 265.599
+   }
+   ShapePoint "{630D2D3929697F19}" {
+    Position 183.855 -146.035 265.128
+   }
+  }
+ }
+}

@@ -1,0 +1,120 @@
+Vehicle UH1H_armedUSMC1 : "{38C8F7030A1740B9}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armedUSMC.et" {
+ coords 8381.745 111.531 7037.827
+ angleY 177.635
+}
+Vehicle M998_covered_USAF_D1 : "{3F5936DB9D87969C}Prefabs/Vehicles/Wheeled/M998/M998_covered_USAF_D.et" {
+ coords 8798.24 189.399 3704.426
+ angleX -1.788
+ angleY 92.961
+ angleZ -0.093
+}
+Vehicle Mi8MT_armed_Ses_TKA1 : "{4F23B4CD319FA5CA}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_Ses_TKA.et" {
+ coords 3518.003 213.84 528.913
+ angleX 2.34
+ angleY 117.783
+ angleZ -1.629
+}
+Vehicle BTR70_Ses_TKA1 : "{6F963B40DE04868A}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_TKA.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+   MultiSlots {
+    MultiSlotConfiguration "{60E55E1391D01E47}" {
+     NumSlots 3
+    }
+    MultiSlotConfiguration "{60E55E1391D01E45}" {
+     NumSlots 2
+    }
+   }
+  }
+ }
+ coords 9476.923 41.346 1388.576
+ angleX -1.688
+ angleY 131.145
+ angleZ -6.204
+}
+$grp Vehicle : "{7B38CEFED1D908A1}Prefabs/Vehicles/Wheeled/M998/M998_USAF_D.et" {
+ M998_USAF_D1 {
+  coords 8826.625 188.512 3703.057
+  angleX -1.786
+  angleY 93.602
+  angleZ -0.112
+ }
+ M998_USAF_D3 {
+  coords 8773.522 189.048 3705.959
+  angleX 1.785
+  angleY 94.294
+  angleZ 0.134
+ }
+ M998_USAF_D2 {
+  coords 8786.334 189.38 3704.915
+  angleX 0.895
+  angleY 91.997
+  angleZ 0.031
+ }
+}
+$grp Vehicle : "{7D9A9AD859069D09}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_USAF_D.et" {
+ M998_covered_long_USAF_D1 {
+  coords 8814.854 188.817 3703.717
+  angleX -1.787
+  angleY 93.052
+  angleZ -0.095
+ }
+ M998_covered_long_USAF_D2 {
+  coords 8763.458 188.734 3706.815
+  angleX 1.783
+  angleY 95.011
+  angleZ 0.156
+ }
+}
+$grp Vehicle : "{80460A425F52A469}Prefabs/Vehicles/Wheeled/M998/M1025_armed_Mk19_Podval_Des.et" {
+ M1025_armed_Mk19_Podval_Des1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5B1070686F48F485}" {
+      NumSlots 6
+     }
+    }
+   }
+  }
+  coords 8728.56 188.169 3711.284
+  angleX -3.036
+  angleY 103.995
+  angleZ 1.086
+ }
+ M1025_armed_Mk19_Podval_Des2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5B1070686F48F485}" {
+      NumSlots 6
+     }
+    }
+   }
+  }
+  coords 8722.473 188.098 3714.527
+  angleX 4.464
+  angleY 124.813
+  angleZ -0.16
+ }
+}
+$grp Vehicle : "{818BD2D100635224}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF_D.et" {
+ M1025_armed_M2HB_MDO_USAF_D1 {
+  coords 8748.853 188.246 3707.941
+  angleX 1.78
+  angleY 95.9
+  angleZ 0.184
+ }
+ M1025_armed_M2HB_MDO_USAF_D2 {
+  coords 8738.482 187.953 3709.145
+  angleX 1.782
+  angleY 95.538
+  angleZ 0.173
+ }
+}
+Vehicle M1025_armed_M2HB_USAF_D1 : "{B8C827A45C1347A4}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF_D.et" {
+ coords 8839.582 188.662 3701.604
+ angleX 3.563
+ angleY 95.01
+ angleZ 0.312
+}
