@@ -1,45 +1,36 @@
-PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
  components {
   PS_PolyZone "{60E90266F25533F6}" {
    m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
    m_cPolygonBorderColor 0 0.502 0.125 1
    m_bLineMode 1
    m_aVisibleForFactions {
-    "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA" ""
+    "" "Ses_TKA" "Ses_TKR"
    }
   }
  }
- coords 5564.333 232.169 3095.138
+ coords 7183.224 211.807 2288.079
  Points {
-  ShapePoint "{630D702E25F9C6F8}" {
-   Position -1513.813 -50.108 -166.113
+  ShapePoint "{630F342BCD0998A1}" {
+   Position -2913.735 -34.153 548.145
   }
-  ShapePoint "{630D702E24BA43C4}" {
-   Position -1394.806 -69.311 1405.679
+  ShapePoint "{630F342BD4D5AAF8}" {
+   Position -3152.995 -62.287 2757.493
   }
-  ShapePoint "{630D702E208625A5}" {
-   Position -1939.148 -98.717 2053.38
+  ShapePoint "{630F342BD33265A9}" {
+   Position -4220.669 -80.323 3047.091
   }
-  ShapePoint "{630D702E2FAA81F8}" {
-   Position -2779.597 -107.034 2264.186
+  ShapePoint "{630F342BD11788EA}" {
+   Position -4703.092 -72.751 2408.965
   }
-  ShapePoint "{630D702E2DB04E9F}" {
-   Position -3583.425 -90.21 1551.052
+  ShapePoint "{630F342BD08567DF}" {
+   Position -5227.471 -61.876 1846.095
   }
-  ShapePoint "{630D702E28A21344}" {
-   Position -4559.12 -101.767 1016.127
-  }
-  ShapePoint "{630D702E34B6010E}" {
-   Position -5541.873 -91.953 2903.093
+  ShapePoint "{630F342BDC57A738}" {
+   Position -7153.51 -14.404 1135.224
   }
  }
  IsClosed 0
- {
-  PS_PolyZoneTrigger {
-   ID "60FD050E1E83544C"
-   Flags 2097155
-  }
- }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  Red {
