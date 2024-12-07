@@ -1,0 +1,32 @@
+$grp Vehicle : "{38C8F7030A1740B9}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armedUSMC.et" {
+ UH1H_armedUSMC1 {
+  coords 4524.379 135.28 5772.468
+  angleX -0.001
+  angleZ -0.067
+ }
+ UH1H_armedUSMC2 {
+  coords 4547.781 135.283 5771.815
+ }
+}
+Vehicle M998_covered_long_USAF_D1 : "{7D9A9AD859069D09}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_USAF_D.et" {
+ coords 4530.594 134.875 5799.689
+ angleY -28.39
+}
+Vehicle M1025_armed_Mk19_Podval_Des1 : "{80460A425F52A469}Prefabs/Vehicles/Wheeled/M998/M1025_armed_Mk19_Podval_Des.et" {
+ coords 4516.202 134.875 5819.255
+ angleY 86.564
+}
+$grp Vehicle : "{818BD2D100635224}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF_D.et" {
+ M1025_armed_M2HB_MDO_USAF_D1 {
+  coords 4515.961 134.875 5828.713
+  angleY 89.295
+ }
+ M1025_armed_M2HB_MDO_USAF_D2 {
+  coords 4523.593 134.875 5879.783
+  angleY 153.519
+ }
+ M1025_armed_M2HB_MDO_USAF_D3 {
+  coords 4533.089 134.875 5880.181
+  angleY -167.754
+ }
+}
