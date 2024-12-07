@@ -1,0 +1,35 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 4212.987 131.767 5633.451
+  m_sTitle "Генерал жив"
+  m_iScore 50
+  m_sFactionKey "Ses_TKA"
+ }
+ {
+  coords 4209.055 131.716 5634.178
+  m_sTitle "Дворец под контролем"
+  m_iOrder 1
+  m_iScore 50
+  m_sFactionKey "Ses_TKA"
+ }
+ {
+  coords 4214.889 131.872 5629.548
+  m_sTitle "Дворец под контролем"
+  m_iOrder 1
+  m_iScore 25
+  m_sFactionKey "Ses_TKR"
+ }
+ {
+  coords 4218.821 131.923 5628.821
+  m_sTitle "Лидер не лишен гордости или жизни"
+  m_iOrder 2
+  m_iScore 25
+  m_sFactionKey "Ses_TKR"
+ }
+ {
+  coords 4115.851 164.004 3962.752
+  m_sTitle "Генерал убит"
+  m_iScore 50
+  m_sFactionKey "Ses_TKR"
+ }
+}

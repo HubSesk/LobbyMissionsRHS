@@ -1,0 +1,244 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 1994.427 152.703 2205.457
+  angleX 1.181
+  angleY 66.165
+  angleZ 0.457
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "APC"
+  m_fWorldSize 3.691
+  m_sDescription "#AR-Vehicle_BTR70_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 2047.19 153.406 2141.852
+  angleX -3.78
+  angleY 40.265
+  angleZ 0.313
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "APC"
+  m_fWorldSize 3.691
+  m_sDescription "#AR-Vehicle_BTR70_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 2079.458 151.914 1990.643
+  angleX -3.573
+  angleY 89.888
+  angleZ 1.793
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "Helicopter"
+  m_fWorldSize 9.387
+  m_sDescription "#AR-Vehicle_Mi8MT_Armed_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 3503.038 156.017 4626.349
+  angleX -0.759
+  angleY 32.071
+  angleZ -0.475
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.043
+  m_sDescription "#AR-Vehicle_UAZ469_PKM_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 3519.702 156.41 4642.872
+  angleX -1.259
+  angleY 82.025
+  angleZ -2.533
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.043
+  m_sDescription "#AR-Vehicle_UAZ469_PKM_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 3510.163 156.067 4634.346
+  angleX -1.336
+  angleY 41.73
+  angleZ -1.191
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.043
+  m_sDescription "#AR-Vehicle_UAZ469_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 2020.308 150.967 2160.74
+  angleX -1.973
+  angleY 36.234
+  angleZ -0.336
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.784 0.17 0 1
+  m_sQuadName "Truck"
+  m_fWorldSize 3.722
+  m_sDescription "#AR-Vehicle_Ural4320_Transport_Covered_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 0
+ }
+ Ses_TKA_G_011_M {
+  coords 3505.862 155.98 4637.955
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Alif Azraq 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 10
+ }
+ Ses_TKA_G_200_M {
+  coords 2074.01 152.14 1990.777
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Hamzah Ahmr 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 10
+ }
+ Ses_TKA_G_000_M {
+  coords 3493.361 163.926 4646.449
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Alif Ahmr 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 10
+ }
+ Ses_TKA_G_100_M {
+  coords 1999.008 152.387 2203.958
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Batikh Ahmr 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 10
+ }
+ Ses_TKA_G_122_M {
+  coords 2052.157 153.411 2141.449
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Batikh Abyad 3"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 10
+ }
+ Ses_TKA_G_111_M {
+  coords 2025.802 150.798 2162.585
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Batikh Azraq 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_TKA"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 10
+ }
+}

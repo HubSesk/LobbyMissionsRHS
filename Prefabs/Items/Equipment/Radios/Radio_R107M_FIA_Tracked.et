@@ -1,0 +1,18 @@
+GenericEntity : "{A83255340DD7CA6F}Prefabs/Items/Equipment/Radios/Radio_R107M_FIA_Tracked0.et" {
+ ID "508AB2013EEE1E00"
+ coords 4010.576 134.376 5797.942
+ {
+  PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+   ID "630D70206C753CF0"
+   coords 0 0 0
+   angleY 0
+   m_MarkerColor 0.502 0 0.376 1
+   m_sQuadName "point-of-interest"
+   m_fWorldSize 30
+   m_sDescription "TerroristTracker"
+   m_aVisibleForFactions {
+    "Ses_TKA" "RHS_AFRF" "RHS_USAF" "RHS_ION"
+   }
+  }
+ }
+}

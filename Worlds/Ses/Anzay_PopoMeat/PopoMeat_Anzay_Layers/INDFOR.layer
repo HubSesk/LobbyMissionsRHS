@@ -1,0 +1,242 @@
+SCR_AIGroup : "{00EE04014F213BCF}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_LightFireTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{630D544F1ED36FE4}" {
+   m_iCompanyCallsign 3
+  }
+ }
+ coords 1447.973 135.954 4564.254
+ angleY -84.358
+ m_aUnitPrefabSlots {
+  "{8681D616E91698DA}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Militiamen_AKSU_Random.et" "{46C0D0E1F0F9B0F3}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Militiamen_AK74_Random.et" "{435033F647E6ECF9}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Sapper_Random.et" "{AAE0D1CC0DB9CFE2}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Militiamen_VZ_Random.et"
+ }
+}
+SCR_AIGroup : "{00F182BBC336E4CC}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_SharpshooterTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{630D544F192E0BDD}" {
+   m_iCompanyCallsign 2
+  }
+ }
+ coords 4259.451 133.723 5849.874
+ angleY 3.575
+ m_aUnitPrefabSlots {
+  "{78F94996C070A8F9}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_RTO_Random.et" "{8681D616E91698DA}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Militiamen_AKSU_Random.et" "{AE6856FD4FD020CE}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Scout_Random.et" "{11AEE04458B591D6}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Marksman_Random.et"
+ }
+}
+Vehicle UAZ469_PKM1 : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
+ coords 4006.553 134.375 5802.972
+ angleY -88.579
+}
+$grp Vehicle : "{128253A267BE9424}Prefabs/Vehicles/Wheeled/S105/S105_randomized.et" {
+ S105_randomized1 {
+  coords 3769.688 136.311 6272.061
+  angleX -0.114
+  angleY 82.694
+  angleZ -0.888
+ }
+ S105_randomized2 {
+  coords 3521.068 133.094 6205.141
+  angleY -69.655
+ }
+ S105_randomized3 {
+  coords 4668.816 198.726 3257.067
+  angleX -2.828
+  angleY 160.241
+  angleZ 0.065
+ }
+ S105_randomized4 {
+  coords 3745.784 136.094 6267.843
+  angleY 75.735
+ }
+ S105_randomized5 {
+  coords 1451.003 132.625 4608.408
+  angleY 51.911
+ }
+}
+Vehicle UAZ469_uncovered_CIV_Randomized1 : "{1B0D46B41C50873D}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_Randomized.et" {
+ coords 4259.141 133.777 5846.239
+ angleX -1.788
+ angleY 92.288
+ angleZ -0.072
+}
+$grp SCR_AIGroup : "{281B7FA5A70021D5}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_RifleSquad.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{630D544FEB1F1CE0}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3625.515 131.813 6182.872
+  angleY -5.627
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{630D544FE2E17CF2}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 3535.636 134.75 6241.395
+  angleY -58.051
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{630D544F1581223F}" {
+    m_iCompanyCallsign 4
+   }
+  }
+  coords 1754.181 123.598 5829.464
+  angleY -29.214
+  m_aUnitPrefabSlots {
+   "{A0ACE3B6ADD4964D}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_SL_Random.et" "{89D534001A82E981}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_MG_Random.et" "{EC194E367E34BA2B}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_AMG_Random.et" "{86E82C6AFE916FB1}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_AT_Random.et" "{46C0D0E1F0F9B0F3}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Militiamen_AK74_Random.et" "{AAE0D1CC0DB9CFE2}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Militiamen_VZ_Random.et"
+  }
+ }
+}
+SCR_AIGroup : "{4170F3A7E4137FDA}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_ReconTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{630D544FE80B2E04}" {
+   m_iCompanyCallsign 5
+  }
+ }
+ coords 4536.663 228.19 4235.12
+ angleY -71.99
+ m_aUnitPrefabSlots {
+  "{A0ACE3B6ADD4964D}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_SL_Random.et" "{AE6856FD4FD020CE}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Scout_Random.et" "{78F94996C070A8F9}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_RTO_Random.et" "{8681D616E91698DA}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Militiamen_AKSU_Random.et"
+ }
+}
+$grp Vehicle : "{49C909AFD66E90A1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_randomized.et" {
+ S1203_transport_randomized1 {
+  coords 3622.252 131.796 6189.042
+  angleX -0.895
+ }
+ S1203_transport_randomized2 {
+  coords 1754.442 123.719 5834.164
+  angleY 61.875
+ }
+}
+SCR_AIGroup : "{4DB7E102CC43BC4F}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_MachineGunTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{630D544FEF41CB96}" {
+   m_iCompanyCallsign 1
+   m_iPlatoonCallsign 2
+   m_iSquadCallsign 2
+  }
+ }
+ coords 3519.561 133.137 6200.696
+ angleY 84.093
+ m_aUnitPrefabSlots {
+  "{78F94996C070A8F9}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_RTO_Random.et" "{C4C9CA3AF8ACDC1A}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Medic_Random.et" "{89D534001A82E981}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_MG_Random.et" "{EC194E367E34BA2B}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_AMG_Random.et"
+ }
+}
+Vehicle UAZ469_covered_CIV_Randomized1 : "{57A441224AC02CF3}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_Randomized.et" {
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_VariantData SCR_EditableEntityVariantData "{610A88902F4EDB64}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{610A88902ED6AC55}" {
+      m_bEnabled 0
+     }
+     SCR_EditableEntityVariant "{610A88902ECAEA98}" {
+      m_bEnabled 0
+     }
+     SCR_EditableEntityVariant "{610A88902EBEFE6D}" {
+      m_bEnabled 0
+     }
+     SCR_EditableEntityVariant "{610A88905BCFEAF0}" {
+      m_bEnabled 0
+     }
+    }
+   }
+  }
+ }
+ coords 1441.297 132.731 4581.842
+ angleX 1.906
+ angleY 115.216
+ angleZ -4.041
+}
+SCR_AIGroup : "{67E3B5AFF7A2A5D4}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_SapperTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{630D5440DAE6F88B}" {
+   m_iCompanyCallsign 1
+   m_iPlatoonCallsign 3
+   m_iSquadCallsign 3
+  }
+ }
+ coords 3764.08 136.281 6269.308
+ m_aUnitPrefabSlots {
+  "{A0ACE3B6ADD4964D}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_SL_Random.et" "{8681D616E91698DA}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Militiamen_AKSU_Random.et" "{435033F647E6ECF9}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Sapper_Random.et" "{435033F647E6ECF9}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Sapper_Random.et"
+ }
+}
+SCR_AIGroup : "{817E13F5454DCF88}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_PlatoonHQ.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{630D544F31030247}" {
+  }
+ }
+ coords 4006.815 136.28 5797.615
+ angleY 55.14
+ m_aUnitPrefabSlots {
+  "{9075191942D36BEB}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_PL_Random.et" "{11AEE04458B591D6}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Marksman_Random.et" "{C4C9CA3AF8ACDC1A}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Medic_Random.et"
+ }
+}
+SCR_AIGroup : "{EB8F12D5B96EEC6D}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_AmmoTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{630D544F39358365}" {
+   m_iCompanyCallsign 5
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 1
+  }
+ }
+ coords 4664.403 199.286 3268.529
+ angleY -97.785
+ m_aUnitPrefabSlots {
+  "{A0ACE3B6ADD4964D}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_SL_Random.et" "{D2A0632D134DA3EF}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_AR_Random.et" "{354B3945E0069694}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Ammo_Random.et" "{435033F647E6ECF9}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Sapper_Random.et"
+ }
+}
+Vehicle Ural4320_transport_CIV_randomized1 : "{EEAC3A94929A2B55}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_randomized.et" {
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_VariantData SCR_EditableEntityVariantData "{610A8EDFB37B7FF0}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{610A8EDFB2D2A997}" {
+      m_bEnabled 0
+     }
+     SCR_EditableEntityVariant "{610A8EDFB138660F}" {
+      m_bEnabled 0
+     }
+    }
+   }
+  }
+ }
+ coords 3532.059 134.719 6251.729
+ angleY -84.867
+}

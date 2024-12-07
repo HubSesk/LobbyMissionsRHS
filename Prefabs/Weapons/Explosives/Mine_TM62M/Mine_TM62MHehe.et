@@ -1,6 +1,14 @@
 GenericEntity : "{CCC00D009D4949B0}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M_base.et" {
  ID "5968D2B6A82C6019"
  components {
+  MeshObject "{5968D9C73C08706E}" {
+   Materials {
+    MaterialAssignClass "{630D7028A0475494}" {
+     SourceMaterial "TM62M"
+     AssignedMaterial "{5508DA15B44F0B82}Assets/Weapons/Explosives/Mine_TM62M/Data/TM62M_Hehe.emat"
+    }
+   }
+  }
   SCR_PlaceableItemComponent "{5A127CDA1D1B58E6}" {
    m_bCanAttachToDynamicObject 1
    m_bCanAttachAngled 1

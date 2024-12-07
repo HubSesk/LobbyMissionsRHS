@@ -1,0 +1,25 @@
+$grp StaticModelEntity : "{48A04E0A139BB167}Prefabs/Structures/Military/Camps/TentSmallFIA_01/TentSmallFIA_01.et" {
+ {
+  coords 4535.816 226.838 4226.618
+  angleX 5.785
+  angleY 1.633
+  angleZ 15.791
+ }
+ {
+  coords 4533.575 227.738 4230.091
+  angleX -13.681
+  angleY 85.693
+  angleZ 5.366
+ }
+}
+GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+ components {
+  SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+   m_eInitialLightState OFF
+  }
+ }
+ coords 4537.334 226.823 4230.2
+ angleX 5.831
+ angleY 1.554
+ angleZ 14.955
+}

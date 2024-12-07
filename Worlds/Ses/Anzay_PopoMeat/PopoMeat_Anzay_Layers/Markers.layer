@@ -1,0 +1,74 @@
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+   m_cPolygonBorderColor 0 0.502 0.125 1
+   m_bLineMode 1
+   m_aVisibleForFactions {
+    "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA" ""
+   }
+  }
+ }
+ coords 5564.333 232.169 3095.138
+ Points {
+  ShapePoint "{630D702E25F9C6F8}" {
+   Position -1513.813 -50.108 -166.113
+  }
+  ShapePoint "{630D702E24BA43C4}" {
+   Position -1394.806 -69.311 1405.679
+  }
+  ShapePoint "{630D702E208625A5}" {
+   Position -1939.148 -98.717 2053.38
+  }
+  ShapePoint "{630D702E2FAA81F8}" {
+   Position -2779.597 -107.034 2264.186
+  }
+  ShapePoint "{630D702E2DB04E9F}" {
+   Position -3583.425 -90.21 1551.052
+  }
+  ShapePoint "{630D702E28A21344}" {
+   Position -4559.12 -101.767 1016.127
+  }
+  ShapePoint "{630D702E34B6010E}" {
+   Position -5541.873 -91.953 2903.093
+  }
+ }
+ IsClosed 0
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ Red {
+  coords 2071.857 155.872 2169.342
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Takistan Army"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   5
+  }
+  m_iZOrder 10
+ }
+ Officer {
+  coords 3496.145 166.19 4642.28
+  m_sImageSet "{C9D19DBFDE7AD72D}UI/Imagesets/Conflict/conflict-icons.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "OpforDefendTask"
+  m_fWorldSize 50
+  m_sDescription "Генерал Азазис"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+}

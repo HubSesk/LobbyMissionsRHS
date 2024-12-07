@@ -1,0 +1,114 @@
+GenericEntity : "{61980E6F3CA71107}Prefabs/Items/Cats/Dingus.et" {
+ coords 3628.993 164.866 4560.657
+ angleX -3.987
+ angleY 59.422
+ angleZ -4.145
+}
+GenericEntity : "{7BF46B8343579CFB}Prefabs/Items/Cats/Sugnid.et" {
+ coords 3354.974 155.198 4590.734
+ angleX -4.817
+ angleY 0.264
+ angleZ -3.142
+}
+$grp GenericEntity : "{90976DC90A223095}Prefabs/Items/Equipment/Detonators/BlastingMachine_KPM_3U1/BlastingMachine_KPM_3U1.et" {
+ {
+  coords 1444.146 135.582 4564.39
+ }
+ {
+  coords 3763.369 136.281 6271.672
+ }
+ {
+  coords 3763.068 136.281 6271.63
+ }
+ {
+  coords 4659.555 199.29 3270.057
+ }
+}
+$grp GenericEntity : "{A07607E2052BC5AC}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62MHehe.et" {
+ {
+  coords 3763.57 136.281 6271.166
+ }
+ {
+  coords 3763.21 136.281 6271.211
+ }
+ {
+  coords 1444.418 135.606 4564.228
+  angleX 0.887
+  angleY -0.083
+  angleZ -5.357
+ }
+ {
+  coords 4660.144 199.278 3269.924
+  angleX 0.895
+  angleY 0.014
+  angleZ 0.895
+ }
+}
+GenericEntity : "{A83255340DD7CA70}Prefabs/Items/Equipment/Radios/Radio_R107M_FIA_Tracked.et" {
+ coords 4005.974 135.964 5793.838
+ angleY -80.799
+ {
+  PS_ManualMarker {
+   ID "630D70206C753CF0"
+   m_aHideOnGameModeStates {
+    5
+   }
+  }
+ }
+}
+$grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et" {
+ {
+  coords 1444.984 135.662 4564.466
+  angleX 0.887
+  angleY -0.083
+  angleZ -5.357
+ }
+ {
+  coords 1444.961 135.657 4563.696
+ }
+ {
+  coords 1445.387 135.695 4564.148
+  angleX 0.887
+  angleY -0.083
+  angleZ -5.357
+ }
+ {
+  coords 1445.55 135.715 4563.56
+ }
+ {
+  coords 4659.816 199.267 3268.903
+  angleX 0.895
+  angleY 0.014
+  angleZ 0.895
+ }
+ {
+  coords 4659.731 199.279 3269.619
+  angleX 0.895
+  angleY 0.014
+  angleZ 0.895
+ }
+ {
+  coords 4659.312 199.281 3269.275
+  angleX 0.895
+  angleY 0.014
+  angleZ 0.895
+ }
+ {
+  coords 4660.201 199.268 3269.329
+  angleX 0.895
+  angleY 0.014
+  angleZ 0.895
+ }
+ {
+  coords 3762.162 136.262 6270.604
+ }
+ {
+  coords 3762.493 136.27 6270.783
+ }
+ {
+  coords 3762.626 136.267 6270.436
+ }
+ {
+  coords 3762.015 136.265 6270.937
+ }
+}
