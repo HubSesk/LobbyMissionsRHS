@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{C588487D8EE4AA3F}missions/Dacha.conf"
+ Name "{C588487D8EE4AA3F}missions/Gog_Dacha.conf"
  Configurations {
   CONFResourceClass PC {
   }
@@ -10,6 +10,10 @@ MetaFileClass {
   CONFResourceClass PS4 : PC {
   }
   CONFResourceClass HEADLESS : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass Xbox : PC {
   }
  }
 }

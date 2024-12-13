@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{318FF085D736EB87}missions/LightFunPivo.conf"
+ Name "{318FF085D736EB87}missions/Cherno_PivnoyBochok.conf"
  Configurations {
   CONFResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   CONFResourceClass HEADLESS : PC {
   }
   CONFResourceClass Xbox : PC {
+  }
+  CONFResourceClass PS5 : PC {
   }
  }
 }
