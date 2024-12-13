@@ -18,6 +18,14 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  components {
+  PS_CutsceneManager "{60E6C661B81E7619}" {
+   m_aCutscenes {
+    PS_Cutscene "{631B0B48A338BB8C}" {
+     m_sCutsceneEntityName "aNIME_1"
+     m_iCutsceneTime 180000
+    }
+   }
+  }
   PS_ObjectiveManager "{60846DEA6E152749}" {
    m_aObjectiveLavels {
     PS_ObjectiveLevel "{60BA84346F79B79E}" {
@@ -46,6 +54,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  m_bAdminMode 1
  m_bRemoveSquadMarkers 1
  m_iFreezeTime 120000
+ m_bShowCutscene 1
  {
   SCR_FactionManager "5F2B25DD2FE1CDD2" {
    ID "5ED9088735FF2D8B"

@@ -3,10 +3,27 @@ SCR_PlayerController DefaultPlayerController1 : "{6E2BB64764E3BE9B}Prefabs/Chara
  Flags 2097155
  DefaultControlledEntity "{63742A842E6E4E67}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC_MC/RandomSoldiers/Character_RHS_USMC_MARSOC_MC_Rifleman_Random.et"
 }
+GenericEntity Template {
+ components {
+  CharacterIdentityComponent "{5670AB5CB11668BB}" {
+   Identity Identity "{5670AB5CB11668A6}" {
+    VisualIdentity VisualIdentity "{56F11047ADAB064B}" {
+     Head "{24D28E910BF9F648}Prefabs/Characters/Heads/Head_Asian_02.et"
+     Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+    }
+   }
+  }
+  AnimationPlayerComponent "{5670AB5CB11668D8}" {
+   Enabled 0
+  }
+ }
+ coords 9938.913 318.861 2302
+ angleY -34.831
+}
 PS_AnimeCinematicEntity Anime_1 {
  coords 0 0 0
  Scene CinematicScene "{626CE5220A35C470}" {
-  StartFrame 5
+  StartFrame -5
   EndFrame 30000
   Tracks {
    CameraCinematicTrack "{62E28E56776B6543}" {
@@ -1575,6 +1592,10 @@ PS_AnimeCinematicEntity Anime_1 {
         FrameNumber 5
         Value "CIV1|0"
        }
+       StringCinematicKeyframe "{631B0B492E93E90E}" {
+        FrameNumber 8827
+        Value "CIV1|0"
+       }
       }
       Flags 0
      }
@@ -1787,7 +1808,7 @@ PS_AnimeCinematicEntity Anime_1 {
    }
    CustomCinematicTrack "{62E28E46217FE63A}" {
     TrackName "CIV_5_RunDieEarly"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E28E46217FE633}" {
@@ -1802,7 +1823,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\CIV1_4.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E28E46217FE64B}" {
       TrackName "m_fProgress"
@@ -1823,7 +1844,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E46217FE64D}" {
       TrackName "m_sEntityNameNum"
@@ -1837,21 +1858,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "CIV1|4"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E46217FE641}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E28E74C9B9FD48}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E28E462A69D144}" {
     TrackName "CIV_6_RunJump"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E28E462A69D153}" {
@@ -1866,7 +1887,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\CIV1_5.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E28E462A69D16A}" {
       TrackName "m_fProgress"
@@ -1887,7 +1908,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E462A69D16C}" {
       TrackName "m_sEntityNameNum"
@@ -1901,21 +1922,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "CIV1|5"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E462A69D166}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E28E74C9B9FE72}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E28E45E615345E}" {
     TrackName "CIV_7_RunHome"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E28E45E615346E}" {
@@ -1930,7 +1951,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\CIV1_6.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E28E45E6153465}" {
       TrackName "m_fProgress"
@@ -1951,7 +1972,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E45E615347F}" {
       TrackName "m_sEntityNameNum"
@@ -1965,21 +1986,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "CIV1|6"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E45E6153473}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E28E74C9B9FBA8}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E28E45EF645FDB}" {
     TrackName "CIV_8_DieBackward"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E28E45EF645FD0}" {
@@ -1994,7 +2015,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\CIV1_7.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E28E45EF645FE8}" {
       TrackName "m_fProgress"
@@ -2015,7 +2036,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E45EF645FE3}" {
       TrackName "m_sEntityNameNum"
@@ -2029,21 +2050,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "CIV1|7"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E45EF645FE0}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E28E74C9B9E4D3}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E28E45F77C7909}" {
     TrackName "CIV_9_DieJump"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E28E45F77C7900}" {
@@ -2054,7 +2075,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\CIV1_8.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E28E45F77C7918}" {
       TrackName "m_fProgress"
@@ -2075,7 +2096,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E45F77C791C}" {
       TrackName "m_sEntityNameNum"
@@ -2085,183 +2106,15 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "CIV1|8"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E45F77C7911}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E28E74C9B9E1E3}" {
       TrackName "m_bDie"
-      Flags 1
-     }
-    }
-   }
-   CustomCinematicTrack "{62E28E4583B8F394}" {
-    TrackName "CIV_10"
-    Flags 1
-    ClassName "PS_AnimeCinematicTrack"
-    ChildTracks {
-     StringCinematicTrack "{62E28E4583B8F3A7}" {
-      TrackName "m_sAnimePath"
-      Keyframes {
-       StringCinematicKeyframe "{62E28E01DACC0825}" {
-        FrameNumber 5
-        Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\CIV1_9.vcsurf"
-       }
-      }
-      Flags 1
-     }
-     FloatCinematicTrack "{62E28E4583B8F3BF}" {
-      TrackName "m_fProgress"
-      Keyframes {
-       FloatCinematicKeyframe "{62E28E4583B8F3BD}" {
-        FrameNumber 5
-        Value 0
-        InterpMode 1
-       }
-       FloatCinematicKeyframe "{62E28E02347FB80D}" {
-        FrameNumber 4000
-        Value 0
-        InterpMode 1
-       }
-       FloatCinematicKeyframe "{62E28E0107A1DBD6}" {
-        FrameNumber 6400
-        Value 2400
-        InterpMode 1
-       }
-      }
-      Flags 1
-     }
-     StringCinematicTrack "{62E28E4583B8F3B2}" {
-      TrackName "m_sEntityNameNum"
-      Keyframes {
-       StringCinematicKeyframe "{62E28E01DB191BA1}" {
-        FrameNumber 5
-        Value "CIV1|9"
-       }
-      }
-      Flags 1
-     }
-     StringCinematicTrack "{62E28E4583B8F3B7}" {
-      TrackName "m_sTrackEditAction"
-      Flags 1
-     }
-     BooleanCinematicTrack "{62E28E74C9B9E31E}" {
-      TrackName "m_bDie"
-      Flags 1
-     }
-    }
-   }
-   CustomCinematicTrack "{62E28E458C73621E}" {
-    TrackName "CIV_11"
-    Flags 1
-    ClassName "PS_AnimeCinematicTrack"
-    ChildTracks {
-     StringCinematicTrack "{62E28E458C73622E}" {
-      TrackName "m_sAnimePath"
-      Keyframes {
-       StringCinematicKeyframe "{62E28E01DEB4D52B}" {
-        FrameNumber 5
-        Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\CIV1_10.vcsurf"
-       }
-      }
-      Flags 1
-     }
-     FloatCinematicTrack "{62E28E458C736224}" {
-      TrackName "m_fProgress"
-      Keyframes {
-       FloatCinematicKeyframe "{62E28E458C736239}" {
-        FrameNumber 5
-        Value 0
-        InterpMode 1
-       }
-       FloatCinematicKeyframe "{62E28E0238AA5540}" {
-        FrameNumber 4000
-        Value 0
-        InterpMode 1
-       }
-       FloatCinematicKeyframe "{62E28E0108DA3A78}" {
-        FrameNumber 6400
-        Value 2400
-        InterpMode 1
-       }
-      }
-      Flags 1
-     }
-     StringCinematicTrack "{62E28E458C73623E}" {
-      TrackName "m_sEntityNameNum"
-      Keyframes {
-       StringCinematicKeyframe "{62E28E01DF3C5177}" {
-        FrameNumber 5
-        Value "CIV1|10"
-       }
-      }
-      Flags 1
-     }
-     StringCinematicTrack "{62E28E458C736230}" {
-      TrackName "m_sTrackEditAction"
-      Flags 1
-     }
-     BooleanCinematicTrack "{62E28E74C9B9EC4C}" {
-      TrackName "m_bDie"
-      Flags 1
-     }
-    }
-   }
-   CustomCinematicTrack "{62E28E4594D517E1}" {
-    TrackName "CIV_12"
-    Flags 1
-    ClassName "PS_AnimeCinematicTrack"
-    ChildTracks {
-     StringCinematicTrack "{62E28E4594D517F8}" {
-      TrackName "m_sAnimePath"
-      Keyframes {
-       StringCinematicKeyframe "{62E28E01E17E3EC0}" {
-        FrameNumber 5
-        Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\CIV1_11.vcsurf"
-       }
-      }
-      Flags 1
-     }
-     FloatCinematicTrack "{62E28E4594D517F1}" {
-      TrackName "m_fProgress"
-      Keyframes {
-       FloatCinematicKeyframe "{62E28E4594D517F7}" {
-        FrameNumber 5
-        Value 0
-        InterpMode 1
-       }
-       FloatCinematicKeyframe "{62E28E023A28EBEB}" {
-        FrameNumber 4000
-        Value 0
-        InterpMode 1
-       }
-       FloatCinematicKeyframe "{62E28E010A9976E1}" {
-        FrameNumber 6400
-        Value 2400
-        InterpMode 1
-       }
-      }
-      Flags 1
-     }
-     StringCinematicTrack "{62E28E4594D517F4}" {
-      TrackName "m_sEntityNameNum"
-      Keyframes {
-       StringCinematicKeyframe "{62E28E01E272CDBE}" {
-        FrameNumber 5
-        Value "CIV1|11"
-       }
-      }
-      Flags 1
-     }
-     StringCinematicTrack "{62E28E4594D51609}" {
-      TrackName "m_sTrackEditAction"
-      Flags 1
-     }
-     BooleanCinematicTrack "{62E28E74C9B9E8C8}" {
-      TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
@@ -2323,11 +2176,21 @@ PS_AnimeCinematicEntity Anime_1 {
         FrameNumber 5
         Value "Cheese1"
        }
+       StringCinematicKeyframe "{631B0B48FEFE53E0}" {
+        FrameNumber 8827
+        Value "Cheese1"
+       }
       }
       Flags 0
      }
      StringCinematicTrack "{62E28E43804BCCE3}" {
       TrackName "m_sTrackEditAction"
+      Keyframes {
+       StringCinematicKeyframe "{631B0B48F70ED57B}" {
+        FrameNumber 8827
+        Value ""
+       }
+      }
       Flags 0
      }
      BooleanCinematicTrack "{62E28E74C9B995E9}" {
@@ -2338,7 +2201,7 @@ PS_AnimeCinematicEntity Anime_1 {
    }
    CustomCinematicTrack "{62E28E4748B18A94}" {
     TrackName "CheeseRun"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E28E4748B18AA3}" {
@@ -2348,8 +2211,12 @@ PS_AnimeCinematicEntity Anime_1 {
         FrameNumber 5
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\CheeseRun.vcsurf"
        }
+       StringCinematicKeyframe "{6319116A1557FA6C}" {
+        FrameNumber 1400
+        Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\CheeseRun.vcsurf"
+       }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E28E4748B18ABB}" {
       TrackName "m_fProgress"
@@ -2365,7 +2232,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E4748B18ABF}" {
       TrackName "m_sEntityNameNum"
@@ -2374,22 +2241,26 @@ PS_AnimeCinematicEntity Anime_1 {
         FrameNumber 5
         Value "CheeseRun"
        }
+       StringCinematicKeyframe "{631B0B4886066152}" {
+        FrameNumber 8827
+        Value "CheeseRun"
+       }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E4748B18ABD}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E28E74C9B99711}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E28E65F7B5437A}" {
     TrackName "IONA_1"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E28E65F7B54376}" {
@@ -2399,8 +2270,12 @@ PS_AnimeCinematicEntity Anime_1 {
         FrameNumber 5
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION1_0.vcsurf"
        }
+       StringCinematicKeyframe "{6319117AB9B626C1}" {
+        FrameNumber 3000
+        Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION1_0.vcsurf"
+       }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E28E65F7B54381}" {
       TrackName "m_fProgress"
@@ -2421,7 +2296,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E65F7B54384}" {
       TrackName "m_sEntityNameNum"
@@ -2430,22 +2305,26 @@ PS_AnimeCinematicEntity Anime_1 {
         FrameNumber 5
         Value "ION1|0"
        }
+       StringCinematicKeyframe "{631B0B49398ED051}" {
+        FrameNumber 8827
+        Value "ION1|0"
+       }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E65F7B5439C}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E28E74C9B9907D}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E28E0684A7D7D5}" {
     TrackName "IONA_2"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E28E0684A7D7DB}" {
@@ -2456,7 +2335,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION1_1.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E28E0684A7D7C2}" {
       TrackName "m_fProgress"
@@ -2477,7 +2356,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E0684A7D7CD}" {
       TrackName "m_sEntityNameNum"
@@ -2487,21 +2366,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION1|1"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E0684A7D7C8}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E28E0684A7D7B7}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E28E06852073E3}" {
     TrackName "IONA_3"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E28E06852073D4}" {
@@ -2512,7 +2391,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION1_2.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E28E06852073DE}" {
       TrackName "m_fProgress"
@@ -2533,7 +2412,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E06852073D9}" {
       TrackName "m_sEntityNameNum"
@@ -2543,21 +2422,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION1|2"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E06852073C5}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E28E06852073C3}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E28E0537F81DAA}" {
     TrackName "IONA_4"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E28E0537F81D91}" {
@@ -2568,7 +2447,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION1_3.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E28E0537F81D99}" {
       TrackName "m_fProgress"
@@ -2589,7 +2468,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E0537F81D8D}" {
       TrackName "m_sEntityNameNum"
@@ -2599,21 +2478,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION1|3"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E0537F81D89}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E28E0537F81D77}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E28E05395B602B}" {
     TrackName "IONA_5"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E28E05395B601A}" {
@@ -2624,7 +2503,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION1_4.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E28E05395B6001}" {
       TrackName "m_fProgress"
@@ -2645,7 +2524,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E05395B63FF}" {
       TrackName "m_sEntityNameNum"
@@ -2655,7 +2534,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION1|4"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E05395B63E2}" {
       TrackName "m_sTrackEditAction"
@@ -2665,17 +2544,17 @@ PS_AnimeCinematicEntity Anime_1 {
         Value ""
        }
       }
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E28E05395B63EA}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E28E0B0C1190E4}" {
     TrackName "IONB_1"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E28E0B0C1190D6}" {
@@ -2686,7 +2565,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION2_0.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E28E0B0C1190DE}" {
       TrackName "m_fProgress"
@@ -2701,13 +2580,13 @@ PS_AnimeCinematicEntity Anime_1 {
         Value 0
         InterpMode 1
        }
-       FloatCinematicKeyframe "{62E28E0AEA1A12B9}" {
+       FloatCinematicKeyframe "{6319117628E03C7E}" {
         FrameNumber 6400
         Value 1600
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E0B0C1190D9}" {
       TrackName "m_sEntityNameNum"
@@ -2717,21 +2596,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION2|0"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E0B0C1190C0}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E28E0B0C1190CE}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E28E0B2FEC2B60}" {
     TrackName "IONB_2"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E28E0B2FEC2B56}" {
@@ -2742,7 +2621,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION2_1.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E28E0B2FEC2B51}" {
       TrackName "m_fProgress"
@@ -2763,7 +2642,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E0B2FEC2B44}" {
       TrackName "m_sEntityNameNum"
@@ -2773,21 +2652,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION2|1"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E0B2FEC2B43}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E28E0B2FEC2B4F}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E28E0B34955E80}" {
     TrackName "IONB_3"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E28E0B34955E73}" {
@@ -2798,7 +2677,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION2_2.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E28E0B34955E66}" {
       TrackName "m_fProgress"
@@ -2819,7 +2698,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E0B34955E56}" {
       TrackName "m_sEntityNameNum"
@@ -2829,21 +2708,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION2|2"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E0B34955E53}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E28E0B34955E5F}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E28E0B3917038D}" {
     TrackName "IONB_4"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E28E0B3917037E}" {
@@ -2854,7 +2733,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION2_3.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E28E0B39170378}" {
       TrackName "m_fProgress"
@@ -2865,17 +2744,17 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
        FloatCinematicKeyframe "{62E28E0B39170364}" {
-        FrameNumber 5400
+        FrameNumber 4800
         Value 0
         InterpMode 1
        }
-       FloatCinematicKeyframe "{62E33440DDEFD243}" {
+       FloatCinematicKeyframe "{6319117629E60E1B}" {
         FrameNumber 6400
-        Value 1000
+        Value 1600
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E0B39170363}" {
       TrackName "m_sEntityNameNum"
@@ -2885,21 +2764,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION2|3"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E0B3917036E}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E28E0B3917036C}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E28E0AC093E438}" {
     TrackName "IONB_5"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E28E0AC093E42E}" {
@@ -2910,7 +2789,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION2_4.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E28E0AC093E429}" {
       TrackName "m_fProgress"
@@ -2921,17 +2800,17 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
        FloatCinematicKeyframe "{62E28E0AC093E414}" {
-        FrameNumber 5000
+        FrameNumber 4800
         Value 0
         InterpMode 1
        }
-       FloatCinematicKeyframe "{62E33440C1F5C452}" {
+       FloatCinematicKeyframe "{631911762AFAA407}" {
         FrameNumber 6400
-        Value 1400
+        Value 1600
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E0AC093E413}" {
       TrackName "m_sEntityNameNum"
@@ -2941,21 +2820,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION2|4"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E28E0AC093E411}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E28E0AC093E41F}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E346918B939A68}" {
     TrackName "IONC_1"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E346918B939A76}" {
@@ -2966,7 +2845,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION3_0.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E346918B939A7D}" {
       TrackName "m_fProgress"
@@ -2987,7 +2866,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E346918B939A46}" {
       TrackName "m_sEntityNameNum"
@@ -2997,21 +2876,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION3|0"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E346918B939A4B}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E346918B939A4E}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E3469199950CB7}" {
     TrackName "IONC_2"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E3469199950C83}" {
@@ -3022,7 +2901,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION3_1.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E3469199950C8D}" {
       TrackName "m_fProgress"
@@ -3043,7 +2922,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E3469199950C95}" {
       TrackName "m_sEntityNameNum"
@@ -3053,21 +2932,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION3|1"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E3469199950C99}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E3469199950C9C}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E346919D825207}" {
     TrackName "IONC_3"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E346919D825212}" {
@@ -3078,7 +2957,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION3_2.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E346919D82521A}" {
       TrackName "m_fProgress"
@@ -3099,7 +2978,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E346919D825263}" {
       TrackName "m_sEntityNameNum"
@@ -3109,21 +2988,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION3|2"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E346919D825267}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E346919D82526A}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E34691A1E1C0AE}" {
     TrackName "IONC_4"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E34691A1E1C0B8}" {
@@ -3134,7 +3013,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION3_3.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E34691A1E1C0BE}" {
       TrackName "m_fProgress"
@@ -3155,7 +3034,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E34691A1E1C084}" {
       TrackName "m_sEntityNameNum"
@@ -3165,21 +3044,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION3|3"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E34691A1E1C087}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E34691A1E1C08A}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E34691A5E9A0F9}" {
     TrackName "IONC_5"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E34691A5E9A0C2}" {
@@ -3190,7 +3069,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION3_4.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E34691A5E9A0C8}" {
       TrackName "m_fProgress"
@@ -3211,7 +3090,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E34691A5E9A0D2}" {
       TrackName "m_sEntityNameNum"
@@ -3221,21 +3100,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION3|4"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E34691A5E9A0D6}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E34691A5E9A0D9}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E34696EECA3678}" {
     TrackName "IOND_1"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E34696EECA3649}" {
@@ -3246,7 +3125,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION4_0.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E34696EECA3652}" {
       TrackName "m_fProgress"
@@ -3267,7 +3146,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E34696EECA365D}" {
       TrackName "m_sEntityNameNum"
@@ -3277,21 +3156,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION4|0"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E34696EECA37A2}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E34696EECA37A5}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E34696FB9E0468}" {
     TrackName "IOND_2"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E34696FB9E0471}" {
@@ -3302,7 +3181,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION4_1.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E34696FB9E0479}" {
       TrackName "m_fProgress"
@@ -3323,7 +3202,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E34696FB9E047F}" {
       TrackName "m_sEntityNameNum"
@@ -3333,21 +3212,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION4|1"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E34696FB9E0443}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E34696FB9E0445}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E346968065A199}" {
     TrackName "IOND_3"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E346968065A1E5}" {
@@ -3358,7 +3237,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION4_2.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E346968065A1EB}" {
       TrackName "m_fProgress"
@@ -3379,7 +3258,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E346968065A1F4}" {
       TrackName "m_sEntityNameNum"
@@ -3389,21 +3268,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION4|2"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E346968065A1F7}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E346968065A1F9}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E346968CF156A5}" {
     TrackName "IOND_4"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E346968CF156B4}" {
@@ -3414,7 +3293,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION4_3.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E346968CF156BB}" {
       TrackName "m_fProgress"
@@ -3435,7 +3314,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E346968CF15680}" {
       TrackName "m_sEntityNameNum"
@@ -3445,21 +3324,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION4|3"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E346968CF15684}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E346968CF15686}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E3469691225CDC}" {
     TrackName "IOND_5"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E3469691225C26}" {
@@ -3470,7 +3349,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION4_4.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E3469691225C2B}" {
       TrackName "m_fProgress"
@@ -3491,7 +3370,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E3469691225C31}" {
       TrackName "m_sEntityNameNum"
@@ -3501,21 +3380,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION4|4"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E3469691225C33}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E3469691225C35}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E3460EE587B422}" {
     TrackName "IONE_1"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E3460EE587B42B}" {
@@ -3526,7 +3405,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION5_0.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E3460EE587B432}" {
       TrackName "m_fProgress"
@@ -3547,7 +3426,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E3460EE587B43B}" {
       TrackName "m_sEntityNameNum"
@@ -3557,21 +3436,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION5|0"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E3460EE587B400}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E3460EE587B403}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E3460E888E9F86}" {
     TrackName "IONE_2"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E3460E888E9F8F}" {
@@ -3582,7 +3461,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION5_1.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E3460E888E9F96}" {
       TrackName "m_fProgress"
@@ -3603,7 +3482,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E3460E888E9F9D}" {
       TrackName "m_sEntityNameNum"
@@ -3613,21 +3492,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION5|1"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E3460E888E9FE4}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E3460E888E9FE7}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E3460E8F8280B2}" {
     TrackName "IONE_3"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E3460E8F8280BC}" {
@@ -3638,7 +3517,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION5_2.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E3460E8F828083}" {
       TrackName "m_fProgress"
@@ -3659,7 +3538,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E3460E8F82808B}" {
       TrackName "m_sEntityNameNum"
@@ -3669,21 +3548,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION5|2"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E3460E8F82808D}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E3460E8F828090}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E3460E95B6649F}" {
     TrackName "IONE_4"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E3460E95B664EE}" {
@@ -3694,7 +3573,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION5_3.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E3460E95B664F4}" {
       TrackName "m_fProgress"
@@ -3715,7 +3594,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E3460E95B664FA}" {
       TrackName "m_sEntityNameNum"
@@ -3725,21 +3604,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION5|3"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E3460E95B664FD}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E3460E95B664FF}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E3460E9AC43B03}" {
     TrackName "IONE_5"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E3460E9AC43B0E}" {
@@ -3750,7 +3629,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION5_4.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E3460E9AC43B14}" {
       TrackName "m_fProgress"
@@ -3771,7 +3650,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E3460E9AC43B19}" {
       TrackName "m_sEntityNameNum"
@@ -3781,21 +3660,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION5|4"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E3460E9AC43B1C}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E3460E9AC43B62}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E3463A127C3D35}" {
     TrackName "IONF_1"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E3463A127C3D05}" {
@@ -3806,7 +3685,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION6_0.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E3463A127C3D0D}" {
       TrackName "m_fProgress"
@@ -3827,7 +3706,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E3463A127C3D15}" {
       TrackName "m_sEntityNameNum"
@@ -3837,21 +3716,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION6|0"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E3463A127C3D18}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E3463A127C3D1B}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E3463BD133EB02}" {
     TrackName "IONF_2"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E3463BD133EB0E}" {
@@ -3862,7 +3741,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION6_1.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E3463BD133EB14}" {
       TrackName "m_fProgress"
@@ -3883,7 +3762,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E3463BD133EB1B}" {
       TrackName "m_sEntityNameNum"
@@ -3893,21 +3772,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION6|1"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E3463BD133EB1E}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E3463BD133EB61}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E3463BD5584096}" {
     TrackName "IONF_3"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E3463BD55840E3}" {
@@ -3918,7 +3797,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION6_2.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E3463BD55840EA}" {
       TrackName "m_fProgress"
@@ -3939,7 +3818,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E3463BD55840F3}" {
       TrackName "m_sEntityNameNum"
@@ -3949,21 +3828,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION6|2"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E3463BD55840F6}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E3463BD55840F8}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E3463BD7F550E7}" {
     TrackName "IONF_4"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E3463BD7F550EF}" {
@@ -3974,7 +3853,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION6_3.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E3463BD7F550F9}" {
       TrackName "m_fProgress"
@@ -3995,7 +3874,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E3463BD7F550C0}" {
       TrackName "m_sEntityNameNum"
@@ -4005,21 +3884,21 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION6|3"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E3463BD7F550C3}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E3463BD7F550C5}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
    }
    CustomCinematicTrack "{62E3463BD87B867E}" {
     TrackName "IONF_5"
-    Flags 1
+    Flags 0
     ClassName "PS_AnimeCinematicTrack"
     ChildTracks {
      StringCinematicTrack "{62E3463BD87B864B}" {
@@ -4030,7 +3909,7 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "$SesMissionsRHS:Anime\Ram\PeopleLiberation\ION6_4.vcsurf"
        }
       }
-      Flags 1
+      Flags 0
      }
      FloatCinematicTrack "{62E3463BD87B8652}" {
       TrackName "m_fProgress"
@@ -4051,7 +3930,7 @@ PS_AnimeCinematicEntity Anime_1 {
         InterpMode 1
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E3463BD87B8658}" {
       TrackName "m_sEntityNameNum"
@@ -4061,24 +3940,17 @@ PS_AnimeCinematicEntity Anime_1 {
         Value "ION6|4"
        }
       }
-      Flags 1
+      Flags 0
      }
      StringCinematicTrack "{62E3463BD87B865A}" {
       TrackName "m_sTrackEditAction"
-      Flags 1
+      Flags 0
      }
      BooleanCinematicTrack "{62E3463BD87B865D}" {
       TrackName "m_bDie"
-      Flags 1
+      Flags 0
      }
     }
-   }
-  }
- }
- m_aAnimateTrackers {
-  PS_AnimeStudioPro2024 "{62E17271831FC4E0}" {
-   m_sAnimeFilePath "$SesMissionsRHS:Anime\Ram\PeopleLiberation\CIV1_#.vcsurf"
-   m_Bones PS_AnimeStudioBoneSet "{62E172719C593AF0}" : "{52EDEB7EF7963868}scripts/game/CharacterBonesSet.conf" {
    }
   }
  }
@@ -4121,17 +3993,12 @@ $grp SCR_DoorOpenerEntity {
 PS_AnimeSyncerEntity : "{20F7D30AD42EE895}Prefabs/AnimeSyncer.et" {
  coords 1449.265 61.221 5765.863
  m_aNames {
-  "CIV1|0" "CIV1|1" "CIV1|2" "CIV1|3" "CIV1|4" "CIV1|5" "CIV1|6" "CIV1|7"
+  "CIV1|0" "CIV1|1" "CIV1|2" "CIV1|3" "CIV1|4" "CIV1|5" "CIV1|6" "CIV1|7" "ION1|0" "ION1|1" "ION1|2" "ION1|3" "ION1|4" "ION1|5" "ION2|0" "ION2|1" "ION2|2" "ION2|3" "ION2|4" "ION2|5" "ION3|0" "ION3|1" "ION3|2" "ION3|3" "ION3|4" "ION3|5" "ION4|0" "ION4|1" "ION4|2" "ION4|3" "ION4|4" "ION4|5" "ION5|0" "ION5|1" "ION5|2" "ION5|3" "ION5|4" "ION5|5" "ION6|0" "ION6|1" "ION6|2" "ION6|3" "ION6|4" "ION6|5" "Cheese1" "CheeseRun"
  }
 }
-GenericEntity Template : "{5B1381786551320C}CINEMATIC_TRAILER/Cin_Prefabs/Characters/Mannequin/CINEMATIC_RU_soldier_with_animation.et" {
- components {
-  AnimationPlayerComponent "{5670AB5CB11668D8}" {
-   Enabled 0
-  }
- }
- coords 9938.913 318.861 2302
- angleY -34.831
+GenericEntity : "{7BF46B8343579CFB}Prefabs/Items/Cats/Sugnid.et" {
+ coords 9692.032 22.386 1612.442
+ angleY 102.878
 }
 GenericEntity : "{91E4D4CBB097A9C1}Prefabs/Props/Forest/DeerSkull_01/DeerSkull_01.et" {
  coords 9691.836 22.426 1612.839
