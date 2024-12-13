@@ -1,4 +1,4 @@
-/*modded class SCR_AIGroup
+modded class SCR_AIGroup
 {
 	[Attribute()]
 	ref array<ref PointInfo> m_aSpawnPosition;
