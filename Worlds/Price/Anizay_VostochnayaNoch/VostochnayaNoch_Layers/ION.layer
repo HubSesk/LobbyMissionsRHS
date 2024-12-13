@@ -1,0 +1,49 @@
+PS_Spawn {
+ coords 281.62 290.955 2659.608
+ m_sPrefabName "{46BB98C9B56A0E94}StolSGovnom.et"
+}
+Vehicle M1025_ION1 : "{CD1B5570AF3D50B6}Prefabs/Vehicles/Wheeled/M998/M1025_ION.et" {
+ coords 264.829 290.902 2663.257
+ angleX 4.048
+ angleY -154.93
+ angleZ 1.891
+}
+PS_ManualMarker RHS_ION_G_001_M : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 302.688 293.212 2678.784
+ m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+ m_sImageSetGlow ""
+ m_MarkerColor 1 1 1 1
+ m_sQuadName "recon-motorized"
+ m_fWorldSize 40
+ m_sDescription "Atlas Red 2"
+ m_bUseWorldScale 0
+ m_aVisibleForFactions {
+  "RHS_ION" "US" "USSR"
+ }
+ m_aHideOnGameModeStates {
+ }
+ m_iZOrder 0
+}
+SCR_AIGroup RHS_ION_G_001_8 : "{E083B07479776B6A}Prefabs/Groups/INDFOR/ION/Group_ION.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{630EA7CE37258E3E}" {
+   m_iCompanyCallsign 0
+   m_iPlatoonCallsign 0
+   m_iSquadCallsign 1
+  }
+ }
+ coords 302.688 293.212 2678.784
+ angleY 110.758
+ m_aUnitPrefabSlots {
+  "{E3EEA6FBEDFD78F4}Prefabs/Characters/Factions/INDFOR/RHS_ION_Coy/RandomSoldiers/Character_RHS_ION_Coy_SL_Random.et" "{140001FC383DF9A2}Prefabs/Characters/Factions/INDFOR/RHS_ION_Coy/RandomSoldiers/Character_RHS_ION_Coy_Rifleman_Random.et" "{40C7CF3F9D111CFC}Prefabs/Characters/Factions/INDFOR/RHS_ION_Coy/RandomSoldiers/Character_RHS_ION_Coy_Spotter_Random.et" "{140001FC383DF9A2}Prefabs/Characters/Factions/INDFOR/RHS_ION_Coy/RandomSoldiers/Character_RHS_ION_Coy_Rifleman_Random.et" "{140001FC383DF9A2}Prefabs/Characters/Factions/INDFOR/RHS_ION_Coy/RandomSoldiers/Character_RHS_ION_Coy_Rifleman_Random.et" "{0FA8ACE19A772327}Prefabs/Characters/Factions/INDFOR/RHS_ION_Coy/RandomSoldiers/Character_RHS_ION_Coy_Medic_Random.et" "{36486F2E69C2B19E}Prefabs/Characters/Factions/INDFOR/RHS_ION/RandomSoldiers/Character_RHS_ION_Marksman_Random.et" "{40C7CF3F9D111CFC}Prefabs/Characters/Factions/INDFOR/RHS_ION_Coy/RandomSoldiers/Character_RHS_ION_Coy_Spotter_Random.et" "{AE339A6E8AF7FDDB}Prefabs/Characters/Factions/INDFOR/RHS_ION_Urban/Character_RHS_ION_Urban_Marksman2.et"
+ }
+}
+Vehicle M1025_armed_M2HB_PAS13G_ION1 : "{F8DD2F3E8A6E8E98}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_PAS13G_ION.et" {
+ coords 298.552 289.451 2663.026
+ angleX -1.772
+ angleY 98.193
+ angleZ -0.255
+}

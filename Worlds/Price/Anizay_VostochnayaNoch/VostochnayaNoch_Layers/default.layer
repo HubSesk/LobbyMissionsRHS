@@ -18,7 +18,6 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
    m_iStartingHours 1
    m_iStartingMinutes 2
-   m_bUsePredefineStartingTimeAndWeatehr 1
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{630EA7CA0BA7AAD8}" {
      m_sWeatherPresetName "Clear"
@@ -55,9 +54,10 @@ CinematicEntity ProLetka {
         Value 382.241
         InterpMode 0
        }
-       FloatCinematicKeyframe "{630EA7C9A4F1C2C2}" {
+       FloatCinematicKeyframe "{631A9C2B4FCC58A2}" {
         FrameNumber 1410
         Value 294.911
+        InterpMode 0
        }
       }
      }
@@ -69,9 +69,10 @@ CinematicEntity ProLetka {
         Value 299.084
         InterpMode 0
        }
-       FloatCinematicKeyframe "{630EA7C9A4F1C0F3}" {
+       FloatCinematicKeyframe "{631A9C2B4FCC5B3B}" {
         FrameNumber 1410
-        Value 291.916
+        Value 290.962
+        InterpMode 0
        }
       }
      }
@@ -83,9 +84,10 @@ CinematicEntity ProLetka {
         Value 2670.694
         InterpMode 0
        }
-       FloatCinematicKeyframe "{630EA7C9A4F1C7B5}" {
+       FloatCinematicKeyframe "{631A9C2B4FCC5A76}" {
         FrameNumber 1410
         Value 2666.545
+        InterpMode 0
        }
       }
      }
@@ -100,9 +102,10 @@ CinematicEntity ProLetka {
         Value -0.941
         InterpMode 0
        }
-       FloatCinematicKeyframe "{630EA7C9A4F1C607}" {
+       FloatCinematicKeyframe "{631A9C2B4FCC5DD4}" {
         FrameNumber 1410
         Value -2.888
+        InterpMode 0
        }
       }
      }
@@ -114,9 +117,10 @@ CinematicEntity ProLetka {
         Value 103.356
         InterpMode 0
        }
-       FloatCinematicKeyframe "{630EA7C9A4F1C6DB}" {
+       FloatCinematicKeyframe "{631A9C2B4FCC5D02}" {
         FrameNumber 1410
         Value 110.656
+        InterpMode 0
        }
       }
      }
@@ -128,9 +132,10 @@ CinematicEntity ProLetka {
         Value 0
         InterpMode 0
        }
-       FloatCinematicKeyframe "{630EA7C9A4F1C5B5}" {
+       FloatCinematicKeyframe "{631A9C2B4FCC5C69}" {
         FrameNumber 1410
         Value 0
+        InterpMode 0
        }
       }
      }
@@ -142,27 +147,9 @@ CinematicEntity ProLetka {
      TrackName "DOF"
      Enabled BooleanCinematicTrack "{630E4A2ECF972BC3}" {
       TrackName "Enabled"
-      Keyframes {
-       BooleanCinematicKeyframe "{630EA7C54B044AA0}" {
-        FrameNumber 0
-        Value 1
-       }
-      }
      }
      FocusDistance FloatCinematicTrack "{630E4A2ECF972A3C}" {
       TrackName "FocusDistance"
-      Keyframes {
-       FloatCinematicKeyframe "{630EA7C5BB8C8C9F}" {
-        FrameNumber 0
-        Value 0.24
-        InterpMode 0
-       }
-       FloatCinematicKeyframe "{630EA7C5B1ECB096}" {
-        FrameNumber 100
-        Value 2.87
-        InterpMode 0
-       }
-      }
      }
      LengthNear FloatCinematicTrack "{630E4A2ECF972A38}" {
       TrackName "LengthNear"
@@ -171,25 +158,34 @@ CinematicEntity ProLetka {
       TrackName "LengthFar"
      }
     }
+    DOFAdvanced DOFAdvancedCinematicTrack "{6318C9B960CC1DFE}" {
+     TrackName "DOFAdvanced"
+     Enabled BooleanCinematicTrack "{6318C9B960CC1DEB}" {
+      TrackName "Enabled"
+     }
+     FocusDistance FloatCinematicTrack "{6318C9B960CC1DE3}" {
+      TrackName "FocusDistance"
+     }
+     FStop FloatCinematicTrack "{6318C9B960CC1DDE}" {
+      TrackName "FStop"
+     }
+     SensorSize FloatCinematicTrack "{6318C9B960CC1DDC}" {
+      TrackName "SensorSize"
+     }
+     FocalLengthAuto BooleanCinematicTrack "{6318C9B960CC1DDA}" {
+      TrackName "FocalLengthAuto"
+     }
+     FocalLength FloatCinematicTrack "{6318C9B960CC1DD8}" {
+      TrackName "FocalLength"
+     }
+    }
     HDR HDRCinematicTrack "{630E4A2ECF972A33}" {
      TrackName "HDR"
      ManualExposition BooleanCinematicTrack "{630E4A2ECF972A2A}" {
       TrackName "ManualExposition"
-      Keyframes {
-       BooleanCinematicKeyframe "{630EA7CBE1B81DB3}" {
-        FrameNumber 1410
-        Value 1
-       }
-      }
      }
      ExpositionLV FloatCinematicTrack "{630E4A2ECF972A27}" {
       TrackName "ExpositionLV"
-      Keyframes {
-       FloatCinematicKeyframe "{630EA7CBDDB32FBB}" {
-        FrameNumber 1410
-        Value -0.39
-       }
-      }
      }
     }
    }
