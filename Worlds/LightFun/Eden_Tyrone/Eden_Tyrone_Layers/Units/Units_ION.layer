@@ -1,0 +1,117 @@
+$grp SCR_AIGroup : "{19843E954790DF28}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Group_USAF_USMC_MEF_FireTeam.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{631B44F2B76FDCB9}" {
+    m_iPlatoonCallsign 3
+   }
+  }
+  coords 4934.885 39.555 9054.412
+  m_faction "RHS_ION"
+  m_aUnitPrefabSlots {
+   "{E3EEA6FBEDFD78F4}Prefabs/Characters/Factions/INDFOR/RHS_ION_Coy/RandomSoldiers/Character_RHS_ION_Coy_SL_Random.et" "{140001FC383DF9A2}Prefabs/Characters/Factions/INDFOR/RHS_ION_Coy/RandomSoldiers/Character_RHS_ION_Coy_Rifleman_Random.et" "{A1C83383561D7708}Prefabs/Characters/Factions/INDFOR/RHS_ION_Urban/RandomSoldiers/Character_RHS_ION_Urban_Rifleman_Random.et" "{140001FC383DF9A2}Prefabs/Characters/Factions/INDFOR/RHS_ION_Coy/RandomSoldiers/Character_RHS_ION_Coy_Rifleman_Random.et" "{A1C83383561D7708}Prefabs/Characters/Factions/INDFOR/RHS_ION_Urban/RandomSoldiers/Character_RHS_ION_Urban_Rifleman_Random.et" "{A1C83383561D7708}Prefabs/Characters/Factions/INDFOR/RHS_ION_Urban/RandomSoldiers/Character_RHS_ION_Urban_Rifleman_Random.et" "{0FA8ACE19A772327}Prefabs/Characters/Factions/INDFOR/RHS_ION_Coy/RandomSoldiers/Character_RHS_ION_Coy_Medic_Random.et" "{5C697A0F67907F0B}Prefabs/Characters/Factions/INDFOR/RHS_ION_Urban/RandomSoldiers/Character_RHS_ION_Urban_Marksman_Random.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{631B44F2B76FDCB9}" {
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 4889.398 35.836 9095.581
+  angleY 138.421
+  m_faction "RHS_ION"
+  m_aUnitPrefabSlots {
+   "{E3EEA6FBEDFD78F4}Prefabs/Characters/Factions/INDFOR/RHS_ION_Coy/RandomSoldiers/Character_RHS_ION_Coy_SL_Random.et" "{140001FC383DF9A2}Prefabs/Characters/Factions/INDFOR/RHS_ION_Coy/RandomSoldiers/Character_RHS_ION_Coy_Rifleman_Random.et" "{A1C83383561D7708}Prefabs/Characters/Factions/INDFOR/RHS_ION_Urban/RandomSoldiers/Character_RHS_ION_Urban_Rifleman_Random.et" "{140001FC383DF9A2}Prefabs/Characters/Factions/INDFOR/RHS_ION_Coy/RandomSoldiers/Character_RHS_ION_Coy_Rifleman_Random.et" "{A1C83383561D7708}Prefabs/Characters/Factions/INDFOR/RHS_ION_Urban/RandomSoldiers/Character_RHS_ION_Urban_Rifleman_Random.et" "{A1C83383561D7708}Prefabs/Characters/Factions/INDFOR/RHS_ION_Urban/RandomSoldiers/Character_RHS_ION_Urban_Rifleman_Random.et" "{40C7CF3F9D111CFC}Prefabs/Characters/Factions/INDFOR/RHS_ION_Coy/RandomSoldiers/Character_RHS_ION_Coy_Spotter_Random.et" "{5C697A0F67907F0B}Prefabs/Characters/Factions/INDFOR/RHS_ION_Urban/RandomSoldiers/Character_RHS_ION_Urban_Marksman_Random.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{631B44F2B76FDCB9}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 4943.351 42.267 8992.525
+  angleY 138.421
+  m_faction "RHS_ION"
+  m_aUnitPrefabSlots {
+   "{E3EEA6FBEDFD78F4}Prefabs/Characters/Factions/INDFOR/RHS_ION_Coy/RandomSoldiers/Character_RHS_ION_Coy_SL_Random.et" "{140001FC383DF9A2}Prefabs/Characters/Factions/INDFOR/RHS_ION_Coy/RandomSoldiers/Character_RHS_ION_Coy_Rifleman_Random.et" "{A1C83383561D7708}Prefabs/Characters/Factions/INDFOR/RHS_ION_Urban/RandomSoldiers/Character_RHS_ION_Urban_Rifleman_Random.et" "{140001FC383DF9A2}Prefabs/Characters/Factions/INDFOR/RHS_ION_Coy/RandomSoldiers/Character_RHS_ION_Coy_Rifleman_Random.et" "{A1C83383561D7708}Prefabs/Characters/Factions/INDFOR/RHS_ION_Urban/RandomSoldiers/Character_RHS_ION_Urban_Rifleman_Random.et" "{A1C83383561D7708}Prefabs/Characters/Factions/INDFOR/RHS_ION_Urban/RandomSoldiers/Character_RHS_ION_Urban_Rifleman_Random.et" "{40C7CF3F9D111CFC}Prefabs/Characters/Factions/INDFOR/RHS_ION_Coy/RandomSoldiers/Character_RHS_ION_Coy_Spotter_Random.et" "{5C697A0F67907F0B}Prefabs/Characters/Factions/INDFOR/RHS_ION_Urban/RandomSoldiers/Character_RHS_ION_Urban_Marksman_Random.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{631B44F2B76FDCB9}" {
+   }
+  }
+  coords 4920.627 37.064 9056.946
+  angleY 63.08
+  m_faction "RHS_ION"
+  m_aUnitPrefabSlots {
+   "{E3EEA6FBEDFD78F4}Prefabs/Characters/Factions/INDFOR/RHS_ION_Coy/RandomSoldiers/Character_RHS_ION_Coy_SL_Random.et" "{5C697A0F67907F0B}Prefabs/Characters/Factions/INDFOR/RHS_ION_Urban/RandomSoldiers/Character_RHS_ION_Urban_Marksman_Random.et"
+  }
+  m_sCustomNameSet "Командование"
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{631B44F2B76FDCB9}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 6425.688 162.06 6486.172
+  angleY 157.027
+  m_faction "RHS_ION"
+  m_aUnitPrefabSlots {
+   "{006311076DB5EE8A}Prefabs/Characters/Factions/INDFOR/RHS_ION/RandomSoldiers/Character_RHS_ION_SL_Random.et" "{CBE926A2584FB99D}Prefabs/Characters/Factions/INDFOR/RHS_ION/RandomSoldiers/Character_RHS_ION_Rifleman_Random.et" "{CBE926A2584FB99D}Prefabs/Characters/Factions/INDFOR/RHS_ION/RandomSoldiers/Character_RHS_ION_Rifleman_Random.et" "{CBE926A2584FB99D}Prefabs/Characters/Factions/INDFOR/RHS_ION/RandomSoldiers/Character_RHS_ION_Rifleman_Random.et" "{CBE926A2584FB99D}Prefabs/Characters/Factions/INDFOR/RHS_ION/RandomSoldiers/Character_RHS_ION_Rifleman_Random.et" "{CBE926A2584FB99D}Prefabs/Characters/Factions/INDFOR/RHS_ION/RandomSoldiers/Character_RHS_ION_Rifleman_Random.et" "{9E91A3DF0026F060}Prefabs/Characters/Factions/INDFOR/RHS_ION/RandomSoldiers/Character_RHS_ION_Medic_Random.et" "{36486F2E69C2B19E}Prefabs/Characters/Factions/INDFOR/RHS_ION/RandomSoldiers/Character_RHS_ION_Marksman_Random.et"
+  }
+  m_sCustomNameSet "Humvee M2 Optic"
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{631B44F2B76FDCB9}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 6470.04 162.214 6506.845
+  angleY 166.085
+  m_faction "RHS_ION"
+  m_aUnitPrefabSlots {
+   "{006311076DB5EE8A}Prefabs/Characters/Factions/INDFOR/RHS_ION/RandomSoldiers/Character_RHS_ION_SL_Random.et" "{1AD22CACD8001744}Prefabs/Characters/Factions/INDFOR/RHS_ION/RandomSoldiers/Character_RHS_ION_Scout_Random.et" "{1AD22CACD8001744}Prefabs/Characters/Factions/INDFOR/RHS_ION/RandomSoldiers/Character_RHS_ION_Scout_Random.et" "{1AD22CACD8001744}Prefabs/Characters/Factions/INDFOR/RHS_ION/RandomSoldiers/Character_RHS_ION_Scout_Random.et"
+  }
+  m_sCustomNameSet "Разведка"
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{631B44F2B76FDCB9}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 6487.627 161.949 6460.093
+  angleY -16.87
+  m_faction "RHS_ION"
+  m_aUnitPrefabSlots {
+   "{006311076DB5EE8A}Prefabs/Characters/Factions/INDFOR/RHS_ION/RandomSoldiers/Character_RHS_ION_SL_Random.et" "{CBE926A2584FB99D}Prefabs/Characters/Factions/INDFOR/RHS_ION/RandomSoldiers/Character_RHS_ION_Rifleman_Random.et" "{CBE926A2584FB99D}Prefabs/Characters/Factions/INDFOR/RHS_ION/RandomSoldiers/Character_RHS_ION_Rifleman_Random.et" "{9E91A3DF0026F060}Prefabs/Characters/Factions/INDFOR/RHS_ION/RandomSoldiers/Character_RHS_ION_Medic_Random.et"
+  }
+ }
+}

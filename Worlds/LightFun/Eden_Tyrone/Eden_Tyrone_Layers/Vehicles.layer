@@ -1,0 +1,53 @@
+$grp Vehicle : "{053040D358C1DC44}Prefabs/Vehicles/Wheeled/M998/M1025_ION_armed_m2hb.et" {
+ M1025_ION_armed_m2hb1 {
+  coords 6429.971 162.062 6478.239
+  angleY -18.987
+ }
+ M1025_ION_armed_m2hb2 {
+  coords 6424.276 162.031 6476.102
+  angleY -7.422
+ }
+}
+Vehicle K4386_Armed_Camo1 : "{1DF4C30C130D8FAD}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed_Camo.et" {
+ coords 4976.53 28.312 11981.738
+ angleY -89.546
+}
+Vehicle Mi8MT_armed_black1 : "{80C975F8482DEE97}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_black.et" {
+ coords 1075.061 2.781 6043.709
+}
+$grp Vehicle : "{A53F4D3BB9DC85D4}Prefabs/Vehicles/Wheeled/K4386/K4386_RG.et" {
+ K4386_RG1 {
+  coords 4957.331 28.25 11928.984
+  angleY -162.431
+ }
+ K4386_RG2 {
+  coords 4944.806 28.381 11948.453
+  angleX -0.002
+  angleY 179.953
+  angleZ -1.79
+ }
+ K4386_RG3 {
+  coords 4974.989 28.281 11947.287
+  angleY -84.967
+ }
+}
+$grp Vehicle : "{CD1B5570AF3D50B6}Prefabs/Vehicles/Wheeled/M998/M1025_ION.et" {
+ M1025_ION1 {
+  coords 6470.161 162.088 6497.631
+  angleX -0.42
+  angleY -117.949
+  angleZ -0.791
+ }
+ M1025_ION2 {
+  coords 6488.466 161.995 6465.676
+  angleX 0.236
+  angleY 74.723
+  angleZ 0.863
+ }
+}
+Vehicle UAZ469_Camo1 : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
+ coords 4953.071 28.358 11995.515
+ angleX 0.016
+ angleY -178.943
+ angleZ -0.895
+}

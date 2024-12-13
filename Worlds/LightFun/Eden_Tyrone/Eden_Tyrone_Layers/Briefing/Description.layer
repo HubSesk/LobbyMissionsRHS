@@ -1,0 +1,45 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  m_sTitle "Легенда"
+  m_sTextData "Наёмники захватили город здание администрации в городе Тирон по контракту от неизвестного заказчика. Спец. подразделения намерены вернуть город под свой контроль, взяв административное здание под свой контроль."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  m_sTitle "Сведения наёмников"
+  m_sTextData "По данным разведки удалось узнать, что у противника есть:"\
+  ""\
+  "- 3 K4386"\
+  "- 1 K4386 с турелью"\
+  "- 1 вооружённый Ми-8"\
+  "- Десант"
+  m_aVisibleForFactions {
+   "RHS_ION"
+  }
+ }
+ {
+  m_sTitle "Задача наёмников"
+  m_sTextData "- Защитить административное здание в городе Тирон"
+  m_aVisibleForFactions {
+   "RHS_ION"
+  }
+ }
+ {
+  m_sTitle "Сведения спецназа"
+  m_sTextData "По данным разведки удалось узнать, что у противника есть:"\
+  ""\
+  "- 2 Humvee M2 Optic"\
+  "- 2 Humvee"\
+  "- Трубы"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ {
+  m_sTitle "Задача спецназа"
+  m_sTextData "- Захватить административное здание в городе Тирон"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+}
