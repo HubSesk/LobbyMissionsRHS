@@ -1,15 +1,68 @@
 $grp GenericEntity : "{4A46592A9C638AA9}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/BoxBoom2Final.et" {
  {
   coords 1731.629 139.661 7796.536
+  {
+   PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    m_sImageSet "{2B4F198AB5937F32}UI/Imagesets/Editor/Icons/EditableEntities.imageset"
+    m_sImageSetGlow ""
+    m_MarkerColor 0 0.502 0.125 1
+    m_sQuadName "EditableEntity_Composition"
+    m_fWorldSize 45
+    m_bUseWorldScale 0
+    m_bVisibleForEmptyFaction 1
+    m_bShowForAnyFaction 1
+   }
+  }
  }
  {
   coords 2771.602 141.285 7994.281
+  {
+   PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    m_sImageSet "{2B4F198AB5937F32}UI/Imagesets/Editor/Icons/EditableEntities.imageset"
+    m_sImageSetGlow ""
+    m_MarkerColor 0 0.502 0.125 1
+    m_sQuadName "EditableEntity_Composition"
+    m_fWorldSize 45
+    m_bUseWorldScale 0
+    m_bVisibleForEmptyFaction 1
+    m_bShowForAnyFaction 1
+   }
+  }
  }
  {
   coords 3001.744 138.969 7102.561
+  {
+   PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    m_sImageSet "{2B4F198AB5937F32}UI/Imagesets/Editor/Icons/EditableEntities.imageset"
+    m_sImageSetGlow ""
+    m_MarkerColor 0 0.502 0.125 1
+    m_sQuadName "EditableEntity_Composition"
+    m_fWorldSize 45
+    m_bUseWorldScale 0
+    m_bVisibleForEmptyFaction 1
+    m_bShowForAnyFaction 1
+   }
+  }
  }
  {
   coords 1930.911 138.638 7029.626
   angleY 178.68
+  {
+   PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    angleY -88.68
+    m_sImageSet "{2B4F198AB5937F32}UI/Imagesets/Editor/Icons/EditableEntities.imageset"
+    m_sImageSetGlow ""
+    m_MarkerColor 0 0.502 0.125 1
+    m_sQuadName "EditableEntity_Composition"
+    m_fWorldSize 45
+    m_bUseWorldScale 0
+    m_bVisibleForEmptyFaction 1
+    m_bShowForAnyFaction 1
+   }
+  }
  }
 }
