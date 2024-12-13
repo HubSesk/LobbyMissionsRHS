@@ -1,0 +1,29 @@
+GameEntity : "{DAA2CDBCFE887373}Prefabs/Characters/HeadGear/Helmet_LShZ/Helmet_LShZ_new_OD.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{31C47FFE2E732C4D}Prefabs/Characters/Eyewear/npp_kondor/Eyewear_npp_kondor_tan.et"
+    }
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{0E39B712A057DD4B}Prefabs/Characters/HeadGear/Helmet_LShZ/Headgear_lshz_cover_MC.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{40ED520CE1154848}Prefabs/Characters/HeadGear/Balaclavas/LShZ_Balaclava/Balaclava_LShZ_black.et"
+    }
+    RHS_LoadoutSlotInfo Headset {
+     Prefab "{150CBCB5E706F291}Prefabs/Characters/HeadGear/Headphones_6M2/Headphones_6M2-1.et"
+    }
+    RHS_LoadoutSlotInfo Rail_Right {
+     Prefab "{0F6075686526F51D}Prefabs/Items/Equipment/Nightvision/ChargePro/ChargePro.et"
+    }
+    RHS_LoadoutSlotInfo TopVelcro {
+     Prefab ""
+    }
+   }
+   DebugWornModel 0
+  }
+ }
+ coords 1220.589 50.937 1299.972
+}

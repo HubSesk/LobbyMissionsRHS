@@ -1,0 +1,106 @@
+SCR_ChimeraCharacter : "{5B236FF3A449A4E1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/Character_RHS_RF_MSV_VKPO_3.0_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{F2539FA5706E51E4}Prefabs/Items/Equipment/Binoculars/Binoculars_B12/Binoculars_B12.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_PlatoonLeader"
+    m_Image "{437C9E6618A9D86D}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_3_EMR/Character_RHS_RF_MSV_VKPO_3_EMR_SL.edds"
+    m_aAuthoredLabels {
+     70 2 1653989487 10506 10503 10502 70 1670057115 10513 42
+    }
+    m_aAutoLabels {
+     122 42
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{F2DAF19AC633E1A9}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_npz_VKPO3.0_3.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{FB9A698919EF336B}Prefabs/Characters/HeadGear/Helmet_LShZ/variants/Vkpo3.0/Helmet_LShZ_new_OD_HC_VKPO3_6.et"
+    }
+    LoadoutSlotInfo Jacket {
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{FA406DCFAF425080}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_Neck_EMR.et"
+    }
+    LoadoutSlotInfo Pants {
+    }
+    LoadoutSlotInfo Boots {
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{45DC01791EBE2349}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_EMR.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{E9FBA343CD7A6869}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_rifleman_EMR_3.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{8D4A4DF9111F0682}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Blk.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{623A450614BBD977}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/pouch_tv115_EMR.et"
+     PrefabsToSpawn + {
+      "{240AF1BFB20278CD}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_AP.et" "{240AF1BFB20278CD}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{623A4501ED8D81D1}" {
+     PrefabsToSpawn {
+      "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{623A4501E22A4ADD}" {
+     PrefabsToSpawn {
+      "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{623A51059E4ED1CA}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP111_radioClosed_EMR.et"
+    }
+    ItemsInitConfigurationItem "{62471C754C8840EF}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP111_PistolClosed_EMR.et"
+    }
+    ItemsInitConfigurationItem "{62471C755E9012E9}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_HP103_Holster_EMR.et"
+    }
+    ItemsInitConfigurationItem "{6248D60FEE7DA730}" {
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6248D60FFB68E6E6}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_EMR.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{63191AD4BCA652AA}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Minimap_ArsArma_GMR_EMR.et"
+    }
+    ItemsInitConfigurationItem "{63191AD4BCA652AC}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp103_EMR.et"
+     PrefabsToSpawn {
+      "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+   }
+  }
+ }
+ coords 1200.218 50.938 1299.697
+}

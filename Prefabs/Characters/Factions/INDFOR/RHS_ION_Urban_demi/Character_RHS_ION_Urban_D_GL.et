@@ -1,0 +1,60 @@
+SCR_ChimeraCharacter : "{6BE60EB05E46CC78}Prefabs/Characters/Factions/INDFOR/RHS_ION_Urban_demi/Character_RHS_ION_Urban_D_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SeniorRifleman"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{63E8322E2ADD4AA7}Prefabs/Weapons/Rifles/AK74/Rifle_AK74_GP25.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{9085DD1F36E4F876}Prefabs/Characters/Uniforms/Parka_Night/Night_parka_ion2.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{037DD3060547B417}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_MCBlk.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{81BB032A52CF5476}Prefabs/Characters/Uniforms/Pants_Hiking/hiking_pants_khakigrey.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{DF886C6B22F49827}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_black.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{3C92E4B4AC95AEF4}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_RGR_nobelt_AK101.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{62B934983C62A285}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_Hiking/hiking_pants_khakigrey.et"
+    }
+    ItemsInitConfigurationItem "{62B934983C62A2F4}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Parka_Night/Night_parka_ion2.et"
+    }
+    ItemsInitConfigurationItem "{62B934983C62A2F0}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_RGR.et"
+    }
+    ItemsInitConfigurationItem "{62B95AD64704AD04}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_jpc_placard_RGR_AK.et"
+     PrefabsToSpawn {
+      "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et" "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et" "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{63191A961937763C}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_black.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+     }
+    }
+   }
+  }
+ }
+ coords 1138.179 51 1321.486
+}

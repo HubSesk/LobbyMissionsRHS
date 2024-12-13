@@ -1,0 +1,52 @@
+SCR_ChimeraCharacter : "{E365B757340027E4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/Character_RHS_RF_MSV_VKPO_3.0_Medic.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_RadioOperator"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{805927DD98352C9B}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_npz_rail_1p87.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{FB9A698919EF336B}Prefabs/Characters/HeadGear/Helmet_LShZ/variants/Vkpo3.0/Helmet_LShZ_new_OD_HC_VKPO3_6.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{727037C2C61797A8}Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Pants_EMR.et"
+    }
+    LoadoutSlotInfo Boots {
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/Radio_R107M.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{ABB779CFC2E11E89}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Covert.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{623A450614BBD977}" {
+    }
+    ItemsInitConfigurationItem "{623A4501ED8D81D1}" {
+     PrefabsToSpawn {
+      "{240AF1BFB20278CD}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_AP.et" "{240AF1BFB20278CD}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_AP.et" "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et" "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{623A4501E22A4ADD}" {
+     PrefabsToSpawn {
+      "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et" "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{626CE3D08B53CB23}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+ coords 1183.685 51 1319.185
+}

@@ -1,0 +1,108 @@
+SCR_AIGroup : "{217AB4493CAB5362}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Group_RHS_RF_MSV_VKPO_S_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#AR-Group_PlatoonHQ"
+    m_Image "{C6238FAD06535808}UI/Textures/EditorPreviews/Groups/OPFOR/Group_USSR_PlatoonHQ.edds"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels {
+     71
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{63191AC42E73F401}" {
+      m_BudgetType CAMPAIGN
+      m_Value 1
+     }
+     SCR_EntityBudgetValue "{63191AC42E73F463}" {
+      m_BudgetType AI_SERVER
+      m_Value 0
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{63191AC42E73F45C}" {
+      m_BudgetType AI
+      m_Value 5
+     }
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{63191AC42E73F450}" {
+     m_Identity OPFOR
+     m_Dimension LAND
+     m_Icons 0
+     m_Amplifier NONE
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{63191AC42E73F447}" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{63191AC42E73F4BC}" {
+     m_iParentID -1
+     m_Mesh ""
+     m_Flags 259
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 -5 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{63191AC42E73F4B1}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{63191AC42E73F4B7}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{63191AC42E73F4B6}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{63191AC42E73F4A8}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 6 0 -6
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{63191AC42E73F4AB}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -6 0 -6
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ m_faction "RHS_ION"
+ m_aUnitPrefabSlots {
+  "{90B427BF4E9DF4E5}Prefabs/Characters/Factions/INDFOR/RHS_ION_Urban_demi/Character_RHS_ION_Urban_D_PL.et" "{1A00305DBEBD463A}Prefabs/Characters/Factions/INDFOR/RHS_ION_Urban_demi/Character_RHS_ION_Urban_D_Sergeant.et" "{F34E6EDBA619883A}Prefabs/Characters/Factions/INDFOR/RHS_ION_Urban_demi/Character_RHS_ION_Urban_D_Marksman.et" "{649674F1C13C56B3}Prefabs/Characters/Factions/INDFOR/RHS_ION_Urban_demi/Character_RHS_ION_Urban_D_Medic.et"
+ }
+}

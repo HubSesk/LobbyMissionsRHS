@@ -1,0 +1,35 @@
+SCR_ChimeraCharacter : "{1B6BC2CF04DA7B02}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/Character_RHS_RF_MSV_VKPO_3.0_PL_74m_wtihOptics.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_PlatoonSergeant"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{174DE37B8F2BDDDD}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_npz_rail_gp25_1p87_1p90.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Boots {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{62471C75598375D2}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_EMR.et"
+     PrefabsToSpawn {
+      "{D2E91B2DD0D3EF30}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N21.et" "{D2E91B2DD0D3EF30}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N21.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6248D60FFB68E6E6}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_EMR.et"
+     PrefabsToSpawn + {
+      "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+     }
+    }
+   }
+  }
+ }
+}

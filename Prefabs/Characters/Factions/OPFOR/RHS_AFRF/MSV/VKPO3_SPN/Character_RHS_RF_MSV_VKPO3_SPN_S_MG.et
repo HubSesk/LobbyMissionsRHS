@@ -1,0 +1,130 @@
+SCR_ChimeraCharacter : "{45A8C75A9E23BDEF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_BaseLoadout.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_MachineGunner"
+    Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
+    m_Image "{7394ED6AE115D99E}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_3_EMR/Character_RHS_RF_MSV_VKPO_3_EMR_MG.edds"
+    m_aAuthoredLabels + {
+     34
+    }
+    m_aAutoLabels {
+     122 43
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{5995414BD20D4290}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_B51_1p87.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{10853320AB41D515}Prefabs/Characters/HeadGear/Helmet_LShZ/variants/Vkpo3.0/Helmet_LShZ_new_MC_VKPO3_6.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{385BD8C6F68644CF}Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Shirt.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{FA406DCFAF425080}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_Neck_EMR.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{BBD789333ED8052C}Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Pants.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{AB9E3D5524876346}Prefabs/Characters/Footwear/Boots_Faradey_1085/Footware_Faradey_1085.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{4A93B3F0B33FF104}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_MC.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{9217B5D545B811F6}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_MG_EMR_1.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{8D4A4DF9111F0682}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Blk.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6062F658F714ECE6}" {
+     TargetStorage "Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Pants.et"
+    }
+    ItemsInitConfigurationItem "{6062F658F714ECED}" {
+     TargetStorage "Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Shirt.et"
+    }
+    ItemsInitConfigurationItem "{61D50D6F08B557DB}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Ratnik_Pouches/Pouch_6x9Scabbard.et"
+     PrefabsToSpawn {
+      ""
+     }
+    }
+    ItemsInitConfigurationItem "{63191AF32C95784C}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP111_PistolClosed2_EMR.et"
+     PrefabsToSpawn {
+      "{D2E91B2DD0D3EF30}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N21.et"
+     }
+    }
+    ItemsInitConfigurationItem "{63191AF32C957845}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP111_PistolClosed_EMR.et"
+     PrefabsToSpawn {
+      "{D2E91B2DD0D3EF30}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N21.et"
+     }
+    }
+    ItemsInitConfigurationItem "{63191AF32C957846}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_EMR.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{63191AF32C957858}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_EMR.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{63191AF32C954164}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Mordor_PKM_EMR.et"
+     PrefabsToSpawn {
+      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{63191AF32C954167}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Mordor_PKM_EMR.et"
+     PrefabsToSpawn {
+      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{63191AF32C95C34B}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_MC.et"
+     PrefabsToSpawn {
+      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{63191AF32C95C34C}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_HP103_Holster_EMR.et"
+     PrefabsToSpawn {
+      "{A8B4089ACB473848}Prefabs/Weapons/Handguns/MP443/Handgun_MP443.et"
+     }
+    }
+   }
+  }
+ }
+}

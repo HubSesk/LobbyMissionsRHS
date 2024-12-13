@@ -1,0 +1,91 @@
+SCR_ChimeraCharacter : "{1B6BC2CF04DA7B02}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/Character_RHS_RF_MSV_VKPO_3.0_PL_74m_wtihOptics.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SeniorRifleman"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{B80B7891330DD925}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_npz_rail_gp25_1p87.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{10853320AB41D515}Prefabs/Characters/HeadGear/Helmet_LShZ/variants/Vkpo3.0/Helmet_LShZ_new_MC_VKPO3_6.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{385BD8C6F68644CF}Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Shirt.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{BBD789333ED8052C}Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Pants.et"
+    }
+    LoadoutSlotInfo Boots {
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{4A93B3F0B33FF104}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_MC.et"
+    }
+    LoadoutSlotInfo Vest {
+    }
+    LoadoutSlotInfo HandWear {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{623953A428CFF5FF}" {
+     TargetStorage "Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Pants.et"
+    }
+    ItemsInitConfigurationItem "{623A450614BBD977}" {
+     PrefabsToSpawn {
+      "{240AF1BFB20278CD}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_AP.et" "{240AF1BFB20278CD}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_AP.et" "{240AF1BFB20278CD}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{623A4501ED8D81D1}" {
+     PrefabsToSpawn {
+      "{240AF1BFB20278CD}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_AP.et" "{240AF1BFB20278CD}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{623A4501E22A4ADD}" {
+     PrefabsToSpawn {
+      "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et" "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{62471C75598375D2}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_OD.et"
+     PrefabsToSpawn {
+      "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et" "{5821E7F8FA5B099C}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_7N22_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6248D60FEE7DA730}" {
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{63191A8A32512A95}" {
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6248D60FFB68E6E6}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_MC.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+     }
+    }
+   }
+  }
+ }
+}
