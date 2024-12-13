@@ -6,6 +6,8 @@ GenericEntity {
   }
   RigidBody "{62E166C14870C223}" {
    Active Active
+   Mass 30
+   CenterOfMass 0 0.343 -0
    ResponseIndex "MediumDestructible"
    Geometries {
     PhysicsCylinderGeometry a {

@@ -1,0 +1,88 @@
+GenericEntity : "{0A4FCB721B257D2E}Prefabs/Items/Food/BigCheese_Static.et" {
+ coords 9719.277 11.283 1530.35
+ angleX 14.435
+ angleY -41.135
+ angleZ 1.152
+}
+GenericEntity : "{0BA040955F2D11DC}Prefabs/Items/Food/CheeseSmol_Base.et" {
+ coords 9727.391 11.284 1512.077
+ angleY -63.788
+}
+Vehicle Ural4320_Cheese1 : "{25E9E774B31BAF63}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_Cheese.et" {
+ coords 9722.283 10.884 1534.104
+ angleX -2.678
+ angleY 36.776
+ angleZ 3.577
+}
+$grp GenericEntity : "{2F8F0BFDF42FC830}Prefabs/Items/Food/CheeseRound_2.et" {
+ {
+  coords 9727.241 11.284 1512.808
+  angleY -102.934
+ }
+ {
+  coords 9729.882 11.306 1511.387
+  angleY 41.723
+ }
+ {
+  coords 9639.643 18.497 1586.836
+  angleY 8.114
+ }
+}
+$grp GenericEntity : "{43DB3F1D48EB471E}Prefabs/Items/Food/CheeseRound_1.et" {
+ {
+  coords 9729.938 11.462 1511.433
+ }
+ {
+  coords 9729.909 11.617 1511.418
+ }
+ {
+  coords 9727.724 11.385 1508.065
+ }
+ {
+  coords 9641.663 18.384 1578.787
+ }
+ {
+  coords 9708.759 13.156 1543.998
+  angleX 3.197
+  angleY 0.701
+  angleZ 12.373
+ }
+ {
+  coords 9730.289 11.407 1501.426
+ }
+ {
+  coords 9671.005 15.086 1543.495
+ }
+ {
+  coords 9669.918 15.477 1544.532
+ }
+ {
+  coords 9670.601 15.832 1543.725
+ }
+ {
+  coords 9673.405 15.086 1542.195
+ }
+ {
+  coords 9672.93 15.477 1541.642
+ }
+ {
+  coords 9673.546 15.832 1542.12
+ }
+ {
+  coords 9667.832 15.698 1541.725
+ }
+}
+$grp GenericEntity : "{543B089BFEA21693}Prefabs/Items/Food/CheeseSmol_1.et" {
+ {
+  coords 9730.482 11.306 1512.008
+  angleY -149.632
+ }
+ {
+  coords 9643.02 18.384 1579.725
+  angleY -141.162
+ }
+ {
+  coords 9730.195 11.407 1504.51
+  angleY -33.703
+ }
+}

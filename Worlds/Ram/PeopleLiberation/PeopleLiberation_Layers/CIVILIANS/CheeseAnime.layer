@@ -1,0 +1,34 @@
+$grp GenericEntity : "{0A4FCB721B257D2E}Prefabs/Items/Food/BigCheese_Static.et" {
+ CheeseRun_Record {
+  components {
+   RigidBody "{62E166C14870C223}" {
+    Mass 12
+   }
+  }
+  coords 9659.65 17.427 1576.027
+  angleX 14.388
+  angleY -39.784
+  angleZ 92.211
+ }
+ CheeseRun {
+  components {
+   RigidBody "{62E166C14870C223}" {
+    Mass 12
+   }
+  }
+  coords 9656.793 18.035 1576.324
+  angleX 14.388
+  angleY -39.784
+  angleZ 92.211
+ }
+}
+GenericEntity Cheese1 : "{1F51B387A9CC3CE6}Prefabs/Items/Food/CheeseRound_Physic.et" {
+ coords 9735.18 10.437 1522.627
+ angleY 0
+}
+GenericEntity Cheese1Record : "{43DB3F1D48EB471E}Prefabs/Items/Food/CheeseRound_1.et" {
+ coords 9731.686 10.438 1520.404
+ angleX 1.783
+ angleY 0.112
+ angleZ 3.578
+}

@@ -1,0 +1,66 @@
+$grp Vehicle : "{4C79EB5FADB89B7A}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_yellow.et" {
+ S1203_transport_yellow1 {
+  coords 9713.764 14.374 1430.939
+  angleY -118.769
+ }
+ S1203_transport_yellow2 {
+  coords 9822.791 7.961 1576.693
+  angleY 175.821
+ }
+}
+$grp Vehicle : "{543799AC5C52989C}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_beige.et" {
+ S1203_transport_beige1 {
+  coords 9637.28 16.937 1571.195
+  angleY -85
+ }
+ S1203_transport_beige2 {
+  coords 9861.634 7.526 1627.38
+  angleY -76.277
+ }
+}
+$grp Vehicle : "{5555DCAFADB8CE2A}Prefabs/Vehicles/Wheeled/S105/S105_rally.et" {
+ S105_rally1 {
+  coords 9790.184 1.177 1527.576
+  angleX 1.165
+  angleY -27.847
+  angleZ -1.627
+ }
+ S105_rally2 {
+  coords 9773.514 5.219 1420.094
+  angleY 155.083
+ }
+}
+Vehicle S105_white1 : "{63880E311299A016}Prefabs/Vehicles/Wheeled/S105/S105_white.et" {
+ coords 9820.582 9.099 1625.83
+ angleX -3.176
+ angleY 136.313
+ angleZ 0.559
+}
+Vehicle S105_darkred2 : "{8000A0F649FB4B0D}Prefabs/Vehicles/Wheeled/S105/S105_darkred.et" {
+ coords 9791.132 10.218 1587.402
+ angleY -170.982
+}
+Vehicle S105_red1 : "{85F0BD6AF0F42D6D}Prefabs/Vehicles/Wheeled/S105/S105_red.et" {
+ coords 9781.499 5.249 1403.46
+ angleY -77.44
+}
+Vehicle S105_darkblue1 : "{9C3269FB43F989A3}Prefabs/Vehicles/Wheeled/S105/S105_darkblue.et" {
+ coords 9713.414 22.393 1716.445
+ angleX 1.695
+ angleY -71.224
+ angleZ 0.576
+}
+Vehicle S105_yellow1 : "{A6B0D2923262E755}Prefabs/Vehicles/Wheeled/S105/S105_yellow.et" {
+ coords 10029.448 2.687 1589.686
+ angleY -89.969
+}
+Vehicle S1203_transport_brown1 : "{ACED839A6C5BE657}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_brown.et" {
+ coords 9760.643 14.602 1651.678
+ angleX 6.298
+ angleY -88.769
+ angleZ -2.533
+}
+Vehicle S105_green1 : "{AD80FB47D868C775}Prefabs/Vehicles/Wheeled/S105/S105_green.et" {
+ coords 9698.772 11.632 1472.475
+ angleY -60.122
+}

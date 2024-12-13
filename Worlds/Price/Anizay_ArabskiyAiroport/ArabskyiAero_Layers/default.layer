@@ -1,0 +1,155 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 1904.064 154.801 2932.858
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ coords 1906.603 155.026 2933.248
+ m_bMarkersOnlyOnBriefing 1
+ m_bRemoveRedundantUnits 1
+ m_bRemoveSquadMarkers 1
+ m_iFreezeTime 300000
+ m_bDisableChat 1
+ m_bReserveSlots 1
+}
+CinematicEntity Anime1 {
+ coords 0 0 0
+ Scene CinematicScene "{6318C59DE563FB9B}" {
+  EndFrame 15000
+  Tracks {
+   CameraCinematicTrack "{6318C59DE0C7008B}" {
+    TrackName "Camera"
+    Position Vector3CinematicTrack "{6318C59DE0C700E9}" {
+     TrackName "Position"
+     X FloatCinematicTrack "{6318C59DE0C700DF}" {
+      TrackName "X"
+      Keyframes {
+       FloatCinematicKeyframe "{631A9659B36F93B5}" {
+        FrameNumber 0
+        Value 8360.697
+       }
+       FloatCinematicKeyframe "{631A9659AE5DAE86}" {
+        FrameNumber 342
+        Value 8360.699
+       }
+      }
+     }
+     Y FloatCinematicTrack "{6318C59DE0C700D7}" {
+      TrackName "Y"
+      Keyframes {
+       FloatCinematicKeyframe "{631A9659B36F91ED}" {
+        FrameNumber 0
+        Value 125.135
+       }
+       FloatCinematicKeyframe "{631A9659AE5DAC49}" {
+        FrameNumber 342
+        Value 125.135
+       }
+      }
+     }
+     Z FloatCinematicTrack "{6318C59DE0C700D2}" {
+      TrackName "Z"
+      Keyframes {
+       FloatCinematicKeyframe "{631A9659B36F90AE}" {
+        FrameNumber 0
+        Value 7074.409
+       }
+       FloatCinematicKeyframe "{631A9659AE5DB37F}" {
+        FrameNumber 342
+        Value 7074.41
+       }
+      }
+     }
+    }
+    Angles Vector3CinematicTrack "{6318C59DE0C700CE}" {
+     TrackName "Angles"
+     X FloatCinematicTrack "{6318C59DE0C700CA}" {
+      TrackName "X"
+      Keyframes {
+       FloatCinematicKeyframe "{631A9659B36F971D}" {
+        FrameNumber 0
+        Value 5.873
+       }
+       FloatCinematicKeyframe "{631A9659AE5DB3C1}" {
+        FrameNumber 342
+        Value 5.873
+       }
+      }
+     }
+     Y FloatCinematicTrack "{6318C59DE0C700C9}" {
+      TrackName "Y"
+      Keyframes {
+       FloatCinematicKeyframe "{631A9659B36F9789}" {
+        FrameNumber 0
+        Value -245.839
+       }
+       FloatCinematicKeyframe "{631A9659AE5DB28A}" {
+        FrameNumber 342
+        Value -245.839
+       }
+      }
+     }
+     Z FloatCinematicTrack "{6318C59DE0C700C2}" {
+      TrackName "Z"
+      Keyframes {
+       FloatCinematicKeyframe "{631A9659B36F9679}" {
+        FrameNumber 0
+        Value 0
+       }
+       FloatCinematicKeyframe "{631A9659AE5DB15A}" {
+        FrameNumber 342
+        Value 0
+       }
+      }
+     }
+    }
+    FOV FloatCinematicTrack "{6318C59DE0C7073D}" {
+     TrackName "FOV"
+    }
+    DOF DOFCinematicTrack "{6318C59DE0C70736}" {
+     TrackName "DOF"
+     Enabled BooleanCinematicTrack "{6318C59DE0C70730}" {
+      TrackName "Enabled"
+     }
+     FocusDistance FloatCinematicTrack "{6318C59DE0C7072C}" {
+      TrackName "FocusDistance"
+     }
+     LengthNear FloatCinematicTrack "{6318C59DE0C70728}" {
+      TrackName "LengthNear"
+     }
+     LengthFar FloatCinematicTrack "{6318C59DE0C70726}" {
+      TrackName "LengthFar"
+     }
+    }
+    DOFAdvanced DOFAdvancedCinematicTrack "{6318C59DE0C70724}" {
+     TrackName "DOFAdvanced"
+     Enabled BooleanCinematicTrack "{6318C59DE0C70720}" {
+      TrackName "Enabled"
+     }
+     FocusDistance FloatCinematicTrack "{6318C59DE0C7071E}" {
+      TrackName "FocusDistance"
+     }
+     FStop FloatCinematicTrack "{6318C59DE0C7071C}" {
+      TrackName "FStop"
+     }
+     SensorSize FloatCinematicTrack "{6318C59DE0C7071A}" {
+      TrackName "SensorSize"
+     }
+     FocalLengthAuto BooleanCinematicTrack "{6318C59DE0C70718}" {
+      TrackName "FocalLengthAuto"
+     }
+     FocalLength FloatCinematicTrack "{6318C59DE0C70717}" {
+      TrackName "FocalLength"
+     }
+    }
+    HDR HDRCinematicTrack "{6318C59DE0C70712}" {
+     TrackName "HDR"
+     ManualExposition BooleanCinematicTrack "{6318C59DE0C70711}" {
+      TrackName "ManualExposition"
+     }
+     ExpositionLV FloatCinematicTrack "{6318C59DE0C7070C}" {
+      TrackName "ExpositionLV"
+     }
+    }
+   }
+  }
+ }
+}
