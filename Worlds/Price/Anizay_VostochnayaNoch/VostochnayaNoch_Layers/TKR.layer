@@ -72,6 +72,7 @@ $grp SCR_AIGroup : "{281B7FA5A70021D5}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_Ri
   m_aUnitPrefabSlots {
    "{A0ACE3B6ADD4964D}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_SL_Random.et" "{89D534001A82E981}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_MG_Random.et" "{EC194E367E34BA2B}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_AMG_Random.et" "{86E82C6AFE916FB1}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_AT_Random.et" "{46C0D0E1F0F9B0F3}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Militiamen_AK74_Random.et" "{8681D616E91698DA}Prefabs/Characters/Factions/INDFOR/TKR/Random/Character_Ses_TKR_Militiamen_AKSU_Random.et" "{8B0D9D4F56F3B44E}Prefabs/Characters/Factions/INDFOR/TKR/Character_TKR_Sapper.et"
   }
+  m_sCustomNameSet "Веселые Парни"
  }
 }
 SCR_AIGroup Ses_TKR_G_020_5 : "{4A1B65FF4C5EA760}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_Team_AT.et" {
@@ -117,6 +118,24 @@ $grp GenericEntity : "{A07607E2052BC5AC}Prefabs/Weapons/Explosives/Mine_TM62M/Mi
  }
  {
   coords 1082.431 170.079 1175.199
+ }
+ {
+  coords 1082.774 170.079 1175.672
+ }
+ {
+  coords 1082.109 170.079 1175.079
+ }
+ {
+  coords 1082.491 170.079 1175.854
+ }
+ {
+  coords 1082.615 170.169 1175.6
+ }
+ {
+  coords 1082.299 170.165 1175.145
+ }
+ {
+  coords 1082.36 170.079 1174.935
  }
 }
 GenericEntity : "{C8A9F7FDDF3CE851}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Radio_01.et" {
