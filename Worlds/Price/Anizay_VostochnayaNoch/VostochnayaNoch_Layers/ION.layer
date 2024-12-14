@@ -1,6 +1,6 @@
 PS_Spawn {
- coords 281.62 290.955 2659.608
- m_sPrefabName "{46BB98C9B56A0E94}StolSGovnom.et"
+ coords 285.546 290.178 2661.687
+ m_sPrefabName "{35D929FB6B9D60CD}Assets/UjasiPrisa/StolSgovnom2.et"
 }
 Vehicle M1025_ION1 : "{CD1B5570AF3D50B6}Prefabs/Vehicles/Wheeled/M998/M1025_ION.et" {
  coords 264.829 290.902 2663.257
@@ -24,6 +24,28 @@ PS_ManualMarker RHS_ION_G_001_M : "{CD85ADE9E0F54679}PrefabsEditable/Markers/Edi
  }
  m_iZOrder 0
 }
+$grp GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+ {
+  components {
+   SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+    m_eInitialLightState LIT
+   }
+  }
+  coords 302.957 288.335 2673.801
+  angleX -10.617
+  angleY -0.168
+  angleZ 0.911
+ }
+ {
+  components {
+   SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+    m_eInitialLightState LIT
+   }
+  }
+  coords 284.424 290.254 2661.268
+  angleZ 3.576
+ }
+}
 SCR_AIGroup RHS_ION_G_001_8 : "{E083B07479776B6A}Prefabs/Groups/INDFOR/ION/Group_ION.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
@@ -42,8 +64,8 @@ SCR_AIGroup RHS_ION_G_001_8 : "{E083B07479776B6A}Prefabs/Groups/INDFOR/ION/Group
  }
 }
 Vehicle S105_darkbrown_NAPA1 : "{EB326E661D5C857D}Prefabs/Vehicles/Wheeled/S105/S105_darkbrown_NAPA.et" {
- coords 1074.868 169.3 1162.053
- angleY 34.749
+ coords 1074.385 169.312 1161.229
+ angleY 33.246
 }
 Vehicle M1025_armed_M2HB_PAS13G_ION1 : "{F8DD2F3E8A6E8E98}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_PAS13G_ION.et" {
  coords 298.552 289.451 2663.026

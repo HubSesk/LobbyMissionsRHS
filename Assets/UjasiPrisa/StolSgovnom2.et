@@ -1,0 +1,80 @@
+GenericEntity {
+ ID "631CDD4CC9FB82D0"
+ coords 286.574 290.12 2661.164
+ {
+  StaticModelEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et" {
+   ID "631CDD4CC9FA9954"
+   coords 1.088 -0.069 -1.195
+   angleY -25.144
+  }
+  $grp GameEntity : "{2B10341C641EC041}Prefabs/Items/Equipment/Thermals/PATROL_IR/Thermal_PatrolIr.et" {
+   {
+    ID "631CDD4CC9FA9948"
+    coords 1.474 0.83 -0.939
+   }
+   {
+    ID "631CDD4CC9FAD0D1"
+    coords 1.579 0.83 -1.144
+   }
+   {
+    ID "631CDD4CC9FB4250"
+    coords 1.278 0.83 -1.082
+   }
+   {
+    ID "631CDD4CC9FB82D7"
+    coords 1.338 0.83 -1.265
+   }
+   {
+    ID "631CDD4CC9FB82D8"
+    coords 1.188 0.831 -0.901
+   }
+  }
+  $grp GenericEntity : "{B9C41AAC90570E50}Prefabs/Weapons/Attachments/Muzzle/KAC_NT4_QDSS/KAC_NT4_QDSS.et" {
+   {
+    ID "631CDD4CC9FA3CCE"
+    coords 1.09 0.831 -1.561
+   }
+   {
+    ID "631CDD4CC9FA9950"
+    coords 1.131 0.831 -1.554
+   }
+   {
+    ID "631CDD4CC9FA9953"
+    coords 1.177 0.831 -1.552
+   }
+   {
+    ID "631CDD4CC9FCBD31"
+    coords 0.912 0.831 -1.581
+   }
+   {
+    ID "631CDD4CC9FCE2B6"
+    coords 0.825 0.831 -1.59
+   }
+   {
+    ID "631CDD4CC9FD5518"
+    coords 0.866 0.831 -1.584
+   }
+   {
+    ID "631CDD4CC9FD7A1C"
+    coords 1.049 0.831 -1.565
+   }
+   {
+    ID "631CDD4CC9FD7A1D"
+    coords 0.962 0.831 -1.574
+   }
+   {
+    ID "631CDD4CC9FDDFB9"
+    coords 1.003 0.831 -1.569
+   }
+  }
+  GenericEntity : "{BAFB49BFD5975547}Prefabs/Props/Military/Arsenal/AmmoBoxes/NVGBOX_US.et" {
+   ID "631CDD4CC9FAD0D2"
+   coords 1.018 -0.064 -0.959
+   angleY -25.454
+  }
+  GameEntity : "{FD689C9349378445}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_hc_v_r_p_ms2k.et" {
+   ID "631CDD4CC9FAD0D7"
+   coords 0.876 0.83 -1.21
+  }
+ }
+}
