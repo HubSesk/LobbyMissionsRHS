@@ -14,6 +14,20 @@ Vehicle Mi8MT_armed_Ses_TKA1 : "{4F23B4CD319FA5CA}Prefabs/Vehicles/Helicopters/M
  angleY 117.783
  angleZ -1.629
 }
+$grp Vehicle : "{5C54423CC80D1C96}Prefabs/Vehicles/Wheeled/M998/M1025_armed_Mk19_f.et" {
+ M1025_armed_Mk19_f1 {
+  coords 8728.56 188.17 3711.284
+  angleX -3.036
+  angleY 103.995
+  angleZ 1.086
+ }
+ M1025_armed_Mk19_f2 {
+  coords 8722.474 188.098 3714.527
+  angleX 4.464
+  angleY 124.813
+  angleZ -0.16
+ }
+}
 Vehicle BTR70_Ses_TKA1 : "{6F963B40DE04868A}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_TKA.et" {
  components {
   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
@@ -64,38 +78,6 @@ $grp Vehicle : "{7D9A9AD859069D09}Prefabs/Vehicles/Wheeled/M998/M998_covered_lon
   angleX 1.783
   angleY 95.011
   angleZ 0.156
- }
-}
-$grp Vehicle : "{80460A425F52A469}Prefabs/Vehicles/Wheeled/M998/M1025_armed_Mk19_Podval_Des.et" {
- M1025_armed_Mk19_Podval_Des1 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5B1070686F48F485}" {
-      NumSlots 6
-     }
-    }
-   }
-  }
-  coords 8728.56 188.169 3711.284
-  angleX -3.036
-  angleY 103.995
-  angleZ 1.086
- }
- M1025_armed_Mk19_Podval_Des2 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5B1070686F48F485}" {
-      NumSlots 6
-     }
-    }
-   }
-  }
-  coords 8722.473 188.098 3714.527
-  angleX 4.464
-  angleY 124.813
-  angleZ -0.16
  }
 }
 $grp Vehicle : "{818BD2D100635224}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF_D.et" {
