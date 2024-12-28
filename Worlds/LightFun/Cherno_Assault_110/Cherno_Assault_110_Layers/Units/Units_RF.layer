@@ -1,0 +1,32 @@
+$grp SCR_AIGroup : "{28574BDF21397789}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Group_RHS_RF_MSV_VKPO_S_FireGroup.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{62FCBB3E7E41B0E8}" {
+   }
+  }
+  coords 3426.486 300.456 7823.161
+  angleY 31.069
+  m_aUnitPrefabSlots {
+   "{06127C628A0588EB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_SL_Random.et" "{B4474D20DB777AB6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_AR_Random.et" "{EF321A0DD2B830D8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_MG_Random.et" "{97C8BFF5228739F7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_AMG_Random.et" "{4E9A85D18031A71C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_GL_Random.et" "{5C75226D45102461}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Rifleman_Random.et" "{F1E1A7A59FE370C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Crew.et" "{F1E1A7A59FE370C6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Crew.et"
+  }
+  m_sCustomNameSet "Бумеранг"
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{62FCBB3E7E41B0E8}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 3401.857 301.448 7838.048
+  angleY 32.583
+  m_aUnitPrefabSlots {
+   "{06127C628A0588EB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_SL_Random.et" "{B4474D20DB777AB6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_AR_Random.et" "{EF321A0DD2B830D8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_MG_Random.et" "{97C8BFF5228739F7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_AMG_Random.et" "{4E9A85D18031A71C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_GL_Random.et" "{5C75226D45102461}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Rifleman_Random.et" "{7DBC58DE28663EAC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Spotter_Random.et" "{74907740653C5830}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_Sharpshooter_Random.et"
+  }
+ }
+}
