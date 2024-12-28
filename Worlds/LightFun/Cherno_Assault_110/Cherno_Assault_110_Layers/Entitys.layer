@@ -8,8 +8,8 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
    m_sInitialStartingWeatherId "Overcast"
   }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 15
-   m_iStartingMinutes 15
+   m_iStartingHours 14
+   m_iStartingMinutes 45
   }
  }
  m_fAutoReloadTime 300
@@ -25,4 +25,7 @@ GenericEntity : "{61980E6F3CA71107}Prefabs/Items/Cats/Dingus.et" {
  angleX 27.408
  angleY 137.83
  angleZ -9.851
+}
+GenericEntity : "{F39B4625596DF5A4}PrefabsEditable/Auto/Structures/Military/Flags/FlagPole_02_V1_Chernarus_Editable.et" {
+ coords 4780.932 283.149 6801.939
 }
