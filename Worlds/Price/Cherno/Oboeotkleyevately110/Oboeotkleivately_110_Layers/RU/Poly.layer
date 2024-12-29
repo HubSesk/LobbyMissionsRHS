@@ -1,0 +1,23 @@
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_cPolygonColor 0 0.046 1 1
+   m_cPolygonBorderColor 0 0.046 1 1
+  }
+ }
+ coords 2.905 240.6 7221.957
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position -0.109 60.715 315.479
+  }
+  ShapePoint "{633A9C8CEF6C09A0}" {
+   Position -2.818 205.259 8136.508
+  }
+  ShapePoint "{633A9C8CEAD6EB8D}" {
+   Position 6872.375 -240.6 8191.06
+  }
+  ShapePoint "{633A9C8CE73DAEAC}" {
+   Position 7018.687 28.694 161.243
+  }
+ }
+}

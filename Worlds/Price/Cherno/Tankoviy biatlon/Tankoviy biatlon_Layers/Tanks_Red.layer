@@ -1,0 +1,14 @@
+Vehicle APC_K17_Epoch_Red1 : "{215B2048997F437A}Assets/UjasiPrice/K17/APC_K17_Epoch_Red.et" {
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{633A8C1C4334FA1D}" {
+     SourceMaterial "Hull"
+     AssignedMaterial "{A10ACB14F107FFD8}Assets/UjasiPrice/K17/Assets/HullRed.emat"
+    }
+   }
+  }
+ }
+ coords 2079.917 256.84 10690.902
+ angleY 112.767
+}

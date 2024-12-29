@@ -1,0 +1,81 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 2247.109 266.535 11120.399
+  m_sTitle "Миссия"
+  m_sTextData "Операция ВСРФ по выбиванию боевиков НАПА из поселка Вавилово, после того, как боевики разграбили склад с вооружением."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 2261.041 268.085 11116.978
+  m_sTitle "Задачи"
+  m_sTextData "Товарищи Чернорусы!"\
+  "Бог с нами! И сегодня нам придется потурудится на славу, дабы заслужить завтра!"\
+  ""\
+  "Российские оккупанты выдвигаются с захваченного ими аэродрома, дабы разбить нас после того как мы разграбили их склад с оружием! Вот нехорошие люди!"\
+  "К сожалению нам доложили что к нам движется АЖ ТРИ вражеских новейших бронемашин с вооружением! Нам придется использовать все методы доступные нам. Команда А, я надеюсь на ваше мужество в этой битве. "\
+  "Господь с нами братья, не отдадим Вавилово!"
+  m_aVisibleForFactions {
+   "Ses_NAPA"
+  }
+ }
+ {
+  coords 4749.78 339.125 10400.625
+  m_sTitle "Задачи"
+  m_sTextData "Доброе утро бойцы!"\
+  ""\
+  "Сегодня у нас довольно не простое задание. Наша задача отбить захваченный террористами поселок Вавилово. Но проблема не в этом."\
+  "Вчера они обворовали наш склад с вооружением, поэтому бог знает что они придумают с ним в этот раз."\
+  ""\
+  "Мы выдаем вам три бумеранга с \"эпохой\" и два транспортных для выполнения данной задачи. Не подведите нас, и помните, враг плохо вооружен, но партизанские тактики - их конек."\
+  ""\
+  "ВНИМАНИЕ, противник может отправить против нас шахид-мобили, будьте аккуратнее."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 2205.694 265.559 11086.205
+  m_sTitle "Гостиница Удержана"
+  m_iScore 50
+  m_sFactionKey "Ses_NAPA"
+ }
+ {
+  coords 2207.814 266.009 11056.836
+  m_sTitle "Поселок удержан"
+  m_iScore 50
+  m_sFactionKey "Ses_NAPA"
+ }
+ {
+  coords 2209.362 266.04 11052.475
+  m_sTitle "Поселок захвачен"
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 2206.003 265.686 11072.042
+  m_sTitle "Гостиница захвачена"
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 2211.797 266.397 11103.937
+ }
+ {
+  coords 4753.764 339.126 10413.212
+ }
+}
+PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 2226.017 275.474 11075.262
+ m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+ m_sImageSetGlow ""
+ m_sQuadName "Task_Attack"
+ m_fWorldSize 40
+ m_bUseWorldScale 0
+ m_bVisibleForEmptyFaction 1
+ m_bShowForAnyFaction 1
+}

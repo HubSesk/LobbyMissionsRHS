@@ -1,0 +1,28 @@
+Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ coords 4740.127 339.125 10425.259
+ angleY 157.408
+}
+$grp Vehicle : "{3B899AC9449C35F0}Prefabs/Vehicles/Wheeled/K17/APC_K17_unarmed.et" {
+ APC_K17_unarmed1 {
+  coords 4781.322 339.209 10409.444
+  angleY -121.008
+ }
+ APC_K17_unarmed2 {
+  coords 4765.434 339.209 10436.584
+  angleY -116.035
+ }
+}
+$grp Vehicle : "{F86AB1BD36B33407}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch.et" {
+ APC_K17_Epoch1 {
+  coords 4768.778 339.209 10429.641
+  angleY -117.978
+ }
+ APC_K17_Epoch2 {
+  coords 4772.159 339.209 10423.266
+  angleY -116.689
+ }
+ APC_K17_Epoch3 {
+  coords 4776.474 339.209 10416.384
+  angleY -116.689
+ }
+}

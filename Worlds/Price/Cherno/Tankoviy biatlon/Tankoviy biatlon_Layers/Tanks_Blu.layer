@@ -1,0 +1,36 @@
+Turret : "{2B6985E313C5F76B}Assets/UjasiPrice/K17/Turret_K17_Epoch_red.et" {
+ coords 2074.352 256.183 10659.007
+}
+GenericEntity : "{43543D727E733BC3}Assets/UjasiPrice/K17/Attachment_K17_KaZ_Blu.et" {
+ coords 2063.374 255.915 10652.177
+}
+Vehicle APC_K17_Epoch_Blu1 : "{973F35B98474DC37}Assets/UjasiPrice/K17/APC_K17_Epoch_Blu.et" {
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{633A8C1C459C9105}" {
+     SourceMaterial "Hull"
+     AssignedMaterial "{14B98C1EC00FCDD4}Assets/UjasiPrice/K17/Assets/HullBlu.emat"
+    }
+   }
+  }
+ }
+ coords 2079.669 256.535 10679.606
+ angleY 102.063
+}
+Turret : "{9D0D90120ECE6826}Assets/UjasiPrice/K17/Turret_K17_Epoch_blu.et" {
+ coords 2077.198 256.318 10670.876
+}
+GenericEntity : "{F53028836378A48E}Assets/UjasiPrice/K17/Attachment_K17_KaZ_red.et" {
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{633A8C1F11481AB1}" {
+     SourceMaterial "KaZ"
+     AssignedMaterial "{C97362EAEDEDFAE9}Assets/UjasiPrice/K17/Assets/KaZ_red.emat"
+    }
+   }
+  }
+ }
+ coords 2065.224 255.869 10666.51
+}

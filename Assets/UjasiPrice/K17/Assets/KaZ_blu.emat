@@ -1,0 +1,16 @@
+MatPBRMulti {
+ Color 0 0.143 1 1
+ SpecularIBL 0.839 0.839 0.839 1
+ Specular 0.905 0.956 0.749 1
+ RoughnessScale 1.331
+ AOScale 1.786
+ CavityFromAO 0
+ GlobalMCRMap "{73938F613FE81019}Assets/Vehicles/Wheeled/K17bumerang/Data/KaZ_BCR.edds"
+ MaskMap "{16A3E87C7D03EC4F}Assets/Vehicles/Wheeled/K17bumerang/Data/RHS_KaZ_MASK.edds"
+ GlobalNMOMap "{4B4B34F3E69F4287}Assets/Vehicles/Wheeled/K17bumerang/Data/KaZ_NMO.edds"
+ Color_1 0.56 0.591 0.465 1
+ BCR_1 "{BB440784A103CB06}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_BCR.edds"
+ NMO_1 "{839CBC1678749998}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_NMO.edds"
+ DetNormal_1 0.956
+ Roughness_1 1.275
+}

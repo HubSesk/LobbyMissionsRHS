@@ -1,0 +1,82 @@
+Vehicle : "{8C271634056DAD5A}Prefabs/Vehicles/Wheeled/K17/APC_K17_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#RHS-Vehicle_K17_Epoch_Name"
+    m_Image "{DE082C34F1E39115}UI/Textures/EditorPreviews/Vehicles/K17/Vehicle_K17_Epoch_green.edds"
+    m_aAuthoredLabels +{
+    }
+    m_aOccupantFillCompartmentTypes {
+     1
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5CE26149257047CD}" {
+   Attributes SCR_ItemAttributeCollection "{5CE2614927DEEA29}" {
+   }
+   MultiSlots {
+    MultiSlotConfiguration "{633A8C1DFD4B55F8}" {
+     SlotTemplate InventoryStorageSlot CannonAmmo {
+      Prefab "{479FDB5EDD601394}Prefabs/Weapons/Magazines/2A42/Box_30mm_2A42_HE_250rnd.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{633A8C1DFD4B55EA}" {
+     SlotTemplate InventoryStorageSlot ap {
+      Prefab "{988E7C4F812130FA}Prefabs/Weapons/Magazines/2A42/Box_30mm_2A42_APFSDS_250rnd.et"
+     }
+    }
+   }
+  }
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+     m_pDestructionHandler SCR_DestructionBaseHandler "{5584C42C773FDFBF}" {
+      m_sWreckModel "{2901B5BFAFBD529C}Assets/Vehicles/Wheeled/K17bumerang/K17_Wreck_epoch.xob"
+     }
+    }
+   }
+   m_fVehicleDestroyDamage 15462.9
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo commander_controls {
+     Offset 0 0 0.0239
+    }
+    RegisteringComponentSlotInfo pmf_commander_top {
+     Offset -0.0801 0.1074 -0.0172
+    }
+    RegisteringComponentSlotInfo pmf_commander_bottom {
+     Offset -0.0105 0.1273 -0.0197
+     Angles 0 0 -3.8174
+    }
+    RegisteringComponentSlotInfo Turret {
+     MergePhysics 1
+     Prefab "{AB12F630BD71DBB1}Prefabs/Vehicles/Wheeled/K17/Turret_K17_Epoch.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+     RegisterLights 1
+    }
+    EntitySlotInfo KaZ {
+     Enabled 0
+     Prefab "{95A8F87AE135A8F1}Prefabs/Vehicles/Wheeled/K17/VehParts/Attachments/Attachment_K17_KaZ.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{5C622D51E1C7EADB}" {
+     Position PointInfo "{5C622D51EC84ED04}" {
+      PivotID "Rear_Door"
+      Offset -0.0642 0.0444 0.5501
+     }
+    }
+   }
+  }
+ }
+}

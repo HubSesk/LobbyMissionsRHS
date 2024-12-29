@@ -1,0 +1,66 @@
+$grp GenericEntity : "{0A7A25EF56265A70}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_plastic.et" {
+ {
+  coords 2238.02 273.15 11102.492
+  angleY -43.471
+ }
+ {
+  coords 2236.063 273.15 11100.659
+  angleY -43.471
+ }
+ {
+  coords 2234.116 273.15 11098.753
+  angleY -43.471
+ }
+ {
+  coords 2239.816 273.15 11104.32
+  angleY -43.471
+ }
+}
+$grp GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et" {
+ {
+  coords 2179.046 263.237 10974.12
+  angleX -1.212
+  angleY -151.803
+  angleZ 0.366
+ }
+ {
+  coords 2262.016 268.929 11044.318
+  angleX -4.86
+  angleY -32.423
+  angleZ -4.306
+ }
+ {
+  coords 2194.511 264.716 11140.189
+  angleX 0.887
+  angleY 172.208
+  angleZ -0.121
+ }
+ {
+  coords 3652.934 351.692 10044.643
+  angleX -4.091
+  angleY -58.276
+  angleZ -3.572
+ }
+ {
+  coords 3597.463 316.125 11176.537
+  angleY -80.311
+ }
+ {
+  coords 2260.831 268.999 10985.003
+  angleX -5.114
+  angleY -60.873
+  angleZ -1.825
+ }
+}
+SCR_AIGroup : "{AA7E7BCE6F6F1253}Prefabs/Groups/INDFOR/Ses_NAPA/Group_NAPA_MedicalSection.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+ }
+ coords 2202.723 266.049 11060.647
+ angleY 80.616
+ m_aUnitPrefabSlots + {
+  "{38762D49DF784A94}Prefabs/Characters/Factions/INDFOR/NAPA/Random/Character_NAPA_Medic_Random.et"
+ }
+}
