@@ -1,0 +1,67 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  m_sTitle "Легенда"
+  m_sTextData "ВС РФ закрепились в поселении Пулково, где обустроили склад снабжения. ЧСО совместно с КМП США намерены захватить поселение и уничтожить ящики со взрывчаткой."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  m_sTitle "Сведения ВС РФ"
+  m_sTextData "По данным разведки удалось узнать:"\
+  ""\
+  "- У противника есть 1 Humvee M2"\
+  "- У противника есть 1 Humvee Mk19"\
+  "- У противника есть 1 БТР-70"\
+  "- У противника есть 1 Ми-8 и десант"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ {
+  m_sTitle "Задачи ВС РФ"
+  m_sTextData "- Удержать административное здание"\
+  ""\
+  "- Защитить 2 ящика со взрывчаткой"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ {
+  m_sTitle "Сведения ЧСО"
+  m_sTextData "По данным разведки удалось узнать:"\
+  ""\
+  "- У противника есть 1 БТР-70"\
+  ""
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+ {
+  m_sTitle "Задачи ЧСО"
+  m_sTextData "- Захватить административное здание"\
+  ""\
+  "- Уничтожить 2 ящика со взрывчаткой"
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+ }
+ {
+  m_sTitle "Сведения КМП США"
+  m_sTextData "По данным разведки удалось узнать:"\
+  ""\
+  "- У противника есть 1 БТР-70"\
+  ""
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
+ {
+  m_sTitle "Задачи КМП США"
+  m_sTextData "- Захватить административное здание"\
+  ""\
+  "- Уничтожить 2 ящика со взрывчаткой"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+ }
+}
