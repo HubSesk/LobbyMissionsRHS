@@ -1,0 +1,123 @@
+Vehicle M1025_Ses_CDF1 : "{0D07BF4156645F90}Prefabs/Vehicles/Wheeled/M998/M1025_Ses_CDF.et" {
+ coords 4977.195 233.494 12007.752
+ angleX 5.203
+ angleY -150.956
+ angleZ -0.174
+}
+Vehicle Ural4320_Ses_CDF_transport_covered1 : "{0EFFC9A8E672EF33}Prefabs/Vehicles/Wheeled/Ural4320/Ses_CDF/Ural4320_Ses_CDF_transport_covered.et" {
+ coords 5027.791 225.964 12074.227
+ angleX 4.458
+ angleY -146.721
+ angleZ -0.28
+}
+Vehicle M1025_armed_M2HB_Ses_CDF1 : "{35D71FBBC41EF23B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_Ses_CDF.et" {
+ coords 4972.758 234.39 12000.118
+ angleX 5.983
+ angleY -153.967
+ angleZ -0.056
+}
+$grp Vehicle : "{52441D784D145D52}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF.et" {
+ BTR70_Ses_CDF1 {
+  coords 4992.403 230.921 12026.599
+  angleX 6.292
+  angleY -131.326
+  angleZ 0.403
+ }
+ BTR70_Ses_CDF2 {
+  coords 5012.726 228.133 12052.006
+  angleX 3.988
+  angleY -149.613
+  angleZ 0.266
+ }
+}
+Vehicle M1025_armed_Mk19_f1 : "{5C54423CC80D1C96}Prefabs/Vehicles/Wheeled/M998/M1025_armed_Mk19_f.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5B1070686F48F485}" {
+     NumSlots 6
+    }
+   }
+  }
+ }
+ coords 4925.561 234.452 12052.266
+ angleX -1.594
+ angleY 122.262
+ angleZ -4.174
+}
+Vehicle Mi8MT_armed_black1 : "{80C975F8482DEE97}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_black.et" {
+ coords 4919.67 290.86 6280.586
+ angleX 4.324
+ angleY -8.609
+ angleZ -0.888
+}
+Vehicle M923A1_transport_covered1 : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
+ coords 4958.072 232.12 12051.988
+ angleX -0.913
+ angleY 132.175
+ angleZ -5.64
+}
+Vehicle M998_covered_USAF1 : "{923F0A979CE79ACD}Prefabs/Vehicles/Wheeled/M998/M998_covered_USAF.et" {
+ coords 4965.855 228.574 12099.462
+ angleX -0.968
+ angleY 123.982
+ angleZ -4.958
+}
+Vehicle Ural4320_Ses_CDF_command1 : "{B8C6D4393223FDC2}Prefabs/Vehicles/Wheeled/Ural4320/Ses_CDF/Ural4320_Ses_CDF_command.et" {
+ coords 4968.358 235.735 11988.788
+ angleX 7.073
+ angleY -160.226
+ angleZ -1.24
+}
+Vehicle Ural4320_repair_camo1 : "{BED355ED51A1E859}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair_camo1.et" {
+ coords 5850.662 278.092 10099.038
+ angleX -1.732
+ angleY 14.569
+ angleZ -0.45
+}
+$grp Vehicle : "{CC55611936C21F25}Prefabs/Vehicles/Wheeled/M998/M1025_USAF.et" {
+ M1025_USAF1 {
+  coords 4941.08 232.239 12067.646
+  angleX -0.982
+  angleY 132.118
+  angleZ -6.888
+ }
+ M1025_USAF2 {
+  coords 4958.195 229.704 12086.731
+  angleX -1.326
+  angleY 125.891
+  angleZ -4.266
+ }
+}
+Vehicle APC_K17_Berezok_camo1 : "{DD0CB0331A3D8CA7}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok_camo1.et" {
+ coords 5847.941 277.835 10110.624
+ angleX 0.317
+ angleY -59.486
+ angleZ 1.226
+}
+$grp Vehicle : "{FA6820A9A52CD05B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF.et" {
+ M1025_armed_M2HB_MDO_USAF3 {
+  coords 4988.832 227.77 12086.64
+  angleX -1.213
+  angleY 129.122
+  angleZ -5.583
+ }
+ M1025_armed_M2HB_MDO_USAF4 {
+  coords 4982.393 228.639 12078.881
+  angleX 0.065
+  angleY 135.737
+  angleZ -5.051
+ }
+ M1025_armed_M2HB_MDO_USAF1 {
+  coords 4943.595 234.724 12024.292
+  angleX -0.595
+  angleY 125.991
+  angleZ -3.746
+ }
+ M1025_armed_M2HB_MDO_USAF2 {
+  coords 4947.633 234.172 12030.141
+  angleX -1.591
+  angleY 122.311
+  angleZ -4.175
+ }
+}
