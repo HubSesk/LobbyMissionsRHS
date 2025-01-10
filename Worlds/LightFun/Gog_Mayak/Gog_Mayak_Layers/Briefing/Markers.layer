@@ -1,4 +1,41 @@
+Vehicle M1025_armed_M2HB_USAF1 : "{3277F8B1FA06A2BC}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et" {
+ coords 5546.007 123.849 6889.794
+ angleY -72.139
+}
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ Task {
+  coords 4377.575 81.081 9934.236
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 35
+  m_sDescription "Маяк"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ Task1 {
+  coords 4377.715 81.081 9933.749
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 35
+  m_sDescription "Маяк"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
  RHS_AFRF_G_010_M {
   coords 4379.917 79.666 9906.491
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
@@ -29,14 +66,14 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
   m_bShowForAnyFaction 1
  }
- RHS_AFRF_G_220_M {
+ RHS_AFRF_G_210_M {
   coords 4602.037 6.43 10987.524
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
   m_sQuadName "armored"
   m_fWorldSize 45
-  m_sDescription "(БТР) Компас-31"
+  m_sDescription "(БТР) Компас-21"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -44,14 +81,14 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
   m_bShowForAnyFaction 1
  }
- RHS_AFRF_G_210_M {
+ RHS_AFRF_G_200_M {
   coords 4616.541 5.573 11031.317
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
   m_sQuadName "armored"
   m_fWorldSize 45
-  m_sDescription "(БТР) Компас-21"
+  m_sDescription "(БТР) Компас-11"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -66,7 +103,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 1 1 1 1
   m_sQuadName "motorized-infantry"
   m_fWorldSize 45
-  m_sDescription "(Спецназ) Буран-11"
+  m_sDescription "Буран-11"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -89,14 +126,14 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
   m_bShowForAnyFaction 1
  }
- RHS_AFRF_G_200_M {
-  coords 4622.55 5.462 11007.398
+ RHS_AFRF_G_300_M {
+  coords 4622.201 6.828 10943.105
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
-  m_sQuadName "maintenance"
+  m_sQuadName "armored"
   m_fWorldSize 45
-  m_sDescription "(РемБат) Компас-11"
+  m_sDescription "(Тайфун) Динамо-11"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -104,14 +141,14 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
   m_bShowForAnyFaction 1
  }
- RHS_USAF_G_310_M {
+ RHS_USAF_G_320_M {
   coords 5571.68 123.406 6797.512
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
-  m_sQuadName "infantry"
+  m_sQuadName "motorized-infantry"
   m_fWorldSize 35
-  m_sDescription "Диско Уайт 1"
+  m_sDescription "Диско Блю 1"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -124,7 +161,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
-  m_sQuadName "infantry"
+  m_sQuadName "motorized-infantry"
   m_fWorldSize 35
   m_sDescription "Диско Ред 1"
   m_bUseWorldScale 0
@@ -154,7 +191,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
-  m_sQuadName "anti-armor-motorized"
+  m_sQuadName "mortar"
   m_fWorldSize 35
   m_sDescription "(Humvee Mk19) Хаос Ред 1"
   m_bUseWorldScale 0
@@ -165,7 +202,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  RHS_USAF_G_410_M {
-  coords 1039.498 8.416 9112.892
+  coords 1050.333 8.416 9129.425
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -210,13 +247,43 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  RHS_USAF_G_100_M {
-  coords 5561.458 123.406 6859.536
+  coords 5538.347 123.406 6898.472
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
-  m_sQuadName "recon"
+  m_sQuadName "recon-motorized"
   m_fWorldSize 35
   m_sDescription "(Разведка) Блэйзер Ред 1"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ RHS_USAF_G_220_M {
+  coords 5466.972 129.155 6890.638
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "recon-motorized"
+  m_fWorldSize 35
+  m_sDescription "Хаос Блю 1"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ RHS_USAF_G_310_M {
+  coords 5566.097 123.406 6865.156
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "motorized-infantry"
+  m_fWorldSize 35
+  m_sDescription "Диско Уайт 1"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -263,6 +330,25 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  {
+  coords 4627.504 6.961 10938.002
+  angleX 3.267
+  angleY 228.357
+  angleZ -1.707
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "Car"
+  m_fWorldSize 4
+  m_sDescription "#RHS-Vehicle_K4386_Name"
+  m_bUseWorldScale 1
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ {
   coords 5468.687 129.406 6927.881
   angleY 215.699
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
@@ -280,46 +366,29 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  {
-  coords 5479.804 128.592 6851.927
-  angleX 3.681
-  angleY 78.859
-  angleZ 0.186
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.016 0.552 0.905 1
-  m_sQuadName "Car"
-  m_fWorldSize 4
-  m_sDescription "#AR-Vehicle_M1025_M2_Name"
-  m_bUseWorldScale 1
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   1
-  }
-  m_iZOrder 0
-  m_bShowForAnyFaction 1
- }
- {
-  coords 5475.417 129.406 6931.718
-  angleY 268.575
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.016 0.552 0.905 1
-  m_sQuadName "Car"
-  m_fWorldSize 4
-  m_sDescription "#AR-Vehicle_M1025_M2_Name"
-  m_bUseWorldScale 1
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   1
-  }
-  m_iZOrder 0
-  m_bShowForAnyFaction 1
- }
- {
   coords 5481.374 128.089 6843.889
   angleX 2.038
   angleY 84.509
   angleZ 2.499
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 4
+  m_sDescription "M1025 with Mk19 GL"
+  m_bUseWorldScale 1
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 5479.977 128.608 6852.448
+  angleX 2.063
+  angleY 80.394
+  angleZ 1.465
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.016 0.552 0.905 1
@@ -405,14 +474,14 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  {
-  coords 5546.036 123.849 6890.087
-  angleY 15.879
+  coords 5543.137 123.849 6876.254
+  angleY 15.392
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.016 0.552 0.905 1
-  m_sQuadName "Car"
+  m_sQuadName "Truck"
   m_fWorldSize 4
-  m_sDescription "#AR-Vehicle_M997_Name"
+  m_sDescription "#AR-Vehicle_M923A1_Transport_Covered_Name"
   m_bUseWorldScale 1
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -422,14 +491,33 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  {
-  coords 5543.137 123.849 6876.254
-  angleY 15.392
+  coords 5536.804 123.849 6853.413
+  angleY 13.233
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.016 0.552 0.905 1
   m_sQuadName "Truck"
   m_fWorldSize 4
   m_sDescription "#AR-Vehicle_M923A1_Transport_Covered_Name"
+  m_bUseWorldScale 1
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 5475.873 129.379 6894.933
+  angleX -1.769
+  angleY 171.308
+  angleZ 0.27
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 4
+  m_sDescription "#AR-Vehicle_M998_Canopy_Name"
   m_bUseWorldScale 1
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -456,16 +544,16 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  {
-  coords 4619.781 5.11 11012.319
-  angleX -1.654
-  angleY 141.97
-  angleZ -2.114
+  coords 5473.509 129.421 6900.465
+  angleX -1.48
+  angleY 145.759
+  angleZ 1.007
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.555 0.002 0 1
-  m_sQuadName "Truck"
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
   m_fWorldSize 4
-  m_sDescription "#AR-Vehicle_Ural4320_Repair_Name #RHS-Camo"
+  m_sDescription "#AR-Vehicle_M998_Open_Name"
   m_bUseWorldScale 1
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -509,37 +597,38 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
   m_bShowForAnyFaction 1
  }
- Task {
-  coords 4377.575 81.081 9934.236
-  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+ {
+  coords 5475.663 129.406 6932.111
+  angleY -83.643
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "Task_Attack"
-  m_fWorldSize 35
-  m_sDescription "Маяк"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_USAF"
-  }
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 4
+  m_sDescription "#AR-Vehicle_M1025_M2_Name #RHS-Item_SU260P_Name"
+  m_bUseWorldScale 1
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
+   1
   }
   m_iZOrder 0
+  m_bShowForAnyFaction 1
  }
- Task1 {
-  coords 4377.715 81.081 9933.749
-  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+ {
+  coords 5546.007 123.849 6889.794
+  angleY 17.861
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "Task_Defend"
-  m_fWorldSize 35
-  m_sDescription "Маяк"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_AFRF"
-  }
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 4
+  m_sDescription "#AR-Vehicle_M1025_M2_Name"
+  m_bUseWorldScale 1
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
+   1
   }
   m_iZOrder 0
+  m_bShowForAnyFaction 1
  }
 }

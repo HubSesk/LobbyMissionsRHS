@@ -1,3 +1,15 @@
+Vehicle K4386_Armed_Camo1 : "{1DF4C30C130D8FAD}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed_Camo.et" {
+ coords 4627.504 6.961 10938.002
+ angleX 3.267
+ angleY 138.357
+ angleZ -1.707
+}
+Vehicle M998_covered_long_USAF1 : "{23FB589C8BF6EC6E}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_USAF.et" {
+ coords 5475.873 129.379 6894.933
+ angleX -1.769
+ angleY 81.308
+ angleZ 0.27
+}
 Vehicle Ural4320_transport_covered_camo1 : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_camo1.et" {
  coords 4645.997 5.923 11003.48
  angleX -1.21
@@ -7,18 +19,6 @@ Vehicle Ural4320_transport_covered_camo1 : "{2B15F98903994DA3}Prefabs/Vehicles/W
 Vehicle M923A1_tanker1 : "{2BE1F8B9299B67C1}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker.et" {
  coords 5540.253 123.849 6866.882
  angleY -74.443
-}
-$grp Vehicle : "{3277F8B1FA06A2BC}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et" {
- M1025_armed_M2HB_USAF1 {
-  coords 5479.804 128.592 6851.927
-  angleX 3.681
-  angleY -11.141
-  angleZ 0.186
- }
- M1025_armed_M2HB_USAF2 {
-  coords 5475.417 129.406 6931.718
-  angleY 178.575
- }
 }
 Vehicle M923A1_command1 : "{36BDCC88B17B3BFA}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command.et" {
  coords 5508.729 123.412 6850.372
@@ -43,19 +43,47 @@ $grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" 
   angleZ 1.067
  }
 }
-Vehicle M997_maxi_ambulance_USAF1 : "{4E3A86638BFF9FC6}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_USAF.et" {
- coords 5546.036 123.849 6890.087
- angleY -74.121
+$grp Vehicle : "{5C54423CC80D1C96}Prefabs/Vehicles/Wheeled/M998/M1025_armed_Mk19_f.et" {
+ M1025_armed_Mk19_f1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5B1070686F48F485}" {
+      NumSlots 6
+     }
+    }
+   }
+  }
+  coords 5481.374 128.089 6843.889
+  angleX 2.038
+  angleY -5.491
+  angleZ 2.499
+ }
+ M1025_armed_Mk19_f2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5B1070686F48F485}" {
+      NumSlots 6
+     }
+    }
+   }
+  }
+  coords 5479.977 128.608 6852.448
+  angleX 2.063
+  angleY -9.606
+  angleZ 1.465
+ }
 }
-Vehicle M1025_armed_Mk19_f1 : "{5C54423CC80D1C96}Prefabs/Vehicles/Wheeled/M998/M1025_armed_Mk19_f.et" {
- coords 5481.374 128.089 6843.889
- angleX 2.038
- angleY -5.491
- angleZ 2.499
-}
-Vehicle M923A1_transport_covered1 : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
- coords 5543.137 123.849 6876.254
- angleY -74.608
+$grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
+ M923A1_transport_covered1 {
+  coords 5543.137 123.849 6876.254
+  angleY -74.608
+ }
+ M923A1_transport_covered2 {
+  coords 5536.804 123.849 6853.413
+  angleY -76.767
+ }
 }
 Vehicle M998_covered_USAF1 : "{923F0A979CE79ACD}Prefabs/Vehicles/Wheeled/M998/M998_covered_USAF.et" {
  coords 5547.404 123.849 6894.638
@@ -65,17 +93,23 @@ Vehicle M923A1 : "{9A0D72816DFFDB7F}Prefabs/Vehicles/Wheeled/M923A1/M923A1.et" {
  coords 5538.176 123.849 6857.163
  angleY -74.865
 }
-Vehicle Ural4320_repair_camo1 : "{BED355ED51A1E859}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair_camo1.et" {
- coords 4619.781 5.11 11012.319
- angleX -1.654
- angleY 51.97
- angleZ -2.114
+Vehicle M998_USAF1 : "{B4FB836E882E1A05}Prefabs/Vehicles/Wheeled/M998/M998_USAF.et" {
+ coords 5473.509 129.421 6900.465
+ angleX -1.48
+ angleY 55.759
+ angleZ 1.007
 }
 Vehicle M923A1_transport1 : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et" {
  coords 5538.895 123.849 6862.045
  angleY -75.191
 }
-Vehicle M1025_armed_M2HB_MDO_USAF1 : "{FA6820A9A52CD05B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF.et" {
- coords 5468.687 129.406 6927.881
- angleY 125.699
+$grp Vehicle : "{FA6820A9A52CD05B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF.et" {
+ M1025_armed_M2HB_MDO_USAF1 {
+  coords 5468.687 129.406 6927.881
+  angleY 125.699
+ }
+ M1025_armed_M2HB_MDO_USAF2 {
+  coords 5475.663 129.406 6932.111
+  angleY -173.643
+ }
 }
