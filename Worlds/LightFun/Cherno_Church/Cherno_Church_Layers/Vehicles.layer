@@ -1,15 +1,13 @@
 $grp Vehicle : "{160E1EDDBFFF8CFD}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_ChDKZ.et" {
  BTR70_Ses_ChDKZ4 {
-  coords 8617.57 341.979 7720.65
-  angleX -0.814
+  coords 8622.537 341.906 7710.197
   angleY 155.365
-  angleZ 0.373
  }
  BTR70_Ses_ChDKZ1 {
-  coords 8630.189 342.106 7693.18
-  angleX 0.829
-  angleY 157.859
-  angleZ -0.337
+  coords 8634.396 342.364 7684.541
+  angleX 1.995
+  angleY 157.862
+  angleZ 0.154
  }
  BTR70_Ses_ChDKZ3 {
   coords 6520.141 362.684 6411.312
@@ -30,6 +28,23 @@ Vehicle Ural4320_Ses_ChDKZ_command1 : "{2B8531515FF1FC34}Prefabs/Vehicles/Wheele
  angleY -12.338
  angleZ 0.407
 }
+SCR_AIGroup : "{2C033F255E9F995A}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_FireGroup.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{62ED5403E1670128}" {
+   m_iCompanyCallsign 1
+   m_iPlatoonCallsign 1
+   m_iSquadCallsign 1
+  }
+ }
+ coords 6519.448 364.155 6464.778
+ angleY 100.15
+ m_aUnitPrefabSlots {
+  "{7F6163CF01C9874A}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_SL_Random.et" "{38F8F07CF28C4CFF}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_SR_Random.et" "{997C1DCABD67B949}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_AT_Random.et" "{97F895BE0EFA836E}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_AAT_B_Random.et" "{964105A059743F79}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_MG_Random.et" "{4403B40A00A9D8C4}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_AMG_Random.et" "{B1522C28EEDA0964}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_Rifleman_Random.et" "{549002E7186628DA}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_Sharpshooter_Random.et"
+ }
+}
 Vehicle UH1H_armedUSMC1 : "{38C8F7030A1740B9}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armedUSMC.et" {
  coords 2015.696 228.656 9774.759
  angleY 179.329
@@ -40,11 +55,23 @@ Vehicle BTR70_Ses_CDF2 : "{52441D784D145D52}Prefabs/Vehicles/Wheeled/BTR70/BTR70
  angleY -111.664
  angleZ 1.171
 }
+$grp Vehicle : "{66A75AF67285BE70}Prefabs/Vehicles/Wheeled/Ural4320/Ses_ChDKZ/Ural4320_Ses_ChDKZ_transport_covered.et" {
+ Ural4320_Ses_ChDKZ_transport_covered1 {
+  coords 8601.749 342.344 7754.736
+  angleY 153.151
+ }
+ Ural4320_Ses_ChDKZ_transport_covered2 {
+  coords 6523.257 364.193 6461.801
+  angleX -1.771
+  angleY 8.403
+  angleZ -0.262
+ }
+}
 Vehicle UAZ469_uncovered_Ses_ChDKZ1 : "{6CC21EBAB10F2A89}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Ses_ChDKZ.et" {
- coords 8607.202 342.287 7742.299
- angleX -0.82
- angleY 156.267
- angleZ 0.36
+ coords 8612.182 342.164 7732.623
+ angleX -1.18
+ angleY 156.27
+ angleZ -0.459
 }
 $grp Vehicle : "{8918EDE86C8CB551}Prefabs/Vehicles/Wheeled/Ural4320/Ses_ChDKZ/Ural4320_Ses_ChDKZ_transport.et" {
  Ural4320_Ses_ChDKZ_transport1 {
