@@ -66,7 +66,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.025 0.61 0.446 1
   m_sQuadName "armored"
   m_fWorldSize 35
-  m_sDescription "(БТР) Хаос Ред 1"
+  m_sDescription "Хаос Ред 1"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -225,7 +225,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  RHS_USAF_G_300_M {
-  coords 2020.338 228.382 9768.434
+  coords 5815.399 359.922 14493.442
+  angleY 90
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -240,7 +241,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  RHS_USAF_G_310_M {
-  coords 2036.043 228.25 9778.605
+  coords 4881.367 474.156 15093.748
+  angleY 90
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -350,8 +352,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  {
-  coords 2015.696 228.656 9774.759
-  angleY 269.329
+  coords 5813.107 361.738 14507.889
+  angleY 19.004
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.016 0.552 0.905 1
@@ -415,25 +417,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sQuadName "Truck"
   m_fWorldSize 4
   m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
-  m_bUseWorldScale 1
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   1
-  }
-  m_iZOrder 0
-  m_bShowForAnyFaction 1
- }
- {
-  coords 7056.384 296.677 7743.712
-  angleX 4.311
-  angleY -21.664
-  angleZ 1.171
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.025 0.61 0.446 1
-  m_sQuadName "APC"
-  m_fWorldSize 4
-  m_sDescription "#AR-Vehicle_BTR70_Name"
   m_bUseWorldScale 1
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {

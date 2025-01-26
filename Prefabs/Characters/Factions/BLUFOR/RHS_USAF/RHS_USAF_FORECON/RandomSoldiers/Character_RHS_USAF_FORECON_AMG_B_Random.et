@@ -1,0 +1,22 @@
+SCR_ChimeraCharacter : "{1BD6FECF0B17994C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_FORECON/RandomSoldiers/Character_RHS_USAF_FORECON_AMG_Random.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{6473744E201EE051}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{6473744E201EE04A}" {
+      m_sVariantPrefab "{031FB884566D2340}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_FORECON/Character_RHS_USAF_FORECON_AMG_B.et"
+     }
+     SCR_EditableEntityVariant "{6473744E201EE044}" {
+      m_sVariantPrefab "{56B0851E9E5B75A5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_FORECON/Character_RHS_USAF_FORECON_AMG2_B.et"
+     }
+     SCR_EditableEntityVariant "{6473744E201EE040}" {
+      m_sVariantPrefab "{A2B8C28693861DD1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_FORECON/Character_RHS_USAF_FORECON_AMG3_B.et"
+     }
+    }
+   }
+  }
+ }
+ coords 817.216 51 2433.037
+}

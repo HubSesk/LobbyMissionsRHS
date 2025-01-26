@@ -9,16 +9,21 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  }
  {
   m_sTitle "Вынесен 1 документ"
-  m_iScore 25
+  m_iScore 0
   m_sFactionKey "RHS_USAF"
  }
  {
   m_sTitle "Вынесено 2 документа"
-  m_iScore 75
+  m_iScore 25
   m_sFactionKey "RHS_USAF"
  }
  {
   m_sTitle "Вынесено 3 документа"
+  m_iScore 50
+  m_sFactionKey "RHS_USAF"
+ }
+ {
+  m_sTitle "Вынесено 4 документа"
   m_sFactionKey "RHS_USAF"
  }
 }

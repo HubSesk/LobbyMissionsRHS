@@ -20,7 +20,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  }
  {
   m_sTitle "Задача ЧСО"
-  m_sTextData "- Защитить церковь"
+  m_sTextData "- Защитить церковь"\
+  ""\
+  "- Не трогать никакие документы"
   m_aVisibleForFactions {
    "Ses_CDF"
   }
@@ -28,8 +30,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  {
   m_sTitle "Сведения ЧДКЗ"
   m_sTextData "По данным разведки удалось узнать:"\
-  ""\
-  "- У ЧСО есть один БТР"\
   ""\
   "- К ЧСО на помощь придет отделение КМП США"\
   ""\
@@ -60,7 +60,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  }
  {
   m_sTitle "Задачи КМП США"
-  m_sTextData "- Вынести 3 документа за пределы поселения"\
+  m_sTextData "- Вынести 4 документа за пределы поселения"\
   ""\
   "- При возможности помочь ЧСО в обороне"
   m_aVisibleForFactions {

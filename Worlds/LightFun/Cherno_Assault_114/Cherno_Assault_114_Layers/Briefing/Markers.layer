@@ -209,7 +209,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  {
-  coords 3376.843 299.437 7890.691
+  coords 3374.486 299.437 7892.378
   angleY 215.641
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
@@ -520,25 +520,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
   m_bShowForAnyFaction 1
  }
- {
-  coords 3382.514 299.406 7886.74
-  angleY 213.374
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.855 0.031 0.028 1
-  m_sQuadName "Car"
-  m_fWorldSize 4
-  m_sDescription "#AR-Vehicle_UAZ469_Open_Variant1_Name"
-  m_bUseWorldScale 1
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   1
-  }
-  m_iZOrder 0
-  m_bShowForAnyFaction 1
- }
  Ses_ChDKZ_G_310_M {
-  coords 3374.3 299.407 7904.318
+  coords 3377.698 299.407 7902.698
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -548,6 +531,23 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 3384.952 299.406 7885.12
+  angleY 213.03
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "Truck"
+  m_fWorldSize 4
+  m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
+  m_bUseWorldScale 1
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
   }
   m_iZOrder 0
   m_bShowForAnyFaction 1
