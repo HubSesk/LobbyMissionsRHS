@@ -1,0 +1,191 @@
+AudioClass {
+ signals {
+  SignalClass {
+   id 12301
+   name "Signal 12"
+   tl -279.132 -587.617
+   res "{A45B14CDEA2D5DCD}Sounds/_SharedData/Signals/Props/Props_Occlusion.sig"
+   inputsport {
+    1 6 7 23 52 56
+   }
+   outputsport {
+    5 37
+   }
+   inputvalues {
+    0 0 0 0 1000 400
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    1 1 1 1 10000 10000
+   }
+   path "{A45B14CDEA2D5DCD}Sounds/_SharedData/Signals/Props/Props_Occlusion.sig"
+  }
+ }
+ filters {
+  FilterClass : "{C8BF585AA246C60F}Sounds/_SharedData/Configs/Filter/Character/Filter_Character_Occlusion_OBSOLETE.conf" {
+   id 9238
+   name "Filter 13"
+   version 5
+   tl -84.275 -585.928
+   parent "{C8BF585AA246C60F}Sounds/_SharedData/Configs/Filter/Character/Filter_Character_Occlusion_OBSOLETE.conf"
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 12301
+       port 5
+      }
+     }
+    }
+   }
+   pi {
+    3 0
+   }
+  }
+ }
+ sounds {
+  SoundClass {
+   id 13321
+   name "HIT"
+   version 5
+   tl 688.623 -456.811
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 8210
+       port 65
+      }
+     }
+    }
+   }
+   volume_dB -12
+  }
+ }
+ shaders {
+  ShaderClass {
+   id 8210
+   name "Flush Shader"
+   version 5
+   tl 384.058 -441.525
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 15388
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 16403
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 9238
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 14340
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    23 0
+   }
+  }
+ }
+ amplitudes {
+  AmplitudeClass {
+   id 10259
+   name "AmplitudeLarge"
+   version 5
+   tl -79.525 -733.28
+   curve Logarithm
+   innerRange 64
+   outerRange 3000
+  }
+  AmplitudeClass : "{2D5607FF1ED3F5D3}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-35LUFS_to_-30LUFS.conf" {
+   id 16403
+   name "Amplitude -40LUFS to -35LUFS"
+   comment ""
+   version 5
+   tl 195.833 -491.667
+   parent "{2D5607FF1ED3F5D3}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-35LUFS_to_-30LUFS.conf"
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 14340
+   name "Pain_Heavy"
+   version 7
+   tl -84 -395
+   pi {
+    10 0
+   }
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{2CB3D5FCD8034D57}Sounds/Character/Voice/Samples/Rus/Male1/Taking_Damage/TakingDamage_Heavy/Character_Voice_TakingDamage_Heavy_01.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{B5AD6C65C5E47CC7}Sounds/Character/Voice/Samples/Rus/Male1/Taking_Damage/TakingDamage_Heavy/Character_Voice_TakingDamage_Heavy_02.wav"
+     Index 1
+    }
+    AudioBankSampleClass Sample {
+     Filename "{C2A704ED314693B7}Sounds/Character/Voice/Samples/Rus/Male1/Taking_Damage/TakingDamage_Heavy/Character_Voice_TakingDamage_Heavy_03.wav"
+     Index 2
+    }
+    AudioBankSampleClass Sample {
+     Filename "{C560FEBC57C02974}Sounds/Character/Voice/Samples/Rus/Male1/Taking_Damage/TakingDamage_Heavy/Character_Voice_TakingDamage_Heavy_04.wav"
+     Index 3
+    }
+    AudioBankSampleClass Sample {
+     Filename "{B26A9634A362C604}Sounds/Character/Voice/Samples/Rus/Male1/Taking_Damage/TakingDamage_Heavy/Character_Voice_TakingDamage_Heavy_05.wav"
+     Index 4
+    }
+    AudioBankSampleClass Sample {
+     Filename "{2B742FADBE85F794}Sounds/Character/Voice/Samples/Rus/Male1/Taking_Damage/TakingDamage_Heavy/Character_Voice_TakingDamage_Heavy_06.wav"
+     Index 5
+    }
+    AudioBankSampleClass Sample {
+     Filename "{5C7E47254A2718E4}Sounds/Character/Voice/Samples/Rus/Male1/Taking_Damage/TakingDamage_Heavy/Character_Voice_TakingDamage_Heavy_07.wav"
+     Index 6
+    }
+    AudioBankSampleClass Sample {
+     Filename "{24FBDB0F73888212}Sounds/Character/Voice/Samples/Rus/Male1/Taking_Damage/TakingDamage_Heavy/Character_Voice_TakingDamage_Heavy_08.wav"
+     Index 7
+    }
+   }
+  }
+ }
+ spatialities {
+  SpatialityClass {
+   id 15388
+   name "Spatiality"
+   version 5
+   tl 398.333 -574.167
+   spatialFactor 1
+  }
+ }
+ version 1
+}

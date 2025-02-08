@@ -317,7 +317,7 @@ $grp DecalEntity : "{3BD66CDD309673DB}Prefabs/Decals/Blood/BloodStain_Drops_01.e
   scale 2
  }
  {
-  coords 9722.729 0.337 1449.409
+  coords 9722.736 0.342 1449.391
   angleX -77.08
   angleY -90
   angleZ 162.009
@@ -469,6 +469,76 @@ $grp DecalEntity : "{3BD66CDD309673DB}Prefabs/Decals/Blood/BloodStain_Drops_01.e
   angleZ 73.029
   scale 2
  }
+ {
+  coords 9775.082 0.273 1607.281
+  angleX -63.512
+  angleY 170.197
+  angleZ -157.866
+  scale 3.78
+ }
+ {
+  coords 9772.577 3.44 1605.549
+  angleX -0.687
+  angleY -99.803
+  angleZ 121.863
+  scale 3.78
+ }
+ {
+  coords 9773.343 4.319 1605.541
+  angleX 79.111
+  angleY 164.282
+  angleZ -6.023
+  scale 3.78
+ }
+ {
+  coords 9772.661 3.827 1606.069
+  angleX 2.65
+  angleY -62.703
+  angleZ 46.954
+  scale 3.78
+ }
+ {
+  coords 9772.404 3.582 1605.484
+  angleX -17.62
+  angleY -82.222
+  angleZ 43.692
+  scale 3.78
+ }
+ {
+  coords 9772.649 3.948 1605.707
+  angleX -23.916
+  angleY -54.329
+  angleZ 21.74
+  scale 3.78
+ }
+ {
+  coords 9772.986 4.319 1605.452
+  angleX 57.663
+  angleY -99.803
+  angleZ 90
+  scale 3.78
+ }
+ {
+  coords 9772.816 4.319 1605.743
+  angleX 28.228
+  angleY -92.059
+  angleZ 93.68
+  scale 3.78
+ }
+ {
+  coords 9772.509 4.246 1605.144
+  angleX -25.051
+  angleY -99.803
+  angleZ 90
+  scale 3.78
+ }
+ {
+  coords 9772.585 3.784 1605.595
+  angleX -39.886
+  angleY -124.342
+  angleZ 144.146
+  scale 3.78
+ }
 }
 $grp DecalEntity : "{71979372AFE909E5}Prefabs/Decals/Blood/BloodStain_Large_01.et" {
  {
@@ -563,14 +633,6 @@ $grp DecalEntity : "{71979372AFE909E5}Prefabs/Decals/Blood/BloodStain_Large_01.e
   angleZ -180
   scale 2.415
   FarPlane 1.02
- }
- {
-  coords 9719.647 0.206 1523.084
-  angleX -80.82
-  angleY -90
-  angleZ 90
-  scale 1.8
-  TerrainOnly 1
  }
  {
   coords 9730.534 0.017 1565.182
@@ -722,6 +784,79 @@ $grp DecalEntity : "{71979372AFE909E5}Prefabs/Decals/Blood/BloodStain_Large_01.e
  {
   coords 9678.125 0.145 1613.79
   angleX -90
+  scale 1.5
+ }
+ {
+  coords 9772.32 2.549 1603.903
+  angleX -8.802
+  angleY -85.76
+  angleZ -180
+  scale 1.5
+ }
+ {
+  coords 9773.394 1.76 1605.853
+  angleX -5.681
+  angleY -60.343
+  angleZ 177.307
+  scale 1.5
+ }
+ {
+  coords 9773.205 1.711 1604.882
+  angleX -33.757
+  angleY -54.243
+  angleZ 161.184
+  scale 2.04
+  FarPlane 2.19
+ }
+ {
+  coords 9773.111 1.917 1603.094
+  angleX -11.966
+  angleY -175.76
+  angleZ -90
+  scale 1.5
+ }
+ {
+  coords 9772.983 0.819 1603.691
+  angleX -73.399
+  angleY -85.76
+  angleZ -180
+  scale 1.5
+ }
+ {
+  coords 9772.247 1.667 1603.593
+  angleX -40.051
+  angleY -85.76
+  angleZ -180
+  scale 1.5
+  FarPlane 1.37
+ }
+ {
+  coords 9772.733 1.821 1604.282
+  angleX -68.015
+  angleY -85.76
+  angleZ -180
+  scale 1.5
+ }
+ {
+  coords 9774.979 1.725 1606.082
+  angleX -90
+  angleY -85.76
+  angleZ -180
+  scale 1.5
+ }
+ {
+  coords 9772.604 3.991 1605.611
+  angleX 30.917
+  angleY -54.976
+  angleZ -159.664
+  scale 0.705
+  FarPlane 0.92
+ }
+ {
+  coords 9717.849 4.048 1442.692
+  angleX -90
+  angleY 113.162
+  angleZ -180
   scale 1.5
  }
 }

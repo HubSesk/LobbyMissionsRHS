@@ -163,7 +163,7 @@ modded class SCR_AIGroup
 			PS_MoveToVehicle moveToVehicle = m_aSpawnVehicle[index];
 			if (moveToVehicle && moveToVehicle.m_sVehicleName != "")
 			{
-				Vehicle vehicle = Vehicle.Cast(world.FindEntityByName(moveToVehicle.m_sVehicleName));
+				GenericEntity vehicle = FindEntitySloted(moveToVehicle.m_sVehicleName);
 				if (vehicle)
 				{
 					SCR_ChimeraCharacter character = SCR_ChimeraCharacter.Cast(member);
@@ -185,7 +185,24 @@ modded class SCR_AIGroup
 		return true;
 	}
 	
-	void PS_MoveToVehicle(Vehicle vehicle, PS_MoveToVehicle moveToVehicle, CompartmentAccessComponent compartmentAccessComponent)
+	GenericEntity FindEntitySloted(string name)
+	{
+		string entityName = name;
+		if (entityName.Contains("&"))
+		{
+			array<string> parts = {};
+			entityName.Split("&", parts, false);
+			entityName = parts[0];
+			string slotName = parts[1];
+			IEntity entity = GetWorld().FindEntityByName(entityName);
+			SlotManagerComponent slotManagerComponent = SlotManagerComponent.Cast(entity.FindComponent(SlotManagerComponent));
+			EntitySlotInfo entitySlotInfo = slotManagerComponent.GetSlotByName(slotName);
+			return GenericEntity.Cast(entitySlotInfo.GetAttachedEntity());
+		}
+		return GenericEntity.Cast(GetWorld().FindEntityByName(entityName));
+	}
+	
+	void PS_MoveToVehicle(GenericEntity vehicle, PS_MoveToVehicle moveToVehicle, CompartmentAccessComponent compartmentAccessComponent)
 	{
 		BaseCompartmentManagerComponent compartmentManagerComponent = BaseCompartmentManagerComponent.Cast(vehicle.FindComponent(BaseCompartmentManagerComponent));
 		array<BaseCompartmentSlot> outCompartments = {};

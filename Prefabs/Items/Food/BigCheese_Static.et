@@ -7,7 +7,7 @@ GenericEntity {
   RigidBody "{62E166C14870C223}" {
    Active Active
    Mass 30
-   CenterOfMass 0 0.343 -0
+   CenterOfMass 0 0.343 0
    ResponseIndex "MediumDestructible"
    Geometries {
     PhysicsCylinderGeometry a {
@@ -20,6 +20,7 @@ GenericEntity {
   NwkPhysicsMovementComponent "{62E166C10BBF4D66}" {
   }
   RplComponent "{62E166C10C6CD9C5}" {
+   "Rpl State Override" Runtime
   }
  }
  coords 9717.6 11.295 1525.657

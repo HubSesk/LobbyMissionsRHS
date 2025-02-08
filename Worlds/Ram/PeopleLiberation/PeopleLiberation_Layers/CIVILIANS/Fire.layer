@@ -1,18 +1,109 @@
 $grp ParticleEffectEntity {
  {
+  components {
+   SoundComponent "{631B216AF0C2A6E9}" {
+    Filenames {
+     "{3D70EF7F01B3200C}MissionAudio/PeopleLiberation/FireLarge.acp"
+    }
+   }
+   PS_PlaySound "{631B21692FC020C8}" {
+    m_sEventName "FIRE_LARGE"
+    m_fPlayTime 10000000000
+   }
+  }
   coords 9690.607 21.377 1612.116
   EffectPath "{93CAB5E5559B5C32}Particles/Vehicle/Vehicle_fire_engine_big.ptc"
  }
  {
+  components {
+   SoundComponent "{631B216A4BAE0103}" {
+    Filenames {
+     "{3D70EF7F01B3200C}MissionAudio/PeopleLiberation/FireLarge.acp"
+    }
+   }
+   PS_PlaySound "{631B2168C9AD565B}" {
+    m_sEventName "FIRE_LARGE"
+    m_fPlayTime 10000000000
+   }
+  }
   coords 9680.35 21.489 1603.124
   EffectPath "{79DD3A5F1F3069CD}Particles/Vehicle/Vehicle_fire_engine_small.ptc"
  }
  {
+  components {
+   SoundComponent "{631B216A53461975}" {
+    Filenames {
+     "{3D70EF7F01B3200C}MissionAudio/PeopleLiberation/FireLarge.acp"
+    }
+   }
+   PS_PlaySound "{631B2168CD737C19}" {
+    m_sEventName "FIRE_LARGE"
+    m_fPlayTime 10000000000
+   }
+  }
   coords 9683.901 25.284 1606.386
   EffectPath "{79DD3A5F1F3069CD}Particles/Vehicle/Vehicle_fire_engine_small.ptc"
  }
  {
   coords 9679.973 33.146 1602.945
   EffectPath "{48E90427E75C84C7}Particles/Logistics/Fire/Tire/Fire_wheel_small.ptc"
+ }
+ {
+  coords 9684.555 21.377 1606.943
+  EffectPath "{93CAB5E5559B5C32}Particles/Vehicle/Vehicle_fire_engine_big.ptc"
+ }
+ {
+  coords 9687.23 21.377 1609.522
+  EffectPath "{93CAB5E5559B5C32}Particles/Vehicle/Vehicle_fire_engine_big.ptc"
+ }
+}
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   Enabled 0
+  }
+ }
+ coords 9680.388 21.328 1599.965
+ Points {
+  ShapePoint "{631B2177FFE936C5}" {
+   Position 3.078 -0.141 2.776
+  }
+  ShapePoint "{631B2177FF14F075}" {
+   Position 5.113 -1.06 0.714
+  }
+  ShapePoint "{631B217782A89CD7}" {
+   Position 14.354 -0.14 8.841
+  }
+  ShapePoint "{631B217782261B59}" {
+   Position 14.303 -0.141 10.296
+  }
+  ShapePoint "{631B2177824279FD}" {
+   Position 15.316 -0.141 13.722
+  }
+  ShapePoint "{631B21778486DC45}" {
+   Position 13.26 -0.145 16.343
+  }
+  ShapePoint "{631B21778429E918}" {
+   Position 8.799 -0.153 15.872
+  }
+  ShapePoint "{631B21778531624A}" {
+   Position 7.326 -0.172 15.68
+  }
+  ShapePoint "{631B217787AAC289}" {
+   Position -0.807 -0.146 8.41
+  }
+  ShapePoint "{631B21778828B9EA}" {
+   Position -3.282 -0.141 5.795
+  }
+  ShapePoint "{631B217789280908}" {
+   Position -2.797 -0.14 3.744
+  }
+ }
+ {
+  PS_PolyZoneTrigger {
+   ID "60FD050E1E83544C"
+   TriggerShapeType Polyline
+   m_bReversed 0
+  }
  }
 }

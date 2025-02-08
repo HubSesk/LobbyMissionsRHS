@@ -1,0 +1,163 @@
+AudioClass {
+ signals {
+  SignalClass {
+   id 12301
+   name "Signal 12"
+   tl -279.132 -587.617
+   res "{A45B14CDEA2D5DCD}Sounds/_SharedData/Signals/Props/Props_Occlusion.sig"
+   inputsport {
+    1 6 7 23 52 56
+   }
+   outputsport {
+    5 37
+   }
+   inputvalues {
+    0 0 0 0 1000 400
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    1 1 1 1 10000 10000
+   }
+   path "{A45B14CDEA2D5DCD}Sounds/_SharedData/Signals/Props/Props_Occlusion.sig"
+  }
+ }
+ filters {
+  FilterClass : "{C8BF585AA246C60F}Sounds/_SharedData/Configs/Filter/Character/Filter_Character_Occlusion_OBSOLETE.conf" {
+   id 9238
+   name "Filter 13"
+   version 5
+   tl -84.275 -585.928
+   parent "{C8BF585AA246C60F}Sounds/_SharedData/Configs/Filter/Character/Filter_Character_Occlusion_OBSOLETE.conf"
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 12301
+       port 5
+      }
+     }
+    }
+   }
+   pi {
+    3 0
+   }
+  }
+ }
+ sounds {
+  SoundClass {
+   id 13321
+   name "FIRE_LARGE"
+   version 5
+   tl 629.392 -427.58
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 8210
+       port 65
+      }
+     }
+    }
+   }
+   volume_dB -12
+  }
+ }
+ shaders {
+  ShaderClass {
+   id 8210
+   name "Flush Shader"
+   version 5
+   tl 397.135 -438.448
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 14364
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 16403
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 9238
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 11268
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    23 0
+   }
+  }
+ }
+ amplitudes {
+  AmplitudeClass {
+   id 10259
+   name "AmplitudeLarge"
+   version 5
+   tl -79.525 -733.28
+   curve Logarithm
+   innerRange 64
+   outerRange 3000
+  }
+  AmplitudeClass : "{2D5607FF1ED3F5D3}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-35LUFS_to_-30LUFS.conf" {
+   id 16403
+   name "Amplitude -40LUFS to -35LUFS"
+   comment ""
+   version 5
+   tl 183.846 -548.462
+   parent "{2D5607FF1ED3F5D3}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-35LUFS_to_-30LUFS.conf"
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 11268
+   name "FIRE_LARGE"
+   version 7
+   tl -70.788 -423.22
+   Volume 6
+   "Loop count" 255
+   "Infinite loop" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{B8B0300A477811A4}Sounds/Vehicles/_SharedData/Destruction/Samples/Vehicles_Fire_LP.wav"
+    }
+   }
+  }
+ }
+ spatialities {
+  SpatialityClass {
+   id 14364
+   name "Spatiality"
+   version 5
+   tl 395.077 -519.385
+   spatialFactor 1
+  }
+ }
+ version 1
+}
