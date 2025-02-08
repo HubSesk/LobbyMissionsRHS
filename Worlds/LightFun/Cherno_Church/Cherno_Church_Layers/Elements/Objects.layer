@@ -1,3 +1,53 @@
+$grp GenericEntity : "{0D99D135D46EC969}Prefabs/Props/Military/H Barrier/Hesco barrier Triple.et" {
+ {
+  coords 7033.855 0.042 7712.25
+  angleY 54.605
+ }
+ {
+  coords 7034.198 0.136 7709.054
+  angleY -34.005
+ }
+ {
+  coords 7046.491 0.155 7697.675
+  angleX 1.926
+  angleY 47.704
+  angleZ -0.542
+ }
+ {
+  coords 7081.69 0.136 7715.343
+  angleX 0.494
+  angleY -33.47
+  angleZ 0.747
+ }
+ {
+  coords 7044.882 0.077 7708.693
+  angleX 1.799
+  angleY -36.723
+  angleZ -3.57
+ }
+}
+GenericEntity : "{1ABA1239EEA6FAC6}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_Bunker_Soviet.et" {
+ coords 7032.142 296.521 7737.751
+ angleY 47.739
+}
+$grp GenericEntity : "{29BA224E4FC03542}Prefabs/Props/Military/H Barrier/Hesco barrier Five.et" {
+ {
+  coords 7051.38 -0.021 7720.659
+  angleY 57.101
+ }
+ {
+  coords 7042.855 0.14 7703.137
+  angleX 0.59
+  angleY -41.232
+  angleZ 0.673
+ }
+ {
+  coords 7053.177 0.113 7694.435
+  angleX -1.652
+  angleY -40.626
+  angleZ -3.296
+ }
+}
 $grp Turret : "{29F0CC704A582154}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV.et" {
  {
   coords 7057.829 298.723 7697.164
@@ -14,6 +64,40 @@ $grp Turret : "{29F0CC704A582154}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV.et" 
  {
   coords 7077.707 299.12 7706.408
   angleY 106.68
+ }
+}
+$grp GenericEntity : "{3F8BE66EB83CD81F}Prefabs/Props/Military/H Barrier/Hesco barrier Five v2.et" {
+ {
+  coords 7047.016 0.039 7722.026
+  angleY 52.625
+ }
+ {
+  coords 7041.042 0.11 7717.531
+  angleX 5.347
+  angleY 53.309
+  angleZ 2.689
+ }
+ {
+  coords 7041.88 0.148 7698.553
+  angleX 1.169
+  angleY -40.787
+  angleZ 1.355
+ }
+ {
+  coords 7046.873 0.078 7693.002
+  angleY -42.051
+ }
+}
+$grp GenericEntity : "{43366695B8CC85A2}Prefabs/Props/Military/H Barrier/Hesco barrier Triple v2.et" {
+ {
+  coords 7046.314 0.066 7715.515
+  angleY 54.715
+ }
+ {
+  coords 7052.385 0.192 7702.484
+  angleX -1.755
+  angleY -38.121
+  angleZ -6.556
  }
 }
 $grp StaticModelEntity : "{5B5D8AEA342E1AAB}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/Sandbag_01_bunker_burlap_camonet_CompositionDestruction.et" {
@@ -51,6 +135,10 @@ GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_ro
  angleX -0.396
  angleY -126.004
  angleZ 2.499
+}
+GenericEntity : "{8088790C2D455045}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_Small_Top_Soviet.et" {
+ coords 7031.104 296.544 7733.151
+ angleY -142.364
 }
 $grp GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et" {
  {
@@ -149,6 +237,28 @@ $grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_
   angleY -38.904
   angleZ 1.526
  }
+ {
+  coords 7032.334 296.609 7732.426
+  angleX 1.702
+  angleY 140.665
+  angleZ 2.076
+ }
+ {
+  coords 7027.672 296.349 7732.283
+  angleX 3.441
+  angleY 50.329
+  angleZ -2.85
+ }
+ {
+  coords 7023.77 296.052 7731.592
+  angleX 1.984
+  angleY 47.656
+  angleZ -1.807
+ }
+ {
+  coords 7021.864 295.995 7733.391
+  angleY 44.761
+ }
 }
 $grp GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
  {
@@ -162,6 +272,18 @@ $grp GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_
   angleX 4.143
   angleY -35.918
   angleZ -1.895
+ }
+ {
+  coords 7025.441 296.158 7730.621
+  angleX -3.033
+  angleY -42.707
+  angleZ -3.281
+ }
+ {
+  coords 7028.14 296.354 7733.924
+  angleX -2.96
+  angleY -41.444
+  angleZ -3.347
  }
 }
 $grp GenericEntity : "{CD67070EFAFC28C7}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_burlap.et" {
@@ -182,5 +304,83 @@ $grp GenericEntity : "{CD67070EFAFC28C7}Prefabs/Props/Military/Sandbags/Sandbag_
   angleX -0.001
   angleY -33.709
   angleZ -3.224
+ }
+ {
+  coords 7033.007 296.633 7734.511
+  angleX 1.452
+  angleY 49.29
+  angleZ -2.428
+ }
+ {
+  coords 7029.864 296.501 7731.384
+  angleX -0.892
+  angleY 0.056
+  angleZ -3.577
+ }
+}
+GenericEntity : "{F0EC223F2A1094C0}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_burlap.et" {
+ coords 7032.142 296.521 7737.751
+ angleY 47.739
+}
+$grp GenericEntity : "{FC609C179F576083}Prefabs/Props/Military/H Barrier/Hesco barrier.et" {
+ {
+  coords 7036.147 0.086 7708.761
+  angleY 55.926
+ }
+ {
+  coords 7037.467 0.072 7709.654
+  angleY 55.926
+ }
+ {
+  coords 7046.675 0.183 7699.778
+  angleY -38.481
+ }
+ {
+  coords 7045.698 0.179 7701.007
+  angleY -38.481
+ }
+ {
+  coords 7052.388 0.159 7700.54
+  angleX -1.846
+  angleY -37.472
+  angleZ -5.334
+ }
+ {
+  coords 7053.29 0.169 7699.363
+  angleX -1.846
+  angleY -37.472
+  angleZ -5.334
+ }
+ {
+  coords 7045.683 0.099 7705.638
+  angleX 0.765
+  angleY -40.978
+  angleZ -1.849
+ }
+ {
+  coords 7046.624 0.058 7706.455
+  angleX 0.765
+  angleY -40.978
+  angleZ -1.849
+ }
+ {
+  coords 7047.645 0.06 7705.273
+  angleX -0.406
+  angleY -40.913
+  angleZ -3.199
+ }
+ {
+  coords 7048.651 0.049 7704.118
+  angleX 0.765
+  angleY -40.978
+  angleZ -1.849
+ }
+ {
+  coords 7070.206 0.147 7708.13
+  angleY 55.072
+ }
+ {
+  coords 7070.932 0.147 7707.09
+  angleY 55.072
  }
 }

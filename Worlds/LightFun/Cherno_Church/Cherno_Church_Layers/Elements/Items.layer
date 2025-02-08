@@ -1,17 +1,29 @@
-GenericEntity : "{15BEDC6B899035DB}Prefabs/Yarmarka/YarmarkaBox.et" {
- coords 7078.554 298.971 7723.811
- angleY 53.116
-}
 GenericEntity : "{61980E6F3CA71107}Prefabs/Items/Cats/Dingus.et" {
- coords 7188.521 283.415 7552.688
- angleX 0.894
- angleY 0.028
- angleZ 1.79
+ coords 7058.428 326.354 7708.575
+ angleX -0.065
+ angleY 28.421
+ angleZ 2
 }
-GenericEntity : "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et" {
- coords 7078.178 299.02 7724.194
- angleY 78.138
- angleZ -101.516
+$grp GenericEntity : "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et" {
+ {
+  coords 7078.178 299.02 7724.194
+  angleY 78.138
+  angleZ -101.516
+ }
+ {
+  coords 7078.345 298.973 7723.9
+  angleY 45.131
+ }
+ {
+  coords 7078.417 298.974 7723.788
+  angleY 52.608
+ }
+ {
+  coords 7078.491 299.011 7723.71
+  angleX 0.468
+  angleY 62.247
+  angleZ 92.043
+ }
 }
 $grp GenericEntity : "{A95C4BA303CCB6F3}Prefabs/Items/Stuff/SecretDocuments.et" {
  {
@@ -24,5 +36,9 @@ $grp GenericEntity : "{A95C4BA303CCB6F3}Prefabs/Items/Stuff/SecretDocuments.et" 
  }
  {
   coords 6925.73 300.998 7814.006
+ }
+ {
+  coords 7257.715 300.652 7747.608
+  angleY 90
  }
 }

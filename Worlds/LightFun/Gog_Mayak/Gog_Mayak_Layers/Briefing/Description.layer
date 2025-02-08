@@ -9,12 +9,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Сведения ВС РФ"
   m_sTextData "По данным разведки о технике противника известно:"\
   ""\
-  "- 2 Humvee M2"\
-  "- 1 Humvee M2 Optic"\
-  "- 1 Humvee Mk19"\
-  "- UH1H Armed"\
-  ""\
-  "У отделения спец. назначения есть Spectrum Device"
+  "- 1 Humvee M2"\
+  "- 2 Humvee M2 Optic"\
+  "- 2 Humvee Mk19"\
+  "- UH1H Armed"
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
@@ -23,7 +21,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Задача ВС РФ"
   m_sTextData "- Защитить маяк от захвата"\
   ""\
-  "В случае захвата маяка противником и достаточно большого количества живовых союзников - маяк можно будет взять обратно под свой контроль."
+  "В случае захвата маяка противником и достаточно большого количества живых союзников - маяк можно будет взять обратно под свой контроль."
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
@@ -33,16 +31,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "По данным разведки о технике противника известно:"\
   ""\
   "- 2 БТР"\
-  "- 1 Ремонтный Урал"\
-  ""\
-  "У спец. отделения противника есть Spectrum Device"
+  "- 1 Тайфун"
   m_aVisibleForFactions {
    "RHS_USAF"
   }
  }
  {
   m_sTitle "Задача ВС США"
-  m_sTextData "- Захватить маяк от захвата"\
+  m_sTextData "- Захватить маяк"\
   ""\
   "В случае захвата маяка противник может захватить его обратно, если будет достаточно большое количество живых бойцов."
   m_aVisibleForFactions {

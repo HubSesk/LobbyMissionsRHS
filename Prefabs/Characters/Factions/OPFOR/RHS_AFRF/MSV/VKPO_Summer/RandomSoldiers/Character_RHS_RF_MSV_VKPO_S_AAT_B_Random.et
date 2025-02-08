@@ -1,0 +1,21 @@
+SCR_ChimeraCharacter : "{98F5A79FC694BFC7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/RandomSoldiers/Character_RHS_RF_MSV_VKPO_S_AAT_Random.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{647374498D0BC70E}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{647374498D0BC710}" {
+      m_sVariantPrefab "{5CF8DE8C7EF837F8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_AAT_B.et"
+     }
+     SCR_EditableEntityVariant "{647374498D0BC719}" {
+      m_sVariantPrefab "{3B49EA06C378C5B5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_AAT_B_2.et"
+     }
+     SCR_EditableEntityVariant "{647374498D0BC6E4}" {
+      m_sVariantPrefab "{DED5A6FFCF9D52DE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_AAT_B_3.et"
+     }
+    }
+   }
+  }
+ }
+}
