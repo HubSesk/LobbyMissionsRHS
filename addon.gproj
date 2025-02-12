@@ -7,6 +7,23 @@ GameProject {
  }
  Configurations {
   GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{6498D02D647FF37E}" {
+      StringTableSource "{1E864E61A34216C9}Language/Localization_Sesm.st"
+      Languages {
+       LanguageDefinition "{6498D02D666813B6}" {
+        Code "en_us"
+        StringTableRuntime "{61834A272C8A2039}Language/Localization_Sesm.en_us.conf"
+       }
+       LanguageDefinition "{6498D02D666813CA}" {
+        Code "ru_ru"
+        StringTableRuntime "{F399C00D3C1D2BF9}Language/Localization_Sesm.ru_ru.conf"
+       }
+      }
+     }
+    }
+   }
   }
   GameProjectConfig XBOX_ONE {
   }
@@ -14,7 +31,7 @@ GameProject {
   }
   GameProjectConfig PS4 {
   }
-  GameProjectConfig PS5 : PC {
+  GameProjectConfig PS5 {
    PlatformHardware PS5
   }
   GameProjectConfig HEADLESS {

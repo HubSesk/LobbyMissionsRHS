@@ -1,22 +1,22 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  general {
   m_sTitle "#PS-Description_HeaderAboutMission"
-  m_sTextData "ВСРФ готовит штурм Сант-Филипа. Контроль над городом обеспечивают 3 здания: Администрация, Фабрика и Отель. Фризтайм 5 минут."
+  m_sTextData "#Sesm_philass_descr_misdescr"
   m_aVisibleForFactions {
    "RHS_AFRF" "RHS_USAF"
   }
   m_bEmptyFactionVisibility 1
  }
  us_description {
-  m_sTitle "Задачи КМП США"
-  m_sTextData "Задача: Удержать как можно больше отмеченых зданий в городе. По городу можно перемещаться и до окончания фризтайма! Обратите внимание на содержимое вашей техники."
+  m_sTitle "#Sesm_philass_descr_usmc_task"
+  m_sTextData "#Sesm_philass_descr_usmc_task_1"
   m_aVisibleForFactions {
    "RHS_USAF"
   }
  }
  ussr_description {
-  m_sTitle "Задачи ВСРФ"
-  m_sTextData "Задача: Зачистить отмеченные здания в городе. Обратите внимание на содержимое вашей техники."
+  m_sTitle "#Sesm_AFRF_Tasks"
+  m_sTextData "#Sesm_philass_descr_afrf_task_1"
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
