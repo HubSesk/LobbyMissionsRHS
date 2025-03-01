@@ -8,8 +8,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
    m_sInitialStartingWeatherId "Cloudy"
   }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 7
-   m_iStartingMinutes 15
+   m_iStartingHours 18
   }
  }
  m_fAutoReloadTime 300
@@ -19,7 +18,5 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  m_iFreezeTime 300000
  m_bDisableChat 1
  m_bReserveSlots 1
- m_bDisablePlayablesStreaming 1
- m_bFreezeTimeShootingForbiden 1
  m_bDisableBuildingModeAfterFreezeTime 1
 }
