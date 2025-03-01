@@ -40,6 +40,7 @@ Vehicle M1025_armed_Mk19_f1 : "{5C54423CC80D1C96}Prefabs/Vehicles/Wheeled/M998/M
  angleX 1.088
  angleY -18.931
  angleZ -5.091
+ m_sAttachmentGroupName "USMC_8"
 }
 $grp Vehicle : "{80C975F8482DEE97}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_black.et" {
  Mi8MT_armed_black1 {
@@ -82,23 +83,27 @@ $grp Vehicle : "{FA6820A9A52CD05B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   angleX 4.792
   angleY -13.531
   angleZ -2.984
+  m_sAttachmentGroupName "USMC_6"
  }
  M1025_armed_M2HB_MDO_USAF2 {
   coords 8152.66 474.512 9116.824
   angleX -2.008
   angleY -31.113
   angleZ -5.045
+  m_sAttachmentGroupName "USMC_6"
  }
  M1025_armed_M2HB_MDO_USAF3 {
   coords 8139.916 475.872 9145.542
   angleX 0.893
   angleY 0.042
   angleZ 2.684
+  m_sAttachmentGroupName "USMC_7"
  }
  M1025_armed_M2HB_MDO_USAF4 {
   coords 8142.671 475.503 9136.52
   angleX 3.177
   angleY -23.823
   angleZ 0.552
+  m_sAttachmentGroupName "USMC_7"
  }
 }
