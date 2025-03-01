@@ -1,9 +1,9 @@
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  {
-  coords 2641.902 251.773 5937.483
-  angleX 0.75
-  angleY 56.879
-  angleZ -0.489
+  coords 2682.885 250.06 5868.401
+  angleX 3.995
+  angleY 65.17
+  angleZ 0.121
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.025 0.61 0.446 1
@@ -14,10 +14,137 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_aVisibleForFactions {
    "Ses_CDF"
   }
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    1 3
   }
   m_iZOrder 0
+ }
+ Ses_CDF_G_210_M {
+  coords 2634.738 251.849 5936.981
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Chaos White 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 10
+ }
+ Ses_CDF_G_211_M {
+  coords 2677.909 250.137 5868.351
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Chaos White 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 10
+ }
+ Ses_CDF_G_000_M {
+  coords 2971.575 326.19 7683.465
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Atlas Red 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 10
+ }
+ Ses_CDF_G_111_M {
+  coords 3139.754 303.594 8050.854
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Blazer White 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 10
+ }
+ Ses_CDF_G_100_M {
+  coords 3049.593 304.034 7968.09
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Blazer Red 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 10
+ }
+ Ses_CDF_G_201_M {
+  coords 2656.774 251.518 5917.131
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Chaos Red 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 10
+ }
+ Ses_CDF_G_200_M {
+  coords 2659.939 251.153 5895.095
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Chaos Red 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 10
  }
  {
   coords 2979.797 326.307 7675.681
@@ -34,6 +161,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_aVisibleForFactions {
    "Ses_CDF"
   }
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    1 3
   }
@@ -52,6 +180,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_aVisibleForFactions {
    "Ses_CDF"
   }
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    1 3
   }
@@ -72,6 +201,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_aVisibleForFactions {
    "Ses_CDF"
   }
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    1 3
   }
@@ -92,6 +222,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_aVisibleForFactions {
    "Ses_CDF"
   }
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    1 3
   }
@@ -112,111 +243,31 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_aVisibleForFactions {
    "Ses_CDF"
   }
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    1 3
   }
   m_iZOrder 0
  }
- Ses_CDF_G_212_M {
-  coords 2634.738 251.849 5936.981
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+ {
+  coords 2641.902 251.773 5937.483
+  angleX 0.75
+  angleY 56.879
+  angleZ -0.489
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "Chaos White 3"
-  m_bUseWorldScale 0
+  m_MarkerColor 0.025 0.61 0.446 1
+  m_sQuadName "APC"
+  m_fWorldSize 3.691
+  m_sDescription "#AR-Vehicle_BTR70_Name"
+  m_bUseWorldScale 1
   m_aVisibleForFactions {
    "Ses_CDF"
   }
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    1 3
   }
-  m_iZOrder 10
- }
- Ses_CDF_G_200_M {
-  coords 2659.939 251.153 5895.095
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "Chaos Red 1"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "Ses_CDF"
-  }
-  m_aHideOnGameModeStates {
-   1 3
-  }
-  m_iZOrder 10
- }
- Ses_CDF_G_111_M {
-  coords 3139.754 303.594 8050.854
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "Blazer White 2"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "Ses_CDF"
-  }
-  m_aHideOnGameModeStates {
-   1 3
-  }
-  m_iZOrder 10
- }
- Ses_CDF_G_100_M {
-  coords 3049.593 304.034 7968.09
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "Blazer Red 1"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "Ses_CDF"
-  }
-  m_aHideOnGameModeStates {
-   1 3
-  }
-  m_iZOrder 10
- }
- Ses_CDF_G_000_M {
-  coords 2971.575 326.19 7683.465
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "Atlas Red 1"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "Ses_CDF"
-  }
-  m_aHideOnGameModeStates {
-   1 3
-  }
-  m_iZOrder 10
- }
- Ses_CDF_G_201_M {
-  coords 2656.774 251.518 5917.131
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "Chaos Red 2"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "Ses_CDF"
-  }
-  m_aHideOnGameModeStates {
-   1 3
-  }
-  m_iZOrder 10
+  m_iZOrder 0
  }
 }
