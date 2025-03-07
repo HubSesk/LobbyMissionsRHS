@@ -1,0 +1,78 @@
+$grp Vehicle : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_camo1.et" {
+ Ural4320_transport_covered_camo1 {
+  coords 2655.198 363.096 6757.794
+  angleX -0.895
+  m_sAttachmentGroupName "RF_1"
+ }
+ Ural4320_transport_covered_camo2 {
+  coords 2675.557 363.189 6772.726
+  angleX 0.729
+  angleY 84.785
+  angleZ -1.864
+  m_sAttachmentGroupName "RF_3"
+ }
+ Ural4320_transport_covered_camo3 {
+  coords 2720.717 363.029 6730.642
+  angleX 3.686
+  angleY -13.576
+  angleZ 0.03
+  m_sAttachmentGroupName "RF_6"
+ }
+ Ural4320_transport_covered_camo4 {
+  coords 2749.569 365.879 6760.908
+  angleX -3.575
+  angleY -91.683
+  angleZ 0.105
+  m_sAttachmentGroupName "RF_5"
+ }
+}
+Vehicle Ural4320_command_camo1 : "{2C95509CA3E61DE1}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command_camo1.et" {
+ coords 2664.394 363.198 6755.725
+ angleX -0.895
+ angleY 0.014
+ angleZ -0.895
+ m_sAttachmentGroupName "RF_2"
+}
+$grp Vehicle : "{3918E80DF5393F8C}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_camo1.et" {
+ APC_K17_Epoch_camo1 {
+  coords 2676.853 362.724 6724.736
+  angleX 1.031
+  angleY 85.58
+  angleZ 1.715
+  m_sAttachmentGroupName "RF_4"
+ }
+ APC_K17_Epoch_camo2 {
+  coords 2784.892 367.479 6764.987
+  angleX -2.677
+  angleY -94.135
+  angleZ 0.193
+  m_sAttachmentGroupName "RF_7"
+ }
+}
+Vehicle Mi8MT_armed_black1 : "{80C975F8482DEE97}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_black.et" {
+ coords 2617.791 363.265 6761.838
+ angleX 3.886
+ angleY 0.061
+ angleZ 0.897
+ m_sAttachmentGroupName "RF_9"
+}
+Vehicle Ural4320_repair_camo1 : "{BED355ED51A1E859}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair_camo1.et" {
+ coords 2658.804 362.975 6735.597
+ angleX 0.726
+ angleY 78.3
+ angleZ 3.502
+ m_sAttachmentGroupName "RF_10"
+}
+$grp Vehicle : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
+ UAZ469_Camo2 {
+  coords 2714.883 364.312 6758.731
+  m_sAttachmentGroupName "RF_8"
+ }
+ UAZ469_Camo1 {
+  coords 2715.825 364.134 6750.406
+  angleX 1.039
+  angleY -10.163
+  angleZ 0.723
+  m_sAttachmentGroupName "RF_8"
+ }
+}

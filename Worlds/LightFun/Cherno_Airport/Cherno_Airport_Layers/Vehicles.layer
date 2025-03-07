@@ -3,24 +3,28 @@ Vehicle UAZ469_Camo_uncovered1 : "{03D9932135924AEF}Prefabs/Vehicles/Wheeled/UAZ
  angleX 0.574
  angleY 108.045
  angleZ 1.128
+ m_sAttachmentGroupName "RF_6"
 }
 Vehicle Ural4320_transport_covered_camo1 : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_camo1.et" {
  coords 2207.529 264.954 11151.337
  angleX -1.213
  angleY -137.327
  angleZ 1.316
+ m_sAttachmentGroupName "RF_4"
 }
 Vehicle Ural4320_transport_camo1 : "{2CCD539A7AB35B2F}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_camo1.et" {
  coords 2178.17 264.06 11122.58
  angleX 5.04
  angleY 81.621
  angleZ -2.543
+ m_sAttachmentGroupName "RF_3"
 }
 Vehicle APC_K17_Epoch_camo1 : "{3918E80DF5393F8C}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_camo1.et" {
  coords 2222.818 265.369 11089.785
  angleX 1.338
  angleY -105.393
  angleZ 1.488
+ m_sAttachmentGroupName "RF_2"
 }
 Vehicle M1025_armed_Mk19_f1 : "{5C54423CC80D1C96}Prefabs/Vehicles/Wheeled/M998/M1025_armed_Mk19_f.et" {
  components {
@@ -36,6 +40,7 @@ Vehicle M1025_armed_Mk19_f1 : "{5C54423CC80D1C96}Prefabs/Vehicles/Wheeled/M998/M
  angleX 1.088
  angleY -18.931
  angleZ -5.091
+ m_sAttachmentGroupName "USMC_8"
 }
 $grp Vehicle : "{80C975F8482DEE97}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_black.et" {
  Mi8MT_armed_black1 {
@@ -43,29 +48,34 @@ $grp Vehicle : "{80C975F8482DEE97}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed
   angleX 4.404
   angleY -154.337
   angleZ -0.389
+  m_sAttachmentGroupName "RF_10"
  }
  Mi8MT_armed_black2 {
   coords 1573.012 452.545 13972.064
   angleX 4.164
   angleY -157.852
   angleZ -4.481
+  m_sAttachmentGroupName "RF_11"
  }
 }
 Vehicle Ural4320_repair_camo1 : "{BED355ED51A1E859}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair_camo1.et" {
  coords 2212.653 265.312 11105.752
  angleY -51.435
+ m_sAttachmentGroupName "RF_5"
 }
 Vehicle APC_K17_Berezok_camo1 : "{DD0CB0331A3D8CA7}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok_camo1.et" {
  coords 2231.213 266.494 11059.997
  angleX -2.371
  angleY -99.02
  angleZ 2.187
+ m_sAttachmentGroupName "RF_1"
 }
 Vehicle UAZ469_Camo1 : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
  coords 2185.746 263.918 11063.155
  angleX 5.218
  angleY 94.039
  angleZ 2.155
+ m_sAttachmentGroupName "RF_7"
 }
 $grp Vehicle : "{FA6820A9A52CD05B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF.et" {
  M1025_armed_M2HB_MDO_USAF1 {
@@ -73,23 +83,27 @@ $grp Vehicle : "{FA6820A9A52CD05B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   angleX 4.792
   angleY -13.531
   angleZ -2.984
+  m_sAttachmentGroupName "USMC_6"
  }
  M1025_armed_M2HB_MDO_USAF2 {
   coords 8152.66 474.512 9116.824
   angleX -2.008
   angleY -31.113
   angleZ -5.045
+  m_sAttachmentGroupName "USMC_6"
  }
  M1025_armed_M2HB_MDO_USAF3 {
   coords 8139.916 475.872 9145.542
   angleX 0.893
   angleY 0.042
   angleZ 2.684
+  m_sAttachmentGroupName "USMC_7"
  }
  M1025_armed_M2HB_MDO_USAF4 {
   coords 8142.671 475.503 9136.52
   angleX 3.177
   angleY -23.823
   angleZ 0.552
+  m_sAttachmentGroupName "USMC_7"
  }
 }

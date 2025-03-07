@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{0BEA982B07930CC6}Worlds/StPhillipeAssault/StPhillipeAssault.ent"
+ Name "{876B642DEAE1470F}Worlds/LightFun/Cherno_Training/Cherno_Training.ent"
  Configurations {
   ENTResourceClass PC {
   }
@@ -9,7 +9,11 @@ MetaFileClass {
   }
   ENTResourceClass PS4 : PC {
   }
+  ENTResourceClass PS5 : PC {
+  }
   ENTResourceClass HEADLESS : PC {
+  }
+  ENTResourceClass Xbox : PC {
   }
  }
 }
