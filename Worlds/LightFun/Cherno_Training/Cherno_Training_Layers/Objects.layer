@@ -265,6 +265,18 @@ $grp GenericEntity : "{0D99D135D46EC969}Prefabs/Props/Military/H Barrier/Hesco b
   angleY -77.925
   angleZ -0.875
  }
+ {
+  coords 4451.677 0 8403.83
+  angleX -1.285
+  angleY 44.127
+  angleZ -1.246
+ }
+ {
+  coords 4457.492 -0 8402.217
+  angleX 0.557
+  angleY -42.716
+  angleZ 1.922
+ }
 }
 $grp GenericEntity : "{0DBE058F13F0C7E8}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_US.et" {
  {
@@ -316,6 +328,10 @@ $grp StaticModelEntity : "{23BB711062057CC5}Prefabs/Props/Military/Sandbags/Sand
   coords 4586.313 319.003 8213.1
   angleY 89.854
  }
+ {
+  coords 4457.89 317.08 8413.165
+  angleY -20.265
+ }
 }
 GenericEntity : "{29BA224E4FC03542}Prefabs/Props/Military/H Barrier/Hesco barrier Five.et" {
  coords 4432.416 0 8186.202
@@ -353,6 +369,10 @@ $grp Turret : "{29F0CC704A582154}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV.et" 
  {
   coords 4580.635 320.325 8198.789
   angleY 154.1
+ }
+ {
+  coords 4457.535 317.94 8414.207
+  angleY -19.344
  }
 }
 $grp GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_plastic.et" {
@@ -404,6 +424,12 @@ $grp GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_
   angleY -149.384
   angleZ 2.309
  }
+ {
+  coords 4657.135 322.459 8248.923
+  angleX -2.661
+  angleY -82.569
+  angleZ -0.347
+ }
 }
 GenericEntity : "{31DEE33F05F7C9D0}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_base.et" {
  coords 4412.749 312.025 8193.13
@@ -439,9 +465,19 @@ $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/
   angleY -85.742
  }
 }
-Turret : "{3EA26CFD7A202636}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV_SPP.et" {
- coords 4573.838 321.32 8327.597
- angleY 35.55
+$grp Turret : "{3EA26CFD7A202636}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV_SPP.et" {
+ {
+  coords 4573.838 321.32 8327.597
+  angleY 35.55
+ }
+ {
+  coords 4442.248 316.535 8273.192
+  angleY -72.393
+ }
+ {
+  coords 4468.438 316.743 8224.535
+  angleY -129.427
+ }
 }
 $grp GenericEntity : "{3F8BE66EB83CD81F}Prefabs/Props/Military/H Barrier/Hesco barrier Five v2.et" {
  {
@@ -1050,6 +1086,48 @@ $grp GenericEntity : "{3F8BE66EB83CD81F}Prefabs/Props/Military/H Barrier/Hesco b
   angleY 8.606
   angleZ 0.134
  }
+ {
+  coords 4449.621 -0 8407.888
+  angleX -1.266
+  angleY -44.284
+  angleZ -0.016
+ }
+ {
+  coords 4450.602 0 8413.109
+  angleX 1.258
+  angleY 45.342
+  angleZ 1.273
+ }
+ {
+  coords 4455.849 0 8418.3
+  angleX 1.895
+  angleY 45.336
+  angleZ 0.644
+ }
+ {
+  coords 4460.987 0 8417.351
+  angleX 1.276
+  angleY -44.521
+  angleZ -1.255
+ }
+ {
+  coords 4466.151 -0.001 8412.099
+  angleX 1.276
+  angleY -44.521
+  angleZ -1.255
+ }
+ {
+  coords 4462.169 -0 8410.183
+  angleX 1.894
+  angleY 45.38
+  angleZ 0.645
+ }
+ {
+  coords 4461.646 0 8402.187
+  angleX -1.978
+  angleY 46.451
+  angleZ 3.111
+ }
 }
 GenericEntity : "{43366695B8CC85A2}Prefabs/Props/Military/H Barrier/Hesco barrier Triple v2.et" {
  coords 4461.036 0 8215.762
@@ -1324,5 +1402,9 @@ $grp GenericEntity : "{F3EC400DB092C2A4}Prefabs/Props/Military/Sandbags/Sandbag_
  {
   coords 4580.711 319.121 8198.595
   angleY -112.93
+ }
+ {
+  coords 4457.487 316.736 8414.408
+  angleY 73.624
  }
 }
