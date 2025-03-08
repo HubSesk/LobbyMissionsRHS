@@ -3,6 +3,7 @@ Vehicle UAZ469_Ses_CDF1 : "{A36B7742CB4CC488}Prefabs/Vehicles/Wheeled/UAZ469/UAZ
  angleX -0.866
  angleY 142.204
  angleZ 1.804
+ m_sAttachmentGroupName "CDF_7"
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  Ses_CDF_G_020_M {
@@ -27,7 +28,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.025 0.61 0.446 1
   m_sQuadName "armored"
   m_fWorldSize 35
-  m_sDescription "(БТР-70) Блэйзер Уайт 1"
+  m_sDescription "(Экипаж БТР-70) Блэйзер Уайт 1"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -72,7 +73,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.025 0.61 0.446 1
   m_sQuadName "helicopter-attack"
   m_fWorldSize 35
-  m_sDescription "(Ми-8) Хаос Ред 1"
+  m_sDescription "(Экипаж Ми-8) Хаос Ред 1"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -102,7 +103,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 1 1 1 1
   m_sQuadName "armored"
   m_fWorldSize 45
-  m_sDescription "(БТР-70) Компас-11"
+  m_sDescription "(Экипаж БТР-70) Компас-11"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {

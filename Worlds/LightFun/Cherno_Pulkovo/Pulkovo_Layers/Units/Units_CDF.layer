@@ -1,5 +1,5 @@
 $grp SCR_AIGroup : "{338E63B617C13325}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CDF_FireTeam.et" {
- {
+ CDF_1 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -14,7 +14,7 @@ $grp SCR_AIGroup : "{338E63B617C13325}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CD
    "{48E87A5E801CB328}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_SL_Random.et" "{0F71E9ED7359789D}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_SR_Random.et" "{2F83052B06BDBAD9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_AT_AK74U_Random.et" "{22CD3619BA0F86D4}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_AAT_B_Random.et" "{A1C81C31D8A10B1B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_MG_Random.et" "{F0A531F64D786F99}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_AMG_B_Random.et" "{0E14ECBA5204E26C}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_Rifleman_Random.et" "{C0B22110761AA2E9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_Medic_Random.et"
   }
  }
- {
+ CDF_2 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -29,9 +29,9 @@ $grp SCR_AIGroup : "{338E63B617C13325}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CD
   m_aUnitPrefabSlots {
    "{48E87A5E801CB328}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_SL_Random.et" "{FABD4B1CD16E4175}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_AR_Random.et" "{A1C81C31D8A10B1B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_MG_Random.et" "{F0A531F64D786F99}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_AMG_B_Random.et" "{0E14ECBA5204E26C}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_Rifleman_Random.et" "{1F7CBF605623E369}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_Sniper_Random.et" "{C915061E2C567853}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_Crew_Random.et" "{C915061E2C567853}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_Crew_Random.et"
   }
-  m_sCustomNameSet "БТР-70"
+  m_sCustomNameSet "Экипаж БТР-70"
  }
- {
+ CDF_3 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -45,9 +45,9 @@ $grp SCR_AIGroup : "{338E63B617C13325}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CD
   m_aUnitPrefabSlots {
    "{48E87A5E801CB328}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_SL_Random.et" "{FABD4B1CD16E4175}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_AR_Random.et" "{006083ED8A289CDF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_GL_Random.et" "{0E14ECBA5204E26C}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_Rifleman_Random.et" "{006083ED8A289CDF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_GL_Random.et" "{0E14ECBA5204E26C}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_Rifleman_Random.et"
   }
-  m_sCustomNameSet "Humvee M2"
+  m_sCustomNameSet "Отряд Humvee M2"
  }
- {
+ CDF_4 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -62,7 +62,7 @@ $grp SCR_AIGroup : "{338E63B617C13325}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CD
   }
   m_sCustomNameSet "Командование"
  }
- {
+ CDF_5 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -76,9 +76,9 @@ $grp SCR_AIGroup : "{338E63B617C13325}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CD
   m_aUnitPrefabSlots {
    "{990951B11778B1D8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_HeliPilot.et" "{35B7DF3E46C2B68F}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Co-Pilot.et" "{A9EDBCE7DCBBCBD1}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_HeliCrew_LF.et" "{A9EDBCE7DCBBCBD1}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_HeliCrew_LF.et"
   }
-  m_sCustomNameSet "Ми-8"
+  m_sCustomNameSet "Экипаж Ми-8"
  }
- {
+ CDF_6 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -95,7 +95,7 @@ $grp SCR_AIGroup : "{338E63B617C13325}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CD
   }
   m_sCustomNameSet "Десант"
  }
- {
+ CDF_7 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"

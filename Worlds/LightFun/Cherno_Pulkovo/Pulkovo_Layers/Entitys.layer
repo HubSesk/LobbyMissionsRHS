@@ -17,8 +17,10 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  m_bRemoveRedundantUnits 1
  m_bRemoveSquadMarkers 1
  m_iFreezeTime 300000
+ m_iDisableTime 30000
  m_bDisableChat 1
  m_bReserveSlots 1
+ m_bDisableBuildingModeAfterFreezeTime 1
 }
 GenericEntity : "{61980E6F3CA71107}Prefabs/Items/Cats/Dingus.et" {
  coords 4887.831 315.622 5875.106

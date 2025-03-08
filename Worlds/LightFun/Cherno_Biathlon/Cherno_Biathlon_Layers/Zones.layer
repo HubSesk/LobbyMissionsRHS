@@ -21,18 +21,21 @@ PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
 }
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  {
-  coords 495.705 421.815 11114.848
+  coords 493.468 421.815 11121.003
   m_fWarnRadius 140
   m_fZoneRadius 165
   m_fZoneTeleportedRadius 175
  }
  {
-  coords 1152.871 378.479 12301.96
+  coords 1150.755 378.479 12301.676
+  m_fWarnRadius 75
+  m_fZoneRadius 175
+  m_fZoneTeleportedRadius 200
  }
  {
   coords 325.017 295.029 9383.737
   m_fWarnRadius 80
-  m_fZoneRadius 120
+  m_fZoneRadius 145
   m_fZoneTeleportedRadius 140
  }
 }
