@@ -16,6 +16,89 @@ $grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/Restri
   coords 4435.454 339.41 8075.313
  }
 }
+PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+   m_cPolygonColor 0.016 0.552 0.905 0.294
+   m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+   m_cPolygonBorderColor 0.016 0.552 0.905 1
+   m_bReversed 0
+   m_aVisibleForFactions {
+    "" "Ses_CDF" "RHS_AFRF" "RHS_USAF"
+   }
+  }
+ }
+ coords 4377.448 309.622 7927.754
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position -39.256 -0.868 -43.541
+  }
+  ShapePoint "{64DD23603A2916F2}" {
+   Position -144.96 -1.255 34.738
+  }
+  ShapePoint "{64DD2360381891DF}" {
+   Position -204.815 -2.438 135.731
+  }
+  ShapePoint "{64DD23603C91C680}" {
+   Position -236.318 -2.546 222.524
+  }
+  ShapePoint "{64DD236023251B8A}" {
+   Position -239.207 -3.293 323.388
+  }
+  ShapePoint "{64DD23602111C641}" {
+   Position -210.443 1.931 436.371
+  }
+  ShapePoint "{64DD236026E25AA7}" {
+   Position -138.354 4.787 551.644
+  }
+  ShapePoint "{64DD236024F7C35C}" {
+   Position -30.746 9.057 651.285
+  }
+  ShapePoint "{64DD23602B3832D4}" {
+   Position 99.598 10.24 690.445
+  }
+  ShapePoint "{64DD236029AB5BA5}" {
+   Position 233.105 10.604 694.914
+  }
+  ShapePoint "{64DD23602FD5EF0F}" {
+   Position 379.466 14.827 605.36
+  }
+  ShapePoint "{64DD23602E2D85B9}" {
+   Position 443.498 18.742 485.788
+  }
+  ShapePoint "{64DD23602D623205}" {
+   Position 465.424 21.276 354.657
+  }
+  ShapePoint "{64DD23602C411C21}" {
+   Position 456.324 19.07 223.227
+  }
+  ShapePoint "{64DD2363DB023D4A}" {
+   Position 426.631 18.044 122.71
+  }
+  ShapePoint "{64DD2360137C5771}" {
+   Position 383.358 17.948 50.253
+  }
+  ShapePoint "{64DD236017E43D27}" {
+   Position 307.688 12.021 -25.723
+  }
+  ShapePoint "{64DD236014BD6F1E}" {
+   Position 190.456 -0.495 -72.294
+  }
+  ShapePoint "{64DD23601B4ED74C}" {
+   Position 82.234 -5.793 -76.051
+  }
+ }
+ {
+  PS_PolyZoneTrigger {
+   ID "60FD050E1E83544C"
+   m_polyZoneEffect PS_PolyZoneEffectRestricted "{60FD050E0DC2A2AB}" {
+    m_fKillTime 35
+   }
+   m_sFactionKey "RHS_USAF"
+  }
+ }
+}
 SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  coords 2709.325 363.812 6752.866
  m_fWarnRadius 115

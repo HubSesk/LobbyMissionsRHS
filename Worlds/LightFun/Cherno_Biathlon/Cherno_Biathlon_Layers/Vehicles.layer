@@ -59,8 +59,15 @@ Vehicle APC_K17_Berezok_camo2 : "{DD0CB0331A3D8CA7}Prefabs/Vehicles/Wheeled/K17/
  angleZ -1.185
  m_sAttachmentGroupName "RF_9"
 }
-Vehicle UAZ469_Camo1 : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
- coords 1187.463 378.469 12298.41
- angleY -146.601
- m_sAttachmentGroupName "RF_10"
+$grp Vehicle : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
+ UAZ469_Camo1 {
+  coords 1187.463 378.469 12298.41
+  angleY -146.601
+  m_sAttachmentGroupName "RF_10"
+ }
+ UAZ469_Camo2 {
+  coords 1191.251 378.498 12304.144
+  angleY -146.601
+  m_sAttachmentGroupName "RF_10"
+ }
 }

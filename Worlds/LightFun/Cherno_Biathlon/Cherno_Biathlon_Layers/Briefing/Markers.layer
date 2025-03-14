@@ -88,7 +88,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.025 0.61 0.446 1
   m_sQuadName "Slot_Supplies"
   m_fWorldSize 35
-  m_sDescription "Снаряжение"
+  m_sDescription "Мины"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "Ses_CDF"
@@ -105,7 +105,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_MarkerColor 0.025 0.61 0.446 1
   m_sQuadName "Slot_Supplies"
   m_fWorldSize 35
-  m_sDescription "Снаряжение"
+  m_sDescription "Мины"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
    "Ses_CDF"
@@ -533,6 +533,22 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sQuadName "Truck"
   m_fWorldSize 4
   m_sDescription "#AR-Vehicle_Ural4320_Transport_Covered_Name #RHS-Camo"
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 1191.251 378.498 12304.144
+  angleY -56.601
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "Car"
+  m_fWorldSize 4
+  m_sDescription "#AR-Vehicle_UAZ469_Name"
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    1
