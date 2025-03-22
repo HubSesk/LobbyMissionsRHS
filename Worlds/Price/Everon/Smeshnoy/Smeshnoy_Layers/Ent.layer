@@ -8,6 +8,12 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  m_bDisableChat 1
  m_bReserveSlots 1
 }
+Vehicle K4386_Armed_Camo1 : "{1DF4C30C130D8FAD}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed_Camo.et" {
+ coords 5270.009 64.737 5300.256
+ angleX -2.816
+ angleY 23.941
+ angleZ -0.271
+}
 RHS_Tank Tank_T1 : "{48BB423641D40E77}Prefabs/Vehicles/Tracked/T14/Tank_T14.et" {
  coords 5284.292 63.231 5340.478
  angleX -2

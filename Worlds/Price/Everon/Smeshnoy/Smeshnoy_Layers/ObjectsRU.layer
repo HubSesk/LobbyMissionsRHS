@@ -1,3 +1,8 @@
+CinematicEntity Cutscene {
+ coords 0 0 0
+ Scene CinematicScene "{64A8A5F3D833D199}" {
+ }
+}
 GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
  coords 5263.041 64.22 5325.814
 }
@@ -15,22 +20,40 @@ GenericEntity : "{73604060A04CBB85}Prefabs/Compositions/Slotted/SlotFlatSmall/Fu
 }
 $grp GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
  {
-  coords 5357.715 74.669 5316.718
-  angleX 8.411
-  angleY 105.837
-  angleZ -6.796
- }
- {
-  coords 5348.758 75.786 5280.256
-  angleX 12.457
-  angleY 105.696
-  angleZ -1.974
+  coords 5377.51 75.697 5326.896
+  angleX 10.069
+  angleY 105.651
+  angleZ -6.322
  }
  {
   coords 5254.22 70.611 5216.884
   angleX 5.609
   angleY 167.932
   angleZ 0.625
+ }
+ {
+  coords 5194.76 65.464 5232.526
+  angleX -0.974
+  angleY -149.64
+  angleZ 5.63
+ }
+ {
+  coords 5322.902 79.907 5199.866
+  angleX 6.912
+  angleY 123.197
+  angleZ -0.799
+ }
+ {
+  coords 5175.188 63.26 5243.026
+  angleX 0.304
+  angleY -138.44
+  angleZ 5.042
+ }
+ {
+  coords 5304.845 79.295 5195.5
+  angleX 3.186
+  angleY -163.821
+  angleZ 1.854
  }
 }
 $grp GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
@@ -69,10 +92,22 @@ $grp GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSma
   angleZ -6.631
  }
  {
-  coords 5345.021 75.951 5269.083
-  angleX 11.473
-  angleY 114.879
-  angleZ 0.449
+  coords 5185.461 64.386 5237.849
+  angleX 2.964
+  angleY -151.05
+  angleZ 5.707
+ }
+ {
+  coords 5329.968 79.856 5208.62
+  angleX 6.952
+  angleY 127.475
+  angleZ -0.282
+ }
+ {
+  coords 5314.957 79.771 5194.489
+  angleX 4.75
+  angleY 175.192
+  angleZ 3.179
  }
 }
 $grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
@@ -95,6 +130,9 @@ StaticModelEntity : "{9A17ABFEC947F887}Prefabs/Compositions/Misc/SubCompositions
 }
 GenericEntity : "{B9F504773F71C2AE}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_RF.et" {
  coords 5286.66 78.619 5298.864
+}
+Vehicle M1025_armed_M2HB_MDO_USAF2 : "{FA6820A9A52CD05B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF.et" {
+ coords 4994.186 2.253 3894.194
 }
 $grp StaticModelEntity : "{FD320CD9BFCE2257}Prefabs/Compositions/Misc/SubCompositions/TableMilitary_Cluttered_USSR_02.et" {
  {

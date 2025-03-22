@@ -115,6 +115,20 @@ $grp SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Dem
   coords 966.877 116.559 2989.469
   angleY 178.331
  }
+ RHS_AFRF_G_100_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{62066E3AA44EFDA6}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 0
+    m_iSquadCallsign 0
+   }
+  }
+  coords 955.439 116.444 2989.155
+  angleY 178.331
+ }
 }
 SCR_AIGroup RHS_AFRF_G_001_5 : "{BA8CA45F6B252004}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_PlatoonHQ.et" {
  components {
@@ -128,5 +142,8 @@ SCR_AIGroup RHS_AFRF_G_001_5 : "{BA8CA45F6B252004}Prefabs/Groups/OPFOR/RHS_AFRF/
   }
  }
  coords 932.59 116.448 2968.301
+ m_aUnitPrefabSlots {
+  "{33B19F3D12CDDA74}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_PL_Random.et" "{91DC594D293CADA3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_Scout_RadioRecon_Random.et" "{342D668BC934D359}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_RTO_Random.et" "{149F12B6E75583AB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_Medic_Random.et" "{E553B736235BCB11}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_Sharpshooter_Random.et"
+ }
  m_bPlayable 1
 }

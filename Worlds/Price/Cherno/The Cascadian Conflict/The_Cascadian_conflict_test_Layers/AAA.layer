@@ -1,0 +1,31 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 2167.386 263.303 11104.112
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  PS_CutsceneManager "{60E6C661B81E7619}" {
+   m_aCutscenes {
+    PS_Cutscene "{64B886C87AB520A2}" {
+     m_sCutsceneEntityName "Rise"
+     m_iCutsceneTime 12000
+    }
+   }
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iRangeHoursStart 10
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{62FCD86701B4AC05}" {
+     m_sWeatherPresetName "Cloudy"
+    }
+   }
+  }
+ }
+ coords 2164.864 262.813 11098.31
+ m_bMarkersOnlyOnBriefing 1
+ m_bRemoveRedundantUnits 1
+ m_bRemoveSquadMarkers 1
+ m_iFreezeTime 360000
+ m_bDisableChat 1
+ m_bReserveSlots 1
+ m_bShowCutscene 1
+}

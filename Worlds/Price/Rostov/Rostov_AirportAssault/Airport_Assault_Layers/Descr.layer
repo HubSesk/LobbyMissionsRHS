@@ -4,7 +4,7 @@ PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/Ed
  m_sDescriptionLayout "{B9CAB85D4A1600D3}UI/MissionDescription/DescriptionEditableScroll.layout"
  m_sTextData "Операция Морпехов США в Ростовской области по захвату Российского военного аэродрома."\
  ""\
- "Пехоте РФ ЗАПРЕЩЕНО покидать аэродром."\
+ "Пехоте РФ ЗАПРЕЩЕНО покидать аэродром за исключением спецназа."\
  "БТРам РФ ЗАПРЕЩЕНО находится южнее аэродрома. На территории естественно можно. Лучше не проверяйте, ГБУ-12 быстрая, а Ф18 еще быстрее."\
  "Осторожнее у разбитого ИЛа, там все заминировано."\
  ""\
@@ -12,7 +12,9 @@ PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/Ed
  "Задача Американцев : захватить диспетчерскую и ИЛсемьдясятшесть"\
  "Задача РФ : Защитить диспетчерскую и ИЛсемьдясятшесть"\
  ""\
- "У США есть Хаммеры с Мк19"
+ "У США есть Хаммеры с Мк19"\
+ "В подчинении США находится два отряда ЧВК ION"\
+ "У обоих сторон есть радиоразведка"
  m_bEmptyFactionVisibility 1
  m_bShowForAnyFaction 1
 }
@@ -49,7 +51,6 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  {
   coords 951.719 136.295 2912.888
-  angleY 0
   m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
   m_sImageSetGlow ""
   m_sQuadName "Task_Attack"
@@ -60,7 +61,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  {
   coords 671.429 120.672 2971.241
-  angleY 0
   m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
   m_sImageSetGlow ""
   m_sQuadName "Task_Attack"

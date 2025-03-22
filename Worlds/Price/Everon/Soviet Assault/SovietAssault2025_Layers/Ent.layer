@@ -1,0 +1,10 @@
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 5292.728 62.619 5361.632
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ coords 5285.746 62.823 5358.083
+ m_bRemoveRedundantUnits 1
+ m_iFreezeTime 120000
+ m_bDisableChat 1
+ m_bReserveSlots 1
+}

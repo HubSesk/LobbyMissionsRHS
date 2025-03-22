@@ -6,19 +6,6 @@ GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/Su
  coords 5307.534 62.034 5394.251
  angleY 122.935
 }
-$grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
- M1025_armed_M2HB1 {
-  coords 4994.182 2.187 3887.584
- }
- M1025_armed_M2HB3 {
-  coords 4993.244 2.158 3880.153
-  angleY -16.944
- }
- M1025_armed_M2HB2 {
-  coords 4987.307 2.246 3887.757
-  angleY -29.615
- }
-}
 $grp Vehicle : "{6B24D5AFD884D64C}Prefabs/Vehicles/Wheeled/M998/M998_MERDC.et" {
  M998_MERDC6 {
   coords 4951.918 2.187 3859.034
@@ -42,6 +29,15 @@ $grp Vehicle : "{6B24D5AFD884D64C}Prefabs/Vehicles/Wheeled/M998/M998_MERDC.et" {
   coords 4988.292 2.188 3854.495
  }
 }
+$grp Vehicle : "{ABAB219273966558}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_PAS13G_USAF.et" {
+ M1025_armed_M2HB_PAS13G_USAF1 {
+  coords 4990.401 2.188 3883.585
+ }
+ M1025_armed_M2HB_PAS13G_USAF2 {
+  coords 4995.78 2.187 3886.312
+  angleY -24.01
+ }
+}
 $grp Vehicle : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et" {
  M923A1_transport2 {
   coords 4944.402 2.185 3911.28
@@ -59,4 +55,7 @@ $grp Vehicle : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transpo
   coords 4952.258 2.16 3906.354
   angleY -147.532
  }
+}
+Vehicle M1025_armed_M2HB_MDO_USAF1 : "{FA6820A9A52CD05B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF.et" {
+ coords 4989.332 2.312 3893.293
 }
