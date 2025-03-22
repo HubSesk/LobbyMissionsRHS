@@ -1,7 +1,7 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  {
   m_sTitle "Легенда"
-  m_sTextData "КМП США взяли под свой контроль одно из поселений в Ростовской области. ВС РФ собирается штурмом взять два подконтрольных ВС США здания."
+  m_sTextData "КМП США взяли под свой контроль одно из поселений в Ростовской области. ВС РФ собирается взять штурмом два подконтрольных ВС США здания."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }
@@ -11,7 +11,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "- У врага есть мины"\
   "- У врага есть 2 Humvee M2 Optic"\
-  "- У врага есть 1 Humvee Mk19"
+  "- У врага есть 2 Humvee Mk19"
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
@@ -20,7 +20,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Задачи ВС РФ"
   m_sTextData "- Захватить церковь"\
   ""\
-  "- Захватить диспетчерскую"\
+  "- Захватить офис"\
   ""\
   "Примечание:"\
   ""\
@@ -35,7 +35,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Сведения КМП США"
   m_sTextData "- У вас есть трубы и мины, которые находятся рядом с отделениями в городе"\
   ""\
-  "- У врага есть К-17 \"Бумеранг\""
+  "- У врага есть К-17 \"Бумеранг\""\
+  "- У врага есть K-4386 \"Тайфун-ВДВ\""
   m_aVisibleForFactions {
    "RHS_USAF"
   }
@@ -44,7 +45,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Задачи КМП США"
   m_sTextData "- Защитить церковь от захвата"\
   ""\
-  "- Защитить диспетчерскую от захвата"\
+  "- Защитить офис от захвата"\
   ""\
   "Примечание: "\
   ""\
