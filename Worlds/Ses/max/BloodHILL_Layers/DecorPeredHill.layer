@@ -1,0 +1,69 @@
+SCR_DestructibleBuildingEntity : "{22759E6CD7F7BFF8}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_Corner_Stairs.et" {
+ coords 3772.574 1.786 4190.042
+ angleY -31.532
+}
+$grp GameEntity : "{5E6E2D5FBB966C01}Prefabs/Structures/BuildingParts/Ladders/Ladder_DieselPowerPlant_01/Ladder_DieselPowerPlant_01_866_B.et" {
+ {
+  components {
+   Hierarchy "{557E8CF8B87AB6F6}" {
+    Enabled 1
+    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
+    AutoTransform 1
+   }
+  }
+  coords 3790.096 15.277 4167.853
+  angleY -163.474
+ }
+ {
+  components {
+   Hierarchy "{557E8CF8B87AB6F6}" {
+    Enabled 1
+    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
+    AutoTransform 1
+   }
+  }
+  coords 3809.944 8.087 4178.065
+  angleY 16.809
+ }
+ {
+  components {
+   Hierarchy "{557E8CF8B87AB6F6}" {
+    Enabled 1
+    PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
+    AutoTransform 1
+   }
+  }
+  coords 3809.382 9.463 4168.942
+  angleY 105.71
+ }
+}
+GenericEntity : "{6C57BFFFA642C60C}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_04.et" {
+ coords 3793.093 163.991 4179.972
+ angleY -57.428
+}
+$grp GenericEntity : "{8A403C31EFCF153F}Prefabs/Rocks/Granite/GraniteStone_03.et" {
+ {
+  coords 3771.014 159.583 4186.149
+  angleX -22.285
+  angleY -120.753
+  angleZ -2.494
+  scale 1.104
+  Flags 1027
+ }
+ {
+  coords 3770.75 160.242 4187.107
+  angleX 21.604
+  angleY 36.432
+  angleZ -6.13
+  scale 1.104
+  Flags 1027
+ }
+ {
+  coords 3770.334 160.04 4187.958
+  angleX 2.471
+  angleY -31.3
+  angleZ -22.287
+  scale 1.347
+  Flags 1027
+ }
+}

@@ -32,15 +32,3 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
  }
 }
-HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
-}
-$grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
- BTR70_AFRF1 {
-  coords 7692.415 12.969 8080.021
-  angleY -42.064
- }
- BTR70_AFRF2 {
-  coords 7686.527 12.969 8073.204
-  angleY -50.862
- }
-}

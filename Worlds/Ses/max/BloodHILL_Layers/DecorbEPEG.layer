@@ -1,0 +1,145 @@
+$grp SCR_DestructibleBuildingEntity : "{02EEB16EF56CA2E7}Prefabs/Structures/Military/Bunkers/ReinforcedFueltank_E_01/ReinforcedFueltank_E_01.et" {
+ {
+  coords 3418.417 0.489 3473.148
+ }
+ {
+  coords 3322.008 0.907 3513.565
+ }
+}
+GenericEntity : "{07FBB9A2F51332E4}Prefabs/Rocks/Granite/Granite_BeachStone_01.et" {
+ coords 3438.994 10.749 3444.736
+ angleX 2.537
+ angleY 11.624
+ angleZ 1.993
+ scale 1.151
+ Flags 1027
+}
+SCR_DestructibleBuildingEntity : "{2EBA3486062A5A53}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_big.et" {
+ coords 3429.454 13.92 3446.698
+}
+GenericEntity : "{4527DE86025ECF43}Prefabs/Rocks/Granite/GraniteSurfaceStone_04.et" {
+ coords 3322.144 5.078 3467.515
+ angleY 43.599
+ scale 0.894
+}
+SCR_DestructibleBuildingEntity : "{4BE4C27399CF3B00}Prefabs/Structures/Military/Bunkers/ShelterMilitary_E_01/ShelterMilitary_E_01.et" {
+ coords 3266.46 0.313 3532.224
+ angleY -22.777
+}
+GenericEntity : "{533CDABD77C4C43E}Prefabs/Rocks/Granite/GraniteCliff_02.et" {
+ coords 3209.664 -17.04 3767.761
+ angleY 55.3
+}
+$grp GenericEntity : "{6BAF8D4249D7BDCA}Prefabs/Rocks/Granite/Granite_BeachStone_02.et" {
+ {
+  coords 3391.85 -0.44 3455.197
+  angleX -20.148
+  angleY -165.317
+  angleZ -3.977
+  scale 0.877
+ }
+ {
+  coords 3442.173 10.617 3446.224
+  angleX 4.49
+  angleY -58.333
+  angleZ 1.878
+  scale 1.058
+  Flags 1027
+ }
+ {
+  coords 3443.922 10.695 3448.038
+  angleX 4.49
+  angleY -58.333
+  angleZ 1.878
+  scale 1.058
+  Flags 1027
+ }
+ {
+  coords 3445.251 11.869 3449.262
+  angleX -2.689
+  angleY -45.847
+  angleZ -4.324
+  scale 0.893
+  Flags 1027
+ }
+ {
+  coords 3327.965 0.052 3462.867
+  angleX -10.835
+  angleY 157.024
+  angleZ 17.533
+  scale 0.877
+ }
+ {
+  coords 3330.193 0.105 3462.92
+  angleX 1.74
+  angleY -147.023
+  angleZ -3.189
+  scale 0.641
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{8A8A7A558772D718}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_small.et" {
+ {
+  coords 3453.138 13.285 3455.861
+ }
+ {
+  coords 3401.414 13.63 3455.014
+ }
+}
+$grp StaticModelEntity : "{97706E5F109912CB}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_reel_bunker.et" {
+ {
+  coords 3652.82 5.867 3647.743
+  angleY 110.59
+  scale 1.38
+ }
+ {
+  coords 3353.106 4.349 3443.048
+  angleY -70.067
+  scale 1.38
+ }
+ {
+  coords 3214.547 5.257 3783.587
+  angleY -70.067
+  scale 0.856
+ }
+}
+$grp GenericEntity : "{B6A096447B215355}Prefabs/Rocks/Granite/GraniteCliff_03.et" {
+ {
+  coords 3432.57 -5.644 3434.712
+  angleY 157.832
+ }
+ {
+  coords 3467.545 4.446 3435.875
+  angleX 75.022
+  angleY 106.796
+  angleZ -43.021
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{BE248D0B31D3B097}Prefabs/Structures/Military/Bunkers/AmmoDump_E_02/AmmoDump_E_02.et" {
+ {
+  coords 3367.887 10.845 3485.801
+ }
+ {
+  coords 3342.443 9.285 3494.446
+  angleY 49.741
+ }
+}
+SCR_DestructibleBuildingEntity : "{CA7778B914D3A9FC}Prefabs/Structures/Military/Bunkers/AircraftShelter_E_01/AircraftShelter_E_01_base.et" {
+ coords 3259.605 3.719 3451.754
+ angleY -117.753
+ scale 1.355
+}
+SCR_DestructibleBuildingEntity : "{DAC148D18C3835B9}Prefabs/Structures/Military/Bunkers/ShelterMilitary_E_01/ShelterMilitary_E_01_long.et" {
+ coords 3269.638 0.659 3543.898
+ angleY -118.242
+}
+$grp GenericEntity : "{FA6727A124372434}Prefabs/Rocks/Granite/GraniteRock_02.et" {
+ {
+  coords 3399.016 7.578 3445.653
+ }
+ {
+  coords 3393.283 6.114 3451.004
+ }
+ {
+  coords 3652.192 -1.285 3648.478
+ }
+}

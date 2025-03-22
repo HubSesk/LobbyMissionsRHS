@@ -1,0 +1,45 @@
+Vehicle M923A1_command1 : "{36BDCC88B17B3BFA}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command.et" {
+ coords 3858.615 163.234 4319.196
+ angleY -28.357
+}
+Vehicle M923A1_transport_covered1 : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
+ coords 3319.152 8.52 3595.225
+ angleY -88.243
+}
+Vehicle M923A1_repair1 : "{A042ACE5C2B13206}Prefabs/Vehicles/Wheeled/M923A1/M923A1_repair.et" {
+ coords 3867.458 162.2 4307.861
+ angleY -42.564
+}
+Vehicle UH1H_armed1 : "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et" {
+ coords 4881.121 28.593 11908.839
+ angleY -90.186
+}
+$grp Vehicle : "{FA6820A9A52CD05B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF.et" {
+ M1025_armed_M2HB_MDO_USAF1 {
+  coords 3319.522 8.518 3590.367
+  angleY -87.468
+ }
+ M1025_armed_M2HB_MDO_USAF2 {
+  coords 3319.486 8.563 3585.427
+  angleY -85.937
+ }
+ M1025_armed_M2HB_MDO_USAF3 {
+  coords 3319.22 8.563 3580.741
+  angleY -85.937
+ }
+ M1025_armed_M2HB_MDO_USAF4 {
+  coords 3320.046 8.547 3605.015
+  angleY -85.937
+ }
+}
+$grp GenericEntity : "{FA9912003CD3551B}Prefabs/Vehicles/Airplanes/IL76/il76_SLOTTED.et" {
+ {
+  coords 4875.902 28.594 11817.483
+  angleY 90.483
+  Flags 1027
+ }
+ {
+  coords 4771.377 24.174 12010.866
+  angleY -180
+ }
+}

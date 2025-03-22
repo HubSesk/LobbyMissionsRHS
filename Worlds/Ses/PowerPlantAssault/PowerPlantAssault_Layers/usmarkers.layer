@@ -1,239 +1,190 @@
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  {
-  coords 841.823 113.156 2799.657
-  angleY 144.875
+  coords 4942.385 28.444 11863.22
+  angleX -0.289
+  angleY 211.818
+  angleZ -1.232
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.025 0.61 0.446 1
-  m_sQuadName "APC"
-  m_fWorldSize 3.691
-  m_sDescription "#AR-Vehicle_BTR70_Name"
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.399
+  m_sDescription "#AR-Vehicle_M1025_M2_Name #RHS-Item_SU260P_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "Ses_CDF"
+   "RHS_USAF"
   }
   m_aHideOnGameModeStates {
-   3 1
+   1 3
   }
   m_iZOrder 0
  }
  {
-  coords 836.234 113.501 2824.677
-  angleY 215.996
+  coords 4943.892 28.219 11927.764
+  angleY 270
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.025 0.61 0.446 1
-  m_sQuadName "APC"
-  m_fWorldSize 3.691
-  m_sDescription "#AR-Vehicle_BTR70_Name"
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.399
+  m_sDescription "#AR-Vehicle_M1025_M2_Name #RHS-Item_SU260P_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "Ses_CDF"
+   "RHS_USAF"
   }
   m_aHideOnGameModeStates {
-   3 1
+   1 3
   }
   m_iZOrder 0
  }
  {
-  coords 928.845 116.126 2943.896
-  angleX -0.895
+  coords 4943.774 28.356 11938.611
+  angleX -0.925
+  angleY 268.064
+  angleZ -0.864
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.025 0.61 0.446 1
+  m_MarkerColor 0.016 0.552 0.905 1
   m_sQuadName "Car"
   m_fWorldSize 2.399
   m_sDescription "#AR-Vehicle_M1025_M2_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "Ses_CDF"
+   "RHS_USAF"
   }
   m_aHideOnGameModeStates {
-   3 1
+   1 3
   }
   m_iZOrder 0
  }
  {
-  coords 929.214 116.25 2932.485
+  coords 4939.942 28.437 11870.901
+  angleY 199.852
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.025 0.61 0.446 1
+  m_MarkerColor 0.016 0.552 0.905 1
   m_sQuadName "Car"
   m_fWorldSize 2.399
-  m_sDescription "#AR-Vehicle_M1025_M2_Name"
+  m_sDescription "#AR-Vehicle_M1025_M2_Name #RHS-Item_pas13g_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "Ses_CDF"
+   "RHS_USAF"
   }
   m_aHideOnGameModeStates {
-   3 1
+   1 3
   }
   m_iZOrder 0
  }
  {
-  coords 749.873 114 2901.407
-  angleY 140.411
+  coords 4959.586 28.281 11941.309
+  angleY -84.462
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.025 0.61 0.446 1
+  m_MarkerColor 0.016 0.552 0.905 1
   m_sQuadName "Car"
   m_fWorldSize 2.399
-  m_sDescription "#AR-Vehicle_M1025_M2_Name"
+  m_sDescription "#AR-Vehicle_M1025_M2_Name #RHS-Item_pas13g_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "Ses_CDF"
+   "RHS_USAF"
   }
   m_aHideOnGameModeStates {
-   3 1
+   1 3
   }
   m_iZOrder 0
  }
  {
-  coords 960.258 116.473 2951.674
-  angleZ -0.895
+  coords 5852.947 4.562 9793.263
+  angleY -11.279
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.025 0.61 0.446 1
-  m_sQuadName "Car"
-  m_fWorldSize 2.399
-  m_sDescription "#AR-Vehicle_M1025_M2_Name"
-  m_bUseWorldScale 1
-  m_aVisibleForFactions {
-   "Ses_CDF"
-  }
-  m_aHideOnGameModeStates {
-   3 1
-  }
-  m_iZOrder 0
- }
- {
-  coords 959.556 116.462 2961.709
-  angleZ -0.895
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.025 0.61 0.446 1
-  m_sQuadName "Car"
-  m_fWorldSize 2.399
-  m_sDescription "#AR-Vehicle_M1025_M2_Name"
-  m_bUseWorldScale 1
-  m_aVisibleForFactions {
-   "Ses_CDF"
-  }
-  m_aHideOnGameModeStates {
-   3 1
-  }
-  m_iZOrder 0
- }
- {
-  coords 784.474 113.875 2887.41
-  angleY -54.183
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.025 0.61 0.446 1
-  m_sQuadName "Car"
-  m_fWorldSize 2.043
-  m_sDescription "#AR-Vehicle_UAZ469_Name"
-  m_bUseWorldScale 1
-  m_aVisibleForFactions {
-   "Ses_CDF"
-  }
-  m_aHideOnGameModeStates {
-   3 1
-  }
-  m_iZOrder 0
- }
- {
-  coords 755.362 113.969 2896.317
-  angleY 112.391
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.025 0.61 0.446 1
-  m_sQuadName "Car"
-  m_fWorldSize 2.043
-  m_sDescription "#AR-Vehicle_UAZ469_Open_Variant1_Name"
-  m_bUseWorldScale 1
-  m_aVisibleForFactions {
-   "Ses_CDF"
-  }
-  m_aHideOnGameModeStates {
-   3 1
-  }
-  m_iZOrder 0
- }
- {
-  coords 930.685 112.899 2777.518
-  angleX 0.572
-  angleY 39.711
-  angleZ -0.689
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.025 0.61 0.446 1
+  m_MarkerColor 0.016 0.552 0.905 1
   m_sQuadName "Truck"
-  m_fWorldSize 3.722
-  m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
+  m_fWorldSize 4.123
+  m_sDescription "#AR-Vehicle_M923A1_Transport_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "Ses_CDF"
+   "RHS_USAF"
   }
   m_aHideOnGameModeStates {
-   3 1
+   1 3
   }
   m_iZOrder 0
  }
  {
-  coords 887.971 113.156 2801.636
-  angleY 46.098
+  coords 4905.125 28.593 11893.129
+  angleY 266.906
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.025 0.61 0.446 1
+  m_MarkerColor 0.016 0.552 0.905 1
   m_sQuadName "Truck"
-  m_fWorldSize 3.722
-  m_sDescription "#AR-Vehicle_Ural4320_Transport_Covered_Name"
+  m_fWorldSize 4.123
+  m_sDescription "#AR-Vehicle_M923A1_Transport_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "Ses_CDF"
+   "RHS_USAF"
   }
   m_aHideOnGameModeStates {
-   3 1
+   1 3
   }
   m_iZOrder 0
  }
- Ses_CDF_G_111_M {
-  coords 849.851 113.188 2800.708
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+ {
+  coords 5795.682 7.969 9729.035
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "Blazer White 2"
-  m_bUseWorldScale 0
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Truck"
+  m_fWorldSize 4.123
+  m_sDescription "#AR-Vehicle_M923A1_Transport_Covered_Name"
+  m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "Ses_CDF"
+   "RHS_USAF"
   }
   m_aHideOnGameModeStates {
-   3 1
+   1 3
   }
-  m_iZOrder 10
+  m_iZOrder 0
  }
- Ses_CDF_G_100_M {
-  coords 839.229 113.501 2817.27
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+ {
+  coords 4958.389 28.256 11928.715
+  angleY 270
+  angleZ 0.895
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "Blazer Red 1"
-  m_bUseWorldScale 0
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.399
+  m_sDescription "#AR-Vehicle_M998_Canopy_Name"
+  m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "Ses_CDF"
+   "RHS_USAF"
   }
   m_aHideOnGameModeStates {
-   3 1
+   1 3
   }
-  m_iZOrder 10
+  m_iZOrder 0
  }
- Ses_CDF_G_000_M {
-  coords 789.156 113.888 2894.048
+ {
+  coords 5828.351 4.562 9778.591
+  angleY -0
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.016 0.552 0.905 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.399
+  m_sDescription "#AR-Vehicle_M998_Canopy_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 0
+ }
+ RHS_USAF_G_000_M {
+  coords 5824.455 4.772 9778.071
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -242,15 +193,32 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Atlas Red 1"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "Ses_CDF"
+   "RHS_USAF"
   }
   m_aHideOnGameModeStates {
-   3 1
+   1 3
   }
   m_iZOrder 10
  }
- Ses_CDF_G_200_M {
-  coords 878.902 113.25 2803.891
+ RHS_USAF_G_100_M {
+  coords 5848.169 4.562 9795.159
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Blazer Red 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 10
+ }
+ RHS_USAF_G_200_M {
+  coords 4961.951 28.281 11927.624
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -259,32 +227,15 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Chaos Red 1"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "Ses_CDF"
+   "RHS_USAF"
   }
   m_aHideOnGameModeStates {
-   3 1
+   1 3
   }
   m_iZOrder 10
  }
- Ses_CDF_G_300_M {
-  coords 766.831 114.031 2911.814
-  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "Disco Red 1"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "Ses_CDF"
-  }
-  m_aHideOnGameModeStates {
-   3 1
-  }
-  m_iZOrder 10
- }
- Ses_CDF_G_211_M {
-  coords 927.695 112.906 2774.451
+ RHS_USAF_G_211_M {
+  coords 4940.991 28.243 11926.802
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -293,61 +244,61 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Chaos White 2"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "Ses_CDF"
+   "RHS_USAF"
   }
   m_aHideOnGameModeStates {
-   3 1
+   1 3
   }
   m_iZOrder 10
  }
- Ses_CDF_G_311_M {
-  coords 936.635 116.329 2936.426
+ RHS_USAF_G_111_M {
+  coords 5805.912 7.969 9735.108
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
   m_sQuadName "undefined"
   m_fWorldSize 50
-  m_sDescription "Disco White 2"
+  m_sDescription "Blazer White 2"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "Ses_CDF"
+   "RHS_USAF"
   }
   m_aHideOnGameModeStates {
-   3 1
+   1 3
   }
   m_iZOrder 10
  }
- Ses_CDF_G_322_M {
-  coords 963.794 116.5 2957.006
+ RHS_USAF_G_000_M {
+  coords 4909.42 28.594 11901.328
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
   m_sQuadName "undefined"
   m_fWorldSize 50
-  m_sDescription "Disco Blue 3"
+  m_sDescription "Atlas Red 1"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "Ses_CDF"
+   "RHS_USAF"
   }
   m_aHideOnGameModeStates {
-   3 1
+   1 3
   }
   m_iZOrder 10
  }
- Ses_CDF_G_122_M {
-  coords 913.152 113.324 2874.807
+ RHS_USAF_G_211_M {
+  coords 4948.454 28.388 11860.118
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
   m_sQuadName "undefined"
   m_fWorldSize 50
-  m_sDescription "Blazer Blue 3"
+  m_sDescription "Chaos White 2"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "Ses_CDF"
+   "RHS_USAF"
   }
   m_aHideOnGameModeStates {
-   3 1
+   1 3
   }
   m_iZOrder 10
  }

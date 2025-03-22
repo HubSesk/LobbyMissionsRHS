@@ -1,18 +1,34 @@
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  {
-  coords 904.672 113.356 2876.134
-  angleX -1.266
-  angleY -45.651
-  angleZ 0.014
+  coords 7714.951 12.969 8107.872
+  angleY 43
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.025 0.61 0.446 1
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "APC"
+  m_fWorldSize 4.551
+  m_sDescription "#RHS-Vehicle_K17_Epoch_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 7692.415 12.969 8080.021
+  angleY 47.936
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
   m_sQuadName "APC"
   m_fWorldSize 3.691
   m_sDescription "#AR-Vehicle_BTR70_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "Ses_ChDKZ"
+   "RHS_AFRF"
   }
   m_aHideOnGameModeStates {
    1 3
@@ -20,19 +36,17 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 1437.845 94.091 861.983
-  angleX -0.993
-  angleY 6.7
-  angleZ 0.785
+  coords 7686.527 12.969 8073.204
+  angleY 39.138
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.855 0.031 0.028 1
+  m_MarkerColor 0.555 0.002 0 1
   m_sQuadName "APC"
   m_fWorldSize 3.691
   m_sDescription "#AR-Vehicle_BTR70_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "Ses_ChDKZ"
+   "RHS_AFRF"
   }
   m_aHideOnGameModeStates {
    1 3
@@ -40,17 +54,17 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 1282.381 93.187 745.522
-  angleY -45.561
+  coords 7702.669 12.969 8092.942
+  angleY 44.766
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.855 0.031 0.028 1
+  m_MarkerColor 0.555 0.002 0 1
   m_sQuadName "APC"
   m_fWorldSize 3.691
   m_sDescription "#AR-Vehicle_BTR70_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "Ses_ChDKZ"
+   "RHS_AFRF"
   }
   m_aHideOnGameModeStates {
    1 3
@@ -58,19 +72,17 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 1418.488 95.662 791.738
-  angleX -0.595
-  angleY 41.647
-  angleZ 0.669
+  coords 7833.012 254.531 4034.278
+  angleY 130.552
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.855 0.031 0.028 1
-  m_sQuadName "Car"
-  m_fWorldSize 2.043
-  m_sDescription "#AR-Vehicle_UAZ469_PKM_Name"
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "Helicopter"
+  m_fWorldSize 9.387
+  m_sDescription "#AR-Vehicle_Mi8MT_Armed_Name #RHS-Gray"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "Ses_ChDKZ"
+   "RHS_AFRF"
   }
   m_aHideOnGameModeStates {
    1 3
@@ -78,59 +90,19 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 1424.277 96.088 785.438
-  angleX -2.527
-  angleY 47.82
-  angleZ -0.124
+  coords 5850.079 212.755 7032.973
+  angleX 3.218
+  angleY 29.988
+  angleZ -0.208
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.855 0.031 0.028 1
-  m_sQuadName "Car"
-  m_fWorldSize 2.043
-  m_sDescription "#AR-Vehicle_UAZ469_PKM_Name"
-  m_bUseWorldScale 1
-  m_aVisibleForFactions {
-   "Ses_ChDKZ"
-  }
-  m_aHideOnGameModeStates {
-   1 3
-  }
-  m_iZOrder 0
- }
- {
-  coords 1461.364 93.921 902.41
-  angleX 0.985
-  angleY 186.104
-  angleZ -0.795
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.855 0.031 0.028 1
-  m_sQuadName "Car"
-  m_fWorldSize 2.043
-  m_sDescription "#AR-Vehicle_UAZ469_Open_Variant1_Name"
-  m_bUseWorldScale 1
-  m_aVisibleForFactions {
-   "Ses_ChDKZ"
-  }
-  m_aHideOnGameModeStates {
-   1 3
-  }
-  m_iZOrder 0
- }
- {
-  coords 1131.774 61.271 1183.969
-  angleX -7.139
-  angleY 54.093
-  angleZ 0.769
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.855 0.031 0.028 1
+  m_MarkerColor 0.555 0.002 0 1
   m_sQuadName "Truck"
   m_fWorldSize 3.722
-  m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
+  m_sDescription "#RHS-Vehicle_Ural4320_transport_camo_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "Ses_ChDKZ"
+   "RHS_AFRF"
   }
   m_aHideOnGameModeStates {
    1 3
@@ -138,19 +110,17 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 1227.016 87.469 888.508
-  angleX -1.358
-  angleY 40.653
-  angleZ -1.166
+  coords 7711.938 13.481 8147.361
+  angleY -43.918
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.855 0.031 0.028 1
+  m_MarkerColor 0.555 0.002 0 1
   m_sQuadName "Truck"
   m_fWorldSize 3.722
-  m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
+  m_sDescription "#RHS-Vehicle_Ural4320_transport_camo_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "Ses_ChDKZ"
+   "RHS_AFRF"
   }
   m_aHideOnGameModeStates {
    1 3
@@ -158,163 +128,47 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 1429.471 93.262 885.257
-  angleX 0.883
-  angleY -80.472
-  angleZ 0.148
+  coords 5874.876 211.399 7024.172
+  angleX 2.829
+  angleY 18.838
+  angleZ 0.02
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.855 0.031 0.028 1
+  m_MarkerColor 0.555 0.002 0 1
   m_sQuadName "Truck"
   m_fWorldSize 3.722
-  m_sDescription "#AR-Vehicle_Ural4320_Transport_Covered_Name"
+  m_sDescription "#AR-Vehicle_Ural4320_Transport_Covered_Name #RHS-Camo"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "Ses_ChDKZ"
+   "RHS_AFRF"
   }
   m_aHideOnGameModeStates {
    1 3
   }
   m_iZOrder 0
  }
- Ses_ChDKZ_G_100_M {
-  coords 1270.215 67.363 1188.781
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+ {
+  coords 7721.684 13.49 8170.306
+  angleX 0.093
+  angleY -49.221
+  angleZ 1.262
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "Buran-11"
-  m_bUseWorldScale 0
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "Truck"
+  m_fWorldSize 3.722
+  m_sDescription "#AR-Vehicle_Ural4320_Transport_Covered_Name #RHS-Camo"
+  m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "Ses_ChDKZ"
+   "RHS_AFRF"
   }
   m_aHideOnGameModeStates {
    1 3
   }
-  m_iZOrder 10
+  m_iZOrder 0
  }
- Ses_ChDKZ_G_101_M {
-  coords 1387.733 76.572 1125.77
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "Buran-12"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "Ses_ChDKZ"
-  }
-  m_aHideOnGameModeStates {
-   1 3
-  }
-  m_iZOrder 10
- }
- Ses_ChDKZ_G_102_M {
-  coords 1119.35 57.874 1209.758
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "Buran-13"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "Ses_ChDKZ"
-  }
-  m_aHideOnGameModeStates {
-   1 3
-  }
-  m_iZOrder 10
- }
- Ses_ChDKZ_G_000_M {
-  coords 1469.306 94.032 903.635
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "Aktiv-11"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "Ses_ChDKZ"
-  }
-  m_aHideOnGameModeStates {
-   1 3
-  }
-  m_iZOrder 10
- }
- Ses_ChDKZ_G_200_M {
-  coords 1440.838 94.211 858.142
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "Kompas-11"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "Ses_ChDKZ"
-  }
-  m_aHideOnGameModeStates {
-   1 3
-  }
-  m_iZOrder 10
- }
- Ses_ChDKZ_G_211_M {
-  coords 1427.006 93.19 891.815
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "Kompas-22"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "Ses_ChDKZ"
-  }
-  m_aHideOnGameModeStates {
-   1 3
-  }
-  m_iZOrder 10
- }
- Ses_ChDKZ_G_311_M {
-  coords 1280.869 93.286 752.286
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "Dinamo-22"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "Ses_ChDKZ"
-  }
-  m_aHideOnGameModeStates {
-   1 3
-  }
-  m_iZOrder 10
- }
- Ses_ChDKZ_G_300_M {
-  coords 1229.033 88.441 881.771
-  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 1 1 1 1
-  m_sQuadName "undefined"
-  m_fWorldSize 50
-  m_sDescription "Dinamo-11"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "Ses_ChDKZ"
-  }
-  m_aHideOnGameModeStates {
-   1 3
-  }
-  m_iZOrder 10
- }
- Ses_ChDKZ_G_400_M {
-  coords 1423.901 95.833 790.236
+ RHS_AFRF_G_400_M {
+  coords 7853.33 254.954 4046.4
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -323,7 +177,160 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Ebonit-11"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "Ses_ChDKZ"
+   "RHS_AFRF"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 10
+ }
+ RHS_AFRF_G_200_M {
+  coords 7718.96 13.682 8146.278
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Kompas-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 10
+ }
+ RHS_AFRF_G_300_M {
+  coords 5867.351 211.898 7032.039
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Dinamo-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 10
+ }
+ RHS_AFRF_G_301_M {
+  coords 5840.748 213.279 7035.424
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Dinamo-12"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 10
+ }
+ RHS_AFRF_G_000_M {
+  coords 7699.579 13.19 8114.306
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Aktiv-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 10
+ }
+ RHS_AFRF_G_100_M {
+  coords 7682.204 13.014 8093.46
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Buran-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 10
+ }
+ RHS_AFRF_G_101_M {
+  coords 7670.621 12.996 8080.198
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Buran-12"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 10
+ }
+ RHS_AFRF_G_201_M {
+  coords 7729.235 13.608 8170.97
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Kompas-12"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 10
+ }
+ RHS_AFRF_G_102_M {
+  coords 7692.564 12.969 8106.754
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Buran-13"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 10
+ }
+ RHS_AFRF_G_411_M {
+  coords 7830.374 254.531 4041.56
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Ebonit-22"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
   }
   m_aHideOnGameModeStates {
    1 3

@@ -1,0 +1,32 @@
+Vehicle Ural4320_tanker_camo1 : "{13139B95B13DDA35}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker_camo1.et" {
+ coords 2896.447 6.556 2096.444
+ angleY -49.883
+ Flags 1027
+}
+Vehicle Ural4320_command_camo1 : "{2C95509CA3E61DE1}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command_camo1.et" {
+ coords 2982.18 7.234 2106.112
+ angleY 56.412
+ Flags 1027
+}
+Vehicle Mi8MT_armed_black1 : "{80C975F8482DEE97}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_black.et" {
+ coords 2921.635 8.582 2083.363
+ angleY -4.271
+}
+Vehicle Ural4320_repair_camo1 : "{BED355ED51A1E859}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair_camo1.et" {
+ coords 2911.373 7.053 2104.725
+ Flags 1027
+}
+$grp Vehicle : "{DD0CB0331A3D8CA7}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok_camo1.et" {
+ APC_K17_Berezok_camo1 {
+  coords 3026.745 8.182 2041.614
+  angleY 52.937
+ }
+ APC_K17_Berezok_camo2 {
+  coords 3020.87 7 2067.853
+  angleY 85.785
+ }
+ APC_K17_Berezok_camo3 {
+  coords 3022.303 7.186 2057.046
+  angleY 85.785
+ }
+}

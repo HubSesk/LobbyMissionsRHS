@@ -1,5 +1,25 @@
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  {
+  coords 1056.525 21.016 1623.988
+  angleX 1.986
+  angleY -19.6
+  angleZ 0.243
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.043
+  m_sDescription "#AR-Vehicle_UAZ469_PKM_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 0
+ }
+ {
   coords 1063.438 20.788 1626.684
   angleX 1.981
   angleY -18.422
@@ -10,6 +30,42 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sQuadName "Car"
   m_fWorldSize 2.043
   m_sDescription "#AR-Vehicle_UAZ469_PKM_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 1098.008 19.656 1553.688
+  angleY -13.393
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.043
+  m_sDescription "#AR-Vehicle_UAZ469_PKM_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 1090.009 19.594 1551.3
+  angleY -16.214
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.043
+  m_sDescription "#AR-Vehicle_UAZ469_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
    "Ses_ChDKZ"
@@ -60,6 +116,26 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
+  coords 1129.471 20.179 1563.578
+  angleX -0.846
+  angleY -19.169
+  angleZ 0.294
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "Truck"
+  m_fWorldSize 3.722
+  m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 0
+ }
+ {
   coords 1122.271 20.25 1626.485
   angleY 69.531
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
@@ -78,10 +154,10 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  Ses_ChDKZ_G_000_M {
-  coords 1032.363 20.376 1571.249
+  coords 1020.496 20.376 1605.786
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.855 0.031 0.028 1
+  m_MarkerColor 1 1 1 1
   m_sQuadName "undefined"
   m_fWorldSize 50
   m_sDescription "Aktiv-11"
@@ -95,10 +171,10 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
  }
  Ses_ChDKZ_G_001_M {
-  coords 1057.591 21.152 1628.872
+  coords 1058.535 21.334 1629.198
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.855 0.031 0.028 1
+  m_MarkerColor 1 1 1 1
   m_sQuadName "undefined"
   m_fWorldSize 50
   m_sDescription "Aktiv-12"
@@ -112,10 +188,10 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
  }
  Ses_ChDKZ_G_002_M {
-  coords 1128.768 19.796 1630.39
+  coords 1129.18 19.796 1627.883
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.855 0.031 0.028 1
+  m_MarkerColor 1 1 1 1
   m_sQuadName "undefined"
   m_fWorldSize 50
   m_sDescription "Aktiv-13"
@@ -128,24 +204,38 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_iZOrder 10
  }
- {
-  coords 1056.525 21.016 1623.988
-  angleX 1.986
-  angleY -19.6
-  angleZ 0.243
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+ Ses_ChDKZ_G_101_M {
+  coords 1126.148 20.029 1566.561
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
-  m_MarkerColor 0.855 0.031 0.028 1
-  m_sQuadName "Car"
-  m_fWorldSize 2.043
-  m_sDescription "#AR-Vehicle_UAZ469_PKM_Name"
-  m_bUseWorldScale 1
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Buran-12"
+  m_bUseWorldScale 0
   m_aVisibleForFactions {
    "Ses_ChDKZ"
   }
   m_aHideOnGameModeStates {
    1 3
   }
-  m_iZOrder 0
+  m_iZOrder 10
+ }
+ Ses_ChDKZ_G_100_M {
+  coords 1093.528 19.656 1555.59
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Buran-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_ChDKZ"
+  }
+  m_aHideOnGameModeStates {
+   1 3
+  }
+  m_iZOrder 10
  }
 }
