@@ -1,0 +1,180 @@
+$grp SCR_AIGroup : "{3144936D0BFAAC43}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Group_USAF_USMC_MEF_D_FireTeam.et" {
+ USMC_1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{650942C7297384DA}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 7392.017 115.898 5294.823
+  angleY -91.047
+  m_aUnitPrefabSlots {
+   "{87B63556B6346382}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_SL_Random.et" "{35E30414E74691DF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_AR_Random.et" "{4E3780CA5CBF08F8}Prefabs/Characters/Factions/LightFun/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Random/Character_RHS_USAF_USMC_D_AAR_B_Random.et" "{E936FC9FF6B5C362}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_Rifleman_Random.et" "{E936FC9FF6B5C362}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_Rifleman_Random.et" "{83E356E0C5185D92}Prefabs/Characters/Factions/LightFun/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Random/Character_RHS_USAF_USMC_D_Medic_Kit_Random.et" "{4FFEF69F1D1CEF05}Prefabs/Characters/Factions/LightFun/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Crew.et" "{4FFEF69F1D1CEF05}Prefabs/Characters/Factions/LightFun/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Crew.et"
+  }
+  m_sCustomNameSet "Экипаж LAV-25"
+ }
+ USMC_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{650942C7297384DA}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 7381.067 115.827 5238.384
+  angleY 103.566
+  m_aUnitPrefabSlots {
+   "{87B63556B6346382}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_SL_Random.et" "{6E965339EE89DBB1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_MG_Random.et" "{1D1CE269DFE307BB}Prefabs/Characters/Factions/LightFun/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Random/Character_RHS_USAF_USMC_D_AMG_B_Random.et" "{CF3ECCE5BC004C75}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_GL_Random.et" "{E936FC9FF6B5C362}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_Rifleman_Random.et" "{E936FC9FF6B5C362}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_Rifleman_Random.et" "{4FFEF69F1D1CEF05}Prefabs/Characters/Factions/LightFun/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Crew.et" "{4FFEF69F1D1CEF05}Prefabs/Characters/Factions/LightFun/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Crew.et"
+  }
+  m_sCustomNameSet "Экипаж LAV-25"
+ }
+ USMC_3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{650942C7297384DA}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 7382.518 115.286 5268.115
+  angleY 86.807
+  m_aUnitPrefabSlots {
+   "{87B63556B6346382}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_SL_Random.et" "{35E30414E74691DF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_AR_Random.et" "{4E3780CA5CBF08F8}Prefabs/Characters/Factions/LightFun/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Random/Character_RHS_USAF_USMC_D_AAR_B_Random.et" "{CF3ECCE5BC004C75}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_GL_Random.et" "{E936FC9FF6B5C362}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_Rifleman_Random.et" "{E936FC9FF6B5C362}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_Rifleman_Random.et" "{4FFEF69F1D1CEF05}Prefabs/Characters/Factions/LightFun/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Crew.et" "{4FFEF69F1D1CEF05}Prefabs/Characters/Factions/LightFun/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Crew.et"
+  }
+  m_sCustomNameSet "Экипаж LAV-25"
+ }
+ USMC_4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{650942C7297384DA}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 7387.427 115.672 5213.636
+  angleY -76.205
+  m_aUnitPrefabSlots {
+   "{87B63556B6346382}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_SL_Random.et" "{136B884279F0007B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_RTO_Random.et" "{AE14058106C2E82E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_TL_Random.et" "{35E30414E74691DF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_AR_Random.et" "{4E3780CA5CBF08F8}Prefabs/Characters/Factions/LightFun/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Random/Character_RHS_USAF_USMC_D_AAR_B_Random.et" "{AE14058106C2E82E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_TL_Random.et" "{E936FC9FF6B5C362}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_Rifleman_Random.et" "{F75FD2997416C0EB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_LAT_Random.et"
+  }
+ }
+ USMC_5 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{650942C7297384DA}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 7369.625 115.406 5197.584
+  angleY 117.555
+  m_aUnitPrefabSlots {
+   "{87B63556B6346382}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_SL_Random.et" "{136B884279F0007B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_RTO_Random.et" "{AE14058106C2E82E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_TL_Random.et" "{6E965339EE89DBB1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_MG_Random.et" "{1D1CE269DFE307BB}Prefabs/Characters/Factions/LightFun/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Random/Character_RHS_USAF_USMC_D_AMG_B_Random.et" "{AE14058106C2E82E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_TL_Random.et" "{E936FC9FF6B5C362}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_Rifleman_Random.et" "{F75FD2997416C0EB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_LAT_Random.et"
+  }
+ }
+ USMC_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{650942C7297384DA}" {
+   }
+  }
+  coords 7417.241 115.252 5311.036
+  angleY 174.553
+  m_aUnitPrefabSlots {
+   "{B5D6BD36332B6A61}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_PL_Random.et" "{136B884279F0007B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_RTO_Random.et"
+  }
+  m_sCustomNameSet "Командование"
+ }
+ USMC_7 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{650942C7297384DA}" {
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 7380.396 118.969 5330.005
+  angleY 86.324
+  m_aUnitPrefabSlots {
+   "{87B63556B6346382}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_SL_Random.et" "{136B884279F0007B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_RTO_Random.et" "{AE14058106C2E82E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_TL_Random.et" "{CF3ECCE5BC004C75}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_GL_Random.et" "{E936FC9FF6B5C362}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_Rifleman_Random.et" "{AE14058106C2E82E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_TL_Random.et" "{E936FC9FF6B5C362}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_Rifleman_Random.et" "{E936FC9FF6B5C362}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_Rifleman_Random.et"
+  }
+  m_sCustomNameSet "Отряд Humvee M2"
+ }
+ USMC_8 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{650942C7297384DA}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 7402.955 115.352 5261.765
+  angleY 85.508
+  m_aUnitPrefabSlots {
+   "{87B63556B6346382}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_SL_Random.et" "{ACCB93B009790DC4}Prefabs/Characters/Factions/LightFun/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Pointer.et" "{10D66AA1D616DE75}Prefabs/Characters/Factions/LightFun/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Carrier.et" "{1086C1B814A51962}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_Spotter_Random.et"
+  }
+  m_sCustomNameSet "Миномётный расчёт"
+ }
+ USMC_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{650942C7297384DA}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 7344.417 115.235 5202.125
+  angleY 88.711
+  m_aUnitPrefabSlots {
+   "{87B63556B6346382}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_SL_Random.et" "{AC119E670F71C424}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_AT_Random.et" "{CF74E5862894EEF6}Prefabs/Characters/Factions/LightFun/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Random/Character_RHS_USAF_USMC_D_AAT_B_Random.et" "{CF3ECCE5BC004C75}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_GL_Random.et" "{E936FC9FF6B5C362}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_Rifleman_Random.et" "{E936FC9FF6B5C362}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_Rifleman_Random.et"
+  }
+  m_sCustomNameSet "Противотанковый отряд"
+ }
+ USMC_10 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{650942C7297384DA}" {
+    m_iCompanyCallsign 3
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 6599.707 218.052 2444.234
+  angleY 153.57
+  m_aUnitPrefabSlots {
+   "{87B63556B6346382}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_SL_Random.et" "{136B884279F0007B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_RTO_Random.et" "{35E30414E74691DF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_AR_Random.et" "{4E3780CA5CBF08F8}Prefabs/Characters/Factions/LightFun/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Random/Character_RHS_USAF_USMC_D_AAR_B_Random.et" "{6E965339EE89DBB1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_MG_Random.et" "{1D1CE269DFE307BB}Prefabs/Characters/Factions/LightFun/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Random/Character_RHS_USAF_USMC_D_AMG_B_Random.et" "{E936FC9FF6B5C362}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_Rifleman_Random.et" "{E936FC9FF6B5C362}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_Rifleman_Random.et"
+  }
+  m_sCustomNameSet "Десант"
+ }
+ USMC_11 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{650942C7297384DA}" {
+    m_iCompanyCallsign 3
+   }
+  }
+  coords 6618.762 219.193 2440.516
+  angleY -115.072
+  m_aUnitPrefabSlots {
+   "{EA019A02D9835773}Prefabs/Characters/Factions/LightFun/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Pilot.et" "{741192283AAC31CC}Prefabs/Characters/Factions/LightFun/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Co-Pilot.et"
+  }
+  m_sCustomNameSet "Пилоты UH1H"
+ }
+}

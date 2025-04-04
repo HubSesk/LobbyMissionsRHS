@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{B5FC618B5D9A6F1B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Medic_3.et" {
+ ID "6509382DB7DDDA40"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{60CC201C8E262AD3}" {
+     PrefabsToSpawn + {
+      "{AE578EEA4244D41F}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_US.et"
+     }
+    }
+   }
+  }
+ }
+}

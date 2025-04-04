@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{F917F36B9E0A9054}Prefabs/Characters/Factions/LightFun/OPFOR/TKA/Random/Character_TKA_Medic_Kit_Random.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

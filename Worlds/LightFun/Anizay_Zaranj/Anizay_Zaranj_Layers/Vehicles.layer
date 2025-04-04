@@ -1,0 +1,167 @@
+$grp Vehicle : "{123595894023C474}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS_D.et" {
+ LAV25_RHS_D1 {
+  coords 7386.875 115.778 5242.069
+  angleX -2.652
+  angleY 8.802
+  angleZ -0.41
+  m_sAttachmentGroupName "USMC_2"
+ }
+ LAV25_RHS_D2 {
+  coords 7386.907 115.357 5269.413
+  angleX 1.784
+  angleY -4.576
+  angleZ -0.143
+  m_sAttachmentGroupName "USMC_3"
+ }
+ LAV25_RHS_D3 {
+  coords 7385.068 115.923 5295.073
+  angleX 0.895
+  m_sAttachmentGroupName "USMC_1"
+ }
+}
+Vehicle UH1H_armed_gunship_empty1 : "{137DCF41459A89BE}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_empty.et" {
+ coords 6605.429 219.069 2432.791
+ angleX -2.668
+ angleY -0.208
+ angleZ 4.472
+ m_sAttachmentGroupName "USMC_11"
+}
+Vehicle M923A1_tanker1 : "{2BE1F8B9299B67C1}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker.et" {
+ coords 7126.923 339.457 3561.818
+ angleY 117.212
+}
+$grp Vehicle : "{3F5936DB9D87969C}Prefabs/Vehicles/Wheeled/M998/M998_covered_USAF_D.et" {
+ M998_covered_USAF_D2 {
+  coords 7371.991 115.408 5189.874
+  angleX -1.234
+  angleY 32.135
+  angleZ 0.282
+  m_sAttachmentGroupName "USMC_5"
+ }
+ M998_covered_USAF_D1 {
+  coords 7384.724 115.748 5225.164
+  angleX 1.107
+  angleY 15.943
+  angleZ -0.615
+  m_sAttachmentGroupName "USMC_4"
+ }
+}
+$grp Vehicle : "{5C1D77700F472327}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_TKA.et" {
+ BRDM2_TKA3 {
+  coords 5084.168 140.386 8233.396
+  angleX -3.654
+  angleY 96.401
+  angleZ 0.489
+  m_sAttachmentGroupName "TKA_12"
+ }
+ BRDM2_TKA1 {
+  coords 5057.29 141.344 8235.566
+  angleY 91.277
+  m_sAttachmentGroupName "TKA_10"
+ }
+ BRDM2_TKA2 {
+  coords 5071.325 141.071 8234.505
+  angleX -2.704
+  angleY 91.31
+  angleZ 0.833
+  m_sAttachmentGroupName "TKA_11"
+ }
+}
+$grp Vehicle : "{6F963B40DE04868A}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_TKA.et" {
+ BTR70_Ses_TKA1 {
+  coords 5007.608 141.812 8236.334
+  angleY 88.094
+  m_sAttachmentGroupName "TKA_9"
+ }
+ BTR70_Ses_TKA2 {
+  coords 5037.594 141.356 8235.213
+  angleX -1.788
+  angleY 92.924
+  angleZ -0.091
+  m_sAttachmentGroupName "TKA_8"
+ }
+}
+$grp Vehicle : "{7B38CEFED1D908A1}Prefabs/Vehicles/Wheeled/M998/M998_USAF_D.et" {
+ M998_USAF_D1 {
+  coords 7381.749 115.593 5213.961
+  angleX 0.865
+  angleY 15
+  angleZ 0.232
+  m_sAttachmentGroupName "USMC_4"
+ }
+ M998_USAF_D2 {
+  coords 7377.437 115.418 5200.758
+  angleX 0.837
+  angleY 20.713
+  angleZ 0.317
+  m_sAttachmentGroupName "USMC_5"
+ }
+ M998_USAF_D4 {
+  coords 7412.364 115.009 5255.681
+  angleX 3.576
+  angleY -88.861
+  angleZ 0.071
+  m_sAttachmentGroupName "USMC_8"
+ }
+ M998_USAF_D3 {
+  coords 7354.434 114.611 5207.103
+  angleX 2.059
+  angleY 80.545
+  angleZ 1.471
+  m_sAttachmentGroupName "USMC_9"
+ }
+ M998_USAF_D5 {
+  coords 7355.275 114.818 5202.102
+  angleX -4.26
+  angleY 80.542
+  angleZ -3.811
+  m_sAttachmentGroupName "USMC_9"
+ }
+}
+Vehicle M998_covered_long_USAF_D1 : "{7D9A9AD859069D09}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_USAF_D.et" {
+ coords 7415.667 115.387 5304.523
+ angleX 3.554
+ angleY -88.633
+ angleZ 0.978
+ m_sAttachmentGroupName "USMC_6"
+}
+$grp Vehicle : "{818BD2D100635224}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF_D.et" {
+ M1025_armed_M2HB_MDO_USAF_D1 {
+  coords 7385.457 119.499 5335.129
+  angleX 6.242
+  m_sAttachmentGroupName "USMC_7"
+ }
+ M1025_armed_M2HB_MDO_USAF_D2 {
+  coords 7384.596 118.445 5325.214
+  angleX 6.242
+  m_sAttachmentGroupName "USMC_7"
+ }
+}
+Vehicle M923A1_ammo1 : "{92264FF932676C13}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo.et" {
+ coords 7135.52 339.606 3574.653
+ angleY 118.084
+}
+Vehicle M923A1_repair1 : "{A042ACE5C2B13206}Prefabs/Vehicles/Wheeled/M923A1/M923A1_repair.et" {
+ coords 7129.246 339.632 3566.214
+ angleY 117.834
+}
+$grp Vehicle : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et" {
+ M923A1_transport1 {
+  coords 7411.832 114.977 5261.234
+  angleX 2.676
+  angleY -94.262
+  angleZ -0.199
+  m_sAttachmentGroupName "USMC_8"
+ }
+ M923A1_transport2 {
+  coords 7132.143 339.645 3570.513
+  angleY 120.668
+ }
+}
+Vehicle UAZ469_Ses_TKA1 : "{F3C22A3CC0664AB7}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Ses_TKA.et" {
+ coords 6189.272 103.711 7026.812
+ angleX 0.586
+ angleY -107.407
+ angleZ -1.122
+ m_sAttachmentGroupName "TKA_4"
+}

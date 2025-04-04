@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{22CD3619BA0F86D4}Prefabs/Characters/Factions/LightFun/BLUFOR/CDF_Army/Random/Character_CDF_AAT_B_Random.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

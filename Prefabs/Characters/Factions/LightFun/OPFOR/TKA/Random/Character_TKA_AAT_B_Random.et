@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{58796557E6982151}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_AAT.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{6507494422F2EC45}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{6507494422F2EC41}" {
+      m_sVariantPrefab "{193E6D8CB0105E2C}Prefabs/Characters/Factions/LightFun/OPFOR/TKA/Character_TKA_AAT_B.et"
+     }
+     SCR_EditableEntityVariant "{6507494422F2EC43}" {
+      m_sVariantPrefab "{A6D3A3250ACA9430}Prefabs/Characters/Factions/LightFun/OPFOR/TKA/Character_TKA_AAT_B_2.et"
+     }
+    }
+   }
+  }
+ }
+}

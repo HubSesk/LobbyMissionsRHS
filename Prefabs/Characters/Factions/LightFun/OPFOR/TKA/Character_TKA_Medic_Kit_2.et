@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{9EEBCD55FBCEA2C5}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Medic_2.et" {
+ ID "65093C854B2AC22D"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{62467EDC3129E6FC}" {
+     PrefabsToSpawn + {
+      "{21EF98BFC1EB3793}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_USSR.et"
+     }
+    }
+   }
+  }
+ }
+}

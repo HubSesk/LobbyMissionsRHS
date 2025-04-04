@@ -1,0 +1,21 @@
+SCR_ChimeraCharacter : "{EBD042E28589DB74}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/RandomSoldiers/Character_RHS_USAF_USMC_D_Medic_Random.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{6509361B0A1161FC}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{6509361B0A1161FB}" {
+      m_sVariantPrefab "{CB11C2F418BB0559}Prefabs/Characters/Factions/LightFun/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Medic_Kit.et"
+     }
+     SCR_EditableEntityVariant "{6509361B0A1161C5}" {
+      m_sVariantPrefab "{CA72E0F08C9FE10C}Prefabs/Characters/Factions/LightFun/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Medic_Kit_2.et"
+     }
+     SCR_EditableEntityVariant "{6509361B0A1161C7}" {
+      m_sVariantPrefab "{2FEEAC09807A7667}Prefabs/Characters/Factions/LightFun/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Medic_Kit_3.et"
+     }
+    }
+   }
+  }
+ }
+}

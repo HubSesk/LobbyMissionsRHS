@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{B8B42618A797C1C9}Prefabs/Characters/Factions/OPFOR/TKA/Character_TKA_Medic.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{650939D11E05CE71}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{650939D11E05CE45}" {
+      m_sVariantPrefab "{3696E6279C1094A7}Prefabs/Characters/Factions/LightFun/OPFOR/TKA/Character_TKA_Medic_Kit.et"
+     }
+     SCR_EditableEntityVariant "{650939D11E05CE46}" {
+      m_sVariantPrefab "{F125C473BDEFE890}Prefabs/Characters/Factions/LightFun/OPFOR/TKA/Character_TKA_Medic_Kit_2.et"
+     }
+    }
+   }
+  }
+ }
+}
