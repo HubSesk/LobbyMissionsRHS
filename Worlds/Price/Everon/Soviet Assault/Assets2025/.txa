@@ -1,0 +1,572 @@
+$animation "" {
+ #version 2
+ #fps 30
+ #numFrames 30
+ $node "Scene_Root" {
+  $keys t q {
+   $frame 0 30 {
+   }
+  }
+  $node "EntityPosition" {
+   $keys t q {
+    $frame 0 30 {
+     #q -0.70710683 0 0 0.70710683
+    }
+   }
+   $node "Collision" {
+    $keys t q {
+     $frame 0 30 {
+      #q 0.70710683 0 0 0.70710683
+     }
+    }
+   }
+   $node "Hips" {
+    $keys t q {
+     $frame 0 30 {
+      #q 0.70710683 0 0 0.70710683
+     }
+    }
+    $node "LeftLeg" {
+     $keys t q {
+      $frame 0 30 {
+      }
+     }
+     $node "LeftLegVolume" {
+      $keys t q {
+       $frame 0 30 {
+       }
+      }
+     }
+     $node "LeftLegTwist" {
+      $keys t q {
+       $frame 0 30 {
+       }
+      }
+      $node "LeftKnee" {
+       $keys t q {
+        $frame 0 30 {
+        }
+       }
+       $node "LeftKneeVolume" {
+        $keys t q {
+         $frame 0 30 {
+         }
+        }
+       }
+       $node "LeftKneeTwist" {
+        $keys t q {
+         $frame 0 30 {
+         }
+        }
+        $node "LeftFoot" {
+         $keys t q {
+          $frame 0 30 {
+          }
+         }
+         $node "LeftToe" {
+          $keys t q {
+           $frame 0 30 {
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+    $node "RightLeg" {
+     $keys t q {
+      $frame 0 30 {
+      }
+     }
+     $node "RightLegVolume" {
+      $keys t q {
+       $frame 0 30 {
+       }
+      }
+     }
+     $node "RightLegTwist" {
+      $keys t q {
+       $frame 0 30 {
+       }
+      }
+      $node "RightKnee" {
+       $keys t q {
+        $frame 0 30 {
+        }
+       }
+       $node "RightKneeVolume" {
+        $keys t q {
+         $frame 0 30 {
+         }
+        }
+       }
+       $node "RightKneeTwist" {
+        $keys t q {
+         $frame 0 30 {
+         }
+        }
+        $node "RightFoot" {
+         $keys t q {
+          $frame 0 30 {
+          }
+         }
+         $node "RightToe" {
+          $keys t q {
+           $frame 0 30 {
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+    $node "RightLegClothF" {
+     $keys t q {
+      $frame 0 30 {
+      }
+     }
+    }
+    $node "RightLegClothB" {
+     $keys t q {
+      $frame 0 30 {
+      }
+     }
+    }
+    $node "LeftLegClothF" {
+     $keys t q {
+      $frame 0 30 {
+      }
+     }
+    }
+    $node "LeftLegClothB" {
+     $keys t q {
+      $frame 0 30 {
+      }
+     }
+    }
+    $node "Spine1" {
+     $keys t q {
+      $frame 0 30 {
+      }
+     }
+     $node "Stomach1" {
+      $keys t q {
+       $frame 0 30 {
+       }
+      }
+     }
+     $node "Spine2" {
+      $keys t q {
+       $frame 0 30 {
+       }
+      }
+      $node "Spine3" {
+       $keys t q {
+        $frame 0 30 {
+        }
+       }
+       $node "Stomach2" {
+        $keys t q {
+         $frame 0 30 {
+         }
+        }
+       }
+       $node "Spine4" {
+        $keys t q {
+         $frame 0 30 {
+         }
+        }
+        $node "Stomach3" {
+         $keys t q {
+          $frame 0 30 {
+          }
+         }
+        }
+        $node "Spine5" {
+         $keys t q {
+          $frame 0 30 {
+          }
+         }
+         $node "Neck1" {
+          $keys t q {
+           $frame 0 30 {
+           }
+          }
+          $node "Neck2" {
+           $keys t q {
+            $frame 0 30 {
+            }
+           }
+           $node "Neck3" {
+            $keys t q {
+             $frame 0 30 {
+             }
+            }
+            $node "Head" {
+             $keys t q {
+              $frame 0 30 {
+              }
+             }
+            }
+           }
+          }
+         }
+         $node "LeftShoulder" {
+          $keys t q {
+           $frame 0 30 {
+           }
+          }
+          $node "LeftArm" {
+           $keys t q {
+            $frame 0 30 {
+            }
+           }
+           $node "LeftArmVolume" {
+            $keys t q {
+             $frame 0 30 {
+             }
+            }
+           }
+           $node "LeftArmTwist" {
+            $keys t q {
+             $frame 0 30 {
+             }
+            }
+            $node "LeftForeArm" {
+             $keys t q {
+              $frame 0 30 {
+              }
+             }
+             $node "LeftForeArmVolume" {
+              $keys t q {
+               $frame 0 30 {
+               }
+              }
+             }
+             $node "LeftForeArmTwist" {
+              $keys t q {
+               $frame 0 30 {
+               }
+              }
+              $node "LeftHandUpperVolume" {
+               $keys t q {
+                $frame 0 30 {
+                }
+               }
+              }
+              $node "LeftHand" {
+               $keys t q {
+                $frame 0 30 {
+                }
+               }
+               $node "LeftHandThumb1" {
+                $keys t q {
+                 $frame 0 30 {
+                 }
+                }
+                $node "LeftHandThumb2" {
+                 $keys t q {
+                  $frame 0 30 {
+                  }
+                 }
+                 $node "LeftHandThumb3" {
+                  $keys t q {
+                   $frame 0 30 {
+                   }
+                  }
+                  $node "LeftHandThumb4" {
+                   $keys t q {
+                    $frame 0 30 {
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+               $node "LeftHandIndex1" {
+                $keys t q {
+                 $frame 0 30 {
+                 }
+                }
+                $node "LeftHandIndex2" {
+                 $keys t q {
+                  $frame 0 30 {
+                  }
+                 }
+                 $node "LeftHandIndex3" {
+                  $keys t q {
+                   $frame 0 30 {
+                   }
+                  }
+                  $node "LeftHandIndex4" {
+                   $keys t q {
+                    $frame 0 30 {
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+               $node "LeftHandMiddle1" {
+                $keys t q {
+                 $frame 0 30 {
+                 }
+                }
+                $node "LeftHandMiddle2" {
+                 $keys t q {
+                  $frame 0 30 {
+                  }
+                 }
+                 $node "LeftHandMiddle3" {
+                  $keys t q {
+                   $frame 0 30 {
+                   }
+                  }
+                  $node "LeftHandMiddle4" {
+                   $keys t q {
+                    $frame 0 30 {
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+               $node "LeftHandRing1" {
+                $keys t q {
+                 $frame 0 30 {
+                 }
+                }
+                $node "LeftHandRing2" {
+                 $keys t q {
+                  $frame 0 30 {
+                  }
+                 }
+                 $node "LeftHandRing3" {
+                  $keys t q {
+                   $frame 0 30 {
+                   }
+                  }
+                  $node "LeftHandRing4" {
+                   $keys t q {
+                    $frame 0 30 {
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+               $node "LeftHandPinky1" {
+                $keys t q {
+                 $frame 0 30 {
+                 }
+                }
+                $node "LeftHandPinky2" {
+                 $keys t q {
+                  $frame 0 30 {
+                  }
+                 }
+                 $node "LeftHandPinky3" {
+                  $keys t q {
+                   $frame 0 30 {
+                   }
+                  }
+                  $node "LeftHandPinky4" {
+                   $keys t q {
+                    $frame 0 30 {
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+           }
+          }
+         }
+         $node "RightShoulder" {
+          $keys t q {
+           $frame 0 30 {
+           }
+          }
+          $node "RightArm" {
+           $keys t q {
+            $frame 0 30 {
+            }
+           }
+           $node "RightArmVolume" {
+            $keys t q {
+             $frame 0 30 {
+             }
+            }
+           }
+           $node "RightArmTwist" {
+            $keys t q {
+             $frame 0 30 {
+             }
+            }
+            $node "RightForeArm" {
+             $keys t q {
+              $frame 0 30 {
+              }
+             }
+             $node "RightForeArmVolume" {
+              $keys t q {
+               $frame 0 30 {
+               }
+              }
+             }
+             $node "RightForeArmTwist" {
+              $keys t q {
+               $frame 0 30 {
+               }
+              }
+              $node "RightHandUpperVolume" {
+               $keys t q {
+                $frame 0 30 {
+                }
+               }
+              }
+              $node "RightHand" {
+               $keys t q {
+                $frame 0 30 {
+                }
+               }
+               $node "RightHandThumb1" {
+                $keys t q {
+                 $frame 0 30 {
+                 }
+                }
+                $node "RightHandThumb2" {
+                 $keys t q {
+                  $frame 0 30 {
+                  }
+                 }
+                 $node "RightHandThumb3" {
+                  $keys t q {
+                   $frame 0 30 {
+                   }
+                  }
+                  $node "RightHandThumb4" {
+                   $keys t q {
+                    $frame 0 30 {
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+               $node "RightHandIndex1" {
+                $keys t q {
+                 $frame 0 30 {
+                 }
+                }
+                $node "RightHandIndex2" {
+                 $keys t q {
+                  $frame 0 30 {
+                  }
+                 }
+                 $node "RightHandIndex3" {
+                  $keys t q {
+                   $frame 0 30 {
+                   }
+                  }
+                  $node "RightHandIndex4" {
+                   $keys t q {
+                    $frame 0 30 {
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+               $node "RightHandMiddle1" {
+                $keys t q {
+                 $frame 0 30 {
+                 }
+                }
+                $node "RightHandMiddle2" {
+                 $keys t q {
+                  $frame 0 30 {
+                  }
+                 }
+                 $node "RightHandMiddle3" {
+                  $keys t q {
+                   $frame 0 30 {
+                   }
+                  }
+                  $node "RightHandMiddle4" {
+                   $keys t q {
+                    $frame 0 30 {
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+               $node "RightHandRing1" {
+                $keys t q {
+                 $frame 0 30 {
+                 }
+                }
+                $node "RightHandRing2" {
+                 $keys t q {
+                  $frame 0 30 {
+                  }
+                 }
+                 $node "RightHandRing3" {
+                  $keys t q {
+                   $frame 0 30 {
+                   }
+                  }
+                  $node "RightHandRing4" {
+                   $keys t q {
+                    $frame 0 30 {
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+               $node "RightHandPinky1" {
+                $keys t q {
+                 $frame 0 30 {
+                 }
+                }
+                $node "RightHandPinky2" {
+                 $keys t q {
+                  $frame 0 30 {
+                  }
+                 }
+                 $node "RightHandPinky3" {
+                  $keys t q {
+                   $frame 0 30 {
+                   }
+                  }
+                  $node "RightHandPinky4" {
+                   $keys t q {
+                    $frame 0 30 {
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

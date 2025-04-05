@@ -1,0 +1,16 @@
+MatPBRBasic {
+ Color 0.18 0.18 0.174 1
+ SurfaceProperties "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+ AlphaTest 0.061
+ AlphaMul 0.87
+ BlendMode AlphaBlend
+ CrossFade 0
+ AllowUserAlphaBias 1
+ MetalnessScale 0
+ BCRMap "{DEE39BB36DE4BCB0}Assets/Vehicles/SharedMaterials/decals/numbers/Data/decal_BCR.edds"
+ OpacityMap "{0AF7241F816BCAA2}Worlds/Price/MERCS/Prefabsa/Assets/LOGO_Federation.edds" "{7530FCF5709D122B}Assets/Vehicles/SharedMaterials/decals/numbers/Data/decal_1_A.edds" "{89C461A24A1F0EF9}Assets/Vehicles/SharedMaterials/decals/numbers/Data/decal_2_A.edds" "{E7895FFB7F7EE071}Assets/Vehicles/SharedMaterials/decals/numbers/Data/decal_3_A.edds" "{AE9A059F5CB15F5A}Assets/Vehicles/SharedMaterials/decals/numbers/Data/decal_4_A.edds" "{C0D73BC669D0B1D2}Assets/Vehicles/SharedMaterials/decals/numbers/Data/decal_5_A.edds" "{7200792D3672824A}Assets/Vehicles/SharedMaterials/decals/numbers/Data/decal_6_A.edds" "{1C4D477403136CC2}Assets/Vehicles/SharedMaterials/decals/numbers/Data/decal_7_A.edds" "{E026CDE571EDFC1C}Assets/Vehicles/SharedMaterials/decals/numbers/Data/decal_8_A.edds" "{8E6BF3BC448C1294}Assets/Vehicles/SharedMaterials/decals/numbers/Data/decal_9_A.edds" anim( m_iOpacityMapID )
+ Refs {
+  "OpacityMap"
+  "RHS_MaterialController.m_iOpacityMapID"
+ }
+}

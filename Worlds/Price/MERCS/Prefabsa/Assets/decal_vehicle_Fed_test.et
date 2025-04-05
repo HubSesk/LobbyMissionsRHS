@@ -1,0 +1,18 @@
+GenericEntity : "{1C539C904D39A895}Prefabs/Vehicles/Shared/decal_vehicle_base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{62B0459278B1C5EA}" {
+     SourceMaterial "decal_plane"
+     AssignedMaterial "{12AD5B2E2013839B}Assets/UjasiPrice/Tracked/T14/decalfedtest.emat"
+    }
+   }
+  }
+  RHS_MaterialController "{5E35420CA7B998B2}" {
+   m_bRandomizeValue 0
+   m_sGroupName "GROUP3"
+  }
+ }
+ scale 3.2
+}

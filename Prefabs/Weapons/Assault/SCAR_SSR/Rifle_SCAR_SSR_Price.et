@@ -1,0 +1,17 @@
+GenericEntity : "{D0B336774F33A45B}Prefabs/Weapons/Assault/SCAR_SSR/Rifle_SCAR_SSR_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{64E4FBE6B5E8ADA4}" {
+     AttachmentSlot InventoryStorageSlot optic_ris {
+      Prefab "{E78D21AD695D0342}Prefabs/Weapons/Attachments/Optics/vc18dsco/optic_vc18dsco_rmr.et"
+     }
+    }
+   }
+  }
+ }
+ coords 6127.183 104.931 6995.654
+ angleY 0
+ angleZ 0
+}

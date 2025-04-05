@@ -1,4 +1,4 @@
-GenericEntity : "{831FE4BECA78CCAA}Prefabs/Vehicles/Airplanes/IL76/Plane_IL76UN.et" {
+GenericEntity {
  ID "5AAD3AF632346E8C"
  components {
   SoundComponent "{64B877E1C01FD083}" {
@@ -126,7 +126,7 @@ GenericEntity : "{831FE4BECA78CCAA}Prefabs/Vehicles/Airplanes/IL76/Plane_IL76UN.
    }
   }
   MeshObject "{5AAD3AF612B4E9F3}" {
-   Object "{7011275EF8B2A49F}Assets/Vehicles/Airplanes/il76/il76air2.xob"
+   Object "{EC15F39A81964607}Assets/Vehicles/Airplanes/il76/il76_simple.xob"
    Materials {
     MaterialAssignClass "{64D67D177543E65F}" {
      SourceMaterial "decals_un"
@@ -156,6 +156,6 @@ GenericEntity : "{831FE4BECA78CCAA}Prefabs/Vehicles/Airplanes/IL76/Plane_IL76UN.
    }
   }
  }
- coords 7317.815 2521.308 12653.577
  Flags 3
+ coords 4766.917 27.843 11178.354
 }

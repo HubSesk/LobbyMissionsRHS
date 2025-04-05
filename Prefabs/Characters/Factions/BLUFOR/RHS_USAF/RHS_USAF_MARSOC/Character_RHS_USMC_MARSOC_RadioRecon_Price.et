@@ -1,0 +1,72 @@
+SCR_ChimeraCharacter : "{3260D71D5EFE2C56}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USMC_MARSOC_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#RHS-Role_Scout_RadioRecon"
+    Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+    m_Image "{C959FEA11AE56576}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MARSOC/Character_RHS_USAF_MARSOC_RadioRecon.edds"
+    m_aAutoLabels {
+     122 45
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{59891FD8608A56F1}Prefabs/Weapons/Assault/SCAR_H/Rifle_SCAR_H_MREX_price.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{0228B8EFBA99AC1D}Prefabs/Weapons/Misc/SpectrumDevice/Device_SpectrumDevice_base.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{42D72A37A26D143F}Prefabs/Characters/HeadGear/Helmet_OPSCORE/variants/Helmet_OPSCORE_MT_Marcoc1.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{8EA3CB650C1DF461}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_6x9_Coy.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{A1F502A90AD57908}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_Coy_6x6.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{8D4A4DF9111F0682}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Blk.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{650A76BB2DBE8587}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_Coy_6x6.et/zip/Minimap_JPC_ZipOnPanel2.0_Coy.et"
+     PrefabsToSpawn {
+      "{AE79A0BADD737B6D}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61_m62.et" "{AE79A0BADD737B6D}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61_m62.et" "{AE79A0BADD737B6D}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61_m62.et" "{AE79A0BADD737B6D}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61_m62.et" "{AE79A0BADD737B6D}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61_m62.et" "{AE79A0BADD737B6D}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61_m62.et" "{AE79A0BADD737B6D}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61_m62.et" "{AE79A0BADD737B6D}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61_m62.et" "{AE79A0BADD737B6D}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61_m62.et" "{AE79A0BADD737B6D}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61_m62.et" "{AE79A0BADD737B6D}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61_m62.et"
+     }
+    }
+    ItemsInitConfigurationItem "{650A76BB2DBE85FC}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_Coy_6x9.et"
+     PrefabsToSpawn {
+      "{AE79A0BADD737B6D}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61_m62.et" "{AE79A0BADD737B6D}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61_m62.et"
+     }
+    }
+    ItemsInitConfigurationItem "{650A76BB2DBE85FA}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex.et"
+     PrefabsToSpawn {
+      "{AE79A0BADD737B6D}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61_m62.et" "{AE79A0BADD737B6D}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61_m62.et" "{AE79A0BADD737B6D}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61_m62.et"
+     }
+    }
+    ItemsInitConfigurationItem "{650A76BB2DBE85F8}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_Coy_6x9.et"
+     PrefabsToSpawn {
+      "{AE79A0BADD737B6D}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61_m62.et" "{AE79A0BADD737B6D}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61_m62.et"
+     }
+    }
+    ItemsInitConfigurationItem "{650A76BB2DBE85F9}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_Coy_6x9.et"
+     PrefabsToSpawn {
+      "{AE79A0BADD737B6D}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61_m62.et" "{AE79A0BADD737B6D}Prefabs/Weapons/Magazines/Magazine_762x51_SCAR_H_20rnd_m61_m62.et"
+     }
+    }
+   }
+  }
+ }
+ coords 6127.409 104.934 6994.286
+}

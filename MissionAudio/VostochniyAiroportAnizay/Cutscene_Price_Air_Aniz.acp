@@ -4,7 +4,7 @@ AudioClass {
    id 5129
    name "SOUND_VOICE"
    version 5
-   tl 275.347 -8.518
+   tl 276.347 -8.518
    ins {
     ConnectionsClass connections {
      id 64
@@ -16,7 +16,7 @@ AudioClass {
      }
     }
    }
-   volume_dB -18
+   volume_dB -6
    type "One shot"
   }
  }
@@ -46,7 +46,7 @@ AudioClass {
    }
    path "{B764D803219C775E}Sounds/FinalMix.afm"
    inputs {
-    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialogue" "Music" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialogue_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "UI" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large"
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialog" "Music" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialog_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "UI" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large" "WPN_Shots_Player" "Dialog_Reverb_Small" "Dialog_Reverb_Medium" "Dialog_Reverb_Large" "WPN_TravelingProjectile" "Dialog_Delay_Exterior" "SFX_Reverb_InCabin"
    }
   }
  }
@@ -55,10 +55,10 @@ AudioClass {
    id 4100
    name "VoiceBank"
    version 7
-   tl 80.827 -1.588
+   tl 80.827 -2.588
    Samples {
     AudioBankSampleClass Sample {
-     Filename "{B8B0A89C9B3BCB88}MissionAudio/VostochnayaNochTest/Jan Dusek - Recon.wav"
+     Filename "{6843F1829F4B75D3}MissionAudio/VostochniyAiroportAnizay/INFERNO.wav"
     }
    }
   }

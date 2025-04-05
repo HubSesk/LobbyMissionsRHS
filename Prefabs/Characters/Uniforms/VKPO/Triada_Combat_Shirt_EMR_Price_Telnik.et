@@ -1,0 +1,85 @@
+GameEntity : "{E44990162EBC47B7}Prefabs/Characters/Uniforms/Jacket_M88_base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Object "{C22DD8497496DAB4}Assets/Characters/Uniforms/Jacket_VKPO/rhs_triada_combat_shirt_ground.xob"
+  }
+  SCR_ItemOutfitFactionComponent "{618AD7BA742C881B}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8A841FFD3695A}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8A841FF4AEFAF}" {
+      m_AffiliatedFactionKey "RHS_AFRF"
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   components {
+    RHS_ClothNodeStorageComponent "{64FC7705D9A0AFF5}" {
+     StoragePurpose 64
+    }
+   }
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "#RHS-Uniform_Triada_Combat_Shirt_EMR_Name"
+     Description "#RHS-Uniform_Triada_Combat_Shirt_Description"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      CameraOffset 0 0 0
+      PreviewModel "{AC58A17E0BDE6A2A}Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Shirt_EMR_wear.et"
+      ShowAllChildrens 1
+     }
+    }
+   }
+   m_aSlotsToShow {
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    LoadoutSlotInfo DummyBelt {
+     Enabled 0
+    }
+    LoadoutSlotInfo Undershirt {
+     Prefab "{269DE14D1A7FFBCD}Prefabs/Characters/Uniforms/Shirt_Muscle/muscle_shirt_telnyashka.et"
+     AreaType LoadoutJacketArea "{64FC770630F91A86}" {
+     }
+     EnableDeflatedOffset 1
+    }
+    RHS_LoadoutSlotInfo SleeveRightVelcro {
+     PivotID "RightArm"
+     Offset -0.0031 -0.138 -0.0546
+     Angles -2.1264 -178.8029 3.3886
+     InspectionWidgetOffset 0.3227 1.3451 -0.0613
+     AreaType RHS_LoadoutLargeVelcroSlotArea "{64FC7705D9A0AFDA}" {
+     }
+     m_bShouldUseCMorphedMesh 1
+     m_sInspectIconTexture "{89731C321CB63D38}UI/Textures/InventoryIcons/Inspection-gizmo-patch-slot-L-alt-UI.edds"
+    }
+    RHS_LoadoutSlotInfo SleeveLeftVelcro {
+     PivotID "LeftArm"
+     Offset 0.0088 0.1407 0.0593
+     Angles 6.4168 5.8501 -179.9025
+     InspectionWidgetOffset -0.3227 1.3451 -0.0613
+     AreaType RHS_LoadoutLargeVelcroSlotArea "{64FC7705D9A0AFD7}" {
+     }
+     m_bShouldUseCMorphedMesh 1
+     m_sInspectIconTexture "{89731C321CB63D38}UI/Textures/InventoryIcons/Inspection-gizmo-patch-slot-L-alt-UI.edds"
+    }
+   }
+   WornModel "{3FA314B61D40A6EA}Assets/Characters/Uniforms/Jacket_VKPO/rhs_triada_combat_shirt.xob"
+   WornMaterialsOverride {
+    "{1B5365F742C23203}Assets/Characters/Uniforms/Jacket_VKPO/data/rhs_triada_combat_shirt_emr.emat"
+   }
+   ItemModel "{C22DD8497496DAB4}Assets/Characters/Uniforms/Jacket_VKPO/rhs_triada_combat_shirt_ground.xob"
+   ItemMaterialsOverride {
+    "{1B5365F742C23203}Assets/Characters/Uniforms/Jacket_VKPO/data/rhs_triada_combat_shirt_emr.emat"
+   }
+   OverrideMeshesToHide + {
+    "Arm_L" "Arm_R"
+   }
+   DeflatedModel ""
+  }
+ }
+ coords 0.955 0.867 0.717
+}

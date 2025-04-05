@@ -15,7 +15,7 @@ Vehicle Mi8MT_armed_black1 : "{80C975F8482DEE97}Prefabs/Vehicles/Helicopters/Mi8
  angleY 139.77
 }
 RHS_Tank Tank_T14_camo1 : "{9057DDA3E3FAA03B}Prefabs/Vehicles/Tracked/T14/Tank_T14_camo.et" {
- coords 4793.19 27.843 11193.133
+ coords 4792.836 27.843 11188.623
  angleY -62.811
 }
 Vehicle Ural4320_transport_CIV_base1 : "{A2E23CB8DDCFE82E}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_base.et" {
@@ -28,26 +28,12 @@ $grp Vehicle : "{A61E5C16E9A2161A}Prefabs/Vehicles/Wheeled/K4386/K4386.et" {
   angleY 30.87
  }
  K2 {
-  coords 4767.267 27.853 11210.623
+  coords 4765.913 27.853 11209.302
   angleY 42.196
  }
 }
 Vehicle K4386_Armed1 : "{AB5DE68E3E654FCA}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed.et" {
  coords 4772.368 27.843 11171.587
-}
-Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
- coords 4773.743 27.855 11196.504
- angleY -75.481
-}
-$grp GenericEntity : "{D215BC98417FA3CB}Prefabs/Vehicles/Airplanes/IL76/Plane_IL76USSR_Open.et" {
- {
-  coords 4771.724 27.843 11145.254
-  angleY -178.122
- }
- {
-  coords 4818.983 27.843 11245.175
-  angleY -48.663
- }
 }
 $grp Vehicle : "{F26CED173C31CFDA}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_camo1USSRPrice.et" {
  APC_K17_Epoch_camo1USSRPrice1 {
@@ -55,7 +41,7 @@ $grp Vehicle : "{F26CED173C31CFDA}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_cam
   angleY -87.545
  }
  APC_K17_Epoch_camo1USSRPrice2 {
-  coords 4761.641 27.843 11199.721
+  coords 4763.562 27.843 11199.754
   angleY -13.342
  }
 }

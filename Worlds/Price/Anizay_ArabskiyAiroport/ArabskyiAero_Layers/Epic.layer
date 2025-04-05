@@ -1,0 +1,252 @@
+$grp Vehicle : "{123595894023C474}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS_D.et" {
+ Lav2 {
+  coords 8769.26 157.712 3845.564
+  angleX 3.537
+  angleY -0.279
+  angleZ -8.007
+ }
+ Lav1 {
+  coords 8803.948 159.53 3833.993
+  angleZ -0.895
+ }
+}
+GenericEntity : "{16C7AD0508F53A9B}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_OD.et" {
+ coords 8595.097 247.506 3694.417
+ angleX -3.777
+ angleY -129.913
+ angleZ 7.201
+}
+GenericEntity : "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et" {
+ coords 8595.604 247.654 3694.287
+ angleX 73.932
+ angleY -50.189
+ angleZ 158.099
+}
+$grp Vehicle : "{35D805A3ACA7E0A2}Prefabs/Vehicles/Helicopters/UH1H/UH1H_USMC_armed_gunship_HE_P.et" {
+ UH1 {
+  coords 8694.605 158.41 2975.172
+  angleY 12.231
+  EOnInit ""\
+  "		"\
+  "		VehicleHelicopterSimulation m_Vehicle_s = VehicleHelicopterSimulation.Cast(this.FindComponent(VehicleHelicopterSimulation));"\
+  "		m_Vehicle_s.EngineStart();"\
+  "		m_Vehicle_s.SetThrottle(1);"\
+  "		m_Vehicle_s.RotorSetForceScaleState(0, 2);"\
+  "		m_Vehicle_s.RotorSetForceScaleState(1, 1);"\
+  "		"\
+  "		vector velOrig = this.GetPhysics().GetVelocity();"\
+  "		vector rotVector = this.GetAngles();"\
+  "		vector vel = {velOrig[0] + Math.Sin(rotVector[1] * Math.DEG2RAD) * 50, velOrig[1], velOrig[2] + Math.Cos(rotVector[1] * Math.DEG2RAD) * 50 };"\
+  "		this.GetPhysics().SetVelocity(vel);"\
+  "	"\
+  "	"
+ }
+ UH2 {
+  coords 8700.546 153.374 2952.073
+  angleY 12.231
+  EOnInit ""\
+  "		"\
+  "		VehicleHelicopterSimulation m_Vehicle_s = VehicleHelicopterSimulation.Cast(this.FindComponent(VehicleHelicopterSimulation));"\
+  "		m_Vehicle_s.EngineStart();"\
+  "		m_Vehicle_s.SetThrottle(1);"\
+  "		m_Vehicle_s.RotorSetForceScaleState(0, 2);"\
+  "		m_Vehicle_s.RotorSetForceScaleState(1, 1);"\
+  "		"\
+  "		vector velOrig = this.GetPhysics().GetVelocity();"\
+  "		vector rotVector = this.GetAngles();"\
+  "		vector vel = {velOrig[0] + Math.Sin(rotVector[1] * Math.DEG2RAD) * 50, velOrig[1], velOrig[2] + Math.Cos(rotVector[1] * Math.DEG2RAD) * 50 };"\
+  "		this.GetPhysics().SetVelocity(vel);"\
+  "	"\
+  "	"
+ }
+ UH3 {
+  coords 8673.237 151.619 2961.372
+  angleY 12.231
+  EOnInit ""\
+  "		"\
+  "		VehicleHelicopterSimulation m_Vehicle_s = VehicleHelicopterSimulation.Cast(this.FindComponent(VehicleHelicopterSimulation));"\
+  "		m_Vehicle_s.EngineStart();"\
+  "		m_Vehicle_s.SetThrottle(1);"\
+  "		m_Vehicle_s.RotorSetForceScaleState(0, 2);"\
+  "		m_Vehicle_s.RotorSetForceScaleState(1, 1);"\
+  "		"\
+  "		vector velOrig = this.GetPhysics().GetVelocity();"\
+  "		vector rotVector = this.GetAngles();"\
+  "		vector vel = {velOrig[0] + Math.Sin(rotVector[1] * Math.DEG2RAD) * 50, velOrig[1], velOrig[2] + Math.Cos(rotVector[1] * Math.DEG2RAD) * 50 };"\
+  "		this.GetPhysics().SetVelocity(vel);"\
+  "	"\
+  "	"
+ }
+ UH4 {
+  coords 8961.166 114.604 3039.459
+  angleY 12.231
+  EOnInit ""\
+  "		"\
+  "		VehicleHelicopterSimulation m_Vehicle_s = VehicleHelicopterSimulation.Cast(this.FindComponent(VehicleHelicopterSimulation));"\
+  "		m_Vehicle_s.EngineStart();"\
+  "		m_Vehicle_s.SetThrottle(1);"\
+  "		m_Vehicle_s.RotorSetForceScaleState(0, 2);"\
+  "		m_Vehicle_s.RotorSetForceScaleState(1, 1);"\
+  "		"\
+  "		vector velOrig = this.GetPhysics().GetVelocity();"\
+  "		vector rotVector = this.GetAngles();"\
+  "		vector vel = {velOrig[0] + Math.Sin(rotVector[1] * Math.DEG2RAD) * 50, velOrig[1], velOrig[2] + Math.Cos(rotVector[1] * Math.DEG2RAD) * 50 };"\
+  "		this.GetPhysics().SetVelocity(vel);"\
+  "	"\
+  "	"
+ }
+ UH5 {
+  coords 8966.438 110.038 2995.443
+  angleY 12.231
+  EOnInit ""\
+  "		"\
+  "		VehicleHelicopterSimulation m_Vehicle_s = VehicleHelicopterSimulation.Cast(this.FindComponent(VehicleHelicopterSimulation));"\
+  "		m_Vehicle_s.EngineStart();"\
+  "		m_Vehicle_s.SetThrottle(1);"\
+  "		m_Vehicle_s.RotorSetForceScaleState(0, 2);"\
+  "		m_Vehicle_s.RotorSetForceScaleState(1, 1);"\
+  "		"\
+  "		vector velOrig = this.GetPhysics().GetVelocity();"\
+  "		vector rotVector = this.GetAngles();"\
+  "		vector vel = {velOrig[0] + Math.Sin(rotVector[1] * Math.DEG2RAD) * 50, velOrig[1], velOrig[2] + Math.Cos(rotVector[1] * Math.DEG2RAD) * 50 };"\
+  "		this.GetPhysics().SetVelocity(vel);"\
+  "	"\
+  "	"
+ }
+ UH6 {
+  coords 8594.379 184.605 3156.026
+  angleY 12.231
+  EOnInit ""\
+  "		"\
+  "		VehicleHelicopterSimulation m_Vehicle_s = VehicleHelicopterSimulation.Cast(this.FindComponent(VehicleHelicopterSimulation));"\
+  "		m_Vehicle_s.EngineStart();"\
+  "		m_Vehicle_s.SetThrottle(1);"\
+  "		m_Vehicle_s.RotorSetForceScaleState(0, 2);"\
+  "		m_Vehicle_s.RotorSetForceScaleState(1, 1);"\
+  "		"\
+  "		vector velOrig = this.GetPhysics().GetVelocity();"\
+  "		vector rotVector = this.GetAngles();"\
+  "		vector vel = {velOrig[0] + Math.Sin(rotVector[1] * Math.DEG2RAD) * 50, velOrig[1], velOrig[2] + Math.Cos(rotVector[1] * Math.DEG2RAD) * 50 };"\
+  "		this.GetPhysics().SetVelocity(vel);"\
+  "	"\
+  "	"
+ }
+ UH7 {
+  coords 8606.125 183.514 3136.672
+  angleY 12.231
+  EOnInit ""\
+  "		"\
+  "		VehicleHelicopterSimulation m_Vehicle_s = VehicleHelicopterSimulation.Cast(this.FindComponent(VehicleHelicopterSimulation));"\
+  "		m_Vehicle_s.EngineStart();"\
+  "		m_Vehicle_s.SetThrottle(1);"\
+  "		m_Vehicle_s.RotorSetForceScaleState(0, 2);"\
+  "		m_Vehicle_s.RotorSetForceScaleState(1, 1);"\
+  "		"\
+  "		vector velOrig = this.GetPhysics().GetVelocity();"\
+  "		vector rotVector = this.GetAngles();"\
+  "		vector vel = {velOrig[0] + Math.Sin(rotVector[1] * Math.DEG2RAD) * 50, velOrig[1], velOrig[2] + Math.Cos(rotVector[1] * Math.DEG2RAD) * 50 };"\
+  "		this.GetPhysics().SetVelocity(vel);"\
+  "	"\
+  "	"
+ }
+}
+$grp GenericEntity : "{36D684634B3A7EF0}Prefabs/Vehicles/Airplanes/SU57/su57_mesh.et" {
+ su2 {
+  coords 8076.606 251.198 6737.977
+  angleY 159.464
+ }
+ su1 {
+  coords 8071.528 251.199 6709.774
+  angleX -0.413
+  angleY 159.464
+  angleZ 0.218
+ }
+}
+GenericEntity : "{427DA89457B921DB}Prefabs/Vehicles/Airplanes/IL76/Plane_IL76_UN_static.et" {
+ coords 8584.354 110.746 6986.265
+ angleX -3.089
+ angleY -176.275
+ angleZ 10.778
+}
+GenericEntity : "{4923E218F59644B9}Prefabs/Props/Wrecks/BoatWreck_01.et" {
+ coords 6428.896 260.703 9908.385
+ angleX -58.047
+}
+GenericEntity : "{74DCE1AEC6832E18}Prefabs/Props/Wrecks/UH1H_wreck_static.et" {
+ coords 8498.246 112.915 6573.173
+ angleX -1.278
+ angleY 90.113
+ angleZ -95.05
+}
+GenericEntity : "{75FEF1CA582431F3}Prefabs/Props/Wrecks/BTR70_wreck.et" {
+ coords 8443.936 110.73 7033.382
+ angleY -135.235
+}
+$grp GenericEntity : "{76571A125EF9ECD7}Prefabs/Vehicles/Airplanes/FA18A/FA18A_Mesh.et" {
+ f181 {
+  coords 8624.451 274.902 2698.191
+  angleY 90.706
+ }
+ f182 {
+  coords 8638.488 270.957 2712.15
+  angleY 90.706
+ }
+}
+GenericEntity : "{9662950CA47FBE82}Prefabs/Weapons/Assault/SCAR_SSR/Rifle_SCAR_SSR_Price.et" {
+ coords 8595.194 247.655 3694.263
+ angleX 9.933
+ angleY 57.794
+ angleZ -31.212
+}
+$grp GenericEntity : "{9668B6C528DCECBD}Prefabs/Props/Wrecks/Mi8MT_wreck_static.et" {
+ {
+  coords 8509.711 110.522 6733.952
+  angleY 108.257
+ }
+ {
+  coords 8501.266 110.517 6706.727
+  angleY 80.358
+ }
+ {
+  coords 8511.117 110.535 6650.954
+  angleY 51.344
+ }
+}
+GenericEntity : "{AFD43C42CFAF65E3}Prefabs/Props/Military/AmmoBoxes/AmmoBox_556x45_840rnd.et" {
+ coords 8595.416 247.623 3694.404
+ angleX 82.037
+ angleY -65.021
+ angleZ 65.464
+}
+$grp Vehicle : "{B8C827A45C1347A4}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF_D.et" {
+ M1 {
+  coords 8817.677 160.731 3817.569
+  angleX -7.118
+  angleY 0.224
+  angleZ -1.804
+ }
+ M2 {
+  coords 8790.03 159.48 3817.892
+  angleX -4.428
+  angleY 0.416
+  angleZ -5.372
+ }
+ M3 {
+  coords 8750.745 161.171 3821.262
+  angleX -6.063
+  angleY -1.046
+  angleZ 9.808
+ }
+ M4 {
+  coords 8726.082 159.127 3827.757
+  angleX -16.342
+  angleY -1.838
+  angleZ 6.506
+ }
+ M5 {
+  coords 8840.735 159.231 3836.672
+  angleX -6.236
+  angleY 0.196
+  angleZ -1.801
+ }
+}

@@ -1,0 +1,62 @@
+GameEntity : "{17F335BF60DD2550}Prefabs/Characters/Core/Headgear_Base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{64FC7704B708A0A8}" {
+    ItemDisplayName UIInfo "{64FC7704B708A0A0}" {
+     Name "#RHS-Headgear_VDV_Beret_Name"
+     Description "#RHS-Headgear_VDV_Beret_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{64FC7704B708A09C}" {
+     Weight 0.15
+     SizeSetupStrategy Volume
+     ItemVolume 250
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{64FC7704B708A09B}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1.5
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{AEF4521AEB41473F}Assets/Characters/HeadGear/Hat_VDV_Beret/rhs_vdv_item.xob"
+  }
+  SCR_ItemOutfitFactionComponent "{64FC7704B708A094}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{64FC7704B708A090}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{64FC7704B708A08E}" {
+      m_AffiliatedFactionKey "RHS_AFRF"
+      m_iOutfitFactionValue 15
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   AreaType LoadoutHeadCoverArea "{64FC7704B708A08C}" {
+   }
+   Slots {
+    LoadoutSlotInfo Balaclava {
+     Prefab "{7621C7D9145AF8D5}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_OD.et"
+     InspectionWidgetOffset 0 1.6 0
+     AreaType LoadoutHeadCoverArea "{64FC7704FB9D3A05}" {
+     }
+    }
+   }
+   WornModel "{FDB66DB212152A27}Assets/Characters/HeadGear/Hat_VDV_Beret/rhs_vdv_beret.xob"
+   ItemModel "{AEF4521AEB41473F}Assets/Characters/HeadGear/Hat_VDV_Beret/rhs_vdv_item.xob"
+  }
+  ActionsManagerComponent "{5112706CD4157AC9}" {
+   ActionContexts {
+    UserActionContext "{5112706CD4157AF3}" {
+     Position PointInfo "{5112706CD4157AF0}" {
+      Offset 0 0.0403 0
+     }
+    }
+   }
+  }
+ }
+ coords 4783.922 27.855 11205.438
+}

@@ -10,12 +10,49 @@ $grp GenericEntity : "{2ACE3A315F531CFD}Prefabs/Compositions/Slotted/SlotFlatMed
   angleY 88.783
  }
 }
+SCR_ChimeraCharacter M : "{3606C888CDC6AF5C}Assets/UjasiPrice/Prefabs/USSR2025/VDV/Characters/Character_Mlashenko.et" {
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     EnableDeflatedOffset 1
+    }
+   }
+  }
+  AnimationPlayerComponent "{65062744AB8CBB8B}" {
+   Animation "{10CC08A622736825}Worlds/Price/Everon/Soviet Assault/Assets2025/testwalk.anm"
+   Loop 1
+  }
+ }
+ coords 4804.223 27.844 11196.326
+ angleY -73.202
+}
+Vehicle BTR70_ion1 : "{3CF0E95C86C93540}Prefabs/Vehicles/Wheeled/BTR70/BTR70_ion.et" {
+ coords 4774.261 27.791 11197.671
+ angleY -76.892
+}
 GenericEntity : "{4510C273B794F3A9}Prefabs/Compositions/Slotted/SlotFlatMedium/VehicleMaintenance_M_USSR_01.et" {
  coords 4818.213 27.889 11879.219
  angleZ -3.576
 }
+$grp GenericEntity : "{522DEDD6E6C0E6C4}Prefabs/Vehicles/Airplanes/IL76/Plane_IL76_USSR_static.et" {
+ {
+  coords 4771.74 27.852 11138.989
+  angleY -178.748
+ }
+ {
+  coords 4846.018 27.844 11197.756
+  angleY -9.137
+ }
+}
 GenericEntity : "{651E545B53BBD034}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_USSR.et" {
- coords 4805.113 27.843 11191.171
+ coords 4801.71 27.843 11185.24
+}
+GameEntity : "{772F8307C31BC9BB}Prefabs/Characters/HeadGear/Hat_VDV_Beret/Hat_VDV_Beret_balaclava_Price.et" {
+ coords 4783.922 27.855 11205.438
+}
+GameEntity : "{776F3F9AECA0FD51}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_XP_FG_PELTOR_NVG.et" {
+ coords 4782.688 27.855 11205.611
 }
 GenericEntity : "{847605BB95F1F066}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_USSR_01.et" {
  coords 4817.461 27.843 11209.106
@@ -28,6 +65,22 @@ $grp GenericEntity : "{A13F6A7F82DF031B}Prefabs/Compositions/Slotted/SlotFlatLar
  {
   coords 4881.793 28.594 11902.137
  }
+}
+GameEntity : "{D585A51B64C4F6A4}Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Shirt_EMR_Price_Telnik.et" {
+ coords 4783.171 27.855 11205.965
+}
+GenericEntity : "{D5E0FF9018AB0BF3}Prefabs/Vehicles/Airplanes/IL76/Plane_IL76UN_running_Price_air.et" {
+ components {
+  ProcAnimComponent "{64B877E1C01FD0C7}" {
+   Parameters {
+    ProcAnimParams "{64B877E1C01FD0C4}" {
+     BoneNames {
+     }
+    }
+   }
+  }
+ }
+ coords 4766.917 27.843 11178.354
 }
 $grp GenericEntity : "{F68F3B7247F6E810}Prefabs/Compositions/Slotted/SlotFlatLarge/LivingArea_L_USSR_01.et" {
  {

@@ -1,14 +1,156 @@
-PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
- coords 10170.037 140.082 70.335
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 8434.728 111.531 6869.421
+  m_sTitle "Описание миссии"
+  m_sTextData "Очередной захват аэропорта по заветам НБВиУК."\
+  ""\
+  "У Красных выгодная позиция и современная техника."\
+  "у Синих преймущество в пехоте и очень много вертолетов."\
+  ""\
+  "Время на операции: 35 минут с начала игры."\
+  "Победа зачисляется той стороне, которая будет доминировать в административной части аэропорта под конец таймера. Возможно продление времени в случае неясности операции."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 8318.416 111.532 7017.978
+  m_sTitle "Правила мисии"
+  m_sTextData "Сторонам запрещается пересекать линии цвета вражеской фракции."\
+  ""\
+  "СмертьЗоны в них не установлены, так как я не уверен что не повторится инцидент прошлого Анизая, но советую не злоупотреблять."\
+  "Особенно пехоте."\
+  ""\
+  "Фриззона у красных +- с Аэропорт."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+}
+PolylineShapeEntity : "{52693A94BD70373C}Prefabs/PolyZone/PolyZone_Freeze.et" {
+ coords 8349.223 111.531 7181.259
  Points {
-  ShapePoint "{6318C59C370E0935}" {
-   Position -5342.377 179.348 -17.969
+  ShapePoint "{60E90266E922A02A}" {
+   Position -118.551 12.008 601.232
   }
-  ShapePoint "{6318C59C1E07761C}" {
-   Position -5307.727 15.74 10131.472
+  ShapePoint "{650A6534756BB7BE}" {
+   Position 275.129 -0.772 420.662
   }
-  ShapePoint "{6318C59C1D093D85}" {
-   Position 60.539 0.243 10160.528
+  ShapePoint "{650A65347229B077}" {
+   Position 297.885 0 -837.826
+  }
+  ShapePoint "{650A6534734417AD}" {
+   Position -194.668 -34.949 -794.219
   }
  }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 10210.654 30.254 5195.747
+ }
+ {
+  coords 6125.564 105.204 6996.5
+ }
+ {
+  coords 6390.542 165.594 4633.362
+ }
+ {
+  coords 3618.795 190.375 1534.721
+ }
+ {
+  coords 3072.5 144.313 8429.362
+ }
+}
+$grp PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
+ {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_cPolygonColor 1 0 0 1
+    m_cPolygonBorderColor 1 0 0 1
+    m_aVisibleForFactions {
+     "RHS_AFRF" "RHS_USAF" ""
+    }
+   }
+  }
+  coords -99.564 -10.674 10396.646
+  Points {
+   ShapePoint "{650A65367619E81E}" {
+    Position 10318.675 149.546 -210.536
+   }
+   ShapePoint "{650A65367242EAE9}" {
+    Position 10319.393 123.482 -1078.244
+   }
+   ShapePoint "{650A65366FB666E1}" {
+    Position 7225.111 158.205 -984.812
+   }
+   ShapePoint "{650A65366D8B031C}" {
+    Position 5611.665 168.899 -2169.845
+   }
+   ShapePoint "{650A65366AB59605}" {
+    Position 5410.915 124.639 -3438.903
+   }
+   ShapePoint "{650A65366BFBCF5F}" {
+    Position 5222.346 136.679 -4446.957
+   }
+   ShapePoint "{650A653668F5D3F4}" {
+    Position 4902.424 143.954 -5005.396
+   }
+   ShapePoint "{650A6536685357E9}" {
+    Position 4049.843 158.261 -5397.568
+   }
+   ShapePoint "{650A65366965995A}" {
+    Position 2599.257 157.345 -5793.014
+   }
+   ShapePoint "{650A6536669F13FB}" {
+    Position 1174.061 149.107 -5896.979
+   }
+   ShapePoint "{650A65366781AF39}" {
+    Position 150.011 252.917 -5912.639
+   }
+  }
+ }
+ {
+  components {
+   PS_PolyZone "{60E90266F25533F6}" {
+    m_cPolygonColor 0 0.248 1 1
+    m_cPolygonBorderColor 0 0.248 1 1
+    m_aVisibleForFactions {
+     "RHS_AFRF" "RHS_USAF" ""
+    }
+   }
+  }
+  coords 13.458 219.838 3166.826
+  Points {
+   ShapePoint "{650A65364582F4C7}" {
+    Position 2030.723 -75.435 117.15
+   }
+   ShapePoint "{650A65364242E983}" {
+    Position 3339.348 -53.524 357.227
+   }
+   ShapePoint "{650A65364363B85C}" {
+    Position 4828.157 -14.109 545.862
+   }
+   ShapePoint "{650A65364017AD03}" {
+    Position 6365.469 -39.2 1166.723
+   }
+   ShapePoint "{650A6536414E8B90}" {
+    Position 7945.572 -66.655 917.2
+   }
+   ShapePoint "{650A6536BE6483D3}" {
+    Position 10180.144 -109.309 297.084
+   }
+   ShapePoint "{650A6536BF700938}" {
+    Position 10180.901 -202.982 -3041.72
+   }
+   ShapePoint "{650A6536BD4586AA}" {
+    Position 38.244 6.477 -3113.74
+   }
+  }
+ }
+}
+PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 8367.625 131.154 6996.37
+ angleY 0
+ m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+ m_sImageSetGlow ""
+ m_sQuadName "Task_Attack"
+ m_fWorldSize 35
 }

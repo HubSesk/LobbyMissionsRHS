@@ -1,0 +1,40 @@
+GenericEntity : "{EB610025D1631E00}Prefabs/Vehicles/Airplanes/IL76/Plane_IL76_base.et" {
+ ID "5AAD3AF632346E8C"
+ components {
+  MeshObject "{5AAD3AF612B4E9F3}" {
+   Materials {
+    MaterialAssignClass "{650A76AE58F2D074}" {
+     SourceMaterial "Fuselage"
+     AssignedMaterial "{5092526A9D3B56EB}Assets/Vehicles/Airplanes/il76/data/Fuselage_UN.emat"
+    }
+    MaterialAssignClass "{650A76AE58F2D067}" {
+     SourceMaterial "Wings"
+     AssignedMaterial "{95B1F53E84BD4115}Assets/Vehicles/Airplanes/il76/data/Wings_UN.emat"
+    }
+   }
+  }
+  SCR_EditableEntityComponent "{5AAE0E47AED3FF61}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5AAE0E47AA39C6E5}" {
+    Name "#RHS-Plane_IL76UN_Name"
+    m_Image "{EBDA856B66E51B6A}UI/Textures/EditorPreviews/Vehicles/il76/il76_un.edds"
+    m_aAuthoredLabels {
+     3 13 1001
+    }
+   }
+  }
+  SlotManagerComponent "{64C2B2D00F5A5321}" {
+   Slots {
+    EntitySlotInfo decal {
+     Offset -7.5703 2.1877 -0.3308
+     Enabled 1
+     Prefab "{53EA59B28488ACBD}Worlds/Price/MERCS/Prefabsa/Assets/FederationFlag.et"
+     InheritParentSkeleton 1
+    }
+    EntitySlotInfo parking {
+    }
+   }
+  }
+ }
+ coords 8589.723 111.531 7061.945
+ angleY 178.051
+}

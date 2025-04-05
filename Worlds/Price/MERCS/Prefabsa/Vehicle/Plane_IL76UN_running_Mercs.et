@@ -1,0 +1,138 @@
+GenericEntity : "{427DA89457B921DB}Prefabs/Vehicles/Airplanes/IL76/Plane_IL76_UN_static.et" {
+ ID "5AAD3AF632346E8C"
+ components {
+  SoundComponent "{650AB6C60245E8CE}" {
+   Enabled 0
+   Filenames {
+    "{4A3194302D141751}Sounds/Vehicles/il76/il76_eng2.acp"
+   }
+   IncludeInactive 1
+   SoundPoints {
+    SoundPointInfo eng1 {
+     PivotID "eng1"
+    }
+    SoundPointInfo eng2 {
+     PivotID "eng2"
+    }
+    SoundPointInfo eng3 {
+     PivotID "eng3"
+    }
+    SoundPointInfo eng4 {
+     PivotID "eng4"
+    }
+   }
+  }
+  BaseLightManagerComponent "{650AB6C60245E8C2}" {
+   LightsEnabled 1
+   LightSlots {
+    BaseLightSlot "{650AB6C60245E8C0}" {
+     LightType Head
+     LightState 1
+     LightPositionInfo EntitySlotInfo navlights {
+      PivotID "root"
+      Offset 0.0074 7.1915 8.9829
+      Prefab "{8F96FDAEECD24690}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_light.et"
+     }
+     LightPrefab "{8F96FDAEECD24690}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_light.et"
+     LightShouldTick 1
+    }
+    BaseLightSlot "{650AB6C60245EF3A}" {
+     LightType Rear
+     LightState 1
+     LightPositionInfo EntitySlotInfo navlights {
+      PivotID "root"
+      Offset 0.0023 2.7594 -13.6453
+      Prefab "{8F96FDAEECD24690}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_light.et"
+     }
+     LightPrefab "{8F96FDAEECD24690}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_light.et"
+     LightShouldTick 1
+    }
+    BaseLightSlot "{650AB6C60245EF38}" {
+     LightType Rear
+     LightState 1
+     LightPositionInfo EntitySlotInfo navlights {
+      PivotID "root"
+      Offset -25.3441 5.2985 -5.0109
+      Prefab "{8F96FDAEECD24690}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_light.et"
+     }
+     LightPrefab "{8F96FDAEECD24690}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_light.et"
+     LightShouldTick 1
+    }
+    BaseLightSlot "{650AB6C60245EF39}" {
+     LightType Rear
+     LightState 1
+     LightPositionInfo EntitySlotInfo navlights {
+      PivotID "root"
+      Offset 25.2543 5.27 -4.9719
+      Prefab "{F352EB15D1311894}Prefabs/Vehicles/Airplanes/IL76/Lights/TransmitterTower_01_light_green.et"
+     }
+     LightPrefab "{F352EB15D1311894}Prefabs/Vehicles/Airplanes/IL76/Lights/TransmitterTower_01_light_green.et"
+     LightShouldTick 1
+    }
+    BaseLightSlot "{650AB6C60245EF37}" {
+     LightType Dashboard
+     LightState 1
+     LightPositionInfo EntitySlotInfo frontt {
+      PivotID "root"
+      Offset 0.9456 2.4652 19.0107
+      Angles -22.1603 -3.5345 -10.1107
+      Prefab "{4A83A1AF81A6608F}Prefabs/Vehicles/Core/Lights/VehicleLight_Landing_Base.et"
+     }
+     LightPrefab "{4A83A1AF81A6608F}Prefabs/Vehicles/Core/Lights/VehicleLight_Landing_Base.et"
+    }
+    BaseLightSlot "{650AB6C60245EF32}" {
+     LightType Dashboard
+     LightState 1
+     LightPositionInfo EntitySlotInfo frontt {
+      PivotID "root"
+      Offset -0.9407 2.3596 18.981
+      Angles -21.1521 -0.8988 15.6193
+      Prefab "{4A83A1AF81A6608F}Prefabs/Vehicles/Core/Lights/VehicleLight_Landing_Base.et"
+     }
+     LightPrefab "{4A83A1AF81A6608F}Prefabs/Vehicles/Core/Lights/VehicleLight_Landing_Base.et"
+    }
+    BaseLightSlot "{650AB6C60245EF30}" {
+     LightType Dashboard
+     LightState 1
+     LightPositionInfo EntitySlotInfo frontt {
+      PivotID "root"
+      Offset -0.0042 5.4081 17.0723
+      Prefab "{6C28B142AAC672A3}Prefabs/Vehicles/Core/Lights/VehicleLight_Interior_Bright_Base.et"
+     }
+     LightPrefab "{6C28B142AAC672A3}Prefabs/Vehicles/Core/Lights/VehicleLight_Interior_Bright_Base.et"
+    }
+   }
+  }
+  ProcAnimComponent "{650AB6C60245EF2F}" {
+   Enabled 1
+   Parameters {
+    ProcAnimParams "{650AB6C60245EF2C}" {
+     ResourceName "{D5DA23017EB909E2}Assets/Vehicles/Airplanes/il76/rotors_static.pap"
+     BoneNames {
+      "eng1" "eng2" "eng3" "eng4"
+     }
+     SimulationDistance 150
+    }
+   }
+  }
+  SCR_EditableEntityComponent "{5AAE0E47AED3FF61}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5AAE0E47AA39C6E5}" {
+    Name "#RHS-Plane_IL76UN_running_Name"
+   }
+  }
+  SimpleSoundComponent "{650AB6C60245EF24}" {
+   Filenames {
+    "{4A3194302D141751}Sounds/Vehicles/il76/il76_eng2.acp"
+   }
+  }
+  SlotManagerComponent "{64C2B2D00F5A5321}" {
+   Slots {
+    EntitySlotInfo decal {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 8543.704 111.531 7103.375
+ angleY 90.021
+}

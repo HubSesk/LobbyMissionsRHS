@@ -2,6 +2,17 @@ SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
  coords 1904.064 154.801 2932.858
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  PS_CutsceneManager "{60E6C661B81E7619}" {
+   m_aCutscenes {
+    PS_Cutscene "{6506925E8A0A7ED3}" {
+     m_sCutsceneEntityName "Anime1"
+     m_sCutsceneSound "{0DE4A867C121865C}MissionAudio/VostochniyAiroportAnizay/Cutscene_Price_Air_Aniz.acp"
+     m_iCutsceneTime 96600
+    }
+   }
+  }
+ }
  coords 1906.603 155.026 2933.248
  m_bMarkersOnlyOnBriefing 1
  m_bRemoveRedundantUnits 1
@@ -9,144 +20,3359 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  m_iFreezeTime 300000
  m_bDisableChat 1
  m_bReserveSlots 1
+ m_bShowCutscene 1
 }
 CinematicEntity Anime1 {
  coords 0 0 0
  Scene CinematicScene "{6318C59DE563FB9B}" {
-  EndFrame 15000
+  EndFrame 5795
   Tracks {
    CameraCinematicTrack "{6318C59DE0C7008B}" {
     TrackName "Camera"
+    Flags 0
     Position Vector3CinematicTrack "{6318C59DE0C700E9}" {
      TrackName "Position"
+     Flags 0
      X FloatCinematicTrack "{6318C59DE0C700DF}" {
       TrackName "X"
       Keyframes {
-       FloatCinematicKeyframe "{631A9659B36F93B5}" {
+       FloatCinematicKeyframe "{6506925F7A4E622D}" {
         FrameNumber 0
-        Value 8360.697
+        Value 8359.109
+        InterpMode 0
        }
-       FloatCinematicKeyframe "{631A9659AE5DAE86}" {
-        FrameNumber 342
-        Value 8360.699
+       FloatCinematicKeyframe "{6506925F7076819C}" {
+        FrameNumber 996
+        Value 8360.889
+        InterpMode 0
        }
       }
+      Flags 0
      }
      Y FloatCinematicTrack "{6318C59DE0C700D7}" {
       TrackName "Y"
       Keyframes {
-       FloatCinematicKeyframe "{631A9659B36F91ED}" {
+       FloatCinematicKeyframe "{631A9659AE5DAC49}" {
         FrameNumber 0
         Value 125.135
        }
-       FloatCinematicKeyframe "{631A9659AE5DAC49}" {
-        FrameNumber 342
-        Value 125.135
-       }
       }
+      Flags 0
      }
      Z FloatCinematicTrack "{6318C59DE0C700D2}" {
       TrackName "Z"
       Keyframes {
-       FloatCinematicKeyframe "{631A9659B36F90AE}" {
-        FrameNumber 0
-        Value 7074.409
-       }
        FloatCinematicKeyframe "{631A9659AE5DB37F}" {
-        FrameNumber 342
+        FrameNumber 0
         Value 7074.41
        }
       }
+      Flags 0
      }
     }
     Angles Vector3CinematicTrack "{6318C59DE0C700CE}" {
      TrackName "Angles"
+     Flags 0
      X FloatCinematicTrack "{6318C59DE0C700CA}" {
       TrackName "X"
       Keyframes {
-       FloatCinematicKeyframe "{631A9659B36F971D}" {
+       FloatCinematicKeyframe "{631A9659AE5DB3C1}" {
         FrameNumber 0
         Value 5.873
        }
-       FloatCinematicKeyframe "{631A9659AE5DB3C1}" {
-        FrameNumber 342
-        Value 5.873
-       }
       }
+      Flags 0
      }
      Y FloatCinematicTrack "{6318C59DE0C700C9}" {
       TrackName "Y"
       Keyframes {
-       FloatCinematicKeyframe "{631A9659B36F9789}" {
+       FloatCinematicKeyframe "{631A9659AE5DB28A}" {
         FrameNumber 0
         Value -245.839
        }
-       FloatCinematicKeyframe "{631A9659AE5DB28A}" {
-        FrameNumber 342
-        Value -245.839
-       }
       }
+      Flags 0
      }
      Z FloatCinematicTrack "{6318C59DE0C700C2}" {
       TrackName "Z"
       Keyframes {
-       FloatCinematicKeyframe "{631A9659B36F9679}" {
+       FloatCinematicKeyframe "{631A9659AE5DB15A}" {
         FrameNumber 0
         Value 0
        }
-       FloatCinematicKeyframe "{631A9659AE5DB15A}" {
-        FrameNumber 342
+      }
+      Flags 0
+     }
+    }
+    FOV FloatCinematicTrack "{6318C59DE0C7073D}" {
+     TrackName "FOV"
+     Flags 0
+    }
+    DOF DOFCinematicTrack "{6318C59DE0C70736}" {
+     TrackName "DOF"
+     Flags 0
+     Enabled BooleanCinematicTrack "{6318C59DE0C70730}" {
+      TrackName "Enabled"
+      Flags 0
+     }
+     FocusDistance FloatCinematicTrack "{6318C59DE0C7072C}" {
+      TrackName "FocusDistance"
+      Flags 0
+     }
+     LengthNear FloatCinematicTrack "{6318C59DE0C70728}" {
+      TrackName "LengthNear"
+      Flags 0
+     }
+     LengthFar FloatCinematicTrack "{6318C59DE0C70726}" {
+      TrackName "LengthFar"
+      Flags 0
+     }
+    }
+    DOFAdvanced DOFAdvancedCinematicTrack "{6318C59DE0C70724}" {
+     TrackName "DOFAdvanced"
+     Flags 0
+     Enabled BooleanCinematicTrack "{6318C59DE0C70720}" {
+      TrackName "Enabled"
+      Flags 0
+     }
+     FocusDistance FloatCinematicTrack "{6318C59DE0C7071E}" {
+      TrackName "FocusDistance"
+      Flags 0
+     }
+     FStop FloatCinematicTrack "{6318C59DE0C7071C}" {
+      TrackName "FStop"
+      Flags 0
+     }
+     SensorSize FloatCinematicTrack "{6318C59DE0C7071A}" {
+      TrackName "SensorSize"
+      Flags 0
+     }
+     FocalLengthAuto BooleanCinematicTrack "{6318C59DE0C70718}" {
+      TrackName "FocalLengthAuto"
+      Flags 0
+     }
+     FocalLength FloatCinematicTrack "{6318C59DE0C70717}" {
+      TrackName "FocalLength"
+      Flags 0
+     }
+    }
+    HDR HDRCinematicTrack "{6318C59DE0C70712}" {
+     TrackName "HDR"
+     Flags 0
+     ManualExposition BooleanCinematicTrack "{6318C59DE0C70711}" {
+      TrackName "ManualExposition"
+      Flags 0
+     }
+     ExpositionLV FloatCinematicTrack "{6318C59DE0C7070C}" {
+      TrackName "ExpositionLV"
+      Flags 0
+     }
+    }
+   }
+   CameraCinematicTrack "{6506991DCF26F5A2}" {
+    TrackName "Camera2"
+    Position Vector3CinematicTrack "{6506991DCF26F599}" {
+     TrackName "Position"
+     X FloatCinematicTrack "{6506991DCF26F597}" {
+      TrackName "X"
+      Keyframes {
+       FloatCinematicKeyframe "{650894296C20C550}" {
+        FrameNumber 999
+        Value 8607.6
+        InterpMode 0
+       }
+      }
+     }
+     Y FloatCinematicTrack "{6506991DCF26F58C}" {
+      TrackName "Y"
+      Keyframes {
+       FloatCinematicKeyframe "{650894296C20CBBA}" {
+        FrameNumber 999
+        Value 112.107
+        InterpMode 0
+       }
+      }
+     }
+     Z FloatCinematicTrack "{6506991DCF26F588}" {
+      TrackName "Z"
+      Keyframes {
+       FloatCinematicKeyframe "{6508942964F0C592}" {
+        FrameNumber 999
+        Value 6994.303
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{650894294611F715}" {
+        FrameNumber 1879
+        Value 6974.882
+        InterpMode 0
+       }
+      }
+     }
+    }
+    Angles Vector3CinematicTrack "{6506991DCF26F585}" {
+     TrackName "Angles"
+     X FloatCinematicTrack "{6506991DCF26F582}" {
+      TrackName "X"
+      Keyframes {
+       FloatCinematicKeyframe "{650894296805F31D}" {
+        FrameNumber 999
+        Value 6.45
+        InterpMode 0
+       }
+      }
+     }
+     Y FloatCinematicTrack "{6506991DCF26F5FE}" {
+      TrackName "Y"
+      Keyframes {
+       FloatCinematicKeyframe "{650894296805F11F}" {
+        FrameNumber 999
+        Value -147.689
+        InterpMode 0
+       }
+      }
+     }
+     Z FloatCinematicTrack "{6506991DCF26F5F5}" {
+      TrackName "Z"
+      Keyframes {
+       FloatCinematicKeyframe "{650894296805F035}" {
+        FrameNumber 999
+        Value 0
+        InterpMode 0
+       }
+      }
+     }
+    }
+    FOV FloatCinematicTrack "{6506991DCF26F5F1}" {
+     TrackName "FOV"
+    }
+    DOF DOFCinematicTrack "{6506991DCF26F5EE}" {
+     TrackName "DOF"
+     Enabled BooleanCinematicTrack "{6506991DCF26F5EC}" {
+      TrackName "Enabled"
+     }
+     FocusDistance FloatCinematicTrack "{6506991DCF26F5EA}" {
+      TrackName "FocusDistance"
+     }
+     LengthNear FloatCinematicTrack "{6506991DCF26F5EB}" {
+      TrackName "LengthNear"
+     }
+     LengthFar FloatCinematicTrack "{6506991DCF26F5E9}" {
+      TrackName "LengthFar"
+     }
+    }
+    DOFAdvanced DOFAdvancedCinematicTrack "{6506991DCF26F5E7}" {
+     TrackName "DOFAdvanced"
+     Enabled BooleanCinematicTrack "{6506991DCF26F5E2}" {
+      TrackName "Enabled"
+     }
+     FocusDistance FloatCinematicTrack "{6506991DCF26F5D9}" {
+      TrackName "FocusDistance"
+     }
+     FStop FloatCinematicTrack "{6506991DCF295222}" {
+      TrackName "FStop"
+     }
+     SensorSize FloatCinematicTrack "{6506991DCF29522C}" {
+      TrackName "SensorSize"
+     }
+     FocalLengthAuto BooleanCinematicTrack "{6506991DCF29522F}" {
+      TrackName "FocalLengthAuto"
+     }
+     FocalLength FloatCinematicTrack "{6506991DCF29522E}" {
+      TrackName "FocalLength"
+     }
+    }
+    HDR HDRCinematicTrack "{6506991DCF295228}" {
+     TrackName "HDR"
+     ManualExposition BooleanCinematicTrack "{6506991DCF29522A}" {
+      TrackName "ManualExposition"
+     }
+     ExpositionLV FloatCinematicTrack "{6506991DCF295235}" {
+      TrackName "ExpositionLV"
+     }
+    }
+   }
+   CameraCinematicTrack "{6506991F3CB69896}" {
+    TrackName "Camera3"
+    Position Vector3CinematicTrack "{6506991F3CB6989A}" {
+     TrackName "Position"
+     X FloatCinematicTrack "{6506991F3CB698A5}" {
+      TrackName "X"
+      Keyframes {
+       FloatCinematicKeyframe "{6506991FF127FD7E}" {
+        FrameNumber 1884
+        Value 8588.786
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6506991F95EF53C0}" {
+        FrameNumber 2084
+        Value 8589.028
+       }
+       FloatCinematicKeyframe "{6506991F5912411A}" {
+        FrameNumber 2594
+        Value 8595.761
+       }
+       FloatCinematicKeyframe "{6508D681231B69EC}" {
+        FrameNumber 2976
+        Value 8595.866
+        InterpMode 0
+       }
+      }
+     }
+     Y FloatCinematicTrack "{6506991F3CB698AC}" {
+      TrackName "Y"
+      Keyframes {
+       FloatCinematicKeyframe "{6506F82A4335E267}" {
+        FrameNumber 1884
+        Value 116.813
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6506991F95EF5DE1}" {
+        FrameNumber 2084
+        Value 145.346
+       }
+       FloatCinematicKeyframe "{6506991F59124CD0}" {
+        FrameNumber 2594
+        Value 248.768
+       }
+       FloatCinematicKeyframe "{6508D681225ED4E5}" {
+        FrameNumber 2976
+        Value 247.85
+        InterpMode 0
+       }
+      }
+     }
+     Z FloatCinematicTrack "{6506991F3CB698A9}" {
+      TrackName "Z"
+      Keyframes {
+       FloatCinematicKeyframe "{6506F82B5C4D9CAA}" {
+        FrameNumber 1884
+        Value 6768.291
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6506F82AB44CECF7}" {
+        FrameNumber 2084
+        Value 6416.323
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6506991F59124DC8}" {
+        FrameNumber 2594
+        Value 3709.237
+       }
+       FloatCinematicKeyframe "{6508D6812175918C}" {
+        FrameNumber 2976
+        Value 3692.821
+        InterpMode 0
+       }
+      }
+     }
+    }
+    Angles Vector3CinematicTrack "{6506991F3CB698B5}" {
+     TrackName "Angles"
+     X FloatCinematicTrack "{6506991F3CB698B6}" {
+      TrackName "X"
+      Keyframes {
+       FloatCinematicKeyframe "{6506991F06F17FF7}" {
+        FrameNumber 1884
+        Value 2.556
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6506991F95EF5E3E}" {
+        FrameNumber 2084
+        Value 2.556
+       }
+       FloatCinematicKeyframe "{6506991F57BDB2CF}" {
+        FrameNumber 2594
+        Value 2.556
+       }
+      }
+     }
+     Y FloatCinematicTrack "{6506991F3CB698B8}" {
+      TrackName "Y"
+      Keyframes {
+       FloatCinematicKeyframe "{6506991F06F1793C}" {
+        FrameNumber 1884
+        Value -360.362
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6506991F95EF5F27}" {
+        FrameNumber 2084
+        Value -360.362
+       }
+       FloatCinematicKeyframe "{6506991F57BDBDFC}" {
+        FrameNumber 2594
+        Value -360.362
+       }
+      }
+     }
+     Z FloatCinematicTrack "{6506991F3CB69844}" {
+      TrackName "Z"
+      Keyframes {
+       FloatCinematicKeyframe "{6506991F06F17B96}" {
+        FrameNumber 1884
+        Value 0
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6506991F95EF587A}" {
+        FrameNumber 2084
+        Value 0
+       }
+       FloatCinematicKeyframe "{6506991F57BDBE02}" {
+        FrameNumber 2594
         Value 0
        }
       }
      }
     }
-    FOV FloatCinematicTrack "{6318C59DE0C7073D}" {
+    FOV FloatCinematicTrack "{6506991F3CB69841}" {
      TrackName "FOV"
     }
-    DOF DOFCinematicTrack "{6318C59DE0C70736}" {
+    DOF DOFCinematicTrack "{6506991F3CB69843}" {
      TrackName "DOF"
-     Enabled BooleanCinematicTrack "{6318C59DE0C70730}" {
+     Enabled BooleanCinematicTrack "{6506991F3CB69842}" {
       TrackName "Enabled"
      }
-     FocusDistance FloatCinematicTrack "{6318C59DE0C7072C}" {
+     FocusDistance FloatCinematicTrack "{6506991F3CB6984D}" {
       TrackName "FocusDistance"
      }
-     LengthNear FloatCinematicTrack "{6318C59DE0C70728}" {
+     LengthNear FloatCinematicTrack "{6506991F3CB6984C}" {
       TrackName "LengthNear"
      }
-     LengthFar FloatCinematicTrack "{6318C59DE0C70726}" {
+     LengthFar FloatCinematicTrack "{6506991F3CB6984E}" {
       TrackName "LengthFar"
      }
     }
-    DOFAdvanced DOFAdvancedCinematicTrack "{6318C59DE0C70724}" {
+    DOFAdvanced DOFAdvancedCinematicTrack "{6506991F3CB69853}" {
      TrackName "DOFAdvanced"
-     Enabled BooleanCinematicTrack "{6318C59DE0C70720}" {
+     Enabled BooleanCinematicTrack "{6506991F3CB69852}" {
       TrackName "Enabled"
      }
-     FocusDistance FloatCinematicTrack "{6318C59DE0C7071E}" {
+     FocusDistance FloatCinematicTrack "{6506991F3CB6985D}" {
       TrackName "FocusDistance"
      }
-     FStop FloatCinematicTrack "{6318C59DE0C7071C}" {
+     FStop FloatCinematicTrack "{6506991F3CB6985F}" {
       TrackName "FStop"
      }
-     SensorSize FloatCinematicTrack "{6318C59DE0C7071A}" {
+     SensorSize FloatCinematicTrack "{6506991F3CB6985E}" {
       TrackName "SensorSize"
      }
-     FocalLengthAuto BooleanCinematicTrack "{6318C59DE0C70718}" {
+     FocalLengthAuto BooleanCinematicTrack "{6506991F3CB69859}" {
       TrackName "FocalLengthAuto"
      }
-     FocalLength FloatCinematicTrack "{6318C59DE0C70717}" {
+     FocalLength FloatCinematicTrack "{6506991F3CB69858}" {
       TrackName "FocalLength"
      }
     }
-    HDR HDRCinematicTrack "{6318C59DE0C70712}" {
+    HDR HDRCinematicTrack "{6506991F3CB6985A}" {
      TrackName "HDR"
-     ManualExposition BooleanCinematicTrack "{6318C59DE0C70711}" {
+     ManualExposition BooleanCinematicTrack "{6506991F3CB69865}" {
       TrackName "ManualExposition"
      }
-     ExpositionLV FloatCinematicTrack "{6318C59DE0C7070C}" {
+     ExpositionLV FloatCinematicTrack "{6506991F3CB69864}" {
       TrackName "ExpositionLV"
+     }
+    }
+   }
+   CameraCinematicTrack "{6506991F40E73C9F}" {
+    TrackName "Camera4"
+    Flags 0
+    Position Vector3CinematicTrack "{6506991F40E73CB4}" {
+     TrackName "Position"
+     Flags 0
+     X FloatCinematicTrack "{6506991F40E73CB9}" {
+      TrackName "X"
+      Keyframes {
+       FloatCinematicKeyframe "{6506991FDD628D8E}" {
+        FrameNumber 3001
+        Value 8588.069
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6506F82B4D547BFD}" {
+        FrameNumber 3235
+        Value 8588.853
+       }
+       FloatCinematicKeyframe "{6506991744C9E471}" {
+        FrameNumber 3857
+        Value 8592.569
+        InterpMode 0
+       }
+      }
+      Flags 0
+     }
+     Y FloatCinematicTrack "{6506991F40E73C44}" {
+      TrackName "Y"
+      Keyframes {
+       FloatCinematicKeyframe "{65069918BE91B816}" {
+        FrameNumber 3001
+        Value 249.915
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6506F82B4D5479CE}" {
+        FrameNumber 3235
+        Value 249.915
+       }
+      }
+      Flags 0
+     }
+     Z FloatCinematicTrack "{6506991F40E73C46}" {
+      TrackName "Z"
+      Keyframes {
+       FloatCinematicKeyframe "{65069918409CFA26}" {
+        FrameNumber 3001
+        Value 3691.478
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6506F82B4D547F33}" {
+        FrameNumber 3235
+        Value 3691.478
+       }
+      }
+      Flags 0
+     }
+    }
+    Angles Vector3CinematicTrack "{6506991F40E73C4C}" {
+     TrackName "Angles"
+     Flags 0
+     X FloatCinematicTrack "{6506991F40E73C4B}" {
+      TrackName "X"
+      Keyframes {
+       FloatCinematicKeyframe "{6506991F417CFEF8}" {
+        FrameNumber 3001
+        Value 3.53
+       }
+       FloatCinematicKeyframe "{6506F82B4AB41106}" {
+        FrameNumber 3235
+        Value 3.53
+       }
+      }
+      Flags 0
+     }
+     Y FloatCinematicTrack "{6506991F40E73C57}" {
+      TrackName "Y"
+      Keyframes {
+       FloatCinematicKeyframe "{6506991F417CF852}" {
+        FrameNumber 3001
+        Value -273.249
+       }
+       FloatCinematicKeyframe "{6506F82B4AB417BD}" {
+        FrameNumber 3235
+        Value -273.249
+       }
+      }
+      Flags 0
+     }
+     Z FloatCinematicTrack "{6506991F40E73C50}" {
+      TrackName "Z"
+      Keyframes {
+       FloatCinematicKeyframe "{6506991F417CFA29}" {
+        FrameNumber 3001
+        Value 0
+       }
+       FloatCinematicKeyframe "{6506F82B4AB41687}" {
+        FrameNumber 3235
+        Value 0
+       }
+      }
+      Flags 0
+     }
+    }
+    FOV FloatCinematicTrack "{6506991F40E73C5C}" {
+     TrackName "FOV"
+     Flags 0
+    }
+    DOF DOFCinematicTrack "{6506991F40E73C65}" {
+     TrackName "DOF"
+     Flags 0
+     Enabled BooleanCinematicTrack "{6506991F40E73C61}" {
+      TrackName "Enabled"
+      Flags 0
+     }
+     FocusDistance FloatCinematicTrack "{6506991F40E73C6F}" {
+      TrackName "FocusDistance"
+      Flags 0
+     }
+     LengthNear FloatCinematicTrack "{6506991F40E73C74}" {
+      TrackName "LengthNear"
+      Flags 0
+     }
+     LengthFar FloatCinematicTrack "{6506991F40E73C76}" {
+      TrackName "LengthFar"
+      Flags 0
+     }
+    }
+    DOFAdvanced DOFAdvancedCinematicTrack "{6506991F40E73C7D}" {
+     TrackName "DOFAdvanced"
+     Flags 0
+     Enabled BooleanCinematicTrack "{6506991F40E73C79}" {
+      TrackName "Enabled"
+      Flags 0
+     }
+     FocusDistance FloatCinematicTrack "{6506991F40E73C7B}" {
+      TrackName "FocusDistance"
+      Flags 0
+     }
+     FStop FloatCinematicTrack "{6506991F40E73C05}" {
+      TrackName "FStop"
+      Flags 0
+     }
+     SensorSize FloatCinematicTrack "{6506991F40E73C07}" {
+      TrackName "SensorSize"
+      Flags 0
+     }
+     FocalLengthAuto BooleanCinematicTrack "{6506991F40E73C01}" {
+      TrackName "FocalLengthAuto"
+      Flags 0
+     }
+     FocalLength FloatCinematicTrack "{6506991F40E73C03}" {
+      TrackName "FocalLength"
+      Flags 0
+     }
+    }
+    HDR HDRCinematicTrack "{6506991F40E73C0C}" {
+     TrackName "HDR"
+     Flags 0
+     ManualExposition BooleanCinematicTrack "{6506991F40E73C0E}" {
+      TrackName "ManualExposition"
+      Flags 0
+     }
+     ExpositionLV FloatCinematicTrack "{6506991F40E73C08}" {
+      TrackName "ExpositionLV"
+      Flags 0
+     }
+    }
+   }
+   CameraCinematicTrack "{65069917B4A2D020}" {
+    TrackName "Camera5"
+    Flags 0
+    Position Vector3CinematicTrack "{65069917B4A2D1D0}" {
+     TrackName "Position"
+     Flags 0
+     X FloatCinematicTrack "{65069917B4A2D1DA}" {
+      TrackName "X"
+      Keyframes {
+       FloatCinematicKeyframe "{6508D681A12A30EC}" {
+        FrameNumber 3881
+        Value 8791.192
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{65069902A2813C33}" {
+        FrameNumber 5687
+        Value 8791.343
+       }
+      }
+      Flags 0
+     }
+     Y FloatCinematicTrack "{65069917B4A2D1E3}" {
+      TrackName "Y"
+      Keyframes {
+       FloatCinematicKeyframe "{6508D6819F3BA679}" {
+        FrameNumber 3881
+        Value 183.751
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{65069902A2813E90}" {
+        FrameNumber 5687
+        Value 202.104
+       }
+      }
+      Flags 0
+     }
+     Z FloatCinematicTrack "{65069917B4A2D1EB}" {
+      TrackName "Z"
+      Keyframes {
+       FloatCinematicKeyframe "{6508D681A04BAC1D}" {
+        FrameNumber 3881
+        Value 3729.261
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{65069902A28139E9}" {
+        FrameNumber 5687
+        Value 3749.035
+       }
+      }
+      Flags 0
+     }
+    }
+    Angles Vector3CinematicTrack "{65069917B4A2D1F6}" {
+     TrackName "Angles"
+     Flags 0
+     X FloatCinematicTrack "{65069917B4A2D1FD}" {
+      TrackName "X"
+      Keyframes {
+       FloatCinematicKeyframe "{65069902AA392204}" {
+        FrameNumber 3881
+        Value -1.823
+       }
+      }
+      Flags 0
+     }
+     Y FloatCinematicTrack "{65069917B4A2D1F9}" {
+      TrackName "Y"
+      Keyframes {
+       FloatCinematicKeyframe "{65069902AA392D2B}" {
+        FrameNumber 3881
+        Value -360.848
+       }
+      }
+      Flags 0
+     }
+     Z FloatCinematicTrack "{65069917B4A2D184}" {
+      TrackName "Z"
+      Keyframes {
+       FloatCinematicKeyframe "{65069902AA392C3B}" {
+        FrameNumber 3881
+        Value 0
+       }
+      }
+      Flags 0
+     }
+    }
+    FOV FloatCinematicTrack "{65069917B4A2D183}" {
+     TrackName "FOV"
+     Keyframes {
+      FloatCinematicKeyframe "{6508D681A5D500CA}" {
+       FrameNumber 3881
+       Value 40
+       InterpMode 0
+      }
+     }
+     Flags 0
+    }
+    DOF DOFCinematicTrack "{65069917B4A2D196}" {
+     TrackName "DOF"
+     Flags 0
+     Enabled BooleanCinematicTrack "{65069917B4A2D19F}" {
+      TrackName "Enabled"
+      Flags 0
+     }
+     FocusDistance FloatCinematicTrack "{65069917B4A2D1A7}" {
+      TrackName "FocusDistance"
+      Flags 0
+     }
+     LengthNear FloatCinematicTrack "{65069917B4A2D1AD}" {
+      TrackName "LengthNear"
+      Flags 0
+     }
+     LengthFar FloatCinematicTrack "{65069917B4A2D1AA}" {
+      TrackName "LengthFar"
+      Flags 0
+     }
+    }
+    DOFAdvanced DOFAdvancedCinematicTrack "{65069917B4A2D1B2}" {
+     TrackName "DOFAdvanced"
+     Flags 0
+     Enabled BooleanCinematicTrack "{65069917B4A2D1B9}" {
+      TrackName "Enabled"
+      Flags 0
+     }
+     FocusDistance FloatCinematicTrack "{65069917B4A2D147}" {
+      TrackName "FocusDistance"
+      Flags 0
+     }
+     FStop FloatCinematicTrack "{65069917B4A2D142}" {
+      TrackName "FStop"
+      Flags 0
+     }
+     SensorSize FloatCinematicTrack "{65069917B4A2D149}" {
+      TrackName "SensorSize"
+      Flags 0
+     }
+     FocalLengthAuto BooleanCinematicTrack "{65069917B4A2D154}" {
+      TrackName "FocalLengthAuto"
+      Flags 0
+     }
+     FocalLength FloatCinematicTrack "{65069917B4A2D153}" {
+      TrackName "FocalLength"
+      Flags 0
+     }
+    }
+    HDR HDRCinematicTrack "{65069917B4A2D15F}" {
+     TrackName "HDR"
+     Flags 0
+     ManualExposition BooleanCinematicTrack "{65069917B4A2D15B}" {
+      TrackName "ManualExposition"
+      Keyframes {
+       BooleanCinematicKeyframe "{65089BAF6EB7CA80}" {
+        FrameNumber 5146
+        Value 1
+       }
+       BooleanCinematicKeyframe "{65089BAF5C961AD7}" {
+        FrameNumber 5687
+        Value 1
+       }
+      }
+      Flags 0
+     }
+     ExpositionLV FloatCinematicTrack "{65069917B4A2D167}" {
+      TrackName "ExpositionLV"
+      Keyframes {
+       FloatCinematicKeyframe "{65089BAF53E7FFC5}" {
+        FrameNumber 5146
+        Value 3.82
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{65089BAF77A79F27}" {
+        FrameNumber 5687
+        Value 20.92
+        InterpMode 0
+       }
+      }
+      Flags 0
+     }
+    }
+   }
+   CustomCinematicTrack "{6506925E500DD09D}" {
+    TrackName "epoch1"
+    ClassName "VehicleCinematicTrack"
+    ChildTracks {
+     BooleanCinematicTrack "{6506925E500DD4F6}" {
+      TrackName "m_bStartEngine"
+      Keyframes {
+       BooleanCinematicKeyframe "{6506925EB218F9CD}" {
+        FrameNumber 0
+        Value 1
+       }
+       BooleanCinematicKeyframe "{650699171B20D1D5}" {
+        FrameNumber 2315
+        Value 0
+       }
+      }
+     }
+     FloatCinematicTrack "{6506925E500DDB95}" {
+      TrackName "m_fEfficiency"
+     }
+     FloatCinematicTrack "{6506925E500DDA13}" {
+      TrackName "m_fSteering"
+     }
+     IntegerCinematicTrack "{6506925E500DDAA2}" {
+      TrackName "m_fGear"
+      Keyframes {
+       IntegerCinematicKeyframe "{6506925F56A7B514}" {
+        FrameNumber 0
+        Value 4
+       }
+      }
+     }
+     FloatCinematicTrack "{6506925E500DD93C}" {
+      TrackName "m_fClutch"
+     }
+     FloatCinematicTrack "{6506925E500DD95B}" {
+      TrackName "m_fBreak"
+     }
+     BooleanCinematicTrack "{6506925E500DD9FC}" {
+      TrackName "m_bHandBrake"
+     }
+     BooleanCinematicTrack "{6506925E500DD823}" {
+      TrackName "m_bLightsOn"
+      Keyframes {
+       BooleanCinematicKeyframe "{6506925F2E901E6F}" {
+        FrameNumber 0
+        Value 1
+       }
+      }
+     }
+     FloatCinematicTrack "{6506925E500DD84B}" {
+      TrackName "m_fThrottle"
+      Keyframes {
+       FloatCinematicKeyframe "{6506925F2C1DBA45}" {
+        FrameNumber 0
+        Value 1
+        InterpMode 0
+       }
+       FloatCinematicKeyframe "{6506925F976A9F83}" {
+        FrameNumber 1191
+        Value 0
+       }
+      }
+     }
+     BooleanCinematicTrack "{6506925E500DD8F2}" {
+      TrackName "m_bTurretControl"
+     }
+     BooleanCinematicTrack "{6506925E500DDF1B}" {
+      TrackName "m_bTurretShot"
+     }
+     FloatCinematicTrack "{6506925E500DDF47}" {
+      TrackName "m_fTurretLeftRight"
+     }
+     FloatCinematicTrack "{6506925E500DDFF0}" {
+      TrackName "m_fTurretDownUp"
+     }
+     EventCinematicTrack "{6506925E500DDE6A}" {
+      TrackName "insertGunner"
+     }
+    }
+   }
+   CustomCinematicTrack "{6506925E4ABEEC60}" {
+    TrackName "epoch3"
+    ClassName "VehicleCinematicTrack"
+    ChildTracks {
+     BooleanCinematicTrack "{6506925E4ABEF77E}" {
+      TrackName "m_bStartEngine"
+      Keyframes {
+       BooleanCinematicKeyframe "{6506925EA97F89E1}" {
+        FrameNumber 0
+        Value 1
+       }
+       BooleanCinematicKeyframe "{65069917164FF28A}" {
+        FrameNumber 2315
+        Value 0
+       }
+      }
+     }
+     FloatCinematicTrack "{6506925E4ABEF658}" {
+      TrackName "m_fEfficiency"
+     }
+     FloatCinematicTrack "{6506925E4ABEF537}" {
+      TrackName "m_fSteering"
+     }
+     IntegerCinematicTrack "{6506925E4ABEF5A2}" {
+      TrackName "m_fGear"
+      Keyframes {
+       IntegerCinematicKeyframe "{6506925F4F795876}" {
+        FrameNumber 0
+        Value 4
+       }
+      }
+     }
+     FloatCinematicTrack "{6506925E4ABEF413}" {
+      TrackName "m_fClutch"
+     }
+     FloatCinematicTrack "{6506925E4ABEF483}" {
+      TrackName "m_fBreak"
+      Keyframes {
+       FloatCinematicKeyframe "{6506925F4DBC3B4F}" {
+        FrameNumber 0
+        Value 0
+       }
+      }
+     }
+     BooleanCinematicTrack "{6506925E4ABEFB7D}" {
+      TrackName "m_bHandBrake"
+     }
+     BooleanCinematicTrack "{6506925E4ABEFBF8}" {
+      TrackName "m_bLightsOn"
+     }
+     FloatCinematicTrack "{6506925E4ABEFA78}" {
+      TrackName "m_fThrottle"
+      Keyframes {
+       FloatCinematicKeyframe "{6506925F4A453A7E}" {
+        FrameNumber 0
+        Value 1
+       }
+       FloatCinematicKeyframe "{6506925F9C0B00B3}" {
+        FrameNumber 1191
+        Value 0
+       }
+      }
+     }
+     BooleanCinematicTrack "{6506925E4ABEFAF7}" {
+      TrackName "m_bTurretControl"
+     }
+     BooleanCinematicTrack "{6506925E4ABEF971}" {
+      TrackName "m_bTurretShot"
+     }
+     FloatCinematicTrack "{6506925E4ABEF9F0}" {
+      TrackName "m_fTurretLeftRight"
+      Keyframes {
+       FloatCinematicKeyframe "{6506925C082CB793}" {
+        FrameNumber 219
+        Value 0
+        InterpMode 0
+       }
+      }
+     }
+     FloatCinematicTrack "{6506925E4ABEF875}" {
+      TrackName "m_fTurretDownUp"
+     }
+     EventCinematicTrack "{6506925E4ABEF8C1}" {
+      TrackName "insertGunner"
+     }
+    }
+   }
+   CustomCinematicTrack "{6506925E4CE52A35}" {
+    TrackName "epoch2"
+    ClassName "VehicleCinematicTrack"
+    ChildTracks {
+     BooleanCinematicTrack "{6506925E4CE52FD7}" {
+      TrackName "m_bStartEngine"
+      Keyframes {
+       BooleanCinematicKeyframe "{6506925EA87309F4}" {
+        FrameNumber 469
+        Value 1
+       }
+       BooleanCinematicKeyframe "{6506991715FD6A5E}" {
+        FrameNumber 2315
+        Value 0
+       }
+      }
+     }
+     FloatCinematicTrack "{6506925E4CE52EF6}" {
+      TrackName "m_fEfficiency"
+     }
+     FloatCinematicTrack "{6506925E4CE52D77}" {
+      TrackName "m_fSteering"
+     }
+     IntegerCinematicTrack "{6506925E4CE52DFC}" {
+      TrackName "m_fGear"
+      Keyframes {
+       IntegerCinematicKeyframe "{6506925F552E426A}" {
+        FrameNumber 469
+        Value 4
+       }
+      }
+     }
+     FloatCinematicTrack "{6506925E4CE52C06}" {
+      TrackName "m_fClutch"
+     }
+     FloatCinematicTrack "{6506925E4CE52C90}" {
+      TrackName "m_fBreak"
+      Keyframes {
+       FloatCinematicKeyframe "{6506925F5228FDC3}" {
+        FrameNumber 469
+        Value 0
+       }
+      }
+     }
+     BooleanCinematicTrack "{6506925E4CE53320}" {
+      TrackName "m_bHandBrake"
+     }
+     BooleanCinematicTrack "{6506925E4CE533B5}" {
+      TrackName "m_bLightsOn"
+     }
+     FloatCinematicTrack "{6506925E4CE533D0}" {
+      TrackName "m_fThrottle"
+      Keyframes {
+       FloatCinematicKeyframe "{6506925F50C9B1DA}" {
+        FrameNumber 469
+        Value 1
+       }
+       FloatCinematicKeyframe "{6506925F98260C6C}" {
+        FrameNumber 1994
+        Value 0
+       }
+      }
+     }
+     BooleanCinematicTrack "{6506925E4CE53270}" {
+      TrackName "m_bTurretControl"
+     }
+     BooleanCinematicTrack "{6506925E4CE53291}" {
+      TrackName "m_bTurretShot"
+     }
+     FloatCinematicTrack "{6506925E4CE53137}" {
+      TrackName "m_fTurretLeftRight"
+     }
+     FloatCinematicTrack "{6506925E4CE5315D}" {
+      TrackName "m_fTurretDownUp"
+     }
+     EventCinematicTrack "{6506925E4CE531D2}" {
+      TrackName "insertGunner"
+     }
+    }
+   }
+   CustomCinematicTrack "{6506991DEFEAFA67}" {
+    TrackName "epoch4"
+    ClassName "VehicleCinematicTrack"
+    ChildTracks {
+     BooleanCinematicTrack "{6506991DEFEAFA5F}" {
+      TrackName "m_bStartEngine"
+      Keyframes {
+       BooleanCinematicKeyframe "{6506991DEFEAFA5D}" {
+        FrameNumber 469
+        Value 1
+       }
+       BooleanCinematicKeyframe "{6506991713D3B05B}" {
+        FrameNumber 2315
+        Value 0
+       }
+      }
+     }
+     FloatCinematicTrack "{6506991DEFEAFA5B}" {
+      TrackName "m_fEfficiency"
+     }
+     FloatCinematicTrack "{6506991DEFEAFA58}" {
+      TrackName "m_fSteering"
+     }
+     IntegerCinematicTrack "{6506991DEFEAFA59}" {
+      TrackName "m_fGear"
+      Keyframes {
+       IntegerCinematicKeyframe "{6506991DEFEAFA56}" {
+        FrameNumber 469
+        Value 4
+       }
+      }
+     }
+     FloatCinematicTrack "{6506991DEFEAFA57}" {
+      TrackName "m_fClutch"
+     }
+     FloatCinematicTrack "{6506991DEFEAFA55}" {
+      TrackName "m_fBreak"
+      Keyframes {
+       FloatCinematicKeyframe "{6506991DEFEAFA52}" {
+        FrameNumber 469
+        Value 0
+       }
+      }
+     }
+     BooleanCinematicTrack "{6506991DEFEAFA53}" {
+      TrackName "m_bHandBrake"
+     }
+     BooleanCinematicTrack "{6506991DEFEAFA51}" {
+      TrackName "m_bLightsOn"
+     }
+     FloatCinematicTrack "{6506991DEFEAFA4E}" {
+      TrackName "m_fThrottle"
+      Keyframes {
+       FloatCinematicKeyframe "{6506991DEFEAFA48}" {
+        FrameNumber 469
+        Value 1
+       }
+       FloatCinematicKeyframe "{6506991DEFEAFA49}" {
+        FrameNumber 1999
+        Value 0
+       }
+      }
+     }
+     BooleanCinematicTrack "{6506991DEFEAFA46}" {
+      TrackName "m_bTurretControl"
+     }
+     BooleanCinematicTrack "{6506991DEFEAFA47}" {
+      TrackName "m_bTurretShot"
+     }
+     FloatCinematicTrack "{6506991DEFEAFA45}" {
+      TrackName "m_fTurretLeftRight"
+     }
+     FloatCinematicTrack "{6506991DEFEAFA43}" {
+      TrackName "m_fTurretDownUp"
+     }
+     EventCinematicTrack "{6506991DEFEAFA40}" {
+      TrackName "insertGunner"
+     }
+    }
+   }
+   CustomCinematicTrack "{6506991C2F1EA41E}" {
+    TrackName "WeatherTrack"
+    ClassName "WeatherCinematicTrack"
+    ChildTracks {
+     FloatCinematicTrack "{6506991C2F1EA0AD}" {
+      TrackName "m_fTimeOfDay"
+      Keyframes {
+       FloatCinematicKeyframe "{6506991C2750AD25}" {
+        FrameNumber -47
+        Value 6.12
+        InterpMode 0
+       }
+      }
+     }
+     IntegerCinematicTrack "{6506991C2F1EA1F7}" {
+      TrackName "m_iWeatherType"
+      Keyframes {
+       IntegerCinematicKeyframe "{6506991C2465047D}" {
+        FrameNumber -47
+        Value 1
+       }
+      }
+     }
+     FloatCinematicTrack "{6506991C2F1EA165}" {
+      TrackName "m_fWindSpeed"
+      Keyframes {
+       FloatCinematicKeyframe "{6506991C21AA1D90}" {
+        FrameNumber 0
+        Value 5.49
+       }
+      }
+     }
+     FloatCinematicTrack "{6506991C2F1EA13B}" {
+      TrackName "m_fWindDirection"
+     }
+     FloatCinematicTrack "{6506991C2F1EA29E}" {
+      TrackName "m_fWetness"
+     }
+     FloatCinematicTrack "{6506991C2F1EA27E}" {
+      TrackName "m_fPuddles"
+     }
+     FloatCinematicTrack "{6506991C2F1EA3D1}" {
+      TrackName "m_fFog"
+     }
+     FloatCinematicTrack "{6506991C2F1EA3A9}" {
+      TrackName "m_fFogHeight"
+     }
+     BooleanCinematicTrack "{6506991C2F1EA30F}" {
+      TrackName "setDate"
+     }
+     IntegerCinematicTrack "{6506991C2F1EACE2}" {
+      TrackName "m_iYear"
+     }
+     IntegerCinematicTrack "{6506991C2F1EAC47}" {
+      TrackName "m_iMonth"
+     }
+     IntegerCinematicTrack "{6506991C2F1EAC1C}" {
+      TrackName "m_iDay"
+     }
+    }
+   }
+   CustomCinematicTrack "{6506991AD2BB5EE0}" {
+    TrackName "su1"
+    ClassName "GeneralCinematicTrack"
+    ChildTracks {
+     FloatCinematicTrack "{6506991AD2BB5A88}" {
+      TrackName "m_bScale"
+     }
+     Vector3CinematicTrack "{6506991AD2BB5B8D}" {
+      TrackName "m_YawPitchRoll"
+      X FloatCinematicTrack "{6506991AD2BB5BBD}" {
+       TrackName "X"
+       Keyframes {
+        FloatCinematicKeyframe "{6506991AC161BD7C}" {
+         FrameNumber 0
+         Value -0.413
+        }
+       }
+      }
+      Y FloatCinematicTrack "{6506991AD2BB5BBB}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{65089BA7E8A5CC41}" {
+         FrameNumber 0
+         Value 134.774
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{65089BAD875D1FF3}" {
+         FrameNumber 985
+         Value 180
+        }
+       }
+      }
+      Z FloatCinematicTrack "{6506991AD2BB5B47}" {
+       TrackName "Z"
+       Keyframes {
+        FloatCinematicKeyframe "{650699152EFE640F}" {
+         FrameNumber 0
+         Value 179.084
+         InterpMode 0
+        }
+       }
+      }
+     }
+     Vector3CinematicTrack "{6506991AD2BB5B3B}" {
+      TrackName "m_Position"
+      X FloatCinematicTrack "{6506991AD2BB64C1}" {
+       TrackName "X"
+       Keyframes {
+        FloatCinematicKeyframe "{6506991AC6B98593}" {
+         FrameNumber 0
+         Value 8070.533
+        }
+        FloatCinematicKeyframe "{65069915602781BB}" {
+         FrameNumber 980
+         Value 12000
+         InterpMode 0
+        }
+       }
+      }
+      Y FloatCinematicTrack "{6506991AD2BB64CC}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{6506991AC493F775}" {
+         FrameNumber 0
+         Value 251.199
+        }
+       }
+      }
+      Z FloatCinematicTrack "{6506991AD2BB64C9}" {
+       TrackName "Z"
+       Keyframes {
+        FloatCinematicKeyframe "{6506991AC28BE24D}" {
+         FrameNumber 0
+         Value 6709.774
+        }
+       }
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{6506991AD0A13DF5}" {
+    TrackName "su2"
+    ClassName "GeneralCinematicTrack"
+    ChildTracks {
+     FloatCinematicTrack "{6506991AD0A1387F}" {
+      TrackName "m_bScale"
+     }
+     Vector3CinematicTrack "{6506991AD0A1395E}" {
+      TrackName "m_YawPitchRoll"
+      X FloatCinematicTrack "{6506991AD0A13964}" {
+       TrackName "X"
+       Keyframes {
+        FloatCinematicKeyframe "{650699151B3BBF34}" {
+         FrameNumber 0
+         Value 0
+        }
+       }
+      }
+      Y FloatCinematicTrack "{6506991AD0A13962}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{65089BA7EC225229}" {
+         FrameNumber 0
+         Value 140.644
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{65089BAD8ACA0290}" {
+         FrameNumber 985
+         Value 177.994
+         InterpMode 0
+        }
+       }
+      }
+      Z FloatCinematicTrack "{6506991AD0A13968}" {
+       TrackName "Z"
+       Keyframes {
+        FloatCinematicKeyframe "{650699152C0B6B9C}" {
+         FrameNumber 0
+         Value 179.084
+        }
+       }
+      }
+     }
+     Vector3CinematicTrack "{6506991AD0A13AE6}" {
+      TrackName "m_Position"
+      X FloatCinematicTrack "{6506991AD0A13AEC}" {
+       TrackName "X"
+       Keyframes {
+        FloatCinematicKeyframe "{6506991523842879}" {
+         FrameNumber 0
+         Value 8075.611
+        }
+        FloatCinematicKeyframe "{650699155DA8DAAA}" {
+         FrameNumber 985
+         Value 12000
+        }
+       }
+      }
+      Y FloatCinematicTrack "{6506991AD0A13AE9}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{6506991520672B5F}" {
+         FrameNumber 0
+         Value 251.198
+        }
+       }
+      }
+      Z FloatCinematicTrack "{6506991AD0A13AF5}" {
+       TrackName "Z"
+       Keyframes {
+        FloatCinematicKeyframe "{65069915212DD73D}" {
+         FrameNumber 0
+         Value 6737.977
+        }
+       }
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{65069917E669454B}" {
+    TrackName "f181"
+    ClassName "GeneralCinematicTrack"
+    ChildTracks {
+     FloatCinematicTrack "{65069917E66941DB}" {
+      TrackName "m_bScale"
+     }
+     Vector3CinematicTrack "{65069917E66942C7}" {
+      TrackName "m_YawPitchRoll"
+      X FloatCinematicTrack "{65069917E66942C2}" {
+       TrackName "X"
+       Keyframes {
+        FloatCinematicKeyframe "{6506991104098E8B}" {
+         FrameNumber 3121
+         Value 91.83
+         InterpMode 0
+        }
+       }
+      }
+      Y FloatCinematicTrack "{65069917E66942C8}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{650699110B6B69F1}" {
+         FrameNumber 3121
+         Value 12.08
+         InterpMode 0
+        }
+       }
+      }
+      Z FloatCinematicTrack "{65069917E66942D4}" {
+       TrackName "Z"
+      }
+     }
+     Vector3CinematicTrack "{65069917E6694242}" {
+      TrackName "m_Position"
+      X FloatCinematicTrack "{65069917E6694249}" {
+       TrackName "X"
+       Keyframes {
+        FloatCinematicKeyframe "{65069911673E352F}" {
+         FrameNumber 3228
+         Value 8893.08
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{65069905A315356F}" {
+         FrameNumber 3549
+         Value 8893.08
+        }
+       }
+      }
+      Y FloatCinematicTrack "{65069917E669424A}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{650699116FE7E584}" {
+         FrameNumber 3228
+         Value 274.902
+        }
+        FloatCinematicKeyframe "{65069905A3153197}" {
+         FrameNumber 3549
+         Value 274.902
+        }
+       }
+      }
+      Z FloatCinematicTrack "{65069917E6694256}" {
+       TrackName "Z"
+       Keyframes {
+        FloatCinematicKeyframe "{650699115E7B3323}" {
+         FrameNumber 3228
+         Value 3230.452
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{650699115016834F}" {
+         FrameNumber 3546
+         Value 4400
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{65069905A31533F7}" {
+         FrameNumber 3549
+         Value 4400
+        }
+        FloatCinematicKeyframe "{650699059F9E4850}" {
+         FrameNumber 3659
+         Value 12000
+        }
+       }
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{65069917E2682626}" {
+    TrackName "f182"
+    ClassName "GeneralCinematicTrack"
+    ChildTracks {
+     FloatCinematicTrack "{65069917E2682289}" {
+      TrackName "m_bScale"
+     }
+     Vector3CinematicTrack "{65069917E26823EC}" {
+      TrackName "m_YawPitchRoll"
+      X FloatCinematicTrack "{65069917E26823EA}" {
+       TrackName "X"
+       Keyframes {
+        FloatCinematicKeyframe "{6506991674011CD5}" {
+         FrameNumber 3119
+         Value 101.67
+         InterpMode 0
+        }
+       }
+      }
+      Y FloatCinematicTrack "{65069917E26823F2}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{650699167928AF08}" {
+         FrameNumber 3119
+         Value 51.78
+        }
+        FloatCinematicKeyframe "{65069916454AB21F}" {
+         FrameNumber 3401
+         Value 61.39
+         InterpMode 0
+        }
+       }
+      }
+      Z FloatCinematicTrack "{65069917E26823FF}" {
+       TrackName "Z"
+       Keyframes {
+        FloatCinematicKeyframe "{65069916478C37BB}" {
+         FrameNumber 3401
+         Value 5.25
+        }
+       }
+      }
+     }
+     Vector3CinematicTrack "{65069917E2682371}" {
+      TrackName "m_Position"
+      X FloatCinematicTrack "{65069917E268237C}" {
+       TrackName "X"
+       Keyframes {
+        FloatCinematicKeyframe "{650699167D8DF193}" {
+         FrameNumber 3119
+         Value 8683.885
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6506991641D0811A}" {
+         FrameNumber 3401
+         Value 8685.754
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{650699111F0C06E2}" {
+         FrameNumber 3404
+         Value 8685.754
+        }
+       }
+      }
+      Y FloatCinematicTrack "{65069917E2682378}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{650699167A8BF805}" {
+         FrameNumber 3119
+         Value 259.177
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{65069916491EC813}" {
+         FrameNumber 3401
+         Value 259.457
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{650699111F0C02F4}" {
+         FrameNumber 3404
+         Value 259.457
+        }
+       }
+      }
+      Z FloatCinematicTrack "{65069917E2682305}" {
+       TrackName "Z"
+       Keyframes {
+        FloatCinematicKeyframe "{65069916A5DCDCCD}" {
+         FrameNumber 3119
+         Value 3187.945
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6506990846A13D68}" {
+         FrameNumber 3401
+         Value 4150
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{650699111F0C0CB3}" {
+         FrameNumber 3404
+         Value 4067.618
+        }
+        FloatCinematicKeyframe "{65069916C948743B}" {
+         FrameNumber 3682
+         Value 120000
+        }
+       }
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{6506990778F35B6E}" {
+    TrackName "UH1"
+    Flags 0
+    ClassName "GeneralCinematicTrack"
+    ChildTracks {
+     FloatCinematicTrack "{6506990778F34717}" {
+      TrackName "m_bScale"
+      Keyframes {
+       FloatCinematicKeyframe "{65069907773D7FC9}" {
+        FrameNumber 3016
+        Value 1
+       }
+       FloatCinematicKeyframe "{6508D686679E9238}" {
+        FrameNumber 5746
+        Value 1
+       }
+      }
+      Flags 0
+     }
+     Vector3CinematicTrack "{6506990778F3461E}" {
+      TrackName "m_YawPitchRoll"
+      Flags 0
+      X FloatCinematicTrack "{6506990778F34615}" {
+       TrackName "X"
+       Keyframes {
+        FloatCinematicKeyframe "{65069907773D7B83}" {
+         FrameNumber 3016
+         Value 0
+        }
+        FloatCinematicKeyframe "{6508D686679E9748}" {
+         FrameNumber 5746
+         Value 0
+        }
+        FloatCinematicKeyframe "{6508D686BDD886AC}" {
+         FrameNumber 5764
+         Value -58.047
+        }
+       }
+       Flags 0
+      }
+      Y FloatCinematicTrack "{6506990778F34612}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{650699076A33B528}" {
+         FrameNumber 3016
+         Value 12.231
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{650699079F663555}" {
+         FrameNumber 3281
+         Value -3.725
+        }
+        FloatCinematicKeyframe "{65069907499B5F5E}" {
+         FrameNumber 4006
+         Value -5.809
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6508D686679E95B3}" {
+         FrameNumber 5746
+         Value -5.809
+        }
+        FloatCinematicKeyframe "{6508D6874775BB88}" {
+         FrameNumber 5764
+         Value -135.08
+         InterpMode 0
+        }
+       }
+       Flags 0
+      }
+      Z FloatCinematicTrack "{6506990778F3460D}" {
+       TrackName "Z"
+       Keyframes {
+        FloatCinematicKeyframe "{65069907773D67EB}" {
+         FrameNumber 3016
+         Value 0
+        }
+        FloatCinematicKeyframe "{6508D686679E9BA5}" {
+         FrameNumber 5746
+         Value 0
+        }
+       }
+       Flags 0
+      }
+     }
+     Vector3CinematicTrack "{6506990778F3469A}" {
+      TrackName "m_Position"
+      Flags 0
+      X FloatCinematicTrack "{6506990778F34696}" {
+       TrackName "X"
+       Keyframes {
+        FloatCinematicKeyframe "{6506D8EAD2E4D80B}" {
+         FrameNumber 0
+         Value 0
+        }
+        FloatCinematicKeyframe "{6506990771ECBEEF}" {
+         FrameNumber 3016
+         Value 8694.605
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{650699075AB5414D}" {
+         FrameNumber 3281
+         Value 8728.216
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6508D686679E999D}" {
+         FrameNumber 5746
+         Value 8728.216
+        }
+        FloatCinematicKeyframe "{6508D68640E08ED7}" {
+         FrameNumber 5764
+         Value 6428.896
+        }
+       }
+       Flags 0
+      }
+      Y FloatCinematicTrack "{6506990778F34690}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{6506D8EAD2E4A23F}" {
+         FrameNumber 0
+         Value 0
+        }
+        FloatCinematicKeyframe "{650699076E6723E8}" {
+         FrameNumber 3016
+         Value 158.41
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{650699074FED4734}" {
+         FrameNumber 3281
+         Value 257.46
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{65069907B05EE4E0}" {
+         FrameNumber 4006
+         Value 268.9
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6508D686679E9F95}" {
+         FrameNumber 5746
+         Value 268.9
+        }
+        FloatCinematicKeyframe "{6508D686417CD76F}" {
+         FrameNumber 5764
+         Value 260.703
+        }
+       }
+       Flags 0
+      }
+      Z FloatCinematicTrack "{6506990778F34692}" {
+       TrackName "Z"
+       Keyframes {
+        FloatCinematicKeyframe "{650894291467D21C}" {
+         FrameNumber 0
+         Value 10
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{650699076CFF28B6}" {
+         FrameNumber 3016
+         Value 2975.172
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{650699074C2F369C}" {
+         FrameNumber 3281
+         Value 3495.262
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6506990040DBA622}" {
+         FrameNumber 4006
+         Value 3973.452
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6506F828AC3A0653}" {
+         FrameNumber 5741
+         Value 5400
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6508D686679E9D8B}" {
+         FrameNumber 5746
+         Value 5400
+        }
+        FloatCinematicKeyframe "{6508D686BE18E491}" {
+         FrameNumber 5764
+         Value 9908.385
+        }
+       }
+       Flags 0
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{65069906613803B6}" {
+    TrackName "UH2"
+    ClassName "GeneralCinematicTrack"
+    ChildTracks {
+     FloatCinematicTrack "{65069906613803AF}" {
+      TrackName "m_bScale"
+      Keyframes {
+       FloatCinematicKeyframe "{65069906613803A9}" {
+        FrameNumber 3016
+        Value 1
+       }
+       FloatCinematicKeyframe "{6508D68666196F4A}" {
+        FrameNumber 5746
+        Value 1
+       }
+      }
+     }
+     Vector3CinematicTrack "{65069906613803AB}" {
+      TrackName "m_YawPitchRoll"
+      X FloatCinematicTrack "{65069906613803A4}" {
+       TrackName "X"
+       Keyframes {
+        FloatCinematicKeyframe "{65069906613803A5}" {
+         FrameNumber 3016
+         Value 0
+        }
+        FloatCinematicKeyframe "{6508D6866619736E}" {
+         FrameNumber 5746
+         Value 0
+        }
+        FloatCinematicKeyframe "{6508D686A78EB9FD}" {
+         FrameNumber 5764
+         Value -54.537
+         InterpMode 0
+        }
+       }
+      }
+      Y FloatCinematicTrack "{65069906613803A6}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{65069906613803A7}" {
+         FrameNumber 3016
+         Value 12.231
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{65069906613803A0}" {
+         FrameNumber 3281
+         Value -3.725
+        }
+        FloatCinematicKeyframe "{6506990682C1FE57}" {
+         FrameNumber 4006
+         Value -11.165
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6508D68666197195}" {
+         FrameNumber 5746
+         Value -11.165
+        }
+        FloatCinematicKeyframe "{6508D68749619DC3}" {
+         FrameNumber 5764
+         Value -135.08
+         InterpMode 0
+        }
+       }
+      }
+      Z FloatCinematicTrack "{65069906613803A2}" {
+       TrackName "Z"
+       Keyframes {
+        FloatCinematicKeyframe "{65069906613803A3}" {
+         FrameNumber 3016
+         Value 0
+        }
+        FloatCinematicKeyframe "{6508D686661977CE}" {
+         FrameNumber 5746
+         Value 0
+        }
+       }
+      }
+     }
+     Vector3CinematicTrack "{650699066138039C}" {
+      TrackName "m_Position"
+      X FloatCinematicTrack "{650699066138039A}" {
+       TrackName "X"
+       Keyframes {
+        FloatCinematicKeyframe "{6506D8EAD1A90072}" {
+         FrameNumber 0
+         Value 0
+        }
+        FloatCinematicKeyframe "{650699066138039B}" {
+         FrameNumber 3016
+         Value 8694.605
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{650699068C45906C}" {
+         FrameNumber 3281
+         Value 8633.637
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{65069906EBDBAF2E}" {
+         FrameNumber 4006
+         Value 8635.047
+        }
+        FloatCinematicKeyframe "{6508D6866619740B}" {
+         FrameNumber 5746
+         Value 8635.047
+        }
+        FloatCinematicKeyframe "{6508D686AB47BE08}" {
+         FrameNumber 5764
+         Value 6405.736
+         InterpMode 0
+        }
+       }
+      }
+      Y FloatCinematicTrack "{650699066138A1E1}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{6506D8EAD1A90B63}" {
+         FrameNumber 0
+         Value 0
+        }
+        FloatCinematicKeyframe "{6506990661389363}" {
+         FrameNumber 3016
+         Value 158.41
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{65069906921FCFEA}" {
+         FrameNumber 3281
+         Value 262.14
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{65069906E0E9E7BA}" {
+         FrameNumber 4006
+         Value 231.89
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6508D68666197ABD}" {
+         FrameNumber 5746
+         Value 231.89
+        }
+        FloatCinematicKeyframe "{6508D686B214EBBE}" {
+         FrameNumber 5764
+         Value 260.703
+        }
+       }
+      }
+      Z FloatCinematicTrack "{6506990661389364}" {
+       TrackName "Z"
+       Keyframes {
+        FloatCinematicKeyframe "{650894291386CEF1}" {
+         FrameNumber 0
+         Value 20
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6506990661389367}" {
+         FrameNumber 3016
+         Value 2975.172
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6506990661389366}" {
+         FrameNumber 3281
+         Value 3495.262
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{65069900B841366C}" {
+         FrameNumber 4006
+         Value 3932.922
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6506F828AE4F38E2}" {
+         FrameNumber 5741
+         Value 5400
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6508D686661978F5}" {
+         FrameNumber 5746
+         Value 5400
+        }
+        FloatCinematicKeyframe "{6508D686B0DE5F14}" {
+         FrameNumber 5764
+         Value 9908.385
+        }
+       }
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{65069906CA76DDDC}" {
+    TrackName "UH3"
+    ClassName "GeneralCinematicTrack"
+    ChildTracks {
+     FloatCinematicTrack "{65069906CA76DDD7}" {
+      TrackName "m_bScale"
+      Keyframes {
+       FloatCinematicKeyframe "{65069906CA76DDE8}" {
+        FrameNumber 3016
+        Value 1
+       }
+       FloatCinematicKeyframe "{6508D68666B4AD88}" {
+        FrameNumber 5746
+        Value 1
+       }
+      }
+     }
+     Vector3CinematicTrack "{65069906CA76DDEF}" {
+      TrackName "m_YawPitchRoll"
+      X FloatCinematicTrack "{65069906CA76DDEE}" {
+       TrackName "X"
+       Keyframes {
+        FloatCinematicKeyframe "{65069906CA76DDE1}" {
+         FrameNumber 3016
+         Value 0
+        }
+        FloatCinematicKeyframe "{6508D68666B4B1B8}" {
+         FrameNumber 5746
+         Value 0
+        }
+        FloatCinematicKeyframe "{6508D6868AA007B0}" {
+         FrameNumber 5764
+         Value -55.36
+        }
+       }
+      }
+      Y FloatCinematicTrack "{65069906CA76DDE3}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{65069906CA76DDE2}" {
+         FrameNumber 3016
+         Value 12.231
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{65069906CA76DDE4}" {
+         FrameNumber 3281
+         Value -3.725
+        }
+        FloatCinematicKeyframe "{6508D68666B4B7D2}" {
+         FrameNumber 5746
+         Value -3.725
+        }
+        FloatCinematicKeyframe "{6508D6874B5C798D}" {
+         FrameNumber 5764
+         Value -135.08
+         InterpMode 0
+        }
+       }
+      }
+      Z FloatCinematicTrack "{65069906CA76DDF9}" {
+       TrackName "Z"
+       Keyframes {
+        FloatCinematicKeyframe "{65069906CA76DDFB}" {
+         FrameNumber 3016
+         Value 0
+        }
+        FloatCinematicKeyframe "{6508D68666B4B405}" {
+         FrameNumber 5746
+         Value 0
+        }
+       }
+      }
+     }
+     Vector3CinematicTrack "{65069906CA76DDFD}" {
+      TrackName "m_Position"
+      X FloatCinematicTrack "{65069906CA76DDF4}" {
+       TrackName "X"
+       Keyframes {
+        FloatCinematicKeyframe "{6506D8EACE021C77}" {
+         FrameNumber 0
+         Value 0
+        }
+        FloatCinematicKeyframe "{65069906CA76DDF7}" {
+         FrameNumber 3016
+         Value 8694.605
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{650699013CD9F9C7}" {
+         FrameNumber 3281
+         Value 8676.156
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6508D68666B4BAAD}" {
+         FrameNumber 5746
+         Value 8676.156
+        }
+        FloatCinematicKeyframe "{6508D68685F0ADBC}" {
+         FrameNumber 5764
+         Value 6377.766
+         InterpMode 0
+        }
+       }
+      }
+      Y FloatCinematicTrack "{65069906CA76DD88}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{6506D8EACE01E685}" {
+         FrameNumber 0
+         Value 0
+        }
+        FloatCinematicKeyframe "{65069906CA76DD8B}" {
+         FrameNumber 3016
+         Value 158.41
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{65069906CA76DD8A}" {
+         FrameNumber 3281
+         Value 262.14
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{650699005A9AAE33}" {
+         FrameNumber 4006
+         Value 257.2
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6508D68666B4B8D7}" {
+         FrameNumber 5746
+         Value 257.2
+        }
+        FloatCinematicKeyframe "{6508D68683997C2B}" {
+         FrameNumber 5764
+         Value 260.703
+         InterpMode 0
+        }
+       }
+      }
+      Z FloatCinematicTrack "{65069906CA768FE1}" {
+       TrackName "Z"
+       Keyframes {
+        FloatCinematicKeyframe "{65089429111D9579}" {
+         FrameNumber 0
+         Value 30
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{65069906CA768FEF}" {
+         FrameNumber 3016
+         Value 2975.172
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{65069906CA768FEE}" {
+         FrameNumber 3281
+         Value 3495.262
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{65069900B566214A}" {
+         FrameNumber 4006
+         Value 3919.052
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6506F828B3B0B63F}" {
+         FrameNumber 5741
+         Value 5400
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6508D68666B4BD74}" {
+         FrameNumber 5746
+         Value 5400
+        }
+        FloatCinematicKeyframe "{6508D6868158F00F}" {
+         FrameNumber 5764
+         Value 9908.385
+         InterpMode 0
+        }
+       }
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{6506990328AFF234}" {
+    TrackName "UH4"
+    ClassName "GeneralCinematicTrack"
+    ChildTracks {
+     FloatCinematicTrack "{6506990328AFF205}" {
+      TrackName "m_bScale"
+      Keyframes {
+       FloatCinematicKeyframe "{6506990328AFF203}" {
+        FrameNumber 3016
+        Value 1
+       }
+       FloatCinematicKeyframe "{6508D68669A914A6}" {
+        FrameNumber 5746
+        Value 1
+       }
+      }
+     }
+     Vector3CinematicTrack "{6506990328AFF20E}" {
+      TrackName "m_YawPitchRoll"
+      X FloatCinematicTrack "{6506990328AFF20C}" {
+       TrackName "X"
+       Keyframes {
+        FloatCinematicKeyframe "{6506990328AFF20B}" {
+         FrameNumber 3016
+         Value 0
+        }
+        FloatCinematicKeyframe "{6508D68669A91886}" {
+         FrameNumber 5746
+         Value 0
+        }
+        FloatCinematicKeyframe "{6508D686F8B4004A}" {
+         FrameNumber 5764
+         Value -55
+        }
+       }
+      }
+      Y FloatCinematicTrack "{6506990328AFF20A}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{6506990328AFF208}" {
+         FrameNumber 3016
+         Value 12.231
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6506990328AFF212}" {
+         FrameNumber 3392
+         Value -3.725
+        }
+        FloatCinematicKeyframe "{6508D68669A91D6E}" {
+         FrameNumber 5746
+         Value -3.725
+        }
+        FloatCinematicKeyframe "{6508D6874D3DB4DE}" {
+         FrameNumber 5764
+         Value -135.08
+         InterpMode 0
+        }
+       }
+      }
+      Z FloatCinematicTrack "{6506990328AFF21F}" {
+       TrackName "Z"
+       Keyframes {
+        FloatCinematicKeyframe "{6506990328AFF21E}" {
+         FrameNumber 3016
+         Value 0
+        }
+        FloatCinematicKeyframe "{6508D68669A8E3EE}" {
+         FrameNumber 5746
+         Value 0
+        }
+       }
+      }
+     }
+     Vector3CinematicTrack "{6506990328AFF21D}" {
+      TrackName "m_Position"
+      X FloatCinematicTrack "{6506990328AFF21B}" {
+       TrackName "X"
+       Keyframes {
+        FloatCinematicKeyframe "{6506D8EACC929109}" {
+         FrameNumber 0
+         Value 0
+        }
+        FloatCinematicKeyframe "{6506990328AFF263}" {
+         FrameNumber 3016
+         Value 8694.605
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6506990305DBC9C6}" {
+         FrameNumber 3392
+         Value 8955.606
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6508D68669A8E06A}" {
+         FrameNumber 5746
+         Value 8955.606
+        }
+        FloatCinematicKeyframe "{6508D686FDB9ABDF}" {
+         FrameNumber 5764
+         Value 6343.616
+         InterpMode 0
+        }
+       }
+      }
+      Y FloatCinematicTrack "{6506990328AFF26F}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{6506D8EACC9294EA}" {
+         FrameNumber 0
+         Value 0
+        }
+        FloatCinematicKeyframe "{6506990328AFF26D}" {
+         FrameNumber 3016
+         Value 158.41
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6506990304FFA8CC}" {
+         FrameNumber 3392
+         Value 266.36
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6508D68669A8E6E5}" {
+         FrameNumber 5746
+         Value 266.36
+        }
+        FloatCinematicKeyframe "{6508D6868094B208}" {
+         FrameNumber 5764
+         Value 260.703
+        }
+       }
+      }
+      Z FloatCinematicTrack "{6506990328AFF277}" {
+       TrackName "Z"
+       Keyframes {
+        FloatCinematicKeyframe "{650894290DF90DF6}" {
+         FrameNumber 0
+         Value 40
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6506990328AFF276}" {
+         FrameNumber 3016
+         Value 2975.172
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6506990307F1F06B}" {
+         FrameNumber 3392
+         Value 3468.692
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{650699020081E44F}" {
+         FrameNumber 4362
+         Value 4262.992
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6506F828B4870730}" {
+         FrameNumber 5741
+         Value 5400
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6508D68669A8EB68}" {
+         FrameNumber 5746
+         Value 5400
+        }
+        FloatCinematicKeyframe "{6508D686FF9982F3}" {
+         FrameNumber 5764
+         Value 9908.385
+        }
+       }
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{65069903081B13C9}" {
+    TrackName "UH5"
+    ClassName "GeneralCinematicTrack"
+    ChildTracks {
+     FloatCinematicTrack "{65069903081B13D1}" {
+      TrackName "m_bScale"
+      Keyframes {
+       FloatCinematicKeyframe "{65069903081B13D0}" {
+        FrameNumber 3016
+        Value 1
+       }
+       FloatCinematicKeyframe "{6508D68668180E44}" {
+        FrameNumber 5746
+        Value 1
+       }
+      }
+     }
+     Vector3CinematicTrack "{65069903081B13DD}" {
+      TrackName "m_YawPitchRoll"
+      X FloatCinematicTrack "{65069903081B13DC}" {
+       TrackName "X"
+       Keyframes {
+        FloatCinematicKeyframe "{65069903081B13DB}" {
+         FrameNumber 3016
+         Value 0
+        }
+        FloatCinematicKeyframe "{6508D68668181247}" {
+         FrameNumber 5746
+         Value 0
+        }
+        FloatCinematicKeyframe "{6508D686E83605E3}" {
+         FrameNumber 5764
+         Value -55
+        }
+       }
+      }
+      Y FloatCinematicTrack "{65069903081B13DA}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{65069903081B13D9}" {
+         FrameNumber 3016
+         Value 12.231
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{65069903081B13D8}" {
+         FrameNumber 3387
+         Value -3.725
+        }
+        FloatCinematicKeyframe "{6508D68668181712}" {
+         FrameNumber 5746
+         Value -3.725
+        }
+        FloatCinematicKeyframe "{6508D6874CF40063}" {
+         FrameNumber 5764
+         Value -135.08
+         InterpMode 0
+        }
+       }
+      }
+      Z FloatCinematicTrack "{65069903081B1327}" {
+       TrackName "Z"
+       Keyframes {
+        FloatCinematicKeyframe "{65069903081B1326}" {
+         FrameNumber 3016
+         Value 0
+        }
+        FloatCinematicKeyframe "{6508D686681815F3}" {
+         FrameNumber 5746
+         Value 0
+        }
+       }
+      }
+     }
+     Vector3CinematicTrack "{65069903081B1324}" {
+      TrackName "m_Position"
+      X FloatCinematicTrack "{65069903081B1323}" {
+       TrackName "X"
+       Keyframes {
+        FloatCinematicKeyframe "{6506D8EACD194FC9}" {
+         FrameNumber 0
+         Value 0
+        }
+        FloatCinematicKeyframe "{65069903081B132D}" {
+         FrameNumber 3016
+         Value 8694.605
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{65069903081B132C}" {
+         FrameNumber 3387
+         Value 8892.456
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6508D68668181A50}" {
+         FrameNumber 5746
+         Value 8892.456
+        }
+        FloatCinematicKeyframe "{6508D686ED724A81}" {
+         FrameNumber 5764
+         Value 6461.586
+         InterpMode 0
+        }
+       }
+      }
+      Y FloatCinematicTrack "{65069903081B132A}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{6506D8EACD1951E0}" {
+         FrameNumber 0
+         Value 0
+        }
+        FloatCinematicKeyframe "{65069903081B1329}" {
+         FrameNumber 3016
+         Value 158.41
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{65069903081B1328}" {
+         FrameNumber 3387
+         Value 254.08
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{650699035BF906E7}" {
+         FrameNumber 4362
+         Value 240.63
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6508D68668181F32}" {
+         FrameNumber 5746
+         Value 240.63
+        }
+        FloatCinematicKeyframe "{6508D686F1DD6E4F}" {
+         FrameNumber 5764
+         Value 260.703
+        }
+       }
+      }
+      Z FloatCinematicTrack "{65069903081B1337}" {
+       TrackName "Z"
+       Keyframes {
+        FloatCinematicKeyframe "{650894290BBD7BB1}" {
+         FrameNumber 0
+         Value 50
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{65069903081B1336}" {
+         FrameNumber 3016
+         Value 2975.172
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6506990399FF053B}" {
+         FrameNumber 3387
+         Value 3382.442
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6506990202D89897}" {
+         FrameNumber 4362
+         Value 4262.992
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6506F828B6813689}" {
+         FrameNumber 5741
+         Value 5400
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6508D68668181DFE}" {
+         FrameNumber 5746
+         Value 5400
+        }
+        FloatCinematicKeyframe "{6508D686EE84BF61}" {
+         FrameNumber 5764
+         Value 9908.385
+        }
+       }
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{650699038C6C0A9A}" {
+    TrackName "UH6"
+    ClassName "GeneralCinematicTrack"
+    ChildTracks {
+     FloatCinematicTrack "{650699038C6C0AE2}" {
+      TrackName "m_bScale"
+      Keyframes {
+       FloatCinematicKeyframe "{650699038C6C0AE0}" {
+        FrameNumber 3016
+        Value 1
+       }
+       FloatCinematicKeyframe "{6508D68668A35E88}" {
+        FrameNumber 5746
+        Value 1
+       }
+      }
+     }
+     Vector3CinematicTrack "{650699038C6C0AED}" {
+      TrackName "m_YawPitchRoll"
+      X FloatCinematicTrack "{650699038C6C0AEC}" {
+       TrackName "X"
+       Keyframes {
+        FloatCinematicKeyframe "{650699038C6C0AEB}" {
+         FrameNumber 3016
+         Value 0
+        }
+        FloatCinematicKeyframe "{6508D68668A322C9}" {
+         FrameNumber 5746
+         Value 0
+        }
+        FloatCinematicKeyframe "{6508D686DAC3DF75}" {
+         FrameNumber 5764
+         Value -55
+        }
+       }
+      }
+      Y FloatCinematicTrack "{650699038C6C0AE9}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{650699038C6C0AE8}" {
+         FrameNumber 3016
+         Value 12.231
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{650699038C6C0AF7}" {
+         FrameNumber 3387
+         Value -3.725
+        }
+        FloatCinematicKeyframe "{6508D68668A32780}" {
+         FrameNumber 5746
+         Value -3.725
+        }
+        FloatCinematicKeyframe "{6508D6874E7EE418}" {
+         FrameNumber 5764
+         Value -135.08
+         InterpMode 0
+        }
+       }
+      }
+      Z FloatCinematicTrack "{650699038C6C0AF6}" {
+       TrackName "Z"
+       Keyframes {
+        FloatCinematicKeyframe "{650699038C6C0AF5}" {
+         FrameNumber 3016
+         Value 0
+        }
+        FloatCinematicKeyframe "{6508D68668A3244F}" {
+         FrameNumber 5746
+         Value 0
+        }
+       }
+      }
+     }
+     Vector3CinematicTrack "{650699038C6C0AF4}" {
+      TrackName "m_Position"
+      X FloatCinematicTrack "{650699038C6C0AF3}" {
+       TrackName "X"
+       Keyframes {
+        FloatCinematicKeyframe "{6506D8EACB114861}" {
+         FrameNumber 0
+         Value 0
+        }
+        FloatCinematicKeyframe "{650699038C6C0AFC}" {
+         FrameNumber 3016
+         Value 8694.605
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{650699038C6C0AFB}" {
+         FrameNumber 3387
+         Value 8892.456
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6508D68668A32922}" {
+         FrameNumber 5746
+         Value 8892.456
+        }
+        FloatCinematicKeyframe "{6508D686DF2BABF0}" {
+         FrameNumber 5764
+         Value 6474.416
+         InterpMode 0
+        }
+       }
+      }
+      Y FloatCinematicTrack "{650699038C6C0AFA}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{6506D8EACB115262}" {
+         FrameNumber 0
+         Value 0
+        }
+        FloatCinematicKeyframe "{650699038C6C0AF9}" {
+         FrameNumber 3016
+         Value 158.41
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6506990387218C3F}" {
+         FrameNumber 3387
+         Value 300.27
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6508D68668A32F82}" {
+         FrameNumber 5746
+         Value 300.27
+        }
+        FloatCinematicKeyframe "{6508D686E0979379}" {
+         FrameNumber 5764
+         Value 260.703
+        }
+       }
+      }
+      Z FloatCinematicTrack "{650699038C6C0AC6}" {
+       TrackName "Z"
+       Keyframes {
+        FloatCinematicKeyframe "{6508942909432636}" {
+         FrameNumber 0
+         Value 60
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{650699038C6C0AC5}" {
+         FrameNumber 3016
+         Value 2975.172
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{650699038650AC2A}" {
+         FrameNumber 3387
+         Value 3415.092
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6506990204DF7001}" {
+         FrameNumber 4362
+         Value 4262.992
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6506F828B8A2682E}" {
+         FrameNumber 5741
+         Value 5400
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6508D68668A32C5E}" {
+         FrameNumber 5746
+         Value 5400
+        }
+        FloatCinematicKeyframe "{6508D686E11F636E}" {
+         FrameNumber 5764
+         Value 9908.385
+        }
+       }
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{6506990380AD3F1C}" {
+    TrackName "UH7"
+    ClassName "GeneralCinematicTrack"
+    ChildTracks {
+     FloatCinematicTrack "{6506990380AD3F15}" {
+      TrackName "m_bScale"
+      Keyframes {
+       FloatCinematicKeyframe "{6506990380AD3F17}" {
+        FrameNumber 3016
+        Value 1
+       }
+       FloatCinematicKeyframe "{6508D6866B1216B1}" {
+        FrameNumber 5746
+        Value 1
+       }
+      }
+     }
+     Vector3CinematicTrack "{6506990380AD3F0B}" {
+      TrackName "m_YawPitchRoll"
+      X FloatCinematicTrack "{6506990380AD3F0C}" {
+       TrackName "X"
+       Keyframes {
+        FloatCinematicKeyframe "{6506990380AD3F0D}" {
+         FrameNumber 3016
+         Value 0
+        }
+        FloatCinematicKeyframe "{6508D6866B121AE9}" {
+         FrameNumber 5746
+         Value 0
+        }
+        FloatCinematicKeyframe "{6508D68755F13970}" {
+         FrameNumber 5764
+         Value -60.37
+         InterpMode 0
+        }
+       }
+      }
+      Y FloatCinematicTrack "{6506990380AD3F0E}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{6506990380AD3F0F}" {
+         FrameNumber 3016
+         Value 12.231
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6506990380AD3F00}" {
+         FrameNumber 3387
+         Value -3.725
+        }
+        FloatCinematicKeyframe "{6508D6866B121FB1}" {
+         FrameNumber 5746
+         Value -3.725
+        }
+        FloatCinematicKeyframe "{6508D68750FB306C}" {
+         FrameNumber 5764
+         Value -135.08
+         InterpMode 0
+        }
+       }
+      }
+      Z FloatCinematicTrack "{6506990380AD3F01}" {
+       TrackName "Z"
+       Keyframes {
+        FloatCinematicKeyframe "{6506990380AD3F02}" {
+         FrameNumber 3016
+         Value 0
+        }
+        FloatCinematicKeyframe "{6508D6866B121C14}" {
+         FrameNumber 5746
+         Value 0
+        }
+       }
+      }
+     }
+     Vector3CinematicTrack "{6506990380AD3F03}" {
+      TrackName "m_Position"
+      X FloatCinematicTrack "{6506990380AD3F04}" {
+       TrackName "X"
+       Keyframes {
+        FloatCinematicKeyframe "{6506D8EAC922C843}" {
+         FrameNumber 0
+         Value 0
+        }
+        FloatCinematicKeyframe "{6506990380AD3F3A}" {
+         FrameNumber 3016
+         Value 8694.605
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{65069903F8FD9242}" {
+         FrameNumber 3387
+         Value 9009.576
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6508D6866B11E2F1}" {
+         FrameNumber 5746
+         Value 9009.576
+        }
+        FloatCinematicKeyframe "{6508D686CED31DAF}" {
+         FrameNumber 5764
+         Value 6442.056
+         InterpMode 0
+        }
+       }
+      }
+      Y FloatCinematicTrack "{6506990380AD3F3C}" {
+       TrackName "Y"
+       Keyframes {
+        FloatCinematicKeyframe "{6506D8EAC922D205}" {
+         FrameNumber 0
+         Value 0
+        }
+        FloatCinematicKeyframe "{6506990380AD3F3D}" {
+         FrameNumber 3016
+         Value 158.41
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{65069903FC013B55}" {
+         FrameNumber 3387
+         Value 275.46
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6508D6866B11E754}" {
+         FrameNumber 5746
+         Value 275.46
+        }
+        FloatCinematicKeyframe "{6508D686CFC76991}" {
+         FrameNumber 5764
+         Value 262.533
+         InterpMode 0
+        }
+       }
+      }
+      Z FloatCinematicTrack "{6506990380AD3F30}" {
+       TrackName "Z"
+       Keyframes {
+        FloatCinematicKeyframe "{6508942904117793}" {
+         FrameNumber 0
+         Value 70
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6506990380AD3F31}" {
+         FrameNumber 3016
+         Value 2975.172
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{65069903FAA77D59}" {
+         FrameNumber 3387
+         Value 3392.242
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6506990209A52453}" {
+         FrameNumber 4362
+         Value 4262.992
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6506F828BA69D92D}" {
+         FrameNumber 5741
+         Value 5400
+         InterpMode 0
+        }
+        FloatCinematicKeyframe "{6508D6866B11E43D}" {
+         FrameNumber 5746
+         Value 5400
+        }
+        FloatCinematicKeyframe "{6508D686CC924753}" {
+         FrameNumber 5764
+         Value 9951.305
+         InterpMode 0
+        }
+       }
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{65069902B611A071}" {
+    TrackName "Lav1"
+    ClassName "VehicleCinematicTrack"
+    ChildTracks {
+     BooleanCinematicTrack "{65069902B611AF01}" {
+      TrackName "m_bStartEngine"
+      Keyframes {
+       BooleanCinematicKeyframe "{65069902B45B5FD2}" {
+        FrameNumber 3671
+        Value 1
+       }
+       BooleanCinematicKeyframe "{6508D6839CBD6FBA}" {
+        FrameNumber 5552
+        Value 0
+       }
+      }
+     }
+     FloatCinematicTrack "{65069902B611AFC4}" {
+      TrackName "m_fEfficiency"
+     }
+     FloatCinematicTrack "{65069902B611AE34}" {
+      TrackName "m_fSteering"
+     }
+     IntegerCinematicTrack "{65069902B611AEBB}" {
+      TrackName "m_fGear"
+     }
+     FloatCinematicTrack "{65069902B611A911}" {
+      TrackName "m_fClutch"
+     }
+     FloatCinematicTrack "{65069902B611A98A}" {
+      TrackName "m_fBreak"
+     }
+     BooleanCinematicTrack "{65069902B611A9E4}" {
+      TrackName "m_bHandBrake"
+     }
+     BooleanCinematicTrack "{65069902B611A840}" {
+      TrackName "m_bLightsOn"
+     }
+     FloatCinematicTrack "{65069902B611A8BF}" {
+      TrackName "m_fThrottle"
+      Keyframes {
+       FloatCinematicKeyframe "{65069902B27A522E}" {
+        FrameNumber 3671
+        Value 1
+       }
+      }
+     }
+     BooleanCinematicTrack "{65069902B611AB1C}" {
+      TrackName "m_bTurretControl"
+     }
+     BooleanCinematicTrack "{65069902B611AB78}" {
+      TrackName "m_bTurretShot"
+     }
+     FloatCinematicTrack "{65069902B611ABDA}" {
+      TrackName "m_fTurretLeftRight"
+     }
+     FloatCinematicTrack "{65069902B611AA3C}" {
+      TrackName "m_fTurretDownUp"
+     }
+     EventCinematicTrack "{65069902B611AADD}" {
+      TrackName "insertGunner"
+     }
+    }
+   }
+   CustomCinematicTrack "{6506990282A2066A}" {
+    TrackName "Lav2"
+    ClassName "VehicleCinematicTrack"
+    ChildTracks {
+     BooleanCinematicTrack "{6506990282A20662}" {
+      TrackName "m_bStartEngine"
+      Keyframes {
+       BooleanCinematicKeyframe "{6506990282A20661}" {
+        FrameNumber 3671
+        Value 1
+       }
+       BooleanCinematicKeyframe "{6508D6839FB6D40A}" {
+        FrameNumber 5552
+        Value 0
+       }
+      }
+     }
+     FloatCinematicTrack "{6506990282A2067E}" {
+      TrackName "m_fEfficiency"
+     }
+     FloatCinematicTrack "{6506990282A2067D}" {
+      TrackName "m_fSteering"
+     }
+     IntegerCinematicTrack "{6506990282A2067C}" {
+      TrackName "m_fGear"
+     }
+     FloatCinematicTrack "{6506990282A2067B}" {
+      TrackName "m_fClutch"
+     }
+     FloatCinematicTrack "{6506990282A20499}" {
+      TrackName "m_fBreak"
+     }
+     BooleanCinematicTrack "{6506990282A2049B}" {
+      TrackName "m_bHandBrake"
+     }
+     BooleanCinematicTrack "{6506990282A23F36}" {
+      TrackName "m_bLightsOn"
+     }
+     FloatCinematicTrack "{6506990282A23F38}" {
+      TrackName "m_fThrottle"
+      Keyframes {
+       FloatCinematicKeyframe "{6506990282A23F39}" {
+        FrameNumber 3671
+        Value 1
+       }
+      }
+     }
+     BooleanCinematicTrack "{6506990282A23F3B}" {
+      TrackName "m_bTurretControl"
+     }
+     BooleanCinematicTrack "{6506990282A23FC0}" {
+      TrackName "m_bTurretShot"
+     }
+     FloatCinematicTrack "{6506990282A23C97}" {
+      TrackName "m_fTurretLeftRight"
+     }
+     FloatCinematicTrack "{6506990282A23C96}" {
+      TrackName "m_fTurretDownUp"
+     }
+     EventCinematicTrack "{6506990282A1FA28}" {
+      TrackName "insertGunner"
+     }
+    }
+   }
+   CustomCinematicTrack "{65069902FE6071EE}" {
+    TrackName "M1"
+    ClassName "VehicleCinematicTrack"
+    ChildTracks {
+     BooleanCinematicTrack "{65069902FE6071F9}" {
+      TrackName "m_bStartEngine"
+      Keyframes {
+       BooleanCinematicKeyframe "{65069902FE6071F8}" {
+        FrameNumber 3661
+        Value 1
+       }
+       BooleanCinematicKeyframe "{6508D683A3F51206}" {
+        FrameNumber 5552
+        Value 0
+       }
+      }
+     }
+     FloatCinematicTrack "{65069902FE6071FC}" {
+      TrackName "m_fEfficiency"
+     }
+     FloatCinematicTrack "{65069902FE6071FF}" {
+      TrackName "m_fSteering"
+     }
+     IntegerCinematicTrack "{65069902FE6071F1}" {
+      TrackName "m_fGear"
+     }
+     FloatCinematicTrack "{65069902FE60D307}" {
+      TrackName "m_fClutch"
+     }
+     FloatCinematicTrack "{65069902FE60D305}" {
+      TrackName "m_fBreak"
+     }
+     BooleanCinematicTrack "{65069902FE615003}" {
+      TrackName "m_bHandBrake"
+     }
+     BooleanCinematicTrack "{65069902FE615002}" {
+      TrackName "m_bLightsOn"
+     }
+     FloatCinematicTrack "{65069902FE615005}" {
+      TrackName "m_fThrottle"
+      Keyframes {
+       FloatCinematicKeyframe "{65069902FE615004}" {
+        FrameNumber 3661
+        Value 1
+       }
+      }
+     }
+     BooleanCinematicTrack "{65069902FE615007}" {
+      TrackName "m_bTurretControl"
+     }
+     BooleanCinematicTrack "{65069902FE61503A}" {
+      TrackName "m_bTurretShot"
+     }
+     FloatCinematicTrack "{65069902FE61503D}" {
+      TrackName "m_fTurretLeftRight"
+     }
+     FloatCinematicTrack "{65069902FE61503C}" {
+      TrackName "m_fTurretDownUp"
+     }
+     EventCinematicTrack "{65069902FE615795}" {
+      TrackName "insertGunner"
+     }
+    }
+   }
+   CustomCinematicTrack "{65069902FAC16108}" {
+    TrackName "M2"
+    ClassName "VehicleCinematicTrack"
+    ChildTracks {
+     BooleanCinematicTrack "{65069902FAC160F0}" {
+      TrackName "m_bStartEngine"
+      Keyframes {
+       BooleanCinematicKeyframe "{65069902FAC160F1}" {
+        FrameNumber 3651
+        Value 1
+       }
+       BooleanCinematicKeyframe "{6508D683A53C1251}" {
+        FrameNumber 5552
+        Value 0
+       }
+      }
+     }
+     FloatCinematicTrack "{65069902FAC160F6}" {
+      TrackName "m_fEfficiency"
+     }
+     FloatCinematicTrack "{65069902FAC160F7}" {
+      TrackName "m_fSteering"
+     }
+     IntegerCinematicTrack "{65069902FAC160F8}" {
+      TrackName "m_fGear"
+     }
+     FloatCinematicTrack "{65069902FAC160F9}" {
+      TrackName "m_fClutch"
+     }
+     FloatCinematicTrack "{65069902FAC14DC4}" {
+      TrackName "m_fBreak"
+     }
+     BooleanCinematicTrack "{65069902FAC14DC6}" {
+      TrackName "m_bHandBrake"
+     }
+     BooleanCinematicTrack "{65069902FAC14DC1}" {
+      TrackName "m_bLightsOn"
+     }
+     FloatCinematicTrack "{65069902FAC13A31}" {
+      TrackName "m_fThrottle"
+      Keyframes {
+       FloatCinematicKeyframe "{65069902FAC13A33}" {
+        FrameNumber 3651
+        Value 1
+       }
+      }
+     }
+     BooleanCinematicTrack "{65069902FAC13A32}" {
+      TrackName "m_bTurretControl"
+     }
+     BooleanCinematicTrack "{65069902FAC13A25}" {
+      TrackName "m_bTurretShot"
+     }
+     FloatCinematicTrack "{65069902FAC13A24}" {
+      TrackName "m_fTurretLeftRight"
+     }
+     FloatCinematicTrack "{65069902FAC13A27}" {
+      TrackName "m_fTurretDownUp"
+     }
+     EventCinematicTrack "{65069902FAC13A26}" {
+      TrackName "insertGunner"
+     }
+    }
+   }
+   CustomCinematicTrack "{65069902FB3C142F}" {
+    TrackName "M3"
+    ClassName "VehicleCinematicTrack"
+    ChildTracks {
+     BooleanCinematicTrack "{65069902FB3C1427}" {
+      TrackName "m_bStartEngine"
+      Keyframes {
+       BooleanCinematicKeyframe "{65069902FB3C1421}" {
+        FrameNumber 3641
+        Value 1
+       }
+       BooleanCinematicKeyframe "{6508D683A465E8C2}" {
+        FrameNumber 5552
+        Value 0
+       }
+      }
+     }
+     FloatCinematicTrack "{65069902FB3C1422}" {
+      TrackName "m_fEfficiency"
+     }
+     FloatCinematicTrack "{65069902FB3C141C}" {
+      TrackName "m_fSteering"
+     }
+     IntegerCinematicTrack "{65069902FB3C141F}" {
+      TrackName "m_fGear"
+     }
+     FloatCinematicTrack "{65069902FB3C141E}" {
+      TrackName "m_fClutch"
+     }
+     FloatCinematicTrack "{65069902FB3CFA3D}" {
+      TrackName "m_fBreak"
+     }
+     BooleanCinematicTrack "{65069902FB3CFA3A}" {
+      TrackName "m_bHandBrake"
+     }
+     BooleanCinematicTrack "{65069902FB3CFA3B}" {
+      TrackName "m_bLightsOn"
+     }
+     FloatCinematicTrack "{65069902FAC35CE7}" {
+      TrackName "m_fThrottle"
+      Keyframes {
+       FloatCinematicKeyframe "{65069902FAC35CE5}" {
+        FrameNumber 3641
+        Value 1
+       }
+      }
+     }
+     BooleanCinematicTrack "{65069902FAC35CEA}" {
+      TrackName "m_bTurretControl"
+     }
+     BooleanCinematicTrack "{65069902FAC35CEC}" {
+      TrackName "m_bTurretShot"
+     }
+     FloatCinematicTrack "{65069902FAC35CED}" {
+      TrackName "m_fTurretLeftRight"
+     }
+     FloatCinematicTrack "{65069902FAC36A19}" {
+      TrackName "m_fTurretDownUp"
+     }
+     EventCinematicTrack "{65069902FAC36A06}" {
+      TrackName "insertGunner"
+     }
+    }
+   }
+   CustomCinematicTrack "{65069902F803EAA4}" {
+    TrackName "M4"
+    ClassName "VehicleCinematicTrack"
+    ChildTracks {
+     BooleanCinematicTrack "{65069902F803EAAD}" {
+      TrackName "m_bStartEngine"
+      Keyframes {
+       BooleanCinematicKeyframe "{65069902F803EAAA}" {
+        FrameNumber 3641
+        Value 1
+       }
+       BooleanCinematicKeyframe "{6508D683A7E073DC}" {
+        FrameNumber 5552
+        Value 0
+       }
+      }
+     }
+     FloatCinematicTrack "{65069902F803EAA9}" {
+      TrackName "m_fEfficiency"
+     }
+     FloatCinematicTrack "{65069902F803EA96}" {
+      TrackName "m_fSteering"
+     }
+     IntegerCinematicTrack "{65069902F803EA97}" {
+      TrackName "m_fGear"
+     }
+     FloatCinematicTrack "{65069902F803EA94}" {
+      TrackName "m_fClutch"
+     }
+     FloatCinematicTrack "{65069902F80399E6}" {
+      TrackName "m_fBreak"
+     }
+     BooleanCinematicTrack "{65069902F80399E0}" {
+      TrackName "m_bHandBrake"
+     }
+     BooleanCinematicTrack "{65069902F80399E1}" {
+      TrackName "m_bLightsOn"
+     }
+     FloatCinematicTrack "{65069902F803B245}" {
+      TrackName "m_fThrottle"
+      Keyframes {
+       FloatCinematicKeyframe "{65069902F803B24A}" {
+        FrameNumber 3641
+        Value 1
+       }
+      }
+     }
+     BooleanCinematicTrack "{65069902F803B24B}" {
+      TrackName "m_bTurretControl"
+     }
+     BooleanCinematicTrack "{65069902F803B251}" {
+      TrackName "m_bTurretShot"
+     }
+     FloatCinematicTrack "{65069902F803B252}" {
+      TrackName "m_fTurretLeftRight"
+     }
+     FloatCinematicTrack "{65069902F803B4F3}" {
+      TrackName "m_fTurretDownUp"
+     }
+     EventCinematicTrack "{65069902F803B4F2}" {
+      TrackName "insertGunner"
+     }
+    }
+   }
+   CustomCinematicTrack "{65069902F71DFA7F}" {
+    TrackName "M5"
+    ClassName "VehicleCinematicTrack"
+    ChildTracks {
+     BooleanCinematicTrack "{65069902F71DFA0B}" {
+      TrackName "m_bStartEngine"
+      Keyframes {
+       BooleanCinematicKeyframe "{65069902F71DFA0D}" {
+        FrameNumber 3621
+        Value 1
+       }
+       BooleanCinematicKeyframe "{6508D683A808AC28}" {
+        FrameNumber 5552
+        Value 0
+       }
+      }
+     }
+     FloatCinematicTrack "{65069902F71DFA0E}" {
+      TrackName "m_fEfficiency"
+     }
+     FloatCinematicTrack "{65069902F71DFA10}" {
+      TrackName "m_fSteering"
+     }
+     IntegerCinematicTrack "{65069902F71DFA13}" {
+      TrackName "m_fGear"
+     }
+     FloatCinematicTrack "{65069902F71DFA12}" {
+      TrackName "m_fClutch"
+     }
+     FloatCinematicTrack "{65069902F71DFA15}" {
+      TrackName "m_fBreak"
+     }
+     BooleanCinematicTrack "{65069902F71DFA14}" {
+      TrackName "m_bHandBrake"
+     }
+     BooleanCinematicTrack "{65069902F71DFA17}" {
+      TrackName "m_bLightsOn"
+     }
+     FloatCinematicTrack "{65069902F71DFA16}" {
+      TrackName "m_fThrottle"
+      Keyframes {
+       FloatCinematicKeyframe "{65069902F71DFA19}" {
+        FrameNumber 3621
+        Value 1
+       }
+      }
+     }
+     BooleanCinematicTrack "{65069902F71DFA1B}" {
+      TrackName "m_bTurretControl"
+     }
+     BooleanCinematicTrack "{65069902F71DFA25}" {
+      TrackName "m_bTurretShot"
+     }
+     FloatCinematicTrack "{65069902F71DFA27}" {
+      TrackName "m_fTurretLeftRight"
+     }
+     FloatCinematicTrack "{65069902F71DFA26}" {
+      TrackName "m_fTurretDownUp"
+     }
+     EventCinematicTrack "{65069902F71D5DC6}" {
+      TrackName "insertGunner"
+     }
+    }
+   }
+   CustomCinematicTrack "{6508D682E08E694A}" {
+    TrackName "Lav1_"
+    ClassName "EnableCinematicTrack"
+    ChildTracks {
+     BooleanCinematicTrack "{6508D682E08E6DB3}" {
+      TrackName "m_bEnable"
+      Keyframes {
+       BooleanCinematicKeyframe "{6508D682DBAF9830}" {
+        FrameNumber 5622
+        Value 0
+       }
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{6508D682D7BBFD46}" {
+    TrackName "Lav2_"
+    ClassName "EnableCinematicTrack"
+    ChildTracks {
+     BooleanCinematicTrack "{6508D682D7BBFDBF}" {
+      TrackName "m_bEnable"
+      Keyframes {
+       BooleanCinematicKeyframe "{6508D682D7BBFDBD}" {
+        FrameNumber 5622
+        Value 0
+       }
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{6508D682CF8AE4EB}" {
+    TrackName "M1_"
+    ClassName "EnableCinematicTrack"
+    ChildTracks {
+     BooleanCinematicTrack "{6508D682CF8AE8E8}" {
+      TrackName "m_bEnable"
+      Keyframes {
+       BooleanCinematicKeyframe "{6508D682CB7D4FE2}" {
+        FrameNumber 5622
+        Value 0
+       }
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{6508D682C7DE8598}" {
+    TrackName "M2_"
+    ClassName "EnableCinematicTrack"
+    ChildTracks {
+     BooleanCinematicTrack "{6508D682C7DE858E}" {
+      TrackName "m_bEnable"
+      Keyframes {
+       BooleanCinematicKeyframe "{6508D682C7DE858F}" {
+        FrameNumber 5622
+        Value 0
+       }
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{6508D682C2BA3A8E}" {
+    TrackName "M3_"
+    ClassName "EnableCinematicTrack"
+    ChildTracks {
+     BooleanCinematicTrack "{6508D682C2BA3A86}" {
+      TrackName "m_bEnable"
+      Keyframes {
+       BooleanCinematicKeyframe "{6508D682C2BA3A84}" {
+        FrameNumber 5622
+        Value 0
+       }
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{6508D682C1F5E6A2}" {
+    TrackName "M4_"
+    ClassName "EnableCinematicTrack"
+    ChildTracks {
+     BooleanCinematicTrack "{6508D682C1F5E697}" {
+      TrackName "m_bEnable"
+      Keyframes {
+       BooleanCinematicKeyframe "{6508D682C1F5E695}" {
+        FrameNumber 5622
+        Value 0
+       }
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{6508D6833F07EA13}" {
+    TrackName "M5_"
+    ClassName "EnableCinematicTrack"
+    ChildTracks {
+     BooleanCinematicTrack "{6508D6833F07EA0A}" {
+      TrackName "m_bEnable"
+      Keyframes {
+       BooleanCinematicKeyframe "{6508D6833F07EA08}" {
+        FrameNumber 5622
+        Value 0
+       }
+      }
+     }
+    }
+   }
+   CustomCinematicTrack "{6508D683D7AE93FA}" {
+    TrackName "Cutscenemanagerevents"
+    ClassName "PS_CutsceneManagerEventsTrack"
+    ChildTracks {
+     StringCinematicTrack "{6508D683D7AE967B}" {
+      TrackName "m_sEventName"
+     }
+     EventCinematicTrack "{6508D683D7AE98CA}" {
+      TrackName "RaiseEvent"
      }
     }
    }

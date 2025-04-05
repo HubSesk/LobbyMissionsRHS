@@ -25,6 +25,45 @@ Vehicle : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
     }
    }
   }
+  RHS_GPSDataLinkComponent "{62E1724F117FD1E9}" {
+  }
+  RHS_GPSMarkerContainerComponent "{62E1724F150812DD}" {
+  }
+  RHS_VehicleScreensControllerComponent "{62E1724F07F78F7F}" {
+   m_aCameras {
+    RHS_CustomCameraPointInfo "{62E1724E7F428950}" {
+     PivotID "v_root"
+     Offset 0.2983 1.872 2.4499
+     m_fCameraFoV 50
+     m_fRotationAngle 5
+     m_sCameraName "Front"
+    }
+    RHS_CustomCameraPointInfo "{62E1724E7D7FC330}" {
+     PivotID "v_root"
+     Offset -0.9669 1.7703 0.1198
+     Angles 0 -90 0
+     m_fCameraFoV 50
+     m_fRotationAngle 65
+     m_sCameraName "Right"
+    }
+    RHS_CustomCameraPointInfo "{62E1724E7CFA2F46}" {
+     PivotID "v_root"
+     Offset 0 1.4801 -3.6243
+     Angles 0 180 0
+     m_fCameraFoV 50
+     m_fRotationAngle 5
+     m_sCameraName "Rear"
+    }
+    RHS_CustomCameraPointInfo "{62E1724E7E52DD7C}" {
+     PivotID "v_root"
+     Offset 0.9621 1.7725 0.111
+     Angles 0 90 0
+     m_fCameraFoV 50
+     m_fRotationAngle 65
+     m_sCameraName "Left"
+    }
+   }
+  }
   SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
    CompartmentSlots {
     PilotCompartmentSlot PilotCompartment {
@@ -121,7 +160,7 @@ Vehicle : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo Turret {
-     Offset 0 -0.5979 1.2031
+     Offset 0.01 -0.5979 0.263
      Prefab "{46E80B90B8BFC9D6}Prefabs/Vehicles/Wheeled/K4386/VehParts/Turret_K4386_ion.et"
     }
     RegisteringComponentSlotInfo AmmoStorage {
@@ -190,44 +229,6 @@ Vehicle : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
   VehicleAnimationComponent "{50B803EAA459B0AF}" {
    StartNode "VehicleMasterControl"
   }
-  RHS_GPSDataLinkComponent "{62E1724F117FD1E9}" {
-  }
-  RHS_GPSMarkerContainerComponent "{62E1724F150812DD}" {
-  }
-  RHS_VehicleScreensControllerComponent "{62E1724F07F78F7F}" {
-   m_aCameras {
-    RHS_CustomCameraPointInfo "{62E1724E7F428950}" {
-     PivotID "v_root"
-     Offset 0.2983 1.872 2.4499
-     m_fCameraFoV 50
-     m_fRotationAngle 5
-     m_sCameraName "Front"
-    }
-    RHS_CustomCameraPointInfo "{62E1724E7D7FC330}" {
-     PivotID "v_root"
-     Offset -0.9669 1.7703 0.1198
-     Angles 0 -90 0
-     m_fCameraFoV 50
-     m_fRotationAngle 65
-     m_sCameraName "Right"
-    }
-    RHS_CustomCameraPointInfo "{62E1724E7CFA2F46}" {
-     PivotID "v_root"
-     Offset 0 1.4801 -3.6243
-     Angles 0 180 0
-     m_fCameraFoV 50
-     m_fRotationAngle 5
-     m_sCameraName "Rear"
-    }
-    RHS_CustomCameraPointInfo "{62E1724E7E52DD7C}" {
-     PivotID "v_root"
-     Offset 0.9621 1.7725 0.111
-     Angles 0 90 0
-     m_fCameraFoV 50
-     m_fRotationAngle 65
-     m_sCameraName "Left"
-    }
-   }
-  }
  }
+ coords 4773.938 27.791 11195.618
 }

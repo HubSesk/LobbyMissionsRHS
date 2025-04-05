@@ -1,14 +1,23 @@
 $grp Vehicle : "{295A6AAFBE74C040}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_tan.et" {
- APC_K17_Epoch_tan1 {
-  coords 8409.519 111.531 7122.605
+ epoch1 {
+  coords 8424.021 111.531 7183.624
+  angleY -179.4
+  m_sAttachmentGroupName "o4"
+ }
+ epoch4 {
+  coords 8581.948 111.531 6665.803
+  angleY -0.148
+  m_sAttachmentGroupName "o5"
+ }
+}
+$grp Vehicle : "{944D59BF5EC046D6}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok_tan.et" {
+ epoch2 {
+  coords 8595.853 111.531 6660.458
+  m_sAttachmentGroupName "o3"
+ }
+ epoch3 {
+  coords 8409.48 111.531 7171.712
   angleY 179.189
- }
- APC_K17_Epoch_tan2 {
-  coords 8424.057 111.531 7134.517
-  angleY -167.315
- }
- APC_K17_Epoch_tan3 {
-  coords 8391.063 111.531 7147.163
-  angleY -177.964
+  m_sAttachmentGroupName "o2"
  }
 }

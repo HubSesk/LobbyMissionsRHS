@@ -96,6 +96,18 @@ CinematicEntity Mlashenko {
      }
     }
    }
+   AnimationCinematicTrack "{65062744B7E970CA}" {
+    TrackName "M"
+    Play BooleanCinematicTrack "{65062744B7E97726}" {
+     TrackName "Play"
+     Keyframes {
+      BooleanCinematicKeyframe "{65062744B4E6C071}" {
+       FrameNumber 46
+       Value 1
+      }
+     }
+    }
+   }
   }
  }
 }

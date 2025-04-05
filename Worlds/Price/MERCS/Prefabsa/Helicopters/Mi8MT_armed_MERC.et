@@ -1,0 +1,159 @@
+Vehicle : "{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et" {
+ ID "5A7CEB06421662F8"
+ components {
+  BaseLightManagerComponent "{51F88B1C7D1C1F11}" {
+   LightSlots {
+    SCR_LightSlot "{5DE2D952AF01A693}" {
+     LightPrefab "{05C56B537A2B128B}Prefabs/Vehicles/Helicopters/Mi8MT/Lights/VehicleLight_Mi8RHS_Cabin_Dim_Green.et"
+    }
+    SCR_LightSlot "{5DE461CA7C23F5C5}" {
+     LightPrefab "{05C56B537A2B128B}Prefabs/Vehicles/Helicopters/Mi8MT/Lights/VehicleLight_Mi8RHS_Cabin_Dim_Green.et"
+    }
+    SCR_LightSlot "{5DE4AC4570CEA4F8}" {
+     LightPrefab "{8DDF6EC4E8494321}Prefabs/Vehicles/Helicopters/Mi8MT/Lights/VehicleLight_Mi8RHS_Cargo_Dim_Green.et"
+    }
+    SCR_LightSlot "{5DE4C4399159FA56}" {
+     LightPrefab "{8DDF6EC4E8494321}Prefabs/Vehicles/Helicopters/Mi8MT/Lights/VehicleLight_Mi8RHS_Cargo_Dim_Green.et"
+    }
+   }
+  }
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{650AB6C477CF4239}" {
+     SourceMaterial "Exterier_35715EB3956D22B9"
+     AssignedMaterial "{3AD699231E40AE3C}Assets/Vehicles/Helicopters/Mi8/Data/Mi8_Body_black.emat"
+    }
+    MaterialAssignClass "{650AB6C477CF422C}" {
+     SourceMaterial "Exterior_Decals_C0FEB07CDCC06DC1"
+     AssignedMaterial "{D2D662B722626B92}Assets/Vehicles/Helicopters/Mi8/Data/Mi8_Exterior_Decals_RHS.emat"
+    }
+    MaterialAssignClass "{650AB6C477CF4229}" {
+     SourceMaterial "Flag_decals_01_0418C5226701B4E1"
+     AssignedMaterial "{6D37C24205DACCE0}Assets/Characters/Vests/Vest_Common/Data/EmptyMaterial.emat"
+    }
+    MaterialAssignClass "{650AB6C477CF4227}" {
+     SourceMaterial "decals_23D9697A283FB7DF"
+     AssignedMaterial "{BACC5A891EF72B71}Assets/Vehicles/Helicopters/Mi8/Data/Helicopter_decals_01_black.emat"
+    }
+   }
+   ObjectHeightmapBias 0
+   ObjectHeightmapTraceBias 0
+  }
+  RHS_GroupMaterialController "{650AB6C477CF4225}" {
+   m_aGroups {
+    RHS_MaterialGroupProperties "{650AB6C477CF4223}" {
+     m_sGroupName "side1"
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{650AB6C477CF4221}" {
+     m_sGroupName "side2"
+     m_iNumberOfTextures 10
+     m_iTextureID 1
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{650AB6C477CF421E}" {
+     m_sGroupName "tail1"
+     m_iNumberOfTextures 10
+     m_iTextureID 2
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{650AB6C477CF421F}" {
+     m_sGroupName "tail2"
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{650AB6C477CF421D}" {
+     m_sGroupName "tail3"
+     m_iNumberOfTextures 10
+     m_iTextureID 4
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{650AB6C477CF421A}" {
+     m_sGroupName "tail4"
+     m_iNumberOfTextures 10
+     m_iTextureID 5
+     m_bRandomize 1
+    }
+   }
+   m_iMaxAllowedDepth 2
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Vehicle_Mi8MT_Armed_Name #RHS-Gray"
+    m_Image "{7CEBFB26EC9DD6FD}UI/Textures/EditorPreviews/Vehicles/Helicopters/mi8/mi8mtta.edds"
+    m_aAutoLabels {
+     1653989487 123
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "RHS_AFRF"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo CockpitPanel_Top {
+     Prefab "{0AB1FBF7B2FB2F21}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Cockpit/VehPart_Mi8_cockpitpanel_top_Green.et"
+    }
+    RegisteringComponentSlotInfo CockpitPanel_Mid {
+     Prefab "{79BFDE7F26A20B07}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Cockpit/VehPart_Mi8_cockpitpanel_mid_Green.et"
+    }
+    RegisteringComponentSlotInfo CockpitPanel_Left {
+     Prefab "{6C994DD19D446B55}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Cockpit/VehPart_Mi8_cockpitpanel_left_RHS.et"
+    }
+    RegisteringComponentSlotInfo CockpitPanel_Right {
+     Prefab "{0E32EF118EA2E69A}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Cockpit/VehPart_Mi8_cockpitpanel_right_Green.et"
+    }
+    RegisteringComponentSlotInfo armor {
+     MergePhysics 1
+     Prefab "{9493DFB6E1F0F641}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Mi8MT_armor_black.et"
+    }
+    RegisteringComponentSlotInfo jammer {
+     MergePhysics 1
+     Prefab "{90D5E88C5BE3ED57}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Mi8MT_IRJammer_black.et"
+    }
+    RegisteringComponentSlotInfo hardpoints {
+     MergePhysics 1
+     Prefab "{1581BADCA7E34A9C}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/WeapSystems/Mi8MT_Hardpoints_black_HEDP.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo countermeasures {
+     MergePhysics 1
+     Prefab "{9C57A6C02C50B980}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Mi8MT_Countermeasures_black.et"
+     RegisterDamage 1
+    }
+    EntitySlotInfo decalsAFRF {
+     Enabled 0
+     Prefab "{CC8E6CC4C782A2F8}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Decals/mi8_static_decal.et"
+    }
+    EntitySlotInfo sidenum1 {
+     Enabled 0
+     Prefab "{B7A4B923F13293B9}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Decals/mi8_sideNum1.et"
+    }
+    EntitySlotInfo sidenum2 {
+     Enabled 0
+     Prefab "{DBF08DC34DF61C97}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Decals/mi8_sideNum2.et"
+    }
+    EntitySlotInfo tailnum1 {
+     Enabled 0
+     Prefab "{A339CE410FDC41DA}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Decals/mi8_tailNum1.et"
+    }
+    EntitySlotInfo tailnum2 {
+     Enabled 0
+     Prefab "{CF6DFAA1B318CEF4}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Decals/mi8_tailNum2.et"
+    }
+    EntitySlotInfo tailnum3 {
+     Enabled 0
+     Prefab "{2AF1B658BFFD599F}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Decals/mi8_tailNum3.et"
+    }
+    EntitySlotInfo tailnum4 {
+     Enabled 0
+     Prefab "{17C59360CA91D0A8}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Decals/mi8_tailNum4.et"
+    }
+   }
+  }
+ }
+ coords 8553.245 111.371 6803.228
+ angleX 3.717
+ angleY 88.59
+}

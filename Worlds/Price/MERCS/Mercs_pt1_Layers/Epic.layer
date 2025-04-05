@@ -1,0 +1,52 @@
+$grp Vehicle : "{1202B79469E16A99}Worlds/Price/MERCS/Prefabsa/Helicopters/UH1H_USMC_armed_gunship_HE_MERCS.et" {
+ UH1H_USMC_armed_gunship_HE_MERCS1 {
+  coords 8508.442 111.531 6733.073
+  angleY 83.467
+ }
+ UH1H_USMC_armed_gunship_HE_MERCS2 {
+  coords 8516.463 111.531 6785.875
+  angleY 39.408
+ }
+ UH1H_USMC_armed_gunship_HE_MERCS3 {
+  coords 8497.788 111.551 6706.611
+  angleY 83.467
+ }
+ UH1H_USMC_armed_gunship_HE_MERCS4 {
+  coords 8483.932 111.551 6733.858
+  angleY 83.467
+ }
+}
+GenericEntity : "{1485AF1BB7B5E191}Worlds/Price/MERCS/Prefabsa/Vehicle/Plane_IL76UN_running_Mercs.et" {
+ coords 8543.704 111.531 7103.376
+ angleY 90.021
+}
+Vehicle btraero : "{3CF0E95C86C93540}Prefabs/Vehicles/Wheeled/BTR70/BTR70_ion.et" {
+ coords 8408.077 111.531 7122.897
+ angleY -180
+}
+$grp Vehicle : "{B861513EBED7D634}Worlds/Price/MERCS/Prefabsa/Helicopters/Mi8MT_armed_MERC.et" {
+ Mi8MT_armed_MERC1 {
+  coords 8485.472 111.336 6804.986
+  angleX 3.646
+  angleY 90.755
+ }
+ Mi8MT_armed_MERC2 {
+  coords 8520.521 111.355 6804.87
+  angleX 3.717
+  angleY 88.59
+ }
+ Mi8MT_armed_MERC3 {
+  coords 8513.966 111.508 6651.675
+  angleX 3.646
+  angleY 90.755
+ }
+ Mi8MT_armed_MERC4 {
+  coords 8488.055 111.783 6669.873
+  angleX 3.646
+  angleY 90.755
+ }
+}
+Vehicle hmaero : "{CD1B5570AF3D50B6}Prefabs/Vehicles/Wheeled/M998/M1025_ION.et" {
+ coords 8407.991 111.532 7137.552
+ angleY -180
+}
