@@ -1,3 +1,48 @@
+$grp GenericEntity : "{0AA2F5202F5AB12D}Prefabs/Props/Military/Arsenal/AmmoBoxes/NormalBox_AmmoBox_US.et" {
+ {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    MultiSlots {
+     MultiSlotConfiguration "{60E964D3F7AF8805}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{38BAE094333E31BF}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_HE_M821.et"
+      }
+      NumSlots 200
+     }
+     MultiSlotConfiguration "{650AF8A5566A475B}" {
+      SlotTemplate InventoryStorageSlot "{650AF8A5BEFECA69}" {
+       Prefab "{6113990D163E5249}Prefabs/Items/Equipment/BalisticTable/BalisticTable_US.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 6419.336 165.594 4621.379
+ }
+ {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    MultiSlots {
+     MultiSlotConfiguration "{60E964D3F7AF8805}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{38BAE094333E31BF}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_HE_M821.et"
+      }
+      NumSlots 200
+     }
+     MultiSlotConfiguration "{650AF8A5566A475B}" {
+      SlotTemplate InventoryStorageSlot "{650AF8A5BEFECA69}" {
+       Prefab "{6113990D163E5249}Prefabs/Items/Equipment/BalisticTable/BalisticTable_US.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 6420.967 165.594 4621.457
+  angleY -13.734
+ }
+}
 $grp Vehicle : "{123595894023C474}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS_D.et" {
  lav21 {
   coords 10220.335 28.435 5202.017
@@ -123,6 +168,10 @@ $grp Vehicle : "{7D9A9AD859069D09}Prefabs/Vehicles/Wheeled/M998/M998_covered_lon
   coords 6393.413 165.594 4650.324
   angleY -94.834
  }
+}
+Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
+ coords 6419.603 165.594 4623.366
+ angleY -96.71
 }
 $grp Vehicle : "{818BD2D100635224}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF_D.et" {
  M1025_armed_M2HB_MDO_USAF_D1 {
