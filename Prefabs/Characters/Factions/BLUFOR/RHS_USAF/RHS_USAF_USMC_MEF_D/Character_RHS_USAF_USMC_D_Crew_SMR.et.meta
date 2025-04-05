@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{EC5C256DEDBA9E5E}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_kac600_elcanPeq.et"
+ Name "{AE6A1471A29758F7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_Crew_SMR.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -9,7 +9,11 @@ MetaFileClass {
   }
   EntityTemplateResourceClass PS4 : PC {
   }
+  EntityTemplateResourceClass PS5 : PC {
+  }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }
