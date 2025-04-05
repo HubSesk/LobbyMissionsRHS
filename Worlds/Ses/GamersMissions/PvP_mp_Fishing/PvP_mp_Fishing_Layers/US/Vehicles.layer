@@ -1,0 +1,58 @@
+$grp Vehicle : "{00C9BBE426F7D459}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance.et" {
+ M997_maxi_ambulance1 {
+  coords 4408.845 56.857 6207.135
+  angleX -0.533
+  angleY -36.509
+  angleZ -0.72
+ }
+ M997_maxi_ambulance2 {
+  coords 4399.841 56.651 6216.337
+  angleX -0.72
+  angleY -36.511
+  angleZ 0.533
+ }
+}
+Vehicle M1025_armed_M2HB1 : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
+ coords 4415.694 56.964 6196.048
+ angleX 0.296
+ angleY -31.462
+ angleZ -1.231
+}
+$grp Vehicle : "{F6B23D17D5067C11}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB.et" {
+ M151A2_M2HB2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6482B8539C33D28E}" {
+      SlotTemplate InventoryStorageSlot Supressor {
+       Prefab "{ADDF08D09F1877A4}Prefabs/Weapons/Attachments/Muzzle/Suppressor_M16/Suppressor_M16_OliveGreen_Sand_Stripes.et"
+      }
+      NumSlots 3
+     }
+    }
+   }
+  }
+  coords 4435.406 58.949 6253.632
+  angleX -0.382
+  angleY -26.415
+  angleZ -6.775
+ }
+ M151A2_M2HB3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6482B8539C33D28E}" {
+      SlotTemplate InventoryStorageSlot Supressor {
+       Prefab "{ADDF08D09F1877A4}Prefabs/Weapons/Attachments/Muzzle/Suppressor_M16/Suppressor_M16_OliveGreen_Sand_Stripes.et"
+      }
+      NumSlots 3
+     }
+    }
+   }
+  }
+  coords 4438.002 58.972 6248.096
+  angleX -0.779
+  angleY -26.342
+  angleZ -5.59
+ }
+}

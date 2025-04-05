@@ -1,0 +1,41 @@
+SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
+ coords 6355.979 145.974 6293.75
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 6352.368 145.942 6296.121
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_HintManagerComponent "{5702B54C6CBC9D7F}" {
+   m_bIgnoreHintSettings 1
+  }
+  SCR_InitWeatherComponent "{6072F483ED5419AE}" {
+   m_sInitialStartingWeatherId "Clear"
+  }
+  SCR_InitWeatherComponent "{61B68227C35BFE9A}" {
+   m_sInitialStartingWeatherId "Clear"
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 13
+  }
+ }
+ m_bMarkersOnlyOnBriefing 0
+ m_bRemoveRedundantUnits 1
+ m_bRemoveSquadMarkers 1
+ {
+  SCR_FactionManager "6072F48C7890B996" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{56DEAC40D2DBC8B1}" {
+     m_bIsPlayable 1
+    }
+    SCR_Faction "{56DEAC40D3C2E623}" {
+     m_bIsPlayable 1
+    }
+    SCR_Faction "{56DEAC40D132400B}" {
+     m_bIsPlayable 1
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,1738 @@
+GenericEntity {
+ components {
+  MeshObject "{644880528FE97EE7}" {
+   Object "{F22DBEC8311DC84A}Assets/Structures/BuildingsParts/Entry/ConcreteStairs_02_SideSquareWide.xob"
+   LODFactors {
+    200 150 1 1
+   }
+   PixelSizeScale 0.75
+  }
+  NavmeshCustomLinkComponent "{644880528FE97EAA}" {
+   LinkType NavmeshJumpLink "{644880528FE97EAB}" {
+    "Navmesh setting presets" {
+     NavmeshCustomLinkSetting "{644880528FE97EAD}" {
+      ProjectPresets {
+       NavmeshCustomLinkPreset "{644880528FE97EA0}" {
+        ProjectName "Soldiers"
+        AreaType "Fence"
+       }
+      }
+      BeginPoint 1 0 0
+      EndPoint -1 0 0
+     }
+    }
+   }
+  }
+  RigidBody "{644880528FE97E9E}" {
+   ModelGeometry 1
+   Static 1
+  }
+  Hierarchy "{644880528FE97E99}" {
+  }
+ }
+ coords 8437.557 158.915 3592.842
+ angleY -50.299
+ angleZ -90.162
+ scale 2.805
+ Flags 1027
+}
+GenericEntity : "{010D5FBC85347C39}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_US_01_M2HB.et" {
+ coords 8444.059 155.035 3593.014
+ angleY 127.639
+}
+GenericEntity : "{0B0C600941B2A6A8}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_plastic.et" {
+ coords 8506.192 154.463 3639.884
+ angleY -50.493
+}
+GenericEntity : "{25B265F3E7CBDFC8}Prefabs/Props/Wrecks/BMP1_wreck.et" {
+ coords 8516.944 148.157 3571.28
+ angleX 2.633
+ angleY -5.702
+ angleZ 4.349
+}
+GenericEntity : "{2B24356C351A2538}Prefabs/Props/Wrecks/M113_wreck.et" {
+ coords 8468.045 150.948 3599.351
+ angleX -4.201
+ angleY 129.412
+ angleZ 3.591
+}
+$grp GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_plastic.et" {
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8426.498 157.313 3609.685
+  angleY -48.573
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8425.802 155.253 3605.567
+  angleY 40.278
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8438.595 155.332 3617.748
+  angleY 126.956
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8430.147 158.884 3613.354
+  angleY -48.573
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8431.887 158.885 3615.486
+  angleY -48.573
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8433.599 158.814 3617.552
+  angleY -48.573
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8435.745 158.879 3617.09
+  angleY -139.714
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8438.295 158.873 3615.104
+  angleY -139.714
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8438.395 158.75 3613.592
+  angleY 128.709
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8433.45 158.791 3609.276
+  angleY -139.714
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8435.189 158.646 3609.983
+  angleY 130.416
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8430.238 158.982 3611.856
+  angleY 38.398
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8432.204 161.126 3616.167
+  angleY -48.573
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8430.226 160.071 3611.867
+  angleY 39.13
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8430.089 161.138 3613.78
+  angleY -50.301
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8433.456 159.996 3609.332
+  angleY -139.714
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8430.276 161.122 3611.914
+  angleY -139.714
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8433.468 161.126 3609.314
+  angleY -139.714
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8431.892 161.362 3610.642
+  angleY -141.783
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8436.31 159.906 3611.344
+  angleY 130.416
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8435.224 161.058 3609.678
+  angleY 130.416
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8437.2 158.71 3612.246
+  angleY 128.709
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8436.653 161.253 3611.481
+  angleY 128.709
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8438.168 161.226 3613.353
+  angleY 128.709
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8436.876 159.927 3612.063
+  angleY 129.895
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8438.15 161.124 3615.069
+  angleY -139.714
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8436.233 161.052 3616.744
+  angleY -139.714
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8422.738 157.583 3605.284
+  angleY -48.573
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8422.707 158.808 3605.345
+  angleY -48.573
+  scale 0.998
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8438.269 161.124 3614.969
+  angleY -139.714
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8417.042 155.258 3591.114
+  angleY -138.43
+  scale 0.998
+ }
+ {
+  coords 8433.873 155.274 3606.394
+  angleY -50.202
+ }
+ {
+  coords 8429.719 157.903 3601.088
+  angleY -51.506
+ }
+ {
+  coords 8429.971 155.344 3601.073
+  angleY -51.506
+ }
+ {
+  coords 8427.039 155.373 3601.037
+  angleY -141.143
+ }
+ {
+  coords 8419.808 155.427 3595.437
+  angleY -48.812
+ }
+ {
+  coords 8438.865 155.24 3603.768
+  angleY -140.882
+ }
+ {
+  coords 8429.83 156.638 3601.123
+  angleY -48.812
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8414.256 156.551 3593.384
+  angleY -138.43
+  scale 0.998
+ }
+ {
+  coords 8441.409 155.177 3601.674
+  angleY -140.882
+ }
+ {
+  coords 8436.331 155.134 3605.805
+  angleY -140.882
+ }
+ {
+  coords 8442.158 155.102 3599.246
+  angleY 131.353
+ }
+ {
+  coords 8438.609 155.287 3601.156
+  angleY -51.608
+ }
+ {
+  coords 8438.472 157.214 3601.134
+  angleY -51.608
+ }
+ {
+  coords 8438.526 156.073 3601.173
+  angleY -51.608
+ }
+ {
+  coords 8443.914 156.358 3593.066
+  angleY -47.852
+ }
+ {
+  coords 8444.025 155.272 3595.464
+  angleY -141.153
+ }
+ {
+  coords 8441.957 155.099 3590.72
+  angleX -0.179
+  angleY -51.057
+  angleZ -1.79
+ }
+ {
+  coords 8444.095 157.456 3593.323
+  angleY 131.353
+ }
+ {
+  coords 8442.008 157.646 3590.909
+  angleY 129.675
+ }
+ {
+  coords 8444.074 156.461 3595.431
+  angleY -139.321
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8426.427 158.505 3609.714
+  angleY -48.573
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8437.575 159.882 3615.509
+  angleY 40.27
+ }
+ {
+  coords 8439.344 156.301 3603.25
+  angleY -140.495
+ }
+ {
+  coords 8438.909 155.151 3595.28
+  angleY -51.608
+ }
+ {
+  coords 8439.379 157.226 3603.301
+  angleY -140.495
+ }
+ {
+  coords 8421.905 155.452 3597.895
+  angleY -48.812
+ }
+ {
+  coords 8424.026 155.426 3600.38
+  angleY -48.812
+ }
+ {
+  coords 8419.834 156.666 3595.446
+  angleY -48.812
+ }
+ {
+  coords 8423.111 156.681 3599.259
+  angleY -48.812
+ }
+ {
+  coords 8441.354 156.37 3622.938
+  angleX 0.006
+  angleY -144.28
+  angleZ 0.643
+ }
+ {
+  coords 8439.475 155.316 3618.789
+  angleY 124.877
+ }
+ {
+  coords 8440.312 153.926 3624.883
+  angleY -144.933
+  angleZ -1.78
+ }
+ {
+  coords 8439.308 156.424 3618.541
+  angleY 125.713
+ }
+ {
+  coords 8441.228 155.31 3622.891
+  angleY 36.826
+ }
+ {
+  coords 8435.315 156.483 3620.477
+  angleY 126.965
+ }
+ {
+  coords 8435.413 155.302 3620.427
+  angleY 126.221
+ }
+ {
+  coords 8446.519 154.446 3638.036
+  angleX 0.061
+  angleY -149.252
+  angleZ -4.014
+ }
+ {
+  coords 8471.006 151.102 3589.898
+  angleY -44.772
+ }
+ {
+  coords 8467.997 151.021 3586.74
+  angleY -45.703
+ }
+ {
+  coords 8472.321 150.996 3593.943
+  angleY 51.194
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C9CE4C1E6}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8414.422 156.361 3595.646
+  angleY 133.825
+  scale 0.998
+ }
+ {
+  coords 8466.846 151.012 3584.229
+  angleY -117.64
+ }
+ {
+  coords 8466.674 151.022 3579.108
+  angleY -24.351
+ }
+ {
+  coords 8462.712 151.22 3577.463
+  angleY -24.351
+ }
+ {
+  coords 8458.446 151.414 3575.669
+  angleY -24.351
+ }
+ {
+  coords 8454.04 151.598 3574.018
+  angleY -24.351
+ }
+ {
+  coords 8449.801 151.828 3573.934
+  angleY 70.508
+ }
+ {
+  coords 8436.523 151.738 3574.861
+  angleY 19.717
+ }
+ {
+  coords 8442.163 151.733 3572.928
+  angleY 19.717
+ }
+ {
+  coords 8445.794 151.906 3576.831
+  angleY 119.464
+ }
+}
+$grp GenericEntity : "{35F2A674E602198F}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_plastic.et" {
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C3E3D5FFC}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8432.278 159.94 3616.105
+  angleY 134.947
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C3E3D5FFC}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8433.243 160.011 3617.325
+  angleY 131.222
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C3E3D5FFC}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8434.711 159.895 3618.147
+  angleY 43.775
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C3E3D5FFC}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8433.509 161.094 3617.789
+  angleY 131.222
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C3E3D5FFC}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8434.793 161.005 3617.948
+  angleY 43.775
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C3E3D5FFC}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8423.7 156.204 3606.391
+  angleY 132.696
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C3E3D5FFC}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8421.975 156.168 3604.372
+  angleY -47.318
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C3E3D5FFC}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8427.438 156.06 3610.842
+  angleY 132.696
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C3E3D5FFC}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8425.493 156.099 3608.559
+  angleY -47.318
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C3E3D5FFC}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8441.539 156.334 3590.222
+  angleY -48.856
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C3E3D5FFC}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8436.417 159.909 3616.469
+  angleY -139.599
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C3E3D5FFC}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8435.044 156.339 3607.044
+  angleY 43.448
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C3E3D5FFC}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8437.293 156.31 3604.888
+  angleY -138.146
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C3E3D5FFC}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8415.521 156.351 3596.906
+  angleY -39.127
+ }
+ {
+  components {
+   Hierarchy "{5CB0D990255065C5}" {
+    Enabled 1
+   }
+  }
+  coords 8498.186 152.705 3616.411
+  angleY -156.74
+ }
+ {
+  components {
+   Hierarchy "{5CB0D990255065C5}" {
+    Enabled 1
+   }
+  }
+  coords 8493.946 152.317 3607.087
+  angleY -157.779
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5E4CB75C3E3D5FFC}" {
+      m_PhaseModel "{D141C8D61B585F3F}Assets/Props/Military/Sandbags/Dst/Sandbag_01_Single_dst_03.xob"
+     }
+    }
+   }
+  }
+  coords 8430.18 160.076 3613.699
+  angleY -50.292
+ }
+ {
+  components {
+   Hierarchy "{5CB0D990255065C9}" {
+    Enabled 1
+   }
+  }
+  coords 8453.271 151.49 3604.253
+  angleY -42.865
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{3E7CF4C5E180F5D1}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_Windows.et" {
+ {
+  coords 8422.701 0.89 3605.006
+  angleY 130.322
+  scale 2.17
+ }
+ {
+  coords 8430.249 1.723 3598.315
+  angleY 39.396
+  scale 1.584
+ }
+}
+$grp GenericEntity : "{5519B339E041781E}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_BarbedWire_US_01.et" {
+ {
+  coords 8447.481 153.745 3621.53
+  angleY -54.082
+  {
+   GenericEntity {
+    ID "5CB0D991FC836599"
+    coords 2.475 0 0.179
+    angleY -30
+   }
+  }
+ }
+ {
+  coords 8455.604 152.697 3612.198
+  angleY 119.004
+  {
+   GenericEntity {
+    ID "5CB0D991FC836599"
+    coords 2.475 0 0.179
+    angleY -30
+   }
+  }
+ }
+ {
+  coords 8498.822 155.158 3660.553
+  angleY 46.196
+ }
+}
+StaticModelEntity : "{5608B9078BF2AC5A}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragonsteeth_01_old_V1.et" {
+ coords 8428.382 -0.133 3637.029
+ angleZ 5.564
+}
+$grp SCR_DestructibleBuildingEntity : "{575E507D9F677F15}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_02/ConcreteRetainingWall_02_V1_8m.et" {
+ {
+  coords 8428.421 151.415 3608.021
+  angleY -50.014
+ }
+ {
+  coords 8423.336 151.443 3601.988
+  angleY 130.224
+ }
+ {
+  coords 8418.245 151.461 3595.973
+  angleY 130.224
+ }
+ {
+  coords 8431.549 151.352 3605.513
+  angleY 130.224
+ }
+ {
+  coords 8427.347 151.371 3603.36
+  angleY -142.534
+ }
+ {
+  coords 8434.343 150.076 3601.606
+  angleY 130.224
+  scale 1.302
+ }
+ {
+  coords 8438.458 150.081 3598.139
+  angleY 130.224
+  scale 1.302
+ }
+ {
+  coords 8442.533 150.065 3594.696
+  angleY 130.224
+  scale 1.302
+ }
+ {
+  coords 8441.023 150.059 3594.353
+  angleY -140.117
+  scale 1.302
+ }
+}
+$grp GenericEntity : "{6204943E9EC70EC2}Prefabs/Structures/Military/Camps/Canvas_Covers/US/CanvasCover_Medium_US.et" {
+ {
+  coords 8442.763 154.101 3633.786
+  angleY -47.464
+  scale 1.16
+ }
+ {
+  coords 8472.471 152.387 3619.748
+  angleX -0.546
+  angleY -55.059
+  angleZ -4.085
+  scale 1.253
+ }
+}
+$grp GenericEntity : "{6762F7C5C3A2419B}Prefabs/Props/Military/Sandbags/Sandbag_01_short_plastic.et" {
+ {
+  coords 8393.272 151.802 3579.198
+  angleY -0.738
+ }
+ {
+  coords 8495.74 152.28 3606.635
+  angleY 9.668
+ }
+ {
+  coords 8499.693 152.893 3615.383
+  angleY 69.394
+ }
+}
+$grp GenericEntity : "{7022F1A36DC9510C}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_SideSquareWide.et" {
+ {
+  coords 8438.953 158.391 3591.147
+  angleY -50.284
+  scale 1.66
+ }
+ {
+  coords 8445.292 158.818 3598.969
+  angleY -50.284
+  scale 1.66
+ }
+}
+Turret : "{73530808E4B455BA}Prefabs/Weapons/Tripods/Tripod_M3_M2HB.et" {
+ coords 8431.245 160.152 3614.777
+ angleY -52.995
+}
+GenericEntity : "{75FEF1CA582431F3}Prefabs/Props/Wrecks/BTR70_wreck.et" {
+ coords 8547.257 151.987 3577.295
+ angleZ -8.319
+}
+GenericEntity : "{78AB783E28EDEBD4}Prefabs/Props/Military/Sandbags/Sandbag_01_long_plastic.et" {
+ coords 8498.3 152.678 3610.888
+ angleY -67.767
+ angleZ -2.332
+}
+GameEntity : "{7EE9CD6F531E7139}Prefabs/Structures/BuildingParts/Ladders/Ladder_ControlTower_E_01_Short.et" {
+ coords 8431.604 158.925 3610.297
+ angleY -139.171
+}
+$grp GenericEntity : "{8777F96EBE817623}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_base.et" {
+ {
+  coords 8448.308 151.355 3598.318
+  angleY -50.595
+ }
+ {
+  coords 8451.592 151.527 3602.429
+  angleY -49.766
+  angleZ 2.093
+ }
+ {
+  coords 8451.601 151.485 3610.093
+  angleY -0.215
+ }
+ {
+  coords 8396.772 150.234 3571.429
+  angleY -18.465
+ }
+ {
+  coords 8496.354 155.135 3663.208
+  angleY 51.543
+ }
+ {
+  coords 8471.809 154.057 3655.375
+  angleY -58.846
+ }
+ {
+  coords 8468.014 153.828 3651.125
+  angleY -45.471
+ }
+ {
+  coords 8466.245 152.858 3649.103
+  angleY -49.16
+ }
+ {
+  coords 8470.216 152.911 3653.192
+  angleY -45.471
+ }
+ {
+  coords 8481.176 154.998 3665.654
+  angleY -39.452
+ }
+ {
+  coords 8473.064 154.258 3657.783
+  angleY -62.653
+ }
+ {
+  coords 8488.512 155.324 3667.512
+  angleY 17.704
+ }
+ {
+  coords 8479.265 154.806 3664.129
+  angleY -39.452
+ }
+ {
+  coords 8507.135 154.296 3640.974
+  angleY 136.247
+ }
+ {
+  coords 8505.676 153.511 3630.052
+  angleY 67.878
+ }
+ {
+  coords 8505.563 153.996 3634.747
+  angleY 87.676
+ }
+ {
+  coords 8505.406 153.791 3632.306
+  angleY 104.337
+ }
+ {
+  coords 8440.097 151.5 3588.253
+  angleY -45.659
+ }
+ {
+  coords 8447.548 151.488 3577.727
+  angleY 19.408
+ }
+ {
+  coords 8448.98 151.57 3576.208
+  angleY 75.529
+ }
+ {
+  coords 8435.058 150.926 3577.059
+  angleY 109.845
+ }
+ {
+  coords 8465.691 150.584 3586.043
+  angleY 59.407
+ }
+ {
+  coords 8463.914 150.516 3588.014
+  angleY 39.747
+ }
+ {
+  coords 8431.147 150.945 3586.514
+  angleY 117.069
+ }
+ {
+  coords 8435.355 151.249 3582.305
+  angleY 23.682
+ }
+ {
+  coords 8433.198 150.995 3583.205
+  angleY 22.043
+ }
+ {
+  coords 8431.085 151.016 3584.578
+  angleY 35.796
+ }
+ {
+  coords 8449.059 151.45 3596.652
+  angleY 40.495
+ }
+ {
+  coords 8451.065 151.318 3594.825
+  angleY 40.495
+ }
+ {
+  coords 8453.096 150.973 3593.101
+  angleY 40.495
+ }
+ {
+  coords 8455.153 150.914 3591.456
+  angleY 40.495
+ }
+ {
+  coords 8449.688 150.973 3578.833
+  angleY -53.543
+ }
+ {
+  coords 8453.902 151.109 3588.22
+  angleY 124.962
+ }
+ {
+  coords 8452.307 150.039 3586.053
+  angleY 124.962
+ }
+ {
+  coords 8450.813 150.972 3583.765
+  angleY 124.962
+ }
+}
+GenericEntity : "{94021BCA593A8CFF}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Wide.et" {
+ coords 8446.782 155.24 3595.56
+ angleY 130.733
+}
+$grp StaticModelEntity : "{9639C7B3CF572320}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_old_V2.et" {
+ {
+  coords 8432.051 -0.13 3637.039
+  angleX 3.631
+  angleY 0.205
+  angleZ 3.237
+ }
+ {
+  coords 8483.995 -0.073 3599.634
+ }
+ {
+  coords 8480.385 -0.066 3599.789
+ }
+ {
+  coords 8486.964 -0.066 3603.042
+ }
+ {
+  coords 8483.387 -0.108 3603.216
+ }
+ {
+  coords 8489.076 -0.121 3606.771
+  angleX 10.983
+  angleY 1.622
+  angleZ 8.453
+ }
+ {
+  coords 8486.354 -0.187 3606.766
+ }
+ {
+  coords 8430.007 -0.098 3633.471
+  angleZ 0.952
+ }
+}
+GenericEntity : "{972F01488E5B23C2}Prefabs/Structures/Military/CamoNets/US/CamoNet_Medium_Top_US.et" {
+ coords 8394.463 150.768 3574.897
+ angleX -0.121
+ angleY -6.424
+ angleZ -1.073
+ scale 0.88
+}
+GenericEntity : "{9D720679B696FEE1}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_US_01_M2HB.et" {
+ coords 8491.912 155.927 3665.275
+ angleX 2.145
+ angleY 21.364
+}
+GenericEntity : "{A7930B258A9B4CA8}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_plastic.et" {
+ coords 8394.036 150.546 3571.291
+ angleY 8.861
+}
+SCR_DestructibleBuildingEntity : "{AAB9EC1130878E02}Prefabs/Structures/Ruins/HouseRuins/HouseRuin_01/HouseRuin_01_Corner.et" {
+ coords 8421.75 -1.035 3595.759
+ angleY 131.411
+ scale 2.402
+}
+$grp GenericEntity : "{ABD3BE7EAE6C877D}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Light_US_01.et" {
+ {
+  coords 8441.095 154.56 3631.865
+  angleX -0.456
+  angleY 40.907
+  angleZ 4.576
+ }
+ {
+  coords 8449.633 151.618 3600.215
+  angleX -4.583
+  angleY 129.961
+  angleZ -0.379
+  {
+   GenericEntity {
+    ID "5CB0D9902551D612"
+    coords -1.346 0 0.029
+   }
+  }
+ }
+}
+GenericEntity : "{AE300E34EA8FF40C}Prefabs/Props/Wrecks/Ural4320_wreck_static.et" {
+ coords 8516.862 147.738 3564.567
+ angleY -45.622
+}
+$grp GenericEntity : "{BB6E3F9C566319BA}Prefabs/Props/Military/Sandbags/Sandbag_01_end_base.et" {
+ {
+  coords 8389.924 151.331 3572.281
+  angleY 63.354
+ }
+ {
+  coords 8389.111 151.526 3573.957
+  angleY 63.354
+ }
+}
+$grp GenericEntity : "{BBE13893AEA69C0C}Prefabs/Props/Military/Sandbags/Sandbag_01_foundation_plastic.et" {
+ {
+  components {
+   Hierarchy "{5A58883F88AF1AEC}" {
+   }
+  }
+  coords 8443.188 154.291 3619.335
+  angleY 129.976
+ }
+ {
+  coords 8492.445 155.87 3665.207
+  angleY 22.259
+  scale 0.76
+ }
+}
+GenericEntity : "{C0D09A53EEA441D6}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_US_02.et" {
+ coords 8506.26 152.897 3624.577
+ angleY 113.559
+ angleZ 1.561
+}
+SCR_DestructibleBuildingEntity : "{CCE6A451A226AF4E}Prefabs/Structures/Military/Houses/GuardHouse_01/GuardHouse_01_beige.et" {
+ coords 8433.796 2.098 3612.942
+ angleY 39.433
+ {
+  GenericEntity {
+   ID "59CEDBA3F6AFEF50"
+   {
+    GenericEntity {
+     ID "588EF057331EF263"
+     coords 5.563 1.604 -3.784
+    }
+   }
+  }
+  GenericEntity {
+   ID "59CEDBA3F6AFEF62"
+   coords 0 0 0
+  }
+ }
+}
+StaticModelEntity : "{D0F17E2313DE33F1}Prefabs/Structures/Military/Fortifications/BlastCover_E_01/BlastCover_E_01_18x5.et" {
+ coords 8457.938 147.549 3579.733
+ angleY -20.917
+ angleZ 2.911
+}
+$grp GenericEntity : "{D320BFF57E696FE6}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidPlastic_S_US_01.et" {
+ {
+  coords 8442.438 154.452 3636.622
+  angleY -46.553
+ }
+ {
+  coords 8444.269 154.519 3638.522
+  angleY -46.553
+ }
+ {
+  coords 8448.965 154.318 3636.58
+  angleY 32.831
+  {
+   GenericEntity {
+    ID "5D72D01CA4AF92BD"
+    coords 0 -0.399 0
+   }
+  }
+ }
+ {
+  coords 8451.188 153.919 3635.126
+  angleY 32.831
+  {
+   GenericEntity {
+    ID "5D72D01CA4AF92BD"
+    coords 0.084 0 0.548
+    angleY -19.706
+   }
+  }
+ }
+ {
+  coords 8442.438 154.452 3636.622
+  angleY -46.553
+ }
+ {
+  coords 8442.438 154.452 3636.622
+  angleY -46.553
+ }
+}
+$grp StaticModelEntity : "{D4177594212A056F}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_plastic_foundation.et" {
+ {
+  coords 8443.085 155.228 3619.378
+  angleY 129.96
+ }
+ {
+  coords 8436.115 155.187 3624.772
+  angleY -52.11
+ }
+ {
+  coords 8484.922 156.358 3666.911
+  angleY 19.561
+ }
+}
+$grp GenericEntity : "{DC4B11930753ABC2}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_base.et" {
+ {
+  coords 8472.773 151.827 3616.834
+  angleY 153.407
+ }
+ {
+  coords 8472.715 152.922 3616.874
+  angleY 153.582
+ }
+ {
+  coords 8472.719 153.594 3616.867
+  angleY 153.585
+ }
+}
+GenericEntity : "{DF97EE284423468B}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_Sign_US_01.et" {
+ coords 8440.604 154.781 3634.485
+ angleY -51.355
+ {
+  GenericEntity {
+   ID "5CB0D9910F79942E"
+   coords 4.082 1.533 0
+  }
+ }
+}
+$grp GenericEntity : "{E840D82CE1F92BBD}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_base.et" {
+ {
+  coords 8391.997 151.388 3571.045
+  angleY 152.324
+ }
+ {
+  coords 8391.833 151.882 3578.27
+  angleY -90.558
+ }
+ {
+  coords 8394.854 151.981 3579.215
+  angleY -178.053
+ }
+ {
+  coords 8389.766 151.78 3574.671
+  angleY 152.324
+ }
+ {
+  coords 8390.291 151.38 3571.521
+  angleY -125.502
+ }
+ {
+  coords 8475.272 153.403 3619.768
+  angleY 126.803
+ }
+ {
+  coords 8468.821 153.963 3618.967
+  angleY 130.916
+ }
+}
+$grp GenericEntity : "{F29A05EBA7063E7C}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_plastic.et" {
+ {
+  components {
+   Hierarchy "{5D72D4247E29B54E}" {
+    Enabled 1
+   }
+  }
+  coords 8454.467 153.696 3635.591
+  angleY -21.044
+ }
+ {
+  coords 8499.25 151.836 3613.227
+  angleY -66.043
+ }
+ {
+  coords 8497.241 151.601 3608.108
+  angleY -66.043
+ }
+ {
+  coords 8391.133 150.928 3576.077
+  angleY -60.483
+ }
+ {
+  components {
+   Hierarchy "{5D72D4247E29B54E}" {
+    Enabled 1
+   }
+  }
+  coords 8470.13 151.906 3620.922
+  angleY -44.841
+ }
+ {
+  components {
+   Hierarchy "{5D72D4247E29B54E}" {
+    Enabled 1
+   }
+  }
+  coords 8471.707 152.123 3622.53
+  angleY -47.011
+ }
+ {
+  components {
+   Hierarchy "{5D72D4247E29B54E}" {
+    Enabled 1
+   }
+  }
+  coords 8468.678 152.19 3618.883
+  angleY -44.841
+ }
+ {
+  components {
+   Hierarchy "{5D72D4247E29B54E}" {
+    Enabled 1
+   }
+  }
+  coords 8474.584 151.376 3618.877
+  angleY -54.848
+ }
+ {
+  components {
+   Hierarchy "{5D72D4247E29B54E}" {
+    Enabled 1
+   }
+  }
+  coords 8475.288 152.539 3620.731
+  angleY -140.155
+ }
+ {
+  components {
+   Hierarchy "{5D72D4247E29B54E}" {
+    Enabled 1
+   }
+  }
+  coords 8471.222 153.28 3622.028
+  angleY -44.841
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{F7B9B2DD8B512720}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_02/ConcreteRetainingWall_02_8m.et" {
+ {
+  coords 8432.053 152.27 3614.278
+  angleY -49.971
+  scale 0.759
+ }
+ {
+  coords 8435.521 152.052 3615.364
+  angleY -135.203
+  scale 0.759
+ }
+ {
+  coords 8437.846 150.485 3619.998
+  angleY -53.473
+  scale 1.24
+ }
+}
+$grp StaticModelEntity : "{F8E70CBC00C9E30E}Prefabs/Structures/Military/Fortifications/BlastCover_E_01/BlastCover_E_01_8x5.et" {
+ {
+  coords 8467.478 147.686 3591.533
+  angleX 2.966
+  angleY -42.634
+  angleZ 0.895
+  scale 0.94
+ }
+ {
+  coords 8393.929 151.097 3577.704
+  angleX -4.011
+  angleY 179.021
+  angleZ 0.049
+  scale 0.311
+ }
+ {
+  coords 8494.987 149.365 3612.484
+  angleX 1.459
+  angleY -68.973
+  angleZ -3.736
+  scale 0.94
+ }
+ {
+  coords 8391.249 150.648 3573.21
+  angleX 1.883
+  angleY 61.775
+  angleZ 3.543
+  scale 0.311
+ }
+ {
+  coords 8456.256 146.984 3542.018
+  angleX 3.919
+  angleY -12.533
+  angleZ -0.851
+  scale 0.352
+ }
+ {
+  coords 8440.418 148.397 3577.667
+  angleX 1.904
+  angleY 19.219
+  angleZ 0.669
+  scale 0.94
+ }
+}
+GenericEntity : "{FA188839C5E6DAD3}Prefabs/Structures/BuildingParts/Entry/Entry_Direct_01_narrow.et" {
+ components {
+  Hierarchy "{5488F0388A297CDE}" {
+   Enabled 1
+   PivotID "socket_entry_03"
+   AutoTransform 1
+  }
+ }
+ coords 8419.437 155.437 3592.742
+ angleY 43.655
+}
+$grp GenericEntity : "{FA9066DE33E8E67D}Prefabs/Structures/Military/Camps/Canvas_Covers/US/CanvasCover_Large_US.et" {
+ {
+  coords 8468.051 150.244 3591.589
+  angleY 46.356
+  angleZ 1.772
+  scale 1.1
+ }
+ {
+  coords 8440.648 151.122 3578.121
+  angleX -1.552
+  angleY 107.485
+  angleZ 0.855
+  scale 1.1
+ }
+}
+GenericEntity : "{FB41F48964E04C5B}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Corner_BarbedWire_US_01.et" {
+ coords 8501.132 152.421 3617.776
+}
+GenericEntity : "{FCE3FA547AA13ECC}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V2.et" {
+ coords 8422.179 161.712 3604.402
+}
