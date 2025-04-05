@@ -33,7 +33,7 @@ $grp SCR_AIGroup : "{0223367D44716E7B}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Sum
   coords 3071.53 144.313 8435.647
   angleY 175.22
   m_aUnitPrefabSlots {
-   "{BBFE0BDC501C440F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_HeliPilot.et" "{BBFE0BDC501C440F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_HeliPilot.et" "{DF0DEA691059823A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Co-Pilot.et"
+   "{BBFE0BDC501C440F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_HeliPilot.et" "{BBFE0BDC501C440F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_HeliPilot.et" "{DF0DEA691059823A}Prefabs/Characters/Factions/LightFun/OPFOR/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Co-Pilot.et"
   }
   m_aStaticVehicles {
    "m8"
@@ -120,6 +120,18 @@ $grp SCR_AIGroup : "{256AEA338E84EC28}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Sum
   m_aStaticVehicles {
    "epoch4"
   }
+ }
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 8407.876 111.531 6835.394
+  m_sTitle "Аэродром защищен"
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 8403.957 111.531 6837.646
+  m_sTitle "Аэродром захвачен."
+  m_sFactionKey "RHS_USAF"
  }
 }
 Vehicle K4 : "{E836092AB606CE4A}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed_Tan.et" {
