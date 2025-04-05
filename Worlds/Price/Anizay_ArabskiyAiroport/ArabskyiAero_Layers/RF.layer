@@ -122,6 +122,16 @@ $grp SCR_AIGroup : "{256AEA338E84EC28}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Sum
   }
  }
 }
+GenericEntity : "{27AC9FC7F5E2BEEB}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEDP.et" {
+ coords 6131.724 104.232 6997.905
+ angleY -79.75
+}
+GenericEntity : "{35022055DCDDE98B}Prefabs/Weapons/Launchers/MK153/Launcher_MK153mod2.et" {
+ coords 6130.776 104.811 6998.01
+ angleX 60.883
+ angleY 18.486
+ angleZ 94.494
+}
 $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  {
   coords 8407.876 111.531 6835.394
