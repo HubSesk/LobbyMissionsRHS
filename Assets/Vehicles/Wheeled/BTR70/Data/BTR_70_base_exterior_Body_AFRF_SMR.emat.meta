@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{F31B9A08E7684C19}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body_ion.emat"
+ Name "{AB48F3F7B8B07BD9}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body_AFRF_SMR.emat"
  Configurations {
   EMATResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EMATResourceClass PS5 : PC {
   }
   EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
   }
  }
 }
