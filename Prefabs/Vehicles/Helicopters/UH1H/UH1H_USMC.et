@@ -3,9 +3,17 @@ Vehicle : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
  components {
   MeshObject "{51DAA09FEFBFC0E7}" {
    Materials {
-    MaterialAssignClass "{619E533D5FF2ABF0}" {
+    MaterialAssignClass "{61B8C629C641EC49}" {
      SourceMaterial "UH_1H_Body01_6224CA051369DE45"
      AssignedMaterial "{921268912B27E598}Assets/Vehicles/Helicopters/UH1H/Data/UH_1H_Body01_white.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "RHS_USAF"
+    m_aAutoLabels {
+     1677929688 122
     }
    }
   }

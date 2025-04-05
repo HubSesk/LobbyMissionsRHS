@@ -1,0 +1,21 @@
+PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_aVisibleForFactions {
+    "" "RHS_USAF" "Ses_TKA"
+   }
+  }
+ }
+ coords 3535.284 176.75 2794.559
+ Points {
+  ShapePoint "{650AC7634D3C52D4}" {
+   Position -74.459 -7.68 113.032
+  }
+  ShapePoint "{650AC763529509D0}" {
+   Position 38.147 -9.824 188.784
+  }
+  ShapePoint "{650AC763525DDBC9}" {
+   Position 145.72 -9.657 81.953
+  }
+ }
+}
