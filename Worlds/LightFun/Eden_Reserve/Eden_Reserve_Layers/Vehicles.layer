@@ -4,6 +4,13 @@ Vehicle Ural4320_tanker_camo1 : "{13139B95B13DDA35}Prefabs/Vehicles/Wheeled/Ural
  angleY 90.541
  angleZ 4.467
 }
+Vehicle BRDM1 : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
+ coords 9934.87 305.482 2415.167
+ angleX -0.781
+ angleY 29.246
+ angleZ -0.437
+ m_sAttachmentGroupName "RF_10"
+}
 $grp Vehicle : "{3277F8B1FA06A2BC}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et" {
  M1025_armed_M2HB_USAF1 {
   coords 7600.694 79.405 5495.309
@@ -34,26 +41,19 @@ $grp Vehicle : "{3277F8B1FA06A2BC}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   m_sAttachmentGroupName "USMC_3"
  }
 }
+Vehicle LAV25_RHS1 : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
+ coords 7619.399 79.749 5518.087
+ angleX 0.039
+ angleY -92.52
+ angleZ 0.894
+ m_sAttachmentGroupName "USMC_10"
+}
 Vehicle M923A1_command1 : "{36BDCC88B17B3BFA}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command.et" {
  coords 7556.15 82.525 5544.064
  angleX 1.945
  angleY -130.18
  angleZ -0.471
  m_sAttachmentGroupName "USMC_5"
-}
-$grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
- BTR70_AFRF1 {
-  coords 9944.319 306.365 2453.317
-  angleX -1.715
-  angleY -16.642
-  angleZ 0.512
-  m_sAttachmentGroupName "RF_7"
- }
- BTR70_AFRF2 {
-  coords 9941.076 305.156 2429.994
-  angleY 18.196
-  m_sAttachmentGroupName "RF_8"
- }
 }
 Vehicle Ural4320_camo1 : "{76C687EA8C6E953F}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_camo1.et" {
  coords 8773.895 197.114 3916.706
@@ -79,6 +79,20 @@ $grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transpo
   angleY 143.112
   angleZ 0.894
   m_sAttachmentGroupName "USMC_9"
+ }
+}
+$grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ BTR2 {
+  coords 9944.318 306.365 2453.317
+  angleX -1.715
+  angleY -16.642
+  angleZ 0.512
+  m_sAttachmentGroupName "RF_7"
+ }
+ BTR1 {
+  coords 9941.076 305.156 2429.994
+  angleY 18.196
+  m_sAttachmentGroupName "RF_8"
  }
 }
 $grp Vehicle : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et" {

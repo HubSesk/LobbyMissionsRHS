@@ -1,0 +1,58 @@
+GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign.et" {
+ coords 4932.129 2.187 3883.353
+ angleY 114.134
+}
+Turret : "{D1FFE458E8AC4BDB}Prefabs/Weapons/Mortars/2B14/Mortar_2B14.et" {
+ coords 4854.111 53.288 5661.554
+ angleY 160.679
+}
+$grp GenericEntity : "{D37FCFA137EE0EA7}Prefabs/Props/Military/Arsenal/AmmoBoxes/NormalBox_AmmoBox_USSR.et" {
+ {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    MultiSlots {
+     MultiSlotConfiguration "{60E95557E8996D04}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et"
+      }
+      NumSlots 175
+     }
+     MultiSlotConfiguration "{650ACCE6D5B97388}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{B41607EAB58A4252}Prefabs/Items/Equipment/BalisticTable/BalisticTable_USSR.et"
+      }
+      NumSlots 175
+     }
+    }
+   }
+  }
+  coords 4850.072 53.583 5660.424
+  angleX 0.044
+  angleY -14.722
+  angleZ 3.686
+ }
+ {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    MultiSlots {
+     MultiSlotConfiguration "{60E95557E8996D04}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{A544A2C131DE2C64}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_Smoke_D832DU.et"
+      }
+      NumSlots 100
+     }
+     MultiSlotConfiguration "{650ACCE6D5B97388}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{B41607EAB58A4252}Prefabs/Items/Equipment/BalisticTable/BalisticTable_USSR.et"
+      }
+      NumSlots 175
+     }
+    }
+   }
+  }
+  coords 4852.033 53.437 5660.938
+  angleX -0.818
+  angleY -14.781
+  angleZ 3.913
+ }
+}
