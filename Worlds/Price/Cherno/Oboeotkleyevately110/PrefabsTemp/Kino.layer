@@ -488,20 +488,6 @@ CinematicEntity TheMovie {
   }
  }
 }
-ParticleEffectEntity Kh55 {
- components {
-  SignalsManagerComponent "{65344BE470CA5EB5}" {
-  }
-  SoundComponent "{65344BE6F35D2E41}" {
-   Filenames {
-    "{CBFF327FC8E08E9A}Sounds/Weapons/Warheads/Explosion_KH55.acp"
-   }
-  }
- }
- coords 2256.788 270.349 10898.821
- scale 7.6
- EffectPath "{473B00F0FB1D32AE}Particles/Logistics/Explosion/Explosion_Warhead_kh55.ptc"
-}
 SCR_ChimeraCharacter Timoha : "{19C264F6418C65E5}Prefabs/Characters/Factions/LightFun/INDFOR/NAPA/Poor/Character_NAPA_Medic_Poor.et" {
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
