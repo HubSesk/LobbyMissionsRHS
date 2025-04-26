@@ -1,0 +1,33 @@
+Vehicle : "{31F0866273C46D76}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{653436DB98AB33E4}" {
+     SourceMaterial "Hull"
+     AssignedMaterial "{DC71B9CF692512DC}Assets/Vehicles/Wheeled/K17bumerang/Data/Hull.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#RHS-Vehicle_K17_Berezok_Name #RHS-Tan"
+    m_Image "{37E4446D986508B1}UI/Textures/EditorPreviews/Vehicles/K17/Vehicle_K17_Berezhok_tan.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo sideContainers {
+     Prefab "{DF267B63A3FE1CE3}Prefabs/Vehicles/Wheeled/K17/VehParts/Attachments/Attachment_K17_containers_tan.et"
+    }
+    RegisteringComponentSlotInfo Turret {
+     Offset 0.0145 0.6561 -1.4677
+     Prefab "{3F34151E6DEC9D7A}Worlds/Price/Cherno/Oboeotkleyevately110/PrefabsTemp/T14_Turret_OnleFragsPriceTemp.et"
+    }
+   }
+  }
+ }
+ coords 1265.038 51 1488.054
+ scale 0.991
+ m_sAttachmentGroupName "RHS_AFRF_G_021_2"
+}

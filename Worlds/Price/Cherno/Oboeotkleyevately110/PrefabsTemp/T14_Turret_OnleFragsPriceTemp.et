@@ -1,0 +1,101 @@
+Turret : "{70899C1C6ED89CF6}Prefabs/Vehicles/Tracked/T14/VehParts/Turret/T14_Turret.et" {
+ ID "51ACD0965653D003"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   DoorInfoList {
+    SCR_CompartmentDoorInfo "{650517B51E445CF8}" {
+     AnimDoorIndex 1
+     ContextName "RampDoor"
+     EntryPositionInfo PointInfo "{65344BE21CA22BC5}" {
+      PivotID "rear_door_getin"
+      Offset -0.0001 -0.6389 -3.7659
+     }
+     ExitPositionInfo PointInfo "{65344BE2250C5862}" {
+      PivotID "rear_door_getin"
+      Offset -0.0001 -0.6389 -3.7659
+     }
+     AlignDuringGetOut 1
+     GetInAligningTeleport 1
+     GetOutAligningTeleport 1
+     GetInSeatAligningOnEvent 1
+     GetOutAligningOnEvent 1
+     FakeDoor 1
+     AccessibilitySettings CompartmentAccessibilityContext "{65344BE2028365AB}" {
+      TraceOffset 0 0.2 1
+     }
+     m_eDoorType FAKE
+    }
+   }
+   CompartmentSlots {
+    RHS_TurretCompartmentSlot TurretCompartment {
+     CompartmentUniqueName ""
+     CompartmentAction RHS_GetInK17UserAction "{5086CC2CFDD3A05A}" {
+      ParentContextList {
+       "BackDoor" "Ramp"
+      }
+      CanAggregate 1
+      "Sort Priority" 1
+     }
+     GetOutAction RHS_GetOutK17UserAction "{509D56664FF79DDB}" {
+      ParentContextList {
+       "BackDoor" "gunner"
+      }
+     }
+     JumpOutAction RHS_JumpOutK17UserAction "{5D0B1D47DC1C5730}" {
+      ParentContextList {
+       "BackDoor" "gunner"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D566648F37562}" {
+      ParentContextList {
+       "GunnerSeat" "GunnerOrCommander" "GoBackToMainCompartment"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D56867A46DBE769}" {
+       ParentContextList {
+        "DriverHatch" "Ramp" "BackDoor"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D59F48D7BD2}" {
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      PivotID "Gunner_Idle"
+      Offset -0.4663 0.1982 -2.0055
+     }
+     SkipCharacterDoorAnimationsFromSeat 0
+     SeatType 1
+     DoorInfoList +{
+     }
+     UIInfo UIInfo "{50870A10DCCDED83}" {
+     }
+     m_DefaultOccupantData SCR_DefaultOccupantData "{633A8C1CA6068A07}" {
+      m_sDefaultOccupantPrefab "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+     }
+     m_fFreelookAimLimitOverrideLeft -160
+     m_fFreelookAimLimitOverrideRight 160
+     m_fFreelookCameraNeckFollowTraverse 1
+    }
+   }
+  }
+  SlotManagerComponent "{5E9F6C090FB07213}" {
+   Slots {
+    RegisteringComponentSlotInfo Commander_Turret {
+     Prefab ""
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{784FD7B7E41E831F}Prefabs/Weapons/HeavyWeapons/2A82/Weapon_2A82_OnlyFrags.et"
+  }
+  VehicleAnimationComponent "{5E9F6C09F1CB3CF8}" {
+   AnimInjection AnimationAttachmentInfo "{5E9F6C09F1CB3CFB}" {
+    AnimGraph "{5EAE5936C06BE155}Assets/Vehicles/Wheeled/K17bumerang/workspaces/K17.agr"
+    AnimInstance "{F7242420E15DF00D}Assets/Vehicles/Wheeled/K17bumerang/workspaces/K17_player.asi"
+   }
+  }
+ }
+ coords 1266.331 51.641 1487.393
+ angleY -62.637
+}

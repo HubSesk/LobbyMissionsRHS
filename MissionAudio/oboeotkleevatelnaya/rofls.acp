@@ -1,0 +1,84 @@
+AudioClass {
+ sounds {
+  SoundClass {
+   id 5129
+   name "SOUND_VOICE"
+   version 5
+   tl 316.599 -17.962
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 4100
+       port 65
+      }
+      ConnectionClass connection {
+       id 8196
+       port 65
+      }
+     }
+    }
+   }
+   volume_dB -21
+   outState 7179
+   outStatePort 79879
+   type "One shot"
+  }
+ }
+ mixers {
+  MixerClass {
+   id 7179
+   name "OutputState 18"
+   version 4
+   tl 518.527 -23.605
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   ins {
+    ConnectionsClass connections {
+     id 79879
+     links {
+      ConnectionClass connection {
+       id 5129
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 152583
+    }
+   }
+   pi {
+    49152 0
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialog" "Music" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialog_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "UI" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large" "WPN_Shots_Player" "Dialog_Reverb_Small" "Dialog_Reverb_Medium" "Dialog_Reverb_Large" "WPN_TravelingProjectile" "Dialog_Delay_Exterior" "SFX_Reverb_InCabin"
+   }
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 4100
+   name "VoiceBank"
+   version 7
+   tl 108.494 -51.81
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{B0B4E884B44D682B}MissionAudio/oboeotkleevatelnaya/ROFLS2.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 8196
+   name "VoiceBank"
+   version 7
+   tl 109.444 62.222
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{B0B4E884B44D682B}MissionAudio/oboeotkleevatelnaya/ROFLS2.wav"
+    }
+   }
+  }
+ }
+ version 1
+}
