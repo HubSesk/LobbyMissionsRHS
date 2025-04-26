@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{6D0432F404EE4F24}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Medic_2.et" {
+ ID "6530E0F581E95A47"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6530E0F587BFD90B}" {
+     TargetStorage "Jacket/Jacket_Pilot_USSR_01.et"
+     PrefabsToSpawn {
+      "{AE578EEA4244D41F}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_US.et"
+     }
+    }
+   }
+  }
+ }
+}

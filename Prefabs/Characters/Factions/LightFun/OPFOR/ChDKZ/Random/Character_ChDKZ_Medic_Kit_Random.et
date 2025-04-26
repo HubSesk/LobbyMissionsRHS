@@ -1,0 +1,26 @@
+SCR_ChimeraCharacter : "{F836A2FFF2419CD2}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_Medic_Random.et" {
+ ID "652F71A6BD4E0CE5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{620757875F24E281}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{620757875EF6DFE1}" {
+      m_sVariantPrefab "{33C6946DAF46E191}Prefabs/Characters/Factions/LightFun/OPFOR/ChDKZ/Character_ChDKZ_Medic_Kit.et"
+     }
+     SCR_EditableEntityVariant "{620757875EDF697B}" {
+      m_sVariantPrefab "{A9A7CDDEFC35825B}Prefabs/Characters/Factions/LightFun/OPFOR/ChDKZ/Character_ChDKZ_Medic_Kit_2.et"
+     }
+     SCR_EditableEntityVariant "{620757875E20381A}" {
+      m_sVariantPrefab "{4C3B8127F0D01530}Prefabs/Characters/Factions/LightFun/OPFOR/ChDKZ/Character_ChDKZ_Medic_Kit_3.et"
+     }
+     SCR_EditableEntityVariant "{620757875E09D65F}" {
+      m_sVariantPrefab "{710FA41F85BC9C07}Prefabs/Characters/Factions/LightFun/OPFOR/ChDKZ/Character_ChDKZ_Medic_Kit_4.et"
+     }
+     SCR_EditableEntityVariant "{620757875E566ED4}" {
+      m_sVariantPrefab "{9493E8E689590B6C}Prefabs/Characters/Factions/LightFun/OPFOR/ChDKZ/Character_ChDKZ_Medic_Kit_5.et"
+     }
+    }
+   }
+  }
+ }
+}

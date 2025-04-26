@@ -7,8 +7,8 @@ GenericEntity : "{CCC00D009D4949B0}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM
   SCR_MineDamageManager "{5A187C4DB2CF86F2}" {
    "Additional hit zones" {
     SCR_MineHitZone Main {
-     MaxHealth 1000
-     "Explosive multiplier" 3
+     MaxHealth 1250
+     "Explosive multiplier" 3.25
     }
    }
   }
@@ -46,6 +46,17 @@ GenericEntity : "{CCC00D009D4949B0}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM
       "TM_62M_pin"
      }
     }
+   }
+  }
+  PS_SpectatorLabel "{6532E5DC0742211A}" {
+   m_cMapMarkerConfig PS_ManualMarkerConfig "{6532E5DC0FBE66F0}" {
+    m_MarkerColor 0.502 0.376 0 1
+    m_sQuadName "supplies"
+    m_fWorldSize 30
+    m_sDescription "Weapon Create"
+    m_bUseWorldScale 0
+    m_iZOrder 0
+    m_fMinSize 0
    }
   }
  }

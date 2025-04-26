@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{0A8DC1D745D35B7C}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_Medic_4.et" {
+ ID "652F71A904A53255"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{60ACD8A46289B061}" {
+     PrefabsToSpawn + {
+      "{21EF98BFC1EB3793}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_USSR.et"
+     }
+    }
+   }
+  }
+ }
+}

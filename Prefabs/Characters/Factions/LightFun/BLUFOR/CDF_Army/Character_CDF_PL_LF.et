@@ -1,0 +1,67 @@
+SCR_ChimeraCharacter : "{7E40A30CA801819C}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
+      }
+     }
+    }
+   }
+  }
+  CharacterWeaponManagerComponent "{5C9CA676383262FD}" {
+   DefaultWeaponIndex 0
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_PlatoonLeader"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+    m_Image "{CB6E2E7C255E11A3}UI/Textures/EditorPreviews/Characters/BLUFOR/CDF/Character_CDF_PL.edds"
+    m_aAuthoredLabels + {
+     42
+    }
+    m_aAutoLabels {
+     122
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{EDD98972553144BD}Prefabs/Weapons/Rifles/AK74N/Rifle_AK74N_Rail_ACOG.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{5D0A18F5E33564F3}Prefabs/Characters/HeadGear/Hat_M88_01/Hat_M88_CDF.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{4CBDC206FEF9897C}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6530E749517175A0}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
+     PrefabsToSpawn {
+      "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{6CDBE8F62BD278D6}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Tracer.et" "{6CDBE8F62BD278D6}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Tracer.et" "{6CDBE8F62BD278D6}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Tracer.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6530E749517175B6}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_Pilot_USSR_01/Jacket_Pilot_USSR_01.et"
+     PrefabsToSpawn {
+      "{9BBDEE253A16CC66}Prefabs/Weapons/Grenades/M18/Smoke_M18_Yellow.et" "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}

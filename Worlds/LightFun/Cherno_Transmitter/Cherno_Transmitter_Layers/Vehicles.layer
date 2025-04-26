@@ -1,0 +1,116 @@
+$grp Vehicle : "{0EFFC9A8E672EF33}Prefabs/Vehicles/Wheeled/Ural4320/Ses_CDF/Ural4320_Ses_CDF_transport_covered.et" {
+ Ural4320_Ses_CDF_transport_covered1 {
+  coords 7043.102 294.75 7660.177
+  angleY 55.54
+  m_sAttachmentGroupName "CDF_2"
+ }
+ Ural4320_Ses_CDF_transport_covered2 {
+  coords 7078.517 293.732 7652.497
+  angleX 6.339
+  angleY -65.947
+  angleZ -1.074
+  m_sAttachmentGroupName "CDF_5"
+ }
+ Ural4320_Ses_CDF_transport_covered3 {
+  coords 7092.394 294.537 7689.238
+  angleX -1.207
+  angleY 62.513
+  angleZ -0.381
+  m_sAttachmentGroupName "CDF_3"
+ }
+}
+Vehicle BRDM2_Ses_ChDKZ1 : "{1799AE4958D0D24A}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_Ses_ChDKZ.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{607E9AA3D83AA29D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{62F87BCEFB3AD52B}" {
+     NumSlots 6
+    }
+    MultiSlotConfiguration "{62F87BCEFCBA3B1F}" {
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{62F87BCEFF644C37}" {
+     NumSlots 0
+    }
+   }
+  }
+ }
+ coords 9608.362 206.656 6577.132
+ angleX 2.738
+ angleY 93.899
+ angleZ -0.71
+ m_sAttachmentGroupName "ChDKZ_7"
+}
+Vehicle UAZ469_uncovered_Ses_CDF1 : "{37DA845E90392CAE}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Ses_CDF.et" {
+ coords 7045.125 296.59 7711.091
+ angleX -4.333
+ angleY -129.047
+ angleZ -1.086
+ m_sAttachmentGroupName "CDF_8"
+}
+Vehicle BTR70_Ses_CDF1 : "{52441D784D145D52}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+   MultiSlots {
+    MultiSlotConfiguration "{62F49BDC3FB9A9FE}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{62F49BDC2DD39F35}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{60E55E1361A6658C}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{60E55E1361A665B6}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{60E55E1361A665BB}" {
+     NumSlots 6
+    }
+    MultiSlotConfiguration "{60E55E1361A665BA}" {
+     NumSlots 4
+    }
+   }
+  }
+ }
+ coords 7119.394 294.291 7697.226
+ angleX -0.895
+ angleY 90.849
+ angleZ -0.013
+ m_sAttachmentGroupName "CDF_7"
+}
+Vehicle M923A1_transport_covered1 : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
+ coords 7010.97 296.919 7673.79
+ angleX -0.385
+ angleY 62.7
+ angleZ 1.206
+ m_sAttachmentGroupName "USMC_1"
+}
+$grp Vehicle : "{95C19D971E734B61}Prefabs/Vehicles/Wheeled/Ural4320/Ses_CDF/Ural4320_Ses_CDF_transport.et" {
+ Ural4320_Ses_CDF_transport1 {
+  coords 7039.213 295.896 7685.261
+  angleX -4.465
+  angleY 141.385
+  angleZ 0.136
+  m_sAttachmentGroupName "CDF_6"
+ }
+ Ural4320_Ses_CDF_transport2 {
+  coords 7072.927 294.75 7678.047
+  angleY 58.165
+  m_sAttachmentGroupName "CDF_1"
+ }
+}
+$grp Vehicle : "{FA6820A9A52CD05B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF.et" {
+ M1025_armed_M2HB_MDO_USAF1 {
+  coords 7011.213 296.934 7690.267
+  angleX 0.764
+  angleY 148.61
+  angleZ -0.466
+  m_sAttachmentGroupName "USMC_2"
+ }
+ M1025_armed_M2HB_MDO_USAF2 {
+  coords 7004.997 296.937 7700.701
+  angleY 152.42
+  m_sAttachmentGroupName "USMC_2"
+ }
+}

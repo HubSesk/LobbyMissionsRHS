@@ -4,9 +4,9 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
-  m_sQuadName "armored"
+  m_sQuadName "infantry"
   m_fWorldSize 45
-  m_sDescription "(Экипаж К-17 Бумеранг) Буран-11"
+  m_sDescription "(Десант К-17 Бумеранг) Буран-12"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -15,13 +15,13 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  RHS_AFRF_G_110_M {
-  coords 2222.888 265.674 11083.124
+  coords 2222.852 265.674 11086.264
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
-  m_sQuadName "armored"
+  m_sQuadName "infantry"
   m_fWorldSize 45
-  m_sDescription "(Экипаж К-17 Бумеранг) Буран-21"
+  m_sDescription "(Десант К-17 Бумеранг) Буран-22"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -456,25 +456,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  {
-  coords 2185.746 263.918 11063.155
-  angleX 5.218
-  angleY 184.039
-  angleZ 2.155
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0.555 0.002 0 1
-  m_sQuadName "Car"
-  m_fWorldSize 4
-  m_sDescription "#AR-Vehicle_UAZ469_Name"
-  m_bUseWorldScale 1
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   1
-  }
-  m_iZOrder 0
-  m_bShowForAnyFaction 1
- }
- {
   coords 2182.635 264.451 11104.168
   angleX 0.574
   angleY 198.045
@@ -544,6 +525,85 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    1
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ RHS_AFRF_G_110_M2 {
+  coords 2233.863 265.603 11093.131
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "armored"
+  m_fWorldSize 45
+  m_sDescription "(Экипаж К-17 Бумеранг) Буран-21"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ RHS_AFRF_G_110_M3 {
+  coords 2230.653 266.18 11067.231
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "armored"
+  m_fWorldSize 45
+  m_sDescription "(Экипаж К-17 Бумеранг) Буран-11"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 2186.062 263.972 11063.955
+  angleX 4.29
+  angleY 185.125
+  angleZ 2.176
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.855 0.031 0.028 1
+  m_sQuadName "Car"
+  m_fWorldSize 4
+  m_sDescription "#AR-Vehicle_UAZ452_Transport_Name"
+  m_bUseWorldScale 1
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ RHS_AFRF_G_120_M2 {
+  coords 2165.025 262.812 11094.767
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "armored"
+  m_fWorldSize 45
+  m_sDescription "(Экипаж Тайфун-ВДВ) Буран-41"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ RHS_USAF_G_000_M2 {
+  coords 4896.382 339.125 10172.727
+  m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "signal"
+  m_fWorldSize 35
+  m_sDescription "Атлас Грин 1"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
   }
   m_iZOrder 0
   m_bShowForAnyFaction 1

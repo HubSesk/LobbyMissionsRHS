@@ -1,0 +1,162 @@
+$grp SCR_AIGroup : "{2C033F255E9F995A}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_FireGroup.et" {
+ ChDKZ_1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{652F29749A6306C0}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 9481.52 304.094 8820.945
+  m_aUnitPrefabSlots {
+   "{7F6163CF01C9874A}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_SL_Random.et" "{38F8F07CF28C4CFF}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_SR_Random.et" "{CD34528D50BB7517}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_AR_Random.et" "{997C1DCABD67B949}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_AT_Random.et" "{97F895BE0EFA836E}Prefabs/Characters/Factions/LightFun/OPFOR/ChDKZ/Random/Character_ChDKZ_AAT_B_Random.et" "{B1522C28EEDA0964}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_Rifleman_Random.et" "{169D2A409AE56151}Prefabs/Characters/Factions/LightFun/OPFOR/ChDKZ/Random/Character_ChDKZ_Medic_Kit_Random.et" "{549002E7186628DA}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_Sharpshooter_Random.et"
+  }
+ }
+ ChDKZ_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{652F29749A6306C0}" {
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 9689.881 299.094 8866.987
+  angleY 109.552
+  m_aUnitPrefabSlots {
+   "{7F6163CF01C9874A}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_SL_Random.et" "{38F8F07CF28C4CFF}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_SR_Random.et" "{997C1DCABD67B949}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_AT_Random.et" "{97F895BE0EFA836E}Prefabs/Characters/Factions/LightFun/OPFOR/ChDKZ/Random/Character_ChDKZ_AAT_B_Random.et" "{964105A059743F79}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_MG_Random.et" "{45909251F98D6A23}Prefabs/Characters/Factions/LightFun/OPFOR/ChDKZ/Random/Character_ChDKZ_AMG_B_Random.et" "{B1522C28EEDA0964}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_Rifleman_Random.et" "{169D2A409AE56151}Prefabs/Characters/Factions/LightFun/OPFOR/ChDKZ/Random/Character_ChDKZ_Medic_Kit_Random.et"
+  }
+ }
+ ChDKZ_3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{652F29749A6306C0}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 9523.256 304.053 8840.066
+  angleY 83.106
+  m_aUnitPrefabSlots {
+   "{7F6163CF01C9874A}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_SL_Random.et" "{38F8F07CF28C4CFF}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_SR_Random.et" "{CD34528D50BB7517}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_AR_Random.et" "{964105A059743F79}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_MG_Random.et" "{45909251F98D6A23}Prefabs/Characters/Factions/LightFun/OPFOR/ChDKZ/Random/Character_ChDKZ_AMG_B_Random.et" "{37E99A7C0BFDA8BD}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_GL_Random.et" "{B1522C28EEDA0964}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_Rifleman_Random.et" "{549002E7186628DA}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_Sharpshooter_Random.et"
+  }
+ }
+ ChDKZ_4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{652F29749A6306C0}" {
+   }
+  }
+  coords 9484.211 304.094 8841.303
+  angleY 83.106
+  m_aUnitPrefabSlots {
+   "{98DBA38A5F44B8BB}Prefabs/Characters/Factions/LightFun/OPFOR/ChDKZ/Character_ChDKZ_Officer_LF.et" "{D0E3B3AABEEDCA16}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_RTO_Random.et" "{802A525957BF4F2C}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_Sapper_Random.et"
+  }
+  m_sCustomNameSet "Командование"
+ }
+ ChDKZ_5 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{652F29749A6306C0}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 12390.515 150.878 7533.79
+  angleY -98.954
+  m_aUnitPrefabSlots {
+   "{7F6163CF01C9874A}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_SL_Random.et" "{D0E3B3AABEEDCA16}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_RTO_Random.et" "{38F8F07CF28C4CFF}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_SR_Random.et" "{964105A059743F79}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_MG_Random.et" "{45909251F98D6A23}Prefabs/Characters/Factions/LightFun/OPFOR/ChDKZ/Random/Character_ChDKZ_AMG_B_Random.et" "{37E99A7C0BFDA8BD}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_GL_Random.et" "{B1522C28EEDA0964}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_Rifleman_Random.et" "{169D2A409AE56151}Prefabs/Characters/Factions/LightFun/OPFOR/ChDKZ/Random/Character_ChDKZ_Medic_Kit_Random.et"
+  }
+  m_sCustomNameSet "Десант БТР-70"
+ }
+ ChDKZ_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{652F29749A6306C0}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 12394.768 151.156 7469.013
+  angleY -90.337
+  m_aUnitPrefabSlots {
+   "{7F6163CF01C9874A}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_SL_Random.et" "{38F8F07CF28C4CFF}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_SR_Random.et" "{997C1DCABD67B949}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_AT_Random.et" "{97F895BE0EFA836E}Prefabs/Characters/Factions/LightFun/OPFOR/ChDKZ/Random/Character_ChDKZ_AAT_B_Random.et" "{964105A059743F79}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_MG_Random.et" "{45909251F98D6A23}Prefabs/Characters/Factions/LightFun/OPFOR/ChDKZ/Random/Character_ChDKZ_AMG_B_Random.et" "{B1522C28EEDA0964}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_Rifleman_Random.et" "{549002E7186628DA}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_Sharpshooter_Random.et"
+  }
+ }
+ ChDKZ_7 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{652F29749A6306C0}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 12380.037 151.188 7505.964
+  angleY 86.906
+  m_aUnitPrefabSlots {
+   "{7F6163CF01C9874A}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_SL_Random.et" "{38F8F07CF28C4CFF}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_SR_Random.et" "{997C1DCABD67B949}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_AT_Random.et" "{97F895BE0EFA836E}Prefabs/Characters/Factions/LightFun/OPFOR/ChDKZ/Random/Character_ChDKZ_AAT_B_Random.et" "{B58C265E3DD12F34}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_Rifleman_Armor_Random.et" "{B1522C28EEDA0964}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_Rifleman_Random.et" "{169D2A409AE56151}Prefabs/Characters/Factions/LightFun/OPFOR/ChDKZ/Random/Character_ChDKZ_Medic_Kit_Random.et" "{549002E7186628DA}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_Sharpshooter_Random.et"
+  }
+ }
+ ChDKZ_8 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{652F29749A6306C0}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 12377.621 150.881 7531.607
+  angleY 87.677
+  m_aUnitPrefabSlots {
+   "{166CA195A1D15FB2}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_Crew_Random.et" "{166CA195A1D15FB2}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_Crew_Random.et"
+  }
+  m_sCustomNameSet "Экипаж БТР-70"
+ }
+ ChDKZ_9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{652F29749A6306C0}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 12381.702 151.285 7455.878
+  angleY 87.447
+  m_aUnitPrefabSlots {
+   "{166CA195A1D15FB2}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_Crew_Random.et" "{166CA195A1D15FB2}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_Crew_Random.et"
+  }
+  m_sCustomNameSet "Экипаж БРДМ-2"
+ }
+ ChDKZ_10 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{652F29749A6306C0}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 12394.401 151.15 7488.604
+  angleY -93.561
+  m_aUnitPrefabSlots {
+   "{166CA195A1D15FB2}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_Crew_Random.et" "{166CA195A1D15FB2}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_Crew_Random.et"
+  }
+  m_sCustomNameSet "Экипаж БРДМ-2"
+ }
+}

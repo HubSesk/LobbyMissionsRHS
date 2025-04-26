@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{2A4051EDC38853A7}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_AMG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName "Подносчик"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{4F2C9DC153DD16AC}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_Googles_CDF.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5F39356B4034D9D7}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+}

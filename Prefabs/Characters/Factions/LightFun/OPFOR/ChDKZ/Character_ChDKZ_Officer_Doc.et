@@ -1,0 +1,82 @@
+SCR_ChimeraCharacter : "{3333379EC5576A15}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{F2539FA5706E51E4}Prefabs/Items/Equipment/Binoculars/Binoculars_B12/Binoculars_B12.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Officer"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+    m_Image "{3FF4B4523C8F4DE8}UI/Textures/EditorPreviews/Characters/OPFOR/ChDKZ/Character_ChDKZ_Officer.edds"
+    m_aAuthoredLabels + {
+     42
+    }
+    m_aAutoLabels {
+     122
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BFEA719491610A45}Prefabs/Weapons/Rifles/AKS74U/Rifle_AKS74U.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{200D967D2612147C}Prefabs/Characters/HeadGear/Hat_RadiovkaBeret_01/Hat_RadiovkaBeret_01_black.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{EFC35FA4B1DFA562}Prefabs/Characters/Uniforms/ChDKZ/Jacket_M88_ChDKZ_W.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{6C008B62EE578395}Prefabs/Characters/Uniforms/ChDKZ/Pants_M88_ChDKZ_W.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{D8DDD4941197A929}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_Commander.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{604D1A7A68ADA3DB}" {
+     TargetStorage "Prefabs/Characters/Uniforms/ChDKZ/Pants_M88_ChDKZ_W.et"
+    }
+    ItemsInitConfigurationItem "{604D1A7C305A8294}" {
+     TargetStorage "Vest/Vest_SovietHarness_Commander.et/Suspenders/Vest_SovietHarness_Suspenders.et"
+    }
+    ItemsInitConfigurationItem "{62080E224C053E46}" {
+     TargetStorage "Vest/Vest_SovietHarness_Commander.et/Bayonet/Scabbard_Bayonet_6Kh4.et"
+    }
+    ItemsInitConfigurationItem "{65340911C4FBAE34}" {
+     TargetStorage "Vest/Vest_SovietHarness_Commander.et/GrenadePouch/Vest_SovietHarness_GrenadePouch.et"
+     PrefabsToSpawn {
+      "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65340911C4FBAE38}" {
+     TargetStorage "Vest/Vest_SovietHarness_Commander.et/MagPouch_6Sh46/Pouch_Soviet_30rnd_AK74.et"
+     PrefabsToSpawn {
+      "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6534091126CFE8F9}" {
+     TargetStorage "Jacket/Jacket_M88_ChDKZ_W.et"
+     PrefabsToSpawn {
+      "{A95C4BA303CCB6F3}Prefabs/Items/Stuff/SecretDocuments.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,3 +1,17 @@
+Vehicle K4386_Armed_Camo1 : "{1DF4C30C130D8FAD}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed_Camo.et" {
+ coords 2753.279 365.878 6740.337
+ angleX -2.754
+ angleY -95.256
+ angleZ -0.645
+ m_sAttachmentGroupName "RF_11"
+}
+Vehicle UAZ452_transport1 : "{1FBB492E86002BF5}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport.et" {
+ coords 2716.283 364.147 6751.618
+ angleX 1.044
+ angleY -10.577
+ angleZ 0.716
+ m_sAttachmentGroupName "RF_8"
+}
 $grp Vehicle : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_camo1.et" {
  Ural4320_transport_covered_camo1 {
   coords 2655.198 363.096 6757.794
@@ -39,14 +53,14 @@ $grp Vehicle : "{3918E80DF5393F8C}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_cam
   angleX 1.031
   angleY 85.58
   angleZ 1.715
-  m_sAttachmentGroupName "RF_4"
+  m_sAttachmentGroupName "RF_14"
  }
  APC_K17_Epoch_camo2 {
   coords 2784.892 367.479 6764.987
   angleX -2.677
   angleY -94.135
   angleZ 0.193
-  m_sAttachmentGroupName "RF_7"
+  m_sAttachmentGroupName "RF_13"
  }
 }
 Vehicle Mi8MT_armed_black1 : "{80C975F8482DEE97}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_black.et" {
@@ -63,16 +77,7 @@ Vehicle Ural4320_repair_camo1 : "{BED355ED51A1E859}Prefabs/Vehicles/Wheeled/Ural
  angleZ 3.502
  m_sAttachmentGroupName "RF_10"
 }
-$grp Vehicle : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
- UAZ469_Camo2 {
-  coords 2714.883 364.312 6758.731
-  m_sAttachmentGroupName "RF_8"
- }
- UAZ469_Camo1 {
-  coords 2715.825 364.134 6750.406
-  angleX 1.039
-  angleY -10.163
-  angleZ 0.723
-  m_sAttachmentGroupName "RF_8"
- }
+Vehicle UAZ469_Camo2 : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
+ coords 2714.883 364.312 6758.731
+ m_sAttachmentGroupName "RF_12"
 }

@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{C0B22110761AA2E9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_Medic_Random.et" {
+ ID "6530E0F5FEE047FA"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{62174E8AEEF81F44}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{62174E8AEE4FF1EF}" {
+      m_sVariantPrefab "{044F8DFC2E93D5F3}Prefabs/Characters/Factions/LightFun/BLUFOR/CDF_Army/Character_CDF_Medic_Kit.et"
+     }
+     SCR_EditableEntityVariant "{62174E8AEDA7BF06}" {
+      m_sVariantPrefab "{76DE6A5571B2A5BA}Prefabs/Characters/Factions/LightFun/BLUFOR/CDF_Army/Character_CDF_Medic_Kit_2.et"
+     }
+     SCR_EditableEntityVariant "{62174E8AECBFBE9F}" {
+      m_sVariantPrefab "{934226AC7D5732D1}Prefabs/Characters/Factions/LightFun/BLUFOR/CDF_Army/Character_CDF_Medic_Kit_3.et"
+     }
+    }
+   }
+  }
+ }
+}

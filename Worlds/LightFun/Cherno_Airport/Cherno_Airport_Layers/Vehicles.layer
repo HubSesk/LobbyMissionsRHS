@@ -5,6 +5,20 @@ Vehicle UAZ469_Camo_uncovered1 : "{03D9932135924AEF}Prefabs/Vehicles/Wheeled/UAZ
  angleZ 1.128
  m_sAttachmentGroupName "RF_6"
 }
+Vehicle K4386_Armed_Camo1 : "{1DF4C30C130D8FAD}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed_Camo.et" {
+ coords 2173.833 263.764 11092.235
+ angleX 0.881
+ angleY -0.11
+ angleZ -7.126
+ m_sAttachmentGroupName "RF_14"
+}
+Vehicle UAZ452_transport1 : "{1FBB492E86002BF5}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport.et" {
+ coords 2186.062 263.972 11063.955
+ angleX 4.29
+ angleY 95.125
+ angleZ 2.176
+ m_sAttachmentGroupName "RF_7"
+}
 Vehicle Ural4320_transport_covered_camo1 : "{2B15F98903994DA3}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_camo1.et" {
  coords 2207.529 264.954 11151.337
  angleX -1.213
@@ -24,7 +38,7 @@ Vehicle APC_K17_Epoch_camo1 : "{3918E80DF5393F8C}Prefabs/Vehicles/Wheeled/K17/AP
  angleX 1.338
  angleY -105.393
  angleZ 1.488
- m_sAttachmentGroupName "RF_2"
+ m_sAttachmentGroupName "RF_12"
 }
 Vehicle M1025_armed_Mk19_f1 : "{5C54423CC80D1C96}Prefabs/Vehicles/Wheeled/M998/M1025_armed_Mk19_f.et" {
  components {
@@ -36,10 +50,10 @@ Vehicle M1025_armed_Mk19_f1 : "{5C54423CC80D1C96}Prefabs/Vehicles/Wheeled/M998/M
    }
   }
  }
- coords 8159.427 474.43 9098.812
- angleX 1.088
+ coords 8159.231 474.716 9099.051
+ angleX 1.137
  angleY -18.931
- angleZ -5.091
+ angleZ 0.556
  m_sAttachmentGroupName "USMC_8"
 }
 $grp Vehicle : "{80C975F8482DEE97}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_black.et" {
@@ -68,42 +82,35 @@ Vehicle APC_K17_Berezok_camo1 : "{DD0CB0331A3D8CA7}Prefabs/Vehicles/Wheeled/K17/
  angleX -2.371
  angleY -99.02
  angleZ 2.187
- m_sAttachmentGroupName "RF_1"
-}
-Vehicle UAZ469_Camo1 : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
- coords 2185.746 263.918 11063.155
- angleX 5.218
- angleY 94.039
- angleZ 2.155
- m_sAttachmentGroupName "RF_7"
+ m_sAttachmentGroupName "RF_13"
 }
 $grp Vehicle : "{FA6820A9A52CD05B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF.et" {
  M1025_armed_M2HB_MDO_USAF1 {
-  coords 8149.008 474.396 9124.896
-  angleX 4.792
-  angleY -13.531
-  angleZ -2.984
+  coords 8148.416 475.258 9124.972
+  angleX 1.08
+  angleY -13.574
+  angleZ 0.66
   m_sAttachmentGroupName "USMC_6"
  }
  M1025_armed_M2HB_MDO_USAF2 {
-  coords 8152.66 474.512 9116.824
-  angleX -2.008
-  angleY -31.113
-  angleZ -5.045
+  coords 8152.069 475.108 9116.896
+  angleX 0.766
+  angleY -31.135
+  angleZ -0.463
   m_sAttachmentGroupName "USMC_6"
  }
  M1025_armed_M2HB_MDO_USAF3 {
-  coords 8139.916 475.872 9145.542
-  angleX 0.893
-  angleY 0.042
-  angleZ 2.684
+  coords 8139.822 475.884 9146
+  angleX 1.786
+  angleY 0.084
+  angleZ 2.685
   m_sAttachmentGroupName "USMC_7"
  }
  M1025_armed_M2HB_MDO_USAF4 {
-  coords 8142.671 475.503 9136.52
-  angleX 3.177
-  angleY -23.823
-  angleZ 0.552
+  coords 8142.378 475.472 9136.585
+  angleX 1.181
+  angleY -23.839
+  angleZ 0.457
   m_sAttachmentGroupName "USMC_7"
  }
 }
