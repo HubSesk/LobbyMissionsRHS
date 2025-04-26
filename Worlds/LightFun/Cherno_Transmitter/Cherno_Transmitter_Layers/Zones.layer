@@ -1,71 +1,72 @@
-PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 7062.71 294.576 7684.999
+  m_fWarnRadius 90
+  m_fZoneRadius 140
+  m_fZoneTeleportedRadius 165
+ }
+ {
+  coords 9640.238 223.212 6552.417
+  m_fWarnRadius 90
+  m_fZoneRadius 130
+  m_fZoneTeleportedRadius 150
+ }
+}
+PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
  components {
   PS_PolyZone "{60E90266F25533F6}" {
    m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
    m_cPolygonColor 1 0 0 0.275
    m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
    m_cPolygonBorderColor 1 0 0 1
-   m_bReversed 0
    m_aVisibleForFactions {
     "" "Ses_CDF" "Ses_ChDKZ" "RHS_USAF"
    }
   }
  }
- coords 9646.188 233.712 6435.047
+ coords 9715.36 202.468 6587.798
  Points {
-  ShapePoint "{65340916D9EF0AA9}" {
-   Position -48.334 -4.632 15.702
+  ShapePoint "{6535091D74B05558}" {
+   Position 20.806 4.379 -45.782
   }
-  ShapePoint "{65340916DFDEA744}" {
-   Position -78.271 -10.605 37.366
+  ShapePoint "{6535091D7A9AC41D}" {
+   Position 20.112 7.968 -91.626
   }
-  ShapePoint "{65340916DF262769}" {
-   Position -101.721 -15.765 74.72
+  ShapePoint "{6535091D7907D6F8}" {
+   Position -0.825 14.039 -123.93
   }
-  ShapePoint "{65340916DE71056B}" {
-   Position -111.431 -16.738 121.769
+  ShapePoint "{6535091D7FD98A50}" {
+   Position -34.264 24.275 -151.584
   }
-  ShapePoint "{65340916DD64A57D}" {
-   Position -104.89 -23.055 171.806
+  ShapePoint "{6535091D7EFE2E2B}" {
+   Position -71.421 27.407 -153.506
   }
-  ShapePoint "{65340916C3E59D6B}" {
-   Position -83.887 -32.015 206.619
+  ShapePoint "{6535091D7DEFCC10}" {
+   Position -117.874 26.547 -136.83
   }
-  ShapePoint "{65340916C26F7F52}" {
-   Position -47.286 -33.645 221.845
+  ShapePoint "{6535091D7CE38ADA}" {
+   Position -147.395 20.658 -115.485
   }
-  ShapePoint "{65340916C1FF66AB}" {
-   Position -6.593 -36.855 217.567
+  ShapePoint "{6535091D6347D425}" {
+   Position -170.741 15.517 -78.48
   }
-  ShapePoint "{65340916C0E3BA5F}" {
-   Position 33.379 -34.616 192.369
+  ShapePoint "{6535091D62BAB94C}" {
+   Position -180.879 14.576 -30.608
   }
-  ShapePoint "{65340916C6476E4D}" {
-   Position 69.229 -31.234 152.648
+  ShapePoint "{6535091D61956C31}" {
+   Position -174.342 8.309 18.895
   }
-  ShapePoint "{65340916CB848384}" {
-   Position 89.943 -26.829 106.392
+  ShapePoint "{6535091D61175FC0}" {
+   Position -152.784 -0.785 53.52
   }
-  ShapePoint "{65340916CA53F308}" {
-   Position 89.385 -23.291 61.006
+  ShapePoint "{6535091D67C3F419}" {
+   Position -116.263 -2.412 69.026
   }
-  ShapePoint "{65340916C95BE2AA}" {
-   Position 68.218 -17.183 28.745
+  ShapePoint "{6535091D6779D8A4}" {
+   Position -75.853 -5.64 64.961
   }
-  ShapePoint "{65340916C8E16498}" {
-   Position 34.904 -6.965 1.14
-  }
- }
- {
-  PS_PolyZoneTrigger {
-   ID "60FD050E1E83544C"
-   m_sGroupKey "Commander"
+  ShapePoint "{6535091D65E2E7F4}" {
+   Position -35.818 -3.371 39.622
   }
  }
-}
-SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
- coords 7062.71 294.576 7684.999
- m_fWarnRadius 90
- m_fZoneRadius 140
- m_fZoneTeleportedRadius 165
 }
