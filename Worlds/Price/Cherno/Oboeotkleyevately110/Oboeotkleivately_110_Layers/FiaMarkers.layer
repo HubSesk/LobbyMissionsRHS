@@ -1,23 +1,21 @@
 $grp GenericEntity : "{41CA4A143FE5433E}PrefabsEditable/Auto/Structures/Military/Flags/FlagPole_02_V1_NAPA_Editable.et" {
  {
-  coords 2226.253 275.987 11074.489
+  coords 2226.253 273.607 11074.489
+  angleX -4.273
+  angleY -2.352
+  angleZ 28.867
  }
  {
   coords 2231.429 273.15 11107.408
  }
 }
-$grp Vehicle : "{49C909AFD66E90A1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_randomized.et" {
- S1203_transport_randomized1 {
-  coords 2227.7 266.269 11061.808
-  angleY -96.57
- }
- S1203_transport_randomized3 {
-  coords 2216.525 265.762 11063.35
-  angleY -168.112
- }
+Vehicle S1203_transport_randomized1 : "{49C909AFD66E90A1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_randomized.et" {
+ coords 2227.7 266.269 11061.808
+ angleY -96.57
 }
-Vehicle Mi8MT_armed_black1 : "{80C975F8482DEE97}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_black.et" {
- coords 4762.432 339.094 10365.153
+Vehicle APC_K17_T14M_olivePrice1 : "{679F4381F9A7C1DC}Worlds/Price/Cherno/Oboeotkleyevately110/PrefabsTemp/APC_K17_T14M_olivePrice.et" {
+ coords 4734.477 339.125 10389.875
+ angleY -29.208
 }
 Vehicle S105_darkblue_NAPA4 : "{9C1CFC294070828D}Prefabs/Vehicles/Wheeled/S105/S105_darkblue_NAPA.et" {
  coords 2215.163 265.086 11140.194
@@ -80,7 +78,10 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  Ses_NAPA_G_011_M {
-  coords 2213.625 265.661 11070.666
+  coords 2196.414 265.413 11097.558
+  angleX 0.013
+  angleY 90.834
+  angleZ -0.895
   m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -116,7 +117,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  Ses_NAPA_G_020_M {
-  coords 2214.257 265.746 11080.058
+  coords 2213.199 265.746 11087.854
   m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -165,5 +166,43 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bVisibleForEmptyFaction 1
   m_iZOrder 0
   m_bShowForAnyFaction 1
+ }
+ Ses_NAPA_G_022_M {
+  coords 2238.305 267.015 11057.483
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 20
+  m_sDescription "Racek-33"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 2234.625 267.104 11053.32
+  angleX -4.555
+  angleY 11.194
+  angleZ 0.009
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.052 0.855 0.028 1
+  m_sQuadName "APC"
+  m_fWorldSize 3.691
+  m_sDescription "#AR-Vehicle_BTR70_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "RHS_AFRF" "RHS_USAF" "Ses_CDF" "Ses_ChDKZ" "Ses_TKR" "Ses_TKA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
  }
 }

@@ -1,13 +1,6 @@
 Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
  ID "51ACD0965653D003"
  components {
-  TurretControllerComponent "{51ACD09C61C183E4}" {
-   CanAimOnlyInADS 1
-   LimitsHoriz -180 180
-   LimitsVert -5 45
-   TurretReloadPosition 500 0
-   GetUpdateEventsWhenEmpty 1
-  }
   SoundComponent "{62E1724A1021B991}" {
    Filenames {
     "{F5B2282048488055}Sounds/Vehicles/Tracked/T14/Vehicles_T14_Turret_LP.acp" "{D1CC0AAFF296DFE6}Sounds/Vehicles/Tracked/T14/Vehicles_T14_Turret.acp"
@@ -254,6 +247,13 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
   SCR_VehicleCameraDataComponent "{51AE850D79DDB1F5}" {
    m_fHeight 1.3
   }
+  TurretControllerComponent "{51ACD09C61C183E4}" {
+   CanAimOnlyInADS 1
+   LimitsHoriz -180 180
+   LimitsVert -5 45
+   TurretReloadPosition 500 0
+   GetUpdateEventsWhenEmpty 1
+  }
   UniversalInventoryStorageComponent "{62E1724A1021D99C}" {
    Enabled 0
    Attributes SCR_ItemAttributeCollection "{62E1724A1021D99B}" {
@@ -276,7 +276,7 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
    }
    InitialStorageSlots {
     InventoryStorageSlot HE {
-     Prefab "{479FDB5EDD601394}Prefabs/Weapons/Magazines/2A42/Box_30mm_2A42_HE_250rnd.et"
+     Prefab "{479FDB5EDD601394}Prefabs/Weapons/Magazines/2A42/Box_30mm_2A42_HE_340rnd.et"
     }
    }
   }
@@ -529,5 +529,5 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
    AutoVariablesBind 1
   }
  }
- coords 1028.947 51 2266.895
+ coords 1258.525 50.395 1471.217
 }

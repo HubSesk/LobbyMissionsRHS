@@ -6,23 +6,37 @@ $grp Vehicle : "{3B899AC9449C35F0}Prefabs/Vehicles/Wheeled/K17/APC_K17_unarmed.e
  APC_K17_unarmed1 {
   coords 4781.322 339.209 10409.444
   angleY -121.008
+  m_sAttachmentGroupName "RHS_AFRF_G_020_10"
  }
  APC_K17_unarmed2 {
   coords 4765.434 339.209 10436.584
   angleY -116.035
+  m_sAttachmentGroupName "RHS_AFRF_G_010_10"
+ }
+ APC_K17_unarmed3 {
+  coords 4787.863 339.209 10392.256
+  angleY -121.008
+ }
+ APC_K17_unarmed4 {
+  coords 4792.074 339.209 10385.332
+  angleY -121.008
+  m_sAttachmentGroupName "RHS_AFRF_G_021_11"
  }
 }
 $grp Vehicle : "{F86AB1BD36B33407}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch.et" {
  APC_K17_Epoch1 {
   coords 4768.778 339.209 10429.641
   angleY -117.978
+  m_sAttachmentGroupName "RHS_AFRF_G_012_10"
  }
  APC_K17_Epoch2 {
   coords 4772.159 339.209 10423.266
   angleY -116.689
+  m_sAttachmentGroupName "RHS_AFRF_G_002_10"
  }
  APC_K17_Epoch3 {
   coords 4776.474 339.209 10416.384
   angleY -116.689
+  m_sAttachmentGroupName "RHS_AFRF_G_011_10"
  }
 }

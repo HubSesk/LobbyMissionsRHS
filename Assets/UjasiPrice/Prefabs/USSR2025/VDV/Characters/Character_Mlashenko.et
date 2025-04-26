@@ -21,6 +21,9 @@ SCR_ChimeraCharacter : "{578A9679C9CBA787}Prefabs/Characters/Factions/OPFOR/RHS_
    WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   Enabled 0
+   AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
+   }
    WeaponTemplate "{B759939178464EE4}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_npz_b10m_eot.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
@@ -97,6 +100,5 @@ SCR_ChimeraCharacter : "{578A9679C9CBA787}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 4804.223 27.844 11196.326
- angleY -73.202
+ coords 4775.342 339.152 10364.512
 }

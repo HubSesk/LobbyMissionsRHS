@@ -24,6 +24,18 @@ $grp StaticModelEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/Tab
   angleZ 0.67
  }
 }
+$grp Vehicle : "{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et" {
+ Ural1 {
+  coords 2219.805 265.865 11062.411
+  angleX 0.159
+  angleY -142.23
+  angleZ 1.256
+ }
+ Ural2 {
+  coords 2185.055 264.554 11109.323
+  angleY 50.202
+ }
+}
 Vehicle S105_darkblue_NAPA3 : "{9C1CFC294070828D}Prefabs/Vehicles/Wheeled/S105/S105_darkblue_NAPA.et" {
  coords 2191.933 264.45 11063.194
  angleY 110.813
@@ -62,12 +74,11 @@ $grp Vehicle : "{EB326E661D5C857D}Prefabs/Vehicles/Wheeled/S105/S105_darkbrown_N
 }
 $grp Vehicle : "{F6B23D17D5067C11}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB.et" {
  M151A2_M2HB1 {
-  coords 2215.529 265.669 11084.769
- }
- M151A2_M2HB2 {
-  coords 2212.736 265.577 11084.628
+  coords 2210.53 265.669 11089.254
+  angleY -99.365
  }
  M151A2_M2HB3 {
-  coords 2218.252 265.581 11085.372
+  coords 2209.49 265.581 11091.843
+  angleY -99.365
  }
 }

@@ -13,7 +13,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Бог с нами! И сегодня нам придется потурудится на славу, дабы заслужить завтра!"\
   ""\
   "Российские оккупанты выдвигаются с захваченного ими аэродрома, дабы разбить нас после того как мы разграбили их склад с оружием! Вот нехорошие люди!"\
-  "К сожалению нам доложили что к нам движется АЖ ТРИ вражеских новейших бронемашин с вооружением! Нам придется использовать все методы доступные нам. Команда А, я надеюсь на ваше мужество в этой битве. "\
+  "К сожалению нам доложили что к нам движется АЖ ТРИ вражеских новейших бронемашин с вооружением! Нам придется использовать все методы доступные нам. Команда А, я надеюсь на ваше мужество в этой битве."\
+  "Так же наши покровители помогли нам модифицировать БТРы модулями с уничтоженных нами ранее машин оккупантов."\
+  ""\
   "Господь с нами братья, не отдадим Вавилово!"
   m_aVisibleForFactions {
    "Ses_NAPA"
@@ -27,7 +29,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Сегодня у нас довольно не простое задание. Наша задача отбить захваченный террористами поселок Вавилово. Но проблема не в этом."\
   "Вчера они обворовали наш склад с вооружением, поэтому бог знает что они придумают с ним в этот раз."\
   ""\
-  "Мы выдаем вам три бумеранга с \"эпохой\" и два транспортных для выполнения данной задачи. Не подведите нас, и помните, враг плохо вооружен, но партизанские тактики - их конек."\
+  "Мы выдаем вам три бумеранга с \"эпохой\" и два транспортных для выполнения данной задачи. Не подведите нас, и помните, враг  вооружен, и не будет боятся использовать партизанские тактики - ведь они их конек.z"\
+  ""\
+  "Есть информация о том, что они переоборудовали два БТР-70 в серьезные БМП. Будьте аккуратнее."\
+  ""\
+  "Так же одному из отрядов будет выдан прототип ПТСАУ на колесной базе. Используйте его с умом, но посторайтесь его не потерять."\
   ""\
   "ВНИМАНИЕ, противник может отправить против нас шахид-мобили, будьте аккуратнее."
   m_aVisibleForFactions {
@@ -40,10 +46,37 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "ВНИМАНИЕ!"\
   "У Напы есть возможность клеить мины к движущимся поверхностям."\
   "Также у мин есть хороший шанс подорваться на ходу по приколу, прям как в жизни!"\
-  "Спасибо за внимание!"
+  "Спасибо за внимание!"\
+  ""\
+  "Зеленым : Тот кто решит \"случайно\" взорвать стол на спавне, будет отправлен на багамы на долгий период, я предупредил."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }
+ {
+  coords 2555.258 289.466 10655.363
+  m_sTitle "СТРИМЕРАМ"
+  m_sTextData "Тут какая то мега кринжовая катсцена есть."\
+  "Я хз, ютуб сказал что не будет ничего снимать. Твитчерам соболезную, советую наверное замутить весь звук игры во вермя катсцены? Ну короче думайте. Я предупредил"
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+}
+SCR_ChimeraCharacter m2 : "{3606C888CDC6AF5C}Assets/UjasiPrice/Prefabs/USSR2025/VDV/Characters/Character_Mlashenko.et" {
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+    }
+   }
+  }
+  AnimationPlayerComponent "{65344BEA3E061239}" {
+   Animation "{29003AEF491015D0}anims/anm/player/actions/gestures/p_erc_gest_salute_FB.anm"
+   Speed 1.5
+   Loop 1
+  }
+ }
+ coords 5361.056 318.844 10012.382
+ angleY 164.479
 }
 $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  {
@@ -55,7 +88,7 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  {
   coords 2207.814 266.009 11056.836
   m_sTitle "Поселок удержан"
-  m_iScore 50
+  m_iScore 25
   m_sFactionKey "Ses_NAPA"
  }
  {
@@ -67,8 +100,20 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  {
   coords 2206.003 265.686 11072.042
   m_sTitle "Гостиница захвачена"
-  m_iScore 50
+  m_iScore 25
   m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 2244.45 266.687 11087.072
+  m_sTitle "Прототип сохранен."
+  m_iScore 25
+  m_sFactionKey "RHS_AFRF"
+ }
+ {
+  coords 2244.331 266.447 11090.274
+  m_sTitle "Прототип ликвидирован"
+  m_iScore 25
+  m_sFactionKey "Ses_NAPA"
  }
 }
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
@@ -80,7 +125,7 @@ $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/Restri
  }
 }
 PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- coords 2226.017 275.474 11075.262
+ coords 2224.959 275.474 11083.059
  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
  m_sImageSetGlow ""
  m_sQuadName "Task_Attack"
@@ -88,4 +133,7 @@ PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" 
  m_bUseWorldScale 0
  m_bVisibleForEmptyFaction 1
  m_bShowForAnyFaction 1
+}
+GenericEntity : "{F9EBA10CC445ED63}PrefabsEditable/Auto/Structures/Military/Flags/FlagPole_02_V1_CDF_Editable.et" {
+ coords 2255.222 270.389 10900.792
 }

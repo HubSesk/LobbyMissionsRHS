@@ -3,6 +3,15 @@ SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  components {
+  PS_CutsceneManager "{60E6C661B81E7619}" {
+   m_aCutscenes {
+    PS_Cutscene "{653436DD8E211AEB}" {
+     m_sCutsceneEntityName "TheMovie"
+     m_sCutsceneSound "{1AF3B00D7D9CBC8F}MissionAudio/oboeotkleevatelnaya/rofls.acp"
+     m_iCutsceneTime 50000
+    }
+   }
+  }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
    m_iRangeHoursStart 10
    m_aStartingWeatherAndTime {
@@ -19,6 +28,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  m_iFreezeTime 360000
  m_bDisableChat 1
  m_bReserveSlots 1
+ m_bShowCutscene 1
 }
 $grp GenericEntity : "{FFB3090BF9335D07}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400gHehe.et" {
  {
