@@ -16,37 +16,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_iZOrder 0
  }
- Task {
-  coords 509.623 429.601 11103.968
-  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
-  m_sImageSetGlow ""
-  m_sQuadName "Task_Attack"
-  m_fWorldSize 35
-  m_sDescription "Штаб"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "RHS_AFRF"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 0
- }
- Task2 {
-  coords 510.018 429.601 11103.719
-  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
-  m_sImageSetGlow ""
-  m_sQuadName "Task_Defend"
-  m_fWorldSize 35
-  m_sDescription "Штаб"
-  m_bUseWorldScale 0
-  m_aVisibleForFactions {
-   "Ses_CDF"
-  }
-  m_aHideOnGameModeStates {
-  }
-  m_iZOrder 0
- }
  Mark2 {
   coords 587.45 421.332 11148.24
   m_sImageSet "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
@@ -221,7 +190,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  RHS_AFRF_G_022_M {
-  coords 301.886 294.641 9331.303
+  coords 301.886 295.147 9331.303
+  angleY 90
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -552,6 +522,22 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    1
+  }
+  m_iZOrder 0
+  m_bShowForAnyFaction 1
+ }
+ RHS_AFRF_G_022_M2 {
+  coords 352.865 294.2 9348.625
+  angleY 90
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_fWorldSize 45
+  m_sDescription "Актив-34"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
   }
   m_iZOrder 0
   m_bShowForAnyFaction 1

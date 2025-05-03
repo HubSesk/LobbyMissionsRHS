@@ -40,11 +40,11 @@ $grp GenericEntity : "{0D99D135D46EC969}Prefabs/Props/Military/H Barrier/Hesco b
   angleY 49.075
  }
  {
-  coords 406.92 -0 11090.137
+  coords 406.92 0 11090.137
   angleY 129.983
  }
  {
-  coords 408.684 -0 11092.273
+  coords 408.684 0 11092.273
   angleY -139.497
  }
  {
@@ -68,6 +68,34 @@ $grp GenericEntity : "{0D99D135D46EC969}Prefabs/Props/Military/H Barrier/Hesco b
  {
   coords 494.716 0.126 11115.241
   angleY -43.943
+ }
+ {
+  coords 537.388 0 11197.5
+  angleY -53.987
+ }
+ {
+  coords 498.871 0.126 11119.246
+  angleY -43.943
+ }
+ {
+  coords 490.776 0.126 11111.443
+  angleY -43.943
+ }
+ {
+  coords 482.966 0 11095.92
+  angleY -47.116
+ }
+ {
+  coords 478.799 0 11091.435
+  angleY -47.116
+ }
+ {
+  coords 468.67 0 11075.376
+  angleY -44.549
+ }
+ {
+  coords 471.726 0 11076.675
+  angleY -44.549
  }
 }
 $grp StaticModelEntity : "{23C109BC7122FA1D}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/Sandbag_01_bunker_plastic_camonet_CompositionDestruction.et" {
@@ -106,6 +134,18 @@ $grp StaticModelEntity : "{23C109BC7122FA1D}Prefabs/Compositions/Misc/CustomEnti
  {
   coords 593.211 422.535 11154.564
   angleY 24.138
+ }
+ {
+  coords 455.076 423.144 11081.964
+  angleY -43.893
+ }
+ {
+  coords 468.28 423.09 11068.892
+  angleY -134.532
+ }
+ {
+  coords 474.039 423.1 11078.706
+  angleY -44.663
  }
 }
 $grp GenericEntity : "{2A5E5BD2EF404977}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagRoundHighPlastic_S_US_01.et" {
@@ -154,6 +194,24 @@ $grp GenericEntity : "{2A5E5BD2EF404977}Prefabs/Compositions/Misc/FreeRoamBuildi
   }
  }
 }
+$grp GenericEntity : "{2CB4BFA62C2D9C12}Prefabs/Structures/Military/CamoNets/CamoNet_Small_Top_01_base.et" {
+ {
+  coords 468.222 421.874 11078.337
+  angleY 24.842
+ }
+ {
+  coords 525.628 421.728 11122.479
+  angleY 164.291
+ }
+ {
+  coords 530.689 421.844 11138.782
+  angleY -71.295
+ }
+ {
+  coords 532.846 421.844 11134.058
+  angleY -24.781
+ }
+}
 $grp GenericEntity : "{3F8BE66EB83CD81F}Prefabs/Props/Military/H Barrier/Hesco barrier Five v2.et" {
  {
   coords 495.547 0 11093.156
@@ -189,7 +247,7 @@ $grp GenericEntity : "{3F8BE66EB83CD81F}Prefabs/Props/Military/H Barrier/Hesco b
   {
    GenericEntity {
     ID "60D1347194B10BC4"
-    coords -0 0 1.499
+    coords 0 0 1.499
    }
   }
  }
@@ -257,7 +315,7 @@ $grp GenericEntity : "{3F8BE66EB83CD81F}Prefabs/Props/Military/H Barrier/Hesco b
   angleY -136.144
  }
  {
-  coords 513.667 -0 11006.772
+  coords 513.667 0 11006.772
   angleX 0.385
   angleY 25.493
   angleZ -0.808
@@ -316,6 +374,426 @@ $grp GenericEntity : "{3F8BE66EB83CD81F}Prefabs/Props/Military/H Barrier/Hesco b
   coords 528.66 0.004 11098.214
   angleY -45.953
  }
+ {
+  coords 493.692 0 11180.884
+  angleY 46.04
+ }
+ {
+  coords 499.021 0 11186.021
+  angleY 46.04
+ }
+ {
+  coords 504.245 -0.011 11186.751
+  angleY 135.47
+ }
+ {
+  coords 509.462 0.001 11181.447
+  angleY 135.47
+ }
+ {
+  coords 514.613 0.001 11176.212
+  angleY 135.47
+ }
+ {
+  coords 513.677 0.001 11171.093
+  angleY 46.451
+ }
+ {
+  coords 508.374 -0.03 11166.052
+  angleY 46.451
+ }
+ {
+  coords 503.108 -0.03 11165.285
+  angleY 136.73
+ }
+ {
+  coords 492.865 0.001 11175.835
+  angleY 136.73
+ }
+ {
+  coords 545.647 0 11170.117
+  angleY -41.122
+ }
+ {
+  coords 549.928 -0.005 11164.372
+  angleY -31.498
+ }
+ {
+  coords 553.267 0.031 11158.035
+  angleY -23.68
+ }
+ {
+  coords 555.772 0.058 11151.219
+  angleY -15.471
+ }
+ {
+  coords 557.715 0.115 11144.198
+  angleY -15.471
+ }
+ {
+  coords 566.522 0.048 11152.427
+  angleY 59.431
+ }
+ {
+  coords 520.147 0.015 11208.793
+  angleY -56.983
+ }
+ {
+  coords 526.323 0.031 11204.779
+  angleY -56.983
+ }
+ {
+  coords 532.57 0.031 11200.72
+  angleY -56.983
+ }
+ {
+  coords 397.858 0.03 11164.94
+  angleY -48.162
+ }
+ {
+  coords 403.33 -0.015 11160.041
+  angleY -48.162
+ }
+ {
+  coords 408.758 0.037 11155.182
+  angleY -48.162
+ }
+ {
+  coords 414.285 0.037 11150.233
+  angleY -48.162
+ }
+ {
+  coords 419.766 0.037 11145.325
+  angleY -48.162
+ }
+ {
+  coords 456.119 -0.121 11220.88
+  angleY -45.216
+ }
+ {
+  coords 461.332 -0.171 11215.707
+  angleY -45.216
+ }
+ {
+  coords 466.503 -0.181 11210.574
+  angleY -45.216
+ }
+ {
+  coords 390.647 -0 11172.84
+  angleY -47.206
+ }
+ {
+  coords 406.322 0 11189.771
+  angleY -47.206
+ }
+ {
+  coords 431.217 -0.081 11214.179
+  angleY -47.206
+ }
+ {
+  coords 447.21 -0.093 11229.271
+  angleY -47.206
+ }
+ {
+  coords 454.884 -0.02 11233.313
+  angleY -43.983
+ }
+ {
+  coords 457.83 -0.087 11230.316
+  angleY -133.973
+ }
+ {
+  coords 496.699 0 11239.981
+  angleY 44.686
+ }
+ {
+  coords 491.566 0 11234.791
+  angleY 44.686
+ }
+ {
+  coords 492.308 0 11229.707
+  angleY 135.728
+ }
+ {
+  coords 497.142 0 11224.749
+  angleY 135.728
+ }
+ {
+  coords 502.597 0.019 11223.667
+  angleY 50.324
+ }
+ {
+  coords 507.972 0.137 11226.612
+  angleY 50.324
+ }
+ {
+  coords 540.968 0 11204.639
+  angleY -62.485
+ }
+ {
+  coords 534.389 0.006 11208.064
+  angleY -62.485
+ }
+ {
+  coords 527.847 0.105 11211.487
+  angleX -1.291
+  angleY -62.629
+  angleZ 6.36
+ }
+ {
+  coords 553.091 0 11093.597
+  angleY -48.622
+ }
+ {
+  coords 552.808 0.015 11088.345
+  angleY 38.768
+ }
+ {
+  coords 548.07 -0.053 11092.387
+  angleY 41.443
+ }
+ {
+  coords 546.172 0.001 11085.591
+  angleY -48.932
+ }
+ {
+  coords 478.932 0 11095.488
+  angleY 44.257
+ }
+ {
+  coords 475.29 0 11124.008
+  angleY 45.036
+ }
+ {
+  coords 470.045 0 11118.769
+  angleY 45.036
+ }
+ {
+  coords 464.718 0 11113.448
+  angleY 45.036
+ }
+ {
+  coords 448.905 -0.023 11097.654
+  angleY 45.036
+ }
+ {
+  coords 454.232 0 11102.977
+  angleY 45.036
+ }
+ {
+  coords 459.477 0 11108.215
+  angleY 45.036
+ }
+ {
+  coords 433.163 -0.076 11081.934
+  angleY 45.036
+ }
+ {
+  coords 438.49 -0.062 11087.255
+  angleY 45.036
+ }
+ {
+  coords 443.735 -0.059 11092.493
+  angleY 45.036
+ }
+ {
+  coords 417.33 -0.188 11066.12
+  angleY 45.036
+ }
+ {
+  coords 422.657 -0.122 11071.442
+  angleY 45.036
+ }
+ {
+  coords 427.902 -0.094 11076.681
+  angleY 45.036
+ }
+ {
+  coords 480.516 0 11129.227
+  angleY 45.036
+ }
+ {
+  coords 485.842 0.001 11134.549
+  angleY 45.036
+ }
+ {
+  coords 491.088 0 11139.787
+  angleY 45.036
+ }
+ {
+  coords 506.921 0.031 11155.6
+  angleY 45.036
+ }
+ {
+  coords 501.676 0.032 11150.36
+  angleY 45.036
+ }
+ {
+  coords 496.349 0.031 11145.04
+  angleY 45.036
+ }
+ {
+  coords 512.273 0.031 11160.944
+  angleY 45.036
+ }
+ {
+  coords 517.509 0.034 11166.174
+  angleY 45.036
+ }
+ {
+  coords 522.071 0.031 11161.599
+  angleY 44.174
+ }
+ {
+  coords 516.914 0.031 11156.293
+  angleY 44.174
+ }
+ {
+  coords 501.232 0.031 11140.148
+  angleY 44.174
+ }
+ {
+  coords 506.478 0.032 11145.547
+  angleY 44.174
+ }
+ {
+  coords 511.643 0.031 11150.865
+  angleY 44.174
+ }
+ {
+  coords 496.05 0 11134.815
+  angleY 44.174
+ }
+ {
+  coords 490.883 0.001 11129.5
+  angleY 44.174
+ }
+ {
+  coords 485.638 0 11124.099
+  angleY 44.174
+ }
+ {
+  coords 433.82 -0.065 11070.766
+  angleY 44.174
+ }
+ {
+  coords 428.655 -0.092 11065.45
+  angleY 44.174
+ }
+ {
+  coords 423.408 -0.166 11060.05
+  angleY 44.174
+ }
+ {
+  coords 449.414 -0.031 11086.814
+  angleY 44.174
+ }
+ {
+  coords 444.248 -0.062 11081.498
+  angleY 44.174
+ }
+ {
+  coords 439.002 -0.063 11076.101
+  angleY 44.174
+ }
+ {
+  coords 464.917 0 11102.773
+  angleY 44.174
+ }
+ {
+  coords 459.751 0 11097.456
+  angleY 44.174
+ }
+ {
+  coords 454.505 -0.001 11092.056
+  angleY 44.174
+ }
+ {
+  coords 470.079 0 11108.085
+  angleY 44.174
+ }
+ {
+  coords 475.325 0 11113.485
+  angleY 44.174
+ }
+ {
+  coords 480.491 0 11118.803
+  angleY 44.174
+ }
+ {
+  coords 457.84 0.004 11083.157
+  angleY -44.393
+ }
+ {
+  coords 477.276 0 11079.74
+  angleY -46.331
+ }
+ {
+  coords 453.787 -0.024 11079.014
+  angleY -44.393
+ }
+ {
+  coords 494.756 0 11072.955
+  angleY 45.313
+ }
+ {
+  coords 499.97 0 11078.111
+  angleY 45.313
+ }
+ {
+  coords 505.154 0 11083.239
+  angleY 45.313
+ }
+ {
+  coords 465.074 -0.035 11067.762
+  angleY -44.271
+ }
+ {
+  coords 464.558 -0.031 11073.381
+  angleY -134.427
+ }
+ {
+  coords 470.591 -0.031 11067.226
+  angleY -134.427
+ }
+ {
+  coords 490.748 0.031 11027.18
+  angleY -44.64
+ }
+ {
+  coords 485.503 0.058 11032.491
+  angleY -44.64
+ }
+ {
+  coords 517.584 0 11026.324
+  angleY 42.675
+ }
+ {
+  coords 522.585 -0.009 11031.748
+  angleY 42.675
+ }
+ {
+  coords 527.625 0.095 11037.215
+  angleY 42.675
+ }
+ {
+  coords 530.392 -0 11043.288
+  angleX 5.837
+  angleY 6.006
+  angleZ 4.188
+ }
+ {
+  coords 471.978 0 11080.721
+  angleY 45.405
+ }
+ {
+  coords 478.132 0 11074.479
+  angleY 45.405
+ }
+ {
+  coords 466.147 0 11079.828
+  angleY 44.526
+ }
 }
 $grp GenericEntity : "{43366695B8CC85A2}Prefabs/Props/Military/H Barrier/Hesco barrier Triple v2.et" {
  {
@@ -334,6 +812,26 @@ $grp GenericEntity : "{43366695B8CC85A2}Prefabs/Props/Military/H Barrier/Hesco b
   coords 510.099 0.037 11140.736
   angleY -45.024
  }
+ {
+  coords 468.752 -0.015 11243.25
+  angleY 53.909
+ }
+ {
+  coords 462.96 0.007 11239.16
+  angleY 51.088
+ }
+ {
+  coords 475.57 0 11066.593
+  angleY 44.604
+ }
+ {
+  coords 478.538 0 11069.602
+  angleY 44.604
+ }
+}
+GenericEntity : "{5789E2676151FD33}Prefabs/Structures/Military/CamoNets/US/CamoNet_Small_Top_US.et" {
+ coords 518.79 421.86 11083.847
+ angleY 14.243
 }
 $grp Turret : "{73530808E4B455BA}Prefabs/Weapons/Tripods/Tripod_M3_M2HB.et" {
  {
@@ -377,6 +875,34 @@ GenericEntity : "{745097E446C05528}Prefabs/Compositions/Misc/SubCompositions/For
  coords 469.944 422.055 11236.229
  angleY 104.675
 }
+$grp GenericEntity : "{972F01488E5B23C2}Prefabs/Structures/Military/CamoNets/US/CamoNet_Medium_Top_US.et" {
+ {
+  coords 549.599 421.08 11090.749
+  angleY -35.07
+ }
+ {
+  coords 525.383 421.31 11094.205
+  angleY -41.967
+ }
+}
+$grp GenericEntity : "{9E00652AE367C051}Prefabs/Props/Military/H Barrier/Hesco Barrier Rounded.et" {
+ {
+  coords 500.146 0 11166.624
+  angleY -39.929
+ }
+ {
+  coords 491.662 0 11169.276
+  angleY 114.795
+ }
+ {
+  coords 493.237 0 11163.236
+  angleY 36.355
+ }
+}
+GenericEntity : "{B89C671B75B43849}Prefabs/Structures/Military/CamoNets/US/CamoNet_Medium_US.et" {
+ coords 567.275 421.467 11144.858
+ angleY 39.082
+}
 $grp GenericEntity : "{BCF4F3411D3B2075}Prefabs/Props/Military/Bunkers/Bunker_Tower.et" {
  {
   coords 489.176 0 11085.254
@@ -391,8 +917,12 @@ $grp GenericEntity : "{BCF4F3411D3B2075}Prefabs/Props/Military/Bunkers/Bunker_To
   angleY -46.13
  }
  {
-  coords 503.126 -0 11004.554
+  coords 503.126 0 11004.554
   angleY -63.341
+ }
+ {
+  coords 504.368 0 11175.582
+  angleY -44.976
  }
 }
 $grp GenericEntity : "{E2255DBD0B5F477A}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallPlastic_S_US_01.et" {

@@ -83,7 +83,6 @@ $grp SCR_AIGroup : "{2C033F255E9F995A}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ
    }
    PS_GroupCallsignAssigner "{652F29749A6306C0}" {
     m_iCompanyCallsign 1
-    m_iSquadCallsign 1
    }
   }
   coords 12394.768 151.156 7469.013
@@ -125,22 +124,6 @@ $grp SCR_AIGroup : "{2C033F255E9F995A}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ
    "{166CA195A1D15FB2}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_Crew_Random.et" "{166CA195A1D15FB2}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_Crew_Random.et"
   }
   m_sCustomNameSet "Экипаж БТР-70"
- }
- ChDKZ_9 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Line"
-   }
-   PS_GroupCallsignAssigner "{652F29749A6306C0}" {
-    m_iCompanyCallsign 1
-   }
-  }
-  coords 12381.702 151.285 7455.878
-  angleY 87.447
-  m_aUnitPrefabSlots {
-   "{166CA195A1D15FB2}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_Crew_Random.et" "{166CA195A1D15FB2}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Character_ChDKZ_Crew_Random.et"
-  }
-  m_sCustomNameSet "Экипаж БРДМ-2"
  }
  ChDKZ_10 {
   components {

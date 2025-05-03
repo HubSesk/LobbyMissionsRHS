@@ -44,6 +44,20 @@ $grp Vehicle : "{0EFFC9A8E672EF33}Prefabs/Vehicles/Wheeled/Ural4320/Ses_CDF/Ural
   m_sAttachmentGroupName "CDF_12"
  }
 }
+Vehicle Mi8MT_armed_gunship_HEDP_Ses_CDF1 : "{0F1FEC9C41E7DAC5}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_HEDP_Ses_CDF.et" {
+ coords 4192.474 339.029 10493.878
+ angleX 4.196
+ angleY 113.328
+ m_sAttachmentGroupName "Heli"
+}
+Vehicle Ural4320_Ses_CDF_tanker1 : "{10BAF58D6690A1E4}Prefabs/Vehicles/Wheeled/Ural4320/Ses_CDF/Ural4320_Ses_CDF_tanker.et" {
+ coords 4904.355 339.125 9825.564
+ angleY 164.025
+}
+Vehicle Ural4320_Ses_CDF_ammo1 : "{130022A09F0B79DD}Prefabs/Vehicles/Wheeled/Ural4320/Ses_CDF/Ural4320_Ses_CDF_ammo.et" {
+ coords 4908.812 339.125 9826.682
+ angleY 162.606
+}
 Vehicle BTR70_Ses_ChDKZ1 : "{160E1EDDBFFF8CFD}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_ChDKZ.et" {
  coords 12383.893 150.914 7531.478
  angleX 0.893
@@ -51,25 +65,10 @@ Vehicle BTR70_Ses_ChDKZ1 : "{160E1EDDBFFF8CFD}Prefabs/Vehicles/Wheeled/BTR70/BTR
  angleZ -0.062
  m_sAttachmentGroupName "ChDKZ_8"
 }
-$grp Vehicle : "{1799AE4958D0D24A}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_Ses_ChDKZ.et" {
- BRDM2_Ses_ChDKZ1 {
-  coords 12387.765 151.345 7452.968
-  angleX 1.785
-  angleY -175.925
-  angleZ 0.127
-  m_sAttachmentGroupName "ChDKZ_9"
- }
- BRDM2_Ses_ChDKZ2 {
-  coords 12387.801 151.156 7489.286
-  angleY 178.612
-  m_sAttachmentGroupName "ChDKZ_10"
- }
-}
-Vehicle Mi8MT_armed_Ses_CDF1 : "{1F8AE9B33AB52BF5}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_Ses_CDF.et" {
- coords 4191.996 338.965 10496.233
- angleX 4.14
- angleY 117.374
- m_sAttachmentGroupName "Heli"
+Vehicle BRDM2_Ses_ChDKZ2 : "{1799AE4958D0D24A}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_Ses_ChDKZ.et" {
+ coords 12387.801 151.156 7489.286
+ angleY 178.612
+ m_sAttachmentGroupName "ChDKZ_10"
 }
 Vehicle UAZ469_uncovered_Ses_CDF1 : "{37DA845E90392CAE}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Ses_CDF.et" {
  coords 6055.933 301.636 7685.405
@@ -104,12 +103,29 @@ Vehicle Ural4320_Ses_ChDKZ_transport1 : "{8918EDE86C8CB551}Prefabs/Vehicles/Whee
  angleY 177.942
  m_sAttachmentGroupName "ChDKZ_7"
 }
-Vehicle Ural4320_Ses_CDF_transport1 : "{95C19D971E734B61}Prefabs/Vehicles/Wheeled/Ural4320/Ses_CDF/Ural4320_Ses_CDF_transport.et" {
- coords 6612.489 366.434 8975.535
- angleX 0.215
- angleY -110.608
- angleZ 5.64
- m_sAttachmentGroupName "CDF_1"
+$grp Vehicle : "{95C19D971E734B61}Prefabs/Vehicles/Wheeled/Ural4320/Ses_CDF/Ural4320_Ses_CDF_transport.et" {
+ Ural4320_Ses_CDF_transport1 {
+  coords 6612.489 366.434 8975.535
+  angleX 0.215
+  angleY -110.608
+  angleZ 5.64
+  m_sAttachmentGroupName "CDF_1"
+ }
+ Ural4320_Ses_CDF_transport2 {
+  coords 4917.149 339.125 9829.241
+  angleY 163.939
+ }
+}
+Vehicle UAZ469_Ses_CDF1 : "{A36B7742CB4CC488}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Ses_CDF.et" {
+ coords 6551.004 358.802 9044.553
+ angleX 2.007
+ angleY 116.744
+ angleZ -1.993
+ m_sAttachmentGroupName "CDF_13"
+}
+Vehicle Ural4320_Ses_CDF_repair1 : "{D23974B5B13AF002}Prefabs/Vehicles/Wheeled/Ural4320/Ses_CDF/Ural4320_Ses_CDF_repair.et" {
+ coords 4913.041 339.125 9828.146
+ angleY 163.796
 }
 Vehicle UAZ452_transport_CDF2 : "{F57C79AD8C847274}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_CDF.et" {
  coords 6561.264 359.184 9039.94

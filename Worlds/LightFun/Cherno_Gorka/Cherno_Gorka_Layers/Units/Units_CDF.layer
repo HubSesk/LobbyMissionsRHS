@@ -170,14 +170,14 @@ $grp SCR_AIGroup : "{338E63B617C13325}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CD
     DefaultFormation "Line"
    }
    PS_GroupCallsignAssigner "{6530E0F6D9B7B48E}" {
+    m_iPlatoonCallsign 1
    }
   }
   coords 6563.105 359.191 9043.567
   angleY -162.328
   m_aUnitPrefabSlots {
-   "{BCBCC436D3A7A8EF}Prefabs/Characters/Factions/LightFun/BLUFOR/CDF_Army/Character_CDF_PL_LF.et" "{7D9FEF522E87914D}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_RTO_Random.et" "{006083ED8A289CDF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_GL_Random.et" "{0E14ECBA5204E26C}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_Rifleman_Random.et" "{C0B22110761AA2E9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_Medic_Random.et" "{1F7CBF605623E369}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_Sniper_Random.et"
+   "{48E87A5E801CB328}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_SL_Random.et" "{FABD4B1CD16E4175}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_AR_Random.et" "{006083ED8A289CDF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_GL_Random.et" "{0E14ECBA5204E26C}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_Rifleman_Random.et" "{C0B22110761AA2E9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_Medic_Random.et" "{1F7CBF605623E369}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_Sniper_Random.et"
   }
-  m_sCustomNameSet "Командование"
  }
  CDF_12 {
   components {
@@ -211,4 +211,34 @@ $grp SCR_AIGroup : "{338E63B617C13325}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CD
   }
   m_sCustomNameSet "Экипаж Ми-8"
  }
+ CDF_13 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{6530E0F6D9B7B48E}" {
+   }
+  }
+  coords 6547.838 358.771 9040.235
+  angleY 24.065
+  m_aUnitPrefabSlots {
+   "{BCBCC436D3A7A8EF}Prefabs/Characters/Factions/LightFun/BLUFOR/CDF_Army/Character_CDF_PL_LF.et" "{7D9FEF522E87914D}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Character_CDF_RTO_Random.et"
+  }
+  m_sCustomNameSet "Командование"
+ }
+}
+PS_ManualMarker Ses_CDF_G_000_M2 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 6548.031 358.831 9040.595
+ m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
+ m_sImageSetGlow ""
+ m_MarkerColor 0.025 0.61 0.446 1
+ m_sQuadName "signal"
+ m_fWorldSize 35
+ m_sDescription "(Командование) Атлас Ред 1"
+ m_bUseWorldScale 0
+ m_bVisibleForEmptyFaction 1
+ m_aHideOnGameModeStates {
+ }
+ m_iZOrder 0
+ m_bShowForAnyFaction 1
 }

@@ -39,3 +39,31 @@ $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/Restri
   m_fZoneTeleportedRadius 140
  }
 }
+PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTexture "{928B4092981F27CB}UI/layouts/Textures/Zone.edds"
+   m_cPolygonColor 1 0 0 0.275
+   m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
+   m_cPolygonBorderColor 1 0 0 1
+   m_aVisibleForFactions {
+    "" "Ses_CDF" "RHS_AFRF"
+   }
+  }
+ }
+ coords 494.125 421.274 11004.496
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position -8.619 -0.243 -9.746
+  }
+  ShapePoint "{65463114330C0E0A}" {
+   Position 141.457 -3.503 159.95
+  }
+  ShapePoint "{654631143596615D}" {
+   Position -6.046 6.119 279.928
+  }
+  ShapePoint "{65463114398CECB0}" {
+   Position -143.405 14.538 109.816
+  }
+ }
+}
