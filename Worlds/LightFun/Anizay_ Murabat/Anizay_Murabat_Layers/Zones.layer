@@ -21,6 +21,13 @@ $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/Restri
   m_fZoneRadius 250
   m_fZoneTeleportedRadius 300
  }
+ {
+  coords 8532.238 175.816 3841.445
+  angles 0 0 -0.895
+  m_fWarnRadius 80
+  m_fZoneRadius 145
+  m_fZoneTeleportedRadius 160
+ }
 }
 $grp PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
  {
@@ -31,7 +38,9 @@ $grp PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
     m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
     m_cPolygonBorderColor 1 1 1 0
     m_aVisibleForFactions {
-     "" "Ses_TKA" "RHS_USAF"
+     ""
+     "Ses_TKA"
+     "RHS_USAF"
     }
    }
   }
@@ -59,7 +68,9 @@ $grp PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
     m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
     m_cPolygonBorderColor 0.016 0.552 0.905 1
     m_aVisibleForFactions {
-     "" "Ses_TKA" "RHS_USAF"
+     ""
+     "Ses_TKA"
+     "RHS_USAF"
     }
    }
   }
