@@ -1,0 +1,45 @@
+GenericEntity : "{704ED475C8ECE176}Prefabs/Props/Military/Arsenal/AmmoBoxes/ToolBox_USSR.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{60E95557E8996D17}" {
+     SourceMaterial "EquipmentBoxWooden_Ammunition_01"
+     AssignedMaterial "{3309CD539419AC39}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Ammunition_01_US.emat"
+    }
+    MaterialAssignClass "{60E95557E8996D18}" {
+     SourceMaterial "EquipmentBoxWooden_decal_US"
+     AssignedMaterial "{012E52E127F407FD}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_decal_US.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   MultiSlots {
+    MultiSlotConfiguration "{60E95557E8996D04}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+     }
+    }
+    MultiSlotConfiguration "{689755F7A0D097AA}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
+     }
+    }
+    MultiSlotConfiguration "{689755F7A15F0F81}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+     }
+    }
+    MultiSlotConfiguration "{689755F7A1630CEB}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et"
+     }
+    }
+    MultiSlotConfiguration "{689755F799939AE5}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et"
+     }
+    }
+   }
+  }
+ }
+}

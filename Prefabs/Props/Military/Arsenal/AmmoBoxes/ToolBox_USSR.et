@@ -1,0 +1,45 @@
+GenericEntity : "{D37FCFA137EE0EA7}Prefabs/Props/Military/Arsenal/AmmoBoxes/NormalBox_AmmoBox_USSR.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   MultiSlots {
+    MultiSlotConfiguration "{60E95557E8996D04}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{689755F7A0D097AA}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{527D7C5D2E476BDC}Prefabs/Items/Medicine/SalineBag_01/SalineBag_USSR_01.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{689755F7A11968EE}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{689755F7A15F0F81}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{689755F7A1630CEB}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{689755F799939AE5}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et"
+     }
+     NumSlots 20
+    }
+   }
+  }
+ }
+}
