@@ -10,16 +10,6 @@ Vehicle Mi8MT_armed_Ses_TKA1 : "{4F23B4CD319FA5CA}Prefabs/Vehicles/Helicopters/M
  coords 3518.003 213.84 528.913
  angles 2.34 117.783 -1.629
 }
-$grp Vehicle : "{5C54423CC80D1C96}Prefabs/Vehicles/Wheeled/M998/M1025_armed_Mk19_f.et" {
- M1025_armed_Mk19_f1 {
-  coords 8728.56 188.17 3711.284
-  angles -3.036 103.995 1.086
- }
- M1025_armed_Mk19_f2 {
-  coords 8722.474 188.098 3714.527
-  angles 4.464 124.813 -0.16
- }
-}
 Vehicle BTR70_Ses_TKA1 : "{6F963B40DE04868A}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_TKA.et" {
  components {
   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
@@ -66,6 +56,10 @@ $grp Vehicle : "{7B38CEFED1D908A1}Prefabs/Vehicles/Wheeled/M998/M998_USAF_D.et" 
   angles 12.278 111.091 0.011
  }
 }
+Vehicle M1025_armed_Mk19_f2 : "{7BC9C79CD8FD8CE7}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_PAS13G_USAF_D.et" {
+ coords 8722.474 188.098 3714.527
+ angles 4.464 124.813 -0.16
+}
 $grp Vehicle : "{7D9A9AD859069D09}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_USAF_D.et" {
  M998_covered_long_USAF_D1 {
   coords 8814.854 188.817 3703.717
@@ -93,4 +87,8 @@ $grp Vehicle : "{818BD2D100635224}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   coords 8585.564 180.827 3821.72
   angles 5.952 107.604 1.884
  }
+}
+Vehicle M1025_armed_Mk19_f1 : "{B8C827A45C1347A4}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF_D.et" {
+ coords 8728.56 188.17 3711.284
+ angles -3.036 103.995 1.086
 }
